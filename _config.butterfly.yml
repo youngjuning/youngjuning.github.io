@@ -86,7 +86,7 @@ favicon: /img/favicon.png
 # Avatar (頭像)
 avatar:
   img: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211729538.png
-  effect: true
+  effect: false
 
 # Disable all banner image
 disable_top_img: false
@@ -525,7 +525,7 @@ canvas_ribbon:
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
+  click_to_change: true
   mobile: false
 
 # Fluttering Ribbon (動態彩帶)
