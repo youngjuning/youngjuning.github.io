@@ -3,21 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 洛竹的博客
+title: 洛竹早茶馆
 subtitle: Truth is endless. Keep curiosity.
 description: 真理无穷，保持好奇
 keywords:
   - 洛竹
-  - 技术博客
-  - 前端博客
-  - 后端博客
+  - 全栈
+  - 前端
+  - Node.js
+  - React.js
+  - Vue.js
 author: 洛竹
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://youngjuning.js.org/blog
+url: https://luozhu.js.org/
 permalink: :title/
 permalink_defaults:
 pretty_urls:
