@@ -741,6 +741,14 @@ hexo-generator-index@^2.0.0:
     hexo-pagination "1.0.0"
     timsort "^0.3.0"
 
+hexo-generator-search@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.nlark.com/hexo-generator-search/download/hexo-generator-search-2.4.3.tgz#c4f35c8b8429355612dd1cdf5a18de3568166f99"
+  integrity sha1-xPNci4QpNVYS3RzfWhjeNWgWb5k=
+  dependencies:
+    nunjucks "^3.0.1"
+    utils-merge "^1.0.0"
+
 hexo-generator-tag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/hexo-generator-tag/download/hexo-generator-tag-1.0.0.tgz#54ec23de9409c75584ea81e36057a59031b022f1"
@@ -850,6 +858,11 @@ hexo-util@^2.0.0, hexo-util@^2.4.0, hexo-util@^2.5.0:
     htmlparser2 "^6.0.0"
     prismjs "^1.17.1"
     strip-indent "^3.0.0"
+
+hexo-wordcount@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.npm.taobao.org/hexo-wordcount/download/hexo-wordcount-6.0.1.tgz#5a60efc9d3c8e421956f2fd6683ca94a8a795264"
+  integrity sha1-WmDvydPI5CGVby/WaDypSop5UmQ=
 
 hexo@^5.0.0:
   version "5.4.0"
@@ -1276,7 +1289,7 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.npm.taobao.org/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
-nunjucks@^3.2.1:
+nunjucks@^3.0.1, nunjucks@^3.2.1:
   version "3.2.3"
   resolved "https://registry.npm.taobao.org/nunjucks/download/nunjucks-3.2.3.tgz#1b33615247290e94e28263b5d855ece765648a31"
   integrity sha1-GzNhUkcpDpTigmO12FXs52VkijE=
@@ -1820,7 +1833,7 @@ urix@^0.1.0:
   resolved "https://registry.nlark.com/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-utils-merge@1.0.1:
+utils-merge@1.0.1, utils-merge@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/utils-merge/download/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=

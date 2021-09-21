@@ -27,7 +27,7 @@ highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac li
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
+highlight_height_limit: 200 # unit: px
 code_word_wrap: true
 
 # copy settings
@@ -44,6 +44,7 @@ copy:
 social:
   fab fa-github: https://github.com/youngjuning || Github
   fas fa-envelope: mailto:youngjuning@163.com || Email
+  fab fa-weixin: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211725265.png || 微信
 
 # search (搜索)
 # --------------------------------------
@@ -56,7 +57,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
 
 # Math (數學)
 # --------------------------------------
@@ -84,8 +85,8 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
-  effect: false
+  img: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211729538.png
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -127,7 +128,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -142,21 +143,21 @@ error_404:
 
 post_meta:
   page: # Home Page
-    date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
-    date_format: date # date/relative 顯示日期還是相對日期
+    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_format: relative # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
-    date_format: date # date/relative 顯示日期還是相對日期
+    date_format: relative # date/relative 顯示日期還是相對日期
     categories: true # true or false 文章頁是否顯示分類
     tags: true # true or false 文章頁是否顯示標籤
     label: true # true or false 顯示描述性文字
 
 # wordcount (字數統計)
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -187,22 +188,22 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: true
   QR_code:
-    # - img: /img/wechat.jpg
+    - img: https://cdn.jsdelivr.net/gh/youngjuning/images/wechat.png
     #   link:
-    #   text: wechat
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+      text: 微信
+    - img: https://cdn.jsdelivr.net/gh/youngjuning/images/alipay7.png
+      # link:
+      text: 支付宝
 
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: false
+  enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url:
+  url: https://github.com/youngjuning/youngjuning.github.io/edit/main/source/
 
 # Related Articles
 related_post:
@@ -222,7 +223,7 @@ post_pagination: 1
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
-anchor: false
+anchor: true
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
@@ -409,9 +410,9 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
-  custom_text:
-  copyright: true # Copyright of theme and framework
+    since: 2018
+  custom_text: Hi, welcome to my <a href="https://youngjuning.js.org/">blog</a>!
+  copyright: false # Copyright of theme and framework
 
 # Analysis
 # --------------------------------------
@@ -520,7 +521,7 @@ enter_transitions: true
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
@@ -552,7 +553,7 @@ activate_power_mode:
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999 # -1 or 9999
   mobile: false
 
@@ -578,7 +579,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
@@ -623,8 +624,8 @@ subtitle:
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 真理无穷，保持好奇。
     - Truth is endless. Keep curiosity.
+    - 怕什么真理无穷，进一寸有一寸的欢喜。
 
 # Loading Animation (加載動畫)
 preloader: false
@@ -687,12 +688,12 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2018/03/08 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
@@ -702,13 +703,13 @@ newest_comments:
 # --------------------------------------
 
 # Change font size
-change_font_size: false
+change_font_size: true
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
-  default: 繁
+  default: 简
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
