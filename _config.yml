@@ -4,8 +4,8 @@
 
 # Site
 title: 洛竹的博客
-subtitle: Truth is endless. Keep curiosity.
-description: 真理无穷，保持好奇
+subtitle: 真理无穷，保持好奇。
+description: Truth is endless. Keep curiosity.
 keywords:
   - 洛竹
   - 全栈
@@ -19,9 +19,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://luozhu.js.org/blog
-root: /blog/
-permalink: :title/
+url: https://youngjuning.js.org
+permalink: :hash/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks

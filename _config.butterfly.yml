@@ -8,14 +8,13 @@
 
 menu:
   首页: / || fas fa-home
-  官网: https://youngjuning.js.org
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
+  链接: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
@@ -95,7 +94,7 @@ disable_top_img: false
 index_img: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211413207.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211413207.png
 
 # The banner image of archive page
 archive_img:
@@ -649,7 +648,7 @@ aside:
       link: https://github.com/youngjuning
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 大家好，我是洛竹🎋，一只住在杭城的木系前端🧚🏻‍♀️，如果你喜欢我的文章📚，可以通过赞赏帮我聚集灵力⭐️。
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
