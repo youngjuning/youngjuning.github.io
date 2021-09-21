@@ -1,0 +1,21 @@
+name: github pages
+on:
+  push:
+    branches:
+      - main # default branch
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true # Checkout private submodules(themes or something else).
+      - uses: c-hive/gha-yarn-cache@v2
+      - run: yarn install
+      - run: yarn build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          # cname: luozhu.js.org
