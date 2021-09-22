@@ -641,7 +641,7 @@ subtitle:
     - 怕什么真理无穷，进一寸有一寸的欢喜。
 
 # Loading Animation (加載動畫)
-preloader: true
+preloader: false
 
 # aside (側邊欄)
 # --------------------------------------
