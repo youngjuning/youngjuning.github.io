@@ -11,6 +11,8 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  翻译||fas fa-list:
+    React Interview: https://youngjuning.js.org/react-interview
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -81,7 +83,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211729538.png
 
 # Avatar (頭像)
 avatar:
