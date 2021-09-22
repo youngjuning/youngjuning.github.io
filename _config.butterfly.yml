@@ -425,7 +425,7 @@ baidu_analytics: df1911ed1429a8432517d427138fbb79
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: UA-158205277-1
 
 # Tencent Analytics ID
 # https://mta.qq.com
@@ -433,7 +433,7 @@ tencent_analytics:
 
 # CNZZ Analytics
 # https://www.umeng.com/
-cnzz_analytics:
+cnzz_analytics: 1280356629
 
 # Cloudflare Analytics
 # https://www.cloudflare.com/zh-tw/web-analytics/
@@ -465,7 +465,7 @@ google_adsense:
 
 site_verification:
   # Google Webmaster tools verification.
-  # See: https://www.google.com/webmasters
+  # See: https://search.google.com
   - name: google-site-verification
     content: ohZ0A8YKJu755suq7WOIJkLGDfj3BGU4isb8RKI5Cj8
   # Baidu Webmaster tools verification.
