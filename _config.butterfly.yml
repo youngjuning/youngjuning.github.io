@@ -229,9 +229,9 @@ anchor: true
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
-  limit_day: 500 # When will it be shown
+  limit_day: 365 # When will it be shown
   position: top # position: top/bottom
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
@@ -264,8 +264,8 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
-  # - Valine
-  # - Disqus
+  - Livere
+  - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -276,7 +276,7 @@ comments:
 # disqus
 # https://disqus.com/
 disqus:
-  shortname:
+  shortname: luo-zhu-de-bo-ke
   apikey: # For newest comments widget
 
 # Alternative Disqus - Render comments with Disqus API
@@ -294,17 +294,17 @@ disqusjs:
 # livere (來必力)
 # https://www.livere.com/
 livere:
-  uid:
+  uid: MTAyMC81NDMyMi8zMDc5Mw==
 
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
-  language: en # en, zh-CN, zh-TW, es-ES, fr, ru
+  client_id: d7d0d804f3512b567dd4
+  client_secret: c0dd36dba24d1bef4d6a95c87d4a2492318ba87d
+  repo: youngjuning.github.io
+  owner: youngjuning
+  admin: [youngjuning]
+  language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru
   perPage: 10 # Pagination size, with maximum 100.
   distractionFreeMode: false # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
@@ -375,7 +375,7 @@ twikoo:
 chat_btn: false
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
-chat_hide_show: false
+chat_hide_show: true
 
 # chatra
 # https://chatra.io/
@@ -386,8 +386,8 @@ chatra:
 # tidio
 # https://www.tidio.com/
 tidio:
-  enable: false
-  public_key:
+  enable: true
+  public_key: gvqpjnio6w2yeiatu5q1kqrpwwvmk9a9
 
 # daovoice
 # http://daovoice.io/
@@ -464,10 +464,20 @@ google_adsense:
 # --------------------------------------
 
 site_verification:
-  # - name: google-site-verification
-  #   content: xxxxxx
-  # - name: baidu-site-verification
-  #   content: xxxxxxx
+  # Google Webmaster tools verification.
+  # See: https://www.google.com/webmasters
+  - name: google-site-verification
+    content: ohZ0A8YKJu755suq7WOIJkLGDfj3BGU4isb8RKI5Cj8
+  # Baidu Webmaster tools verification.
+  # See: https://ziyuan.baidu.com/site
+  - name: baidu-site-verification
+    content: I63O4XWtSs
+  # Bing Webmaster tools verification.
+  # See: https://www.bing.com/webmaster
+  # - bing_site_verification:
+  # Yandex Webmaster tools verification.
+  # See: https://webmaster.yandex.ru
+  # - yandex_site_verification:
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -509,7 +519,7 @@ tag_ui: # 留空或 index
 background:
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -753,7 +763,7 @@ fancybox: true
 # mermaid
 # see https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # built-in themes: default/forest/dark/neutral
   theme: default
 
