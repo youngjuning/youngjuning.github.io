@@ -850,6 +850,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <meta name="google-site-verification" content="ohZ0A8YKJu755suq7WOIJkLGDfj3BGU4isb8RKI5Cj8" />
   bottom:
     # - <script src="xxxx"></script>
 
