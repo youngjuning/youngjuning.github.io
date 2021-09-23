@@ -859,10 +859,10 @@ inject:
 # 非必要請不要修改
 CDN:
   # main
-  main_css: /css/index.css
+  main_css: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/css/index.css
   jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
-  main: /js/main.js
-  utils: /js/utils.js
+  main: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/main.js
+  utils: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/utils.js
 
   # pjax
   pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js
