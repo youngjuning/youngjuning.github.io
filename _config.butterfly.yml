@@ -15,7 +15,7 @@ menu:
   生活||fa fa-heartbeat:
     电影: /movies/ || fas fa-video
     读书: /books/ || fas fa-book
-  生态系统||fas fa-planet-ringed:
+  生态系统||fas fa-atom:
     React Interview: https://youngjuning.js.org/react-interview
   Feed: /atom.xml || fas fa-rss
   链接: /link/ || fas fa-link
