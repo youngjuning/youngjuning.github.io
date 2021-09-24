@@ -11,6 +11,12 @@
 git clone https://github.com/youngjuning/youngjuning.github.io.git --recurse-submodules
 ```
 
+## 更新
+
+```sh
+git submodule update --init --recursive
+```
+
 ## 安装依赖
 
 ```sh
