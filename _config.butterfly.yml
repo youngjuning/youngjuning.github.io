@@ -8,10 +8,14 @@
 
 menu:
   首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  翻译||fas fa-list:
+  目錄||fas fa-compass:
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+    归档: /archives/ || fas fa-archive
+  生活||fa fa-heartbeat:
+    电影: /movies/ || fas fa-video
+    读书: /books/ || fas fa-book
+  生态系统||fas fa-planet-ringed:
     React Interview: https://youngjuning.js.org/react-interview
   Feed: /atom.xml || fas fa-rss
   链接: /link/ || fas fa-link

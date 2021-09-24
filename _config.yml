@@ -129,6 +129,28 @@ live2d:
     height: 400
   mobile:
     show: false
+douban:
+  user: 247204581
+  builtin: true
+  book:
+    title: '那些年，我看过的书📚'
+    quote: '书中自有颜如玉，书中自有黄金屋'
+    meta: true
+    comments: true
+    top_img: https://cdn.jsdelivr.net/gh/youngjuning/images/202109241451349.png
+    aside: true
+    path: books
+    limit:
+  movie:
+    title: '那些年，我看过的电影🎬'
+    quote: '人生如戏，戏如人生'
+    meta: true
+    comments: true
+    top_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/movie.jpg
+    aside: true
+    path: movies
+    limit:
+  timeout: 10000
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
