@@ -17,7 +17,7 @@ $ yarn add react-native-scrollable-tab-view
 $ yarn add @react-native-community/viewpager
 ```
 
-<!--more-->
+***
 
 ## renderTabBar
 
