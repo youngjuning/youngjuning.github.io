@@ -5,7 +5,7 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202109241207550.png
 categories:
   - 前端
 tags:
-  - javascript
+  - JavaScript
 ---
 
 在前端开发中有一部分的用户行为会频繁地触发事件执行，而对于 DOM 操作、资源加载等耗费性能的处理，很可能导致界面卡顿，甚至浏览器的崩溃，函数节流（`throttle`）和函数防抖（`debounce`）就是为了解决类似需求应运而生的。
