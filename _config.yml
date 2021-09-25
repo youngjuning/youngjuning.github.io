@@ -130,7 +130,7 @@ live2d:
   mobile:
     show: false
 douban:
-  user: 247204581
+  user: youngjuning
   builtin: true
   book:
     title: '那些年，我看过的书📚'
