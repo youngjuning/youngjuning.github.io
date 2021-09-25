@@ -315,7 +315,7 @@ gitalk:
   pagerDirection: last # Comment sorting direction, available values are last and first.
   createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
   option:
-
+    labels: ['Gitalk']
 # valine
 # https://valine.js.org
 valine:
