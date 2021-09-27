@@ -3,8 +3,8 @@ title: react-native-scrollable-tab-view
 date: 2020-01-30 15:19:19
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202109241201260.png
 categories:
-  - 前端
-  - 翻译
+  - [前端]
+  - [翻译]
 tags:
   - React Native
   - 文档
