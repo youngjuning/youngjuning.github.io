@@ -1,7 +1,7 @@
-- class_name: 技术社区
-  class_desc: 值得推荐的国内外技术社区
+- class_name: 友情链接
+  class_desc: 值得推荐的国内外技术大佬
   link_list:
-    - name: 掘金
-      link: https://juejin.cn/
-      avatar: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211653312.png
-      descr: 代码不止，掘金不停
+    - name: 寒草的博客
+      link: https://hancao97.github.io
+      descr: 一只草系前端，或许是个精灵
+      avatar: https://hancao97.github.io/img/hancao.png
