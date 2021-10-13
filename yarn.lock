@@ -2098,12 +2098,12 @@ hexo-server@^2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
-hexo-simple-mindmap@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.nlark.com/hexo-simple-mindmap/download/hexo-simple-mindmap-0.6.0.tgz#0a2cd0a8400de658ebfe72de606ebb9bf771956c"
-  integrity sha1-CizQqEAN5ljr/nLeYG67m/dxlWw=
+hexo-simple-mindmap@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/hexo-simple-mindmap/-/hexo-simple-mindmap-0.7.0.tgz#796be71e74f0c1dccfdfd3213f91e1822d1a005c"
+  integrity sha512-7Bihdrc9NcbZfF1jg9oMdm4mU4JyfYi+Q3UOX1nJEVq5BReDWbr502lOuSXM8acCj1RpBsVdCJlJggzqgmnEnw==
   dependencies:
-    hexo-util "^0.6.3"
+    hexo-util "^2"
 
 hexo-util@^0.6.3:
   version "0.6.3"
@@ -2117,7 +2117,7 @@ hexo-util@^0.6.3:
     html-entities "^1.2.0"
     striptags "^2.1.1"
 
-hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.5.0:
+hexo-util@^2, hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.5.0:
   version "2.5.0"
   resolved "https://registry.nlark.com/hexo-util/download/hexo-util-2.5.0.tgz?cache=0&sync_timestamp=1620209575591&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhexo-util%2Fdownload%2Fhexo-util-2.5.0.tgz#de5635341116ba2563a789a0ebceb55a875221ad"
   integrity sha1-3lY1NBEWuiVjp4mg6861WodSIa0=
