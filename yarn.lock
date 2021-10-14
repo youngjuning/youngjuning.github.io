@@ -2169,10 +2169,10 @@ hexo@^3.0.0:
     titlecase "^1.1.2"
     warehouse "^2.2.0"
 
-hexo@^5.0.0:
+hexo@^5.4.0:
   version "5.4.0"
-  resolved "https://registry.npm.taobao.org/hexo/download/hexo-5.4.0.tgz#77d57fa1c29f3ab05964fe4ebd9c44e23df51b37"
-  integrity sha1-d9V/ocKfOrBZZP5OvZxE4j31Gzc=
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.4.0.tgz#77d57fa1c29f3ab05964fe4ebd9c44e23df51b37"
+  integrity sha512-4vMDle5GjpMeOVrx0NKoTZCqrmpJVg3wNiNNUVjcoFfcpYcMzQUCZHBtQqLl7BzjJ8x2gs002VQ5yv0ZKtj8Jg==
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
