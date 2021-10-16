@@ -112,9 +112,11 @@ feed:
   type: Atom
   path: atom.xml
   limit: 20
-
+aplayer:
+  meting: false
+  asset_inject: false
 live2d:
-  enable: true
+  enable: false
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
