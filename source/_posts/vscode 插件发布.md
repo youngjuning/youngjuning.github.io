@@ -43,7 +43,7 @@ $ npm install vsce -g
 
 ![](https://cdn.jsdelivr.net/gh/youngjuning/images/20210812202141.png)
 
-给 Personal Access Token 添加描述，过期时间等等，你最好把过期时间设置为 1 年，这样你接下就能方便很多，选择 **custom defined（用户自定义）** 范围，然后点击 **Show all scopes(显示全部)**，在这个列表中找到 Marketplace，并勾选 Acquire 和 Manage：
+给 Personal Access Token 添加描述，过期时间等等，你最好把过期时间设置为 1 年，这样你接下就能方便很多，选择 **custom defined（用户自定义）** 范围，然后点击 **Show all scopes(显示全部)** ，在这个列表中找到 Marketplace，并勾选 Acquire 和 Manage：
 
 ![](https://cdn.jsdelivr.net/gh/youngjuning/images/20210812202337.png)
 
