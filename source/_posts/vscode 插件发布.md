@@ -18,9 +18,7 @@ tags:
 $ npm install vsce -g
 ```
 
-## 获取 Personal Access Token
-
-### 新建 Azure DevPos 组织
+## 新建 Azure DevPos 组织
 
 1. 登录 [Azure DevOps](https://azure.microsoft.com/zh-cn/services/devops/)。
 2. 点击 **New organization**。
