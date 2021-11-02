@@ -4,11 +4,13 @@ date: 2020-01-30 15:19:19
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202109241201260.png
 categories:
   - [前端]
-  - [翻译]
 tags:
   - React Native
   - 文档
+  - 翻译
 ---
+
+> 本文首发于 [洛竹的博客](https://youngjuning.js.org/af0984676cf5)，暂未同步于任何平台。
 
 ## 安装
 

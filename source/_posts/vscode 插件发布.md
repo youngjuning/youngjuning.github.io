@@ -8,7 +8,7 @@ tags:
   - vscode
 ---
 
-> 大家好，我是[洛竹](https://github.com/youngjuning)🎋，一只住在杭城的木系前端 🧚🏻‍♀️，如果你喜欢我的文章 📚，可以通过点赞帮我聚集灵力 ⭐️。
+> 本文首发于 [洛竹的博客](https://youngjuning.js.org/4b349879ced6)，同步于 [洛竹早茶馆](https://mp.weixin.qq.com/s?src=11&timestamp=1635840934&ver=3411&signature=c0kQiCM-RIrWIHLqjbKkaf4FW0glkNtPA35PUR-0rfju4E0cIqOv2k0*dZ2gHavkImXmWibuiU7SDbSU*g3OXP2PXLdSRM4N73Psw3ZyNuwBfO7mIJcUfVT6bIYUnn-s&new=1)。
 
 ## 安装发布工具
 
