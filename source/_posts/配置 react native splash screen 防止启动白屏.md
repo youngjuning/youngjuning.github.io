@@ -10,7 +10,11 @@ tags:
   - 掘金
 ---
 
-如果你有设计师，请让设计师给你要的所有尺寸图，如果没有请自行使用 [图标工厂](https://icon.wuruihong.com/) 意见生成所有尺寸的图标/启动图。
+如果你有设计师，请让设计师给你要的所有尺寸图，如果没有请自行使用 [图标工厂](https://icon.wuruihong.com/) 一键生成所有尺寸的图标/启动图。
+
+## 安装依赖
+
+$ yarn add react-native-splash-screen
 
 ## Android
 
