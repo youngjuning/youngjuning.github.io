@@ -271,14 +271,14 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
-  - Gitalk
   - Disqus
+  - Gitalk
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
   lazyload: false
-  count: true # Display comment count in post's top_img
-  card_post_count: true # Display comment count in Home Page
+  count: false # Display comment count in post's top_img
+  card_post_count: false # Display comment count in Home Page
 
 # disqus
 # https://disqus.com/
@@ -643,7 +643,6 @@ subtitle:
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - Truth is endless. Keep curiosity.
     - 怕什么真理无穷，进一寸有一寸的欢喜。
 
 # Loading Animation (加載動畫)
@@ -657,17 +656,17 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   card_author:
     enable: true
-    description:
+    description: 资深跨端工程师|掘金签约作者|开源热爱者
     button:
       enable: true
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/youngjuning
   card_announcement:
-    enable: true
+    enable: false
     content: 大家好，我是洛竹🎋，一只住在杭城的木系前端🧚🏻‍♀️，如果你喜欢我的文章📚，可以通过赞赏帮我聚集灵力⭐️。
   card_recent_post:
     enable: true
@@ -685,7 +684,7 @@ aside:
     color: true
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
-    enable: true
+    enable: false
     type: monthly # yearly or monthly
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -712,7 +711,7 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: true
+  enable: false
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
