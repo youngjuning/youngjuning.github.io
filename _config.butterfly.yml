@@ -12,13 +12,11 @@ menu:
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
     归档: /archives/ || fas fa-archive
-  生活||fa fa-heartbeat:
     电影: /movies/ || fas fa-video
     读书: /books/ || fas fa-book
-  生态系统||fas fa-atom:
-    React Interview: https://youngjuning.js.org/react-interview
-  Feed: /atom.xml || fas fa-rss
   链接: /link/ || fas fa-link
+  洛竹宇宙: https://youngjuning.js.org/cosmos/ || fas fa-atom
+  Feed: /atom.xml || fas fa-rss
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
