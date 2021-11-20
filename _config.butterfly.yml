@@ -12,11 +12,15 @@ menu:
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
     归档: /archives/ || fas fa-archive
+  动态||fas fa-bullhorn:
     电影: /movies/ || fas fa-video
     读书: /books/ || fas fa-book
-  链接: /link/ || fas fa-link
-  洛竹宇宙: https://youngjuning.js.org/cosmos/ || fas fa-atom
-  Feed: /atom.xml || fas fa-rss
+    说说: /talk/ || fas fa-cloud-sun-rain
+  开往: https://travellings.vercel.app/ || fas fa-paper-plane
+  更多||fas fa-infinity:
+    链接: /link/ || fas fa-link
+    洛竹宇宙: https://youngjuning.js.org/cosmos/ || fas fa-atom
+    订阅: /atom.xml || fas fa-rss
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -951,11 +955,13 @@ artitalk:
   enable: true
   appId: q0sbQqHfN3k9cMMzFe8JFuKa-MdYXbMMI
   appKey: tvDbHcjyxCfi3UYsTYy0OofS
-  path: thinking
+  path: talk
   js:
   option:
+    color1: linear-gradient(90deg,rgba(247,149,51,.1) 0,rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1) 100%);
+    color3: #5e5e5e
   front_matter:
-    title: 想法
+    title: 说说
     comments: false
     description: 有想法的好青年
     top_img: https://cdn.jsdelivr.net/gh/youngjuning/images/202111201248566.png
