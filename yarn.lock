@@ -1997,6 +1997,13 @@ hexo-bunyan@^1.0.0:
     mv "~2"
     safe-json-stringify "~1"
 
+hexo-butterfly-artitalk@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmmirror.com/hexo-butterfly-artitalk/download/hexo-butterfly-artitalk-1.0.4.tgz#8d90a930b68d742ffc1e20ae475828b071cba818"
+  integrity sha1-jZCpMLaNdC/8HiCuR1gosHHLqBg=
+  dependencies:
+    pug "^3.0.2"
+
 hexo-butterfly-douban@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/hexo-butterfly-douban/-/hexo-butterfly-douban-1.2.4.tgz#a3d432d1134a08e44a1c732f52916d0189749a98"
