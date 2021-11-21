@@ -18,9 +18,9 @@ menu:
     说说: /talk/ || fas fa-cloud-sun-rain
   洛竹宇宙: https://youngjuning.js.org/cosmos/ || fas fa-atom
   开往: https://travellings.vercel.app/ || fas fa-paper-plane
-  更多||fas fa-infinity:
-    链接: /link/ || fas fa-link
-    订阅: /atom.xml || fas fa-rss
+  链接: /link/ || fas fa-link
+  订阅: /atom.xml || fas fa-rss
+  # 更多||fas fa-infinity:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
