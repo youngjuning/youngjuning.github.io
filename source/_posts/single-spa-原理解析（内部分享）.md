@@ -131,7 +131,7 @@ function domElementGetter() {
 
 ### 核心方法分析
 
-绿底白字则是 single-spa 的三个核心方法 `registerApplication`、`reroute` 和 `start`，脑图描述了这三个方法具体做了什么：
+绿底白字则是 single-spa 的三个核心方法 [registerApplication](http://tny.im/T5UaE)、[reroute](http://tny.im/tsub) 和 [start](http://tny.im/9CvCH)，脑图描述了这三个方法具体做了什么：
 
 ![](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221417558.png)
 
@@ -142,6 +142,12 @@ function domElementGetter() {
 ### 应用启动和挂载流程
 
 ![](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221423521.png)
+
+## 经验
+
+1. 加载操作一般都是异步的，比如加载插件、加载应用。所以原则上只要会使用 Promise，我们就能很快模仿一个自己的微前端架构出来。
+2. 本次分享没有涉及微前端的另个一个重要概念沙箱，有机会单独分享。
+3. 技术发展都是有迹可循的，搞清发展脉络对于理解应用一个技术也很有帮助。
 
 ## 参考
 
