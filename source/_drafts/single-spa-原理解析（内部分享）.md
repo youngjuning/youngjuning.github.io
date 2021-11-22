@@ -40,7 +40,7 @@ single-spa 又约定应用脚本包含以下生命周期：
 
 生命周期函数获得参数包含 name（应用名）、singleSpa（实例）、mountParcel（手动挂载函数）、customProps（自定义信息），生命周期函数必须返回 Promise 或其本身为 async 函数，`bootstrap`、mount、unmount 生命周期函数不可缺省，生命周期函数可以指定多个，它们会构成异步调用链，逐个调用。简要流程图如下：
 
-![](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221340570.png)
+![](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221452146.png)
 
 ## 示例
 
