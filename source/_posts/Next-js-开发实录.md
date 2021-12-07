@@ -125,6 +125,23 @@ export default Home;
 
 ![](https://cdn.jsdelivr.net/gh/youngjuning/images/202112060018376.png)
 
+## 模块路径别名
+
+在 tsconfig.json 中加入以下配置：
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["./components/*"]
+    }
+  }
+}
+```
+
+其他的地址依葫芦画瓢加到 paths 对象中即可。
+
 ## 安装 ethers.js
 
 ```sh
