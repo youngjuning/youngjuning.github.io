@@ -1328,7 +1328,7 @@ ee-first@1.1.1, ee-first@~1.1.1:
   resolved "https://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-ejs@^2.5.5, ejs@^2.6.1:
+ejs@^2.5.5:
   version "2.7.4"
   resolved "https://registry.npm.taobao.org/ejs/download/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
   integrity sha1-SGYSh1c9zFPjZsehrlLDoSDuybo=
@@ -2206,12 +2206,12 @@ hexo-pagination@1.0.0:
   resolved "https://registry.nlark.com/hexo-pagination/download/hexo-pagination-1.0.0.tgz#c9c0ca3665267b9e9d0a89fc3edcaf3276907dc1"
   integrity sha1-ycDKNmUme56dCon8PtyvMnaQfcE=
 
-hexo-renderer-ejs@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/hexo-renderer-ejs/download/hexo-renderer-ejs-1.0.0.tgz#43c4de49eeae224036a457df860eb1c14c68b4b4"
-  integrity sha1-Q8TeSe6uIkA2pFffhg6xwUxotLQ=
+hexo-renderer-ejs@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-ejs/-/hexo-renderer-ejs-2.0.0.tgz#56e0c3de5f6b0e1e68b923c65a7c8bfe9ff715eb"
+  integrity sha512-qCjE1IdwgDgv65qyb0KMVCwCdSVAkH0vwAe9XihjvaKWkmb9dtt8DgErOdqCXn0HReSyWiEVP2BrLRj3gyHwOQ==
   dependencies:
-    ejs "^2.6.1"
+    ejs "^3.1.6"
 
 hexo-renderer-marked@^4.0.0:
   version "4.1.0"
