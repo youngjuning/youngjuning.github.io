@@ -1,10 +1,12 @@
 ---
-title: Next.js 开发实录
+title: 基于 Next.js 开发 DApp
 date: 2021-12-05 22:58:44
+cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202112101016728.png
 categories:
   - 前端
 tags:
   - Next.js
+  - ethereum
 ---
 
 ## 项目初始化
@@ -33,7 +35,12 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier @luozhu/prettier
 
 ```json
 {
-  "extends": ["next/core-web-vitals", "plugin:prettier/recommended", "prettier"]
+  "extends": ["next/core-web-vitals", "plugin:prettier/recommended", "prettier"],
+  "rules": {
+    "no-unused-vars": 1,
+    "react-hooks/exhaustive-deps": 0,
+    "@next/next/no-img-element": 0
+  }
 }
 ```
 
@@ -45,7 +52,7 @@ module.exports = require('@luozhu/prettier-config');
 
 ## lint-staged
 
-在 package.json 文件中如下配置即可：
+在 `package.json` 文件中如下配置即可：
 
 ```json
 {
@@ -60,6 +67,19 @@ module.exports = require('@luozhu/prettier-config');
     "**/*.{md,json}": [
       "prettier --write"
     ]
+  }
+}
+```
+
+## 基于根目录导入模块
+
+`baseUrl` 配置选项允许您直接从项目的根目录导入。
+
+```json
+// tsconfig.json or jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": "."
   }
 }
 ```
