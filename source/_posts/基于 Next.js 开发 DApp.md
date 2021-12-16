@@ -55,7 +55,7 @@ module.exports = require('@luozhu/prettier-config');
 安装 lint-staged：
 
 ```sh
-yarn add lint-staged
+yarn add lint-staged -D
 ```
 
 在 `package.json` 文件中如下配置即可：
