@@ -377,6 +377,54 @@ const Example = () => {
 };
 ```
 
+## 自定义错误页面
+
+### 404.tsx
+
+```tsx
+import { Result, Button } from 'antd';
+import Link from 'next/link';
+
+export default function Custom404() {
+  return (
+    <Result
+      status="404"
+      title="404"
+      subTitle="Sorry, the page you visited does not exist."
+      extra={
+        <Button type="primary">
+          <Link href="/">
+            <a>返回首页</a>
+          </Link>
+        </Button>
+      }
+    />
+  );
+}
+```
+
+### 500.tsx
+
+```tsx
+import { Result, Button } from 'antd';
+import Link from 'next/link';
+
+export default function Custom500() {
+  return (
+    <Result
+      status="500"
+      title="500"
+      subTitle="Sorry, something went wrong."
+      extra={
+        <Button type="primary">
+          <Link href="/">返回首页</Link>
+        </Button>
+      }
+    />
+  );
+}
+```
+
 ## 安装 ethers.js
 
 ```sh
