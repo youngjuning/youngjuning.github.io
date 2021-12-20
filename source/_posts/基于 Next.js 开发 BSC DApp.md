@@ -1,5 +1,5 @@
 ---
-title: 基于 Next.js 开发 DApp
+title: 基于 Next.js 开发 BSC DApp
 date: 2021-12-05 22:58:44
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202112101016728.png
 categories:
@@ -48,6 +48,31 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier @luozhu/prettier
 
 ```js
 module.exports = require('@luozhu/prettier-config');
+```
+
+## .editorconfig
+
+```
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+quote_type = single # Fix Prettier "prettier.singleQuote" not working in 1.40 vs code
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
 ```
 
 ## lint-staged
@@ -168,7 +193,7 @@ yarn add antd
 使用 yarn 安装 next-with-less 包，并顺带最新版本的 less 和 less-loader：
 
 ```sh
-yarn add next-with-less less less-loader
+yarn add next-with-less less less-loader -D
 ```
 
 并修改 `next.config.js` 配置文件：
@@ -249,18 +274,24 @@ dayjs.locale('zh-cn');
 
 ```tsx
 import { Layout, Menu, Breadcrumb } from 'antd';
-import {
-  DesktopOutlined,
-  PieChartOutlined,
-  FileOutlined,
-  TeamOutlined,
-  UserOutlined,
-} from '@ant-design/icons';
-const { Header, Content, Footer, Sider } = Layout;
+import Sider from './Sider';
 
-const Layout = ({children}) => {
+const { Header, Content, Footer } = Layout;
+
+const AppLayout = ({children}) => {
   return (
     <Layout style={{ minHeight: '100vh' }}>
+      <Sider />
+        <Layout className="site-layout">
+          <Header style={{ padding: 0, backgroundColor: '#ffffff' }} />
+          <Content style={{ margin: '0 16px' }}>{children}</Content>
+          <Footer style={{ textAlign: 'center' }}>
+            Crypto Meta ©2021 Powered by{' '}
+            <a className="default" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+              Next.js
+            </a>
+          </Footer>
+        </Layout>
     </Layout>
   )
 }
@@ -424,6 +455,118 @@ export default function Custom500() {
   );
 }
 ```
+
+## 小狐狸钱包
+
+1. [小狐狸钱包MetaMask新手使用教程](https://zhuanlan.zhihu.com/p/368736357)
+2. [使用MetaMask连接到币安智能链(BSC)](https://blog.csdn.net/qq_33583069/article/details/115727642?ivk_sa=1024320u)
+
+## @usedapp/core
+
+### 安装依赖
+
+```sh
+$ yarn add @usedapp/core
+```
+
+### 设置 Provider
+
+你需要做的第一件事是用可选的配置设置 DAppProvider，并将你的整个应用程序包裹在其中。本文中我们编辑 `components/Layout/Provider.tsx`：
+
+```tsx
+import React from 'react';
+import { DAppProvider, Config, ChainId } from '@usedapp/core';
+
+const config: Config = {
+  readOnlyChainId: ChainId.BSC,
+  readOnlyUrls: {
+    [ChainId.BSC]: 'https://bsc-dataseed1.binance.org/',
+  },
+};
+
+const Provider = ({ children }) => {
+  return (
+    <DAppProvider config={config}>{children}</DAppProvider>
+  );
+};
+
+export default Provider;
+```
+
+### 连接钱包
+
+然后你需要使用 activateBrowserWallet 来激活 provider。最好是在用户点击 “Connect” 按钮时进行。本文中我们新建组件 `components/ConnectButton.tsx`：
+
+```tsx
+import React from 'react';
+import { Button } from 'antd';
+import { useEthers } from '@usedapp/core';
+import { LoginOutlined } from '@ant-design/icons';
+
+function ConnectButton() {
+  const { activateBrowserWallet } = useEthers();
+
+  function handleConnectWallet() {
+    activateBrowserWallet();
+  }
+
+  return (
+    <Button size="large" type="primary" icon={<LoginOutlined />} onClick={handleConnectWallet}>
+      Connect MetaMask
+    </Button>
+  );
+}
+
+export default ConnectButton;
+```
+
+### 钱包余额
+
+`useEtherBalance(address: string)`
+
+提供一种获取账户余额的方法。以账户地址为参数，当数据不可用时（即未连接），返回 ·`BigNumber` 或 `undefined`。要获得当前连接的账户，请使用 `useEthers()`。
+
+```tsx
+import { formatEther } from '@ethersproject/units'
+
+export function EtherBalance() {
+  const { account } = useEthers()
+  const etherBalance = useEtherBalance(account)
+
+  return (
+    <div>
+      {etherBalance && <p>Balance: {formatEther(etherBalance)}</p>}
+    </div>
+  )
+}
+```
+
+### 代币余额
+
+`useTokenBalance(address: string, tokenAddress: string)`
+
+提供一种方法来获取由 `tokenAddress` 指定的 ERC20 代币在所提供地址的余额。当数据不可用时，返回 `BigNumber` 或 `undefined`。
+
+```tsx
+import { formatUnits } from '@ethersproject/units'
+
+const BABY = '0x53e562b9b7e5e94b81f10e96ee70ad06df3d2657'
+
+export function TokenBalance() {
+  const { account } = useEthers()
+  const tokenBalance = useTokenBalance(BABY, account)
+
+  return (
+    <div>
+      {tokenBalance && <p>BABY: {formatUnits(tokenBalance, 18)}</p>}
+    </div>
+  )
+}
+```
+
+### 参考
+
+- [Build a Web3 Dapp in React & Login with MetaMask](https://dev.to/jacobedawson/build-a-web3-dapp-in-react-login-with-metamask-4chp)
 
 ## 安装 ethers.js
 
