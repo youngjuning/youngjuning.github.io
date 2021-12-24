@@ -568,24 +568,42 @@ export function TokenBalance() {
 
 - [Build a Web3 Dapp in React & Login with MetaMask](https://dev.to/jacobedawson/build-a-web3-dapp-in-react-login-with-metamask-4chp)
 
-## 安装 ethers.js
+## GitHub Pages
 
-```sh
-yarn add ethers.js
+如果是 vercel 付费用户，推荐使用 vercel。GitHub Pages 只能部署静态内容，所以需要使用 `next export` 将静态内容导出部署。
+
+首先配置 npm scripts：
+
+```json
+"scripts": {
+  "preexport": "yarn build",
+  "export": "next export"
+},
 ```
 
-## 连接 MetaMask
+然后添加 `.github/workflows/gh-pages.yml`：
 
-```tsx
-import { ethers } from 'ethers';
-// ...
-useEffect(() => {
-  (async () => {
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    const signer = provider.getSigner();
-    await provider.send('eth_requestAccounts', []);
-    console.log('Account:', await signer.getAddress());
-  })();
-}, []);
-// ...
+```yml
+name: github pages
+on:
+  push:
+    branches:
+      - main # default branch
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: c-hive/gha-yarn-cache@v2
+      - name: Install Dependencies
+        run: yarn --non-interactive --silent --ignore-scripts --production=false
+      - name: Build Website
+        run: yarn export
+      - name: Deploy Website
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: crypto-meta/crypto-meta.github.io
+          publish_dir: ./out
+
 ```
