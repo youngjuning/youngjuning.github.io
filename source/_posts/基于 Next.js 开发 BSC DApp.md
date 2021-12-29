@@ -17,21 +17,23 @@ npx create-next-app@latest --typescript
 
 安装完成后，根据指示开启开发模式的 server。然后尝试编辑 `pages/index.tsx` 并在浏览器查看结果。
 
-## commitlint
+## 开发规范
+
+### commitlint
 
 ```sh
 npx @luozhu/create-commitlint
 ```
 
-## prettier
+### prettier
 
-### 安装依赖
+#### 安装依赖
 
 ```sh
 yarn add prettier eslint-config-prettier eslint-plugin-prettier @luozhu/prettier-config -D
 ```
 
-### 配置 .eslintrc.json
+#### 配置 .eslintrc.json
 
 ```json
 {
@@ -44,13 +46,13 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier @luozhu/prettier
 }
 ```
 
-### 配置 .prettierrc.js
+#### 配置 .prettierrc.js
 
 ```js
 module.exports = require('@luozhu/prettier-config');
 ```
 
-## .editorconfig
+### .editorconfig
 
 ```
 # EditorConfig is awesome: http://EditorConfig.org
@@ -75,7 +77,7 @@ trim_trailing_whitespace = false
 indent_style = tab
 ```
 
-## lint-staged
+### lint-staged
 
 安装 lint-staged：
 
@@ -102,85 +104,7 @@ yarn add lint-staged -D
 }
 ```
 
-## 基于根目录导入模块
-
-`baseUrl` 配置选项允许您直接从项目的根目录导入。
-
-```json
-// tsconfig.json or jsconfig.json
-{
-  "compilerOptions": {
-    "baseUrl": "."
-  }
-}
-```
-
-## 模块路径别名
-
-在 tsconfig.json 中加入以下配置：
-
-```json
-{
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/components/*": ["./components/*"]
-    }
-  }
-}
-```
-
-其他的地址依葫芦画瓢加到 paths 对象中即可。
-
-
-## redirects 永久重定向
-
-永久重定向不同于重写路由，它会在 url 中表现出来，在 Next.js 中重定向是在 `next.config.js` 中配置的：
-
-```js
-let config = {
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/cryptoyou',
-        permanent: true,
-      },
-    ];
-  },
-};
-
-module.exports = config;
-```
-
-## styled-jsx
-
-next.js 内置支持 styled-jsx，我们要做的是配置支持 sass，首先安装 `@styled-jsx/plugin-sass`：
-
-```sh
-yarn add @styled-jsx/plugin-sass sass node-sass -D
-```
-
-然后配置 `.babelrc`：
-
-```json
-{
-  "presets": [
-    [
-      "next/babel",
-      {
-        "styled-jsx": {
-          "plugins": ["@styled-jsx/plugin-sass"]
-        }
-      }
-    ]
-  ]
-}
-```
-
-> 注意：开启 babel 后，会自动禁用 swc，目前还没有 swc 的支持方案，进度请关注 [[Improvement] Next.JS 12 support + SWC](https://github.com/Thream/styled-jsx-plugin-sass/issues/100)
-
-## antd
+## antd 开发
 
 ### 安装依赖
 
@@ -408,9 +332,105 @@ const Example = () => {
 };
 ```
 
-## 自定义错误页面
+## Next.js 开发
 
-### 404.tsx
+### 基于根目录导入模块
+
+`baseUrl` 配置选项允许您直接从项目的根目录导入。
+
+```json
+// tsconfig.json or jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  }
+}
+```
+
+### 模块路径别名
+
+在 tsconfig.json 中加入以下配置：
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["./components/*"]
+    }
+  }
+}
+```
+
+其他的地址依葫芦画瓢加到 paths 对象中即可。
+
+
+### redirects 永久重定向
+
+永久重定向不同于重写路由，它会在 url 中表现出来，在 Next.js 中重定向是在 `next.config.js` 中配置的：
+
+```js
+let config = {
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/cryptoyou',
+        permanent: true,
+      },
+    ];
+  },
+};
+
+module.exports = config;
+```
+
+### 在 pages 目录包含非页面文件
+
+要把测试文件、生成的文件或其他组件使用的文件放在 `pages` 目录中，你可以在扩展名前加上类似 `page` 的字样。
+
+打开 `next.config.js` 并添加 `pageExtensions` 配置：
+
+```js
+module.exports = {
+  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js'],
+}
+```
+
+然后重命名你的页面，使其有一个包括 `.page` 的文件扩展名（例如，重命名 `MyPage.tsx` 为`MyPage.page.tsx`）。
+
+> 注意：确保你也重命名 `_document.js`、`_app.js`、`_middleware.js`，以及 `pages/api/` 下的文件。
+
+### styled-jsx
+
+next.js 内置支持 styled-jsx，我们要做的是配置支持 sass，首先安装 `@styled-jsx/plugin-sass`：
+
+```sh
+yarn add @styled-jsx/plugin-sass sass node-sass -D
+```
+
+然后配置 `.babelrc`：
+
+```json
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "styled-jsx": {
+          "plugins": ["@styled-jsx/plugin-sass"]
+        }
+      }
+    ]
+  ]
+}
+```
+
+> 注意：开启 babel 后，会自动禁用 swc，目前还没有 swc 的支持方案，进度请关注 [[Improvement] Next.JS 12 support + SWC](https://github.com/Thream/styled-jsx-plugin-sass/issues/100)
+
+### 自定义错误页面
+
+#### 404.tsx
 
 ```tsx
 import { Result, Button } from 'antd';
@@ -434,7 +454,7 @@ export default function Custom404() {
 }
 ```
 
-### 500.tsx
+#### 500.tsx
 
 ```tsx
 import { Result, Button } from 'antd';
@@ -456,20 +476,22 @@ export default function Custom500() {
 }
 ```
 
-## 小狐狸钱包
+## Dapp
+
+### 小狐狸钱包
 
 1. [小狐狸钱包MetaMask新手使用教程](https://zhuanlan.zhihu.com/p/368736357)
 2. [使用MetaMask连接到币安智能链(BSC)](https://blog.csdn.net/qq_33583069/article/details/115727642?ivk_sa=1024320u)
 
-## @usedapp/core
+### @usedapp/core
 
-### 安装依赖
+#### 安装依赖
 
 ```sh
 $ yarn add @usedapp/core
 ```
 
-### 设置 Provider
+#### 设置 Provider
 
 你需要做的第一件事是用可选的配置设置 DAppProvider，并将你的整个应用程序包裹在其中。本文中我们编辑 `components/Layout/Provider.tsx`：
 
@@ -493,7 +515,7 @@ const Provider = ({ children }) => {
 export default Provider;
 ```
 
-### 连接钱包
+#### 连接钱包
 
 然后你需要使用 activateBrowserWallet 来激活 provider。最好是在用户点击 “Connect” 按钮时进行。本文中我们新建组件 `components/ConnectButton.tsx`：
 
@@ -520,7 +542,7 @@ function ConnectButton() {
 export default ConnectButton;
 ```
 
-### 钱包余额
+#### 钱包余额
 
 `useEtherBalance(address: string)`
 
@@ -541,7 +563,7 @@ export function EtherBalance() {
 }
 ```
 
-### 代币余额
+#### 代币余额
 
 `useTokenBalance(address: string, tokenAddress: string)`
 
@@ -564,11 +586,13 @@ export function TokenBalance() {
 }
 ```
 
-### 参考
+#### 参考
 
 - [Build a Web3 Dapp in React & Login with MetaMask](https://dev.to/jacobedawson/build-a-web3-dapp-in-react-login-with-metamask-4chp)
 
-## GitHub Pages
+## 部署
+
+### GitHub Pages
 
 如果是 vercel 付费用户，推荐使用 vercel。GitHub Pages 只能部署静态内容，所以需要使用 `next export` 将静态内容导出部署。
 
