@@ -16,7 +16,7 @@
   "dependencies": {
     "hexo": "^5.4.0",
     "hexo-butterfly-artitalk": "^1.0.4",
-    "hexo-butterfly-douban": "^1.2.4",
+    "hexo-butterfly-douban": "^1.2.5",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",
     "hexo-generator-category": "^1.0.0",
