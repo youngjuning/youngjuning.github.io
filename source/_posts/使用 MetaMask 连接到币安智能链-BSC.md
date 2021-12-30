@@ -12,7 +12,7 @@ tags:
 
 ## 入口
 
-![](![](https://cdn.jsdelivr.net/gh/youngjuning/images/202112301451827.png))
+![](https://cdn.jsdelivr.net/gh/youngjuning/images/202112301451827.png)
 
 ## 配置
 
