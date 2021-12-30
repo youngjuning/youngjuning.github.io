@@ -21,3 +21,7 @@ tags:
 - 链 ID: `56`
 - Currency Symbol: `WBNB`
 - 区块浏览器: `https://bscscan.com/`
+
+## 参考
+
+- [在币安智能链中关联MetaMask钱包](https://academy.binance.com/zh/articles/connecting-metamask-to-binance-smart-chain)
