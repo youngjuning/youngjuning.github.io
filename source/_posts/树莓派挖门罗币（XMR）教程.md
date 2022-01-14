@@ -37,6 +37,12 @@ $ make -j4
 - 2miners: https://2miners.com/zh/xmr-mining-pool
 - minexmr: https://minexmr.com/
 - nanopool: https://xmr.nanopool.org/
+- SupportXMR：https://supportxmr.com/#/home
+
+## 注册门罗币钱包
+
+- [币安](https://www.binance.com/zh-CN/my/wallet/account/main/deposit/crypto/XMR)
+- [欧易](https://www.okex.com/balance/recharge/xmr)
 
 ## 运行程序
 
@@ -76,6 +82,8 @@ WantedBy=multi-user.target
 
 - [How to mine Monero and compile XMRig on a Raspberry Pi 4! CPU Mining in 2021!](https://blockforums.org/topic/1257-how-to-mine-monero-and-compile-xmrig-on-a-raspberry-pi-4-cpu-mining-in-2021/)
 - [Xmrig on Raspberrypi OS 32-bit](https://forums.raspberrypi.com/viewtopic.php?t=305983)
+- [讲讲如何用树莓派挖矿以及其可行性？](http://www.ethospool.com/kuaixun/282917.html)
+- [门罗币挖矿：关于如何开采门罗币的完整指南](https://cn.bitdegree.org/crypto/jiao-cheng/menluobi-wakuang)
 
 ## 树莓派写真
 
