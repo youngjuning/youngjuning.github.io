@@ -11,6 +11,54 @@ tags:
   - 挖矿
 ---
 
+## 超频
+
+### 修改配置
+
+将 SD 卡使用读卡器接入电脑，打开 windows 下可见分区 Boot，打开 `config.txt`
+
+![](https://s2.loli.net/2022/01/16/7aKoCeuMYphESnk.png)
+
+```txt
+arm_freq=1400
+over_voltage=4
+```
+
+- `arm_freq=1400` 表示将 CPU 频率调节至 1400MHz(1.4GHz),假如你想调至 1.3G，将 1400 改为 1300 即可。
+- `over_voltage=4` 为增加电压，范围：0~6；初始电压 1.2V，每增加 1 提高 0.025V
+
+如果你还想超频 GPU，在末尾加上：
+
+```txt
+gpu_freq=450
+```
+
+默认 GPU 频率为 400MHz。
+
+### 稳定性测试
+
+打开终端，输入：
+
+```sh
+$ sudo apt-get install sysbench
+```
+
+然后输入：
+
+```sh
+$ sysbench --num-threads=4 --test=cpu --cpu-max-prime=20000 run
+```
+
+来运行测试
+
+打开一个新的终端，输入：
+
+```sh
+$ sudo cat /sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_cur_freq
+```
+
+如果返回 `1400000`，则超频成功。
+
 ## 安装编译工具
 
 ```sh
