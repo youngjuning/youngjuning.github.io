@@ -67,9 +67,12 @@ $ sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-
 
 ## 32 位
 
-32 位需要额外安装软件，`getconf LONG_BIT` 可以获取操作系统位数。
+32 位系统需要额外安装软件，`getconf LONG_BIT` 可以获取操作系统位数。
 
 ```sh
+$ sudo apt update && sudo apt full-upgrade
+$ sudo apt-get clean
+$ sudo shutdown -r now（系统将重新启动）
 $ sudo apt-get install -y raspbian-nspawn-64
 $ ds64-shell
 ```
@@ -141,6 +144,7 @@ WantedBy=multi-user.target
 - [Xmrig on Raspberrypi OS 32-bit](https://forums.raspberrypi.com/viewtopic.php?t=305983)
 - [讲讲如何用树莓派挖矿以及其可行性？](http://www.ethospool.com/kuaixun/282917.html)
 - [门罗币挖矿：关于如何开采门罗币的完整指南](https://cn.bitdegree.org/crypto/jiao-cheng/menluobi-wakuang)
+- [树莓派3B超频指南](https://www.jianshu.com/p/53e85e3f2547)
 
 ## 树莓派写真
 
