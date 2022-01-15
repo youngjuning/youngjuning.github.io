@@ -11,6 +11,11 @@ tags:
   - 挖矿
 ---
 
+## 准备 64 位系统
+
+- [raspios_arm64](https://downloads.raspberrypi.org/raspios_arm64/images/)
+- [raspios_lite_arm64](https://downloads.raspberrypi.org/raspios_lite_arm64/images/)
+
 ## 超频
 
 ### 修改配置
@@ -20,11 +25,11 @@ tags:
 ![](https://s2.loli.net/2022/01/16/7aKoCeuMYphESnk.png)
 
 ```txt
-arm_freq=1400
+arm_freq=1250
 over_voltage=4
 ```
 
-- `arm_freq=1400` 表示将 CPU 频率调节至 1400MHz(1.4GHz),假如你想调至 1.3G，将 1400 改为 1300 即可。
+- `arm_freq=1250` 表示将 CPU 频率调节至 1250MHz(1.4GHz),假如你想调至 1.3G，将 1250 改为 1400 即可。
 - `over_voltage=4` 为增加电压，范围：0~6；初始电压 1.2V，每增加 1 提高 0.025V
 
 如果你还想超频 GPU，在末尾加上：
@@ -63,18 +68,6 @@ $ sudo cat /sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_cur_freq
 
 ```sh
 $ sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
-```
-
-## 32 位
-
-32 位系统需要额外安装软件，`getconf LONG_BIT` 可以获取操作系统位数。
-
-```sh
-$ sudo apt update && sudo apt full-upgrade
-$ sudo apt-get clean
-$ sudo shutdown -r now（系统将重新启动）
-$ sudo apt-get install -y raspbian-nspawn-64
-$ ds64-shell
 ```
 
 ## 获取源码
@@ -141,6 +134,7 @@ WantedBy=multi-user.target
 ## 参考
 
 - [How to mine Monero and compile XMRig on a Raspberry Pi 4! CPU Mining in 2021!](https://blockforums.org/topic/1257-how-to-mine-monero-and-compile-xmrig-on-a-raspberry-pi-4-cpu-mining-in-2021/)
+- [使用树莓派挖矿](https://wrdll.com/article/xmr-miner-raspberrypi)
 - [Xmrig on Raspberrypi OS 32-bit](https://forums.raspberrypi.com/viewtopic.php?t=305983)
 - [讲讲如何用树莓派挖矿以及其可行性？](http://www.ethospool.com/kuaixun/282917.html)
 - [门罗币挖矿：关于如何开采门罗币的完整指南](https://cn.bitdegree.org/crypto/jiao-cheng/menluobi-wakuang)
