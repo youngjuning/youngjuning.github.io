@@ -65,6 +65,15 @@ $ sudo cat /sys/devices/system/cpu/cpu2/cpufreq/cpuinfo_cur_freq
 $ sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 ```
 
+## 32 位
+
+32 位需要额外安装软件，`getconf LONG_BIT` 可以获取操作系统位数。
+
+```sh
+$ sudo apt-get install -y raspbian-nspawn-64
+$ ds64-shell
+```
+
 ## 获取源码
 
 ```sh
