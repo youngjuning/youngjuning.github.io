@@ -102,7 +102,7 @@ $ make -j4
 要运行 Monero 矿机，只需运行：
 
 ```sh
-$ ./xmrig -o xmr.2miners.com:2222 -u 87gCYA9EemtThn9NBxgvXKbXiggT1r4T5Pezq8myvAaHep2hsVnk5veABZKhi4PcAuAJ4pA5nqg6wEhfNhGxDcQJ87Ugt5G -k --coin monero --proxy=127.0.0.1:1090
+$ ./xmrig -o xmr.2miners.com:2222 -u 87gCYA9EemtThn9NBxgvXKbXiggT1r4T5Pezq8myvAaHep2hsVnk5veABZKhi4PcAuAJ4pA5nqg6wEhfNhGxDcQJ87Ugt5G -k --coin monero --proxy=127.0.0.1:1090 --donate-level 1
 ```
 
 ## 开机自启动
