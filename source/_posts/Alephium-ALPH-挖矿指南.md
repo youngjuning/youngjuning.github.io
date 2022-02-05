@@ -21,10 +21,10 @@ Alephium 是第一个在比特币核心技术、工作证明和 [UTXO](https://e
 
 | 矿池                                              | 费率   | 最低起付 | 付款频率   | 在线矿机 | 出块  |
 | ------------------------------------------------- | ------ | -------- | ---------- | -------- | ----- |
-| [Devgent pool](https://pool.devgent.net/mining)   | 1%     | 1 א      | 自有钱包   | 1843     | 81764 |
-| [Metapool](https://metapool.tech/)                | 0.75 % | 1 א      | 每 1 小时  | 1290     | 91860 |
-| [WoolyPooly](https://woolypooly.com/zh/coin/alph) | 1.9%   | 1 א      | 达到起付额 | 2391     | 73552 |
 | [HeroMiners](https://alephium.herominers.com/)    | 0%     | 1 א      | 每 1 小时  | 584      | 2540  |
+| [Metapool](https://metapool.tech/)                | 0.75% | 1 א      | 每 1 小时  | 1290     | 91860 |
+| [Devgent pool](https://pool.devgent.net/mining)   | 1%     | 1 א      | 自有钱包   | 1843     | 81764 |
+| [WoolyPooly](https://woolypooly.com/zh/coin/alph) | 1.9%   | 1 א      | 达到起付额 | 2391     | 73552 |
 
 ## 交易所
 
