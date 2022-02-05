@@ -29,3 +29,10 @@ Alephium 是第一个在比特币核心技术、工作证明和 [UTXO](https://e
 ## 交易所
 
 目前只有 gate.io 支持，如果你依赖欧易或者币安，个人不建议现在开始挖。
+
+## 相关链接
+
+- [Alephium Explorer](https://explorer.alephium.org/)
+- [gate.io](https://www.gate.io/cn/myaccount/deposit/ALPH)
+- [3060tilhr hashrate](https://www.hashrate.no/3060tilhr)
+- [coinmarketcap](https://coinmarketcap.com/zh/currencies/alephium/)
