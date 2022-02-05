@@ -19,16 +19,25 @@ Alephium 是第一个在比特币核心技术、工作证明和 [UTXO](https://e
 
 > 统计时间：北京时间 2022 年 1 月 30 日
 
-| 矿池                                              | 费率   | 最低起付 | 付款频率   | 在线矿机 | 出块  |
-| ------------------------------------------------- | ------ | -------- | ---------- | -------- | ----- |
-| [HeroMiners](https://alephium.herominers.com/)    | 0%     | 1 א      | 每 1 小时  | 584      | 2540  |
-| [Metapool](https://metapool.tech/)                | 0.75% | 1 א      | 每 1 小时  | 1290     | 91860 |
-| [Devgent pool](https://pool.devgent.net/mining)   | 1%     | 1 א      | 自有钱包   | 1843     | 81764 |
-| [WoolyPooly](https://woolypooly.com/zh/coin/alph) | 1.9%   | 1 א      | 达到起付额 | 2391     | 73552 |
+| 矿池                                              | 费率   | 最低起付 | 付款频率   | 出块  |
+| ------------------------------------------------- | ------ | -------- | ---------- | ----- |
+| [HeroMiners](https://alephium.herominers.com/)    | 0%     | 1 א      | 每 1 小时  | 116278  |
+| [Metapool](https://metapool.tech/)                | 0.75% | 1 א      | 每 1 小时  | 91860 |
+| [Devgent pool](https://pool.devgent.net/mining)   | 1%     | 1 א      | 自有钱包   | 81764 |
+| [WoolyPooly](https://woolypooly.com/zh/coin/alph) | 1.9%   | 1 א      | 达到起付额 | 73552 |
 
 ## 交易所
 
 目前只有 gate.io 支持，如果你依赖欧易或者币安，个人不建议现在开始挖。
+
+## ETH + Alephium 双挖
+
+T-rex 0.25.2 开始支持了 ETH+ALPH 双挖（默认 ETH 68% / ALPH 32%）。
+
+```bash
+t-rex.exe -a ethash --lhr-algo blake3 -o stratum+ssl://asia-eth.2miners.com:12020 -u nano_131cbg1qzxc6hye1iqd1duocmoxdjwthr1bmksnbfqcf8cq5hu8tf7krwp69 -p x -w luozhu001 --url2 stratum+tcp://hk.alephium.herominers.com:1199 --user2 19MiefHwqpTq5sgKkpQpA88XNubMiTeN4iQnmvhi4JNxA --pass2 x --proxy 127.0.0.1:1090
+pause
+```
 
 ## 相关链接
 
