@@ -1,5 +1,5 @@
 ---
-title: Alephium(ALPH) 挖矿指南
+title: ALPH ETH 双挖指南
 date: 2022-01-30 18:43:27
 cover: https://s2.loli.net/2022/01/30/wYA7vOMxEJFHBp9.png
 categories:
@@ -38,6 +38,10 @@ T-rex 0.25.2 开始支持了 ETH+ALPH 双挖（默认 ETH 68% / ALPH 32%）。
 t-rex.exe -a ethash --lhr-algo blake3 -o stratum+ssl://asia-eth.2miners.com:12020 -u nano_131cbg1qzxc6hye1iqd1duocmoxdjwthr1bmksnbfqcf8cq5hu8tf7krwp69 -p x -w luozhu001 --url2 stratum+tcp://hk.alephium.herominers.com:1199 --user2 19MiefHwqpTq5sgKkpQpA88XNubMiTeN4iQnmvhi4JNxA --pass2 x --proxy 127.0.0.1:1090
 pause
 ```
+
+## 收益对比
+
+![](https://s2.loli.net/2022/02/08/rxcSawMsAQBbmpk.png)
 
 ## 相关链接
 
