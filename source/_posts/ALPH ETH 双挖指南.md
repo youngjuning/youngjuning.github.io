@@ -34,10 +34,18 @@ Alephium 是第一个在比特币核心技术、工作证明和 [UTXO](https://e
 
 [T-rex 0.25.2](https://github.com/trexminer/T-Rex/releases/tag/0.25.2) 开始支持了 ETH+ALPH 双挖（默认 ETH 68% / ALPH 32%）。实测 3060ti lhr 可以 ETH 可以达到 45 MH/s，ALPH 算力可以达到 400 MH/s。
 
+### 脚本
+
 ```bash
 t-rex.exe -a ethash --lhr-algo blake3 -o stratum+ssl://asia-eth.2miners.com:12020 -u nano_131cbg1qzxc6hye1iqd1duocmoxdjwthr1bmksnbfqcf8cq5hu8tf7krwp69 -p x -w luozhu001 --url2 stratum+tcp://hk.alephium.herominers.com:1199 --user2 19MiefHwqpTq5sgKkpQpA88XNubMiTeN4iQnmvhi4JNxA --pass2 x --proxy 127.0.0.1:1090
 pause
 ```
+
+### 超频
+
+我用的是旺财矿工的超频设置工具，如果你也用旺财矿工可以参考我的配置，其中显存设置为 1300 和 1800 那两张卡是因为卡体质问题，分别对应三风扇技嘉和两风扇华硕。
+
+![](https://cdn.jsdelivr.net/gh/youngjuning/images/202202081359496.png)
 
 ## 收益对比
 
