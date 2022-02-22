@@ -8,6 +8,7 @@ tags:
   - 以太坊
   - 挖矿
   - HiveOS
+hide: true
 ---
 
 ## 注册
