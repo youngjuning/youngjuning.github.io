@@ -6,6 +6,7 @@ categories:
   - 区块链
 tags:
   - metamask
+
 ---
 
 币安智能链是目前世界上最大的以太坊交易所，MetaMask 则是专注服务于以太坊的钱包应用。

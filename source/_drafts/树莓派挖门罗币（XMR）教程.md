@@ -9,7 +9,7 @@ tags:
   - Monero
   - XMR
   - 挖矿
-hidden: true
+
 ---
 
 ## 准备 64 位系统

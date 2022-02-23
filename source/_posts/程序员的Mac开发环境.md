@@ -1,17 +1,13 @@
 ---
 title: 程序员的Mac开发环境
 date: 2020-03-05 01:06:42
+cover: https://i.loli.net/2020/03/07/dPCm6qwpsZn8k1o.png
 categories:
   - [杂谈]
 tags:
   - Mac
   - 开发环境
 ---
-
-![](https://i.loli.net/2020/03/07/dPCm6qwpsZn8k1o.png)
-
-<!--more-->
-
 
 ## ohmyzsh
 
