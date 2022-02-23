@@ -2252,10 +2252,10 @@ hexo-renderer-marked@^5.0.0:
     jsdom "^19.0.0"
     marked "^4.0.1"
 
-hexo-renderer-pug@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.nlark.com/hexo-renderer-pug/download/hexo-renderer-pug-2.0.0.tgz#5ceab24645d184b7370608ebdcb869e776f72d05"
-  integrity sha1-XOqyRkXRhLc3Bgjr3Lhp53b3LQU=
+hexo-renderer-pug@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-pug/-/hexo-renderer-pug-3.0.0.tgz#4ca631cd0ecccefc43b70ac44230d5008956adc2"
+  integrity sha512-PmbLx6VkNv+mPLOe97OC4F8iTzTuj665dSYN7bZKArd4M/q7gb2tNs29VGuAOC50i9tvWY2f+tPQimf0GZ9Hyw==
   dependencies:
     pug "^3.0.2"
 
