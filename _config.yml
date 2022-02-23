@@ -153,6 +153,16 @@ douban:
     path: movies
     limit:
   timeout: 10000
+# hexo-hide-posts
+hide_posts:
+  enable: true
+  # 可以改成其他你喜欢的名字
+  filter: hidden
+  # 指定你想要传递隐藏文章的 generator，比如让所有隐藏文章在存档页面可见
+  # 常见的 generators 有：index, tag, category, archive, sitemap, feed, etc.
+  # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
+  noindex: true
+
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 

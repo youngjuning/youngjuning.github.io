@@ -628,7 +628,7 @@ chalk@^2.0.1, chalk@^2.4.1, chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0:
+chalk@^4.0.0, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://registry.nlark.com/chalk/download/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha1-qsTit3NKdAhnrrFr8CqtVWoeegE=
@@ -2024,7 +2024,7 @@ hexo-butterfly-douban@^1.2.5:
     hexo-fs "^3.1.0"
     hexo-i18n "^1.0.0"
     hexo-log "^3.0.0"
-    urllib-sync "github:jerryc127/urllib-sync"
+    urllib-sync jerryc127/urllib-sync
     xpath "^0.0.32"
 
 hexo-cli@^2.0.0:
@@ -2181,6 +2181,13 @@ hexo-helper-live2d@^3.1.1:
     opencollective "^1.0.3"
     opencollective-postinstall "^2.0.2"
     path "^0.12.7"
+
+hexo-hide-posts@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-hide-posts/-/hexo-hide-posts-0.2.0.tgz#3f28940243ed406e9a82f01831176eabefb57c2e"
+  integrity sha512-euTftMGCSYkhn/ARVuOv+XQIMNTUy5vCiutaY0qcN92NdZTfPG/wKCkeR3yE7LpMs/Y0aTuEp9F5NUVP/Dt6nA==
+  dependencies:
+    chalk "^4.1.2"
 
 hexo-i18n@^0.2.1:
   version "0.2.1"
@@ -5430,7 +5437,6 @@ url-parse-lax@^3.0.0:
 
 "urllib-sync@github:jerryc127/urllib-sync":
   version "1.1.4"
-  uid da6ff601d35dcc681fc2177902edcd5de1d62196
   resolved "https://codeload.github.com/jerryc127/urllib-sync/tar.gz/da6ff601d35dcc681fc2177902edcd5de1d62196"
   dependencies:
     urllib "~2.37.1"
