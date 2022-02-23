@@ -9,7 +9,7 @@ tags:
   - 以太坊
   - ETH
   - TONCOIN
-hide: true
+hidden: true
 ---
 
 ## 收益对比

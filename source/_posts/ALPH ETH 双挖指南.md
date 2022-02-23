@@ -7,7 +7,7 @@ categories:
 tags:
   - ALPH
   - Alephium
-hide: true
+hidden: true
 ---
 
 ## Alephium 是什么？
