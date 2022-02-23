@@ -1,11 +1,11 @@
 ---
 title: React Native 热更新不求人
-date: 2020-05-30
- 21:59:19
+date: 2020-05-30 21:59:19
+categories:
+  - 前端
 tags:
+  - React Native
 ---
-
-<!--more-->
 
 ## code-push-server
 

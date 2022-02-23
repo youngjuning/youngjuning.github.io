@@ -1,16 +1,13 @@
 ---
 title: React Native 收藏夹
 date: 2020-02-14 15:36:00
-sticky: 1
+cover: https://i.loli.net/2020/02/19/6Vnx84tSCOP2XcE.jpg
 categories:
-  - [移动开发, React Native]
+  - 前端
 tags:
   - 收藏夹
+  - React Native
 ---
-
-<img src="https://i.loli.net/2020/02/19/6Vnx84tSCOP2XcE.jpg" style="zoom:50%;" />
-
-<!-- more -->
 
 ## 官方
 

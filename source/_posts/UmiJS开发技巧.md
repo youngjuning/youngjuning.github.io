@@ -1,15 +1,13 @@
 ---
 title: UmiJS开发技巧
 date: 2020-06-08 10:17:55
+cover: https://i.loli.net/2020/06/23/LYNpFyiax7mT1ZB.png
 categories:
- - [前端开发,React]
+ - 前端
 tags:
  - UmiJS
+ - React
 ---
-
-![image.png](https://i.loli.net/2020/06/23/LYNpFyiax7mT1ZB.png)
-
-<!--more-->
 
 鉴于 UmiJS 是重度的封装了很多工具和功能，对于刚接触的人形成了一层技术壁垒（大佬请忽略这句话）。所以我总结了使用UmiJS 开发中遇到的坑和技巧。
 

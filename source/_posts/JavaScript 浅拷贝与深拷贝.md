@@ -2,7 +2,9 @@
 title: JavaScript 浅拷贝与深拷贝
 date: 2020-02-07 12:00:57
 categories:
-  - [前端开发, JavaScript]
+  - 前端
+tags:
+  - JavaScript
 ---
 
 ## 基础类型值和引用类型值的区别

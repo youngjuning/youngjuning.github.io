@@ -1,11 +1,11 @@
 ---
-
 title: 写给前端的Linux实战教程
 date: 2020-03-28 20:39:42
 categories:
-  - [运维, Linux]
+  - 运维
 tags:
-  - ubuntu
+  - Ubuntu
+  - Linux
 ---
 
 <img src="https://i.loli.net/2020/03/30/rzVCW97GcjAa81k.png" style="zoom:30%;" />
@@ -401,7 +401,7 @@ x\{m,n\}  # 重复字符x，至少m次，不多于n次，如：'o\{5,10\}'匹配
 
 - `-c`：仅显示行中指定范围的字符，`cut -c 2-4 file`
 - `-d`：指定字段的分隔符，默认的字段分隔符为“TAB”。
-- 
+-
 
 ## 输出重定向
 
@@ -872,7 +872,7 @@ $ rsync -arvz --progress --delete ~/Desktop/blog root@47.98.152.68:/home/yangjun
 
 1. 进入家目录：`cd ~`
 2. 下载压缩包：`wget http://devtools.qiniu.com/qshell-linux-x86-v2.4.1.zip`
-3. 解压压缩包：`unzip ~/qshell-linux-x86-v2.4.1.zip` 
+3. 解压压缩包：`unzip ~/qshell-linux-x86-v2.4.1.zip`
 4. 任何位置运行：`mv ~/qshell-linux-x86-v2.4.1 /usr/local/bin/qshell`
 5. 权限：`chmod +x /usr/local/bin/qshell`
 6. 删除压缩包：`rm -rf ~/qshell-linux-x86-v2.4.1.zip`

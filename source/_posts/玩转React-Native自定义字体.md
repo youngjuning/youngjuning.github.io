@@ -9,8 +9,6 @@ tags:
   - 掘金
 ---
 
-> 本文首发于 [洛竹的博客](https://youngjuning.js.org/1c926274d062)，同步于 [掘金](https://juejin.cn/post/6844904078703591431)。
-
 1. 下载[免费商用字体](http://hao.ziticq.com/)
 
    > 法棍体：链接:https://pan.baidu.com/s/1M-CDEqsJ06qj-42uRyF0WA  密码:83er

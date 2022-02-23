@@ -1,10 +1,11 @@
 ---
-title: let和const的区别
+title: let 和 const 的区别
 date: 2020-02-07 18:49:11
 categories:
-  - [前端开发, JavaScript]
+  - 前端
 tags:
   - ES6
+  - JavaScript
 ---
 
 `let` 与 `const` 都是只在声明所在的块级作用域内有效。

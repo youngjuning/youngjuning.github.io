@@ -1,15 +1,13 @@
 ---
 title: 一个前端工程师的Docker学习笔记
 date: 2020-03-31 00:23:31
+cover: https://i.loli.net/2020/03/31/UI9JSTCENRvqDwY.png
 categories:
-  - [运维, Docker]
+  - 运维
 tags:
-  - [学习笔记]
+  - 笔记
+  - Docker
 ---
-
-![](https://i.loli.net/2020/03/31/UI9JSTCENRvqDwY.png)
-
-<!--more-->
 
 Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威力，极大提高了应用的维护效率，降低了云计算应用开发的成本！使用 Docker，可以让应用的部署、测试和分发都变得前所未有的高效和轻松！
 
@@ -176,7 +174,7 @@ $ docker run hello-world
 ```
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
-1b930d010525: Pull complete 
+1b930d010525: Pull complete
 Digest: sha256:f9dfddf63636d84ef479d645ab5885156ae030f611a56f3a7ac7f2fdd86d7e4e
 Status: Downloaded newer image for hello-world:latest
 

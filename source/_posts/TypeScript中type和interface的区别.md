@@ -1,14 +1,12 @@
 ---
 title: TypeScript中type和interface的区别
 date: 2020-02-19 01:26:43
+cover: https://i.loli.net/2020/02/19/MIStsCk9XxZgv3G.png
 categories:
-  - [前端开发, TypeScript]
+  - 前端
 tags:
+  - TypeScript
 ---
-
-![](https://i.loli.net/2020/02/19/MIStsCk9XxZgv3G.png)
-
-<!--more-->
 
 ## 相同点
 

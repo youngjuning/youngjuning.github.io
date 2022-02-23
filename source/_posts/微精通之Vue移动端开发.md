@@ -1,14 +1,14 @@
 ---
-title: 微精通之Vue移动端开发【持续更新】
+title: 微精通之 Vue 移动端开发
 date: 2020-07-13 15:37:03
+cover: https://i.loli.net/2020/07/13/B1Hlcn3iazQ9fxs.png
 categories:
-	- [前端开发,Vue]
+	- 前端
 tags:
 	- vant
 	- 微精通
+  - vue
 ---
-
-[![](https://i.loli.net/2020/07/13/B1Hlcn3iazQ9fxs.png)](https://mubu.com/doc/7ZqGKUzpwrH)
 
 精通任何技能都是需要时间的，但是往往工作中是不会给你这个时间的，尤其是开发工作。新技术层出不穷，每个项目都可能技术栈不一样。
 
@@ -279,7 +279,7 @@ Vant 中的样式默认使用`px`作为单位，如果需要使用`rem`单位，
 1、安装依赖：
 
 ```sh
-$ yarn add amfe-flexible 
+$ yarn add amfe-flexible
 $ yarn add postcss-pxtorem -D
 ```
 

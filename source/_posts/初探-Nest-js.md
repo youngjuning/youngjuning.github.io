@@ -1,16 +1,14 @@
 ---
 title: 初探 Nest.js
 date: 2020-03-02 04:05:36
+cover: https://i.loli.net/2020/03/02/GwX6NzRqa85bLhT.png
 categories:
-  - [Node.js]
+  - 前端
 tags:
   - Nest.js
   - server
+  - Node.js
 ---
-
-![](https://i.loli.net/2020/03/02/GwX6NzRqa85bLhT.png)
-
-<!--more-->
 
 ## Nest.js 是什么？
 

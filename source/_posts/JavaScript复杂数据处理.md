@@ -1,12 +1,15 @@
 ---
-title: JavaScript复杂数据处理
+title: JavaScript 复杂数据处理
 date: 2020-06-11 09:29:52
+cover: https://i.loli.net/2020/07/03/8Klm6nzZgGTbWVY.jpg
+categories:
+  - 前端
 tags:
+  - javascript
 ---
 
-![5df83eaacc524168.jpg](https://i.loli.net/2020/07/03/8Klm6nzZgGTbWVY.jpg)
+![5df83eaacc524168.jpg]()
 
-<!--more-->
 
 ## 根据一个数组过滤另一个数组
 

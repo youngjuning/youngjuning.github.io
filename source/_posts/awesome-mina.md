@@ -9,8 +9,6 @@ tags:
   - 微信小程序
 ---
 
-> 本文首发于 [洛竹的博客](https://youngjuning.js.org/b540d6419196)，暂未同步于任何平台。
-
 - [towxml](https://github.com/sbfkcel/towxml): Towxml 是一个可将HTML、Markdown转为微信小程序WXML(WeiXin Markup Language)的渲染库。用于解决在微信小程序中Markdown、HTML不能直接渲染的问题。
 - [mini-blog](https://github.com/CavinCao/mini-blog): mini-blog是一款基于云开发的博客小程序，该小程序完全不依赖任何后端服务，无需自己的网站、服务器、域名等资源，只需要自行注册小程序账号即可。
 - [wxa-plugin-canvas](https://github.com/jasondu/wxa-plugin-canvas): 小程序海报组件-生成朋友圈分享海报并生成图片

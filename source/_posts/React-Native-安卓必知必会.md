@@ -1,15 +1,13 @@
 ---
 title: React Native 安卓必知必会
 date: 2020-02-20 14:57:55
+cover: https://i.loli.net/2020/02/21/xUfw9Ib4TRsQGeM.png
 categories:
-  - [移动开发, React Native]
+  - 前端
 tags:
   - 安卓
+  - React Native]
 ---
-
-<img src="https://i.loli.net/2020/02/21/xUfw9Ib4TRsQGeM.png" style="zoom:70%;" />
-
-<!--more-->
 
 ## 配置应用名
 

@@ -1,8 +1,8 @@
 ---
-title: Typora基于PicGo-Core实现粘贴上传图片
+title: Typora 基于 PicGo-Core 实现粘贴上传图片
 date: 2020-04-10 17:57:41
 categories:
-  - [杂谈]
+  - 漫谈
 tags:
   - typora
   - markdown
@@ -61,4 +61,3 @@ windows 则为`C:\Users\你的用户名/.picgo\config.json`。
 
 - [Picgo-Core](https://picgo.github.io/PicGo-Core-Doc/zh/guide/config.html#%E9%BB%98%E8%AE%A4%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
 - [Typora Upload Image](https://support.typora.io/Upload-Image/)
-

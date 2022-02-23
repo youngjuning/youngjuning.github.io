@@ -1,16 +1,14 @@
 ---
 title: React Native 架构面面观
 date: 2020-02-23 17:26:09
+cover: https://i.loli.net/2020/02/24/hPsv4Q87zlIrX6x.png
 categories:
-  - [移动开发, React Native]
+  - 前端
 tags:
   - 架构
   - 最佳实践
+  - React Native
 ---
-
-[<img src="https://i.loli.net/2020/02/24/hPsv4Q87zlIrX6x.png" style="zoom:36%;" />](https://github.com/sigmayun/react-native-template-typescript)
-
-<!--more-->
 
 ## @sigmayun/react-native-template-typescript
 

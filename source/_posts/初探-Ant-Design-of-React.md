@@ -1,20 +1,17 @@
 ---
 title: 初探 Ant Design of React
 date: 2020-03-04 04:17:10
+cover: https://i.loli.net/2020/03/04/hK2MgsYGvuayp7Q.png
 categories:
-  - [前端开发, React]
+  - 前端
 tags:
   - antd
   - UI框架
 ---
 
-![](https://i.loli.net/2020/03/04/hK2MgsYGvuayp7Q.png)
-
 `antd` 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
 
 > 文章可参考源码：[antd-with-ts-demo](https://github.com/youngjuning/antd-with-ts-demo)
-
-<!--more-->
 
 ## Ant Design 设计体系
 

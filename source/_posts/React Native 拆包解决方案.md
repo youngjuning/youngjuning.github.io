@@ -2,9 +2,10 @@
 title: React Native 拆包解决方案
 date: 2020-02-15 16:56:19
 categories:
-  - [移动开发, React Native]
+  - 前端
 tags:
   - metro
+  - React Native
 ---
 
 一个RN应用中可能包含许多不同的业务，这些不同的业务很可能是不同部门开发的，这样一个库中就有许许多多的重复的RN代码和第三方库代码。

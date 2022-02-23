@@ -2,9 +2,10 @@
 title: React Native 配置字体大小不随字体设置变化
 date: 2020-02-20 15:38:31
 categories:
-  - [移动开发, React Native]
+  - 前端
 tags:
   - 字体
+  - React Native
 ---
 
 添加以下代码到 `index.js`:
