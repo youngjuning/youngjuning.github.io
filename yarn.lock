@@ -2156,10 +2156,10 @@ hexo-generator-search@^2.4.3:
     nunjucks "^3.0.1"
     utils-merge "^1.0.0"
 
-hexo-generator-sitemap@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/hexo-generator-sitemap/-/hexo-generator-sitemap-2.2.0.tgz#4422670b6d9bbf8e512bc1219c4409f330cf3291"
-  integrity sha512-WoS/GpdrazoiFuhZXS3Qnb22L0uaiKHHWefcsoE7JLjh8WsksFom4v2FoNhr1RIYwFV7SudQFs91P5xcW+Gfow==
+hexo-generator-sitemap@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-sitemap/-/hexo-generator-sitemap-3.0.0.tgz#731f1e01455ea94f2e4808cde0fc6787cb85c2ee"
+  integrity sha512-Wv8tglblG4fHUtsUrxDSKSOCWn2f3RpXHlXPIcsnHluUaCGqmZ/b6KvCH1chxvtQ4IcMRu+rVZeUN3Z9UKoy4A==
   dependencies:
     hexo-util "^2.1.0"
     micromatch "^4.0.2"
