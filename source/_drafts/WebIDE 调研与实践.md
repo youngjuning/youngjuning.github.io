@@ -22,6 +22,51 @@ WebIDE 是基于 H5 支持多语言的在线集成开发环境。相较于传统
 
 # 基于 code-server 搭建 WebIDE 平台 @洛竹
 
+
+code-server 是一个免费的基于浏览器的 IDE，它是基于 vscode 封装的跨平台 IDE。
+
+## 部署
+
+### 安装 nodejs
+
+**安装源**
+
+```sh
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+```
+
+**安装 nodejs**
+
+```sh
+sudo apt-get install -y nodejs
+```
+
+**更新 npm**
+
+```sh
+sudo npm install -g npm
+```
+
+### 安装 code-server
+
+```sh
+curl -fsSL https://code-server.dev/install.sh | sh
+```
+
+执行下面的命令以支持 systemd 方式启动并开始开机自启动：
+
+```sh
+sudo systemctl enable --now code-server@$USER
+```
+
+或者你不需要后台服务，你可以执行下面的命令：
+
+```sh
+code-server
+```
+
+### nginx 反向代理
+
 # 基于 monaco-editor 实现 WebIDE @锐文
 
 # 基于 Theia 搭建 WebIDE 平台 @利民
