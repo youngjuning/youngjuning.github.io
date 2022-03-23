@@ -6,7 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "start": "hexo server --draft -i http://129.226.225.220",
+    "start": "hexo server --draft",
     "post": "hexo new",
     "draft": "hexo new draft"
   },
