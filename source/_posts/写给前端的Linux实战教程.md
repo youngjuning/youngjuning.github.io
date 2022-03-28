@@ -81,7 +81,7 @@ $ n prune
 
 > 修改 `~/.zshrc` 之后都需要执行 `source ~/.zshrc` 命令使之立即生效
 >
-> `echo $SHLL` 可以查看当前 Shell
+> `echo $SHELL` 可以查看当前 Shell
 
 - `apt install zsh`
 - `git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh`
