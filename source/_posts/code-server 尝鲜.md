@@ -1,6 +1,13 @@
 ---
-title: WebIDE 调研与实践
+title: code-server 尝鲜
 date: 2022-03-19 18:00:00
+cover: https://i.loli.net/2020/02/19/jtOuDvA5ihVlebc.jpg
+categories:
+  - 前端
+tags:
+  - vscode
+  - ide
+  - code-sever
 ---
 
 # WebIDE 概述
