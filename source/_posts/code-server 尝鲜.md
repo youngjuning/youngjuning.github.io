@@ -1,7 +1,7 @@
 ---
 title: code-server 尝鲜
 date: 2022-03-19 18:00:00
-cover: https://i.loli.net/2020/02/19/jtOuDvA5ihVlebc.jpg
+cover: https://s2.loli.net/2022/03/28/gcfxtdC7vX3pHQe.png
 categories:
   - 前端
 tags:
