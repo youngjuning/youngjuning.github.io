@@ -904,9 +904,3 @@ $ qshell account -- ak sk name
 ```sh
 $ qshell qupload2 --src-dir=/root --bucket=aliyun-server-backup
 ```
-
-## 联系作者
-
-|                           作者微信                           |                           知识星球                           |                           赞赏作者                           |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb24c7412?w=200&h=200&f=jpeg&s=17183" style="width:200px"/> | <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb26af8e1?w=200&h=200&f=png&s=39093" style="width:200px"/> | <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb338c643?w=698&h=700&f=png&s=315492" style="width:200px"/> |
