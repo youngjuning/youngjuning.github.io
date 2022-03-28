@@ -85,7 +85,7 @@ $ n prune
 
 - `apt install zsh`
 - `git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh`
-- `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+- `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
 - `nano ~/.zshrc`
 - 找到 `ZSH_THEME="robbyrussell"` ，把 `robbyrussell` 替换为 `ys`
 - 修改默认Shell：`chsh -s /bin/zsh`
