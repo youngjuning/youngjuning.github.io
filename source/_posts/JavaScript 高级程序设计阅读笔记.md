@@ -9,6 +9,12 @@ tags:
   - javascript
 ---
 
+## 1. JavaScript 由哪些部分组成？
+
+- 核心（ECMAScript）
+- 文档对象模型（DOM，Document Object Model）
+- 浏览器对象模型（BOM，Browser Object Model）
+
 ## JS的原始类型有哪几种？
 
 在 JS 中，存在这6种原始值，分别是：
