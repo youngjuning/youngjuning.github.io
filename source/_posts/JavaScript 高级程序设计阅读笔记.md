@@ -11,9 +11,82 @@ tags:
 
 ## 1. JavaScript 由哪些部分组成？
 
-- 核心（ECMAScript）
-- 文档对象模型（DOM，Document Object Model）
-- 浏览器对象模型（BOM，Browser Object Model）
+- ECMAScript：由 ECMA-262d 定义并提供核心功能。
+- 文档对象模型（DOM，Document Object Model）：提供与网页交互的方法和接口
+- 浏览器对象模型（BOM，Browser Object Model）：提供与浏览器交互的方法和接口
+
+## 2. ECMA-262 到底定义了什么？
+
+- 语法
+- 类型
+- 语句
+- 关键字
+- 保留字
+- 操作符
+- 全局对象
+
+ECMAScript 只是对实现这个规范描述的所有方面的一个抽象，它并不是一个完整的语言。JavaScript 实现了 ECMAScrip，而 Adobe ActionScript 同样实现了 ECMAScript。
+
+## 3. JavaScript 标识符
+
+所谓标识符，就是变量、函数、函数参数或对象属性的名称。标识符可以由一或多个下列字符组成：
+
+- 第一个字符必须是一个字符、下划线（_）或美元符合（$）；
+- 剩下的其他字符可以是字母、下划线（_）、美元符号或数字。
+
+> 注意：标识符中的字母可以是扩展 ASCII（Extended ASCII） 中的字母，也可以是 Unicode 的字母字符。
+
+> 注意：关键字、保留字、true、false、null 不能作为标识符。
+
+## 4. var 声明作用域
+
+使用 var 操作符定义的变量会成为包含的函数的局部变量，在函数内部使用，函数结束后变量就会被销毁。
+
+```js
+function test() {
+  var message = 'Hello World'; // 局部变量
+}
+test();
+console.log(message); // ReferenceError: message is not defined
+```
+
+> 注意：去掉之前的 var 操作符之后，message 就变成了全局变量。只要调用一次函数 `test()`，就会定义这个变量，并且可以在函数外部访问到。
+
+## 5. var 声明提升
+
+使用 `var` 声明的变量会被自动提升到函数作用域顶部：
+
+```js
+function test() {
+  console.log(age); // undefined
+  var age = 18;
+}
+```
+
+之所以不会报错，是因为 ECMAScript 运行时把它看成等价如下的代码：
+
+```js
+function foo() {
+  var age;
+  console.log(age); // undefined
+  age = 18;
+}
+```
+
+这就是所谓的“提升”（hoist），也就是把所有变量声明都拉到函数作用域的顶部。
+
+## 6. var 重复声明
+
+反复多次使用 `var` 声明同一个变量也没有问题：
+
+```js
+function foo() {
+  var age = 16;
+  var age = 26;
+  var age = 36;
+  console.log(age); // 36
+}
+```
 
 ## JS的原始类型有哪几种？
 
