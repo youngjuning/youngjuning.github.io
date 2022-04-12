@@ -18,3 +18,6 @@
     - name: JS 测试最佳实践
       link: https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme-zh-CN.md
       descr: 本指南可以助你将测试能力提升到下一层级
+    - name: 菜鸟教程
+      link: https://www.runoob.com/
+      descr: 学的不仅是技术，更是梦想！
