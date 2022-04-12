@@ -15,6 +15,6 @@
 - class_name: 学习资料
   class_desc: 独家私藏的学习资料
   link_list:
-    - name: JavaScript 测试最佳实践
+    - name: JS 测试最佳实践
       link: https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme-zh-CN.md
       descr: 本指南可以助你将测试能力提升到下一层级
