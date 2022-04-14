@@ -51,7 +51,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/youngjuning || Github
+  fab fa-github: https://github.com/youngjuning/youngjuning.github.io || Github
   fas fa-envelope: mailto:youngjuning@163.com || Email
   fab fa-weixin: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211725265.png || 微信
 

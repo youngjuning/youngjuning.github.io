@@ -21,3 +21,6 @@
     - name: 菜鸟教程
       link: https://www.runoob.com/
       descr: 学的不仅是技术，更是梦想！
+    - name: MongoDB 中文社区
+      link: https://mongoing.com/
+      descr: MongoDB 中文社区
