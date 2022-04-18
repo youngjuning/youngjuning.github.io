@@ -118,6 +118,8 @@ sudo systemctl restart mongodb
 
 ![](https://s2.loli.net/2022/04/13/fLhd9t1sZ8KTaRA.png)
 
+更多安全知识参考 [MongoDB数据库未授权访问漏洞防御最佳实践](https://help.aliyun.com/document_detail/112035.html)
+
 # MongoDB 概念
 
 - database：数据库，是 MongoDB 的核心，用来存储数据，每个数据库都有自己的集合，集合中存储的是数据。
@@ -256,7 +258,62 @@ MongoClient.connect(url, function(err, db) {
 如果要插入多条数据，可以使用 `insertMany()` 。
 
 ```js
+var MongoClient = require("mongodb").MongoClient;
+var url = "mongodb://localhost:27017/";
 
+MongoClient.connect(url, function(err, db) {
+  if (err) console.log(err);
+  var dbo = db.db("luozhu");
+  var myobj = [
+    { name: 'Facebook', website: 'https://www.facebook.com/' },
+    { name: 'Github', website: 'https://github.com'}
+  ]
+  dbo.collection("site").insertMany(myobj, function(err, res) {
+    if (err) console.log(err);
+    console.log("文档插入成功", res.insertedCount);
+    db.close();
+  })
+})
+```
+
+### 查询数据
+
+#### 查询所有数据
+
+可以使用 `find()` 来查找数据。`find()` 可以返回符合条件的所有数据。如果未指定条件，`find()` 返回集合中的所有数据。
+
+```js
+var MongoClient = require("mongodb").MongoClient;
+var url = "mongodb://localhost:27017/";
+
+MongoClient.connect(url, function(err, db) {
+  if(err) console.log(err);
+  var dbo = db.db("luozhu");
+
+  dbo.collection("site").find({}).toArray(function(err, result) { // 返回集合中所有数据
+    if(err) console.log(err);
+    console.log(result);
+    db.close();
+  })
+});
+```
+
+#### 查询指定条件的数据
+
+```js
+var MongoClient = require("mongodb").MongoClient;
+var url = "mongodb://localhost:27017/";
+
+MongoClient.connect(url, function(err, db) {
+  if(err) console.log(err);
+  var dbo = db.db("luozhu");
+  var whereStr = {"name":'Github'};  // 查询条件
+  dbo.collection("site").find(whereStr).toArray(function(err, result) {
+    if(err) console.log(err);
+    console.log(result);
+    db.close();
+  })
+});
 ```
 
 # 参考链接
