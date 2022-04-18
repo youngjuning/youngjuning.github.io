@@ -118,6 +118,147 @@ sudo systemctl restart mongodb
 
 ![](https://s2.loli.net/2022/04/13/fLhd9t1sZ8KTaRA.png)
 
+# MongoDB 概念
+
+- database：数据库，是 MongoDB 的核心，用来存储数据，每个数据库都有自己的集合，集合中存储的是数据。
+- collection：集合，相当于关系型数据库中的表（table）
+- document：文档，相当于关系型数据库中的行（row）
+- field：字段，相当于关系型数据库中的列（column）
+- index：索引，相当于关系型数据库中的索引
+- primary key：主键，相当于关系型数据库中的主键，MongoDB 中主键的名称默认为 `_id`
+
+## 数据库
+
+一个 mongodb 中可以建立多个数据库。 MongoDB 的默认数据库为 `db`，该数据库存储在 data 目录中。
+
+MongoDB 的单个实例可以容纳多个独立的数据库，每一个都有自己的集合和权限，不同的数据库也防止在不同的文件中。
+
+`show dbs` 命令可以显示所有数据的列表。
+
+```shell
+$ mongo
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:27017
+MongoDB server version: 3.6.3
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+```
+
+运行 `use` 命令可以切换数据库，如果不存在则会自动创建。
+
+```shell
+> use test
+switched to db test
+```
+
+执行 `db` 命令可以显示当前数据库对象或集合。
+
+```shell
+> db
+test
+```
+
+### 数据库命名规范
+
+- 不能是空字符
+- 不能含有 `' '`（空格）、`.`、`/`、`\` 和 `\0`（空字符）
+- 应全部小写
+- 最多 64 字节
+
+### 默认数据库
+
+- admin：从权限的角度来看，这是 root 数据库。要是将一个用户添加到这个数据库，这个用户自动继承所有数据库的权限。一些特定的服务器端命令也只能从这个数据库运行，比如列出所有的数据库或者关闭服务器。
+- local：这个数据永远不会被复制，可以用来存储限于本地单台服务器的任意集合。
+- config：当 Mongo 用于分片设置时，config 数据库在内部使用，用于保存分片的相关信息。
+
+# 连接 MongoDB
+
+标准 URI 连接语法：
+
+```shell
+mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]
+```
+
+- `mongodb://`：这是固定的格式，必须指定
+- `username:password@`：可选项，如果设置，在连接数据库服务器之后，驱动都会尝试登录这个数据库
+- `host1`：必须的，指定至少一个 host，host1 是这个 URI 唯一要填写的。它指定了要连接服务器的地址。如果要连接复制集，请指定多个主机地址。
+- `portX`：可选的指定端口，如果不填，默认为 27017
+- `/database`：如果指定 `username:password@`，连接并验证登录指定数据库。若不指定，默认打开 test 数据库。
+- `?options`：是连接选项。如果不使用 `/database`，则前面需要加上 `/`。所有连接选项都是键值对 `name=value`，键值对之间通过 `&` 或 `;` 隔开
+
+## nodejs
+
+### 安装驱动
+
+```shell
+$ yarn add mongodb
+```
+
+### 连接数据库
+
+要在 MongoDB 中创建一个数据库，首先我们需要创建一个 MongoClient 对象，然后配置好指定的 URL 和端口号。
+
+如果数据库不存在，MongoDB 将创建数据库并建立连接。
+
+```js
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/luozhu";
+
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  console.log("数据库已创建！");
+  db.close();
+});
+```
+
+### 创建集合
+
+我们可以使用 `createCollection()` 方法来创建一个集合，这个集合可以是空的，也可以包含数据。
+
+```js
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/luozhu";
+
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  var dbo = db.db("luozhu");
+  dbo.createCollection("site", function(err, res) {
+    if (err) throw err;
+    console.log("集合已创建！");
+    db.close();
+  });
+});
+```
+
+### 插入数据
+
+以下实例我们连接数据库 luozhu 的 site 表，并插入一条数据。使用 `insertOne()` 。
+
+```js
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/luozhu";
+
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  var dbo = db.db("luozhu");
+  var myobj = { name: "Google", address: "https://google.com" };
+
+  dbo.collection("site").insertOne(myobj, function(err, res) {
+    if (err) throw err;
+    console.log("文档插入成功");
+    db.close();
+  });
+})
+```
+
+如果要插入多条数据，可以使用 `insertMany()` 。
+
+```js
+
+```
+
 # 参考链接
 
 - [如何在 Ubuntu 上安装 MongoDB](https://zhuanlan.zhihu.com/p/76349679)
