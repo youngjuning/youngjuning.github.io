@@ -316,6 +316,31 @@ MongoClient.connect(url, function(err, db) {
 });
 ```
 
+### 更新文档
+
+#### 更新一条文档
+
+```js
+var MongoClient = require("mongodb").MongoClient;
+var url = "mongodb://localhost:27017/";
+
+MongoClient.connect(url, function(err, db) {
+  if(err) console.log(err);
+  var dbo = db.db("luozhu");
+  var whereStr = { "name": 'Github' };  // 查询条件
+  var updateStr = { $set:{ "website": "https://github.com/youngjuning" }};  // 更新内容
+  dbo.collection("site").updateOne(whereStr, updateStr, function (err, res) {
+    if(err) console.log(err);
+    console.log("文档更新成功", res.matchedCount);
+    db.close();
+  })
+})
+```
+
+#### 更新多条文档
+
+```js
+
 # 参考链接
 
 - [如何在 Ubuntu 上安装 MongoDB](https://zhuanlan.zhihu.com/p/76349679)
