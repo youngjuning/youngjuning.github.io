@@ -337,9 +337,81 @@ MongoClient.connect(url, function(err, db) {
 })
 ```
 
+执行成功后，进入 mongo 管理工具查看数据已修改：
+
+```sh
+> db.site.find({ name: "GitHub" }).pretty()
+{
+    "_id" : ObjectId("5a794e36763eb821b24db854"),
+    "name" : "Github",
+    "url" : "https://www.github.com"     # 已修改为 https
+}
+```
+
 #### 更新多条文档
 
+如果要跟新所有符合条件的文档数据，可以使用 `updateMany()` 。
+
 ```js
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27018/";
+
+MongoClient.connect(url, (err, db) => {
+  if (err) console.log(err);
+  var dbo = db.db("luozhu");
+  var whereStr = {"country": 'us'};  // 查询条件
+  var updateStr = {$set: { "country" : "American" }};
+  dbo.collection("site").updateMany(whereStr, updateStr, (err, res) => {
+    if (err) console.log(err);
+    console.log(res.modifiedCount + " 条文档被更新");
+    db.close();
+  })
+});
+```
+
+`res.modifiedCount` 属性返回修改的文档数量。
+
+### 删除数据
+
+#### 删除一条数据
+
+```js
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27018/";
+
+MongoClient.connect(url, (err, db) => {
+  if(err) console.log(err);
+  var dbo = db.db("luozhu");
+  var whereStr = {"name": 'Github'};  // 查询条件
+  dbo.collection("site").deleteOne(whereStr, (err, res) => {
+    if(err) console.log(err);
+    console.log(res.deletedCount + " 条文档被删除");
+    db.close();
+  });
+})
+```
+
+#### 删除多条数据
+
+如果要删除多条语句可以使用 `deleteMany()` 方法。
+
+```js
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27018/";
+
+MongoClient.connect(url, function(err, db) {
+  if (err) console.log(err);
+  var dbo = db.db("luozhu");
+  var whereStr = {country: "American"};  // 查询条件
+  dbo.collection("site").deleteMany(whereStr, (err, res) => {
+    if(err) console.log(err);
+    console.log(res.deletedCount, "条文档被删除");
+    db.close();
+  })
+})
+```
+
+`res.deletedCount` 属性返回删除的文档数量。
 
 # 参考链接
 
