@@ -3,7 +3,6 @@
 [![](https://img.shields.io/website-up-down-green-red/https/youngjuing.js.org.svg)](https://youngjuning.js.org)
 [![github pages](https://github.com/youngjuning/youngjuning.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/youngjuning/youngjuning.github.io/actions/workflows/gh-pages.yml)
 [![](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://guides.github.com/features/mastering-markdown/)
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](http://129.226.225.220/?folder=/root/youngjuning.github.io)
 
 ## 克隆
 
