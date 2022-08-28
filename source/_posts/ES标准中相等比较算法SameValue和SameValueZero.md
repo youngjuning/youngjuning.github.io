@@ -1,5 +1,5 @@
 ---
-title: ES标准中相等比较算法SameValue和SameValueZero
+title: ES标准中相等比较算法 SameValue 和 SameValueZero
 date: 2020-02-05 10:35:30
 categories:
   - 前端
