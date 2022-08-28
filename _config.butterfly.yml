@@ -16,7 +16,6 @@ menu:
     电影: /movies/ || fas fa-video
     读书: /books/ || fas fa-book
     说说: /talk/ || fas fa-cloud-sun-rain
-  洛竹宇宙: https://youngjuning.js.org/cosmos/ || fas fa-atom
   开往: https://travellings.vercel.app/ || fas fa-paper-plane
   链接: /link/ || fas fa-link
   订阅: /atom.xml || fas fa-rss
