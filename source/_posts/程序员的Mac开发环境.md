@@ -1,5 +1,5 @@
 ---
-title: 程序员的Mac开发环境
+title: 程序员的 Mac 开发环境
 date: 2020-03-05 01:06:42
 cover: https://i.loli.net/2020/03/07/dPCm6qwpsZn8k1o.png
 categories:
@@ -8,6 +8,31 @@ tags:
   - Mac
   - 开发环境
 ---
+
+## Xcode Command Line Tools
+
+```sh
+$ xcode-select --install
+```
+
+## Homebrew
+
+访问 [brew.sh](https://brew.sh/index_zh-cn) 安装。使用 Homebrew 安装 Apple（或您的 Linux 系统）没有预装但 [你需要的东西](https://formulae.brew.sh/formula/)。Homebrew 将大大降低维护环境的时间。本文后面将尽可能使用 Homebrew。
+
+> 网络问题请参考 [解决homebrew安装curl: (7) Failed to connect to http://raw.githubusercontent.com port 443错误](https://www.huaweicloud.com/articles/2378bf35864b07da2b8b30db035a9897.html) 解决。
+
+- `brew install`：安装
+- `brew uninstall`：卸载
+- `brew update`：更新 homebrew
+- `brew upgrade`：更新已安装软件
+- `brew cleanup`：清理
+- `brew update && brew upgrade && brew cleanup`：一键清理
+
+卸载脚本：
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+```
 
 ## ohmyzsh
 
@@ -18,29 +43,15 @@ $ chsh -s /bin/zsh
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### Agnoster 主题配置
-
-- 终端执行 `open ~/.zshrc`
-- 找到 ZSH_THEME 修改为: `ZSH_THEME="agnoster"`
-- `source ~/.zshrc`
-- 安装 Powerline 对应的字体库
-   - `git clone https://github.com/powerline/fonts.git`
-   - `cd fonts`
-   - `install.sh`
-   - `cd ..`
-   - `rm -rf fonts`
-   - 进入：终端 > 偏好设置 > 字体修改为 ：`Meslo LG S DZ Regular for Powerline`。
-      ![](https://i.loli.net/2020/03/25/wHBrfAs2kScPjYR.png)
-
 ### 插件
 
 #### zsh-syntax-highlighting
 
 - 安装: `brew install zsh-syntax-highlighting`
 - Oh-my-zsh
-   - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-   - `plugins=( [plugins...] zsh-syntax-highlighting)`
-   - `source ~/.zshrc`
+  - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+  - `plugins=( [plugins...] zsh-syntax-highlighting)`
+  - `source ~/.zshrc`
 
 #### WakaTime for Terminal
 
@@ -48,9 +59,9 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 - `sudo pip install wakatime`
 - `cd ~/.oh-my-zsh/custom/plugins`
 - `git clone https://github.com/sobolevn/wakatime-zsh-plugin.git wakatime`
--  在你的 `~/.zshrc` 文件的 [list of plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/External-plugins) 添加 `wakatime`
+- 在你的 `~/.zshrc` 文件的 [list of plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/External-plugins) 添加 `wakatime`
 - `source ~/.zshrc`
-- 确保你的  [~/.wakatime.cfg](https://github.com/wakatime/wakatime#configuring) 文件中配置了 [API key](https://wakatime.com/settings/api-key) 。
+- 确保你的 [~/.wakatime.cfg](https://github.com/wakatime/wakatime#configuring) 文件中配置了 [API key](https://wakatime.com/settings/api-key) 。
 
 ## vim
 
@@ -64,19 +75,6 @@ $ echo "set showcmd" >> ~/.vimrc
 $ source ~/.vimrc
 ```
 
-## Homebrew
-
-访问 [brew.sh](https://brew.sh/index_zh-cn) 安装。使用 Homebrew 安装 Apple（或您的 Linux 系统）没有预装但 [你需要的东西](https://formulae.brew.sh/formula/)。Homebrew
-
-将大大降低维护环境的时间。本文后面将尽可能使用HomeBrew。
-
-- `brew install` : 安装
-- `brew uninstall`:  卸载
-- `brew update`: 更新 homebrew
-- `brew upgrade` : 更新已安装软件
-- `brew cleanup`: 清理
-- 一键清理: `brew update && brew upgrade && brew cleanup`
-
 ## Git
 
 ### 命令行工具
@@ -87,44 +85,40 @@ $ alias git='/usr/local/bin/git'
 $ brew install git
 ```
 
-### 可视化工具
-
-- [GitHub Desktop](https://desktop.github.com/): GitHub Desktop简化了您的开发工作流程
-- [Sourcetree](https://www.sourcetreeapp.com/): Simplicity and power in a beautiful Git GUI
-
 ### 命令行配置
 
 ```bash
 # 1、初始化设置
-$ git config --global user.name 'youngjuning'
+$ git config --global user.name '洛竹'
 $ git config --global user.email 'youngjuning@aliyun.com'
 # 2、将 `color.ui` 设置为 `auto` 可以让命令的输出拥有更高的可读性。
 $ git config --global color.ui auto
-# 3、git 记住用户名和密码
-$ git config --global credential.helper store
+# 3、忽略大小写
+$ git config --global core.ignorecase false
 # 4、core.autocrlf
 $ git config --global core.autocrlf input
+# 5、输出到terminal而不是vim
+$ git config --global pager.branch false
 ```
 
-> Linux或Mac系统使用LF作为行结束符，因此你不想 Git 在签出文件时进行自动的转换；当一个以 `CRLF` 为行结束符的文件不小心被引入时你肯定想进行修正，把 `core.autocrlf` 设置成 `input` 来告诉 Git 在提交时把 `CRLF` 转换成 `LF`，签出时不转换：
+> Linux 或 Mac 系统使用 LF 作为行结束符，因此你不想 Git 在签出文件时进行自动的转换；当一个以 `CRLF` 为行结束符的文件不小心被引入时你肯定想进行修正，把 `core.autocrlf` 设置成 `input` 来告诉 Git 在提交时把 `CRLF` 转换成 `LF`，签出时不转换：
 > 这样会在 Windows 系统上的签出文件中保留 `CRLF`，会在 Mac 和 Linux 系统上，包括仓库中保留 `LF`。
 
-## GitHub 加速
+## 代理配置
+
+需要为 git 单独设置代理加速，`41091` 是 HTTP/HTTPS 代理端口，请按照自己的情况填写。
 
 ```sh
-export ALL_PROXY="socks5://127.0.0.1:7891"
+$ git config --global https.proxy http://127.0.0.1:41091
+$ git config --global http.proxy http://127.0.0.1:41091
 ```
-
-7981 是你的代理端口，每个人的不一定一样！！！
-
-![12851588067873_ pic_hd](https://user-images.githubusercontent.com/13204332/80474227-ce18c780-8979-11ea-8024-31bc0503f964.jpg)
 
 ### 学习资料
 
-- [官方Book](https://git-scm.com/book/zh/v2)
+- [官方 Book](https://git-scm.com/book/zh/v2)
 - [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)：助你入门 git 的简明指南，木有高深内容
-- [廖雪峰的git教程](http://t.cn/RK0tLXB)
-- [猴子都能懂的GIT入门](https://backlog.com/git-tutorial/cn/)
+- [廖雪峰的 git 教程](http://t.cn/RK0tLXB)
+- [猴子都能懂的 GIT 入门](https://backlog.com/git-tutorial/cn/)
 
 ## Node
 
@@ -145,7 +139,7 @@ $ n rm 12.10.0
 $ n prune
 ```
 
-### 更新npm
+### 更新 npm
 
 ```shell
 $ sudo npm install -g npm
@@ -154,24 +148,49 @@ $ sudo npm install -g npm
 ### nrm 管理 registry
 
 ```shell
-$ sudo i -g nrm
+$ sudo npm install -g nrm
 # 列出可用的代理
 $ nrm ls
 # 添加私有代理
-$ nrm add sigma http://192.168.2.116:4873 http://192.168.2.116:4873
-# 切换代理到 sigma 源
-$ nrm use sigma
+$ nrm add local http://127.0.0.0:4873 http://127.0.0.0:4873
 ```
 
-## React Native
+## VS Code
 
-强烈建议一步一步按照官方的 [搭建开发环境](https://reactnative.cn/docs/getting-started.html) 进行配置。
+[Visual Studio Code](https://code.visualstudio.com/) 是一个由微软开发，同时支持 Windows 、 Linux 和 macOS 等操作系统且开放源代码的代码编辑器，它支持测试，并内置了 Git 版本控制功能，同时也具有开发环境功能，例如代码补全、代码片段和代码重构等。
 
-## Navicat Premium
+## d8
 
-Navicat Premium 是一套数据库开发工具，让你从单一应用程序中同时连接 MySQL、MariaDB、MongoDB、SQL Server、Oracle、PostgreSQL 和 SQLite 数据库。它与 Amazon RDS、Amazon Aurora、Amazon Redshift、Microsoft Azure、Oracle Cloud、MongoDB Atlas、腾讯云和华为云等云数据库兼容。你可以快速轻松地创建、管理和维护数据库。
+> 不要使用 `brew install v8`，因为可用命令是不完整的。
 
-> Mac版: 链接:https://pan.baidu.com/s/1SlL1_bd4qirMnF0sLwRLhA  密码:4jq6
+### 预备条件
+
+- Install Xcode (Avaliable on the Mac App Store)
+- Install Xcode Command Line Tools (Preferences > Downloads)
+- Install [depot_tools](https://www.chromium.org/developers/how-tos/install-depot-tools)
+  - `cd ~ && git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git`
+  - `sudo nano ~/.zshrc`(zsh) or `sudo nano ~/.bash_profile`(bash)
+  - Add `export PATH=~/depot_tools:"$PATH"` (it's important that depot_tools comes first here)
+  - `source ~/.zshrc`
+  - From the directory you want to install V8 into, run `gclient`
+
+### Build V8
+
+- `fetch v8`
+- `cd ~/v8`
+- `gclient sync`
+- `tools/dev/v8gen.py x64.optdebug`
+- `ninja -C out.gn/x64.optdebug` (prepare for lots of fan noise)
+
+I'd also recommend adding these to your `.zshrc`:
+
+- `sudo nano ~/.zshrc`
+- Add `alias d8=~/v8/out.gn/x64.optdebug/d8`
+- Add `alias tick-processor=~/v8/tools/mac-tick-processor`
+- Add `export D8_PATH="~/v8/out.gn/x64.optdebug"`
+- `source ~/.zshrc`
+
+> 使用 Demo 请参考 [d8-shell-examples](https://gist.github.com/kevincennis/0cd2138c78a07412ef21#d8-shell-examples)
 
 ## Java
 
@@ -182,99 +201,20 @@ Navicat Premium 是一套数据库开发工具，让你从单一应用程序中�
 
 ### 实用命令
 
-- Mac下查看已安装的jdk版本及其安装目录: `/usr/libexec/java_home -V`
-   ```sh
-   Matching Java Virtual Machines (2):
-    1.8.0_221, x86_64:	"Java SE 8"	/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
-    1.7.0_80, x86_64:	"Java SE 7"	/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
+- Mac 下查看已安装的 jdk 版本及其安装目录: `/usr/libexec/java_home -V`
 
-   /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
-   ```
-- 查看jre版本: `java -version`
-- 查看jdk版本: `javac -version`
+  ```sh
+  Matching Java Virtual Machines (2):
+   1.8.0_221, x86_64:	"Java SE 8"	/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
+   1.7.0_80, x86_64:	"Java SE 7"	/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
 
-### 管理 jdk 版本
+  /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
+  ```
 
-> 参考 [Mac 多版本 JDK 管理](https://www.cnblogs.com/magexi/p/12053401.html)
+- 查看 jre 版本: `java -version`
+- 查看 jdk 版本: `javac -version`
 
-1、下载 jenv:
-
-```sh
-$ brew install jenv
-```
-
-2、安装成功后进行配置
-
-```sh
-# Shell: bash
-$ echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bash_profile
-$ echo 'eval "$(jenv init -)"' >> ~/.bash_profile
-# Shell: zsh
-$ echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
-$ echo 'eval "$(jenv init -)"' >> ~/.zshrc
-$ exec $SHELL -l
-```
-
-> 注：一定要使用命令 `source ~/.zshrc` 来编译 `~/.zshrc` 文件
-
-3、执行 `jenv doctor` 验证 jenv 是否安装成功，出现以下信息，说明成功了。
-
-```sh
-[OK]	No JAVA_HOME set
-[ERROR]	Java binary in path is not in the jenv shims.
-[ERROR]	Please check your path, or try using /path/to/java/home is not a valid path to java installation.
-	PATH : /Users/user/.jenv/libexec:/Users/user/.jenv/shims:/Users/user/.jenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-[OK]	Jenv is correctly loaded
-```
-
-4、输入以下命令查看找到的java版本
-
-```
-$ jenv versions
-   * system (set by /Users/yangjunning/.jenv/version)
-```
-
-只找到了系统默认的 Java，想要切换版本，请先下载安装不同的版本。
-
-5、使用 `jenv add` 命令将 JDK 1.7 加入 jenv 中
-
-> 版本及路径请通过 `/usr/libexec/java_home -V` 查看。
-
-```sh
-$ jenv add /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/
-oracle64-1.7.0.80 added
-1.7.0.80 added
-1.7 added
-```
-
-6、添加最新的 JDK
-
-```sh
-$ jenv add $(/usr/libexec/java_home)
-```
-
-7、使用 `jenv add` 命令将 JDK 1.8 加入 jenv 中
-
-```
-$ jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/
-oracle64-1.8.0_221 added
-1.8.0_221 added
-1.8 added
-```
-
-8、选择一个JDK版本，运行 jenv local 命令
-
-- `jenv global`: 用来设置全局 JDK
-- `jenv local`: 用来设置当前目录 JDK
-- `jenv shell`: 用来设置 `shell session` 中的 JDK
-
-> 每次切换 JDK 之后，执行 `exec $SHELL -l` 或者重启终端
-
-9、Maven 修改
-
-Maven 仍然会使用 `/usr/libexec/java_home -v` 输出的 JDK，可能与当前使用的 JDK 版本不同。用 `jenv enable-plugin maven` s命令启用 Maven 插件即可
-
-## maven
+## Maven
 
 ### 安装
 
@@ -311,7 +251,7 @@ $ mvn help:system
 </mirror>
 ```
 
-### 升级 maven
+### 升级 Maven
 
 ```sh
 $ brew unlink
@@ -319,19 +259,21 @@ $ brew update
 $ brew install maven
 ```
 
-## MySql
+## 数据库
+
+### MySql
 
 ```shell
 $ brew install mysql
 ```
 
-### 修改配置文件
+#### 修改配置文件
 
 ```shell
 $ nano /usr/local/etc/my.cnf
 ```
 
-### 启动服务
+#### 启动服务
 
 ```shell
 brew services start mysql
@@ -343,7 +285,7 @@ brew services stop mysql
 
 > Or, if you don't want/need a background service you can just run: `mysql.server start`
 
-### 安全设置
+#### 安全设置
 
 ```shell
 $ mysql_secure_installation
@@ -351,95 +293,95 @@ $ mysql_secure_installation
 
 1. 建立密码验证插件
 
-   ```shell
-   Securing the MySQL server deployment.
+```shell
+Securing the MySQL server deployment.
 
-   Connecting to MySQL using a blank password.
+Connecting to MySQL using a blank password.
 
-   VALIDATE PASSWORD PLUGIN can be used to test passwords and improve security. It checks the strength of password and allows the users to set only those passwords which are secure enough. Would you like to setup VALIDATE PASSWORD plugin?
+VALIDATE PASSWORD PLUGIN can be used to test passwords and improve security. It checks the strength of password and allows the users to set only those passwords which are secure enough. Would you like to setup VALIDATE PASSWORD plugin?
 
-   Press y|Y for Yes, any other key for No: y
-   ```
+Press y|Y for Yes, any other key for No: y
+```
 
 2. 选择密码规则
 
-   ```shell
-   There are three levels of password validation policy:
+```shell
+There are three levels of password validation policy:
 
-   LOW    Length >= 8
-   #长度大于等于8
-   MEDIUM Length >= 8, numeric, mixed case, and special characters
-   #长度大于等于8，数字、大小写字母、特殊符号
-   STRONG Length >= 8, numeric, mixed case, special characters and dictionary                  file
-   #长度大于等于8，数字、大小写字母、特殊符号和字典文件（慎选！）
+LOW    Length >= 8
+#长度大于等于8
+MEDIUM Length >= 8, numeric, mixed case, and special characters
+#长度大于等于8，数字、大小写字母、特殊符号
+STRONG Length >= 8, numeric, mixed case, special characters and dictionary file
+#长度大于等于8，数字、大小写字母、特殊符号和字典文件（慎选！）
 
-   Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
-   Please set the password for root here.
+Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
+Please set the password for root here.
 
-   New password: （输入你的密码）
-   Re-enter new password: （再次输入你的密码）
-   ```
+New password: （输入你的密码）
+Re-enter new password: （再次输入你的密码）
+```
 
 3. 创建符合规则的新密码
 
-   ```shell
-   Estimated strength of the password: 50 		#密码强度
-   Do you wish to continue with the password provided?(Press y|Y for Yes, any other key for No) : y
-   ```
+```shell
+Estimated strength of the password: 50 		#密码强度
+Do you wish to continue with the password provided?(Press y|Y for Yes, any other key for No) : y
+```
 
 4. 删除匿名用户
 
-   ```
-   By default, a MySQL installation has an anonymous user, allowing anyone to log into MySQL without having to have a user account created for them. This is intended only for testing, and to make the installation go a bit smoother.
-   You should remove them before moving into a production environment.
+```
+By default, a MySQL installation has an anonymous user, allowing anyone to log into MySQL without having to have a user account created for them. This is intended only for testing, and to make the installation go a bit smoother.
+You should remove them before moving into a production environment.
 
-   Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
-   Success.
-   ```
+Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
+Success.
+```
 
 5. 禁止远程登录
 
-   ```shell
-   Normally, root should only be allowed to connect from 'localhost'. This ensures that someone cannot guess at the root password from the network.
+```shell
+Normally, root should only be allowed to connect from 'localhost'. This ensures that someone cannot guess at the root password from the network.
 
-   Disallow root login remotely? (Press y|Y for Yes, any other key for No) : y
-   Success.
-   ```
+Disallow root login remotely? (Press y|Y for Yes, any other key for No) : y
+Success.
+```
 
 6. 删除测试数据表
 
-   ```shell
-   By default, MySQL comes with a database named 'test' that anyone can access. This is also intended only for testing, and should be removed before moving into a production environment.
+```shell
+By default, MySQL comes with a database named 'test' that anyone can access. This is also intended only for testing, and should be removed before moving into a production environment.
 
-   Remove test database and access to it? (Press y|Y for Yes, any other key for No) : y
-    - Dropping test database...
-   Success.
+Remove test database and access to it? (Press y|Y for Yes, any other key for No) : y
+- Dropping test database...
+Success.
 
-    - Removing privileges on test database...
-   Success.
-   ```
+- Removing privileges on test database...
+Success.
+```
 
 7. Done
 
-   ```shell
-   Reloading the privilege tables will ensure that all changes made so far will take effect immediately.
+```shell
+Reloading the privilege tables will ensure that all changes made so far will take effect immediately.
 
-   Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
-   #是否重新加载权限表
-   Success.
+Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
+#是否重新加载权限表
+Success.
 
-   All done!
-   ```
+All done!
+```
 
-#### Your password does not satisfy the current policy requirements.
+**Your password does not satisfy the current policy requirements：**
 
-如果你在选择密码规则的时候不小心选择了2，也就是数字、大小写字母、特殊符号和字典文件的组合。这时你会发现 `mysql_secure_installation`不会再给你机会重新设置了。手动微笑，mmp。方法还是有的：
+如果你在选择密码规则的时候不小心选择了 2，也就是数字、大小写字母、特殊符号和字典文件的组合。这时你会发现 `mysql_secure_installation`不会再给你机会重新设置了。手动微笑，mmp。方法还是有的：
 
 ```shell
 SHOW VARIABLES LIKE 'validate_password%';
 ```
 
-![](https://i.loli.net/2020/03/09/m2GRbrPeHDkC7pQ.png)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68541c4633b944d69276a3da8f453406~tplv-k3u1fbpfcp-zoom-1.image)
 
 使用命令 `mysql -u root` 登陆，执行：
 
@@ -449,38 +391,118 @@ set global validate_password.length=4;
 #将密码规则设置为LOW，就可以使用纯数字纯字母密码
 ```
 
-### 登陆
+#### 登陆
 
 ```shell
 $ mysql -u root -p
 ```
 
-## natapp
+### mongodb
 
-开启您的内网穿透之旅,调试微信的利器，请至[官网](https://natapp.cn/)下载
+> 参考: [Mac OSX 平台安装 MongoDB](https://www.runoob.com/mongodb/mongodb-osx-install.html)、[Mac 下安装 MongoDB 数据库-启动-停止-开启验证-登陆](https://www.32e.top/system/mac/article-87.html)、[【环境搭建：二】Mac 安装、配置 MongoDB](https://uizph.com/article/5db177e4a9f13d7f535810c5)、[MongoDB 的用户创建更新及删除](https://www.jianshu.com/p/f5afc6488f9e)、[MongoDB 用户名密码登录 认证登陆](https://cloud.tencent.com/developer/article/1446551)
 
-## IDE
+#### 下载安装
 
-- [VSCode](https://code.visualstudio.com/): Visual Studio Code是一个由微软开发，同时支持Windows 、 Linux和macOS等操作系统且开放源代码的代码编辑器，它支持测试，并内置了Git 版本控制功能，同时也具有开发环境功能，例如代码补全、代码片段和代码重构等。
-
-  > 为了备份和分享IDE的配置，无论是 Atom 还是 VSCode 都有相应的插件，在 VSCode 中这个插件是 [Settings Sync](https://bre.is/Ar7QVWF8)。该插件是通过 GitHub Gist 来托管配置文件。我的 Gist Id: `248fa0aed5c2c89fc342599a1cceb423`
-
-## 设置 SSH Key
-
-在用户主目录下，看看有没有 `.ssh` 目录，如果有，再看看这个目录下有没有 `id_rsa` 和 `id_rsa.pub` 这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开 Shell（Windows下打开Git Bash），创建 SSH Key：
-
-```bash
-$ ssh-keygen -t rsa -C "young_email@aliyun.com"
+```sh
+$ brew install mongodb/brew/mongodb-community
+$ mongod -version
 ```
 
-## Pock
+#### 配置
 
-让 Touch Bar 「变废为宝」的免费小工具，点击图片进入官网了解详情：
+**启动 mongo**：
 
-[![](https://i.loli.net/2020/03/26/vGRUVX5ACxfasTi.png)](https://pock.dev/)
+1. 新建 dbpath
 
-## 联系作者
+```sh
+$ sudo mkdir ~/data/db
+$ sudo mkdir ~/data/log
+```
 
-|                           作者微信                           |                           知识星球                           |                           赞赏作者                           |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb24c7412?w=200&h=200&f=jpeg&s=17183" style="width:200px"/> | <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb26af8e1?w=200&h=200&f=png&s=39093" style="width:200px"/> | <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb338c643?w=698&h=700&f=png&s=315492" style="width:200px"/> |
+2. 启动
+
+```sh
+$ sudo mongod --dbpath ~/data/db --fork --logpath ~/data/log/mongo.log
+```
+
+> 注意：Mac OS 10.15.1 版本之后， `/data/db` 文件夹消失了，重新创建文件夹提示 `mkdir: /data/db: Read-only file system`，解决办法也可以是 `sudo mkdir ~/data/db && sudo mongodb --dbpath ~/data/db`
+
+**设置验证和用户名密码**：
+
+```sh
+$ mongo
+# 创建超级管理员
+> db.createUser({ user: "root" , pwd: "123456", roles: ["root"]});
+Successfully added user: {
+   "user" : "root",
+   "roles" : ["root"]
+}
+# 尝试使用上面创建的用户信息进行连接。
+> db.auth("root","123456")
+1
+# 创建一个名为 admin，密码为 123456 的用户。
+> db.createUser({ user: "admin", pwd: "123456", roles:["userAdminAnyDatabase", "dbAdminAnyDatabase", "readWriteAnyDatabase"]});
+Successfully added user: {
+   "user": "admin",
+   "roles": [
+   {
+      "role": "userAdminAnyDatabase",
+      "db": "admin"
+   }
+  ]
+}
+# 尝试使用上面创建的用户信息进行连接。
+> db.auth("admin","123456")
+1
+```
+
+**开启验证模式登录**：
+
+开启 mongod 时，指定 `--auth` 参数即可以验证模式打开：
+
+```sh
+$ sudo mongod --dbpath ~/data/db --fork --logpath ~/data/log/mongo.log --auth
+```
+
+**登录时验证**：
+
+```shell
+$ mongo 127.0.0.1:27017/admin -u admin -p 123456
+# 等价于
+$ mongo --port 27017 -u "adminUser" -p "adminPass" --authenticationDatabase "admin"
+```
+
+**登录后验证**：
+
+```shell
+$ mongo
+> use admin
+> ab.auth("admin","123456")
+```
+
+#### 退出 mongodb
+
+```sh
+# 先停止 mongod 服务
+$ use admin;
+$ db.shutdownServer();
+
+# 然后退出 mongo
+$ exit;
+```
+
+## 更多
+
+### natapp
+
+开启您的内网穿透之旅,调试微信的利器，请至[官网](https://natapp.cn/)下载。
+
+### 设置 SSH Key
+
+在用户主目录下，看看有没有 `.ssh` 目录，如果有，再看看这个目录下有没有 `id_rsa` 和 `id_rsa.pub` 这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开 Shell（Windows 下打开 Git Bash），创建 SSH Key：
+
+```bash
+$ ssh-keygen -t rsa -C "youngjuning@aliyun.com"
+```
+
+> 本文首发于「[洛竹的官方网站](https://youngjuning.js.org/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。
