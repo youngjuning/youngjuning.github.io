@@ -16,3 +16,11 @@ tags:
 - `npm ls --location=global`：查看全局包列表
   - `npm ls --location=global --depth 0`：仅查看一级包
   - `npm ls --location=global --depth 0 | grep packageName`：查看一级包并搜索相关包
+
+## owner
+
+管理已经发布的包的所有权
+
+- `npm owner add <user> [<@scope>/]<pkg>`：给某个包添加用户
+- `npm owner rm <user> [<@scope>/]<pkg>`：删除某个包的某个用户
+- `npm owner ls [<@scope>/]<pkg>`：列出某个包的所有用户
