@@ -157,11 +157,6 @@ douban:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
-search:
-  path: search.xml
-  field: post
-  content: true
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

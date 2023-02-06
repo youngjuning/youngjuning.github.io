@@ -2065,6 +2065,11 @@ hexo-cli@^4.0.0:
     resolve "^1.11.0"
     tildify "^2.0.0"
 
+hexo-filter-nofollow@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmmirror.com/hexo-filter-nofollow/-/hexo-filter-nofollow-2.0.2.tgz#903692f95f26d6ad8933e9926c94d422bbf25d68"
+  integrity sha512-roIkEIkGOR22EPMoy8iKrufDoAH25LOT5ZeVXVLavEpM757Y96kfUhyathryMLXr326EURffgkZAKsVf3EDl0A==
+
 hexo-front-matter@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/hexo-front-matter/-/hexo-front-matter-0.2.3.tgz#c7ca8ef420ea36bd85e8408a2e8c9bf49efa605e"
@@ -2274,13 +2279,6 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-simple-mindmap@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/hexo-simple-mindmap/-/hexo-simple-mindmap-0.8.0.tgz#9e3040861ee38e8ccc127cf2beb34c1d501ddd55"
-  integrity sha512-4euOtZAXQXuC+j7PeUQ6DBi2627kMwPExEanh5eIxZMASNexPV5X1c29fsy886BM+yrkFlSn7Gk040rQAJDJ5g==
-  dependencies:
-    hexo-util "^2"
-
 hexo-tag-aplayer@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/hexo-tag-aplayer/-/hexo-tag-aplayer-3.0.4.tgz#e1c3bdac82a1a01d97c8cf77ab653114505b1179"
@@ -2314,7 +2312,7 @@ hexo-util@^0.6.3:
     html-entities "^1.2.0"
     striptags "^2.1.1"
 
-hexo-util@^2, hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.5.0:
+hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.4.0, hexo-util@^2.5.0:
   version "2.5.0"
   resolved "https://registry.nlark.com/hexo-util/download/hexo-util-2.5.0.tgz?cache=0&sync_timestamp=1620209575591&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhexo-util%2Fdownload%2Fhexo-util-2.5.0.tgz#de5635341116ba2563a789a0ebceb55a875221ad"
   integrity sha1-3lY1NBEWuiVjp4mg6861WodSIa0=
@@ -5444,7 +5442,6 @@ url-parse-lax@^3.0.0:
 
 urllib-sync@jerryc127/urllib-sync:
   version "1.1.4"
-  uid da6ff601d35dcc681fc2177902edcd5de1d62196
   resolved "https://codeload.github.com/jerryc127/urllib-sync/tar.gz/da6ff601d35dcc681fc2177902edcd5de1d62196"
   dependencies:
     urllib "~2.37.1"
