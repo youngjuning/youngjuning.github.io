@@ -4,17 +4,16 @@
 
 menu:
   首页: / || fas fa-home
-  目录||fas fa-compass:
-    标签: /tags/ || fas fa-tags
-    分类: /categories/ || fas fa-folder-open
-    归档: /archives/ || fas fa-archive
-  动态||fas fa-bullhorn:
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  归档: /archives/ || fas fa-archive
+  友链: /link/ || fas fa-link
+  开往: https://travellings.vercel.app/ || fas fa-paper-plane
+  其他||fas fa-more:
     电影: /movies/ || fas fa-video
     读书: /books/ || fas fa-book
     说说: /talk/ || fas fa-cloud-sun-rain
-  开往: https://travellings.vercel.app/ || fas fa-paper-plane
-  链接: /link/ || fas fa-link
-  订阅: /atom.xml || fas fa-rss
+    订阅: /atom.xml || fas fa-rss
 
 nav:
   logo: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211729538.png # image
@@ -278,11 +277,11 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: livere,Disqus # Valine,Disqus
+  use: gitalk,Disqus # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: true
+  lazyload: false
   count: true # Display comment count in post's top_img
   card_post_count: true # Display comment count in Home Page
 
@@ -977,7 +976,7 @@ CDN:
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  enable: true
+  enable: false
   appId: q0sbQqHfN3k9cMMzFe8JFuKa-MdYXbMMI
   appKey: tvDbHcjyxCfi3UYsTYy0OofS
   path: talk
