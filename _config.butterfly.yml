@@ -976,7 +976,7 @@ CDN:
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  enable: false
+  enable: true
   appId: q0sbQqHfN3k9cMMzFe8JFuKa-MdYXbMMI
   appKey: tvDbHcjyxCfi3UYsTYy0OofS
   path: talk
