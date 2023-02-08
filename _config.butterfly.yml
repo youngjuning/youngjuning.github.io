@@ -9,7 +9,7 @@ menu:
   归档: /archives/ || fas fa-archive
   友链: /link/ || fas fa-link
   开往: https://travellings.vercel.app/ || fas fa-paper-plane
-  其他||fas fa-more:
+  其他||fas fa-star:
     电影: /movies/ || fas fa-video
     读书: /books/ || fas fa-book
     说说: /talk/ || fas fa-cloud-sun-rain
