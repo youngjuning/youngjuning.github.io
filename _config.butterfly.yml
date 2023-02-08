@@ -58,7 +58,7 @@ algolia_search:
 # Local search
 local_search:
   enable: true
-  preload: true
+  preload: false
   CDN:
 
 # Math (數學)
