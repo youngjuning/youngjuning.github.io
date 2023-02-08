@@ -111,7 +111,7 @@ feed:
 # https://github.com/xiazeyu/live2d-widget-models
 # https://www.cnblogs.com/strengthen/p/11112215.html
 live2d:
-  enable: false
+  enable: true
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
