@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://youngjuning.js.org/sitemap.xml
-Sitemap: https://youngjuning.js.org/baidusitemap.xml

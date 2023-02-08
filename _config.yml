@@ -102,19 +102,14 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-baidusitemap:
-  path: baidusitemap.xml
-
 sitemap:
   path: sitemap.xml
-
 feed:
   type: Atom
   path: atom.xml
   limit: 20
-aplayer:
-  meting: false
-  asset_inject: false
+# https://github.com/xiazeyu/live2d-widget-models
+# https://www.cnblogs.com/strengthen/p/11112215.html
 live2d:
   enable: false
   scriptFrom: local

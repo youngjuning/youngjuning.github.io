@@ -11,32 +11,28 @@
     "draft": "hexo new draft"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "6.3.0"
   },
   "dependencies": {
-    "hexo": "^5.4.0",
+    "hexo": "^6.3.0",
     "hexo-butterfly-artitalk": "^1.0.4",
     "hexo-butterfly-douban": "^1.2.5",
     "hexo-filter-nofollow": "^2.0.2",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-baidu-sitemap": "^0.1.9",
-    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
-    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-index": "^3.0.0",
     "hexo-generator-search": "^2.4.3",
-    "hexo-generator-sitemap": "^2.2.0",
-    "hexo-generator-tag": "^1.0.0",
+    "hexo-generator-sitemap": "^3.0.1",
+    "hexo-generator-tag": "^2.0.0",
     "hexo-helper-live2d": "^3.1.1",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^5.0.0",
+    "hexo-renderer-marked": "^6.0.0",
     "hexo-renderer-pug": "^3.0.0",
-    "hexo-renderer-stylus": "^2.0.1",
+    "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-tag-aplayer": "^3.0.4",
+    "hexo-theme-butterfly": "^4.6.1",
     "hexo-wordcount": "^6.0.1",
-    "live2d-widget-model-koharu": "^1.0.5",
-    "live2d-widget-model-miku": "^1.0.5",
-    "live2d-widget-model-tororo": "^1.0.5",
-    "live2d-widget-model-wanko": "^1.0.5"
+    "live2d-widget-model-miku": "^1.0.5"
   }
 }
