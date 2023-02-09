@@ -12,8 +12,6 @@ tags:
 
 本文旨在告诉大家现在我们只需要简单地对 Metro 进行配置即可修改默认的版本号。
 
-<!--more-->
-
 我翻阅了一下网上的方案，都太麻烦了，想着这功能官方不该提供可配置的吗？于是翻阅了官方的脚手架工具[@react-native-community/cli](https://github.com/react-native-community/cli)。打开[loadMetroConfig.ts](https://bre.is/hDtBSjob) 文件我找到了以下代码：
 
 ```ts

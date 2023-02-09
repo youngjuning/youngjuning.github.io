@@ -8,11 +8,7 @@ tags:
   - React Native
 ---
 
-![](https://i.loli.net/2020/03/17/peGk8hUbdQAoY7w.png)
-
 react-native-amap-geolocation这款插件接入了高德地图定位模块。支持 Android + iOS，提供尽可能完善的原生接口， 同时提供符合 Web 标准的 Geolocation API。
-
-<!--more-->
 
 > 本文基于 react-native 0.60 以上版本！
 
@@ -143,9 +139,3 @@ setDistanceFilter(10);
 - [react-native-amap-geolocation安装与使用](https://www.jianshu.com/p/f87316635ff6)
 - [react-native-amap-geolocation 使用指南](https://qiuxiang.github.io/react-native-amap-geolocation/)
 - [[react-native-amap-geolocation 接口文档](https://qiuxiang.github.io/react-native-amap-geolocation/api/index.html)
-
-## 联系作者
-
-|                           作者微信                           |                           知识星球                           |                           赞赏作者                           |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb24c7412?w=200&h=200&f=jpeg&s=17183" style="width:200px"/> | <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb26af8e1?w=200&h=200&f=png&s=39093" style="width:200px"/> | <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb338c643?w=698&h=700&f=png&s=315492" style="width:200px"/> |

@@ -1,5 +1,5 @@
 ---
-title: 初探 Ant Design of React
+title: antd 快速上手
 date: 2020-03-04 04:17:10
 cover: https://i.loli.net/2020/03/04/hK2MgsYGvuayp7Q.png
 categories:
@@ -420,9 +420,3 @@ module.exports = {
   plugins: ["@babel/plugin-proposal-decorators"] // 可以用来替换 addDecoratorsLegacy
 }
 ```
-
-## 联系作者
-
-|                           作者微信                           |                           知识星球                           |                           赞赏作者                           |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb24c7412?w=200&h=200&f=jpeg&s=17183" style="width:200px"/> | <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb26af8e1?w=200&h=200&f=png&s=39093" style="width:200px"/> | <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb338c643?w=698&h=700&f=png&s=315492" style="width:200px"/> |

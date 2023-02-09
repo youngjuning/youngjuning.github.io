@@ -1,5 +1,5 @@
 ---
-title: 'slice、substring和substr的区别'
+title: slice、substring 和 substr 的区别
 date: 2020-02-09 21:14:53
 categories:
   - 前端
@@ -12,8 +12,6 @@ tags:
 | `slice(start,end)`      | `start`(必需)-起始位置<br />`end`(可选)-结束位置，若未指定，则默认到末尾所有元素 | 返回 `[start,end]`之间的元素           |
 | `substring(start, end)` | `start`(必需)-起始位置<br />`end`(必需)-结束位置，若未指定，则默认到末尾所有元素 | 返回 `[start, end]` 之间的元素         |
 | `substr(start)`         | `start`(必需)-起始位置<br />`length`(可选)-所截取的元素的个数，若未指定，则默认到末尾 | 返回 `[start, start+length]`之间的元素 |
-
-<!--more-->
 
 > 当传递的参数都为正数时，`substring` 没有区别，当参数为负数时，三个函数的行为不尽相同。
 

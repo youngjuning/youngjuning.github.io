@@ -15,8 +15,6 @@ tags:
 
 本文分享的是基于微软 AppCenter 的 CodePush 服务实现热更新，这个比较有代表性，也方便各位读者大大实践。当然鉴于国内的网络环境，后期会发布一篇如何基于 `code-push-server` 实现热更新功能。
 
-<!--more-->
-
 ## 环境
 
 - Xcode：Version 11.3.1 (11C504)

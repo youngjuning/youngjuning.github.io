@@ -1,5 +1,5 @@
 ---
-title: for in 和 for of 的区别
+title: for-in 和 for-of 的区别
 date: 2022-04-12 17:13:30
 cover: https://s2.loli.net/2022/04/12/cIu5YhaebGpqfX7.png
 categories:

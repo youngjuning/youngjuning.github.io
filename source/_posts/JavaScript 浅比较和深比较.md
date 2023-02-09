@@ -19,8 +19,6 @@ ECMAScript 中有五种基本类型: Undefined、Null、Boolean、Number 和 Str
 
 > 在很多语言中，字符串以对象的形式来表示，因此被认为是引用类型的。ECMAScript 放弃了这一传统
 
-<!--more-->
-
 ## 浅比较
 
 **浅比较**也称引用相等，在 javascript 中， `===` 是作**浅比较**,只检查左右两边是否是同一个对象的引用：
@@ -55,5 +53,5 @@ console.log(_.isEqual(m, n)) // true
 
 ```js
 import deepEqual from 'fast-deep-equal'
-deepEqual({name:'杨俊宁'},{name:'杨俊宁'}) // true
+deepEqual({name: '洛竹'},{name: '洛竹'}) // true
 ```

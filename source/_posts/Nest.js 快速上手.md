@@ -1,5 +1,5 @@
 ---
-title: 初探 Nest.js
+title: Nest.js 快速上手
 date: 2020-03-02 04:05:36
 cover: https://i.loli.net/2020/03/02/GwX6NzRqa85bLhT.png
 categories:

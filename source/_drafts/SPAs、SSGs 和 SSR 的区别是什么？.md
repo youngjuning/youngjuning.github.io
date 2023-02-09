@@ -1,5 +1,5 @@
 ---
-title: 'SPAs、SSGs 和 SSR 的区别是什么？'
+title: SPAs、SSGs 和 SSR 的区别是什么？
 date: 2021-10-16 14:36:24
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202110161501538.png
 description: Here we take a look at the difference between Single Page Applications, Static Site Generators, and Server-side Rendered Applications

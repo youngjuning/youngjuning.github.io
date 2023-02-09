@@ -1,5 +1,5 @@
 ---
-title: git-filter-repo
+title: 使用 git-filter-branch 删除单个文件及其相关的 commit 信息
 date: 2020-11-15 19:55
 categories:
   - 工具

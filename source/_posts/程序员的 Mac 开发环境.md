@@ -502,7 +502,12 @@ $ exit;
 在用户主目录下，看看有没有 `.ssh` 目录，如果有，再看看这个目录下有没有 `id_rsa` 和 `id_rsa.pub` 这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开 Shell（Windows 下打开 Git Bash），创建 SSH Key：
 
 ```bash
-$ ssh-keygen -t rsa -C "youngjuning@aliyun.com"
+$ ssh-keygen -t rsa -C "youngjuning@163.com"
+# 添加到系统 keychain
+ssh-add --apple-use-keychain ~/.ssh/id_rsa
+# 添加 public key 到 github
+gh auth login
+gh ssh-key add ~/.ssh/id_rsa.pub -t id_rsa
 ```
 
 > 本文首发于「[洛竹的官方网站](https://youngjuning.js.org/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。

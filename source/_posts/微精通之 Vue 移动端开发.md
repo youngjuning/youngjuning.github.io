@@ -1,7 +1,6 @@
 ---
 title: 微精通之 Vue 移动端开发
 date: 2020-07-13 15:37:03
-cover: https://i.loli.net/2020/07/13/B1Hlcn3iazQ9fxs.png
 categories:
 	- 前端
 tags:
@@ -13,8 +12,6 @@ tags:
 精通任何技能都是需要时间的，但是往往工作中是不会给你这个时间的，尤其是开发工作。新技术层出不穷，每个项目都可能技术栈不一样。
 
 无法改变环境，那么就只能改变我们自身。如果让公司等你精通再开发，那你只能被淘汰。但如果毫无准备进入开发，项目质量又无从谈起，而且项目也可能失控。而微精通就是框定一个最小范围，快速熟悉完成任务所涉及的内容。今天我就拿 Vue 移动端开发做一个实验。
-
-<!--more-->
 
 ## 项目初始化
 
@@ -456,12 +453,3 @@ module.exports = ({ file }) => {
 - [Vue入门指南(快速上手vue)](https://juejin.im/post/5c9f22876fb9a05e425556ed)
 - [vue快速入门的三个小实例](https://juejin.im/post/5a0c191f6fb9a04514639419)
 - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware)
-
-
-## 联系作者
-
-> 本文首发于[杨俊宁的博客](https://youngjuning.js.org/)
-
-|                           作者微信                           |                           赞赏作者                           |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://i.loli.net/2020/02/22/q2tLiGYvhIxm3Fl.jpg" width="200px"/> | <img src="https://i.loli.net/2020/02/23/q56X1eYZuITQpsj.png" width="200px"/> |

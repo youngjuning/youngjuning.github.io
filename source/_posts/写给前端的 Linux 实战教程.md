@@ -1,16 +1,13 @@
 ---
 title: 写给前端的Linux实战教程
 date: 2020-03-28 20:39:42
+cover: https://i.loli.net/2020/03/30/rzVCW97GcjAa81k.png
 categories:
   - 运维
 tags:
   - Ubuntu
   - Linux
 ---
-
-<img src="https://i.loli.net/2020/03/30/rzVCW97GcjAa81k.png" style="zoom:30%;" />
-
-<!--more-->
 
 笔者使用的是 AliYun 服务器 ECS，镜像选择的是 Ubuntu，Ubuntu的详细版本信息是：`Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-91-generic x86_64)`，如何购买云服务器不在本文讨论范围内，如果只是学习，那你完全可以使用 virtualbox 安装 Ubuntu。
 

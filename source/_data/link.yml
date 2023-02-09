@@ -24,3 +24,22 @@
     - name: MongoDB 中文社区
       link: https://mongoing.com/
       descr: MongoDB 中文社区
+- class_name: 在线工具
+  class_desc: 独家私藏的在线工具
+  link_list:
+    - name: Can I use
+      link: https://caniuse.com/
+    - name: css3maker
+      link: https://www.toptal.com/developers/css3maker
+    - name: Regexper
+      link: https://regexper.com/
+    - name: iHateRegex
+      link: https://ihateregex.io/
+    - name: 正则大全
+      link: https://any86.github.io/any-rule/
+    - name: carbon
+      link: https://carbon.now.sh/
+      descr: 创建并共享源代码的精美图片
+    - name: codesandbox
+      link: https://codesandbox.io/
+      descr: 快速的Web开发的即时IDE和原型设计工具

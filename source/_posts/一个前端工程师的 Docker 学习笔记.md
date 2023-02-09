@@ -1,5 +1,5 @@
 ---
-title: 一个前端工程师的Docker学习笔记
+title: 一个前端工程师的 Docker 学习笔记
 date: 2020-03-31 00:23:31
 cover: https://i.loli.net/2020/03/31/UI9JSTCENRvqDwY.png
 categories:
@@ -654,9 +654,3 @@ $ docker-compose up -d
 
 - [DevOps 知识平台 Ledge](https://devops.phodal.com/)
 - [jenkins+docker 持续集成](https://juejin.im/post/5b6af759e51d451951138eb4#heading-7)
-
-# 联系作者
-
-|                           作者微信                           |                           知识星球                           |                           赞赏作者                           |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb24c7412?w=200&h=200&f=jpeg&s=17183" style="width:200px"/> | <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb26af8e1?w=200&h=200&f=png&s=39093" style="width:200px"/> | <img src="https://user-gold-cdn.xitu.io/2020/2/24/17074acbb338c643?w=698&h=700&f=png&s=315492" style="width:200px"/> |
