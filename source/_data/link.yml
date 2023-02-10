@@ -1,5 +1,5 @@
 - class_name: 友情链接
-  class_desc: 值得推荐的国内外技术大佬
+  class_desc: 有朋自远方来，不亦说乎
   link_list:
     - name: 寒草的博客
       link: https://hancao97.github.io
@@ -12,34 +12,7 @@
       link: https://www.luoyelusheng.com
       descr: 记录只是活着呀。
       avatar: https://www.luoyelusheng.com/images/avatar.png
-- class_name: 学习资料
-  class_desc: 独家私藏的学习资料
-  link_list:
-    - name: JS 测试最佳实践
-      link: https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme-zh-CN.md
-      descr: 本指南可以助你将测试能力提升到下一层级
-    - name: 菜鸟教程
-      link: https://www.runoob.com/
-      descr: 学的不仅是技术，更是梦想！
-    - name: MongoDB 中文社区
-      link: https://mongoing.com/
-      descr: MongoDB 中文社区
-- class_name: 在线工具
-  class_desc: 独家私藏的在线工具
-  link_list:
-    - name: Can I use
-      link: https://caniuse.com/
-    - name: css3maker
-      link: https://www.toptal.com/developers/css3maker
-    - name: Regexper
-      link: https://regexper.com/
-    - name: iHateRegex
-      link: https://ihateregex.io/
-    - name: 正则大全
-      link: https://any86.github.io/any-rule/
-    - name: carbon
-      link: https://carbon.now.sh/
-      descr: 创建并共享源代码的精美图片
-    - name: codesandbox
-      link: https://codesandbox.io/
-      descr: 快速的Web开发的即时IDE和原型设计工具
+    - name: 优弧的博客
+      link: https://itcodes.github.io
+      descr: 记录只是活着呀。
+      avatar: https://avatars.githubusercontent.com/u/8282645?v=4
