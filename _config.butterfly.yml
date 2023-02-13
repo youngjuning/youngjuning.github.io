@@ -447,7 +447,7 @@ messenger:
 footer:
   owner:
     enable: true
-    since: 2018
+    since: 2020
   custom_text:
   copyright: true # Copyright of theme and framework
 
@@ -733,7 +733,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 2018/03/08 00:00:00
+  publish_date: 2020/01/29 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
