@@ -1,0 +1,32 @@
+[
+  {
+    "class_name": "洛竹友人帐",
+    "class_desc": "有朋自远方来，不亦乐乎",
+    "link_list": [
+      {
+        "name": "寒草的博客",
+        "link": "https://hancao97.github.io",
+        "avatar": "https://hancao97.github.io/img/hancao.png",
+        "descr": "一只草系前端，或许是个精灵"
+      },
+      {
+        "name": "落叶卢生",
+        "link": "https://www.luoyelusheng.com",
+        "avatar": "https://www.luoyelusheng.com/images/avatar.png",
+        "descr": "记录只是活着呀。"
+      },
+      {
+        "name": "lowcode可视化社区",
+        "link": "http://lowcode.dooring.cn/",
+        "avatar": "http://lowcode.dooring.cn/assets/lowgo.png",
+        "descr": "lowcode可视化低代码社区"
+      },
+      {
+        "name": "优弧的博客",
+        "link": "https://itcodes.github.io",
+        "avatar": "https://avatars.githubusercontent.com/u/8282645?v=4",
+        "descr": "但行好事，莫问前程"
+      }
+    ]
+  }
+]

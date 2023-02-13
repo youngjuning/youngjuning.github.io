@@ -1,12 +1,17 @@
 ---
-title: 链接
+title: 友情链接
 date: 2021-09-21 16:41:15
 type: "link"
+flink_url: "/links/friends.json"
 top_img: https://pic4.zhimg.com/80/v2-74f2b88f82ff7254d350718e5770cc1b_1440w.webp
 comments: false
 ---
 
-## 社区与优质博客
+| <img src="https://i.loli.net/2021/03/30/3c479HwZlBLGDyj.png" style="width:200px;" /> | <img src="https://i.loli.net/2021/03/30/eSONDCYr1Ehjdlt.jpg" style="width:200px;" /> | <img src="https://i.loli.net/2021/03/30/CSNVBX2F9KRqDbA.png" style="width:200px" /> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                        掘金开发者社区                        |                          洛竹早茶馆                          |                           Python猫                           |
+
+<!-- ## 社区与优质博客
 
 - [图灵社区](https://www.ituring.com.cn/)
 - [HelloGitHUb](https://hellogithub.com/)
@@ -62,12 +67,6 @@ comments: false
 - [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
 
 ## 在线工具
-
-### 前端
-
-- [Can I use](https://caniuse.com/)
-- [css3maker](https://www.toptal.com/developers/css3maker)
-- [FLEXBOX FROGGY](http://flexboxfroggy.com/#zh-cn)
 
 ### 正则
 
@@ -135,4 +134,4 @@ comments: false
 
 ## 开源API
 
-- [淘宝电影API](https://bre.is/jNrkYvB6)
+- [淘宝电影API](https://bre.is/jNrkYvB6) -->

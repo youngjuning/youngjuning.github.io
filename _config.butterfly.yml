@@ -7,9 +7,11 @@ menu:
   分类: /categories/ || fas fa-folder-open
   标签: /tags/ || fas fa-tags
   归档: /archives/ || fas fa-archive
-  简历: /about/ || fa fa-id-card
-  链接: /link/ || fas fa-link
-  其他||fas fa-star:
+  友链: /friends/ || fas fa-link
+  收藏|| fas fa-heart:
+    开发工具: /tool/ || fas fa-cog
+  更多||fas fa-star:
+    简历: /about/ || fa fa-id-card
     电影: /movies/ || fas fa-video
     读书: /books/ || fas fa-book
     开往: https://travellings.vercel.app/ || fas fa-paper-plane
