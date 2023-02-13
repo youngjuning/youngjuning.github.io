@@ -107,6 +107,7 @@ top_img: false
 
 ## 技术文章
 
+- [每个前端都值得拥有自己的组件库，就像每个夏天都拥有西瓜🍉](https://juejin.cn/post/6983854006124675108)
 - [react-navigation 5.x 最佳实践](https://juejin.im/post/5e50f3ace51d4526ef5f8d56)
 - [React Native 项目架构面面观【持续更新】](https://juejin.im/post/5e535e0df265da576b566397)
 - [前端规范化开发实践【持续更新】](https://juejin.im/post/5e7c7acdf265da42ec21447b)
