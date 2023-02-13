@@ -6,7 +6,7 @@ categories:
   - 前端
 tags:
   - 安卓
-  - React Native]
+  - React Native
 ---
 
 ## 配置应用名
