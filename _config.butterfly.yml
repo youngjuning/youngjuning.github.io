@@ -284,7 +284,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: Utterances,Giscus # Valine,Disqus
+  use: Giscus,Livere # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -349,7 +349,7 @@ waline:
 utterances:
   repo: youngjuning/youngjuning.js.org
   # Issue Mapping: pathname/url/title/og:title
-  issue_term: title
+  issue_term: og:title
   # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
   light_theme: github-light
   dark_theme: photon-dark
@@ -376,11 +376,14 @@ twikoo:
 giscus:
   repo: youngjuning/youngjuning.js.org
   repo_id: R_kgDOGFxZtw
-  category_id: Announcements
+  category_id: DIC_kwDOGFxZt84CUMwP
   theme:
     light: light
     dark: dark
   option:
+    data-mapping: og:title
+    data-lang: zh-CN
+    data-input-position: top
 
 # Remark42
 # https://remark42.com/docs/configuration/frontend/
@@ -834,7 +837,6 @@ note:
 pjax:
   enable: true
   exclude:
-    - /talk/
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
