@@ -18,7 +18,7 @@ menu:
     订阅: /atom.xml || fas fa-rss
 
 nav:
-  logo: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211729538.png # image
+  logo: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png # image
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -86,18 +86,18 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211729538.png
+favicon: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211729538.png
+  img: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211413207.png
+index_img: https://picbed.qunarzz.com/7cb93a09ca9bbbc8ad89ca07a72daf4b.png
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://pic2.zhimg.com/80/v2-7099d20a6239795a13c1525a44e243bd_1440w.webp
@@ -349,7 +349,7 @@ waline:
 utterances:
   repo: youngjuning/youngjuning.js.org
   # Issue Mapping: pathname/url/title/og:title
-  issue_term: pathname
+  issue_term: title
   # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
   light_theme: github-light
   dark_theme: photon-dark
