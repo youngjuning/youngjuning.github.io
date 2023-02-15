@@ -8,11 +8,11 @@ menu:
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
     归档: /archives/ || fas fa-archive
-  友人: /friends/ || fas fa-user-o
+  友人: /friends/ || fas fa-link
   开往: https://travellings.vercel.app/ || fas fa-paper-plane
-  收藏|| fas fa-heart:
+  收藏|| fas fa-star:
     开发工具: /tool/ || fas fa-cog
-  关于||fas fa-star:
+  关于||fas fa-heart:
     简历: /about/ || fa fa-id-card
     电影: /movies/ || fas fa-video
     读书: /books/ || fas fa-book
@@ -104,11 +104,11 @@ index_img: https://picbed.qunarzz.com/7cb93a09ca9bbbc8ad89ca07a72daf4b.png
 default_top_img: https://pic2.zhimg.com/80/v2-7099d20a6239795a13c1525a44e243bd_1440w.webp
 
 # The banner image of archive page
-archive_img: https://pic4.zhimg.com/80/v2-e5e2c2cba8b02f72f80a14124b781c0f_1440w.webp
+archive_img: https://pic4.zhimg.com/80/v2-6113723ecbada94dbf8751d0f29ad5ef_1440w.webp
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://pic2.zhimg.com/80/v2-2bb831c8a9b71d8d258b36fe5150e05d_1440w.webp
+tag_img: https://pic1.zhimg.com/80/v2-4ed8b3b51b575091c441e029b9b6c674_1440w.webp
 
 # The banner image of tag page
 # format:
@@ -117,7 +117,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://pic2.zhimg.com/80/v2-38577fbfa8359e9325ae9c4f5e299ed9_1440w.webp
+category_img: https://pic4.zhimg.com/80/v2-a2027da69f624d7a36d8c8f344a3f08f_1440w.webp
 
 # The banner image of category page
 # format:
