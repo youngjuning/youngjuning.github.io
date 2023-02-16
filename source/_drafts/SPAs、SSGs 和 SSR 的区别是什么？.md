@@ -5,12 +5,14 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202110161501538.png
 description: Here we take a look at the difference between Single Page Applications, Static Site Generators, and Server-side Rendered Applications
 categories:
   - [前端]
+  - [洛竹翻译计划]
 tags:
   - SSG
   - SPA
   - SSR
-  - 翻译
 ---
+
+DRAFT SPAs、SSGs 和 SSR 的区别是什么？
 
 > 原文链接🔗：https://graphcms.com/blog/difference-spa-ssg-ssr
 
