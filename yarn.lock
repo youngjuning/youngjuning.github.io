@@ -1692,13 +1692,6 @@ hexo-bunyan@^1.0.0:
     mv "~2"
     safe-json-stringify "~1"
 
-hexo-butterfly-artitalk@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npmmirror.com/hexo-butterfly-artitalk/download/hexo-butterfly-artitalk-1.0.4.tgz#8d90a930b68d742ffc1e20ae475828b071cba818"
-  integrity sha1-jZCpMLaNdC/8HiCuR1gosHHLqBg=
-  dependencies:
-    pug "^3.0.2"
-
 hexo-butterfly-douban@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/hexo-butterfly-douban/-/hexo-butterfly-douban-1.2.5.tgz#cb13bd0ebb14b954560e2e883b2e01b83373c14c"
@@ -1915,10 +1908,10 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-butterfly@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.npmmirror.com/hexo-theme-butterfly/-/hexo-theme-butterfly-4.6.1.tgz#d524180c969695b6013e598a603c78d2c83b8d51"
-  integrity sha512-qa/q2znq5H48AQOxgjZQGSlsBDP8znIr9RCPeDzjPSZOrO5LggmNaSnz9f34bPXzYHVmSOmm5p9J7bTbGbF0og==
+hexo-theme-butterfly@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/hexo-theme-butterfly/-/hexo-theme-butterfly-4.7.0.tgz#760776642f5deb5caf31ee935d5ffbdda9dad17d"
+  integrity sha512-g5LtCZptHcfTWjG2VLqup9OtYj1KQnhkDe3xAmQf9EnB8dsYyB69LA+WVnEwv2hYz7YyYhbUUxQh3l/oWVXtKA==
   dependencies:
     hexo-renderer-pug "^3.0.0"
     hexo-renderer-stylus "^2.1.0"
