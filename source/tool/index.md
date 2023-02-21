@@ -1,6 +1,6 @@
 ---
-title: 开发工具
-description: 工欲善其事必先利其器
+title: 工具
+description: 工欲善其事，必先利其器
 date: 2023-02-13 17:48:54
 type: "link"
 flink_url: "/links/tools.json"

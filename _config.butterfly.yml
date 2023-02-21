@@ -11,7 +11,7 @@ menu:
   友人: /friends/ || fas fa-link
   开往: https://travellings.vercel.app/ || fas fa-paper-plane
   收藏|| fas fa-star:
-    开发工具: /tool/ || fas fa-cog
+    工具: /tool/ || fas fa-cog
   关于||fas fa-heart:
     简历: /about/ || fa fa-id-card
     电影: /movies/ || fas fa-video
