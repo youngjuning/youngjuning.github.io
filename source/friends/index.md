@@ -13,6 +13,42 @@ description: 有朋自网线来，不亦说乎
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                        掘金开发者社区                        |                          洛竹早茶馆                          |                           Python猫                           |
 
+欢迎互换友链，我的信息是：
+
+```yml
+- name: 洛竹的博客
+  link: https://youngjuning.js.org
+  avatar: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png
+  descr: 真理无穷，一寸欢喜
+```
+
+```json
+{
+  "name": "洛竹的博客",
+  "link": "https://youngjuning.js.org",
+  "avatar": "https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png",
+  "descr": "真理无穷，一寸欢喜"
+}
+```
+
+快速复制填写模板：
+
+```yml
+- name:
+  link:
+  avatar:
+  descr:
+```
+
+```json
+{
+  "name": "",
+  "link": "",
+  "avatar": "",
+  "descr": ""
+}
+```
+
 <!-- ## 社区与优质博客
 
 - [图灵社区](https://www.ituring.com.cn/)
