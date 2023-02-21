@@ -698,8 +698,8 @@ aside:
       text: Follow Me
       link: https://github.com/youngjuning
   card_announcement:
-    enable: false
-    content: This is my Blog
+    enable: true
+    content: 我把常用的 vscode 插件整理成了一个 <a href="https://marketplace.visualstudio.com/items?itemName=youngjuning.vscode-luozhu-pack">vscode 开发套件</a>，前端开发可以借鉴一下。
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
