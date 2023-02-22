@@ -20,11 +20,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           cname: youngjuning.js.org
-      - uses: gacts/purge-jsdelivr-cache@v1
-        with:
-          url: |
-            https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/css/index.css
-            https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/main.js
-            https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/utils.js
-            https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/tw_cn.js
-            https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/search/local-search.js
