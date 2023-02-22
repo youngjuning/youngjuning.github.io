@@ -8,16 +8,17 @@ menu:
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
     归档: /archives/ || fas fa-archive
-  友人: /friends/ || fas fa-link
   开往: https://travellings.vercel.app/ || fas fa-paper-plane
   收藏|| fas fa-star:
     工具: /tool/ || fas fa-cog
-  关于||fas fa-heart:
+  娱乐||fa fa-heartbeat:
     电影: /movies/ || fas fa-video
     读书: /books/ || fas fa-book
     追番: /bangumi/ || fas fa-tv
+  关于||fas fa-heart:
+    友人: /friends/ || fas fa-link
+    图床: /gallery || fas fa-images
     简历: /about/ || fa fa-id-card
-    图床: /gallery || fas fa-file-image-o
     订阅: /atom.xml || fas fa-rss
 
 nav:
