@@ -149,7 +149,14 @@ douban:
     path: movies
     limit:
   timeout: 10000
-
+bangumi:
+  enable: true
+  source: bili
+  path: bili/
+  vmid: 52457741
+  title: '追番列表'
+  quote: '生命不息，追番不止！'
+  show: 1
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 

@@ -13,6 +13,7 @@ jobs:
       - uses: c-hive/gha-yarn-cache@v2
       - run: yarn install
       - run: yarn build
+      - run: hexo bangumi -u
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
