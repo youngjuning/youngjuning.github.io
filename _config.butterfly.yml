@@ -700,7 +700,6 @@ aside:
   card_announcement:
     enable: true
     content: 我把常用的 vscode 插件整理成了一个 <a href="https://marketplace.visualstudio.com/items?itemName=youngjuning.vscode-luozhu-pack">vscode 开发套件</a>，前端开发可以借鉴一下。
-    twopeople: '<div class="twopeople"><div class="container" style="height:200px;"><canvas class="illo" width="800" height="800" style="max-width: 200px; max-height: 200px; touch-action: none; width: 640px; height: 640px;"></canvas></div><script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople1.js"></script><script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/zdog.dist.js"></script><script id="rendered-js" src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople.js"></script><style>.twopeople{margin: 0;align-items: center;justify-content: center;text-align: center;}canvas {display: block;margin: 0 auto;cursor: move;}</style></div>'
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
