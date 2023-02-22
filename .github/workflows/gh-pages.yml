@@ -12,8 +12,8 @@ jobs:
           submodules: true # Checkout private submodules(themes or something else).
       - uses: c-hive/gha-yarn-cache@v2
       - run: yarn install
-      - run: yarn build
       - run: npx hexo bangumi -u
+      - run: yarn build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
