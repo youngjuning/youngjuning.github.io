@@ -1,0 +1,21 @@
+diff --git a/node_modules/hexo-theme-butterfly/layout/includes/widget/card_announcement.pug b/node_modules/hexo-theme-butterfly/layout/includes/widget/card_announcement.pug
+index 9e63627..e978a5b 100644
+--- a/node_modules/hexo-theme-butterfly/layout/includes/widget/card_announcement.pug
++++ b/node_modules/hexo-theme-butterfly/layout/includes/widget/card_announcement.pug
+@@ -4,3 +4,4 @@ if theme.aside.card_announcement.enable
+       i.fas.fa-bullhorn.fa-shake
+       span= _p('aside.card_announcement')
+     .announcement_content!= theme.aside.card_announcement.content
++      .twopeople!= theme.aside.card_announcement.twopeople
+diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
+index ade0db3..956a69e 100644
+--- a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
++++ b/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
+@@ -289,6 +289,7 @@
+       margin-right: 6px
+       height: 36px
+       vertical-align: middle
++      border-radius: 50%
+ 
+   #toggle-menu
+     display: none

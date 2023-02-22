@@ -110,9 +110,10 @@ feed:
   limit: 20
 # https://github.com/xiazeyu/live2d-widget-models
 # https://www.cnblogs.com/strengthen/p/11112215.html
+# https://imbhj.com/599f1d72/
 live2d:
   enable: true
-  scriptFrom: local
+  scriptFrom: jsdelivr
   pluginRootPath: live2dw/
   pluginJsPath: lib/
   pluginModelPath: assets/
