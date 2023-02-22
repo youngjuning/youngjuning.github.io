@@ -6,7 +6,7 @@ categories:
   - React Native
 tags:
   - LaunchImage
-  - 启动图
+  - 启动屏
   - ios
 ---
 
