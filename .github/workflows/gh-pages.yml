@@ -11,7 +11,7 @@ jobs:
       - uses: c-hive/gha-yarn-cache@v2
       - run: yarn install
       - run: git clone https://github.com/youngjuning/images.git images
-      - run: node index.js
+      - run: node scripts/gallery.js
       - run: npx hexo bangumi -u
       - run: yarn build
       - name: Deploy
