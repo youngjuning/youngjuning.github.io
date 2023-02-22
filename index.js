@@ -23,4 +23,4 @@ for (file of files) {
   result += file + '\n';
 }
 result += '{% endgallery %}';
-fs.writeFileSync('./source/images/index.md', result);
+fs.writeFileSync('./source/gallery/index.md', result);
