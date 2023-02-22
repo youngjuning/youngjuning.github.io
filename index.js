@@ -22,5 +22,6 @@ result += '{% gallery true %}\n';
 for (file of files) {
   result += file + '\n';
 }
+console.log(result);
 result += '{% endgallery %}';
 fs.writeFileSync('./source/gallery/index.md', result);
