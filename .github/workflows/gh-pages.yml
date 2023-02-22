@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: true # Checkout private submodules(themes or something else).
       - uses: c-hive/gha-yarn-cache@v2
       - run: yarn install
       - run: git clone https://github.com/youngjuning/images.git images
