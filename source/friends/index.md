@@ -24,6 +24,13 @@ description: 有朋自网线来，不亦说乎
 }
 ```
 
+```yml
+-  "name": "洛竹的博客",
+  "link": "https://youngjuning.js.org",
+  "avatar": "https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png",
+  "descr": "真理无穷，一寸欢喜"
+```
+
 快速复制填写模板：
 
 ```json
