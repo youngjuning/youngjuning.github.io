@@ -152,7 +152,7 @@ douban:
 bangumi:
   enable: true
   source: bili
-  path: bili/
+  path: bangumi/
   vmid: 52457741
   title: '追番列表'
   quote: '生命不息，追番不止！'
