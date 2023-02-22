@@ -931,7 +931,7 @@ CDN:
   custom_format:
 
   option:
-    main_css: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/css/index.css
+    # main_css: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/css/index.css
     main: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/main.js
     utils: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/utils.js
     translate: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/tw_cn.js
