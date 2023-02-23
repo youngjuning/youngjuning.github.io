@@ -687,7 +687,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: left # left or right
+  position: right # left or right
   display:
     archive: true
     tag: true
