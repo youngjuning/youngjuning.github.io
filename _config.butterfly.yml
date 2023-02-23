@@ -17,7 +17,7 @@ menu:
     追番: /bangumi/ || fas fa-tv
   关于||fas fa-heart:
     友人: /friends/ || fas fa-link
-    图床: /gallery || fas fa-images
+    图床: /gallery/ || fas fa-images
     简历: /about/ || fa fa-id-card
     订阅: /atom.xml || fas fa-rss
 
