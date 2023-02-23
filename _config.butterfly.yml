@@ -351,7 +351,7 @@ waline:
 # utterances
 # https://utteranc.es/
 utterances:
-  repo: youngjuning/youngjuning.js.org
+  repo: youngjuning/youngjuning.github.io
   # Issue Mapping: pathname/url/title/og:title
   issue_term: og:title
   # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
@@ -378,7 +378,7 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: youngjuning/youngjuning.js.org
+  repo: youngjuning/youngjuning.github.io
   repo_id: R_kgDOGFxZtw
   category_id: DIC_kwDOGFxZt84CUMwP
   theme:
