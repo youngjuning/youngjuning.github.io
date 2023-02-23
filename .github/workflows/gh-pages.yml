@@ -13,7 +13,6 @@ jobs:
       - run: git clone https://github.com/youngjuning/images.git images
       - run: node scripts/gallery.js
       - run: npx hexo bangumi -u
-      - run: yarn run clean
       - run: yarn build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
