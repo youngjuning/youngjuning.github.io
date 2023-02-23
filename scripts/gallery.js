@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const notPicture = ['LICENSE', '_config.yml', 'README.md', '.git', '.gitignore'];
+const notPicture = ['LICENSE', 'README.md', '.git', '.gitignore'];
 const files = fs
   .readdirSync('./images')
   .filter((filename) => !notPicture.includes(filename))
@@ -24,6 +24,5 @@ result += '\n{% gallery true %}\n';
 for (file of files) {
   result += file + '\n';
 }
-console.log(result);
 result += '{% endgallery %}';
 fs.writeFileSync('./source/gallery/index.md', result);
