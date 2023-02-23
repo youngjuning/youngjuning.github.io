@@ -2,3 +2,11 @@ top:
   - name: SockBoom
     icon: fas fa-globe-europe
     html: <a href="https://sockboom.bar/auth/register?affid=552052" target="_blank"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677167957005.png" style="width:100%"/></a>
+
+bottom:
+  - class_name: user-map
+    id_name: user-map
+    name: 访客地图
+    icon: fas fa-heartbeat
+    order:
+    html: '<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=GxY0uNwJ-R6qfXXonTr3FEq7qT8qAPpGdd-XpGVHSEo"></script>'
