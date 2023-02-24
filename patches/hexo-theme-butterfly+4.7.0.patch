@@ -1,3 +1,47 @@
+diff --git a/node_modules/hexo-theme-butterfly/languages/zh-CN.yml b/node_modules/hexo-theme-butterfly/languages/zh-CN.yml
+index 9c2919a..d8a9762 100644
+--- a/node_modules/hexo-theme-butterfly/languages/zh-CN.yml
++++ b/node_modules/hexo-theme-butterfly/languages/zh-CN.yml
+@@ -11,7 +11,7 @@ page:
+   articles: 文章总览
+   tag: 标签
+   category: 分类
+-  archives: 归档
++  archives: 时间轴
+ 
+ card_post_count: 条评论
+ 
+@@ -60,7 +60,7 @@ aside:
+   card_announcement: 公告
+   card_categories: 分类
+   card_tags: 标签
+-  card_archives: 归档
++  card_archives: 时间轴
+   card_recent_post: 最新文章
+   card_webinfo:
+     headline: 网站资讯
+diff --git a/node_modules/hexo-theme-butterfly/languages/zh-TW.yml b/node_modules/hexo-theme-butterfly/languages/zh-TW.yml
+index 86623c0..7db9f67 100644
+--- a/node_modules/hexo-theme-butterfly/languages/zh-TW.yml
++++ b/node_modules/hexo-theme-butterfly/languages/zh-TW.yml
+@@ -11,7 +11,7 @@ page:
+   articles: 文章總覽
+   tag: 標籤
+   category: 分類
+-  archives: 歸檔
++  archives: 時間軸
+ 
+ card_post_count: 條評論
+ 
+@@ -60,7 +60,7 @@ aside:
+   card_announcement: 公告
+   card_categories: 分類
+   card_tags: 標籤
+-  card_archives: 歸檔
++  card_archives: 時間軸
+   card_recent_post: 最新文章
+   card_webinfo:
+     headline: 網站資訊
 diff --git a/node_modules/hexo-theme-butterfly/layout/archive.pug b/node_modules/hexo-theme-butterfly/layout/archive.pug
 index 815cdd1..f04dbc5 100644
 --- a/node_modules/hexo-theme-butterfly/layout/archive.pug
