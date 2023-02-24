@@ -24,7 +24,7 @@ menu:
 nav:
   logo: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png # image
   display_title: true
-  fixed: false # fixed navigation bar
+  fixed: true # fixed navigation bar
 
 # Code Blocks (代碼相關)
 # --------------------------------------
