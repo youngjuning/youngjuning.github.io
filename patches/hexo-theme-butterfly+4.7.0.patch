@@ -79,6 +79,39 @@ index 9e63627..c1115a2 100644
      .announcement_content!= theme.aside.card_announcement.content
 +      .twopeople!= '<div class="twopeople"><div class="container" style="height:200px;"><canvas class="illo" width="800" height="800" style="max-width: 200px; max-height: 200px; touch-action: none; width: 640px; height: 640px;"></canvas></div><script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople1.js"></script><script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/zdog.dist.js"></script><script id="rendered-js" src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople.js"></script><style>.twopeople{margin: 0;align-items: center;justify-content: center;text-align: center;}canvas {display: block;margin: 0 auto;cursor: move;}</style></div>'
 \ No newline at end of file
+diff --git a/node_modules/hexo-theme-butterfly/layout/post.pug b/node_modules/hexo-theme-butterfly/layout/post.pug
+index f54ab7a..b8c165f 100644
+--- a/node_modules/hexo-theme-butterfly/layout/post.pug
++++ b/node_modules/hexo-theme-butterfly/layout/post.pug
+@@ -4,8 +4,11 @@ block content
+   #post
+     if top_img === false
+       include includes/header/post-info.pug
+-
+-    article#article-container.post-content!=page.content
++    article#article-container
++      //- ad
++      if theme.ad && theme.ad.post
++        .ads-wrap-top!=theme.ad.post
++      .post-content!=page.content
+     include includes/post/post-copyright.pug
+     .tag_share
+       if (theme.post_meta.post.tags)
+@@ -19,7 +22,7 @@ block content
+ 
+     //- ad
+     if theme.ad && theme.ad.post
+-      .ads-wrap!=theme.ad.post
++      .ads-wrap-bottom!=theme.ad.post
+ 
+     if theme.post_pagination
+       include includes/pagination.pug
+@@ -29,4 +32,3 @@ block content
+     if page.comments !== false && theme.comments && theme.comments.use
+       - var commentsJsLoad = true
+       !=partial('includes/third-party/comments/index', {}, {cache: true})
+-      
+\ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
 index ade0db3..8ca7c24 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
@@ -91,3 +124,17 @@ index ade0db3..8ca7c24 100644
  
    #toggle-menu
      display: none
+diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/post.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/post.styl
+index 4915ee6..085c632 100644
+--- a/node_modules/hexo-theme-butterfly/source/css/_layout/post.styl
++++ b/node_modules/hexo-theme-butterfly/source/css/_layout/post.styl
+@@ -250,6 +250,7 @@ beautify()
+         color: $noticeOutdate-border
+         content: '\f071'
+         transform: translateY(-50%)
+-
+-  .ads-wrap
++  .ads-wrap-top
++    margin-bottom: 40px 0
++  .ads-wrap-bottom
+     margin: 40px 0
