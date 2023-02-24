@@ -7,7 +7,7 @@ menu:
   文章|| fa-fw fas fa-lines-leaning:
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
-    归档: /archives/ || fas fa-archive
+    时间轴: /archives/ || fas fa-archive
     随机: /random/ || fas fa-random
   收藏|| fas fa-star:
     工具: /tool/ || fas fa-cog

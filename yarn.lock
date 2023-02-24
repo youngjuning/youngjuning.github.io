@@ -578,7 +578,7 @@ cheerio-select@^2.1.0:
     domhandler "^5.0.3"
     domutils "^3.0.1"
 
-cheerio@^1.0.0-rc.11:
+cheerio@^1.0.0-rc.10, cheerio@^1.0.0-rc.11:
   version "1.0.0-rc.12"
   resolved "https://registry.npmmirror.com/cheerio/-/cheerio-1.0.0-rc.12.tgz#788bf7466506b1c6bf5fae51d24a2c4d62e47683"
   integrity sha512-VqR8m68vM46BNnuZ5NtnGBKIE/DfN0cRIzg9n40EIq9NOv90ayxLBXA8fXC5gquFRGJSTRqBq25Jt2ECLR431Q==
@@ -1820,6 +1820,14 @@ hexo-bunyan@^1.0.0:
     moment "^2.10.6"
     mv "~2"
     safe-json-stringify "~1"
+
+hexo-butterfly-charts@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.npmmirror.com/hexo-butterfly-charts/-/hexo-butterfly-charts-1.1.3.tgz#d8ee9b347e6693dcc0d7f1f201067889fd92035c"
+  integrity sha512-3UXo+8T3QOloJ9ciE/2yMNZbLlz/cAlN8Kh5+nh3QLQFwPZl399KfL4dtvdFZOB351rK01IXVN0MAczPo/sreA==
+  dependencies:
+    cheerio "^1.0.0-rc.10"
+    moment "^2.29.1"
 
 hexo-butterfly-douban@^1.2.5:
   version "1.2.5"
