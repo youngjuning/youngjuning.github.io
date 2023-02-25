@@ -8,9 +8,9 @@ index 9c2919a..d8a9762 100644
    category: 分类
 -  archives: 归档
 +  archives: 时间轴
- 
+
  card_post_count: 条评论
- 
+
 @@ -60,7 +60,7 @@ aside:
    card_announcement: 公告
    card_categories: 分类
@@ -30,9 +30,9 @@ index 86623c0..7db9f67 100644
    category: 分類
 -  archives: 歸檔
 +  archives: 時間軸
- 
+
  card_post_count: 條評論
- 
+
 @@ -60,7 +60,7 @@ aside:
    card_announcement: 公告
    card_categories: 分類
@@ -43,7 +43,7 @@ index 86623c0..7db9f67 100644
    card_webinfo:
      headline: 網站資訊
 diff --git a/node_modules/hexo-theme-butterfly/layout/archive.pug b/node_modules/hexo-theme-butterfly/layout/archive.pug
-index 815cdd1..fa924d9 100644
+index 815cdd1..aef2b21 100644
 --- a/node_modules/hexo-theme-butterfly/layout/archive.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/archive.pug
 @@ -3,7 +3,11 @@ extends includes/layout.pug
@@ -58,6 +58,7 @@ index 815cdd1..fa924d9 100644
 +    //- ad
 +    if theme.ad && theme.ad.page
 +      .ads-wrap-page!=theme.ad.page
+\ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug b/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug
 index 79153c8..7cf828e 100644
 --- a/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug
@@ -76,7 +77,7 @@ index ed7d22c..cdab6ef 100644
    !=cloudTags({source: site.tags, orderby: page.orderby || 'random', order: page.order || 1, minfontsize: 1.2, maxfontsize: 2.1, limit: 0, unit: 'em'})
 \ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/includes/widget/card_announcement.pug b/node_modules/hexo-theme-butterfly/layout/includes/widget/card_announcement.pug
-index 9e63627..85843fd 100644
+index 9e63627..d1b111c 100644
 --- a/node_modules/hexo-theme-butterfly/layout/includes/widget/card_announcement.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/includes/widget/card_announcement.pug
 @@ -4,3 +4,4 @@ if theme.aside.card_announcement.enable
@@ -84,8 +85,9 @@ index 9e63627..85843fd 100644
        span= _p('aside.card_announcement')
      .announcement_content!= theme.aside.card_announcement.content
 +    .twopeople!= '<div class="twopeople"><div class="container" style="height:200px;"><canvas class="illo" width="800" height="800" style="max-width: 200px; max-height: 200px; touch-action: none; width: 640px; height: 640px;"></canvas></div><script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople1.js"></script><script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/zdog.dist.js"></script><script id="rendered-js" src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople.js"></script><style>.twopeople{margin: 0;align-items: center;justify-content: center;text-align: center;}canvas {display: block;margin: 0 auto;cursor: move;}</style></div>'
+\ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/page.pug b/node_modules/hexo-theme-butterfly/layout/page.pug
-index 6c810ef..06ec4b9 100644
+index 6c810ef..db0bdcc 100644
 --- a/node_modules/hexo-theme-butterfly/layout/page.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/page.pug
 @@ -18,3 +18,6 @@ block content
@@ -95,38 +97,6 @@ index 6c810ef..06ec4b9 100644
 +    //- ad
 +    if theme.ad && theme.ad.page
 +      .ads-wrap-page!=theme.ad.page
-diff --git a/node_modules/hexo-theme-butterfly/layout/post.pug b/node_modules/hexo-theme-butterfly/layout/post.pug
-index f54ab7a..b8c165f 100644
---- a/node_modules/hexo-theme-butterfly/layout/post.pug
-+++ b/node_modules/hexo-theme-butterfly/layout/post.pug
-@@ -4,8 +4,11 @@ block content
-   #post
-     if top_img === false
-       include includes/header/post-info.pug
--
--    article#article-container.post-content!=page.content
-+    article#article-container
-+      //- ad
-+      if theme.ad && theme.ad.post
-+        .ads-wrap-top!=theme.ad.post
-+      .post-content!=page.content
-     include includes/post/post-copyright.pug
-     .tag_share
-       if (theme.post_meta.post.tags)
-@@ -19,7 +22,7 @@ block content
- 
-     //- ad
-     if theme.ad && theme.ad.post
--      .ads-wrap!=theme.ad.post
-+      .ads-wrap-bottom!=theme.ad.post
- 
-     if theme.post_pagination
-       include includes/pagination.pug
-@@ -29,4 +32,3 @@ block content
-     if page.comments !== false && theme.comments && theme.comments.use
-       - var commentsJsLoad = true
-       !=partial('includes/third-party/comments/index', {}, {cache: true})
--      
 \ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
 index ade0db3..8ca7c24 100644
@@ -137,40 +107,16 @@ index ade0db3..8ca7c24 100644
        height: 36px
        vertical-align: middle
 +      border-radius: 50%
- 
+
    #toggle-menu
      display: none
-diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/post.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/post.styl
-index 4915ee6..085c632 100644
---- a/node_modules/hexo-theme-butterfly/source/css/_layout/post.styl
-+++ b/node_modules/hexo-theme-butterfly/source/css/_layout/post.styl
-@@ -250,6 +250,7 @@ beautify()
-         color: $noticeOutdate-border
-         content: '\f071'
-         transform: translateY(-50%)
--
--  .ads-wrap
-+  .ads-wrap-top
-+    margin-bottom: 40px 0
-+  .ads-wrap-bottom
-     margin: 40px 0
-diff --git a/node_modules/hexo-theme-butterfly/source/css/_page/archives.styl b/node_modules/hexo-theme-butterfly/source/css/_page/archives.styl
-index 309e00c..38310d1 100644
---- a/node_modules/hexo-theme-butterfly/source/css/_page/archives.styl
-+++ b/node_modules/hexo-theme-butterfly/source/css/_page/archives.styl
-@@ -107,3 +107,5 @@
-     &-info
-       flex: 1
-       padding: 0 16px
-+.ads-wrap-page
-+  margin-top: 40px
-diff --git a/node_modules/hexo-theme-butterfly/source/css/_page/categories.styl b/node_modules/hexo-theme-butterfly/source/css/_page/categories.styl
-index 8b80107..df671c3 100644
---- a/node_modules/hexo-theme-butterfly/source/css/_page/categories.styl
-+++ b/node_modules/hexo-theme-butterfly/source/css/_page/categories.styl
-@@ -35,3 +35,5 @@
-       position: relative
-       margin: 6px 0
-       padding: .12em .4em .12em 1.4em
+diff --git a/node_modules/hexo-theme-butterfly/source/css/_page/common.styl b/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
+index 3356d17..705f265 100644
+--- a/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
++++ b/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
+@@ -58,3 +58,5 @@
+   .avatar-img,
+   .flink-item-icon
+     transform: translateZ(0)
 +.ads-wrap-page
 +  margin-top: 40px
