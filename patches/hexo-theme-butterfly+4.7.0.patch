@@ -43,10 +43,10 @@ index 86623c0..7db9f67 100644
    card_webinfo:
      headline: 網站資訊
 diff --git a/node_modules/hexo-theme-butterfly/layout/archive.pug b/node_modules/hexo-theme-butterfly/layout/archive.pug
-index 815cdd1..f9bcc70 100644
+index 815cdd1..fa924d9 100644
 --- a/node_modules/hexo-theme-butterfly/layout/archive.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/archive.pug
-@@ -3,6 +3,7 @@ extends includes/layout.pug
+@@ -3,7 +3,11 @@ extends includes/layout.pug
  block content
    include ./includes/mixins/article-sort.pug
    #archive
@@ -54,6 +54,10 @@ index 815cdd1..f9bcc70 100644
      - const archiveLength = findArchiveLength(fragment_cache)
      .article-sort-title= _p('page.articles') + ' - ' + archiveLength
      +articleSort(page.posts)
+     include includes/pagination.pug
++    //- ad
++    if theme.ad && theme.ad.page
++      .ads-wrap-page!=theme.ad.page
 diff --git a/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug b/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug
 index 79153c8..7cf828e 100644
 --- a/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug
@@ -141,6 +145,16 @@ index 4915ee6..085c632 100644
 +    margin-bottom: 40px 0
 +  .ads-wrap-bottom
      margin: 40px 0
+diff --git a/node_modules/hexo-theme-butterfly/source/css/_page/archives.styl b/node_modules/hexo-theme-butterfly/source/css/_page/archives.styl
+index 309e00c..38310d1 100644
+--- a/node_modules/hexo-theme-butterfly/source/css/_page/archives.styl
++++ b/node_modules/hexo-theme-butterfly/source/css/_page/archives.styl
+@@ -107,3 +107,5 @@
+     &-info
+       flex: 1
+       padding: 0 16px
++.ads-wrap-page
++  margin-top: 40px
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_page/categories.styl b/node_modules/hexo-theme-butterfly/source/css/_page/categories.styl
 index 8b80107..df671c3 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_page/categories.styl
