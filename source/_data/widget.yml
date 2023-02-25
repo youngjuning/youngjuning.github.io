@@ -4,7 +4,7 @@ top:
   #   html: <a href="https://sockboom.bar/auth/register?affid=552052" target="_blank"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677167957005.png" style="width:100%"/></a>
   - name: 当前访客
     icon: fas fa-globe-europe
-    html: <div id="ipInfo"></div><script src="/js/getBrowserInfo.js"></script><script>function IPCallBack(obj) {document.getElementById("ipInfo").innerHTML = '欢迎来自 <span style="color:red">' + obj.pro + obj.addr + '</span> 的朋友<br/>' + '访问 IP：<a href="https://whatismyipaddress.com/ip/' + obj.ip + '">' + obj.ip + "</a><br>浏览器：<span style='color:#2196f3'>" + getBrowserInfo() + '</span>';}</script><script src="http://whois.pconline.com.cn/ipJson.jsp"></script>
+    html: <div id="ipInfo"></div><script src="/js/getBrowserInfo.js"></script><script>function IPCallBack(obj) {document.getElementById("ipInfo").innerHTML = '欢迎来自 <span style="color:red">' + obj.pro + obj.addr + '</span> 的朋友<br/>' + '访问 IP：<a href="https://whatismyipaddress.com/ip/' + obj.ip + '">' + obj.ip + "</a><br>浏览器：<span style='color:#2196f3'>" + getBrowserInfo() + '</span>';}</script><script src="https://whois.pconline.com.cn/ipJson.jsp"></script>
 bottom:
   - class_name: user-map
     id_name: user-map
