@@ -43,10 +43,10 @@ index 86623c0..7db9f67 100644
    card_webinfo:
      headline: 網站資訊
 diff --git a/node_modules/hexo-theme-butterfly/layout/archive.pug b/node_modules/hexo-theme-butterfly/layout/archive.pug
-index 815cdd1..1a69787 100644
+index 815cdd1..fa924d9 100644
 --- a/node_modules/hexo-theme-butterfly/layout/archive.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/archive.pug
-@@ -3,7 +3,10 @@ extends includes/layout.pug
+@@ -3,7 +3,11 @@ extends includes/layout.pug
  block content
    include ./includes/mixins/article-sort.pug
    #archive
@@ -57,15 +57,14 @@ index 815cdd1..1a69787 100644
      include includes/pagination.pug
 +    //- ad
 +    if theme.ad && theme.ad.page
-\ No newline at end of file
++      .ads-wrap-page!=theme.ad.page
 diff --git a/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug b/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug
-index 79153c8..7cf828e 100644
+index 79153c8..d440a28 100644
 --- a/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug
 @@ -1 +1,2 @@
 +#categories-chart.js-pjax
  .category-lists!= list_categories()
-\ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/includes/page/tags.pug b/node_modules/hexo-theme-butterfly/layout/includes/page/tags.pug
 index ed7d22c..cdab6ef 100644
 --- a/node_modules/hexo-theme-butterfly/layout/includes/page/tags.pug
@@ -85,16 +84,16 @@ index 9e63627..85843fd 100644
      .announcement_content!= theme.aside.card_announcement.content
 +    .twopeople!= '<div class="twopeople"><div class="container" style="height:200px;"><canvas class="illo" width="800" height="800" style="max-width: 200px; max-height: 200px; touch-action: none; width: 640px; height: 640px;"></canvas></div><script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople1.js"></script><script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/zdog.dist.js"></script><script id="rendered-js" src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/twopeople.js"></script><style>.twopeople{margin: 0;align-items: center;justify-content: center;text-align: center;}canvas {display: block;margin: 0 auto;cursor: move;}</style></div>'
 diff --git a/node_modules/hexo-theme-butterfly/layout/page.pug b/node_modules/hexo-theme-butterfly/layout/page.pug
-index 6c810ef..56c9e65 100644
+index 6c810ef..06ec4b9 100644
 --- a/node_modules/hexo-theme-butterfly/layout/page.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/page.pug
-@@ -18,3 +18,5 @@ block content
+@@ -18,3 +18,6 @@ block content
      if page.comments !== false && theme.comments && theme.comments.use
        - var commentsJsLoad = true
        !=partial('includes/third-party/comments/index', {}, {cache: true})
 +    //- ad
 +    if theme.ad && theme.ad.page
-\ No newline at end of file
++      .ads-wrap-page!=theme.ad.page
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
 index ade0db3..8ca7c24 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
