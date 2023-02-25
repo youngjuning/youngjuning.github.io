@@ -3,7 +3,7 @@ title: React Native 架构面面观
 date: 2020-02-23 17:26:09
 cover: https://i.loli.net/2020/02/24/hPsv4Q87zlIrX6x.png
 categories:
-  - 前端
+  - [前端, React Native]
 tags:
   - 架构
   - 最佳实践

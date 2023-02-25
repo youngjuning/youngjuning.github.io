@@ -3,7 +3,7 @@ title: React Navigation 5 最佳实践
 date: 2020-02-17 10:29:14
 cover: https://i.loli.net/2020/02/23/caAngkCQdUxlp8L.png
 categories:
-  - 前端
+  - [前端, React Native]
 tags:
   - 最佳实践
   - React Native

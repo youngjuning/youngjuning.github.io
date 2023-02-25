@@ -3,7 +3,7 @@ title: 在 React Native 中使用 Mobx
 date: 2020-01-29 20:46:38
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202109241156069.png
 categories:
-  - 前端
+  - [前端, React Native]
 tags:
   - Mobx
   - React Native

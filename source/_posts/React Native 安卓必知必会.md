@@ -3,7 +3,7 @@ title: React Native 安卓必知必会
 date: 2020-02-20 14:57:55
 cover: https://i.loli.net/2020/02/21/xUfw9Ib4TRsQGeM.png
 categories:
-  - 前端
+  - [前端, React Native]
 tags:
   - 安卓
   - React Native

@@ -2,14 +2,14 @@
 title: React Native 热更新不求人
 date: 2020-05-30 21:59:19
 categories:
-  - 前端
+  - [前端, React Native]
 tags:
   - React Native
 ---
 
 ## code-push-server
 
-> TODO
+<!-- TODO code-push-server 搭建 -->
 
 ## code-push-cli
 

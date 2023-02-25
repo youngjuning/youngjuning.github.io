@@ -3,7 +3,7 @@ title: 玩转 React Native 自定义字体
 date: 2020-02-29 16:52:39
 cover: https://i.loli.net/2020/02/29/4AacpxzRh8nfY2B.png
 categories:
-  - 前端
+  - [前端, React Native]
 tags:
   - React Native
   - 掘金

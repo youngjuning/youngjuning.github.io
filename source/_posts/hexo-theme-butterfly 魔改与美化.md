@@ -1,9 +1,22 @@
 ---
 title: hexo-theme-butterfly 魔改与美化
 date: 2023-02-22 14:18:09
+description: 本文将介绍本站对 hexo-theme-butterfly 进行的一些美化和魔改。
 categories:
-  - 博客相关
+  - 站点运营
+tags:
+  - hexo
+  - hexo-theme-butterfly
+  - 魔改
+  - 美化
+keywords:
+  - hexo
+  - hexo-theme-butterfly
+  - 魔改
+  - 美化
 ---
+
+<!-- DRAFT hexo-theme-butterfly 魔改与美化 -->
 
 > 当前魔改基于 hexo 6.3.0 和 hexo-theme-butterfly 4.7.0
 

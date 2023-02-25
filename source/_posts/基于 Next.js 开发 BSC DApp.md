@@ -3,10 +3,11 @@ title: 基于 Next.js 开发 BSC DApp
 date: 2021-12-05 22:58:44
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202112101016728.png
 categories:
-  - 前端
+  - 区块链
 tags:
   - Next.js
-  - ethereum
+  - BSC
+  - DApp
 ---
 
 ## 项目初始化

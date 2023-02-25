@@ -4,7 +4,7 @@ date: 2023-02-21 15:42:00
 cover: https://blog.logrocket.com/wp-content/uploads/2021/10/building-react-code-editor-syntax-highlighter.png
 description: Here we take a look at the difference between Single Page Applications, Static Site Generators, and Server-side Rendered Applications
 categories:
-  - [前端]
+  - [前端, React]
   - [洛竹翻译计划]
 tags:
   - React

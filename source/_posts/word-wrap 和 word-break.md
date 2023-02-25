@@ -2,9 +2,11 @@
 title: word-wrap 和 word-break
 date: 2023-02-13 13:47:56
 categories:
-  - 前端
+  - [前端, CSS]
 tags:
-  - CSS3
+  - CSS
+  - word-wrap
+  - word-break
 ---
 
 word-wrap 和 word-break 是一对用于单词断句的双生属性，但是又有微妙的区别，每次要用的时候还要重新翻一下 MDN 文档，本文力求通过一张流程图快速记忆两者如何使用。

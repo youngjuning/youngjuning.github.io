@@ -2,7 +2,7 @@
 title: 使用 react-native-amap-geolocation 接入高德地图定位
 date: 2020-03-17 16:05:44
 categories:
-  - 前端
+  - [前端, React Native]
 tags:
   - amap
   - React Native

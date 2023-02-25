@@ -3,7 +3,7 @@ title: React Native 收藏夹
 date: 2020-02-14 15:36:00
 cover: https://i.loli.net/2020/02/19/6Vnx84tSCOP2XcE.jpg
 categories:
-  - 前端
+  - [前端, React Native]
 tags:
   - 收藏夹
   - React Native
