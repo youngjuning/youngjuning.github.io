@@ -702,7 +702,7 @@ aside:
       link: https://github.com/youngjuning
   card_announcement:
     enable: true
-    content: "<div id='ipInfo'></div><script src=\"/js/getBrowserInfo.js\"></script><script>function geoip(obj) {document.getElementById(\"ipInfo\").innerHTML = '访问地址: <a href=\"https://whatismyipaddress.com/ip/' + obj.ip + '\">' + obj.country + ' ' + obj.city + '</a><br/>' + '访问 IP: <a href=\"https://get.geojs.io/v1/ip/geo.js/\">' + obj.ip + \"</a><br>浏览器: <span style='color:#2196f3'>\" + getBrowserInfo() + '</span>';}</script><script src= \"https://get.geojs.io/v1/ip/geo.js\"></script>"
+    content: "<div id='ipInfo'></div><script src=\"/js/getBrowserInfo.js\"></script><script>function geoip(obj) {var address = obj.country === obj.city ? obj.city : obj.country + ' ' + obj.city; document.getElementById(\"ipInfo\").innerHTML = '<i class=\"fas fa-map-pin\"></i> <a href=\"https://whatismyipaddress.com/ip/' + obj.ip + '\">' + address + '</a><br/>' + '<i class=\"fas fa-at\"></i> <a href=\"https://get.geojs.io/v1/ip/geo.js/\">' + obj.ip + '</a><br><i class=\"fas fa-chrome\"></i> <span style=\"color:#2196f3\">' + getBrowserInfo() + '</span>';}</script><script src= \"https://get.geojs.io/v1/ip/geo.js\"></script>"
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
