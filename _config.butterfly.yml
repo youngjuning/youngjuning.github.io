@@ -702,7 +702,7 @@ aside:
       link: https://github.com/youngjuning
   card_announcement:
     enable: true
-    content: 我把常用的 vscode 插件整理成了一个 <a href="https://marketplace.visualstudio.com/items?itemName=youngjuning.vscode-luozhu-pack">vscode 开发套件</a>，前端开发可以借鉴一下。
+    content: <div id="ipInfo"></div><script src="/js/getBrowserInfo.js"></script><script>function IPCallBack(obj) {document.getElementById("ipInfo").innerHTML = '欢迎来自 <span style="color:red">' + obj.pro + obj.addr + '</span> 的朋友<br/>' + '访问 IP：<a href="https://whatismyipaddress.com/ip/' + obj.ip + '">' + obj.ip + "</a><br>浏览器：<span style='color:#2196f3'>" + getBrowserInfo() + '</span>';}</script><script src="https://whois.pconline.com.cn/ipJson.jsp"></script>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
