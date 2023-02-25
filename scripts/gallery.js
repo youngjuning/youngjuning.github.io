@@ -1,5 +1,8 @@
 const fs = require('fs');
 
+if (!fs.existsSync('./images')) {
+  return;
+}
 const notPicture = ['LICENSE', 'README.md', '.git', '.gitignore'];
 const files = fs
   .readdirSync('./images')
