@@ -8,12 +8,8 @@ categories:
   - 站点运营
 tags:
   - Adsense
-  - CPC
-  - Google
-keywords:
-  - Adsense
-  - CPC
-  - Google
+  - Adsense CPC
+  - 流量时代
 ---
 
 作为一个技术博客的博主，我一直在寻找提高 Google Adsense CPC 的方法，因为 CPC 是 Adsense 的收入来源，所以 CPC 越高，收入越多。本文就将介绍如何提高 Google Adsense CPC。

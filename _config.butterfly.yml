@@ -892,10 +892,10 @@ lazyload:
 Open_Graph_meta:
   enable: true
   option:
-    # twitter_card:
-    # twitter_image:
-    # twitter_id:
-    # twitter_site:
+    twitter_card: summary
+    twitter_image: https://pbs.twimg.com/profile_images/1628559000953565186/HVtTFoKv_x96.jpg
+    twitter_id: luozhu2021
+    twitter_site: https://twitter.com/luozhu2021
     # google_plus:
     # fb_admins:
     # fb_app_id:

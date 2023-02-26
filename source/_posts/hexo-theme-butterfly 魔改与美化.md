@@ -9,11 +9,6 @@ tags:
   - hexo-theme-butterfly
   - 魔改
   - 美化
-keywords:
-  - hexo
-  - hexo-theme-butterfly
-  - 魔改
-  - 美化
 ---
 
 <!-- DRAFT hexo-theme-butterfly 魔改与美化 -->
