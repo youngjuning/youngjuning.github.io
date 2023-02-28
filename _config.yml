@@ -171,6 +171,52 @@ bangumi:
   title: '追番列表'
   quote: '生命不息，追番不止！'
   show: 1
+minify:
+  preview: false ## 本地预览时是否压缩
+  exclude: ['*.min.*']
+  js:
+    enable: true
+    ## 详细配置: https://github.com/terser/terser#minify-options
+    options: {}
+  css:
+    enable: true
+    ## 详细配置: https://github.com/clean-css/clean-css#compatibility-modes
+    options: {}
+  html:
+    enable: true
+    ## 详细配置: https://github.com/kangax/html-minifier#options-quick-reference
+    options:
+      minifyJS: true # Compressed JavaScript
+      minifyCSS: true # CSS Compressed
+      removeComments: true # Remove the comments
+      collapseWhitespace: true # Delete any extra space
+      removeAttributeQuotes: true # Delete attribute quotes
+  image:
+    enable: true
+    svg:
+      enable: true
+      ## 详细配置: https://github.com/imagemin/imagemin-svgo#imageminsvgooptionsbuffer
+      options: {}
+    jpg:
+      enable: true
+      ## 详细配置: https://github.com/imagemin/imagemin-jpegtran#options
+      options: {}
+    png:
+      enable: true
+      ## 详细配置: https://github.com/imagemin/imagemin-pngquant#options
+      options: {}
+    gif:
+      enable: true
+      ## 详细配置: https://www.npmjs.com/package/imagemin-gifsicle#options
+      options: {}
+    webp:
+      enable: true
+      ## 详细配置: https://github.com/imagemin/imagemin-webp#options
+      options: {}
+  font:
+    enable: true
+    ## 详细配置: https://github.com/Lete114/fontmin-spider#api
+    options: {}
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
