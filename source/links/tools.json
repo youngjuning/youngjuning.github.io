@@ -1,6 +1,6 @@
 [
   {
-    "class_name": "前端",
+    "class_name": "前端工具",
     "class_desc": "手艺好还要家伙妙。",
     "link_list": [
       {
@@ -20,6 +20,66 @@
         "link": "http://flexboxfroggy.com/#zh-cn",
         "avatar": "https://flexboxfroggy.com/favicon.ico",
         "descr": "一个用来学CSS flexbox 的游戏"
+      }
+    ]
+  },
+  {
+    "class_name": "站长工具",
+    "class_desc": "手中无网看鱼跳。",
+    "link_list": [
+      {
+        "name": "Google Analytics",
+        "link": "https://analytics.google.com/",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677941205113.png",
+        "descr": "Google Analytics"
+      },
+      {
+        "name": "Google Search Console",
+        "link": "https://search.google.com/",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677941139300.png",
+        "descr": "Google Search Console"
+      },
+      {
+        "name": "Google Adsense",
+        "link": "https://adsense.google.com/",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677940677748.png",
+        "descr": "我们将您的内容化为真金白银"
+      },
+      {
+        "name": "Microsoft Clarity",
+        "link": "https://clarity.microsoft.com/",
+        "avatar": "https://claritystatic.azureedge.net/images/logo.ico",
+        "descr": "Cloud, Computers, Apps & Gaming"
+      },
+      {
+        "name": "Bing Webmaster Tools",
+        "link": "https://www.bing.com/webmasters",
+        "avatar": "https://www.bing.com/favicon.ico",
+        "descr": "获取网站的性能数据，利用免费的SEO工具并分析，以提高您在必应搜索结果上的网页排名。"
+      },
+      {
+        "name": "百度统计",
+        "link": "https://tongji.baidu.com/",
+        "avatar": "https://tongji.baidu.com/favicon.ico",
+        "descr": "一站式智能分析与数据平台"
+      },
+      {
+        "name": "百度搜索资源平台",
+        "link": "https://ziyuan.baidu.com/",
+        "avatar": "https://ziyuan.baidu.com/favicon.ico",
+        "descr": "托管在 github 的网站死活不给收录"
+      },
+      {
+        "name": "ClustrMaps",
+        "link": "https://clustrmaps.com/",
+        "avatar": "https://clustrmaps.com/favicon.ico",
+        "descr": "ClustrMaps is a free service that lets you monitor your website's visitors."
+      },
+      {
+        "name": "WhatIs MyIPAddress",
+        "link": "https://whatismyipaddress.com/",
+        "avatar": "https://whatismyipaddress.com/favicon.ico",
+        "descr": "What is my IP address"
       }
     ]
   }
