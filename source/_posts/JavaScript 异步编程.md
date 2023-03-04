@@ -45,8 +45,6 @@ ajax(url, () => {
 - rejected: 意味着操作失败。
 - Settled: Promise 要么被完成，要么被拒绝。Promise 一旦达成，它的状态就不再改变。
 
-![](https://user-gold-cdn.xitu.io/2019/8/14/16c8d7189886fcc7?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
-
 ### 基本用法
 
 ES6 规定，Promise 对象是一个构造函数，用来生成 Promise 实例。
