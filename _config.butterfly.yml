@@ -702,7 +702,7 @@ aside:
       link: https://github.com/youngjuning
   card_announcement:
     enable: true
-    content: "<div id='ipInfo'></div><script src=\"/js/getBrowserInfo.js\"></script><script>function geoip(obj) {var address = obj.country === obj.city ? obj.city : obj.country + ' ' + obj.city; var addr = obj.city ? address : obj.country;document.getElementById(\"ipInfo\").innerHTML = '访客地址：<i class=\"fas fa-map-marked\"></i> <a href=\"https://whatismyipaddress.com/ip/' + obj.ip + '\">' + addr + '</a><br/>' + '访客 IP：<i class=\"fas fa-at\"></i> <a href=\"https://get.geojs.io/v1/ip/geo.js/\">' + obj.ip + '</a><br>浏览器：<i class=\"fab fa-chrome\"></i> <span style=\"color:#2196f3\">' + getBrowserInfo() + '</span>';}</script><script src= \"https://get.geojs.io/v1/ip/geo.js\"></script>"
+    content: "<div id='ipInfo'></div><script src=\"/js/getBrowserInfo.js\"></script><script>function geoip(obj) {var address = obj.country === obj.city ? obj.city : obj.country + ' ' + obj.city; var addr = obj.city ? address : obj.country;document.getElementById(\"ipInfo\").innerHTML = '访客地址：<i class=\"fas fa-map-marked\"></i> <a href=\"https://whoer.net/\">' + addr + '</a><br/>' + '访客 IP：<i class=\"fas fa-at\"></i> <a href=\"https://get.geojs.io/v1/ip/geo.js/\">' + obj.ip + '</a><br>浏览器：<i class=\"fab fa-chrome\"></i> <span style=\"color:#2196f3\">' + getBrowserInfo() + '</span>';}</script><script src= \"https://get.geojs.io/v1/ip/geo.js\"></script>"
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
