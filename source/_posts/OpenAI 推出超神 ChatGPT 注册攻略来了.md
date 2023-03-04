@@ -7,6 +7,8 @@ categories:
 tags:
   - OPenAI
   - Chatgpt
+  - Chatgpt 注册
+  - 人工智能
 ---
 
 OpenAI 推出超神 ChatGPT，非常火爆。但是呢，因为不可抗力原因，大部分人无法体验到。这里我分享一下注册的攻略。
