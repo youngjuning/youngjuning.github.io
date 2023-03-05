@@ -5,3 +5,6 @@
 [![](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://guides.github.com/features/mastering-markdown/)
 
 > 注意：不要改文件名！！！不要改文件名！！！不要改文件名！！！否则文章链接会失效！！！
+
+![图 5](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678003208649.png)  
+![图 6](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678003325833.png)  

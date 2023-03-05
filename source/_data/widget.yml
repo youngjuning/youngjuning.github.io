@@ -1,4 +1,4 @@
-bottom:
+top:
   - class_name: user-map
     id_name: user-map
     name: 访客地图
