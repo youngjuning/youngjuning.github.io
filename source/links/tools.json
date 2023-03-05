@@ -226,6 +226,12 @@
         "descr": "阿里巴巴集团旗下 B2B 电子商务平台"
       },
       {
+        "name": "PiPiDS（选品）",
+        "link": "https://www.pipiads.com/",
+        "avatar": "https://www.pipiads.com/favicon.ico",
+        "descr": "跨境出海短视频广告营销与选品平台"
+      },
+      {
         "name": "速卖通（代发）",
         "link": "https://sell.aliexpress.com/zh/__pc/newsellerlanding.htm",
         "avatar": "https://www.aliexpress.com/favicon.ico",
@@ -278,6 +284,12 @@
         "link": "https://dianxiaobao.cathay-ins.com.cn/",
         "avatar": "https://i3.cathay-ins.com.cn/prod/posts/eb9f24c18ebe3a02ceb57473ebd562c7.svg",
         "descr": "海外退货，海外无忧退货，海外30天无理由退货，退货保险，海外仓退货，海外运费保险"
+      },
+      {
+        "name": "万里汇",
+        "link": "https://www.worldfirst.com.cn/cn/",
+        "avatar": "https://cdn-worldfirst.marmot-cloud.com/storage/2020/5/12/f8917454-c369-4300-80f3-66370c4ef51d.png",
+        "descr": "跨境支付_跨境收款平台_跨境电商收款_跨境电商支付平台-万里汇WorldFirst"
       },
       {
         "name": "运鲸国际物流",
