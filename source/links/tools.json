@@ -94,7 +94,7 @@
         "descr": "What is my IP address"
       },
       {
-        "name": "IP Address",
+        "name": "Whoer",
         "link": "https://whoer.net/",
         "avatar": "https://whoer.net/favicon.png",
         "descr": "检查您的 IP 地址和 DNS 地址"
@@ -154,6 +154,12 @@
         "descr": "新用户满20元 首单8折！"
       },
       {
+        "name": "牧牛云",
+        "link": "https://muniucloud.me/auth/register?code=T9IJ",
+        "avatar": "https://muniucloud.one/",
+        "descr": "牧牛云,牧牛云,牧牛云"
+      },
+      {
         "name": "品云机场导航",
         "link": "https://52.mk/",
         "avatar": "https://3o.hk/images/2020/11/20/favicon2ec406c125a312cb.png",
@@ -170,6 +176,72 @@
         "link": "https://justmysocks.net/members/",
         "avatar": "https://jmsnode.com/wp-content/uploads/2022/06/cropped-1656100765-favicon-180x180.png",
         "descr": "知名高速线路 VPS 服务商搬瓦工官方运营的代理机场"
+      }
+    ]
+  },
+  {
+    "class_name": "跨境电商",
+    "class_desc": "跨境电商，链接世界。",
+    "link_list": [
+      {
+        "name": "Shopify",
+        "link": "https://www.shopify.com/zh",
+        "avatar": "https://cdn.shopify.com/static/shopify-favicon.png",
+        "descr": "电商软件和销售终端（POS）"
+      },
+      {
+        "name": "Shopify Theme",
+        "link": "https://themes.shopify.com/",
+        "avatar": "https://cdn.shopify.com/static/shopify-favicon.png",
+        "descr": "使用让销售变得轻松的主题，让您的商店从开业到规模化。"
+      },
+      {
+        "name": "Shopify Apps",
+        "link": "https://apps.shopify.com/",
+        "avatar": "https://cdn.shopify.com/static/shopify-favicon.png",
+        "descr": "借助应用，销售更广，完成更多工作，实现更大目标，发货更快，心力两轻松"
+      },
+      {
+        "name": "Shopify 帮助中心",
+        "link": "https://help.shopify.com/",
+        "avatar": "https://cdn.shopify.com/static/shopify-favicon.png",
+        "descr": "Shopify 帮助中心"
+      },
+      {
+        "name": "Shopify Logo Maker",
+        "link": "https://www.shopify.com/tools/logo-maker",
+        "avatar": "https://cdn.shopify.com/static/shopify-favicon.png",
+        "descr": "Create professional logos in seconds"
+      },
+      {
+        "name": "精品店名字生成器",
+        "link": "https://www.shopify.com/zh/tools/business-name-generator/boutique",
+        "avatar": "https://cdn.shopify.com/static/shopify-favicon.png",
+        "descr": "为您的精品店生成理想的店名"
+      },
+      {
+        "name": "虾皮",
+        "link": "https://shopee.cn/",
+        "avatar": "https://deo.shopeesz.com/shopee/shopee-shopeecn-live-cn/favicon.ico",
+        "descr": "出海东南亚电商平台跨境解决方案"
+      },
+      {
+        "name": "ShopLine",
+        "link": "https://shoplineapp.cn/",
+        "avatar": "https://cdn.shoplineapp.com/media/favicon/favicon-32x32.png",
+        "descr": "国内领先的智慧SaaS电商平台"
+      },
+      {
+        "name": "WhatIs MyIPAddress",
+        "link": "https://whatismyipaddress.com/",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678002092318.png",
+        "descr": "查询 ip 确定所在时区"
+      },
+      {
+        "name": "Whoer",
+        "link": "https://whoer.net/",
+        "avatar": "https://whoer.net/favicon.png",
+        "descr": "检查您的 IP 地址和 DNS 地址，确保安全性"
       }
     ]
   }
