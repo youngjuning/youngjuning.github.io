@@ -9,6 +9,7 @@ menu:
     标签: /tags/ || fas fa-tags
     时间轴: /archives/ || fas fa-archive
     随机: /random/ || fas fa-random
+  项目: /projects || fab fa-github
   收藏|| fas fa-star:
     工具: /tool/ || fas fa-cog
   社交||fas fa-wine-glass-alt:
