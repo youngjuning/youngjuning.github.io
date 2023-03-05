@@ -220,6 +220,30 @@
         "descr": "为您的精品店生成理想的店名"
       },
       {
+        "name": "阿里1688（选品）",
+        "link": "https://www.1688.com/",
+        "avatar": "https://www.1688.com/favicon.ico",
+        "descr": "阿里巴巴集团旗下 B2B 电子商务平台"
+      },
+      {
+        "name": "速卖通（代发）",
+        "link": "https://sell.aliexpress.com/zh/__pc/newsellerlanding.htm",
+        "avatar": "https://www.aliexpress.com/favicon.ico",
+        "descr": "AliExpress 全球速卖通"
+      },
+      {
+        "name": "Temu（代发）",
+        "link": "https://www.temu.com/",
+        "avatar": "https://www.temu.com/favicon.ico",
+        "descr": "一個基於美國的在線市場。這是一個“跨境電子商務網站，大多數產品可能來自海外，尤其是中國。”它是位於中國的PDD Holdings Inc.的子公司，該公司還擁有拼多多。"
+      },
+      {
+        "name": "SHEIN（代发）",
+        "link": "https://us.shein.com/",
+        "avatar": "https://us.shein.com/favicon.ico",
+        "descr": "女性商品代发"
+      },
+      {
         "name": " AdsPower",
         "link": "https://activity.adspower.com/global/dist-zh/",
         "avatar": "https://activity.adspower.com/favicon.ico",
