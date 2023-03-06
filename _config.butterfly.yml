@@ -9,8 +9,9 @@ menu:
     标签: /tags/ || fas fa-tags
     时间轴: /archives/ || fas fa-archive
     随机: /random/ || fas fa-random
-  收藏|| fas fa-star:
+  导航|| fas fa-star:
     工具: /tool/ || fas fa-cog
+    跨境电商: /tool/ || fas fa-hand-holding-usd
   社交||fas fa-wine-glass-alt:
     友人: /friends/ || fas fa-link
     开往: https://travellings.vercel.app/ || fas fa-paper-plane
