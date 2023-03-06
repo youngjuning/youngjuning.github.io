@@ -12,10 +12,7 @@ tags:
   - React 面试
   - React 面试题与答案
   - 前端面试题
-  - 科学上网
 ---
-
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 # React 核心
 
@@ -911,8 +908,6 @@ const App = (props) => {
   )
 }
 ```
-
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 51. 如何在 React 中对 props 进行验证？
 
@@ -1871,8 +1866,6 @@ class WindowDimensions extends React.Component {
 }
 ```
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 101. `setState()` 和 `replaceState()` 方法之间的区别是什么？
 
 当你使用 `setState()` 时，当前和之前的状态被合并。 `replaceState()` 抛出当前的状态，只用你提供的内容来替换它。通常 `setState()` 会被使用，除非你真的因为某些原因需要删除所有之前的键。你也可以在 `setState()` 中把状态设置为 `false`/`null`，而不是使用 `replaceState()`。
@@ -2309,8 +2302,6 @@ class MyComponent extends React.Component {
 ```
 
 React Router 和 DownShift 等库正在使用这种模式。
-
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 # React Router
 
