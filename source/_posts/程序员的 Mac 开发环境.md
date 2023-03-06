@@ -7,6 +7,7 @@ categories:
 tags:
   - Mac
   - 开发环境
+  - 程序员
 ---
 
 ## Xcode Command Line Tools
