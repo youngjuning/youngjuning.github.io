@@ -1,7 +1,17 @@
 ---
 title: React 面试必知不会
-date: 2021-09-21 13:31:38
-comments: false
+date: 2023-03-06 19:30:00
+permalink: react-interview/
+description: 前 500 个 ReactJS 面试问题和答案列表....编码练习题即将推出！
+sticky: 3
+toc_number: false
+categories:
+  - [前端, React]
+tags:
+  - React 面试题
+  - React 面试
+  - React 面试题与答案
+  - 前端面试题
 ---
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -900,6 +910,8 @@ const App = (props) => {
   )
 }
 ```
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 51. 如何在 React 中对 props 进行验证？
 
@@ -1857,6 +1869,8 @@ class WindowDimensions extends React.Component {
   }
 }
 ```
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 101. `setState()` 和 `replaceState()` 方法之间的区别是什么？
 
