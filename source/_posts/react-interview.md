@@ -1,5 +1,5 @@
 ---
-title: React 面试必知不会
+title: React 面试必知必会
 date: 2023-03-06 19:30:00
 permalink: react-interview/
 description: 前 500 个 ReactJS 面试问题和答案列表....编码练习题即将推出！
