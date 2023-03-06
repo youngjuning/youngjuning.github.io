@@ -233,7 +233,6 @@ Shopify 不需要，但 Facebook、Google、Instagram、Pinterest、Twitter、Ti
 1. 下载夜神模拟器或者 BlueStacks
 2. 下载谷歌三件套
 3. 下载 TikTok
-4. 下载 [TikTok Plugin](https://github.com/tigr1234566/TikTok-Plugin)
 
 ### 真机（推荐）
 
@@ -264,7 +263,6 @@ Shopify 不需要，但 Facebook、Google、Instagram、Pinterest、Twitter、Ti
   - 关闭定位服务：设置 -> 更多设置 -> 日期和时间 -> 自动设置时间 -> 关闭 ->  修改为节点所在时区
   - 关闭广告跟踪：设置 -> 更多设置 -> 系统安全 -> 广告服务 -> 关闭
 3. apkpure.com 安装 tiktok
-4. 安装 [TikTok Plugin](https://github.com/tigr1234566/TikTok-Plugin)
 
 ## TikTok 小店
 
