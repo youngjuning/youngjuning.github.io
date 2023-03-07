@@ -916,7 +916,7 @@ inject:
   bottom:
     # - <script src="xxxx"></scrip>
     # 推送通知
-
+    - <script src="https://asleavannychan.com/pfe/current/tag.min.js?z=5772015" data-cfasync="false" async></script>
     # 页内推送（横幅）
     - <script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('zoawufoy.net',5772012,document.createElement('script'))</script>
     # 原生横幅广告（插页式）
