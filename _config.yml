@@ -126,7 +126,7 @@ charts:
 # https://www.cnblogs.com/strengthen/p/11112215.html
 # https://imbhj.com/599f1d72/
 live2d:
-  enable: true
+  enable: false
   scriptFrom: jsdelivr
   pluginRootPath: live2dw/
   pluginJsPath: lib/
