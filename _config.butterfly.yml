@@ -915,7 +915,7 @@ inject:
     - <meta name="monetag" content="5b629bc484ca4b65e3c962f832cc3f11">
   bottom:
     # - <script src="xxxx"></scrip>
-    - <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5771912"></script>
+    - <script>(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5771943,document.body||document.documentElement)</script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
