@@ -915,8 +915,12 @@ inject:
     - <meta name="monetag" content="5b629bc484ca4b65e3c962f832cc3f11">
   bottom:
     # - <script src="xxxx"></scrip>
-    - <script>(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5771943,document.body||document.documentElement)</script>
+    # 推送通知
 
+    # 页内推送（横幅）
+    - <script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('zoawufoy.net',5772012,document.createElement('script'))</script>
+    # 原生横幅广告（插页式）
+    - <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5771912"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
