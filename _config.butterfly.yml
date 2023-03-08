@@ -913,6 +913,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="xxxx">
     - <meta name="monetag" content="5b629bc484ca4b65e3c962f832cc3f11">
+    - <meta name="tlsdk" content="11713ba36b4d4f1884ecf005a6b59c52">
   bottom:
     # - <script src="xxxx"></scrip>
     # 推送通知
