@@ -5,12 +5,13 @@
 # Site
 title: 洛竹的博客
 subtitle: 真理无穷，一寸欢喜。
-description: 真理无穷，一寸欢喜。
+description: 洛竹的个人博客，记录分享生活、学习、工作、编程技术等方面的内容。
 keywords:
   - 计算机
   - 互联网
   - 程序员
   - 科学上网
+  - 编程
 author: 洛竹
 language: zh-CN
 timezone: Asia/Shanghai
