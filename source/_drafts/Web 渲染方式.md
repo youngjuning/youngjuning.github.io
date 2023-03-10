@@ -5,7 +5,7 @@ data: 2023-02-01 10:59:26
 description: As developers, we are often faced with decisions that will affect the entire architecture of our applications.
 categories:
   - [前端]
-  - [洛竹翻译计划]
+  - [洛竹翻译计划, 前端]
 tags:
   - SSG
   - CSR

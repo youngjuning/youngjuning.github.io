@@ -7,7 +7,7 @@ sticky: 3
 toc_number: false
 categories:
   - [前端, React]
-  - [洛竹翻译计划]
+  - [洛竹翻译计划, React]
 tags:
   - React 面试题
   - React 面试
