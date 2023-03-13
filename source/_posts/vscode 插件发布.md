@@ -4,7 +4,7 @@ date: 2021-08-12 20:46:38
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/20210812204938.jpeg
 description: vsce 是一个用于将 vscode 插件发布到扩展市场上的命令行工具
 categories:
-  - 前端
+  - [前端, VS Code]
 tags:
   - vscode 插件
   - vscode 插件开发
