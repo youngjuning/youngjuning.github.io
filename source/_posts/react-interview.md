@@ -15,6 +15,8 @@ tags:
   - 前端面试题
 ---
 
+React 是一个开源前端 JavaScript 库，用于构建用户界面，尤其是单页应用程序。它用于处理 Web 和移动应用程序的视图层。
+
 ## 1. 什么是 React？
 
 React 是一个**开源前端 JavaScript 库**，用于构建用户界面，尤其是单页应用程序。它用于处理 Web 和移动应用程序的视图层。React 是由 Facebook 的软件工程师 [乔丹·沃克](https://github.com/jordwalke) 创建的。React 于 2011 年在 Facebook 的 News Feed 上首次发布，2012 年首次在 Instagram 发布。
