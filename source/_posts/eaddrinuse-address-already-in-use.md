@@ -8,10 +8,6 @@ tags:
   - [Node, EADDRINUSE, address already in use]
 ---
 
-> 原文地址：[How to kill server when seeing “EADDRINUSE: address already in use”](https://114.li/jscdep)
-> 原文作者：[BChen](https://bindichen.medium.com/)
-> 译文出自：[洛竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
-
 # 问题
 
 当你尝试重启一个 Node 应用时，上一个应用没有正确关闭，你可能会看到一个“listen EADDRINUSE: address already in use”错误，例如：
@@ -113,3 +109,8 @@ TCP 0.0.0.0:3000 0.0.0.0:0 LISTENING 18264
 ```sh
 $ taskkill /pid 18264 /f
 ```
+
+> 原文地址：[How to kill server when seeing “EADDRINUSE: address already in use”](https://114.li/jscdep)
+> 原文作者：[BChen](https://bindichen.medium.com/)
+> 译文出自：[洛竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+
