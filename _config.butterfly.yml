@@ -916,7 +916,7 @@ inject:
   bottom:
     # - <script src="xxxx"></scrip>
     # 页内推送（横幅）
-    - <script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('zoawufoy.net',5772012,document.createElement('script'))</script>
+    # - <script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('zoawufoy.net',5772012,document.createElement('script'))</script>
     # 小插图横幅
     # - <script>(function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('goomaphy.com',5771982,document.createElement('script'))</script>
 # CDN
