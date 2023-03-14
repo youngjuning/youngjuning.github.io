@@ -2,7 +2,7 @@
 title: React 面试题（核心）
 date: 2023-03-06 19:30:00
 permalink: react-interview/
-description: 前 500 个 ReactJS 面试问题和答案列表....编码练习题即将推出！
+description: 前 500 个 ReactJS 面试必知必会问题与答案，是洛竹诚意翻译的前端 React 面试必备系列。
 sticky: 3
 toc_number: false
 categories:
@@ -14,8 +14,6 @@ tags:
   - React 面试题与答案
   - 前端面试题
 ---
-
-React 是一个开源前端 JavaScript 库，用于构建用户界面，尤其是单页应用程序。它用于处理 Web 和移动应用程序的视图层。
 
 ## 1. 什么是 React？
 
