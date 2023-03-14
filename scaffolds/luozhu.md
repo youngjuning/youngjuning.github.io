@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 categories:
-  - [洛竹翻译计划]
+  - 洛竹翻译计划
 tags:
 ---
 
