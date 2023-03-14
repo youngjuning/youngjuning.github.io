@@ -5,7 +5,10 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678415328290.png
 categories:
   - [洛竹翻译计划, 程序员]
 tags:
-  - [Node, EADDRINUSE, address already in use]
+  - Node
+  - EADDRINUSE
+  - address already in use
+  - 进程
 ---
 
 # 问题

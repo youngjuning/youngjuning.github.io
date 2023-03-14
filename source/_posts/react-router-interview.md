@@ -2,7 +2,7 @@
 title: React 面试题（React Router）
 date: 2023-03-06 19:30:00
 permalink: react-router-interview/
-description: React Router 是一个建立在 React 之上的强大的路由库，它可以帮助你快速添加新的屏幕和流程到你的应用程序，同时保持 URL 与页面上显示的内容同步。
+description: 前 500 个 ReactJS 面试必知必会问题与答案，这是洛竹诚意翻译的前端 React 面试必备系列的 React Router 面试篇。
 sticky: 3
 toc_number: false
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678720116695.png
@@ -17,8 +17,6 @@ tags:
   - React Router
   - React Router 面试题
 ---
-
-React Router 是一个建立在 React 之上的强大的路由库，它可以帮助你快速添加新的屏幕和流程到你的应用程序，同时保持 URL 与页面上显示的内容同步。
 
 # 1. React Router 是什么？
 
