@@ -115,11 +115,17 @@
         "link": "https://www.pipiads.com/",
         "avatar": "https://www.pipiads.com/favicon.ico",
         "descr": "跨境出海短视频广告营销与选品平台"
+      },
+      {
+        "name": "魔镜市场情报",
+        "link": "https://www.mktindex.com/static/home/",
+        "avatar": "https://www.mktindex.com/static/public/image/home/cardandother/card3-icon.png",
+        "descr": "跨境电商市场情报"
       }
     ]
   },
   {
-    "class_name": "货代",
+    "class_name": "一件代发",
     "class_desc": "无货源模式，代发平台",
     "link_list": [
       {
@@ -159,6 +165,18 @@
         "descr": "海外退货，海外无忧退货，海外30天无理由退货，退货保险，海外仓退货，海外运费保险"
       },
       {
+        "name": "PingPang",
+        "link": "https://www.pingpang.com/",
+        "avatar": "https://www.pingpongx.com/favicon.ico",
+        "descr": "服务中国跨境卖家"
+      },
+      {
+        "name": "Payoneer",
+        "link": "https://www.payoneer.com/zh/",
+        "avatar": "https://www.payoneer.com/favicon.ico",
+        "descr": "Payoneer - 为全球商业提供支付和收款解决方案"
+      },
+      {
         "name": "万里汇",
         "link": "https://www.worldfirst.com.cn/cn/",
         "avatar": "https://cdn-worldfirst.marmot-cloud.com/storage/2020/5/12/f8917454-c369-4300-80f3-66370c4ef51d.png",
@@ -169,12 +187,6 @@
         "link": "https://www.paypal.com/c2/home",
         "avatar": "https://www.paypalobjects.com/webstatic/icon/pp258.png",
         "descr": "安全海淘国际支付平台_安全收款外贸平台-PayPal CN"
-      },
-      {
-        "name": "运鲸国际物流",
-        "link": "https://www.shippingwhale.com/",
-        "avatar": "https://www.shippingwhale.com/res/favicon.ico",
-        "descr": "一站式跨国运输服务 就找运鲸国际"
       }
     ]
   }

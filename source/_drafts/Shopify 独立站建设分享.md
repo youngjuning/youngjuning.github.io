@@ -1,6 +1,7 @@
 ---
 title: Shopify 独立站建设分享
 date: 2023-03-13 22:07:53
+cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678808030286.png
 categories:
   - 跨境电商
 tags:
@@ -33,3 +34,5 @@ Shopify 提供了一个简单易用的界面，用户可以使用它来设计并
 - 社交媒体联接： 商家可以将他们的商店与Facebook和Instagram等社交媒体渠道连接起来，这样就可以通过这些平台来推广和营销他们的产品。
 
 综上所述，Shopify 具有易用性、安全性、可扩展性、多种付款选项、移动优化、分析和社交媒体联接等特点。
+
+## 我为什么使用 Shopify
