@@ -2,12 +2,15 @@
 title: 程序员的 Mac 开发环境
 date: 2020-03-05 01:06:42
 cover: https://i.loli.net/2020/03/07/dPCm6qwpsZn8k1o.png
+description: 本文介绍了程序员常用的 Mac 环境配置，作为记录分享给大家。
 categories:
   - 漫谈
 tags:
   - Mac
   - 开发环境
   - 程序员
+  - Mac 环境
+  - 程序员 Mac 环境
 ---
 
 ## Xcode Command Line Tools
@@ -105,7 +108,7 @@ $ git config --global pager.branch false
 > Linux 或 Mac 系统使用 LF 作为行结束符，因此你不想 Git 在签出文件时进行自动的转换；当一个以 `CRLF` 为行结束符的文件不小心被引入时你肯定想进行修正，把 `core.autocrlf` 设置成 `input` 来告诉 Git 在提交时把 `CRLF` 转换成 `LF`，签出时不转换：
 > 这样会在 Windows 系统上的签出文件中保留 `CRLF`，会在 Mac 和 Linux 系统上，包括仓库中保留 `LF`。
 
-## 代理配置
+### 代理配置
 
 需要为 git 单独设置代理加速，`41091` 是 HTTP/HTTPS 代理端口，请按照自己的情况填写。
 
