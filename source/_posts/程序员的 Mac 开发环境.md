@@ -2,12 +2,15 @@
 title: 程序员的 Mac 开发环境
 date: 2020-03-05 01:06:42
 cover: https://i.loli.net/2020/03/07/dPCm6qwpsZn8k1o.png
+description: 本文介绍了程序员常用的 Mac 环境配置，作为记录分享给大家。
 categories:
   - 漫谈
 tags:
   - Mac
   - 开发环境
   - 程序员
+  - Mac 环境
+  - 程序员 Mac 环境
 ---
 
 ## Xcode Command Line Tools
