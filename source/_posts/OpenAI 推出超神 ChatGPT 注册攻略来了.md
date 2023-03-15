@@ -10,7 +10,7 @@ tags:
   - 人工智能
 ---
 
-OpenAI 推出超神 ChatGPT，非常火爆。但是呢，由于 ChatGPT 注册的问题，大部分人无法体验到。这里我分享一下我的 ChatGPT 注册攻略。
+OpenAI 推出超神 ChatGPT，非常火爆。但是呢，由于 ChatGPT 注册的问题，大部分人无法体验到。这里我分享一下我的国内 ChatGPT 注册攻略。
 
 ### 准备
 
