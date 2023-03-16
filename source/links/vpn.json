@@ -1,7 +1,7 @@
 [
   {
     "class_name": "科学上网",
-    "class_desc": "科学上网，链接世界。",
+    "class_desc": "科学上网，安全第一。",
     "link_list": [
       {
         "name": "WhatIs MyIPAddress",
@@ -10,7 +10,7 @@
         "descr": "What is my IP address"
       },
       {
-        "name": "Whoer",
+        "name": "Whoer.net",
         "link": "https://whoer.net/",
         "avatar": "https://whoer.net/favicon.png",
         "descr": "检查您的 IP 地址和 DNS 地址"
