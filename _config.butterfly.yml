@@ -11,6 +11,7 @@ menu:
     随机: /random/ || fas fa-random
   导航|| fas fa-star:
     我的工具: /tool/ || fas fa-cog
+    科学上网: /vpn/ || fas fa-wifi
     跨境电商: /oversea/ || fas fa-hand-holding-usd
   社交||fas fa-wine-glass-alt:
     友人: /friends/ || fas fa-link
