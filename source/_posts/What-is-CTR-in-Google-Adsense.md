@@ -7,16 +7,11 @@ categories:
   - [AdSense]
   - [洛竹翻译计划, AdSense]
 tags:
-  - CTR
+  - AdSenseCTR
   - Google AdSense
   - 点击率
-  - Impressions
-  - Ads
-  - 发布商
-  - Advertisers
-  - Relevant traffic
-  - Targeted ads
-  - Optimization
+  - 广告发布商
+  - 广告联盟
 ---
 
 在互联网营销领域, 点击率对广告商和发布者都非常重要。广告商需要创建广告图形或销售线路，从而获得更高的点击率 (CTR)，而发布者则需要以增加 CTR 的方式放置广告。
