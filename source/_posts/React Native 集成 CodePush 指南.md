@@ -11,7 +11,7 @@ tags:
 
 ![](https://i.loli.net/2020/02/25/dLMXty7iYKnVk35.png)
 
-目前现存的热更新方案有腾讯的 Bugly 应用升级](https://bugly.qq.com/v2/products/upgrade)、React Native 中文网的Pushy](https://update.reactnative.cn/home)、微软的[CodePush](https://bre.is/r3Y9hJvB) 和用来搭建私服的 [code-push-server](https://github.com/lisong/code-push-server)。
+目前现存的热更新方案有腾讯的 [Bugly 应用升级](https://bugly.qq.com/v2/products/upgrade)、React Native 中文网的 [Pushy](https://update.reactnative.cn/home)、微软的 [CodePush](https://bre.is/r3Y9hJvB) 和用来搭建私服的 [code-push-server](https://github.com/lisong/code-push-server)。
 
 本文分享的是基于微软 AppCenter 的 CodePush 服务实现热更新，这个比较有代表性，也方便各位读者大大实践。当然鉴于国内的网络环境，后期会发布一篇如何基于 `code-push-server` 实现热更新功能。
 
