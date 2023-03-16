@@ -8,6 +8,7 @@ tags:
   - ChatGPT
   - ChatGPT 注册
   - 人工智能
+  - AI
 ---
 
 OpenAI 推出超神 ChatGPT，非常火爆。但是呢，由于 ChatGPT 注册的问题，大部分人无法体验到。这里我分享一下我的国内 ChatGPT 注册攻略。
@@ -20,7 +21,7 @@ OpenAI 推出超神 ChatGPT，非常火爆。但是呢，由于 ChatGPT 注册�
 
 ### 注册短信平台并充值
 
-- 先行注册sms-activate.org
+- 先行注册 <https://sms-activate.org>
 - 注册好之后进行对应的充值
 
 ![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8acaf6d767714b1d82122cd3206f4ba7~tplv-k3u1fbpfcp-watermark.image?)
@@ -29,7 +30,7 @@ OpenAI 推出超神 ChatGPT，非常火爆。但是呢，由于 ChatGPT 注册�
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5c507b1564d1442d8dfab0ebc8d481e1~tplv-k3u1fbpfcp-watermark.image?)
 
-### 注册OpenAI账号
+### 注册 OpenAI 账号
 
 - 打开https://beta.openai.com/signup 页面进行相应的注册。
   > 这里同样需要你能访问 Google 且 ip 不是香港，最好是美国、新加坡等等，不然会提示不能在当前国家服务。
@@ -40,7 +41,7 @@ OpenAI 推出超神 ChatGPT，非常火爆。但是呢，由于 ChatGPT 注册�
 
 ### 准备接码
 
-> 这里需要注意下的就是，目前好像就只有巴西支持了，之前我选的印尼，是可以收到码的。
+> 实测可接收到码的国家（2023-3-16）：印尼🇮🇩、巴西🇧🇷，激活不成功删除的话不扣除积分。
 
 ![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/79235be8d7104175a6dda1cc63f46937~tplv-k3u1fbpfcp-watermark.image?)
 
