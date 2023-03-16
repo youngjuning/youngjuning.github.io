@@ -40,3 +40,15 @@ tags:
   }
 }
 ```
+
+# 扩展
+
+## 自定义 label 和 content 的 padding
+
+同样是因为 UI 走查看不顺眼，要求把 label 和 content 的 padding 值改为 4px，可以通过修改 antd 的样式来实现：
+
+```less
+.ant-descriptions-row > th, .ant-descriptions-row > td {
+  padding-bottom: 4px;
+}
+```
