@@ -50,7 +50,23 @@
         "link": "https://chenyuhu.js.org/",
         "avatar": "https://s1.ax1x.com/2020/07/09/UmgtPJ.png",
         "descr": "陈锋的博客"
+      },
+      {
+        "name": "陈锋",
+        "link": "https://chenyuhu.js.org/",
+        "avatar": "https://s1.ax1x.com/2020/07/09/UmgtPJ.png",
+        "descr": "陈锋的博客"
       }
     ]
+  },
+  {
+    "class_name": "大佬",
+    "class_desc": "高山仰止，景行行止，虽不能至，心向往之",
+    "link_list": [{
+      "name": "Akilarの糖果屋",
+      "link": "https://akilar.top/",
+      "avatar": "https://npm.elemecdn.com/akiblog@1.0.2/img/siteicon/favicon.png",
+      "descr": "流水幽吟绕耳边，煦风馨语抚心弦，挥臂欲揽冰钩月，银星斟酌醉人涎。"
+    }]
   }
 ]
