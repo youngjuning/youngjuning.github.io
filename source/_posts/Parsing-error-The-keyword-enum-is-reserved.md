@@ -1,10 +1,11 @@
 ---
-title: '如何解决 Parsing error: The keyword enum is reserved'
+title: "【已解决】Parsing error: The keyword 'enum' is reserved"
 date: 2023-03-14 12:10:32
-description: '如何解决 Eslint 警告 Parsing error: The keyword enum is reserved'
+description: '本文介绍了如何解决 Eslint 警告 Parsing error: The keyword 'enum' is reserved'
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678767745973.png
 categories:
   - [前端, TypeScript]
+  - [前端, EsLint]
 tags:
   - TypeScript
   - React
