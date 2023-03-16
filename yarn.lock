@@ -2976,6 +2976,13 @@ hexo-butterfly-douban@^1.2.5:
     urllib-sync jerryc127/urllib-sync
     xpath "^0.0.32"
 
+hexo-butterfly-swiper@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.npmmirror.com/hexo-butterfly-swiper/-/hexo-butterfly-swiper-1.0.12.tgz#95478328993b1fc532c7162009b92e41b8490199"
+  integrity sha512-2gdp6/rlWIbTQH6/HALodc6QXiO7RV2cNbN6LTJJPj+nFZ9/WQnset9u5KEo8+5G8VR/FAJ4kojvu0+nbvZVxA==
+  dependencies:
+    pug "^3.0.0"
+
 hexo-cli@^4.3.0:
   version "4.3.0"
   resolved "https://registry.npmmirror.com/hexo-cli/-/hexo-cli-4.3.0.tgz#4bb2bf11a30fae601f2f53ac0cb833fee3187649"
@@ -5873,7 +5880,7 @@ pug-walk@^2.0.0:
   resolved "https://registry.npmmirror.com/pug-walk/-/pug-walk-2.0.0.tgz#417aabc29232bb4499b5b5069a2b2d2a24d5f5fe"
   integrity sha512-yYELe9Q5q9IQhuvqsZNwA5hfPkMJ8u92bQLIMcsMxf/VADjNtEYptU+inlufAFYcWdHlwNfZOEnOOQrZrcyJCQ==
 
-pug@^3.0.2:
+pug@^3.0.0, pug@^3.0.2:
   version "3.0.2"
   resolved "https://registry.npmmirror.com/pug/-/pug-3.0.2.tgz#f35c7107343454e43bc27ae0ff76c731b78ea535"
   integrity sha512-bp0I/hiK1D1vChHh6EfDxtndHji55XP/ZJKwsRqrz6lRia6ZC2OZbdAymlxdVFwd1L70ebrVJw4/eZ79skrIaw==
@@ -7410,7 +7417,7 @@ url-to-options@^1.0.1:
   resolved "https://registry.npmmirror.com/url-to-options/-/url-to-options-1.0.1.tgz#1505a03a289a48cbd7a434efbaeec5055f5633a9"
   integrity sha512-0kQLIzG4fdk/G5NONku64rSH/x32NOA39LVQqlK8Le6lvTF6GGRJpqaQFGgU+CLwySIqBSMdwYM0sYcW9f6P4A==
 
-"urllib-sync@github:jerryc127/urllib-sync":
+urllib-sync@jerryc127/urllib-sync:
   version "1.1.4"
   resolved "https://codeload.github.com/jerryc127/urllib-sync/tar.gz/da6ff601d35dcc681fc2177902edcd5de1d62196"
   dependencies:
