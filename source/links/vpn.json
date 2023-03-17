@@ -34,6 +34,12 @@
     "class_desc": "不要付年费，选择月冲性价比高的",
     "link_list": [
       {
+        "name": "SurfShark",
+        "link": "https://surfshark.com/",
+        "avatar": "https://surfshark.com/wp-content/uploads/2018/07/favicon.png",
+        "descr": "安全的在线 VPN 服务"
+      },
+      {
         "name": "SockBoom",
         "link": "https://sockboom.shop/auth/register?affid=552052",
         "avatar": "https://sockboom.one/theme/material/images/users/favicon.png",
