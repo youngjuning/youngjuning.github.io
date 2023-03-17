@@ -7419,7 +7419,7 @@ url-to-options@^1.0.1:
   resolved "https://registry.yarnpkg.com/url-to-options/-/url-to-options-1.0.1.tgz#1505a03a289a48cbd7a434efbaeec5055f5633a9"
   integrity sha512-0kQLIzG4fdk/G5NONku64rSH/x32NOA39LVQqlK8Le6lvTF6GGRJpqaQFGgU+CLwySIqBSMdwYM0sYcW9f6P4A==
 
-"urllib-sync@github:jerryc127/urllib-sync":
+urllib-sync@jerryc127/urllib-sync:
   version "1.1.4"
   resolved "https://codeload.github.com/jerryc127/urllib-sync/tar.gz/da6ff601d35dcc681fc2177902edcd5de1d62196"
   dependencies:
