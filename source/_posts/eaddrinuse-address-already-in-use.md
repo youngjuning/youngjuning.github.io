@@ -1,9 +1,10 @@
 ---
-title: '如何在看到 "EADDRINUSE: address already in use" 时杀死进程'
+title: '「已解决」EADDRINUSE: address already in use'
 date: 2023-03-10T10:25:43+08:00
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678415328290.png
 categories:
-  - [洛竹翻译计划, 程序员]
+  - [洛竹翻译计划, 前端]
+  - [issues, 前端]
 tags:
   - Node
   - EADDRINUSE
@@ -116,4 +117,3 @@ $ taskkill /pid 18264 /f
 > 原文地址：[How to kill server when seeing “EADDRINUSE: address already in use”](https://114.li/jscdep)
 > 原文作者：[BChen](https://bindichen.medium.com/)
 > 译文出自：[洛竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
-
