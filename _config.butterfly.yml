@@ -555,7 +555,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://imbhj-cdn.oss-cn-hangzhou.aliyuncs.com/CDN3/202112111814171.jpg)
+# background: url(https://imbhj-cdn.oss-cn-hangzhou.aliyuncs.com/CDN3/202112111814171.jpg)
 
 # Footer Background
 footer_bg: true
@@ -581,7 +581,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -604,7 +604,7 @@ activate_power_mode:
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999 # -1 or 9999
   mobile: false
 
@@ -718,7 +718,7 @@ aside:
     expand: none # none/true/false
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
-    enable: false
+    enable: true
     limit: 10 # if set 0 will show all
     color: true
     sort_order: # Don't modify the setting unless you know how it works
@@ -913,7 +913,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="xxxx">
-    - <meta name="monetag" content="5b629bc484ca4b65e3c962f832cc3f11">
+    # - <meta name="monetag" content="5b629bc484ca4b65e3c962f832cc3f11">
   bottom:
     # - <script src="xxxx"></scrip>
     # 页内推送（横幅）
