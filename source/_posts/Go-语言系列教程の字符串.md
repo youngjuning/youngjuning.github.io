@@ -9,6 +9,9 @@ categories:
 tags:
   - Golang
   - Go 语言系列教程
+  - 洛竹翻译计划
+  - Go 字符串
+  - Go String
 ---
 
 在 Go 中，String 值得特别一提，因为与其他语言相比，它们在实现上有所不同。

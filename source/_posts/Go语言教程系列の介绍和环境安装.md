@@ -8,20 +8,22 @@ categories:
   - [洛竹翻译计划]
 tags:
   - Golang
-  - Go 语言系列教程
+  - Go 语言教程
+  - Go 语言教程系列
+  - Go 安装教程
 ---
 
 这是我们 Golang 教程系列中的第一篇教程。本教程介绍了 Go，并讨论了选择 Go 而不是其他编程语言的原因。我们还将学习如何在 Mac OS，Windows 和 Linux 中安装 Go。
 
 ## 介绍
 
-Go 也被称为 Golang，是 Google 开发的一种开源、编译和静态类型的编程语言。Go 创作背后的关键人物是 Rob Pike，Ken Thompson 和Robert Griesemer。Go于2009年11月公开发布。
+Go 也被称为 Golang，是 Google 开发的一种开源、编译和静态类型的编程语言。Go 创作背后的关键人物是 Rob Pike，Ken Thompson 和Robert Griesemer。Go 于 2009 年 11 月公开发布。
 
 Go 是一种通用的编程语言，语法简单并具有强大的标准库作为后盾。Go 大放异彩的关键领域之一是创建高可用性和可伸缩性的 Web 应用程序。Go 还可以用于创建命令行应用程序、桌面应用程序甚至移动应用程序。
 
 ## Go 的优势
 
-当大量其他语言（例如python，ruby，nodejs ...）可以实现相同需求时，为什么选择 Go 作为服务器端编程语言。
+当大量其他语言（例如 python，ruby，nodejs ...）可以实现相同需求时，为什么选择 Go 作为服务器端编程语言。
 
 这里是我选择 Go 时发现的一些优点。
 
@@ -72,7 +74,7 @@ Go 使用垃圾回收，因此内存管理几乎会自动执行，开发人员�
 - Google 使用 Go 开发了 Kubernetes using。
 - Docker, 世界上最著名的容器平台是使用 Go 开发的
 - Dropbox 已将其性能敏感组件从 Python 迁移到 Go。
-- Infoblox的 下一代网络产品是使用 Go 开发的。
+- Infoblox 的 下一代网络产品是使用 Go 开发的。
 
 ## 安装
 
