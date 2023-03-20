@@ -74,6 +74,18 @@
         "link": "https://anzhiy.cn/",
         "avatar": "https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg",
         "descr": "生活明朗，万物可爱"
+      },
+      {
+        "name": "GreenHatHG の Blog",
+        "link": "https://greenhathg.github.io/",
+        "avatar": "https://avatars0.githubusercontent.com/u/34258355?s=460&u=eb0a1ce09dd045532464cb42f020e8ba1d025b6c&v=4",
+        "descr": "巴拉巴拉能量！rm -rf /--no-preserve-root"
+      },
+      {
+        "name": "花猪のBlog",
+        "link": "https://cnhuazhu.top/",
+        "avatar": "https://cdn.jsdelivr.net/gh/CNhuazhu/Image/avatar.jpg",
+        "descr": "佛系青年"
       }
     ]
   },

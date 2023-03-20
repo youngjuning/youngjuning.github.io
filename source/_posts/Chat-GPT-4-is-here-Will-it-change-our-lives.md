@@ -3,8 +3,8 @@ title: Chat GPT-4 已经问世——它会改变我们的生活吗？
 date: 2023-03-17 14:14:20
 description: Chat GPT-4 被誉为改变游戏规则的技术，从许多方面来看它确实是。它在难题标准测试中击败人类，但它和其他 AI 工具将如何影响我们的生活呢？ FOX 5 纽约的 Ashlie Rodriguez 采访了专家，以了解一些情况。
 categories:
-  - 人工智能
-  - [洛竹翻译计划, 人工智能]
+  - [人工智能]
+  - [洛竹翻译计划]
 tags:
   - GPT-4
   - ChatGpt
@@ -14,7 +14,11 @@ tags:
 
 科技世界正在庆祝最新版本的 ChatGPT-4。
 
-“Chat GPT 已经长大了，” 哥伦比亚大学工程教授霍德•利普森说道。
+{% note info %}
+如果您还没有注册 ChatGpt，可以参考 [OpenAI 推出超神 ChatGPT 注册攻略来了](https://youngjuning.js.org/d744d1d3d1e8/) 快速注册一个。
+{% endnote %}
+
+“Chat GPT已经长大了，” 哥伦比亚大学工程教授霍德•利普森说道。
 
 作为 AI 聊天机器人的 ChatGPT 于 2022 年 11 月诞生，现在已经走向成年，其创造者微软资助的 Open AI 已经第四次更新技术，使这个神奇的机器人变得更加智能、快速和有趣。
 

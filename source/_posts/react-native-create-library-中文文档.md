@@ -2,7 +2,8 @@
 title: react-native-create-library 中文文档
 date: 2023-03-08 16:53:10
 categories:
-  - [洛竹翻译计划, React Native]
+  - [洛竹翻译计划]
+  - [前端, React Native]
 tags:
   - React Native
   - React Native 原生库

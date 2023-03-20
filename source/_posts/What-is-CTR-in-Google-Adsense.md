@@ -5,7 +5,7 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678970392497.png
 date: 2023-03-16 20:38:10
 categories:
   - [AdSense]
-  - [洛竹翻译计划, AdSense]
+  - [洛竹翻译计划]
 tags:
   - AdSenseCTR
   - Google AdSense

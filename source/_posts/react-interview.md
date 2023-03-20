@@ -3,11 +3,11 @@ title: React 面试题（React）
 date: 2023-03-06 19:30:00
 permalink: react-interview/
 description: 前 500 个 ReactJS 面试必知必会问题与答案，是洛竹诚意翻译的前端 React 面试必备系列。
-swiper_index: 10
+swiper_index: 4
 toc_number: false
 categories:
-  - [前端, React]
-  - [洛竹翻译计划, React]
+  - [前端, React 面试题]
+  - [洛竹翻译计划]
 tags:
   - React 面试题
   - React 面试
