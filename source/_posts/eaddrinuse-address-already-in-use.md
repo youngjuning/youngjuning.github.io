@@ -3,8 +3,9 @@ title: '「已解决」EADDRINUSE: address already in use'
 date: 2023-03-10T10:25:43+08:00
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678415328290.png
 categories:
-  - [洛竹翻译计划, 前端]
-  - [issues, 前端]
+  - [洛竹翻译计划]
+  - [issues]
+  - [前端, NodeJs]
 tags:
   - Node
   - EADDRINUSE

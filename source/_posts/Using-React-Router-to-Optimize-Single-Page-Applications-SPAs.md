@@ -3,7 +3,8 @@ title: 使用 React Router 优化单页应用程序（SPAs）
 date: 2023-03-13 23:12:00
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678720445359.png
 categories:
-  - [洛竹翻译计划, React]
+  - [前端, React]
+  - [洛竹翻译计划]
 tags:
   - React
   - React Router

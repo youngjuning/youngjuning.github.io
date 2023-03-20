@@ -3,7 +3,8 @@ title: 使用 ChatGPT 与 React Native 和 NextJS 建立一个跨平台的 AI �
 DRAFT: 使用 ChatGPT 与 React Native 和 NextJS 建立一个跨平台的 AI 应用
 date: 2023-03-15 23:02:01
 categories:
-  - [洛竹翻译计划, 人工智能]
+  - [人工智能]
+  - [洛竹翻译计划]
 tags:
   - 人工智能
   - ChatGPT

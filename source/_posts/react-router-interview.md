@@ -8,7 +8,7 @@ toc_number: false
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678720116695.png
 categories:
   - [前端, React]
-  - [洛竹翻译计划, React]
+  - [洛竹翻译计划]
 tags:
   - React 面试题
   - React 面试
