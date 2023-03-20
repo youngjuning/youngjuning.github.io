@@ -1,6 +1,6 @@
 ---
 title: Go 语言教程系列の介绍和环境安装
-date: 2023-03-20 15:18:06
+date: 2023-03-19 15:18:06
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679280067130.png
 swiper_index: 6
 description: 这是我们 Golang 教程系列中的第一篇教程。本教程介绍了 Go，并讨论了选择 Go 而不是其他编程语言的原因。我们还将学习如何在 Mac OS，Windows 和 Linux 中安装 Go。
