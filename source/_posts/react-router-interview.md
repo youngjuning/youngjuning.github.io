@@ -6,7 +6,7 @@ description: 前 500 个 ReactJS 面试必知必会问题与答案，这是洛�
 toc_number: false
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678720116695.png
 categories:
-  - [前端, React]
+  - [前端, React 面试题]
   - [洛竹翻译计划]
 tags:
   - React 面试题
