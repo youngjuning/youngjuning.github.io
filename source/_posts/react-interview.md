@@ -6,7 +6,7 @@ description: 前 500 个 ReactJS 面试必知必会问题与答案，是洛竹�
 swiper_index: 4
 toc_number: false
 categories:
-  - [前端, React]
+  - [前端, React 面试题]
   - [洛竹翻译计划]
 tags:
   - React 面试题
