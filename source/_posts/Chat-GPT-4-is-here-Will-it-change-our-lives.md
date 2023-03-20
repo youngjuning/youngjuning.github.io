@@ -15,7 +15,7 @@ tags:
 科技世界正在庆祝最新版本的 ChatGPT-4。
 
 {% note info %}
-还没有注册的朋友可以参考 ![OpenAI 推出超神 ChatGPT 注册攻略来了](https://youngjuning.js.org/d744d1d3d1e8/) 快速注册。
+如果您还没有注册 ChatGpt，可以参考 [OpenAI 推出超神 ChatGPT 注册攻略来了](https://youngjuning.js.org/d744d1d3d1e8/) 快速注册一个。
 {% endnote %}
 
 “Chat GPT已经长大了，” 哥伦比亚大学工程教授霍德•利普森说道。
