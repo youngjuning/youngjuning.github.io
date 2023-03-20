@@ -52,21 +52,59 @@
         "descr": "陈锋的博客"
       },
       {
-        "name": "陈锋",
-        "link": "https://chenyuhu.js.org/",
-        "avatar": "https://s1.ax1x.com/2020/07/09/UmgtPJ.png",
-        "descr": "陈锋的博客"
+        "name": "花猪",
+        "link": "https://cnhuazhu.top/",
+        "avatar": " https://cdn.jsdelivr.net/gh/CNhuazhu/Image/avatar.jpg",
+        "descr": "佛系青年"
+      },
+      {
+        "name": "HCLonely",
+        "link": "https://blog.hclonely.com/",
+        "avatar": "https://cdn.jsdelivr.net/gh/HCLonely/blog.hclonely.com@latest/img/avatar.jpg",
+        "descr": "一个懒人的博客"
+      },
+      {
+        "name": "MJ's Blog",
+        "descr": "醒亦念卿，梦亦念卿",
+        "link": "https://blog.justlovesmile.top",
+        "avatar": "https://npm.elemecdn.com/justlovesmile-img/logo.jpg"
+      },
+      {
+        "name": "安知鱼`Blog",
+        "link": "https://anzhiy.cn/",
+        "avatar": "https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg",
+        "descr": "生活明朗，万物可爱"
       }
     ]
   },
   {
-    "class_name": "大佬",
-    "class_desc": "高山仰止，景行行止，虽不能至，心向往之",
-    "link_list": [{
-      "name": "Akilarの糖果屋",
-      "link": "https://akilar.top/",
-      "avatar": "https://npm.elemecdn.com/akiblog@1.0.2/img/siteicon/favicon.png",
-      "descr": "流水幽吟绕耳边，煦风馨语抚心弦，挥臂欲揽冰钩月，银星斟酌醉人涎。"
-    }]
+    "class_name": "优选博主",
+    "class_desc": "推荐一波洛竹关注的优质的博主",
+    "link_list": [
+      {
+        "name": "Akilarの糖果屋",
+        "link": "https://akilar.top/",
+        "avatar": "https://npm.elemecdn.com/akiblog@1.0.2/img/siteicon/favicon.png",
+        "descr": "流水幽吟绕耳边，煦风馨语抚心弦，挥臂欲揽冰钩月，银星斟酌醉人涎。"
+      },
+      {
+        "name": "CasecoRi",
+        "link": "https://im.casecori.top/",
+        "avatar": "https://im.casecori.top/avatar.png",
+        "descr": "高智商播主，不会技术也想闯荡互联网"
+      },
+      {
+        "name": "TXG`Blog",
+        "link": "https://lkpttxg-github-io.vercel.app/",
+        "avatar": "https://blog.lkpttxg.cn/img/avatar.jpg",
+        "descr": "而是，你买的比较甜 ~ ~ ~|"
+      },
+      {
+        "name": "广告联盟大事记",
+        "link": "http://www.shukoe.com/",
+        "avatar": "http://www.shukoe.com/content/templates/yuqu/images/favicon.ico",
+        "descr": "捕捉广告背后的财富信息"
+      }
+    ]
   }
 ]

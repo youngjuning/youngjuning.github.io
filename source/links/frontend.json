@@ -1,0 +1,14 @@
+[
+  {
+    "class_name": "爬虫",
+    "class_desc": "前端用 NodeJS 写爬虫比较方便",
+    "link_list": [
+      {
+        "name": "Puppeteer 中文文档",
+        "link": "https://puppeteer.bootcss.com/",
+        "avatar": "https://puppeteer.bootcss.com/img/pptr.png",
+        "descr": "Puppeteer 是一个 Node 库，它提供了一个高级 API 来通过 DevTools 协议控制 Chromium 或 Chrome。"
+      }
+    ]
+  }
+]

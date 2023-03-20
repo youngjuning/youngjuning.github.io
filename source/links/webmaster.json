@@ -1,0 +1,129 @@
+[
+  {
+    "class_name": "站长工具",
+    "class_desc": "站点管理必备工具",
+    "link_list": [
+      {
+        "name": "GoDaddy",
+        "link": "https://www.godaddy.com/zh-sg",
+        "avatar": "https://img6.wsimg.com/ux/favicon/apple-icon-114x114.png",
+        "descr": "域名、建站、WordPress、云服务器、企业邮箱"
+      },
+      {
+        "name": "Qexo",
+        "link": "https://qexo.com/",
+        "avatar": "https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png",
+        "descr": "一个美观、强大的在线 静态博客 管理器"
+      },
+      {
+        "name": "Google Analytics",
+        "link": "https://analytics.google.com/",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677941205113.png",
+        "descr": "Google Analytics"
+      },
+      {
+        "name": "Google Search Console",
+        "link": "https://search.google.com/search-console/about",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677941139300.png",
+        "descr": "Google Search Console"
+      },
+
+      {
+        "name": "Microsoft Clarity",
+        "link": "https://clarity.microsoft.com/",
+        "avatar": "https://claritystatic.azureedge.net/images/logo.ico",
+        "descr": "Cloud, Computers, Apps & Gaming"
+      },
+      {
+        "name": "Bing Webmaster Tools",
+        "link": "https://www.bing.com/webmasters",
+        "avatar": "https://www.bing.com/favicon.ico",
+        "descr": "获取网站的性能数据，利用免费的SEO工具并分析，以提高您在必应搜索结果上的网页排名。"
+      },
+      {
+        "name": "百度统计",
+        "link": "https://tongji.baidu.com/",
+        "avatar": "https://tongji.baidu.com/favicon.ico",
+        "descr": "一站式智能分析与数据平台"
+      },
+      {
+        "name": "百度搜索资源平台",
+        "link": "https://ziyuan.baidu.com/",
+        "avatar": "https://ziyuan.baidu.com/favicon.ico",
+        "descr": "托管在 github 的网站死活不给收录"
+      },
+      {
+        "name": "ClustrMaps",
+        "link": "https://clustrmaps.com/",
+        "avatar": "https://clustrmaps.com/favicon.ico",
+        "descr": "ClustrMaps is a free service that lets you monitor your website's visitors."
+      },
+      {
+        "name": "Font Awesome",
+        "link": "https://fontawesome.com/v5/search?o=r&m=free",
+        "avatar": "https://img.fortawesome.com/1ce05b4b/open-graph-search-v5-free.png",
+        "descr": "Find the Perfect Icon for your Project"
+      }
+    ]
+  },
+  {
+    "class_name": "博客变现",
+    "class_desc": "博客变现必备工具",
+    "link_list": [
+      {
+        "name": "Google Adsense",
+        "link": "https://adsense.google.com/",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677940677748.png",
+        "descr": "我们将您的内容化为真金白银"
+      },
+      {
+        "name": "百度联盟",
+        "link": "https://union.baidu.com/bqt/#/",
+        "avatar": "https://union.baidu.com/bqt/favicon.ico",
+        "descr": "国内最具实力的联盟体系之一"
+      },
+      {
+        "name": "adcash",
+        "link": "https://adcash.myadcash.com/publishers/onboarding",
+        "avatar": "https://adcash.myadcash.com/favicon.ico",
+        "descr": "Register your website on our network in order to be able to run our ad campaigns."
+      },
+      {
+        "name": "Monetag",
+        "link": "https://publishers.monetag.com/#/statistics",
+        "avatar": "https://publishers.monetag.com/assets/favicon.ico",
+        "descr": "如果被 Google Adsense 拒绝，可以试试 Monetag"
+      }
+    ]
+  },
+  {
+    "class_name": "SEO 工具",
+    "class_desc": "学会 SEO，横行 WEB 世界",
+    "link_list": [
+      {
+        "name": "Traffic Engine",
+        "link": "https://www.traffic-engine.com/",
+        "avatar": "https://www.traffic-engine.com/themes/tes/images/favicon.ico",
+        "descr": "Increase Traffic to Your Website"
+      },
+      {
+        "name": "Somiibo",
+        "link": "https://somiibo.com/",
+        "avatar": "https://cdn.itwcreativeworks.com/assets/somiibo/images/favicon/favicon.ico",
+        "descr": "A free social media automation platform that organically grows your online presence and gets you more followers."
+      }
+    ]
+  },
+  {
+    "class_name": "Hexo",
+    "class_desc": "Hexo 主题、插件、工具",
+    "link_list": [
+      {
+        "name": "hexo-readmore",
+        "link": "https://github.com/rqh656418510/hexo-readmore",
+        "avatar": "https://www.traffic-engine.com/themes/tes/images/favicon.ico",
+        "descr": "Hexo 微信公众号引流插件"
+      }
+    ]
+  }
+]
