@@ -21,8 +21,8 @@ menu:
     追番: /bangumi/ || fas fa-tv
   关于||fas fa-heart:
     项目: /projects/ || fab fa-github
-    React 面试题: /react-interview/ || fab fa-react
-    简历: /about/ || fa fa-id-card
+    日记: https://luozhu2021.blogspot.com/ || fas fa-book
+    关于: /about/ || fas fa-spa
     图床: /gallery/ || fas fa-images
     订阅: /atom.xml || fas fa-rss
 nav:
