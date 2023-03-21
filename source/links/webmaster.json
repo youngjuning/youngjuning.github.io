@@ -104,13 +104,25 @@
         "name": "Traffic Engine",
         "link": "https://www.traffic-engine.com/",
         "avatar": "https://www.traffic-engine.com/themes/tes/images/favicon.ico",
-        "descr": "Increase Traffic to Your Website"
+        "descr": "增加网站访问量"
       },
       {
         "name": "Somiibo",
         "link": "https://somiibo.com/",
         "avatar": "https://cdn.itwcreativeworks.com/assets/somiibo/images/favicon/favicon.ico",
-        "descr": "A free social media automation platform that organically grows your online presence and gets you more followers."
+        "descr": "一个免费的社交媒体自动化平台，可以有机地增加您的在线影响力并吸引更多关注者。"
+      },
+      {
+        "name": "SparkTraffic",
+        "link": "https://www.sparktraffic.com/",
+        "avatar": "https://uploads-ssl.webflow.com/6308ae40c4ce25dfccd2eaa8/63094081741fe72429214695_favicon-2-small.png",
+        "descr": "交通機器人，網站流量生成器"
+      },
+      {
+        "name": "ClickSEO",
+        "link": "https://www.clickseo.io/",
+        "avatar": "https://uploads-ssl.webflow.com/634013ce1f2f023f59163607/634b05ce9f22e46cefe86128_32.png",
+        "descr": "通过真正的有机点击来提高您的网站点击率，从而使您的 SEO 排名飙升"
       }
     ]
   },
@@ -121,7 +133,7 @@
       {
         "name": "hexo-readmore",
         "link": "https://github.com/rqh656418510/hexo-readmore",
-        "avatar": "https://www.traffic-engine.com/themes/tes/images/favicon.ico",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679364958595.png",
         "descr": "Hexo 微信公众号引流插件"
       }
     ]
