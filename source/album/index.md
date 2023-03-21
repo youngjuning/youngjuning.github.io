@@ -1,9 +1,9 @@
 ---
-title: Album
+title: 洛竹的相册
 date: 2023-03-20 22:23:55
 comments: false
 reward: false
-description: 相册
+description: 碧蓝档案、碧蓝航线
 aside: false
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679323051761.png
 ---
