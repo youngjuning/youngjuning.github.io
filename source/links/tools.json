@@ -1,25 +1,25 @@
 [
   {
-    "class_name": "前端工具",
+    "class_name": "抢拍脚本",
     "class_desc": "手艺好还要家伙妙。",
     "link_list": [
       {
-        "name": "Can I use",
-        "link": "https://caniuse.com/",
-        "avatar": "https://caniuse.com/img/favicon-128.png",
-        "descr": "Support tables for HTML5, CSS3, etc"
-      },
+        "name": "闲鱼监控软件",
+        "link": "https://www.goonong.com/%E7%9B%91%E6%8E%A7/%E9%97%B2%E9%B1%BC%E6%8A%A2%E6%8B%8D/",
+        "avatar": "https://www.goonong.com/wp-content/uploads/2021/11/eye.png",
+        "descr": "闲鱼秒拍扫货助手"
+      }
+    ]
+  },
+  {
+    "class_name": "网络工具",
+    "class_desc": "网络相关工具",
+    "link_list": [
       {
-        "name": "css3maker",
-        "link": "https://www.toptal.com/developers/css3maker",
-        "avatar": "https://www.toptal.com/developers/css3maker/apple-touch-icon.png",
-        "descr": "Free CSS3 Generator Tool"
-      },
-      {
-        "name": "Flexbox Froggy",
-        "link": "http://flexboxfroggy.com/#zh-cn",
-        "avatar": "https://flexboxfroggy.com/favicon.ico",
-        "descr": "一个用来学CSS flexbox 的游戏"
+        "name": "WhatIs MyIPAddress",
+        "link": "https://whatismyipaddress.com/",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678002092318.png",
+        "descr": "What is my IP address"
       }
     ]
   }

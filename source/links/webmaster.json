@@ -16,6 +16,12 @@
         "descr": "一个美观、强大的在线 静态博客 管理器"
       },
       {
+        "name": "Blogger",
+        "link": "https://www.blogger.com/",
+        "avatar": "https://www.blogger.com/favicon.ico",
+        "descr": "目前全球使用者數量最多的個人网志服務提供商"
+      },
+      {
         "name": "Google Analytics",
         "link": "https://analytics.google.com/",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677941205113.png",
@@ -121,7 +127,7 @@
       {
         "name": "hexo-readmore",
         "link": "https://github.com/rqh656418510/hexo-readmore",
-        "avatar": "https://www.traffic-engine.com/themes/tes/images/favicon.ico",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/20210417182046.png",
         "descr": "Hexo 微信公众号引流插件"
       }
     ]

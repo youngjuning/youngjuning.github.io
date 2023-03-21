@@ -4,12 +4,6 @@
     "class_desc": "科学上网，安全第一。",
     "link_list": [
       {
-        "name": "WhatIs MyIPAddress",
-        "link": "https://whatismyipaddress.com/",
-        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678002092318.png",
-        "descr": "What is my IP address"
-      },
-      {
         "name": "Whoer.net",
         "link": "https://whoer.net/",
         "avatar": "https://whoer.net/favicon.png",
