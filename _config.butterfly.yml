@@ -4,7 +4,6 @@
 
 menu:
   首页: / || fas fa-home
-  摸鱼: /moyu/ || fas fa-gamepad
   文章|| fa-fw fas fa-lines-leaning:
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
