@@ -49,7 +49,6 @@ tags:
 ![图 27](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679326179553.png)
 ![图 28](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679326188086.png)
 ![图 29](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679326226608.png)
-![图 30](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679326279960.png)
 ![图 32](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679326597297.png)
 ![图 33](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679326662442.png)
 ![图 34](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679326712021.png)

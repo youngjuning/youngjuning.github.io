@@ -5,6 +5,10 @@ date: 2023-02-13 17:48:54
 type: "link"
 flink_url: "/links/tools.json"
 top_img: https://picx.zhimg.com/v2-7daf5fd60d53734399086bf9e02077fb_1440w.jpg
+tags:
+  - 工具
+  - 工具箱
+  - 工具集
 ---
 
 <!-- DRAFT 整理收藏夹 -->

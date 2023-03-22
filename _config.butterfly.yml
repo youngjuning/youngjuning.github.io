@@ -4,6 +4,7 @@
 
 menu:
   首页: / || fas fa-home
+  摸鱼: /moyu/ || fas fa-gamepad
   文章|| fa-fw fas fa-lines-leaning:
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
@@ -27,7 +28,7 @@ menu:
     相册: /album/ || fas fa-images
     图床: /gallery/ || fas fa-images
     订阅: /atom.xml || fas fa-rss
-  关于: /about/ || fas fa-spa
+    关于: /about/ || fas fa-spa
 nav:
   logo: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png # image
   display_title: true
