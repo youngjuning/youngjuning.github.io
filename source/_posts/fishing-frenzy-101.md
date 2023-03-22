@@ -21,4 +21,4 @@ copyright: false
 
 在洛竹的博客免费在线玩钓鱼狂潮游戏。你在里面为猎物、鱼、炸死狂暴的鲨鱼和海马、收集海星和贝壳、捕捉泡泡和炸弹、蠕虫、宝藏、手表和礼物而战。 在这个游戏中你有很多东西要收集，一切皆有可能！ 用自己的方式钓鱼，成为这场海战中的顶级玩家！
 
-{% iframe https://static.scorenga.com/data/101/index.html 100% 400 %}
+{% iframe https://static.scorenga.com/data/101/index.html?allow=autoplay 100% 400 %}
