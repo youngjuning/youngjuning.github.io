@@ -5,7 +5,7 @@
     "link_list": [
       {
         "link": "https://m.wkbrowser.com/sj/browser_page/share.html?share_from=index&share_token=fcd2c909-7e67-43cc-abca-e2eaa6486dc3",
-        "name": "悟空浏览器（字节跳动）",
+        "name": "悟空浏览器",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679554180857.png",
         "descr": "可以理解为字节头条的极速版"
       },
@@ -39,6 +39,12 @@
     "class_name": "被动收入",
     "class_desc": "分享流量获取收入",
     "link_list": [
+      {
+        "link": "https://r.honeygain.me/LUOZH19F62",
+        "name": "Honeygain",
+        "avatar": "https://dashboard.honeygain.com/favicon.ico",
+        "descr": "All Your Sharing Information at Hand"
+      },
       {
         "link": "https://earnapp.com/i/nDCXUAk3",
         "name": "earnapp",
