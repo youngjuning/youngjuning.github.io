@@ -107,6 +107,25 @@ index 6c810ef..06ec4b9 100644
 +    //- ad
 +    if theme.ad && theme.ad.page
 +      .ads-wrap-page!=theme.ad.page
+diff --git a/node_modules/hexo-theme-butterfly/layout/post.pug b/node_modules/hexo-theme-butterfly/layout/post.pug
+index f54ab7a..ef5b78d 100644
+--- a/node_modules/hexo-theme-butterfly/layout/post.pug
++++ b/node_modules/hexo-theme-butterfly/layout/post.pug
+@@ -4,7 +4,7 @@ block content
+   #post
+     if top_img === false
+       include includes/header/post-info.pug
+-
++    <a href="https://t.me/peer2profit_app_bot?start=1679565889641c2441a3ccb"><img src="https://peer2profit.co/img/promo/en/p2p-banner-1000x120.png" width="100%"  height="120" /></a>
+     article#article-container.post-content!=page.content
+     include includes/post/post-copyright.pug
+     .tag_share
+@@ -29,4 +29,3 @@ block content
+     if page.comments !== false && theme.comments && theme.comments.use
+       - var commentsJsLoad = true
+       !=partial('includes/third-party/comments/index', {}, {cache: true})
+-      
+\ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
 index ade0db3..8ca7c24 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
