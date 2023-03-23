@@ -1,13 +1,49 @@
 [
   {
-    "class_name": "网赚导航",
-    "class_desc": "重要的小工作。",
+    "class_name": "国产悬赏赚钱 App",
+    "class_desc": "国产靠谱的悬赏赚钱 App",
+    "link_list": [
+      {
+        "link": "https://m.wkbrowser.com/sj/browser_page/share.html?share_from=index&share_token=fcd2c909-7e67-43cc-abca-e2eaa6486dc3",
+        "name": "悟空浏览器（字节跳动）",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679554180857.png",
+        "descr": "可以理解为字节头条的极速版"
+      },
+      {
+        "link": "邀请码 18546673755",
+        "name": "百度极速版",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679554446096.png",
+        "descr": "邀请码 18546673755"
+      }
+    ]
+  },
+  {
+    "class_name": "获得报酬",
+    "class_desc": "做任务获得报酬",
     "link_list": [
       {
         "link": "https://www.clickspaid.com/?jobs_ref=e83ac639c2d2ad81e07820ff88284853",
         "name": "ClicksPaid",
         "avatar": "https://jobs.clickspaid.com/img/favicon.png",
-        "descr": "ClicksPaid Jobs Panel"
+        "descr": "访问网站获得报酬"
+      },
+      {
+        "link": "https://serpclix.com/users/referrals/ARMGBPHZ2I5QM1B1T764SYHPV/",
+        "name": "SerpClix Clickers",
+        "avatar": "https://serpclix.com/static/icons/apple-touch-icon.png",
+        "descr": "访问网站获得报酬"
+      }
+    ]
+  },
+  {
+    "class_name": "被动收入",
+    "class_desc": "分享流量获取收入",
+    "link_list": [
+      {
+        "link": "https://earnapp.com/i/nDCXUAk3",
+        "name": "earnapp",
+        "avatar": "https://earnapp.com/dashboard/www/earnapp_cp/pub/img/earnapp/apple_touch_icon.png?md5=5283-2f3674e8",
+        "descr": "在网上赚钱的最简单方法是加入EarnApp的推荐和优惠。从YouTube、Facebook和其他媒体渠道发过来的朋友，可以快速开始赚钱。"
       }
     ]
   }
