@@ -119,6 +119,12 @@
         "descr": "一个免费的社交媒体自动化平台，可以有机地增加您的在线影响力并吸引更多关注者。"
       },
       {
+        "link": "https://www.smmshop.com/",
+        "name": "SMMShop",
+        "avatar": "https://uploads-ssl.webflow.com/63681be6befaed7d03fe68d2/636a86bbe8103d2c39f955a9_favicon%20copy.png",
+        "descr": "改善你所有的社交账号"
+      },
+      {
         "name": "SparkTraffic",
         "link": "https://www.sparktraffic.com/",
         "avatar": "https://uploads-ssl.webflow.com/6308ae40c4ce25dfccd2eaa8/63094081741fe72429214695_favicon-2-small.png",
@@ -129,6 +135,12 @@
         "link": "https://www.clickseo.io/",
         "avatar": "https://uploads-ssl.webflow.com/634013ce1f2f023f59163607/634b05ce9f22e46cefe86128_32.png",
         "descr": "通过真正的有机点击来提高您的网站点击率，从而使您的 SEO 排名飙升"
+      },
+      {
+        "name": "UpSEO",
+        "link": "https://www.upseo.com/",
+        "avatar": "https://uploads-ssl.webflow.com/639ce6fabf9aaf245ddc5247/639f660238e93f7a42fc86ec_favicon-upseo.png",
+        "descr": "增加搜索引擎的有机流量"
       }
     ]
   },
