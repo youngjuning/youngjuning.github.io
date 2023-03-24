@@ -108,14 +108,14 @@ index 6c810ef..06ec4b9 100644
 +    if theme.ad && theme.ad.page
 +      .ads-wrap-page!=theme.ad.page
 diff --git a/node_modules/hexo-theme-butterfly/layout/post.pug b/node_modules/hexo-theme-butterfly/layout/post.pug
-index f54ab7a..761d05c 100644
+index f54ab7a..c141529 100644
 --- a/node_modules/hexo-theme-butterfly/layout/post.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/post.pug
 @@ -4,6 +4,7 @@ block content
    #post
      if top_img === false
        include includes/header/post-info.pug
-+    <a href="https://r.honeygain.me/LUOZH19F62"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679645696349.png" width="100%" /></a>
++    <a href="https://r.honeygain.me/LUOZH19F62"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679649426795.png" width="100%" /></a>
  
      article#article-container.post-content!=page.content
      include includes/post/post-copyright.pug
