@@ -44,15 +44,15 @@ tags:
 # 洛竹
 
 {% gallery true %}
-![罗小黑战记 16](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654733968.png)
-![罗小黑战记 17](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654740626.png)
-![罗小黑战记 18](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654758134.png)
-![罗小黑战记 19](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654771639.png)
-![罗小黑战记 20](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654781208.png)
-![罗小黑战记 21](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654788107.png)
-![罗小黑战记 22](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654802970.png)
-![罗小黑战记 23](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654812799.png)
-![罗小黑战记 24](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654832168.png)
-![罗小黑战记 25](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654863950.png)
+![罗小黑战记 洛竹 16](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654733968.png)
+![罗小黑战记 洛竹 17](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654740626.png)
+![罗小黑战记 洛竹 18](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654758134.png)
+![罗小黑战记 洛竹 19](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654771639.png)
+![罗小黑战记 洛竹 20](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654781208.png)
+![罗小黑战记 洛竹 21](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654788107.png)
+![罗小黑战记 洛竹 22](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654802970.png)
+![罗小黑战记 洛竹 23](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654812799.png)
+![罗小黑战记 洛竹 24](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654832168.png)
+![罗小黑战记 洛竹 25](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654863950.png)
 
 {% endgallery %}
