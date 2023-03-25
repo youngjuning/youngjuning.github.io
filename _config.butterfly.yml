@@ -9,11 +9,13 @@ menu:
     标签: /tags/ || fas fa-tags
     时间轴: /archives/ || fas fa-archive
     随机: /random/ || fas fa-random
+  相册: /album/ || fas fa-images
   导航|| fas fa-star:
     前端导航: /frontend/ || fas fa-code
     跨境导航: /oversea/ || fas fa-hand-holding-usd
     工具导航: /tool/ || fas fa-cog
     站长导航: /webmaster/ || fas fa-user-tie
+    网赚导航: /wangzhuan/ || fas fa-money-bill-wave
     科学上网: /vpn/ || fas fa-wifi
   社交||fas fa-wine-glass-alt:
     友人: /friends/ || fas fa-link
@@ -24,7 +26,6 @@ menu:
   我的||fas fa-heart:
     日记: https://luozhu2021.blogspot.com/ || fas fa-book
     项目: /projects/ || fab fa-github
-    相册: /album/ || fas fa-images
     图床: /gallery/ || fas fa-images
     订阅: /atom.xml || fas fa-rss
     关于: /about/ || fas fa-spa
@@ -722,7 +723,7 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
-    limit: 10 # if set 0 will show all
+    limit: 20 # if set 0 will show all
     color: true
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:

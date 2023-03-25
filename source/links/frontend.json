@@ -34,5 +34,24 @@
         "descr": "Puppeteer 是一个 Node 库，它提供了一个高级 API 来通过 DevTools 协议控制 Chromium 或 Chrome。"
       }
     ]
+  },
+  {
+    "class_name": "跨浏览器测试",
+    "class_desc": "网站和应用程序的跨浏览器测试",
+    "link_list": [
+      {
+        "link": "https://saucelabs.com/",
+        "name": "SauceLabs",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679645983366.png",
+        "descr": "Website and mobile testingat every stage of development"
+      },
+      {
+        "link": "https://www.lambdatest.com/",
+        "name": "LambDatest",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679645948524.png",
+        "descr": "Next-Generation Mobile Apps and Cross Browser Testing Cloud"
+      }
+    ]
   }
+
 ]

@@ -6,5 +6,4 @@
 
 > 注意：不要改文件名！！！不要改文件名！！！不要改文件名！！！否则文章链接会失效！！！
 
-- [Shout Me Loud](https://www.shoutmeloud.com/): 博客变现博主
-- [Styilz](https://84a247.myshopify.com/collections/all): 一个基于 shopify 的独立站
+<!-- - [Styilz](https://84a247.myshopify.com/collections/all): 一个基于 shopify 的独立站 -->
