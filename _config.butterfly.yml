@@ -920,6 +920,7 @@ inject:
     - <meta name="a.validate.02" content="FukgZ7rhtig2ahQS6N6D1CMls_Fdm0bu7P9O" />
   bottom:
     # - <script src="xxxx"></scrip>
+    - <script data-cfasync="false" type="text/javascript" src="//predictiondisplay.com/a/display.php?r=6861802"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改

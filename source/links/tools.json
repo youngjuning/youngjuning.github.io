@@ -1,5 +1,17 @@
 [
   {
+    "class_name": "人工智能",
+    "class_desc": "",
+    "link_list": [
+      {
+        "link": "https://chat.openai.com/",
+        "name": "ChatGpt",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679845246530.png",
+        "descr": "ChatGPT，全稱聊天生成預訓練轉換器，是OpenAI開發的人工智慧聊天機器人程式"
+      }
+    ]
+  },
+  {
     "class_name": "抢拍脚本",
     "class_desc": "手艺好还要家伙妙。",
     "link_list": [
