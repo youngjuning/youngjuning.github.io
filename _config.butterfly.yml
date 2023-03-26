@@ -12,8 +12,9 @@ menu:
   相册: /album/ || fas fa-images
   导航|| fas fa-star:
     前端导航: /frontend/ || fas fa-code
-    跨境导航: /oversea/ || fas fa-hand-holding-usd
     工具导航: /tool/ || fas fa-cog
+    跨境导航: /oversea/ || fas fa-hand-holding-usd
+    营销导航: /yingxiao/ || fas fa-cog
     站长导航: /webmaster/ || fas fa-user-tie
     网赚导航: /wangzhuan/ || fas fa-money-bill-wave
     科学上网: /vpn/ || fas fa-wifi
