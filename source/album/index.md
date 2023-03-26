@@ -15,3 +15,7 @@ top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679323051761.png
 {% galleryGroup '碧蓝航线' '有哪些碧蓝航线这类游戏的你认为最为独特惊艳的壁纸？' '/album/碧蓝航线/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679325788187.png %}
 
 {% galleryGroup '崩坏：星穹铁道' '《崩坏：星穹铁道》壁纸美图分享来啦~' '/album/崩坏-星穹铁道/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679480504416.png %}
+
+{% galleryGroup 'AI 美女' '收藏的一些 AI 生成的美女' '/album/AI美女/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679834086403.png %}
+
+{% galleryGroup '推特美图' '收藏的一些推特配图' '/album/Twitter/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839109869.png %}
