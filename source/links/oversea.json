@@ -26,24 +26,6 @@
         "link": "https://whoer.net/",
         "avatar": "https://whoer.net/favicon.png",
         "descr": "检查您的 IP 地址和 DNS 地址，确保安全性"
-      },
-      {
-        "name": " AdsPower",
-        "link": "https://activity.adspower.com/global/dist-zh/",
-        "avatar": "https://activity.adspower.com/favicon.ico",
-        "descr": "指纹浏览器，拥有跨境电商、广告投放、联盟营销、数据采集、流量套利、电子商务"
-      },
-      {
-        "name": "紫鸟浏览器",
-        "link": "https://www.ziniao.com/",
-        "avatar": "https://www.ziniao.com/favicon.ico",
-        "descr": "跨境电商账号安全管理系统"
-      },
-      {
-        "name": "安狐狸",
-        "link": "https://www.anhuli.com/index.html",
-        "avatar": "https://www.anhuli.com/images/favicon.ico",
-        "descr": "安狐狸防指纹关联浏览器"
       }
     ]
   },
