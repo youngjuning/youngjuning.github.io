@@ -40,10 +40,22 @@
     "class_desc": "分享流量获取收入",
     "link_list": [
       {
+        "link": "https://addslice.com/?crew=wHXyN",
+        "name": "Slice",
+        "avatar": "https://addslice.com/favicon-32x32.png",
+        "descr": "拿回属于你的东西--将你的浏览器货币化，从广告中获得报酬，用Slice兑现。"
+      },
+      {
         "link": "https://r.honeygain.me/LUOZH19F62",
         "name": "Honeygain",
         "avatar": "https://dashboard.honeygain.com/favicon.ico",
         "descr": "All Your Sharing Information at Hand"
+      },
+      {
+        "link": "https://pawns.app/?r=1369594",
+        "name": "Pawns",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679936772351.png",
+        "descr": "通过分享网络和参与问卷调查赚取被动收入"
       },
       {
         "link": "https://earnapp.com/i/nDCXUAk3",

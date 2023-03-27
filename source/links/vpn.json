@@ -10,6 +10,12 @@
         "descr": "检查您的 IP 地址和 DNS 地址"
       },
       {
+        "link": "https://iphey.com/",
+        "name": "IpHey",
+        "avatar": "https://iphey.com/img/trustworthy-status.svg",
+        "descr": "Check Browser Fingerprint"
+      },
+      {
         "name": "ClashX for Mac",
         "link": "https://github.com/yichengchen/clashX",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678003208649.png",

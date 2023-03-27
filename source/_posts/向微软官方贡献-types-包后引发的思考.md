@@ -6,7 +6,7 @@ categories:
   - [前端, TypeScript]
 tags:
   - TypeScript
-  - @types
+  - types
   - DefinitelyTyped
   - dts-gen
   - dtslint
