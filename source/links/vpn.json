@@ -16,6 +16,12 @@
         "descr": "Check Browser Fingerprint"
       },
       {
+        "link": "https://www.webshare.io/",
+        "name": "WebShare",
+        "avatar": "https://global-uploads.webflow.com/5e42f62100b3490abec730e4/5e42f75400b34997c9c74185_favicon.png",
+        "descr": "Fast & Affordable Proxy Servers"
+      },
+      {
         "name": "ClashX for Mac",
         "link": "https://github.com/yichengchen/clashX",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678003208649.png",

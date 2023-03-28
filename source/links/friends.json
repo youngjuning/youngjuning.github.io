@@ -86,6 +86,12 @@
         "link": "https://cnhuazhu.top/",
         "avatar": "https://cdn.jsdelivr.net/gh/CNhuazhu/Image/avatar.jpg",
         "descr": "佛系青年"
+      },
+      {
+        "link": "https://www.codein.icu/",
+        "name": "Clouder’s Blog",
+        "avatar": "https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/selficon2.png",
+        "descr": "A student who enjoys tech & life."
       }
     ]
   },
