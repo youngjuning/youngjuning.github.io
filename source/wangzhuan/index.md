@@ -13,4 +13,5 @@ tags:
   - 啤酒钱
 ---
 
-<script data-cfasync="false" type="text/javascript" src="//predictiondisplay.com/a/display.php?r=6865994"></script>
+<script async="async" data-cfasync="false" src="//pl18904263.highrevenuegate.com/60a9585e87207b9db130c85b2cfbff86/invoke.js"></script>
+<div id="container-60a9585e87207b9db130c85b2cfbff86"></div>
