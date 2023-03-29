@@ -1,10 +1,7 @@
 ---
 title: React 面试题（React）
 date: 2023-03-06 19:30:00
-permalink: react-interview/
 description: 前 500 个 ReactJS 面试必知必会问题与答案，是洛竹诚意翻译的前端 React 面试必备系列。
-swiper_index: 4
-toc_number: false
 categories:
   - [前端, React 面试题]
   - [洛竹翻译计划]
@@ -16,18 +13,24 @@ tags:
   - swiper
 ---
 
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ## 1. 什么是 React？
 
+{% hideBlock 什么是 React？ %}
 React 是一个**开源前端 JavaScript 库**，用于构建用户界面，尤其是单页应用程序。它用于处理 Web 和移动应用程序的视图层。React 是由 Facebook 的软件工程师 [乔丹·沃克](https://github.com/jordwalke) 创建的。React 于 2011 年在 Facebook 的 News Feed 上首次发布，2012 年首次在 Instagram 发布。
+{% endhideBlock %}
 
 ## 2. React 的主要特性是什么？
 
+{% hideBlock React 的主要特性是什么？ %}
 React 的主要特性是:
 
 - 考虑到 DOM 操作内存开销大，React 使用**虚拟 DOM（VirtualDOM）** 替代了真实 DOM（RealDOM）
 - 支持**服务端渲染**
 - 遵循**单向**数据流或数据绑定
 - 使用**可复用/可组合**的 UI 组件来进行视图开发
+{% endhideBlock %}
 
 ## 3. 什么是 JSX？
 
