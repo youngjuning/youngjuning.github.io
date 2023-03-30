@@ -1,5 +1,17 @@
 [
   {
+    "class_name": "React 全家桶",
+    "class_desc": "React 是一个自由及开放源代码的前端 JavaScript 工具库， 用于基于UI组件构建用户界面。",
+    "link_list": [
+      {
+        "link": "https://react.dev/",
+        "name": "React",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680087302008.png",
+        "descr": "用于网络和本地用户界面的库"
+      }
+    ]
+  },
+  {
     "class_name": "在线工具",
     "class_desc": "前端用 NodeJS 写爬虫比较方便",
     "link_list": [

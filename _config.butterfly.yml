@@ -724,7 +724,7 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
-    limit: 100 # if set 0 will show all
+    limit: 50 # if set 0 will show all
     color: true
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
