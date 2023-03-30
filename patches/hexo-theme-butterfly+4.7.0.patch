@@ -88,10 +88,10 @@ index ed09f39..49296b7 100644
        else
          .card-tag-cloud!= tagcloud({orderby: orderby, order: order, min_font: 1.1, max_font: 1.5, amount: limit , color: true, start_color: '#999', end_color: '#99a9bf', unit: 'em'})
 diff --git a/node_modules/hexo-theme-butterfly/layout/page.pug b/node_modules/hexo-theme-butterfly/layout/page.pug
-index 6c810ef..b620e79 100644
+index 6c810ef..616081a 100644
 --- a/node_modules/hexo-theme-butterfly/layout/page.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/page.pug
-@@ -14,7 +14,11 @@ block content
+@@ -14,7 +14,10 @@ block content
          include includes/page/categories.pug
        default
          include includes/page/default-page.pug
@@ -100,7 +100,6 @@ index 6c810ef..b620e79 100644
      if page.comments !== false && theme.comments && theme.comments.use
        - var commentsJsLoad = true
        !=partial('includes/third-party/comments/index', {}, {cache: true})
-+    <hr/>
 +    //- ad
 +    if theme.ad && theme.ad.page
 +      .ads-wrap-page!=theme.ad.page
