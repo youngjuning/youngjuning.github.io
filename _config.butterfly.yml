@@ -711,7 +711,7 @@ aside:
       link: https://github.com/youngjuning
   card_announcement:
     enable: true
-    content: '<div><p>拿回属于你的东西--将你的浏览器货币化，从广告中获得报酬，用Slice兑现。</p><a href="https://addslice.com/?crew=wHXyN"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679935291274.jpg" style="width:100%"></a></div>'
+    content: '<div><a href="https://addslice.com/?crew=wHXyN"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679935291274.jpg" style="width:100%"></a></div>'
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -768,9 +768,9 @@ newest_comments:
 translate:
   enable: true
   # The text of a button
-  default: 繁
+  default: 簡
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
-  defaultEncoding: 2
+  defaultEncoding: 1
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese

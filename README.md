@@ -6,4 +6,4 @@
 
 > 注意：不要改文件名！！！不要改文件名！！！不要改文件名！！！否则文章链接会失效！！！
 
-<!-- - [Styilz](https://84a247.myshopify.com/collections/all): 一个基于 shopify 的独立站 -->
+<a href="https://www.gate.io/ref/9923157"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680151212227.jpg" width="100%" alt="Gate.io"></a>

@@ -4,7 +4,7 @@ top:
     name: Gate.io 加密货币交易所
     icon: fab fa-btc
     order: 1
-    html: '<a href="https://www.gate.ac/signup/9923157"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680151212227.jpg" width="100%" alt="Gate.io"></a>'
+    html: '<a href="https://www.gate.io/ref/9923157"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680151212227.jpg" width="100%" alt="Gate.io"></a>'
   - class_name: user-map
     id_name: user-map
     name: 访客地图

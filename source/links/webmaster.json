@@ -10,12 +10,6 @@
         "descr": "域名、建站、WordPress、云服务器、企业邮箱"
       },
       {
-        "name": "Qexo",
-        "link": "https://qexo.com/",
-        "avatar": "https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png",
-        "descr": "一个美观、强大的在线 静态博客 管理器"
-      },
-      {
         "name": "Blogger",
         "link": "https://www.blogger.com/",
         "avatar": "https://www.blogger.com/favicon.ico",
@@ -119,10 +113,22 @@
     "class_desc": "Hexo 主题、插件、工具",
     "link_list": [
       {
+        "name": "Qexo",
+        "link": "https://qexo.com/",
+        "avatar": "https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png",
+        "descr": "一个美观、强大的在线 静态博客 管理器"
+      },
+      {
         "name": "hexo-readmore",
         "link": "https://github.com/rqh656418510/hexo-readmore",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679364958595.png",
         "descr": "Hexo 微信公众号引流插件"
+      },
+      {
+        "link": "https://github.com/jaredly/hexo-admin",
+        "name": "hexo-admin",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679364958595.png",
+        "descr": "An Admin Interface for Hexo"
       }
     ]
   }
