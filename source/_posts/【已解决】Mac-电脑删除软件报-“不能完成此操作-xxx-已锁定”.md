@@ -13,7 +13,10 @@ tags:
   - 苹果电脑
 ---
 
+
 公司用的 VPN 在前一段时间强制给电脑添加了全屏水印，但是我的个人电脑为了随时支持，也安装了内网 VPN，这个水印是不能去掉的，所以我就想着卸载这个软件，但是卸载的时候就报错了，不能完成此操作，xxx 已锁定，这个时候我们就需要使用终端来卸载这些软件了。
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ![不能完成此操作,xxx 已锁定](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678980050589.png)
 
