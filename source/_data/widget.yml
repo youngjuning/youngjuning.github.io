@@ -1,7 +1,13 @@
 top:
+  - class_name: Gate.io
+    id_name: Gate.io
+    name: Gate.io 交易所
+    icon: fa fa-btc
+    order: 1
+    html: '<a href="https://www.gate.ac/signup/9923157"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680151212227.jpg" width="100%" alt="Gate.io"></a>'
   - class_name: user-map
     id_name: user-map
     name: 访客地图
     icon: fas fa-heartbeat
-    order:
+    order: 2
     html: '<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=GxY0uNwJ-R6qfXXonTr3FEq7qT8qAPpGdd-XpGVHSEo"></script>'
