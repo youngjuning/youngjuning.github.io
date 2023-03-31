@@ -8,13 +8,7 @@
         "name": "React",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680087302008.png",
         "descr": "用于网络和本地用户界面的库"
-      }
-    ]
-  },
-  {
-    "class_name": "React 组件",
-    "class_desc": " Rect 组件和组件库",
-    "link_list": [
+      },
       {
         "link": "https://ant.design/index-cn",
         "name": "Ant Design",

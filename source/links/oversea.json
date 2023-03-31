@@ -30,7 +30,7 @@
     ]
   },
   {
-    "class_name": "独立站",
+    "class_name": "Shopify 全家桶",
     "class_desc": "独立建站平台服务",
     "link_list": [
       {
@@ -56,24 +56,6 @@
         "link": "https://help.shopify.com/",
         "avatar": "https://cdn.shopify.com/static/shopify-favicon.png",
         "descr": "Shopify 帮助中心"
-      },
-      {
-        "name": "Shopify Logo Maker",
-        "link": "https://www.shopify.com/tools/logo-maker",
-        "avatar": "https://cdn.shopify.com/static/shopify-favicon.png",
-        "descr": "Create professional logos in seconds"
-      },
-      {
-        "name": "精品店名字生成器",
-        "link": "https://www.shopify.com/zh/tools/business-name-generator/boutique",
-        "avatar": "https://cdn.shopify.com/static/shopify-favicon.png",
-        "descr": "为您的精品店生成理想的店名"
-      },
-      {
-        "name": "ShopLine",
-        "link": "https://shoplineapp.cn/",
-        "avatar": "https://cdn.shoplineapp.com/media/favicon/favicon-32x32.png",
-        "descr": "国内领先的智慧SaaS电商平台"
       }
     ]
   },

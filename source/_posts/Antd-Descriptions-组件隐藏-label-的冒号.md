@@ -5,6 +5,7 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678952807676.png
 description: 本文介绍了如何隐藏 antd Descriptions 组件 label 后面的冒号。
 categories:
   - [issues, antd]
+  - [前端, React]
 tags:
   - antd
   - descriptions
