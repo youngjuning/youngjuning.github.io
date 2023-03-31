@@ -2,7 +2,7 @@
 title: 十种优化网站 SEO 并提高在线收入的方法
 date: 2023-03-19 17:14:52
 categories:
-  - [洛竹翻译计划, SEO]
+  - [洛竹翻译计划]
   - [站点运营, SEO]
 tags:
   - SEO

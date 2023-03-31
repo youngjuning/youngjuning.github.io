@@ -711,7 +711,7 @@ aside:
       link: https://github.com/youngjuning
   card_announcement:
     enable: true
-    content: '<div><a href="https://addslice.com/?crew=wHXyN"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679935291274.jpg" style="width:100%"></a><script async src="https://zvwhrc.com/na/waWQiOjExNTEyMDMsInNpZCI6MTE5NDQ1OCwid2lkIjo0MzkzODEsInNyYyI6Mn0=eyJ.js"></script></div>'
+    content: '<div><a href="https://addslice.com/?crew=wHXyN"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679935291274.jpg" style="width:100%"></a></div>'
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
