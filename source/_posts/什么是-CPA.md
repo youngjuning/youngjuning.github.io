@@ -1,6 +1,7 @@
 ---
 title: 什么是 CPA
 date: 2023-03-30 21:11:30
+cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680229234742.png
 description: 本文描述了什么是 CPA 广告计费方式，及其优点和缺点。CPA 广告的高效性在于它更加关注广告销售或申请转化，而且能够量身定制受众，适当地放置相应平台。然而，CPA广告也有投放门槛高、流量难控等问题。
 categories:
   - [副业, 网赚]
@@ -16,13 +17,13 @@ tags:
   - Cost Per Action
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
-## 什么是CPA？
+## 什么是 CPA？
 
 CPA（每次行动成本，Cost Per Action）是一种广告计费方式，其中广告主只需为广告获得的实际行动（例如点击、下载、注册等）付费。与传统的广告计费方式（例如CPC和CPM）相比，CPA通常更符合广告主的目标，因为他们只需要为真正的业绩付费。
 
-## 优点
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+## CPA 优点
 
 ### 高效性
 
@@ -36,7 +37,7 @@ CPA 广告是基于受众的特征进行选择的。它可以精确地针对用�
 
 CPA 广告不同于其他广告运营模式，由于其明确的转化目标，才能够真正达到有效广告计费的目的，广告方会根据其所期望的用户行为类型来进行广告曝光，从而达到更好的广告效果。
 
-## 缺点
+## CPA 缺点
 
 ### 投放门槛高
 
