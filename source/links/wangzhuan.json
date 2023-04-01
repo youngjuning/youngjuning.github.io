@@ -36,6 +36,36 @@
     ]
   },
   {
+    "class_name": "联盟营销",
+    "class_desc": "联盟营销（Association Marketing或Affiliate Marketing，简称Aff）又称联盟式行销、联盟行销，是一种基于业绩的营销方式。",
+    "link_list": [
+      {
+        "link": "https://adsterra.com/cpanetwork/",
+        "name": "Adsterra CPA Network",
+        "avatar": "https://adsterra.com/favicon.ico",
+        "descr": "现在就加入Adsterra，获得来自直接广告商的报价"
+      },
+      {
+        "link": "https://www.cpalead.com/",
+        "name": "CPAlead",
+        "avatar": "https://www.cpalead.com/favicon.ico",
+        "descr": "安装 Android 或 iOS 应用程序而获得报酬"
+      }
+    ]
+  },
+  {
+    "class_name": "雇佣软件",
+    "class_desc": "帮助雇主雇佣世界各地的自由职业者",
+    "link_list": [
+      {
+        "link": "https://sproutgigs.com/",
+        "name": "SproutGigs",
+        "avatar": "https://sproutgigs.com/favicon-32x32.png",
+        "descr": "我们的在线市场帮助雇主雇用世界各地的自由职业者。今天就搜索并向几位自由职业者发出邀请!"
+      }
+    ]
+  },
+  {
     "class_name": "被动收入",
     "class_desc": "分享流量获取收入",
     "link_list": [
