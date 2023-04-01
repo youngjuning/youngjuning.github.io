@@ -1897,14 +1897,7 @@ ee-first@1.1.1, ee-first@~1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
-ejs@3.1.8:
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.8.tgz#758d32910c78047585c7ef1f92f9ee041c1c190b"
-  integrity sha512-/sXZeMlhS0ArkfX2Aw780gJzXSMPnKjtspYZv+f3NiKLlubezAHDU5+9xz6gd3/NhG3txQCo6xlglmTS+oTGEQ==
-  dependencies:
-    jake "^10.8.5"
-
-ejs@^3.1.6:
+ejs@3.1.9, ejs@^3.1.6:
   version "3.1.9"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.9.tgz#03c9e8777fe12686a9effcef22303ca3d8eeb361"
   integrity sha512-rC+QVNMJWv+MtPgkt0y+0rVEIdbtxVADApW9JXrUVlzHetgcyczP/E7DJmWJ4fJCZF2cPcBk0laWO9ZHMG3DmQ==
@@ -2932,16 +2925,16 @@ he@^1.2.0:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
-hexo-bilibili-bangumi@^1.8.4:
-  version "1.8.5"
-  resolved "https://registry.yarnpkg.com/hexo-bilibili-bangumi/-/hexo-bilibili-bangumi-1.8.5.tgz#0c16926341a178f71f0fef04fd26c12bb79c501a"
-  integrity sha512-W/5Xkqtx2PuJOtV2revwwFj6/BeXNAouzea+jnGW89gze+f1U9hmCKdSLSR7kWxJmF93uSI+/ybcTOD3M7clig==
+hexo-bilibili-bangumi@^1.8.6:
+  version "1.8.6"
+  resolved "https://registry.yarnpkg.com/hexo-bilibili-bangumi/-/hexo-bilibili-bangumi-1.8.6.tgz#9bb70036a51f5fbae572f6ccfe67257c9604d4fa"
+  integrity sha512-M1Ak3L+gwrYo4FvIX+7FDuOWAQkEpx6LGsEiKvzG+tH1bCcAs6p+wl6v9aJdmHQmhC0I7e4PMrJt/GjYfaDqkA==
   dependencies:
     "@babel/runtime" "^7.18.0"
     axios "^1.0.0"
     bangumi-data "^0.3.91"
     cheerio "^1.0.0-rc.11"
-    ejs "3.1.8"
+    ejs "3.1.9"
     hexo-fs "^4.0.0"
     hexo-i18n "^2.0.0"
     hexo-log "^4.0.1"
