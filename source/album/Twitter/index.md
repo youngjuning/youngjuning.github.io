@@ -49,6 +49,7 @@ tags:
 ![东京樱花](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839234392.png)
 ![东京樱花](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839239066.png)
 ![龙脊梯田](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680316783090.png)
+![仙居景区](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680321756131.png)
 ![风景](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679836303322.png)
 ![风景](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679836372488.png)
 ![风景](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679836507547.png)
@@ -106,6 +107,7 @@ tags:
 ![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839104933.png)
 ![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839109869.png)
 ![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680316731031.png)
+![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680320706053.png)
 {% endgallery %}
 
 # 萌宠
