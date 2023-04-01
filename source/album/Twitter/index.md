@@ -48,6 +48,7 @@ tags:
 ![西藏拉萨](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839199304.png)
 ![东京樱花](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839234392.png)
 ![东京樱花](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839239066.png)
+![龙脊梯田](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680316783090.png)
 ![风景](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679836303322.png)
 ![风景](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679836372488.png)
 ![风景](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679836507547.png)
@@ -104,7 +105,7 @@ tags:
 ![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839098807.png)
 ![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839104933.png)
 ![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839109869.png)
-
+![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680316731031.png)
 {% endgallery %}
 
 # 萌宠
@@ -112,7 +113,6 @@ tags:
 {% gallery true %}
 ![萌宠](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679836050001.png)
 ![萌宠](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837375356.png)
-
 {% endgallery %}
 
 # 其他
@@ -128,4 +128,6 @@ tags:
 ![洛竹的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837844869.png)
 ![洛竹的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838032241.png)
 ![洛竹的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838129083.png)
+![洛竹的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680316767273.png)
+![洛竹的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680316808959.png)
 {% endgallery %}
