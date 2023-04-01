@@ -2,7 +2,7 @@
 title: 睡觉也能赚钱! GoSleep ARB 上首款睡眠 App
 date: 2023-04-01 10:55:37
 description: GoSleep ARB 上首款睡眠 App，🌟 来跟我一起组团睡觉呀！睡觉也能赚钱！ARB 上首款睡眠 App，GoSleep 公测上线！颠覆你的睡眠体验！不用买NFT也可以玩，成功睡眠15天，即可获得等值$10U token
-cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680318621093.png
+cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680317979482.png
 categories:
   - [加密货币, 元宇宙]
 tags:
@@ -26,8 +26,6 @@ tags:
 ![GoSleep](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680318621093.png)
 
 ##  躺赚
-
-![GoSleep](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680317979482.png)
 
 GoSleep 是一款結合 GameFi、SocialFi 和 HealthFi 的 Web3 生活方式應用程式，玩家可因健康生活而獲得獎勵。玩家首次登錄 GoSleep 將獲得免費臥室 NFT。這個 NFT 代表 GoSleep 遊戲中的一個虛擬臥室，玩家可以將之用於賺取代幣。
 
