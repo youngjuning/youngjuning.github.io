@@ -54,6 +54,30 @@
     ]
   },
   {
+    "class_name": "配色网站",
+    "class_desc": "像设计师一样专业地去配色",
+    "link_list": [
+      {
+        "link": "https://webkul.github.io/coolhue/",
+        "name": "CoolHue",
+        "avatar": "https://webkul.github.io/coolhue/images/coolhue-logo.png",
+        "descr": "Gradient Colors Collection Palette - CoolHue 2.0"
+      },
+      {
+        "link": "https://uigradients.com/",
+        "name": "uiGradients",
+        "avatar": "https://uigradients.com/static/images/favicon-32x32.png",
+        "descr": "uiGradients - Beautiful colored gradients"
+      },
+      {
+        "link": "http://zhongguose.com/",
+        "name": "中国色",
+        "avatar": "http://zhongguose.com/img/favicon.ico",
+        "descr": "中国风色彩"
+      }
+    ]
+  },
+  {
     "class_name": "中文文档",
     "class_desc": "前端技术的中文文档",
     "link_list": [
