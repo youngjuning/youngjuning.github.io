@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "hexo": "^6.3.0",
-    "hexo-bilibili-bangumi": "^1.8.4",
+    "hexo-bilibili-bangumi": "^1.8.6",
     "hexo-butterfly-charts": "^1.1.3",
     "hexo-butterfly-douban": "^1.2.5",
     "hexo-butterfly-swiper": "^1.0.12",
