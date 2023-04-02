@@ -112,9 +112,13 @@ ignore:
 sitemap:
   path: sitemap.xml
 feed:
-  type: Atom
-  path: atom.xml
-  limit: 20
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+  limit: false
 nofollow:
   enable: true
   field: site
