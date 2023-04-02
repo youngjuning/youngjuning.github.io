@@ -19,7 +19,7 @@ description: 有朋自网线来，不亦说乎
 {
   "name": "洛竹的博客",
   "link": "https://youngjuning.js.org",
-  "avatar": "https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png",
+  "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
   "descr": "真理无穷，一寸欢喜"
 }
 ```
@@ -27,7 +27,7 @@ description: 有朋自网线来，不亦说乎
 ```yml
 -  "name": "洛竹的博客",
   "link": "https://youngjuning.js.org",
-  "avatar": "https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png",
+  "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
   "descr": "真理无穷，一寸欢喜"
 ```
 

@@ -31,7 +31,7 @@ menu:
     订阅: /atom.xml || fas fa-rss
     关于: /about/ || fas fa-spa
 nav:
-  logo: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png # image
+  logo: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png # image
   display_title: true
   fixed: true # fixed navigation bar
 
@@ -99,18 +99,18 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png
+favicon: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png
 
 # Avatar (頭像)
 avatar:
-  img: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png
+  img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://picbed.qunarzz.com/7cb93a09ca9bbbc8ad89ca07a72daf4b.png
+index_img: transparent
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://pic2.zhimg.com/80/v2-7099d20a6239795a13c1525a44e243bd_1440w.webp
@@ -560,7 +560,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-# background: url(https://imbhj-cdn.oss-cn-hangzhou.aliyuncs.com/CDN3/202112111814171.jpg)
+background: url(https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450445599.png)
 
 # Footer Background
 footer_bg: true
@@ -615,7 +615,7 @@ fireworks:
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: true
+  enable: false
   mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)

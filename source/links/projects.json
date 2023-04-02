@@ -6,7 +6,7 @@
       {
         "name": "vscode-luozhu-pack",
         "link": "https://github.com/youngjuning/vscode-luozhu-pack",
-        "avatar": "https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
         "descr": "Luozhu's Extension Pack."
       },
       {
@@ -18,7 +18,7 @@
       {
         "name": "vscode-juejin-wordcount",
         "link": "https://github.com/youngjuning/vscode-juejin-wordcount",
-        "avatar": "https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
         "descr": "专为掘金适配的 Markdown 文件字数统计 VS Code 扩展，字数统计会实时显示在状态栏。"
       },
       {
@@ -36,7 +36,7 @@
       {
         "name": "wx-promise-pro",
         "link": "https://github.com/youngjuning/wx-promise-pro",
-        "avatar": "https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
         "descr": "微信小程序 Promise 封装"
       },
       {
@@ -72,7 +72,7 @@
       {
         "name": "react-native-quill-editor",
         "link": "https://github.com/youngjuning/react-native-quill-editor",
-        "avatar": "https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
         "descr": "React Native Quill Rich Text Editor Wrapper"
       }
     ]

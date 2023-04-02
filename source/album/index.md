@@ -19,3 +19,5 @@ top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679323051761.png
 {% galleryGroup 'AI 美女' '收藏的一些 AI 生成的美女' '/album/AI美女/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679834086403.png %}
 
 {% galleryGroup '推特美图' '收藏的一些推特配图' '/album/Twitter/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839109869.png %}
+
+{% galleryGroup '洛竹的素材' '洛竹常用的素材' '/album/洛竹的素材/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450302136.jpeg %}
