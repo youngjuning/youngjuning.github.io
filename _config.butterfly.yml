@@ -510,7 +510,6 @@ ad:
 # --------------------------------------
 
 site_verification:
-  site_verification:
   # Google Webmaster tools verification.
   # See: https://search.google.com
   - name: google-site-verification
