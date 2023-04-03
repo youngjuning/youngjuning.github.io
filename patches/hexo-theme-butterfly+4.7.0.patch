@@ -1,47 +1,3 @@
-diff --git a/node_modules/hexo-theme-butterfly/languages/zh-CN.yml b/node_modules/hexo-theme-butterfly/languages/zh-CN.yml
-index 9c2919a..d8a9762 100644
---- a/node_modules/hexo-theme-butterfly/languages/zh-CN.yml
-+++ b/node_modules/hexo-theme-butterfly/languages/zh-CN.yml
-@@ -11,7 +11,7 @@ page:
-   articles: 文章总览
-   tag: 标签
-   category: 分类
--  archives: 归档
-+  archives: 时间轴
- 
- card_post_count: 条评论
- 
-@@ -60,7 +60,7 @@ aside:
-   card_announcement: 公告
-   card_categories: 分类
-   card_tags: 标签
--  card_archives: 归档
-+  card_archives: 时间轴
-   card_recent_post: 最新文章
-   card_webinfo:
-     headline: 网站资讯
-diff --git a/node_modules/hexo-theme-butterfly/languages/zh-TW.yml b/node_modules/hexo-theme-butterfly/languages/zh-TW.yml
-index 86623c0..7db9f67 100644
---- a/node_modules/hexo-theme-butterfly/languages/zh-TW.yml
-+++ b/node_modules/hexo-theme-butterfly/languages/zh-TW.yml
-@@ -11,7 +11,7 @@ page:
-   articles: 文章總覽
-   tag: 標籤
-   category: 分類
--  archives: 歸檔
-+  archives: 時間軸
- 
- card_post_count: 條評論
- 
-@@ -60,7 +60,7 @@ aside:
-   card_announcement: 公告
-   card_categories: 分類
-   card_tags: 標籤
--  card_archives: 歸檔
-+  card_archives: 時間軸
-   card_recent_post: 最新文章
-   card_webinfo:
-     headline: 網站資訊
 diff --git a/node_modules/hexo-theme-butterfly/layout/archive.pug b/node_modules/hexo-theme-butterfly/layout/archive.pug
 index 815cdd1..8595b23 100644
 --- a/node_modules/hexo-theme-butterfly/layout/archive.pug
@@ -82,7 +38,7 @@ index ed09f39..49296b7 100644
 +++ b/node_modules/hexo-theme-butterfly/layout/includes/widget/card_tags.pug
 @@ -9,6 +9,6 @@ if theme.aside.card_tags.enable
        - limit = limit === 0 ? 0 : limit || 40
- 
+
        if theme.aside.card_tags.color
 -        .card-tag-cloud!= cloudTags({source: site.tags, orderby: orderby, order: order, minfontsize: 1.15, maxfontsize: 1.45, limit: tagLimit, unit: 'em'})
 +        .card-tag-cloud!= cloudTags({source: site.tags, orderby: orderby, order: order, minfontsize: 1.15, maxfontsize: 1.45, limit: limit, unit: 'em'})
@@ -120,7 +76,7 @@ index f54ab7a..9ff1cb6 100644
      if page.comments !== false && theme.comments && theme.comments.use
        - var commentsJsLoad = true
        !=partial('includes/third-party/comments/index', {}, {cache: true})
--      
+-
 \ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
 index ade0db3..8ca7c24 100644
@@ -131,7 +87,7 @@ index ade0db3..8ca7c24 100644
        height: 36px
        vertical-align: middle
 +      border-radius: 50%
- 
+
    #toggle-menu
      display: none
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_page/common.styl b/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
@@ -140,11 +96,11 @@ index 3356d17..99b24bd 100644
 +++ b/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
 @@ -18,7 +18,7 @@
      padding: 20px 5px
- 
+
    +minWidth2000()
 -    max-width: 1500px
 +    max-width: 1700px
- 
+
    & > div:first-child:not(.recent-posts)
      @extend .cardHover
 @@ -58,3 +58,5 @@

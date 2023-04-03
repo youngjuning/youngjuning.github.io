@@ -1,6 +1,7 @@
 ---
 title: 基于 Next.js 开发 BSC DApp
 date: 2021-12-05 22:58:44
+description: 本文记录了基于 Next.js 开发 BSC DApp
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202112101016728.png
 categories:
   - 区块链
@@ -9,6 +10,8 @@ tags:
   - BSC
   - DApp
 ---
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 项目初始化
 
