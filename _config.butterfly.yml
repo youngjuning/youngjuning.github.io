@@ -511,13 +511,13 @@ ad:
 
 site_verification:
   # Google Webmaster tools verification.
-  # See: https://search.google.com
+  # See: https://search.google.com/search-console
   - name: google-site-verification
     content: ohZ0A8YKJu755suq7WOIJkLGDfj3BGU4isb8RKI5Cj8
   # Baidu Webmaster tools verification.
   # See: https://ziyuan.baidu.com/site
-  - name: baidu-site-verification
-    content: I63O4XWtSs
+  # - name: baidu-site-verification
+  #   content: I63O4XWtSs
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
