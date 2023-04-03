@@ -33,7 +33,7 @@ menu:
 nav:
   logo: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png # image
   display_title: true
-  fixed: true # fixed navigation bar
+  fixed: false # fixed navigation bar
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -51,7 +51,7 @@ copy:
   enable: true
   copyright:
     enable: true
-    limit_count: 50
+    limit_count: 100
 
 # social settings (社交圖標設置)
 # formal:
