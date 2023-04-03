@@ -112,9 +112,6 @@ tags:
 - [cutterman](https://www.cutterman.cn/zh): 为设计更专注
 - [图标工厂](https://icon.wuruihong.com/): 一键生成所有尺寸的应用图标/启动图
 - [蓝湖](https://lanhuapp.com/): 高效的产品设计协作平台
-- [Canva](https://www.canva.cn/): 创建精彩设计
-- [图怪兽](https://818ps.com/): 会打字就能用的作图神器
-- [稿定设计](https://www.gaoding.com/): 做图做视频必备
 
 ### 设计师社区
 
@@ -124,7 +121,6 @@ tags:
 ### 免费素材
 
 - [Unsplash](https://unsplash.com/): Photos for everyone
-- [Pinterest](https://www.pinterest.jp/): 找图
 - [我整理了200款免费商用字体，放心下载不会侵权！](https://www.uisdc.com/200-models-free-commercial-fonts)
 - [免费可商用，最值得收藏的10个插画素材网站](http://liujinkai.com/2019/10/18/10-best-free-illustration/)
 - [你要的20个免费精美图片站都在这里了](http://liujinkai.com/2019/07/25/free-image-website/)
