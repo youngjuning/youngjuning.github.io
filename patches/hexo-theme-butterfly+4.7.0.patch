@@ -48,7 +48,7 @@ diff --git a/node_modules/hexo-theme-butterfly/layout/page.pug b/node_modules/he
 index 6c810ef..616081a 100644
 --- a/node_modules/hexo-theme-butterfly/layout/page.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/page.pug
-@@ -14,7 +14,9 @@ block content
+@@ -14,7 +14,10 @@ block content
          include includes/page/categories.pug
        default
          include includes/page/default-page.pug
