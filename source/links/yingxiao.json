@@ -1,6 +1,6 @@
 [
   {
-    "class_name": "广告联盟",
+    "class_name": "联盟营销",
     "class_desc": "Write to Earn",
     "link_list": [
       {
@@ -16,6 +16,42 @@
         "descr": "通过 Adsterra，您可以将任何流量货币化，从一个小博客到APK文件或社会流量。你甚至不需要一个网站就可以开始通过显示广告盈利。人工智能算法将选择最具竞争力的CPM费率以及相关的广告内容。"
       },
       {
+        "link": "https://adsterra.com/cpanetwork/",
+        "name": "Adsterra CPA Network",
+        "avatar": "https://adsterra.com/favicon.ico",
+        "descr": "现在就加入Adsterra，获得来自直接广告商的报价"
+      },
+      {
+        "link": "https://www.cpalead.com/",
+        "name": "CPAlead",
+        "avatar": "https://www.cpalead.com/favicon.ico",
+        "descr": "安装 Android 或 iOS 应用程序而获得报酬"
+      },
+      {
+        "link": "https://www.clickbank.com/",
+        "name": "ClickBank",
+        "avatar": "https://www.clickbank.com/favicon.ico",
+        "descr": "在 ClickBank，我们提供值得信赖的电子商务工具、全球联盟市场以及行业领先的支持和教育"
+      },
+      {
+        "link": "https://sproutgigs.com/",
+        "name": "SproutGigs",
+        "avatar": "https://sproutgigs.com/favicon-32x32.png",
+        "descr": "我们的在线市场帮助雇主雇用世界各地的自由职业者。今天就搜索并向几位自由职业者发出邀请!"
+      },
+      {
+        "link": "https://rapidworkers.com/",
+        "name": "RapidWorkers",
+        "avatar": "https://rapidworkers.com/favicon.ico",
+        "descr": "RapidWorkers是一个众包服务，有超过20万名工人。"
+      },
+      {
+        "name": "百度联盟",
+        "link": "https://union.baidu.com/bqt/#/",
+        "avatar": "https://union.baidu.com/bqt/favicon.ico",
+        "descr": "国内最具实力的联盟体系之一"
+      },
+      {
         "link": "https://evadav.com/",
         "name": "EvaDav",
         "avatar": "https://evadav.com/img/icons/ic128.png",
@@ -26,12 +62,6 @@
         "name": "Monetag",
         "avatar": "https://publishers.monetag.com/assets/favicon.ico",
         "descr": "无论你想通过什么受众和网络或移动流量来实现盈利，Monetag 都准备好满足你的期望，在收入和用户体验之间取得出色的平衡。"
-      },
-      {
-        "name": "百度联盟",
-        "link": "https://union.baidu.com/bqt/#/",
-        "avatar": "https://union.baidu.com/bqt/favicon.ico",
-        "descr": "国内最具实力的联盟体系之一"
       }
     ]
   },
@@ -68,6 +98,12 @@
         "name": "adosns.com",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
         "descr": "Facebook，Instagram，YouTube，TikTok 上的等最优惠的价格。确保每一笔订单都得到客户的满意！"
+      },
+      {
+        "link": "https://github.com/MShawon/YouTube-Viewer",
+        "name": "YouTube Viewer",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
+        "descr": "用于 YouTube 的多线程浏览机器人"
       },
       {
         "name": "SparkTraffic",
@@ -114,6 +150,108 @@
     ]
   },
   {
+    "class_name": "社交网络",
+    "class_desc": "全球流行社交网络",
+    "link_list": [
+      {
+        "link": "https://www.pinterest.com/",
+        "name": "Pinterest",
+        "avatar": "https://www.pinterest.jp/favicon.ico",
+        "descr": "发现食谱、家居创意、风格灵感和其他可以尝试的想法。"
+      }
+    ]
+  },
+  {
+    "class_name": "平面设计",
+    "class_desc": "平面设计做图软件",
+    "link_list": [
+      {
+        "link": "https://www.canva.cn/",
+        "name": "可画",
+        "avatar": "https://static.canva.cn/static/images/android-192x192-2.png",
+        "descr": "Canva可画_在线设计协作平台_平面设计作图软件_免费设计素材 - Canva中文官网"
+      },
+      {
+        "link": "https://www.gaoding.com/",
+        "name": "稿定设计",
+        "avatar": "https://www.gaoding.com/favicon.ico",
+        "descr": "做图做视频必备_在线设计神器_海量版权素材模板"
+      },
+      {
+        "link": "https://818ps.com/",
+        "name": "图怪兽",
+        "avatar": "https://818ps.com/favicon.ico",
+        "descr": "图怪兽作图神器-在线图片编辑器-PS图片制作-搞定平面设计不求人"
+      }
+    ]
+  },
+  {
+    "class_name": "视频制作",
+    "class_desc": "视频剪辑、视频去重、视频去水印、批量短视频生成",
+    "link_list": [
+      {
+        "link": "https://www.capcut.cn/",
+        "name": "剪映专业版",
+        "avatar": "https://lf-cdn-tos.bytescm.com/obj/static/ies/ulike/web/resource/fe_official/assets/imgs/lv/favicon.ico",
+        "descr": "剪映专业版是一款全能易用的桌面端剪辑软件，让创作更简单"
+      },
+      {
+        "link": "https://filmora.wondershare.com/",
+        "name": "Flilmora",
+        "avatar": "https://filmora.wondershare.com/favicon.ico",
+        "descr": "万兴喵影英文版，一个跨平台的视频制作，适合所有类型的创作者!"
+      },
+      {
+        "link": "https://ghostcut.jollytoday.com/index/cn",
+        "name": "GhostCut",
+        "avatar": "https://g.cdn.izhaoli.cn/ghostcut2.ico",
+        "descr": "鬼手剪辑能高效实现视频去字幕、视频翻译和视频混剪等，帮助电商客户、MCN机构和影视剪辑人员制作精彩的视频。"
+      },
+      {
+        "link": "https://invideo.io/",
+        "name": "Invideo",
+        "avatar": "https://web-assets.invideo.io/favicons/prod/purple_favicon.ico",
+        "descr": "InVideo通过现成的模板简化了视频创作。即使你以前没有做过，也可以快速定制。"
+      }
+    ]
+  },
+  {
+    "class_name": "免费素材",
+    "class_desc": "免费的图片和视频素材",
+    "link_list": [
+      {
+        "link": "https://www.pexels.com/zh-cn/",
+        "name": "Pexels",
+        "avatar": "https://www.pexels.com/favicon.ico",
+        "descr": "才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频。"
+      },
+      {
+        "link": "https://pixabay.com/",
+        "name": "Pixabay",
+        "avatar": "https://pixabay.com/favicon-32x32.png",
+        "descr": "令人惊叹的免费图片和无版权素材"
+      },
+      {
+        "link": "https://imzo.com/",
+        "name": "imzo",
+        "avatar": "https://imzo.com/favicon.ico",
+        "descr": "全网最好的免费图片素材网站"
+      }
+    ]
+  },
+  {
+    "class_name": "分析工具",
+    "class_desc": "趋势分析、关键词分析",
+    "link_list": [
+      {
+        "link": "https://trends.google.com/home",
+        "name": "Google 趋势",
+        "avatar": "https://ssl.gstatic.com/trends/favicon.ico",
+        "descr": "探索全球全球用户目前正在搜索的内容"
+      }
+    ]
+  },
+  {
     "class_name": "多账号浏览器",
     "class_desc": "多账号浏览器，让你的生活更加便捷",
     "link_list": [
@@ -146,18 +284,6 @@
         "link": "https://www.anhuli.com/index.html",
         "avatar": "https://www.anhuli.com/images/favicon.ico",
         "descr": "安狐狸防指纹关联浏览器"
-      }
-    ]
-  },
-  {
-    "class_name": "趋势分析",
-    "class_desc": "各种趋势分析工具",
-    "link_list": [
-      {
-        "link": "https://trends.google.com/home",
-        "name": "Google 趋势",
-        "avatar": "https://ssl.gstatic.com/trends/favicon.ico",
-        "descr": "探索全球全球用户目前正在搜索的内容"
       }
     ]
   }

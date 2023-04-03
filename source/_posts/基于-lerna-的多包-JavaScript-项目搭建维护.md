@@ -2,6 +2,7 @@
 title: 基于 lerna 的多包 JavaScript 项目搭建维护
 date: 2023-03-08 18:26:27
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678271257803.png
+description: 将大型代码仓库分割成多个独立版本化的 软件包（package）对于代码共享来说非常有用。但是，如果某些更改 跨越了多个代码仓库的话将变得很麻烦并且难以跟踪，并且，跨越多个代码仓库的测试将迅速变得非常复杂。
 categories:
   - 前端
 tags:
@@ -10,6 +11,8 @@ tags:
   - yarn
   - npm
 ---
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 将大型代码仓库分割成多个独立版本化的 软件包（package）对于代码共享来说非常有用。但是，如果某些更改 跨越了多个代码仓库的话将变得很麻烦并且难以跟踪，并且，跨越多个代码仓库的测试将迅速变得非常复杂。
 

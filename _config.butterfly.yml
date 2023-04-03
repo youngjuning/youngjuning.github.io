@@ -196,7 +196,7 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
 # anchor
@@ -504,7 +504,7 @@ google_adsense:
 ad:
   index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-7962287588031867" data-ad-slot="7586987656"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
   aside: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7962287588031867" data-ad-slot="1257383027" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
-  post: <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+  post: <script async="async" data-cfasync="false" src="//pl18904263.highrevenuegate.com/60a9585e87207b9db130c85b2cfbff86/invoke.js"></script><div id="container-60a9585e87207b9db130c85b2cfbff86"></div>
   page: <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2412882052"></ins>
 # Verification (站長驗證)
 # --------------------------------------
@@ -718,7 +718,7 @@ aside:
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
   card_categories:
-    enable: false
+    enable: true
     limit: 8 # if set 0 will show all
     expand: none # none/true/false
     sort_order: # Don't modify the setting unless you know how it works
@@ -920,6 +920,7 @@ inject:
     # - <link rel="stylesheet" href="xxxx">
   bottom:
     # - <script src="xxxx"></scrip>
+    - <script type='text/javascript' src='//harassinganticipation.com/d1/17/75/d11775e152083bd385cda944f050d258.js'></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
