@@ -1,5 +1,5 @@
 diff --git a/node_modules/hexo-theme-butterfly/layout/archive.pug b/node_modules/hexo-theme-butterfly/layout/archive.pug
-index 815cdd1..ed7e54a 100644
+index 815cdd1..8595b23 100644
 --- a/node_modules/hexo-theme-butterfly/layout/archive.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/archive.pug
 @@ -3,7 +3,12 @@ extends includes/layout.pug
@@ -15,13 +15,12 @@ index 815cdd1..ed7e54a 100644
 +    //- ad
 +    if theme.ad && theme.ad.page
 +      .ads-wrap-page!=theme.ad.page
-\ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/includes/head.pug b/node_modules/hexo-theme-butterfly/layout/includes/head.pug
-index 0089ad2..e84d84a 100644
+index 0089ad2..cabbc77 100644
 --- a/node_modules/hexo-theme-butterfly/layout/includes/head.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/includes/head.pug
 @@ -15,7 +15,7 @@
- 
+
  meta(charset='UTF-8')
  meta(http-equiv="X-UA-Compatible" content="IE=edge")
 -meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0")
@@ -52,14 +51,14 @@ index ed09f39..49296b7 100644
 +++ b/node_modules/hexo-theme-butterfly/layout/includes/widget/card_tags.pug
 @@ -9,6 +9,6 @@ if theme.aside.card_tags.enable
        - limit = limit === 0 ? 0 : limit || 40
- 
+
        if theme.aside.card_tags.color
 -        .card-tag-cloud!= cloudTags({source: site.tags, orderby: orderby, order: order, minfontsize: 1.15, maxfontsize: 1.45, limit: tagLimit, unit: 'em'})
 +        .card-tag-cloud!= cloudTags({source: site.tags, orderby: orderby, order: order, minfontsize: 1.15, maxfontsize: 1.45, limit: limit, unit: 'em'})
        else
          .card-tag-cloud!= tagcloud({orderby: orderby, order: order, min_font: 1.1, max_font: 1.5, amount: limit , color: true, start_color: '#999', end_color: '#99a9bf', unit: 'em'})
 diff --git a/node_modules/hexo-theme-butterfly/layout/page.pug b/node_modules/hexo-theme-butterfly/layout/page.pug
-index 6c810ef..59a3418 100644
+index 6c810ef..616081a 100644
 --- a/node_modules/hexo-theme-butterfly/layout/page.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/page.pug
 @@ -14,7 +14,10 @@ block content
@@ -74,7 +73,6 @@ index 6c810ef..59a3418 100644
 +    //- ad
 +    if theme.ad && theme.ad.page
 +      .ads-wrap-page!=theme.ad.page
-\ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/post.pug b/node_modules/hexo-theme-butterfly/layout/post.pug
 index f54ab7a..9ff1cb6 100644
 --- a/node_modules/hexo-theme-butterfly/layout/post.pug
@@ -91,7 +89,7 @@ index f54ab7a..9ff1cb6 100644
      if page.comments !== false && theme.comments && theme.comments.use
        - var commentsJsLoad = true
        !=partial('includes/third-party/comments/index', {}, {cache: true})
--      
+-
 \ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
 index ade0db3..8ca7c24 100644
@@ -102,7 +100,7 @@ index ade0db3..8ca7c24 100644
        height: 36px
        vertical-align: middle
 +      border-radius: 50%
- 
+
    #toggle-menu
      display: none
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_page/common.styl b/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
@@ -111,11 +109,11 @@ index 3356d17..99b24bd 100644
 +++ b/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
 @@ -18,7 +18,7 @@
      padding: 20px 5px
- 
+
    +minWidth2000()
 -    max-width: 1500px
 +    max-width: 1700px
- 
+
    & > div:first-child:not(.recent-posts)
      @extend .cardHover
 @@ -58,3 +58,5 @@
