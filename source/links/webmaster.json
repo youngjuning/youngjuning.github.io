@@ -87,6 +87,12 @@
         "name": "hexo-admin",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679364958595.png",
         "descr": "An Admin Interface for Hexo"
+      },
+      {
+        "link": "https://github.com/Lete114/hexo-seo-autopush",
+        "name": "hexo-seo-autopush",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679364958595.png",
+        "descr": "每天自动提交 url 到百度、谷歌和必应"
       }
     ]
   }

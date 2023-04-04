@@ -1,11 +1,12 @@
 ---
 title: 前端无感知刷新 Token
 date: 2022-10-31 13:43:33
+description: 为了安全考虑，一般后端都要求在请求接口时传递登录的 Token。为了防止 Token 泄漏的风险，服务器的 Token 一般不会设置太长时间，比如我最近联调的，两个小时就会过期，token 过期就需要重新登陆。
 categories:
-- 前端
+  - 前端
 tags:
-- 网络编程
-cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3137468833474e6ea2b74b97fb101c0c~tplv-k3u1fbpfcp-watermark.image
+  - 网络编程
+  - Token 刷新
 ---
 
 为了安全考虑，一般后端都要求在请求接口时传递登录的 Token。为了防止 Token 泄漏的风险，服务器的 Token 一般不会设置太长时间，比如我最近联调的，两个小时就会过期，token 过期就需要重新登陆。频繁要求登陆会造成用户体验差，所以后端同时会提供刷新 Token 的接口，本文就是记录一下几种无感知刷新的方法。

@@ -1,14 +1,15 @@
 ---
-title: 配置 react native splash screen 防止启动白屏
+title: 配置 React Native Splash Screen 防止启动白屏
 date: 2020-02-21 12:41:18
-description: 本文介绍了配置 react native splash screen 防止启动白屏
+description: 本文介绍了配置 React Native Splash Screen 防止启动白屏
 cover: https://i.loli.net/2020/02/23/2nHZARhIstQDmji.png
 categories:
   - [前端, React Native]
 tags:
   - 启动屏
   - React Native
-  - 掘金
+  - React Native Splash screen
+  - React Native 启动白屏
 ---
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>

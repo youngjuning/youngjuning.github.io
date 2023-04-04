@@ -8,7 +8,7 @@ top:
 bottom:
   - class_name: Gate.io
     id_name: Gate.io
-    name: Gate.io 加密货币交易所
+    name: 点击注册 Gate.io 领 10% 交易返佣
     icon: fab fa-btc
     order: 1
     html: '<a href="https://www.gate.io/ref/9923157"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680151212227.jpg" width="100%" alt="Gate.io"></a>'
