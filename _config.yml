@@ -279,34 +279,34 @@ footer_beautify:
         desrc: 个人主页
         class: out
       - icon: fa-brands fa-qq
-        link: https://res.abeim.cn/api/qq/?qq=3105950984
+        link: https://res.abeim.cn/api/qq/?qq=2252484287
         desrc: 联系QQ
         class: out
       - icon: fa-brands fa-weixin
-        link: /wechat/
+        link: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211725265.png
         desrc: 联系微信
         class: in
       - icon: fa-solid fa-envelope
-        link: mailto:marcus@marcus233.top
+        link: mailto:luozhu2021@gmail.com
         desrc: 发送邮件
         class: out
     right:
       - icon: fa-brands fa-github
-        link: https://github.com/Marcusyyds
+        link: https://github.com/youngjuning
         desrc: Github主页
         class: out
+      - icon: fab fa-npm
+        link: https://www.npmjs.com/~youngjuning
+        desrc: NPM
+        class: out
       - icon: fa-brands fa-bilibili
-        link: https://space.bilibili.com/1024450661
+        link: https://space.bilibili.com/52457741
         desrc: 哔哩哔哩主页
         class: out
-      - icon: fa-solid fa-star
-        link: /stars/
-        desrc: 藏宝阁
-        class: in
-      - icon: fa-solid fa-comment
-        link: /message/
-        desrc: 留言
-        class: in
+      - icon: fab fa-twitter
+        link: https://twitter.com/luozhu2021
+        desrc: 推特
+        class: out
   footer_logo:
     enable: true
     url: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png
@@ -367,8 +367,13 @@ footer_beautify:
           - text: 查看全部
             link: /categories/
             class: in
+      - group_title: 项目
+        footer_links:
+          - text: 博客相关
+            link: /categories/博客相关
+            class: in
   footer_friend_links:
-    enable: true
+    enable: false
     number: 5
   footer_bottom:
     copyright:

@@ -1,8 +1,8 @@
 diff --git a/node_modules/hexo-theme-butterfly/layout/archive.pug b/node_modules/hexo-theme-butterfly/layout/archive.pug
-index 815cdd1..ed7e54a 100644
+index 815cdd1..d62b31d 100644
 --- a/node_modules/hexo-theme-butterfly/layout/archive.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/archive.pug
-@@ -3,7 +3,12 @@ extends includes/layout.pug
+@@ -3,7 +3,11 @@ extends includes/layout.pug
  block content
    include ./includes/mixins/article-sort.pug
    #archive
@@ -14,20 +14,18 @@ index 815cdd1..ed7e54a 100644
 +    <script async="async" data-cfasync="false" src="//pl18904263.highrevenuegate.com/60a9585e87207b9db130c85b2cfbff86/invoke.js"></script><div id="container-60a9585e87207b9db130c85b2cfbff86"></div>
 +    //- ad
 +    if theme.ad && theme.ad.page
-+      .ads-wrap-page!=theme.ad.page
 \ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/category.pug b/node_modules/hexo-theme-butterfly/layout/category.pug
-index 234a0af..eb050d6 100644
+index 234a0af..36bd2bd 100644
 --- a/node_modules/hexo-theme-butterfly/layout/category.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/category.pug
-@@ -12,3 +12,7 @@ block content
+@@ -12,3 +12,6 @@ block content
        .article-sort-title= _p('page.category') + ' - ' + page.category
        +articleSort(page.posts)
        include includes/pagination.pug
 +      <script async="async" data-cfasync="false" src="//pl18904263.highrevenuegate.com/60a9585e87207b9db130c85b2cfbff86/invoke.js"></script><div id="container-60a9585e87207b9db130c85b2cfbff86"></div>
 +      //- ad
 +      if theme.ad && theme.ad.page
-+        .ads-wrap-page!=theme.ad.page
 \ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/includes/head.pug b/node_modules/hexo-theme-butterfly/layout/includes/head.pug
 index 0089ad2..cabbc77 100644
@@ -43,18 +41,19 @@ index 0089ad2..cabbc77 100644
  meta(name="author" content=pageAuthor)
  meta(name="copyright" content=pageCopyright)
 diff --git a/node_modules/hexo-theme-butterfly/layout/includes/layout.pug b/node_modules/hexo-theme-butterfly/layout/includes/layout.pug
-index 6055d1e..f530d77 100644
+index 6055d1e..bcb7391 100644
 --- a/node_modules/hexo-theme-butterfly/layout/includes/layout.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/includes/layout.pug
-@@ -37,7 +37,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
+@@ -37,8 +37,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
          else
            - var footer_bg = ''
  
 -        footer#footer(style=footer_bg)
+-          !=partial('includes/footer', {}, {cache: true})
 +        footer#footer(style='background: transparent')
-           !=partial('includes/footer', {}, {cache: true})
  
      else
+       include ./404.pug
 diff --git a/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug b/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug
 index 79153c8..7cf828e 100644
 --- a/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug
@@ -85,10 +84,10 @@ index ed09f39..49296b7 100644
        else
          .card-tag-cloud!= tagcloud({orderby: orderby, order: order, min_font: 1.1, max_font: 1.5, amount: limit , color: true, start_color: '#999', end_color: '#99a9bf', unit: 'em'})
 diff --git a/node_modules/hexo-theme-butterfly/layout/page.pug b/node_modules/hexo-theme-butterfly/layout/page.pug
-index 6c810ef..59a3418 100644
+index 6c810ef..8eeb7b9 100644
 --- a/node_modules/hexo-theme-butterfly/layout/page.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/page.pug
-@@ -14,7 +14,10 @@ block content
+@@ -14,7 +14,9 @@ block content
          include includes/page/categories.pug
        default
          include includes/page/default-page.pug
@@ -99,7 +98,6 @@ index 6c810ef..59a3418 100644
        !=partial('includes/third-party/comments/index', {}, {cache: true})
 +    //- ad
 +    if theme.ad && theme.ad.page
-+      .ads-wrap-page!=theme.ad.page
 \ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/post.pug b/node_modules/hexo-theme-butterfly/layout/post.pug
 index f54ab7a..9ff1cb6 100644
@@ -120,17 +118,16 @@ index f54ab7a..9ff1cb6 100644
 -      
 \ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/tag.pug b/node_modules/hexo-theme-butterfly/layout/tag.pug
-index 9f99658..25542e3 100644
+index 9f99658..8e988b7 100644
 --- a/node_modules/hexo-theme-butterfly/layout/tag.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/tag.pug
-@@ -12,3 +12,7 @@ block content
+@@ -12,3 +12,6 @@ block content
        .article-sort-title= _p('page.tag') + ' - ' + page.tag
        +articleSort(page.posts)
        include includes/pagination.pug
 +      <script async="async" data-cfasync="false" src="//pl18904263.highrevenuegate.com/60a9585e87207b9db130c85b2cfbff86/invoke.js"></script><div id="container-60a9585e87207b9db130c85b2cfbff86"></div>s
 +      //- ad
 +      if theme.ad && theme.ad.page
-+        .ads-wrap-page!=theme.ad.page
 \ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/footer.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/footer.styl
 index 55cbc8c..9f69143 100644
@@ -164,7 +161,7 @@ index ade0db3..8ca7c24 100644
    #toggle-menu
      display: none
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl b/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl
-index 680ad3f..dd0c14a 100644
+index 680ad3f..dc5cd7a 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl
 +++ b/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl
 @@ -40,7 +40,6 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
