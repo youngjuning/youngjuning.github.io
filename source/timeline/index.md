@@ -18,7 +18,18 @@ tags:
 - [hexo-theme-butterfly 页脚美化主题版](https://blog.marcus233.top/p/footer.html)
 - [页脚的随机友链](https://blog.shineyu.cn/footer-random-flink.html)
 - [awesome-status-pages](https://github.com/ivbeg/awesome-status-pages)
+- 博客开启了锚定广告，增加 CTR
 
+**独立站竞品**
+- [The Soap SCIENTIST](https://soapscientist.us/)
+
+**博客更新**
+- TODO vscode local history 插件使用指南
+
+**联盟营销**
+- TODO 设计 LOGO
+- TODO 申请 SHINE 和 CIDER 的联盟账号
+- TODO 挂 20 个商品到 H&Y You
 <!-- endtimeline -->
 <!-- timeline 2023-04-05 -->
 **灵感**
