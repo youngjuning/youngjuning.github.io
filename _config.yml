@@ -315,20 +315,26 @@ footer_beautify:
     footer_group_link:
       - group_title: 直达
         footer_links:
-          - text: 藏宝阁
-            link: /stars/
+          - text: 前端导航
+            link: /frontend/
             class: in
-          - text: 优秀句子
-            link: /sentence/
+          - text: 工具导航
+            link: /tool/
             class: in
-          - text: 空间说说
-            link: /zone/
+          - text: 跨境导航
+            link: /oversea/
             class: in
-          - text: 友链订阅
-            link: /fcircle/
+          - text: 营销导航
+            link: /yingxiao/
             class: in
-          - text: 切换背景
-            link: /bg/
+          - text: 网赚导航
+            link: /wangzhuan/
+            class: in
+          - text: 站长导航
+            link: /webmaster/
+            class: in
+          - text: 科学上网
+            link: /vpn/
             class: in
       - group_title: 关于
         footer_links:
@@ -349,29 +355,41 @@ footer_beautify:
             class: in
       - group_title: 分类
         footer_links:
-          - text: 博客相关
-            link: /categories/博客相关
+          - text: 前端
+            link: /categories/前端/
             class: in
-          - text: 生活点滴
-            link: /categories/生活点滴
+          - text: 副业
+            link: /categories/副业/
             class: in
-          - text: 资源分享
-            link: /categories/资源分享
+          - text: 漫谈
+            link: /categories/漫谈/
             class: in
-          - text: 学习笔记
-            link: /categories/学习笔记
+          - text: 加密货币
+            link: /categories/加密货币/
             class: in
-          - text: 实用教程
-            link: /categories/实用教程
+          - text: 站点运营
+            link: /categories/站点运营/
             class: in
           - text: 查看全部
             link: /categories/
             class: in
-      - group_title: 项目
+      - group_title: 翻译
         footer_links:
-          - text: 博客相关
-            link: /categories/博客相关
+          - text: 洛竹翻译计划
+            link: /categories/洛竹翻译计划/
             class: in
+          - text: Go 语言系列教程
+            link: /categories/Golang/Go-%E8%AF%AD%E8%A8%80%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/
+            class: in
+          - text: React 面试必知必会
+            link: /react-interview/
+            class: in
+          - text: VS Code API 中文文档
+            link: https://vscode-api-cn.js.org/
+            class: out
+          - text: useDapp 中文文档
+            link: https://usedapp.js.org/
+            class: out
   footer_friend_links:
     enable: false
     number: 5

@@ -3,7 +3,7 @@ title: 使用 MetaMask 连接到币安智能链(BSC)
 date: 2021-12-30 10:36:17
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202112301455053.png
 categories:
-  - 区块链
+  - [加密货币,区块链]
 tags:
   - MetaMask
 ---
