@@ -564,7 +564,7 @@ tag_ui: # 留空或 index
 background: url(https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450445599.png)
 
 # Footer Background
-footer_bg: true
+footer_bg: transparent
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:

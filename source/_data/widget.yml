@@ -5,10 +5,3 @@ top:
     icon: fas fa-heartbeat
     order: 2
     html: '<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=GxY0uNwJ-R6qfXXonTr3FEq7qT8qAPpGdd-XpGVHSEo"></script>'
-bottom:
-  - class_name: Gate.io
-    id_name: Gate.io
-    name: 点击注册 Gate.io 领 10% 交易返佣
-    icon: fab fa-btc
-    order: 1
-    html: '<a href="https://www.gate.io/ref/9923157"><img src="https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680151212227.jpg" width="100%" alt="Gate.io"></a>'

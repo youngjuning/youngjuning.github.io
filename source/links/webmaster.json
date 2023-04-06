@@ -89,6 +89,12 @@
         "descr": "An Admin Interface for Hexo"
       },
       {
+        "link": "https://github.com/ikeq/hexo-theme-inside",
+        "name": "hexo-theme-inside",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679364958595.png",
+        "descr": "🌈 SPA, Flat and clean theme for Hexo"
+      },
+      {
         "link": "https://github.com/Lete114/hexo-seo-autopush",
         "name": "hexo-seo-autopush",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679364958595.png",

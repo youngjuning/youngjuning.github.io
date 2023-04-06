@@ -8,7 +8,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server --draft",
+    "server": "hexo clean && hexo server --draft",
     "post": "hexo new",
     "draft": "hexo new draft"
   },
@@ -20,6 +20,7 @@
     "hexo-bilibili-bangumi": "^1.8.6",
     "hexo-butterfly-charts": "^1.1.3",
     "hexo-butterfly-douban": "^1.2.5",
+    "hexo-butterfly-footer-marcus": "^1.1.3",
     "hexo-butterfly-swiper": "^1.0.12",
     "hexo-butterfly-tag-plugins-plus": "^1.0.17",
     "hexo-filter-nofollow": "^2.0.2",
@@ -39,6 +40,7 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "4.7.0",
     "hexo-wordcount": "^6.0.1",
-    "live2d-widget-model-miku": "^1.0.5"
+    "live2d-widget-model-miku": "^1.0.5",
+    "yamljs": "^0.3.0"
   }
 }

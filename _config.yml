@@ -261,6 +261,143 @@ tag_plugins:
     iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
     carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
     tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+#hexo-butterfly-footer-marcus
+#see https://blog.marcus233.top/p/footer.html
+footer_beautify:
+  enable: true
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  layout: # 挂载容器类型
+      type: id
+      name: footer
+      index: 1
+  footer_icons:
+    enable: true
+    left:
+      - icon: fa-solid fa-compass
+        link: https://youngjuning.js.org/
+        desrc: 个人主页
+        class: out
+      - icon: fa-brands fa-qq
+        link: https://res.abeim.cn/api/qq/?qq=3105950984
+        desrc: 联系QQ
+        class: out
+      - icon: fa-brands fa-weixin
+        link: /wechat/
+        desrc: 联系微信
+        class: in
+      - icon: fa-solid fa-envelope
+        link: mailto:marcus@marcus233.top
+        desrc: 发送邮件
+        class: out
+    right:
+      - icon: fa-brands fa-github
+        link: https://github.com/Marcusyyds
+        desrc: Github主页
+        class: out
+      - icon: fa-brands fa-bilibili
+        link: https://space.bilibili.com/1024450661
+        desrc: 哔哩哔哩主页
+        class: out
+      - icon: fa-solid fa-star
+        link: /stars/
+        desrc: 藏宝阁
+        class: in
+      - icon: fa-solid fa-comment
+        link: /message/
+        desrc: 留言
+        class: in
+  footer_logo:
+    enable: true
+    url: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png
+  footer_group:
+    enable: true
+    footer_group_link:
+      - group_title: 直达
+        footer_links:
+          - text: 藏宝阁
+            link: /stars/
+            class: in
+          - text: 优秀句子
+            link: /sentence/
+            class: in
+          - text: 空间说说
+            link: /zone/
+            class: in
+          - text: 友链订阅
+            link: /fcircle/
+            class: in
+          - text: 切换背景
+            link: /bg/
+            class: in
+      - group_title: 关于
+        footer_links:
+          - text: 关于我
+            link: /about/
+            class: in
+          - text: RSS订阅
+            link: /atom.xml
+            class: in
+          - text: 站点监控
+            link: https://www.githubstatus.com/
+            class: out
+          - text: 时间轴
+            link: /timeline/
+            class: in
+          - text: 我的相册
+            link: /album/
+            class: in
+      - group_title: 分类
+        footer_links:
+          - text: 博客相关
+            link: /categories/博客相关
+            class: in
+          - text: 生活点滴
+            link: /categories/生活点滴
+            class: in
+          - text: 资源分享
+            link: /categories/资源分享
+            class: in
+          - text: 学习笔记
+            link: /categories/学习笔记
+            class: in
+          - text: 实用教程
+            link: /categories/实用教程
+            class: in
+          - text: 查看全部
+            link: /categories/
+            class: in
+  footer_friend_links:
+    enable: true
+    number: 5
+  footer_bottom:
+    copyright:
+      enable: true
+      author: 洛竹
+      link: https://youngjuning.js.org/
+      time: 2021
+    left:
+      - text: Github
+        desrc: 本站托管服务
+        link: https://github.com/
+      - text: jsDelivr
+        desrc: 本站 CDN 支持
+        link: https://www.jsdelivr.com/
+      - text: JS ORG
+        desrc: 本站域名支持
+        link: https://js.org/
+    right:
+      - text: Hexo
+        desrc: 框架
+        link: https://hexo.io/zh-cn/
+      - text: Butterfly
+        desrc: 主题
+        link: https://butterfly.js.org/
+    runtime:
+      enable: true
+      time: 2020/01/29 00:00:00
+  footer_css: https://cdn1.tianli0.top/npm/hexo-butterfly-footer-marcus/lib/footer.min.css
+  footer_js: /js/footer.min.js
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 

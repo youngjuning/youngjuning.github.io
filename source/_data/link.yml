@@ -1,0 +1,59 @@
+- class_name: 友情链接
+  class_desc: 有朋自网线来，不亦乐乎
+  link_list:
+  - name: 寒草的博客
+    link: https://hancao97.github.io
+    avatar: https://hancao97.github.io/img/hancao.png
+    descr: 一只草系前端，或许是个精灵
+  - name: 落叶卢生
+    link: https://www.luoyelusheng.com
+    avatar: https://www.luoyelusheng.com/images/avatar.png
+    descr: 记录只是活着呀。
+  - name: lowcode可视化社区
+    link: http://lowcode.dooring.cn/
+    avatar: http://lowcode.dooring.cn/assets/lowgo.png
+    descr: lowcode可视化低代码社区
+  - name: 优弧的博客
+    link: https://itcodes.github.io
+    avatar: https://avatars.githubusercontent.com/u/8282645?v=4
+    descr: 但行好事，莫问前程
+  - name: Guo Le's Blog
+    link: https://guole.fun/
+    avatar: https://guole.fun/img/gl.jpg
+    descr: 生命是独立是自由是爱与和平
+  - name: 张麦麦的博客
+    link: https://zhangmaimai.com
+    avatar: https://zhangmaimai.com/favicon.ico
+    descr: 我的影子想要去飞翔，我的人还在地上。
+  - name: Ordis
+    link: https://imbhj.com
+    avatar: https://imbhj-cdn.oss-cn-hangzhou.aliyuncs.com/CDN3/202208032018823.png
+    descr: 船到桥头自然直，柳暗花明又一村
+  - name: 陈锋
+    link: https://chenyuhu.js.org/
+    avatar: https://s1.ax1x.com/2020/07/09/UmgtPJ.png
+    descr: 陈锋的博客
+  - name: HCLonely
+    link: https://blog.hclonely.com/
+    avatar: https://cdn.jsdelivr.net/gh/HCLonely/blog.hclonely.com@latest/img/avatar.jpg
+    descr: 一个懒人的博客
+  - name: MJ's Blog
+    descr: 醒亦念卿，梦亦念卿
+    link: https://blog.justlovesmile.top
+    avatar: https://npm.elemecdn.com/justlovesmile-img/logo.jpg
+  - name: 安知鱼`Blog
+    link: https://anzhiy.cn/
+    avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+    descr: 生活明朗，万物可爱
+  - name: GreenHatHG の Blog
+    link: https://greenhathg.github.io/
+    avatar: https://avatars0.githubusercontent.com/u/34258355?s=460&u=eb0a1ce09dd045532464cb42f020e8ba1d025b6c&v=4
+    descr: 巴拉巴拉能量！rm -rf /--no-preserve-root
+  - name: 花猪のBlog
+    link: https://cnhuazhu.top/
+    avatar: https://cdn.jsdelivr.net/gh/CNhuazhu/Image/avatar.jpg
+    descr: 佛系青年
+  - link: https://www.codein.icu/
+    name: Clouder’s Blog
+    avatar: https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/selficon2.png
+    descr: A student who enjoys tech & life.

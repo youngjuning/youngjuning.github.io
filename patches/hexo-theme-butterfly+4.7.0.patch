@@ -1,5 +1,5 @@
 diff --git a/node_modules/hexo-theme-butterfly/layout/archive.pug b/node_modules/hexo-theme-butterfly/layout/archive.pug
-index 815cdd1..8595b23 100644
+index 815cdd1..ed7e54a 100644
 --- a/node_modules/hexo-theme-butterfly/layout/archive.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/archive.pug
 @@ -3,7 +3,12 @@ extends includes/layout.pug
@@ -15,8 +15,9 @@ index 815cdd1..8595b23 100644
 +    //- ad
 +    if theme.ad && theme.ad.page
 +      .ads-wrap-page!=theme.ad.page
+\ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/category.pug b/node_modules/hexo-theme-butterfly/layout/category.pug
-index 234a0af..c48dd30 100644
+index 234a0af..eb050d6 100644
 --- a/node_modules/hexo-theme-butterfly/layout/category.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/category.pug
 @@ -12,3 +12,7 @@ block content
@@ -27,6 +28,7 @@ index 234a0af..c48dd30 100644
 +      //- ad
 +      if theme.ad && theme.ad.page
 +        .ads-wrap-page!=theme.ad.page
+\ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/includes/head.pug b/node_modules/hexo-theme-butterfly/layout/includes/head.pug
 index 0089ad2..cabbc77 100644
 --- a/node_modules/hexo-theme-butterfly/layout/includes/head.pug
@@ -40,6 +42,19 @@ index 0089ad2..cabbc77 100644
  title= tabTitle
  meta(name="author" content=pageAuthor)
  meta(name="copyright" content=pageCopyright)
+diff --git a/node_modules/hexo-theme-butterfly/layout/includes/layout.pug b/node_modules/hexo-theme-butterfly/layout/includes/layout.pug
+index 6055d1e..f530d77 100644
+--- a/node_modules/hexo-theme-butterfly/layout/includes/layout.pug
++++ b/node_modules/hexo-theme-butterfly/layout/includes/layout.pug
+@@ -37,7 +37,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
+         else
+           - var footer_bg = ''
+ 
+-        footer#footer(style=footer_bg)
++        footer#footer(style='background: transparent')
+           !=partial('includes/footer', {}, {cache: true})
+ 
+     else
 diff --git a/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug b/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug
 index 79153c8..7cf828e 100644
 --- a/node_modules/hexo-theme-butterfly/layout/includes/page/categories.pug
@@ -70,7 +85,7 @@ index ed09f39..49296b7 100644
        else
          .card-tag-cloud!= tagcloud({orderby: orderby, order: order, min_font: 1.1, max_font: 1.5, amount: limit , color: true, start_color: '#999', end_color: '#99a9bf', unit: 'em'})
 diff --git a/node_modules/hexo-theme-butterfly/layout/page.pug b/node_modules/hexo-theme-butterfly/layout/page.pug
-index 6c810ef..616081a 100644
+index 6c810ef..59a3418 100644
 --- a/node_modules/hexo-theme-butterfly/layout/page.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/page.pug
 @@ -14,7 +14,10 @@ block content
@@ -85,6 +100,7 @@ index 6c810ef..616081a 100644
 +    //- ad
 +    if theme.ad && theme.ad.page
 +      .ads-wrap-page!=theme.ad.page
+\ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/post.pug b/node_modules/hexo-theme-butterfly/layout/post.pug
 index f54ab7a..9ff1cb6 100644
 --- a/node_modules/hexo-theme-butterfly/layout/post.pug
@@ -104,7 +120,7 @@ index f54ab7a..9ff1cb6 100644
 -      
 \ No newline at end of file
 diff --git a/node_modules/hexo-theme-butterfly/layout/tag.pug b/node_modules/hexo-theme-butterfly/layout/tag.pug
-index 9f99658..e99627b 100644
+index 9f99658..25542e3 100644
 --- a/node_modules/hexo-theme-butterfly/layout/tag.pug
 +++ b/node_modules/hexo-theme-butterfly/layout/tag.pug
 @@ -12,3 +12,7 @@ block content
@@ -115,6 +131,26 @@ index 9f99658..e99627b 100644
 +      //- ad
 +      if theme.ad && theme.ad.page
 +        .ads-wrap-page!=theme.ad.page
+\ No newline at end of file
+diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/footer.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/footer.styl
+index 55cbc8c..9f69143 100644
+--- a/node_modules/hexo-theme-butterfly/source/css/_layout/footer.styl
++++ b/node_modules/hexo-theme-butterfly/source/css/_layout/footer.styl
+@@ -5,14 +5,6 @@
+   background-position: bottom
+   background-size: cover
+ 
+-  if hexo-config('footer_bg') != false
+-    &:before
+-      position: absolute
+-      width: 100%
+-      height: 100%
+-      background-color: alpha($dark-black, .5)
+-      content: ''
+-
+ #footer-wrap
+   position: relative
+   padding: 40px 20px
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
 index ade0db3..8ca7c24 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
@@ -127,6 +163,18 @@ index ade0db3..8ca7c24 100644
  
    #toggle-menu
      display: none
+diff --git a/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl b/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl
+index 680ad3f..dd0c14a 100644
+--- a/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl
++++ b/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl
+@@ -40,7 +40,6 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
+     --timeline-bg: lighten(#121212, 5)
+ 
+     #web_bg:before,
+-    #footer:before,
+     #page-header:before
+       position: absolute
+       width: 100%
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_page/common.styl b/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
 index 3356d17..99b24bd 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
