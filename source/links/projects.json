@@ -34,6 +34,12 @@
         "descr": "vscode hover extension for https://www.npmtrends.com/"
       },
       {
+        "name": "vscode-hexo-butterfly-tag-plugins-plus-snippets",
+        "link": "https://github.com/youngjuning/vscode-hexo-butterfly-tag-plugins-plus-snippets",
+        "avatar": "https://youngjuning.gallerycdn.vsassets.io/extensions/youngjuning/hexo-butterfly-tag-plugins-plus-snippets/1.2.0/1680518132024/Microsoft.VisualStudio.Services.Icons.Default",
+        "descr": "Hexo Butterfly Tag Plugins Plus Snippets"
+      },
+      {
         "name": "wx-promise-pro",
         "link": "https://github.com/youngjuning/wx-promise-pro",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
