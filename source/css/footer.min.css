@@ -77,7 +77,7 @@
   height: 60px;
   margin: 0 1rem;
   cursor: pointer;
-  filter: drop-shadow(0 0 12px rgba(150, 255, 246, 0.4)) !important;
+  filter: drop-shadow(0 0 12px rgba(73, 193, 115, 0.4)) !important;
   -webkit-transition: all 0.25s;
   -moz-transition: all 0.25s;
   -o-transition: all 0.25s;
@@ -85,7 +85,7 @@
   transition: all 0.25s;
 }
 #footer_icons img.footer_logo:hover {
-  filter: drop-shadow(0 0 15px rgba(144, 255, 246, 0.7)) !important;
+  filter: drop-shadow(0 0 15px rgba(67, 193, 115, 0.7)) !important;
 }
 @media screen and (max-width: 768px) {
   #footer_icons img.footer_logo {
