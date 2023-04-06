@@ -25,7 +25,7 @@ tags:
 $ npm install vsce -g
 ```
 
-## 开发者信息
+## 注册 vscode 开发者信息
 
 ### 新建 Azure DevPos 组织
 
@@ -81,7 +81,7 @@ $ vsce login (publisher name)
 $ vsce publish -p <token>
 ```
 
-## 版本维护
+## vscode 插件版本维护
 
 ### 增量更新插件版本
 
@@ -129,7 +129,7 @@ $ vsce unpublish (publisher name).(extension name)
 
 现在我们假设最新的稳定版 API 是 1.8.0，而 1.9.0 引入了新的 API，所以你可以用 1.9.0-insider 标识插件在 Insider 版中也可正常使用。 如果你想使用这些刚刚引入的 API，则将依赖版本设置为 ^1.9.0，你的插件则只能安装在 >=1.9.0 的 VS Code 上，也就意味着所有当前的 Insider 版本都可以用得上，而稳定版只有在更新到 1.9.0 才能使用你的插件。
 
-## 插件打包
+## vscode 插件打包
 
 你也可能只是想打包一下插件，而不是发布到商店里。用下列命令将插件打包到 `.vsix` 文件中：
 
