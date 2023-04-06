@@ -305,7 +305,7 @@ footer_beautify:
         class: out
       - icon: fab fa-twitter
         link: https://twitter.com/luozhu2021
-        desrc: 推特
+        desrc: 推特主页
         class: out
   footer_logo:
     enable: true
@@ -403,6 +403,7 @@ footer_beautify:
       - text: Github
         desrc: 本站托管服务
         link: https://github.com/
+        icon: fa-brands fa-qq
       - text: jsDelivr
         desrc: 本站 CDN 支持
         link: https://www.jsdelivr.com/
