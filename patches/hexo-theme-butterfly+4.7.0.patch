@@ -129,6 +129,19 @@ index 9f99658..e99627b 100644
 +      //- ad
 +      if theme.ad && theme.ad.page
 +        .ads-wrap-page!=theme.ad.page
+diff --git a/node_modules/hexo-theme-butterfly/source/css/_global/index.styl b/node_modules/hexo-theme-butterfly/source/css/_global/index.styl
+index a73ae2c..dcf0dcc 100644
+--- a/node_modules/hexo-theme-butterfly/source/css/_global/index.styl
++++ b/node_modules/hexo-theme-butterfly/source/css/_global/index.styl
+@@ -44,7 +44,7 @@ body
+   font-family: $font-family
+   line-height: $text-line-height
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+-
++  padding: 0!important
+   if !hexo-config('copy.enable')
+     user-select: none
+ 
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/footer.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/footer.styl
 index 55cbc8c..9f69143 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_layout/footer.styl
