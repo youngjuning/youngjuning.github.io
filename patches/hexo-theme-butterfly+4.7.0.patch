@@ -174,17 +174,25 @@ index ade0db3..8ca7c24 100644
    #toggle-menu
      display: none
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl b/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl
-index 680ad3f..dc5cd7a 100644
+index 680ad3f..3d14874 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl
 +++ b/node_modules/hexo-theme-butterfly/source/css/_mode/darkmode.styl
-@@ -40,7 +40,6 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
+@@ -39,15 +39,6 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
+     --scrollbar-color: lighten(#121212, 5)
      --timeline-bg: lighten(#121212, 5)
  
-     #web_bg:before,
+-    #web_bg:before,
 -    #footer:before,
-     #page-header:before
-       position: absolute
-       width: 100%
+-    #page-header:before
+-      position: absolute
+-      width: 100%
+-      height: 100%
+-      background-color: alpha($dark-black, .7)
+-      content: ''
+-
+     #article-container
+       code
+         background: #2c2c2c
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_page/common.styl b/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
 index 3356d17..99b24bd 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_page/common.styl

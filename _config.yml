@@ -419,7 +419,7 @@ footer_beautify:
     runtime:
       enable: true
       time: 2020/01/29 00:00:00
-  footer_css: https://cdn1.tianli0.top/npm/hexo-butterfly-footer-marcus/lib/footer.min.css
+  footer_css: /css/footer.min.css
   footer_js: /js/footer.min.js
 ## Themes: https://hexo.io/themes/
 theme: butterfly
