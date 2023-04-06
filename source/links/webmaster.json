@@ -4,18 +4,6 @@
     "class_desc": "站点管理必备工具",
     "link_list": [
       {
-        "name": "GoDaddy",
-        "link": "https://www.godaddy.com/zh-sg",
-        "avatar": "https://img6.wsimg.com/ux/favicon/apple-icon-114x114.png",
-        "descr": "域名、建站、WordPress、云服务器、企业邮箱"
-      },
-      {
-        "name": "Blogger",
-        "link": "https://www.blogger.com/",
-        "avatar": "https://www.blogger.com/favicon.ico",
-        "descr": "目前全球使用者數量最多的個人网志服務提供商"
-      },
-      {
         "name": "Google Analytics",
         "link": "https://analytics.google.com/",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677941205113.png",
@@ -57,12 +45,30 @@
         "link": "https://clustrmaps.com/",
         "avatar": "https://clustrmaps.com/favicon.ico",
         "descr": "ClustrMaps is a free service that lets you monitor your website's visitors."
+      }
+    ]
+  },
+  {
+    "class_name": "建站",
+    "class_desc": "建站服务和工具",
+    "link_list": [
+      {
+        "name": "GoDaddy",
+        "link": "https://www.godaddy.com/zh-sg",
+        "avatar": "https://img6.wsimg.com/ux/favicon/apple-icon-114x114.png",
+        "descr": "域名、建站、WordPress、云服务器、企业邮箱"
       },
       {
-        "name": "Font Awesome",
-        "link": "https://fontawesome.com/v5/search?o=r&m=free",
-        "avatar": "https://img.fortawesome.com/1ce05b4b/open-graph-search-v5-free.png",
-        "descr": "Find the Perfect Icon for your Project"
+        "name": "Blogger",
+        "link": "https://www.blogger.com/",
+        "avatar": "https://www.blogger.com/favicon.ico",
+        "descr": "目前全球使用者數量最多的個人网志服務提供商"
+      },
+      {
+        "name": "Qexo",
+        "link": "https://qexo.com/",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
+        "descr": "一个美观、强大的在线 静态博客 管理器"
       }
     ]
   },
@@ -71,14 +77,14 @@
     "class_desc": "Hexo 主题、插件、工具",
     "link_list": [
       {
-        "name": "Qexo",
-        "link": "https://qexo.com/",
-        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
-        "descr": "一个美观、强大的在线 静态博客 管理器"
+        "link": "https://github.com/ikeq/hexo-theme-inside",
+        "name": "hexo-theme-inside",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679364958595.png",
+        "descr": "🌈 SPA, Flat and clean theme for Hexo"
       },
       {
-        "name": "hexo-readmore",
         "link": "https://github.com/rqh656418510/hexo-readmore",
+        "name": "hexo-readmore",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679364958595.png",
         "descr": "Hexo 微信公众号引流插件"
       },
@@ -87,12 +93,6 @@
         "name": "hexo-admin",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679364958595.png",
         "descr": "An Admin Interface for Hexo"
-      },
-      {
-        "link": "https://github.com/ikeq/hexo-theme-inside",
-        "name": "hexo-theme-inside",
-        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679364958595.png",
-        "descr": "🌈 SPA, Flat and clean theme for Hexo"
       },
       {
         "link": "https://github.com/Lete114/hexo-seo-autopush",
