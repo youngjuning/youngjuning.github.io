@@ -12,15 +12,22 @@ tags:
 
 ## 2023-04
 
-- TODO 【联盟营销】设计 LOGO
-- TODO 【联盟营销】申请 SHINE 和 CIDER 的联盟账号
-- TODO 【联盟营销】挂 20 个商品到 H&Y You
-
-
 {% timeline %}
+<!-- timeline 2023-04-08 -->
+{% checkbox yellow,【博客更新】Hexo Butterfly 配置 Disqus %}
+<!-- endtimeline -->
 <!-- timeline 2023-04-07 -->
-**Done**
--【博客】Google Adsense 打款时间
+{% checkbox yellow checked,【博客更新】2023 Google Adsense 打款时间 %}
+{% checkbox yellow,【博客更新】2023 中国大陆可以收到 Google Adsense PIN 码吗%}
+{% checkbox yellow,【博客更新】2023 中国大陆如何设置 Google Adsense 付款方式%}
+{% checkbox yellow,【开源精神】完成 [Hexo Butterfly Tag Plugins Plus Snippets](https://github.com/youngjuning/vscode-hexo-butterfly-tag-plugins-plus-snippets.git)%}
+{% checkbox yellow,【职业发展】[前端面试真题](https://bit.ly/3ZQl91F)%}
+{% checkbox yellow,【日常减熵】整理博客导航%}
+{% checkbox yellow,【日常减熵】迁移掘金两篇文章%}
+{% checkbox yellow,【日常减熵】给文章做 SEO 优化%}
+{% checkbox yellow,【联盟营销】设计 H&Y You LOGO %}
+{% checkbox yellow,【联盟营销】申请 SHINE 和 CIDER 的联盟账号 %}
+{% checkbox yellow,【联盟营销】挂 20 个商品到 H&Y You %}
 <!-- endtimeline -->
 <!-- timeline 2023-04-06 -->
 **站点运营**

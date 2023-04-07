@@ -1,5 +1,17 @@
 [
   {
+    "class_name": "面试题",
+    "class_desc": "面试面试学习就像面试考试学习一样，是一种倒推的学习方法论",
+    "link_list": [
+      {
+        "link": "https://bit.ly/3ZQl91F",
+        "name": "前端面试真题",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png  ",
+        "descr": "会 80% 直接进大厂"
+      }
+    ]
+  },
+  {
     "class_name": "React 全家桶",
     "class_desc": "React 是一个自由及开放源代码的前端 JavaScript 工具库， 用于基于UI组件构建用户界面。",
     "link_list": [
