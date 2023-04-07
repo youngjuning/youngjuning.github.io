@@ -9,7 +9,7 @@ const files = fs
   .filter((filename) => !notPicture.includes(filename))
   .map(
     (filename) =>
-      `![](https://cdn.jsdelivr.net/gh/youngjuning/images@main/${filename})`
+      `![洛竹的图床](https://cdn.jsdelivr.net/gh/youngjuning/images@main/${filename})`
   );
 
 let result = ''
