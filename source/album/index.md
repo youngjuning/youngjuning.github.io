@@ -1,8 +1,16 @@
 ---
 title: 洛竹的相册
 date: 2023-03-20 22:23:55
-description: 碧蓝档案、碧蓝航线、崩坏
+description: 碧蓝档案、碧蓝航线、崩坏、罗小黑战记、AI 美女、推特美图、洛竹的素材
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679323051761.png
+tags:
+  - 碧蓝档案
+  - 碧蓝航线
+  - 崩坏：星穹铁道
+  - 罗小黑战记
+  - AI 美女
+  - 推特美图
+  - 洛竹的素材
 ---
 
 <div class="gallery-group-main">
