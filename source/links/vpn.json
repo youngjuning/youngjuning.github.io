@@ -16,6 +16,12 @@
         "descr": "Check Browser Fingerprint"
       },
       {
+        "name": "WhatIs MyIPAddress",
+        "link": "https://whatismyipaddress.com/",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678002092318.png",
+        "descr": "What is my IP address"
+      },
+      {
         "link": "https://www.webshare.io/",
         "name": "WebShare",
         "avatar": "https://global-uploads.webflow.com/5e42f62100b3490abec730e4/5e42f75400b34997c9c74185_favicon.png",

@@ -1,7 +1,6 @@
 ---
 title: 洛竹的素材
 date: 2023-04-02 23:51:00
-comments: false
 description: 洛竹常用的素材
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450302136.jpeg
 type: galleryGroup

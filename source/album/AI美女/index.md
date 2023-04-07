@@ -1,7 +1,6 @@
 ---
 title: AI 女友
 date: 2023-03-26 15:04:35
-comments: false
 description: 人工智能生成的美女
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679833851818.jpg
 type: galleryGroup

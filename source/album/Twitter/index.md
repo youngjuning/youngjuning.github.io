@@ -1,7 +1,6 @@
 ---
 title: 推特美图
 date: 2023-03-26 15:04:35
-comments: false
 description: 收藏的一些推特配图
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839104933.png
 type: galleryGroup

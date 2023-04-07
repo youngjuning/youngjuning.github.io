@@ -1,10 +1,8 @@
 ---
 title: 碧蓝档案
 date: 2023-03-20 15:04:35
-comments: false
 description: 《碧蓝档案》有哪些好看的无水印壁纸原图？
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679323051761.png
-type: galleryGroup
 tags:
   - 碧蓝档案
   - 壁纸

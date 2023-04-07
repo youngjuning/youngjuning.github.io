@@ -1,13 +1,11 @@
 ---
 title: 洛竹的相册
 date: 2023-03-20 22:23:55
-comments: false
-reward: false
 description: 碧蓝档案、碧蓝航线、崩坏
-aside: false
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679323051761.png
 ---
 
+<div class="gallery-group-main">
 {% galleryGroup '罗小黑战记' '最全同人超清壁纸，一眼惊艳可爱治愈' '/album/罗小黑战记/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654197262.png %}
 
 {% galleryGroup '碧蓝档案' '收藏的一些好看的无水印壁纸原图' '/album/碧蓝档案/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679323051761.png %}
@@ -21,3 +19,4 @@ top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679323051761.png
 {% galleryGroup '推特美图' '收藏的一些推特配图' '/album/Twitter/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839109869.png %}
 
 {% galleryGroup '洛竹的素材' '洛竹常用的素材' '/album/洛竹的素材/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450302136.jpeg %}
+</div>

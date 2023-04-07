@@ -1,7 +1,19 @@
 [
   {
+    "class_name": "办公工具",
+    "class_desc": "办公相关工具",
+    "link_list": [
+      {
+        "name": "腾讯文档",
+        "link": "https://docs.qq.com/desktop/mydoc",
+        "avatar": "https://sqimg.qq.com/qq_product_operations/tencent-doc/share-icon.png",
+        "descr": "腾讯文档"
+      }
+    ]
+  },
+  {
     "class_name": "人工智能",
-    "class_desc": "",
+    "class_desc": "不会使用 AI 的人终将被淘汰",
     "link_list": [
       {
         "link": "https://chat.openai.com/",
@@ -23,16 +35,4 @@
       }
     ]
   },
-  {
-    "class_name": "网络工具",
-    "class_desc": "网络相关工具",
-    "link_list": [
-      {
-        "name": "WhatIs MyIPAddress",
-        "link": "https://whatismyipaddress.com/",
-        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678002092318.png",
-        "descr": "What is my IP address"
-      }
-    ]
-  }
 ]

@@ -1,7 +1,6 @@
 ---
 title: 崩坏：星穹铁道
 date: 2023-03-20 15:04:35
-comments: false
 description: 《崩坏：星穹铁道》壁纸美图分享来啦~
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679480504416.png
 type: galleryGroup
