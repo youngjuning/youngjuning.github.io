@@ -30,8 +30,8 @@
     ]
   },
   {
-    "class_name": "抓包工具",
-    "class_desc": "",
+    "class_name": "调试工具",
+    "class_desc": "抓包、代理、Mock",
     "link_list": [
       {
         "link": "https://www.charlesproxy.com/",
