@@ -253,7 +253,7 @@ tag_plugins:
   priority: 5 #过滤器优先权
   issues: false #issues标签依赖注入开关
   link:
-    placeholder: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png #link_card标签默认的图标图片
+    placeholder: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680881735797.png #link_card标签默认的图标图片
   CDN:
     anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
     jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖

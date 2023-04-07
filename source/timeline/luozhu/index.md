@@ -22,13 +22,22 @@ tags:
 <!-- timeline 2023-04-08 -->
 {% tabs 2023-04-08 %}
 <!-- tab 博客@fas fa-blog -->
+{% checkbox yellow, 《2023 中国大陆可以收到 Google Adsense PIN 码吗》 %}
+{% checkbox yellow, 《2023 中国大陆如何设置 Google Adsense 付款方式》 %}
 {% checkbox yellow, 《Hexo Butterfly 配置 Disqus》%}
+{% checkbox yellow, 《为什么 Local History 是 VsCode 必备插件》%}
 <!-- endtab -->
 <!-- tab 技术@fab fa-github -->
+{% checkbox yellow, [前端面试真题](https://bit.ly/3ZQl91F) 60 min%}
 <!-- endtab -->
 <!-- tab 美刀@fas fa-search-dollar -->
+{% checkbox yellow, 设计 H&Y You LOGO %}
+{% checkbox yellow, 申请 SHINE 和 CIDER 的联盟账号 %}
+{% checkbox yellow, 挂 20 个商品到 H&Y You %}
 <!-- endtab -->
 <!-- tab 整理@fas fa-boxes -->
+{% checkbox yellow, 整理博客导航%}
+{% checkbox yellow, 给文章做 SEO 优化%}
 <!-- endtab -->
 <!-- tab 收藏@fas fa-link -->
 <!-- endtab -->
@@ -38,26 +47,20 @@ tags:
 {% tabs 2023-04-07 %}
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow checked, 《2023 Google Adsense 打款时间》 %}
-{% checkbox yellow, 《2023 中国大陆可以收到 Google Adsense PIN 码吗》 %}
-{% checkbox yellow, 《2023 中国大陆如何设置 Google Adsense 付款方式》 %}
 {% checkbox yellow, 博客增加马斯克喊单狗狗币时间轴页面%}
 <!-- endtab -->
 <!-- tab 技术@fab fa-github -->
 {% checkbox yellow, 完成 [Hexo Butterfly Tag Plugins Plus Snippets](https://github.com/youngjuning/vscode-hexo-butterfly-tag-plugins-plus-snippets.git)%}
-{% checkbox yellow, [前端面试真题](https://bit.ly/3ZQl91F) 30 min%}
 <!-- endtab -->
 <!-- tab 美刀@fas fa-search-dollar -->
-{% checkbox yellow, 设计 H&Y You LOGO %}
-{% checkbox yellow, 申请 SHINE 和 CIDER 的联盟账号 %}
-{% checkbox yellow, 挂 20 个商品到 H&Y You %}
+{% checkbox yellow checked, 优化 [vscode 中文文档](https://vscode-api-cn.js.org) 的广告 %}
 <!-- endtab -->
 <!-- tab 整理@fas fa-boxes -->
-{% checkbox yellow, 整理博客导航%}
 {% checkbox yellow, 迁移掘金两篇文章%}
-{% checkbox yellow, 给文章做 SEO 优化%}
 <!-- endtab -->
 <!-- tab 收藏@fas fa-link -->
 {% link CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/favicon.svg %}
+{% link 一图历数马斯克公开喊单狗狗币过往, https://www.chaincatcher.com/article/2090549, https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680881790911.png %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
