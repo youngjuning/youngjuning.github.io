@@ -1,6 +1,6 @@
 ---
 title: 2023 Google Adsense 付款周期和时间
-date: 2023-04-07 09:38:36
+date: 2023-04-06 21:38:36
 description: Google Adsense 服务团队会将您一整个月的估算收入累积起来，然后在下个月月初确定您的最终收入，将其计入帐号余额并显示在付款页中。如果您的余额超出付款最低限额，且您没有设置暂停付款状态，我们会在该月的 21 日至 26 日为您发放付款。
 categories:
   - [Google, Google Adsense]
@@ -11,7 +11,7 @@ tags:
   - Google Adsense 付款时间
 ---
 
-{% note primary modern%}
+{% note info modern%}
 AdSense 的付款周期为每月一次。
 {% endnote %}
 

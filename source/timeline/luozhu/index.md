@@ -10,24 +10,56 @@ tags:
   - 生命
 ---
 
+{% note info modern %}
+洛竹的时间轴记录着洛竹在这个世上的点点滴滴，有一天洛竹离去了，这里能证明他来过。
+{% endnote %}
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ## 2023-04
 
 {% timeline %}
 <!-- timeline 2023-04-08 -->
-{% checkbox yellow,【博客更新】Hexo Butterfly 配置 Disqus %}
+{% tabs 2023-04-08 %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow, 《Hexo Butterfly 配置 Disqus》%}
+<!-- endtab -->
+<!-- tab 技术@fab fa-github -->
+<!-- endtab -->
+<!-- tab 美刀@fas fa-search-dollar -->
+<!-- endtab -->
+<!-- tab 整理@fas fa-boxes -->
+<!-- endtab -->
+<!-- tab 收藏@fas fa-link -->
+<!-- endtab -->
+{% endtabs %}
 <!-- endtimeline -->
 <!-- timeline 2023-04-07 -->
-{% checkbox yellow checked,【博客更新】2023 Google Adsense 打款时间 %}
-{% checkbox yellow,【博客更新】2023 中国大陆可以收到 Google Adsense PIN 码吗%}
-{% checkbox yellow,【博客更新】2023 中国大陆如何设置 Google Adsense 付款方式%}
-{% checkbox yellow,【开源精神】完成 [Hexo Butterfly Tag Plugins Plus Snippets](https://github.com/youngjuning/vscode-hexo-butterfly-tag-plugins-plus-snippets.git)%}
-{% checkbox yellow,【职业发展】[前端面试真题](https://bit.ly/3ZQl91F)%}
-{% checkbox yellow,【日常减熵】整理博客导航%}
-{% checkbox yellow,【日常减熵】迁移掘金两篇文章%}
-{% checkbox yellow,【日常减熵】给文章做 SEO 优化%}
-{% checkbox yellow,【联盟营销】设计 H&Y You LOGO %}
-{% checkbox yellow,【联盟营销】申请 SHINE 和 CIDER 的联盟账号 %}
-{% checkbox yellow,【联盟营销】挂 20 个商品到 H&Y You %}
+{% tabs 2023-04-07 %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow checked, 《2023 Google Adsense 打款时间》 %}
+{% checkbox yellow, 《2023 中国大陆可以收到 Google Adsense PIN 码吗》 %}
+{% checkbox yellow, 《2023 中国大陆如何设置 Google Adsense 付款方式》 %}
+{% checkbox yellow, 博客增加马斯克喊单狗狗币时间轴页面%}
+<!-- endtab -->
+<!-- tab 技术@fab fa-github -->
+{% checkbox yellow, 完成 [Hexo Butterfly Tag Plugins Plus Snippets](https://github.com/youngjuning/vscode-hexo-butterfly-tag-plugins-plus-snippets.git)%}
+{% checkbox yellow, [前端面试真题](https://bit.ly/3ZQl91F) 30 min%}
+<!-- endtab -->
+<!-- tab 美刀@fas fa-search-dollar -->
+{% checkbox yellow, 设计 H&Y You LOGO %}
+{% checkbox yellow, 申请 SHINE 和 CIDER 的联盟账号 %}
+{% checkbox yellow, 挂 20 个商品到 H&Y You %}
+<!-- endtab -->
+<!-- tab 整理@fas fa-boxes -->
+{% checkbox yellow, 整理博客导航%}
+{% checkbox yellow, 迁移掘金两篇文章%}
+{% checkbox yellow, 给文章做 SEO 优化%}
+<!-- endtab -->
+<!-- tab 收藏@fas fa-link -->
+{% link CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/favicon.svg %}
+<!-- endtab -->
+{% endtabs %}
 <!-- endtimeline -->
 <!-- timeline 2023-04-06 -->
 **站点运营**

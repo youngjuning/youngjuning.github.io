@@ -1,8 +1,20 @@
 [
   {
-    "class_name": "面试题",
+    "class_name": "前端面试",
     "class_desc": "面试面试学习就像面试考试学习一样，是一种倒推的学习方法论",
     "link_list": [
+      {
+        "link": "https://leetcode.cn/",
+        "name": "力扣（LeetCode）",
+        "avatar": "https://leetcode.cn/favicon.ico",
+        "descr": "全球极客挚爱的技术成长平台"
+      },
+      {
+        "link": "https://www.nowcoder.com/",
+        "name": "牛客网",
+        "avatar": "https://www.nowcoder.com/favicon.ico",
+        "descr": "找工作神器|笔试题库|面试经验|实习招聘内推，求职"
+      },
       {
         "link": "https://bit.ly/3ZQl91F",
         "name": "前端面试真题",
