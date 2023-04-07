@@ -4,7 +4,8 @@ description: CTR代表点击率（Click Though rate）。简单来说，它表�
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678970392497.png
 date: 2023-03-16 20:38:10
 categories:
-  - [AdSense]
+  - [Google, Google AdSense]
+  - [Adsense]
   - [洛竹翻译计划]
 tags:
   - AdSenseCTR
@@ -13,6 +14,8 @@ tags:
   - 广告发布商
   - 广告联盟
 ---
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 在互联网营销领域, 点击率对广告商和发布者都非常重要。广告商需要创建广告图形或销售线路，从而获得更高的点击率 (CTR)，而发布者则需要以增加 CTR 的方式放置广告。
 

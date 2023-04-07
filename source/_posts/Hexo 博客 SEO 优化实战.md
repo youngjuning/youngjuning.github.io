@@ -73,11 +73,11 @@ Google Search Console 没有批量删除失效链接的功能，如果嫌麻烦�
 ### 爬虫友好
 
 1. 提交网站地图：hexo 的话使用 hexo-generator-search 插件
-2. robots.txt：告诉爬虫哪些页面可以抓取，哪些页面不可以抓取
-3. 减少重复网页，使用 canonical 标签。
-4. 使用 rel="nofollow" 标签来告诉爬虫不要抓取外链，hexo 的话使用 hexo-filter-nofollow。
+2. `robots.txt`：告诉爬虫哪些页面可以抓取，哪些页面不可以抓取
+3. 减少重复网页，使用 `canonical` 标签。
+4. 使用 `rel="nofollow"` 标签来告诉爬虫不要抓取外链，hexo 的话使用 hexo-filter-nofollow。
 
-> 注意：请不要给友情链接添加 rel="nofollow" 标签，这样会影响到你的友链网站的 SEO。
+> 注意：请不要给友情链接添加 `rel="nofollow"` 标签，这样会影响到你的友链网站的 SEO。
 
 - [14个最适合 SEO 的免费 Chrome 扩展程序（亲测好用）](https://ahrefs.com/blog/zh/seo-chrome-extensions/)
 
