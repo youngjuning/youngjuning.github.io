@@ -16,9 +16,10 @@ tags:
 DOGE 是马斯克的饭票，每到他遇到现金流问题或者特斯拉亏损的时候，就会来喊一嗓子 DOGE。狗狗币时间轴记录了狗狗币的发展轨迹。
 {% endnote %}
 
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 自 2021 年开始，马斯克多次表达对狗狗币的看好，并公开喊单该加密货币。他称狗狗币是“人民的加密货币”和自己最爱的“货币”，还发布了很多狗狗币的表情包。此外，他也时不时在推特上发布与狗狗币相关的内容，导致狗狗币币价剧烈波动。这样的行为在加密市场已经司空见惯，不足为奇。
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 {% timeline 狗狗币时间轴, purple %}
 <!-- timeline 2023-04-03 -->

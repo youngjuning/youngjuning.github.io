@@ -43,6 +43,9 @@ tags:
 {% link 链捕手, https://www.chaincatcher.com/, https://www.chaincatcher.com/favicon.ico %}
 {% link Dogecoin, https://dogecoin.com/, https://dogecoin.com/favicon.ico %}
 <!-- endtab -->
+<!-- tab 阅读@fas fa-book-open -->
+{% checkbox cyan checked, 《秘密 如何改变了我的生活》 66页%}
+<!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
 <!-- timeline 2023-04-07 -->

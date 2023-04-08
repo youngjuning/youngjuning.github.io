@@ -1,11 +1,15 @@
 ---
 title: 时间轴
 date: 2023-04-06 22:23:55
-comments: false
-reward: false
 description: 任和事情都是发展轨迹和惯性的，时间轴是记录这些轨迹和惯性的一种方式。
-aside: false
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679323728659.png
+tags:
+  - 时间轴
+  - 狗狗币
+  - 洛竹
+  - Dogecoin
+  - 马斯克
+  - Elon Musk
 ---
 
 <div class="gallery-group-main">
