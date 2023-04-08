@@ -19,16 +19,14 @@ tags:
 ## 2023-04
 
 {% timeline %}
-<!-- timeline 2023-04-08 -->
-{% tabs 2023-04-08 %}
+<!-- timeline 2023-04-09 -->
+{% tabs 2023-04-09 %}
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow, 《2023 中国大陆可以收到 Google Adsense PIN 码吗》 %}
 {% checkbox yellow, 《2023 中国大陆如何设置 Google Adsense 付款方式》 %}
-{% checkbox yellow, 《Hexo Butterfly 配置 Disqus》%}
-{% checkbox yellow, 《为什么 Local History 是 VsCode 必备插件》%}
 <!-- endtab -->
 <!-- tab 技术@fab fa-github -->
-{% checkbox yellow, [前端面试真题](https://bit.ly/3ZQl91F) 60 min%}
+{% checkbox yellow, [前端面试真题](https://bit.ly/3ZQl91F) 60 min %}
 <!-- endtab -->
 <!-- tab 美刀@fas fa-search-dollar -->
 {% checkbox yellow, 设计 H&Y You LOGO %}
@@ -36,15 +34,32 @@ tags:
 {% checkbox yellow, 挂 20 个商品到 H&Y You %}
 <!-- endtab -->
 <!-- tab 整理@fas fa-boxes -->
-{% checkbox yellow, 整理博客导航%}
-{% checkbox yellow, 给文章做 SEO 优化%}
+{% checkbox yellow, 优化网站 SEO 策略 %}
+{% checkbox yellow, 优化 404 页面 SEO %}
+{% checkbox yellow, 优化博客首页布局 %}
+<!-- endtab -->
+<!-- tab 阅读@fas fa-book -->
+{% checkbox cyan, 《秘密 如何改变了我的生活》第二章 %}
+<!-- endtab -->
+<!-- tab 收藏@fas fa-link -->
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
+<!-- timeline 2023-04-08 -->
+{% tabs 2023-04-08 %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow checked, 《如何在 VS Code 中找回以前的文件版本》 %}
+<!-- endtab -->
+<!-- tab 整理@fas fa-boxes -->
+{% checkbox yellow checked, 整理博客导航%}
+{% checkbox yellow checked, 给文章做 SEO 优化%}
+<!-- endtab -->
+<!-- tab 阅读@fas fa-book-open -->
+{% checkbox cyan checked, 《秘密 如何改变了我的生活》 66页%}
 <!-- endtab -->
 <!-- tab 收藏@fas fa-link -->
 {% link 链捕手, https://www.chaincatcher.com/, https://www.chaincatcher.com/favicon.ico %}
 {% link Dogecoin, https://dogecoin.com/, https://dogecoin.com/favicon.ico %}
-<!-- endtab -->
-<!-- tab 阅读@fas fa-book-open -->
-{% checkbox cyan checked, 《秘密 如何改变了我的生活》 66页%}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->

@@ -132,6 +132,18 @@
     ]
   },
   {
+    "class_name": "英文博客",
+    "class_desc": "精选全球优质英文博客",
+    "link_list": [
+      {
+        "link": "https://www.shanebart.com/",
+        "name": "谢恩·巴托洛梅斯",
+        "avatar": "https://www.shanebart.com/wp-content/uploads/2018/04/4h32h4g23h-1-300x193.jpg",
+        "descr": "极客和所有与科技有关的事物的爱好者"
+      }
+    ]
+  },
+  {
     "class_name": "YouTuber",
     "class_desc": "推荐一波洛竹关注的优质 YouTuber",
     "link_list": [
