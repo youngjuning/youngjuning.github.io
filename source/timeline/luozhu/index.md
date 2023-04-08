@@ -55,13 +55,15 @@ tags:
 {% checkbox yellow checked, 博客增加马斯克喊单狗狗币时间轴页面%}
 <!-- endtab -->
 <!-- tab 技术@fab fa-github -->
-{% checkbox yellow, 完成 [Hexo Butterfly Tag Plugins Plus Snippets](https://github.com/youngjuning/vscode-hexo-butterfly-tag-plugins-plus-snippets.git)%}
+{% checkbox yellow checked, 更新 [Hexo Butterfly Tag Plugins Plus Snippets](https://github.com/youngjuning/vscode-hexo-butterfly-tag-plugins-plus-snippets.git)%}
 <!-- endtab -->
 <!-- tab 美刀@fas fa-search-dollar -->
 {% checkbox yellow checked, 优化 [vscode 中文文档](https://vscode-api-cn.js.org) 的广告 %}
 <!-- endtab -->
 <!-- tab 整理@fas fa-boxes -->
-{% checkbox yellow, 迁移掘金两篇文章%}
+{% checkbox yellow checked, 迁移掘金两篇文章%}
+{% link 2021 年最值得使用的 Node.js 框架, https://juejin.cn/post/6955402195311263751, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
+{% link 使用 rollup 打包 React Native 插件并发布, https://juejin.cn/post/6952331374065877022, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
 <!-- endtab -->
 <!-- tab 收藏@fas fa-link -->
 {% link CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/favicon.svg %}
