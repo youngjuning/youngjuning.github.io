@@ -40,6 +40,8 @@ tags:
 {% checkbox yellow, 给文章做 SEO 优化%}
 <!-- endtab -->
 <!-- tab 收藏@fas fa-link -->
+{% link 链捕手, https://www.chaincatcher.com/, https://www.chaincatcher.com/favicon.ico %}
+{% link Dogecoin, https://dogecoin.com/, https://dogecoin.com/favicon.ico %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
@@ -47,7 +49,7 @@ tags:
 {% tabs 2023-04-07 %}
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow checked, 《2023 Google Adsense 打款时间》 %}
-{% checkbox yellow, 博客增加马斯克喊单狗狗币时间轴页面%}
+{% checkbox yellow checked, 博客增加马斯克喊单狗狗币时间轴页面%}
 <!-- endtab -->
 <!-- tab 技术@fab fa-github -->
 {% checkbox yellow, 完成 [Hexo Butterfly Tag Plugins Plus Snippets](https://github.com/youngjuning/vscode-hexo-butterfly-tag-plugins-plus-snippets.git)%}
