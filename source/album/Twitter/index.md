@@ -2,14 +2,13 @@
 title: 推特美图
 date: 2023-03-26 15:04:35
 description: 收藏的一些推特配图
-top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839104933.png
+top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838653179.png
 type: galleryGroup
 tags:
   - 推特
   - 壁纸
   - 原图
   - 无水印
-  - 美女
 ---
 
 # 风景
@@ -61,52 +60,6 @@ tags:
 ![风景](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837970955.png)
 ![风景](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838100589.png)
 ![风景](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838754313.png)
-{% endgallery %}
-
-# 美女
-
-{% gallery true %}
-![刘亦菲](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679835996083.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679836174220.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679836628453.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679836686301.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837319143.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837420926.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837426625.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837431170.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837589158.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679836353862.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837695116.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837791948.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837827078.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837833443.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837925938.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679837996872.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838135024.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838329019.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838346239.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838355493.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838383322.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838414076.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838481067.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838465660.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838760232.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838815741.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838875125.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838896838.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838965286.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838975944.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838983696.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839058563.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839070458.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839078745.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839085586.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839093963.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839098807.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839104933.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839109869.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680316731031.png)
-![美女](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680320706053.png)
 {% endgallery %}
 
 # 萌宠

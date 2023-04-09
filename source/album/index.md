@@ -8,7 +8,6 @@ tags:
   - 碧蓝航线
   - 崩坏：星穹铁道
   - 罗小黑战记
-  - AI 美女
   - 推特美图
   - 洛竹的素材
 ---
@@ -22,9 +21,7 @@ tags:
 
 {% galleryGroup '崩坏：星穹铁道' '《崩坏：星穹铁道》壁纸美图分享来啦~' '/album/崩坏-星穹铁道/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679480504416.png %}
 
-{% galleryGroup 'AI 美女' '收藏的一些 AI 生成的美女' '/album/AI美女/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679834086403.png %}
-
-{% galleryGroup '推特美图' '收藏的一些推特配图' '/album/Twitter/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679839109869.png %}
+{% galleryGroup '推特美图' '收藏的一些推特配图' '/album/Twitter/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838653179.png %}
 
 {% galleryGroup '洛竹的素材' '洛竹常用的素材' '/album/洛竹的素材/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450302136.jpeg %}
 </div>
