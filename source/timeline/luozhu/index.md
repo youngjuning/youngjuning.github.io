@@ -11,16 +11,34 @@ tags:
 ---
 
 {% folding cyan, 洛竹的时间轴记录着洛竹在这个世上的点点滴滴，有一天洛竹离去了，这里能证明他来过。%}
-{% checkbox yellow, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, 博客增加导航（stack）页面%}
 {% checkbox yellow, 博客增加币圈导航页面%}
-{% checkbox yellow, 博客增加AI导航页面%}
-{% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》前端基础 1-5 %}
 {% endfolding %}
 
 ## 2023-04
 
 {% timeline %}
+<!-- timeline 2023-04--10 -->
+{% tabs 2023-04--10 %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow, 博客增加 “Up主导航” 页面%}
+{% checkbox yellow, 博客增加AI导航页面%}
+<!-- endtab -->
+<!-- tab 学习@fas fa-book-open -->
+{% checkbox cyan, 《秘密 如何改变了我的生活》69-78 页 %}
+{% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》前端基础 1-5 %}
+{% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
+<!-- endtab -->
+<!-- tab 副业@fas fa-search-dollar -->
+{% checkbox red, 挂 10 个商品到 H&Y You %}
+{% checkbox red, 以促成交为目的定制商品页面 %}
+<!-- endtab -->
+<!-- tab 收藏@fas fa-star -->
+<!-- endtab -->
+<!-- tab ChatGpt@fas fa-robot -->
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
 <!-- timeline 2023-04-09 -->
 {% tabs 2023-04-09 %}
 <!-- tab 博客@fas fa-blog -->
@@ -28,17 +46,15 @@ tags:
 {% checkbox yellow checked, 优化 404 页面 %}
 {% checkbox yellow checked, 优化博客首页布局 %}
 {% checkbox yellow checked, 整理推特收藏的图片 %}
-{% checkbox yellow, 《2023 中国大陆可以收到 Google Adsense PIN 码吗》 %}
-{% checkbox yellow, 《2023 中国大陆如何设置 Google Adsense 付款方式》 %}
+{% checkbox yellow checked, 《2023 中国大陆可以收到 Google Adsense PIN 码吗》 %}
+{% checkbox yellow checked, 《2023 中国大陆如何设置 Google Adsense 付款方式》 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan checked, 《秘密 如何改变了我的生活》秘密如何让我们变得快乐 %}
-{% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
 <!-- endtab -->
 <!-- tab 副业@fas fa-search-dollar -->
 {% checkbox red, 设计 H&Y You LOGO %}
 {% checkbox red, 申请 SHINE 和 CIDER 的联盟账号 %}
-{% checkbox red, 挂 20 个商品到 H&Y You %}
 <!-- endtab -->
 <!-- tab 收藏@fas fa-star -->
 {% link GptChina, https://www.gptchina.ai/, https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681019064204.png %}
