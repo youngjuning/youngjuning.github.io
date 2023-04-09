@@ -30,6 +30,7 @@ tags:
 {% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
 <!-- endtab -->
 <!-- tab 副业@fas fa-search-dollar -->
+{% checkbox red, 申请 SHINE 和 CIDER 的联盟账号 %}
 {% checkbox red, 挂 10 个商品到 H&Y You %}
 {% checkbox red, 以促成交为目的定制商品页面 %}
 <!-- endtab -->
@@ -53,12 +54,12 @@ tags:
 {% checkbox cyan checked, 《秘密 如何改变了我的生活》秘密如何让我们变得快乐 %}
 <!-- endtab -->
 <!-- tab 副业@fas fa-search-dollar -->
-{% checkbox red, 设计 H&Y You LOGO %}
-{% checkbox red, 申请 SHINE 和 CIDER 的联盟账号 %}
+{% checkbox red checked, 设计 H&Y You LOGO %}
 <!-- endtab -->
 <!-- tab 收藏@fas fa-star -->
 {% link GptChina, https://www.gptchina.ai/, https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681019064204.png %}
 {% link ChatGPT, https://chat.openai.com/, https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681020498350.png %}
+{% link 找贝网, https://www.zb-2.com/, https://www.zb-2.com/favicon.ico %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
 负面情绪、过去的苦难就像硬盘上的记录，无法删除，只能覆盖。我们可以选择用快乐的情绪覆盖它们，让它们消失在我们的记忆中。
