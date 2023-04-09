@@ -26,7 +26,7 @@ tags:
 {% checkbox yellow, 优化网站 SEO 策略 %}
 {% checkbox yellow checked, 优化 404 页面 %}
 {% checkbox yellow checked, 优化博客首页布局 %}
-{% checkbox yellow, 整理推特收藏的图片 %}
+{% checkbox yellow checked, 整理推特收藏的图片 %}
 {% checkbox yellow, 《2023 中国大陆可以收到 Google Adsense PIN 码吗》 %}
 {% checkbox yellow, 《2023 中国大陆如何设置 Google Adsense 付款方式》 %}
 <!-- endtab -->
