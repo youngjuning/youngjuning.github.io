@@ -10,11 +10,10 @@ tags:
   - 生命
 ---
 
-{% note info modern %}
-洛竹的时间轴记录着洛竹在这个世上的点点滴滴，有一天洛竹离去了，这里能证明他来过。
-{% endnote %}
-
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+{% folding cyan, 洛竹的时间轴记录着洛竹在这个世上的点点滴滴，有一天洛竹离去了，这里能证明他来过。%}
+{% checkbox yellow, 博客增加 “Up主导航” 页面%}
+{% checkbox yellow, 博客增加导航（stack）页面%}
+{% endfolding %}
 
 ## 2023-04
 
@@ -24,22 +23,40 @@ tags:
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow, 《2023 中国大陆可以收到 Google Adsense PIN 码吗》 %}
 {% checkbox yellow, 《2023 中国大陆如何设置 Google Adsense 付款方式》 %}
-<!-- endtab -->
-<!-- tab 技术@fab fa-github -->
-{% checkbox yellow, [前端面试真题](https://bit.ly/3ZQl91F) 60 min %}
-<!-- endtab -->
-<!-- tab 美刀@fas fa-search-dollar -->
-{% checkbox yellow, 设计 H&Y You LOGO %}
-{% checkbox yellow, 申请 SHINE 和 CIDER 的联盟账号 %}
-{% checkbox yellow, 挂 20 个商品到 H&Y You %}
-<!-- endtab -->
-<!-- tab 整理@fas fa-boxes -->
 {% checkbox yellow, 优化网站 SEO 策略 %}
 {% checkbox yellow, 优化 404 页面 SEO %}
 {% checkbox yellow, 优化博客首页布局 %}
 <!-- endtab -->
+<!-- tab 技术@fab fa-github -->
+{% checkbox yellow, [前端面试真题](https://bit.ly/3ZQl91F) 60 min %}
+<!-- endtab -->
 <!-- tab 阅读@fas fa-book -->
-{% checkbox cyan, 《秘密 如何改变了我的生活》第二章 %}
+{% checkbox cyan, 《秘密 如何改变了我的生活》秘密如何让我们变得快乐 %}
+{% checkbox cyan, 《React 设计原理》前端框架原理概览%}
+<!-- endtab -->
+<!-- tab 副业@fas fa-search-dollar -->
+{% checkbox yellow, 设计 H&Y You LOGO %}
+{% checkbox yellow, 申请 SHINE 和 CIDER 的联盟账号 %}
+{% checkbox yellow, 挂 20 个商品到 H&Y You %}
+<!-- endtab -->
+<!-- tab ChatGpt@fas fa-search-dollar -->
+{% folding cyan, 2023 前端开发值得学习的技术%}
+## 1. Web 组件化开发
+
+Web 组件化是一种将页面分解成多个独立组件的开发方式，各个组件之间可以独立开发、测试和维护。它有助于提高前端代码的可维护性、重用性和可测试性。目前，React、Angular 和 Vue 等框架都提供了组件化的支持。
+
+## 2. Progressive Web Apps
+
+Progressive Web Apps（PWA）是一种具备类似原生应用体验的 Web 应用。它们可以在离线状态下运行、接受推送通知，并且加载速度非常快。PWA 的优点是可以节省大量的流量和设备存储空间，而且无需下载和安装即可使用。学习 PWA 技术可以使前端开发者开发出更加优秀的 Web 应用。
+
+## 3. 静态类型检查工具
+
+静态类型检查工具如 TypeScript 和 Flow 可以帮助开发者在编写代码时检查类型错误，避免因类型错误而导致的运行时错误。这些工具能够提高代码的稳定性和可维护性，并且让团队协作更加高效。掌握这些技术有助于提升前端开发的技能水平。
+
+## 4. Serverless
+
+Serverless 架构是一种通过在云上运行功能代码来替代传统服务器的方式。它可以让开发者专注于业务逻辑的编写，而无需关注底层的架构细节和服务器的管理。Serverless 可以帮助开发者降低成本、减少部署和维护的负担，同时提高系统的可伸缩性和可靠性。学习 Serverless 技术可以让开发者更好地掌握云计算和后端开发的知识。
+{% endfolding %}
 <!-- endtab -->
 <!-- tab 收藏@fas fa-link -->
 <!-- endtab -->
@@ -49,13 +66,11 @@ tags:
 {% tabs 2023-04-08 %}
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow checked, 《如何在 VS Code 中找回以前的文件版本》 %}
-<!-- endtab -->
-<!-- tab 整理@fas fa-boxes -->
 {% checkbox yellow checked, 整理博客导航%}
 {% checkbox yellow checked, 给文章做 SEO 优化%}
 <!-- endtab -->
 <!-- tab 阅读@fas fa-book-open -->
-{% checkbox cyan checked, 《秘密 如何改变了我的生活》 66页%}
+{% checkbox cyan checked, 《秘密 如何改变了我的生活》 如何要求、相信、接受：创造的过程%}
 <!-- endtab -->
 <!-- tab 收藏@fas fa-link -->
 {% link 链捕手, https://www.chaincatcher.com/, https://www.chaincatcher.com/favicon.ico %}
@@ -68,21 +83,19 @@ tags:
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow checked, 《2023 Google Adsense 打款时间》 %}
 {% checkbox yellow checked, 博客增加马斯克喊单狗狗币时间轴页面%}
+{% checkbox yellow checked, 迁移掘金两篇文章%}
 <!-- endtab -->
 <!-- tab 技术@fab fa-github -->
 {% checkbox yellow checked, 更新 [Hexo Butterfly Tag Plugins Plus Snippets](https://github.com/youngjuning/vscode-hexo-butterfly-tag-plugins-plus-snippets.git)%}
 <!-- endtab -->
-<!-- tab 美刀@fas fa-search-dollar -->
+<!-- tab 副业@fas fa-search-dollar -->
 {% checkbox yellow checked, 优化 [vscode 中文文档](https://vscode-api-cn.js.org) 的广告 %}
-<!-- endtab -->
-<!-- tab 整理@fas fa-boxes -->
-{% checkbox yellow checked, 迁移掘金两篇文章%}
-{% link 2021 年最值得使用的 Node.js 框架, https://juejin.cn/post/6955402195311263751, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
-{% link 使用 rollup 打包 React Native 插件并发布, https://juejin.cn/post/6952331374065877022, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
 <!-- endtab -->
 <!-- tab 收藏@fas fa-link -->
 {% link CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/favicon.svg %}
 {% link 一图历数马斯克公开喊单狗狗币过往, https://www.chaincatcher.com/article/2090549, https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680881790911.png %}
+{% link 2021 年最值得使用的 Node.js 框架, https://juejin.cn/post/6955402195311263751, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
+{% link 使用 rollup 打包 React Native 插件并发布, https://juejin.cn/post/6952331374065877022, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->

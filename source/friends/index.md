@@ -20,7 +20,7 @@ description: 有朋自网线来，不亦说乎
   "name": "洛竹的博客",
   "link": "https://youngjuning.js.org",
   "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
-  "descr": "真理无穷，一寸欢喜"
+  "descr": "怕什么真理无穷，进一寸有一寸的欢喜。"
 }
 ```
 
@@ -28,7 +28,7 @@ description: 有朋自网线来，不亦说乎
 -  "name": "洛竹的博客",
   "link": "https://youngjuning.js.org",
   "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
-  "descr": "真理无穷，一寸欢喜"
+  "descr": "怕什么真理无穷，进一寸有一寸的欢喜。"
 ```
 
 快速复制填写模板：
