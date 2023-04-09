@@ -15,6 +15,7 @@ tags:
 {% checkbox yellow, 博客增加导航（stack）页面%}
 {% checkbox yellow, 博客增加币圈导航页面%}
 {% checkbox yellow, 博客增加AI导航页面%}
+{% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》前端基础 1-5 %}
 {% endfolding %}
 
 ## 2023-04
@@ -23,7 +24,7 @@ tags:
 <!-- timeline 2023-04-09 -->
 {% tabs 2023-04-09 %}
 <!-- tab 博客@fas fa-blog -->
-{% checkbox yellow, 优化网站 SEO 策略 %}
+{% checkbox yellow checked, 优化网站 SEO 策略 %}
 {% checkbox yellow checked, 优化 404 页面 %}
 {% checkbox yellow checked, 优化博客首页布局 %}
 {% checkbox yellow checked, 整理推特收藏的图片 %}
@@ -31,7 +32,6 @@ tags:
 {% checkbox yellow, 《2023 中国大陆如何设置 Google Adsense 付款方式》 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan, 《[前端面试真题](https://bit.ly/3ZQl91F)》前端基础 1-5 %}
 {% checkbox cyan checked, 《秘密 如何改变了我的生活》秘密如何让我们变得快乐 %}
 {% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
 <!-- endtab -->
