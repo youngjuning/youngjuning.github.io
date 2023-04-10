@@ -50,7 +50,7 @@ tags:
 {% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》前端基础 1-5 %}
 {% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
 <!-- endtab -->
-<!-- tab 副业@fas fa-search-dollar -->
+<!-- tab 美刀@fas fa-search-dollar -->
 {% checkbox red, 申请 SHINE 和 CIDER 的联盟账号 %}
 {% checkbox red, 挂 10 个商品到 H&Y You %}
 {% checkbox red, 以促成交为目的定制商品页面 %}
@@ -75,7 +75,7 @@ tags:
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan checked, 《秘密 如何改变了我的生活》秘密如何让我们变得快乐 %}
 <!-- endtab -->
-<!-- tab 副业@fas fa-search-dollar -->
+<!-- tab 美刀@fas fa-search-dollar -->
 {% checkbox red checked, 设计 H&Y You LOGO %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
@@ -111,7 +111,7 @@ tags:
 <!-- tab 技术@fab fa-github -->
 {% checkbox yellow checked, 更新 [Hexo Butterfly Tag Plugins Plus Snippets](https://github.com/youngjuning/vscode-hexo-butterfly-tag-plugins-plus-snippets.git)%}
 <!-- endtab -->
-<!-- tab 副业@fas fa-search-dollar -->
+<!-- tab 美刀@fas fa-search-dollar -->
 {% checkbox yellow checked, 优化 [vscode 中文文档](https://vscode-api-cn.js.org) 的广告 %}
 <!-- endtab -->
 {% endtabs %}
