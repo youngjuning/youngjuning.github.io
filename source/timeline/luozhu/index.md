@@ -10,7 +10,11 @@ tags:
   - 生命
 ---
 
-{% folding cyan, 洛竹的时间轴记录着洛竹在这个世上的点点滴滴，有一天洛竹离去了，这里能证明他来过。%}
+{% note success modern %}
+洛竹的时间轴记录着洛竹在这个世上的点点滴滴，有一天洛竹离去了，这里能证明他来过。
+{% endnote %}
+
+{% folding cyan, 待办清单 %}
 {% checkbox yellow, 博客增加币圈导航页面%}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
 {% checkbox red, 研究如何通过 Adsterra 赚钱并产出一篇博客 %}
@@ -50,6 +54,11 @@ tags:
 {% checkbox red, 申请 SHINE 和 CIDER 的联盟账号 %}
 {% checkbox red, 挂 10 个商品到 H&Y You %}
 {% checkbox red, 以促成交为目的定制商品页面 %}
+<!-- endtab -->
+<!-- tab 随笔@fas fa-book -->
+自媒体、跨境电商和 ChatGPT 这些新基建对于普通人是打击也是机遇。他们一面可能会让很多岗位面临被取代的风险，另一面却是给普通人提供了跳出内卷，实现自由的机会。
+<!-- endtab -->
+<!-- tab 其他@fas fa-stream -->
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
