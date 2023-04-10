@@ -44,21 +44,20 @@ tags:
 {% checkbox yellow checked, 页脚添加时间轴页面的栏 %}
 {% checkbox yellow checked, 整理导航栏 %}
 {% checkbox yellow checked, 优化网站配色 %}
+{% checkbox yellow, 迁移掘金两篇文章 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan, 《秘密 如何改变了我的生活》69-78 页 %}
 {% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》前端基础 1-5 %}
 {% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
 <!-- endtab -->
-<!-- tab 美刀@fas fa-search-dollar -->
-{% checkbox red, 申请 SHINE 和 CIDER 的联盟账号 %}
-{% checkbox red, 挂 10 个商品到 H&Y You %}
-{% checkbox red, 以促成交为目的定制商品页面 %}
-<!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
 自媒体、跨境电商和 ChatGPT 这些新基建对于普通人是打击也是机遇。他们一面可能会让很多岗位面临被取代的风险，另一面却是给普通人提供了跳出内卷，实现自由的机会。
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
+{% checkbox red, 申请 SHINE 和 CIDER 的联盟账号 %}
+{% checkbox red, 挂 10 个商品到 H&Y You %}
+{% checkbox red, 以促成交为目的定制商品页面 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
@@ -75,9 +74,6 @@ tags:
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan checked, 《秘密 如何改变了我的生活》秘密如何让我们变得快乐 %}
 <!-- endtab -->
-<!-- tab 美刀@fas fa-search-dollar -->
-{% checkbox red checked, 设计 H&Y You LOGO %}
-<!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
 负面情绪、过去的苦难就像硬盘上的记录，无法删除，只能覆盖。我们可以选择用快乐的情绪覆盖它们，让它们消失在我们的记忆中。
 
@@ -86,6 +82,8 @@ tags:
 <!-- tab 其他@fas fa-stream -->
 {% checkbox blue checked, 申请 GPT-4 白名单 %}
 {% checkbox blue checked, 注册 GptChina %}
+{% checkbox blue checked, 设计 H&Y You LOGO %}
+{% checkbox blue checked, 优化 [vscode 中文文档](https://vscode-api-cn.js.org) 的广告 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
@@ -110,9 +108,6 @@ tags:
 <!-- endtab -->
 <!-- tab 技术@fab fa-github -->
 {% checkbox yellow checked, 更新 [Hexo Butterfly Tag Plugins Plus Snippets](https://github.com/youngjuning/vscode-hexo-butterfly-tag-plugins-plus-snippets.git)%}
-<!-- endtab -->
-<!-- tab 美刀@fas fa-search-dollar -->
-{% checkbox yellow checked, 优化 [vscode 中文文档](https://vscode-api-cn.js.org) 的广告 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
