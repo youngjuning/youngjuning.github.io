@@ -1,0 +1,24 @@
+{
+  "class_name": "ChatGpt",
+  "class_desc": "ChatGPT，全称聊天生成预训练转换器，是 OpenAI 开发的人工智能聊天机器人程序，于 2022 年 11 月推出。",
+  "link_list": [
+    {
+      "link": "https://chat.openai.com/",
+      "name": "ChatGPT",
+      "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681020498350.png",
+      "descr": "2022 年 11 月发布的强大的人工智能引擎"
+    },
+    {
+      "link": "https://www.gptchina.ai/",
+      "name": "GptChina",
+      "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681019064204.png",
+      "descr": "ChatGpt 中国大陆版"
+    },
+    {
+      "link": "https://monica.im/",
+      "name": "Monica",
+      "avatar": "https://monica.im/logo.png",
+      "descr": "你强大的的 ChatGPT AI 助手"
+    }
+  ]
+}

@@ -1,39 +1,38 @@
 ---
-title: React 面试题（React）
+title: 2023 最全 React 面试题
 date: 2023-03-06 19:30:00
+top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681097427413.png
 description: 前 500 个 ReactJS 面试必知必会问题与答案，是洛竹诚意翻译的前端 React 面试必备系列。
 categories:
   - [前端, React 面试题]
   - [洛竹翻译计划]
 tags:
+  - React.js 面试题
   - React 面试题
   - React 面试
   - React 面试题与答案
+  - 前端面试
   - 前端面试题
-  - swiper
+  - React 教程
+  - React.js 教程
 ---
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-## 1. 什么是 React？
-
-{% hideBlock 什么是 React？ %}
+{% folding green, 1. 什么是 React？ %}
 React 是一个**开源前端 JavaScript 库**，用于构建用户界面，尤其是单页应用程序。它用于处理 Web 和移动应用程序的视图层。React 是由 Facebook 的软件工程师 [乔丹·沃克](https://github.com/jordwalke) 创建的。React 于 2011 年在 Facebook 的 News Feed 上首次发布，2012 年首次在 Instagram 发布。
-{% endhideBlock %}
+{% endfolding %}
 
-## 2. React 的主要特性是什么？
-
-{% hideBlock React 的主要特性是什么？ %}
+{% folding green, 2. React 的主要特性是什么？ %}
 React 的主要特性是:
 
 - 考虑到 DOM 操作内存开销大，React 使用**虚拟 DOM（VirtualDOM）** 替代了真实 DOM（RealDOM）
 - 支持**服务端渲染**
 - 遵循**单向**数据流或数据绑定
 - 使用**可复用/可组合**的 UI 组件来进行视图开发
-{% endhideBlock %}
+{% endfolding %}
 
-## 3. 什么是 JSX？
-
+{% folding green, 3. 什么是 JSX？ %}
 JSX 是 ECMAScript 的类似 XML 的语法扩展（缩写是 JavaScript XML）。实际上，它只是为 `React.createElement()` 函数提供语法糖，为我们提供了在 JavaScript 中使用类 HTML 模板语法的能力。
 
 下面的示例中，`<h1>` 标签内的文本会作为 JavaScript 函数（`React.createElement()`）的返回值返回给 render 函数：
@@ -49,9 +48,9 @@ class App extends React.Component {
   }
 }
 ```
+{% endfolding %}
 
-## 4. 元素（Element）和组件（Component）的区别是什么？
-
+{% folding green, 4. 元素（Element）和组件（Component）的区别是什么？ %}
 元素是一个普通的对象，它描述了你希望以 DOM 节点或其他组件的形式出现在屏幕上的内容。元素可以在其 props 中包含其他 元素。创建一个 React 元素开销很小。一旦创建了元素，就永远不会对其进行修改。
 
 React Element 的对象表示如下：
@@ -94,9 +93,9 @@ const Button = ({ onLogin }) => (
 const Button = ({ onLogin }) =>
   React.createElement('div', { id: 'login-btn', onClick: onLogin }, 'Login');
 ```
+{% endfolding %}
 
-## 5. 如何在 React 中创建组件？
-
+{% folding green, 5. 如何在 React 中创建组件？ %}
 这里有两种可以用方式来创建一个组件：
 
 1. **函数组件：** 这是创建组件最简单的方式。它们是纯 JavaScript 函数，接受 props 对象作为第一个参数并返回 React 元素：
@@ -116,19 +115,19 @@ class Greeting extends React.Component {
   }
 }
 ```
+{% endfolding %}
 
-## 6. 何时选择类组件或函数组件
-
+{% folding green, 6. 何时选择类组件或函数组件 %}
 如果一个组件需要状态或者生命周期方法，则使用类组件，否则使用函数组件。
 
 然而，从 React 16.8 引入 Hooks 后，你可以在函数组件中使用之前只在类组件中有的特性，比如状态和生命周期方法。
+{% endfolding %}
 
-## 7. Pure Components 是什么？
-
+{% folding green, 7. Pure Components 是什么？ %}
 `React.PureComponent` 与 `React.Component` 几乎完全相同，不同之处在于它为你处理了 `shouldComponentUpdate()` 方法。当 props 和 state 改变时，PureComponent 将对 props 和 state 进行浅表比较。另一方面，Component 初始不会将当前 props 和 state 与 nextPorps 和 nextState 进行比较。因此，每当调用 `shouldComponentUpdate` 时，组件将默认重新渲染。
+{% endfolding %}
 
-## 8. React 中的 state 是什么？
-
+{% folding green, 8. React 中的 state 是什么？ %}
 组件的状态是一个对象，其中包含一些在组件的生命周期中可能会发生变化的信息。我们应该始终尝试使状态尽可能简单，并最大程度减少有状态组件的数量。
 
 让我们来创建一个带有 message 状态的 user 组件：
@@ -156,9 +155,9 @@ class User extends React.Component {
 ![state](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8472c6438dfe48068002c5fdf1fbf098~tplv-k3u1fbpfcp-zoom-1.image)
 
 状态类似于 Props，但它是私有的，并由组件完全控制。也就是说除了拥有和设置它的组件之外，其他任何组件都无法访问它。
+{% endfolding %}
 
-## 9. React 中的 props 是什么
-
+{% folding green, 9. React 中的 props 是什么 %}
 Props 是组件的输入。它们是单个值或包含一组值的对象，这些对象在创建时会使用类似于 HTML 标签属性的命名约定传递给组件。它们是从父组件传递到子组件的数据。
 
 React 中 props 的主要目的是提供以下组件功能：
@@ -178,13 +177,13 @@ React 中 props 的主要目的是提供以下组件功能：
 ```js
 props.reactProp;
 ```
+{% endfolding %}
 
-## 10. state 和 props 的区别是什么？
-
+{% folding green, 10. state 和 props 的区别是什么？ %}
 props 和 state 都是普通的 JavaScript 对象。尽管它们两者都拥有影响渲染输出的信息，但它们在组件层面的功能却有所不同。将 props 传递给组件类似于传递参数给函数，而 state 则类似于函数中声明的变量一样在组件内进行管理。
+{% endfolding %}
 
-## 11. 为什么我们不能直接更新状态？
-
+{% folding green, 11. 为什么我们不能直接更新状态？ %}
 如果你尝试直接更新状态，React 组件并不会重新渲染。
 
 ```javascript
@@ -200,6 +199,7 @@ this.setState({ message: 'Hello World' });
 ```
 
 > **注意：**你可以使用构造函数或者最新的 javascript class 字段声明语法直接将其分配给状态对象。
+{% endfolding %}
 
 ## 12. 回调函数作为 `setState()` 的参数的目的是什么？
 
@@ -2240,14 +2240,13 @@ export const space = [0, 8, 16, 32, 64];
 import { space, colors } from './styles';
 ```
 
-## 124. 有哪些流行的 React 专用 linter？
-
+{% folding green, 124. 有哪些流行的 React 专用 linter？ %}
 ESLint 是一个很流行的 JavaScript linter。有一些插件可以用来分析特定的代码风格。其中最常见的 React 插件是一个名为 `eslint-plugin-react` 的 npm 包。默认情况下，它将检查一些最佳实践，其规则是检查从迭代器中的键到一整套道具类型的东西。
 
 另一个流行的插件是 `eslint-plugin-jsx-a11y`，它将帮助修复可访问性方面的常见问题。由于 JSX 提供了与常规 HTML 稍有不同的语法，例如 `alt` 文本和 `tabindex` 的问题将不会被常规插件发现。
+{% endfolding %}
 
-## 125. 如何进行 AJAX 调用，应该在哪个组件的生命周期方法中进行 AJAX 调用？
-
+{% folding green, 125. 如何进行 AJAX 调用，应该在哪个组件的生命周期方法中进行 AJAX 调用？ %}
 你可以使用 AJAX 库，如 Axios、jQuery AJAX，以及浏览器内置的 `fetch`。你应该在 `componentDidMount()` 生命周期方法中获取数据。这样你就可以在获取数据时使用 `setState()` 来更新你的组件。
 
 例如，从 API 获取的雇员名单并设置本地状态。
@@ -2295,13 +2294,14 @@ class MyComponent extends React.Component {
   }
 }
 ```
+{% endfolding %}
 
-## 126. 什么是渲染 props？
-
-**渲染 props**是一种简单的技术，使用一个 props 在组件之间共享代码，其值是一个函数。下面的组件使用渲染 props，它返回一个 React 元素。
+{% folding green, 126. 什么是 render props？ %}
+**render props** 是一种简单的技术，使用一个 props 在组件之间共享代码，其值是一个函数。下面的组件使用渲染 props，它返回一个 React 元素。
 
 ```jsx | pure
 <DataProvider render={data => <h1>{`Hello ${data.target}`}</h1>} />
 ```
 
 React Router 和 DownShift 等库正在使用这种模式。
+{% endfolding %}

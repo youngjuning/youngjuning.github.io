@@ -1,7 +1,7 @@
 [
   {
     "class_name": "联盟营销",
-    "class_desc": "Write to Earn",
+    "class_desc": "联盟营销也叫联盟行销是一种通过互联网来推广产品或服务的方式，通过联盟营销，您可以通过与其他网站或博客建立合作关系来推广您的产品或服务。",
     "link_list": [
       {
         "name": "Google Adsense",
@@ -258,8 +258,8 @@
     ]
   },
   {
-    "class_name": "多账号浏览器",
-    "class_desc": "多账号浏览器，让你的生活更加便捷",
+    "class_name": "指纹浏览器",
+    "class_desc": "指纹浏览器，让你的生活更加便捷",
     "link_list": [
       {
         "link": "https://gologin.com/",

@@ -4,32 +4,26 @@
 
 menu:
   首页: / || fas fa-home
+  导航: /stack/ || fas fa-location-arrow
+  相册: /album/ || fas fa-images
+  时间轴: /timeline/ || fas fa-stream
+  随便逛逛: /random/ || fas fa-random
+  宇宙快车: https://travellings.vercel.app/ || fas fa-paper-plane
   文章|| fa-fw fas fa-lines-leaning:
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
     归档: /archives/ || fas fa-archive
-    随机: /random/ || fas fa-random
-  相册: /album/ || fas fa-images
-  导航|| fas fa-star:
-    前端导航: /frontend/ || fas fa-code
-    工具导航: /tool/ || fas fa-cog
-    跨境导航: /oversea/ || fas fa-hand-holding-usd
-    营销导航: /yingxiao/ || fas fa-cog
-    站长导航: /webmaster/ || fas fa-user-tie
-    网赚导航: /wangzhuan/ || fas fa-money-bill-wave
-    科学上网: /vpn/ || fas fa-wifi
-  社交||fas fa-wine-glass-alt:
+  教程|| fas fa-book:
+    React 面试题: /react-interview/ || fab fa-react
+    Go 语言系列教程: /Golang/Go-语言系列教程/ || fas fa-book
+  我的||fas fa-heart:
+    关于: /about/ || fas fa-spa
     友人: /friends/ || fas fa-link
-    开往: https://travellings.vercel.app/ || fas fa-paper-plane
+    项目: /projects/ || fab fa-github
     电影: /movies/ || fas fa-video
     读书: /books/ || fas fa-book
     追番: /bangumi/ || fas fa-tv
-  我的||fas fa-heart:
-    时间轴: /timeline/ || fas fa-stream
-    项目: /projects/ || fab fa-github
     图床: /gallery/ || fas fa-images
-    订阅: /atom.xml || fas fa-rss
-    关于: /about/ || fas fa-spa
 nav:
   logo: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png # image
   display_title: true
@@ -528,16 +522,17 @@ site_verification:
 
 # https://uigradients.com/#Magic
 # https://uigradients.com/#PiggyPink
+# https://uigradients.com/#JShine
 theme_color:
   enable: true
   main: "#59C173"
-  paginator: "#a17fe0"
-  button_hover: "#5D26C1"
-  text_selection: "#a17fe0"
+  paginator: "#c471ed"
+  button_hover: "#12c2e9"
+  text_selection: "#c471ed"
   link_color: "#99a9bf"
   meta_color: "#858585"
-  hr_color: "#ffdde1"
-  code_foreground: "#ee9ca7"
+  hr_color: "#ee9ca7"
+  code_foreground: "#f64f59"
   code_background: "rgba(27, 31, 35, .05)"
   toc_color: "#a17fe0"
   blockquote_padding_color: "#59C173"
@@ -640,7 +635,7 @@ beautify:
   enable: true
   field: post # site/post
   title-prefix-icon: # '\f0c1'
-  title-prefix-icon-color: # '#F47466'
+  title-prefix-icon-color: # '#ee9ca7'
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
