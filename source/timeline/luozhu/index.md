@@ -15,6 +15,7 @@ tags:
 {% endnote %}
 
 {% folding cyan, 待办清单 %}
+{% checkbox yellow, 博客添加《Puppeteer 入门教程》 %}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
 {% checkbox yellow, text %}
