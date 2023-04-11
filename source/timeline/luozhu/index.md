@@ -15,9 +15,12 @@ tags:
 {% endnote %}
 
 {% folding cyan, 待办清单 %}
-{% checkbox yellow, 博客增加币圈导航页面%}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
+{% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
+{% checkbox yellow, text %}
 {% checkbox red, 研究如何通过 Adsterra 赚钱并产出一篇博客 %}
+{% checkbox red, H&Y You 商品详情页定制 %}
+{% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》 %}
 {% endfolding %}
 
 {% folding blue, 洛竹收藏的一些网站，这里只是一个暂存区，最终都会整理到洛竹的导航 %}
@@ -27,14 +30,31 @@ tags:
 {% link 2021 年最值得使用的 Node.js 框架, https://juejin.cn/post/6955402195311263751, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
 {% link 使用 rollup 打包 React Native 插件并发布, https://juejin.cn/post/6952331374065877022, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
 {% checkbox green, [找贝网](https://www.zb-2.com/) <https://www.zb-2.com/favicon.ico> %}
-{% checkbox green checked, [Monica](https://monica.im/) %}
-{% checkbox green checked, [ChatGPT China](https://www.gptchina.ai/) %}
-{% checkbox green checked, [ChatGPT](https://chat.openai.com/) %}
 {% endfolding %}
 
 ## 2023-04
 
 {% timeline %}
+<!-- timeline 2023-04-11 -->
+{% tabs 2023-04-11 %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow, 博客增加币圈导航页面%}
+{% checkbox yellow, 所有博文加上广告 %}
+{% checkbox yellow, 迁移掘金两篇文章 %}
+<!-- endtab -->
+<!-- tab 学习@fas fa-book-open -->
+{% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
+{% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
+<!-- endtab -->
+<!-- tab 随笔@fas fa-book -->
+
+<!-- endtab -->
+<!-- tab 其他@fas fa-stream -->
+{% checkbox red, 申请 SHINE 和 CIDER 的联盟账号 %}
+{% checkbox red, 挂 10 个商品到 H&Y You %}
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
 <!-- timeline 2023-04--10 -->
 {% tabs 2023-04--10 %}
 <!-- tab 博客@fas fa-blog -->
@@ -44,20 +64,12 @@ tags:
 {% checkbox yellow checked, 页脚添加时间轴页面的栏 %}
 {% checkbox yellow checked, 整理导航栏 %}
 {% checkbox yellow checked, 优化网站配色 %}
-{% checkbox yellow, 迁移掘金两篇文章 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan, 《秘密 如何改变了我的生活》69-78 页 %}
-{% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》前端基础 1-5 %}
-{% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
+{% checkbox cyan checked, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
 自媒体、跨境电商和 ChatGPT 这些新基建对于普通人是打击也是机遇。他们一面可能会让很多岗位面临被取代的风险，另一面却是给普通人提供了跳出内卷，实现自由的机会。
-<!-- endtab -->
-<!-- tab 其他@fas fa-stream -->
-{% checkbox red, 申请 SHINE 和 CIDER 的联盟账号 %}
-{% checkbox red, 挂 10 个商品到 H&Y You %}
-{% checkbox red, 以促成交为目的定制商品页面 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
