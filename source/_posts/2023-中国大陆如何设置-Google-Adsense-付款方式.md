@@ -6,10 +6,12 @@ description: 自2020年起，Google AdSense 已暂停使用西联汇款付款方
 categories:
   - [Google, Google Adsense]
 tags:
+  - Google
+  - Adsense
   - Google Adsense
   - Google Adsense 付款方式
   - Google Adsense 收款方式
-  - 招商银行外汇结汇
+  - Google Adsense 招商银行
   - Google Adsense 电汇
 ---
 
