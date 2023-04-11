@@ -14,6 +14,22 @@ tags:
 
 {% timeline ChatGPT 时间轴, purple %}
 <!-- timeline 2023-04-11 -->
+{% folding purple, 3. Google Adsense CPC 高的国家 %}
+以下是一些Google Adsense CPC高的国家：
+
+1. 美国
+2. 加拿大
+3. 澳大利亚
+4. 英国
+5. 德国
+6. 法国
+7. 荷兰
+8. 新加坡
+9. 巴西
+10. 日本
+
+请注意，这只是一些潜在的高CPC国家和地区，并不保证广告费用点击率（CPC）的精确性和稳定性。 CPC可能受众多因素影响，包括广告主选择和竞价。
+{% endfolding %}
 {% folding purple, 2. 派安盈转账手续费 %}
 派安盈提供的跨境转账服务收费是根据不同的汇款方式和金额进行计算的，以下是部分方案的收费说明：
 

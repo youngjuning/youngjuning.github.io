@@ -18,6 +18,7 @@ tags:
 {% checkbox yellow, 博客添加《Puppeteer 入门教程》 %}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
+{% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
 {% checkbox yellow, text %}
 {% checkbox red, 研究如何通过 Adsterra 赚钱并产出一篇博客 %}
 {% checkbox red, H&Y You 商品详情页定制 %}
@@ -48,7 +49,8 @@ tags:
 {% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
-
+币圈都在传抖音和微博可以查看 BTC 行情了，这和今天 BTC 破 30000 大关有关系吗？我觉得是有的，毕竟大陆的币圈人士还是很多的。
+![抖音 BTC 趋势](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681195232963.png)
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
 {% checkbox red, 申请 SHINE 和 CIDER 的联盟账号 %}

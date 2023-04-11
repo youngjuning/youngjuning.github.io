@@ -15,7 +15,6 @@
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677941139300.png",
         "descr": "Google Search Console"
       },
-
       {
         "name": "Microsoft Clarity",
         "link": "https://clarity.microsoft.com/",
@@ -69,6 +68,30 @@
         "link": "https://qexo.com/",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
         "descr": "一个美观、强大的在线 静态博客 管理器"
+      }
+    ]
+  },
+  {
+    "class_name": "分析",
+    "class_desc": "趋势分析、关键词分析、竞品分析",
+    "link_list": [
+      {
+        "link": "https://trends.google.com/home",
+        "name": "Google 趋势",
+        "avatar": "https://ssl.gstatic.com/trends/favicon.ico",
+        "descr": "探索全球全球用户目前正在搜索的内容"
+      },
+      {
+        "link": "https://keywordplanner.net/",
+        "name": "Keyword Planner",
+        "avatar": "https://keywordplanner.net/files/img/xfavicon.ico",
+        "descr": "发现 5000 多个有搜索量的关键词"
+      },
+      {
+        "link": "https://www.ggcx.com/",
+        "name": "狗狗查询",
+        "avatar": "https://www.ggcx.com/main/favicon.ico",
+        "descr": "域名查询_域名备案查询_域名信息查询_域名工具"
       }
     ]
   },

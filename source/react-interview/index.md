@@ -1,5 +1,5 @@
 ---
-title: 2023 最全 React 面试题
+title: 2023 React 面试题与答案
 date: 2023-03-06 19:30:00
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681097427413.png
 description: 前 500 个 ReactJS 面试必知必会问题与答案，是洛竹诚意翻译的前端 React 面试必备系列。
@@ -37,7 +37,7 @@ JSX 是 ECMAScript 的类似 XML 的语法扩展（缩写是 JavaScript XML）�
 
 下面的示例中，`<h1>` 标签内的文本会作为 JavaScript 函数（`React.createElement()`）的返回值返回给 render 函数：
 
-```jsx | pure
+```jsx
 class App extends React.Component {
   render() {
     return (
@@ -100,7 +100,7 @@ const Button = ({ onLogin }) =>
 
 1. **函数组件：** 这是创建组件最简单的方式。它们是纯 JavaScript 函数，接受 props 对象作为第一个参数并返回 React 元素：
 
-```jsx | pure
+```jsx
 function Greeting({ message }) {
   return <h1>{`Hello, ${message}`}</h1>;
 }
@@ -108,7 +108,7 @@ function Greeting({ message }) {
 
 2. **类组件：** 你也可以使用 ES6 的 class 语法来定义一个组件。上面的函数组件可以被改写为：
 
-```jsx | pure
+```jsx
 class Greeting extends React.Component {
   render() {
     return <h1>{`Hello, ${this.props.message}`}</h1>;
@@ -132,7 +132,7 @@ class Greeting extends React.Component {
 
 让我们来创建一个带有 message 状态的 user 组件：
 
-```jsx | pure
+```jsx
 class User extends React.Component {
   constructor(props) {
     super(props);
@@ -168,7 +168,7 @@ React 中 props 的主要目的是提供以下组件功能：
 
 举个例子，让我们创建一个带有 `reactProp` 属性的元素：
 
-```jsx | pure
+```jsx
 <Element reactProp={'1'} />
 ```
 
@@ -201,8 +201,7 @@ this.setState({ message: 'Hello World' });
 > **注意：**你可以使用构造函数或者最新的 javascript class 字段声明语法直接将其分配给状态对象。
 {% endfolding %}
 
-## 12. 回调函数作为 `setState()` 的参数的目的是什么？
-
+{% folding yellow, 12. 回调函数作为 `setState()` 的参数的目的是什么？ %}
 setState 完成并重新渲染组件后，将调用回调函数。由于 setState() 是异步的，因此回调函数可用于任何后续操作。
 
 > **注意：**我们建议使用生命周期方法而不是这个回调函数
@@ -212,9 +211,9 @@ setState({ name: 'John' }, () =>
   console.log('The name has updated and component re-rendered'),
 );
 ```
+{% endfolding %}
 
-## 13. HTML 和 React 的事件处理有什么不同？
-
+{% folding yellow, 13. HTML 和 React 的事件处理有什么不同？ %}
 下面是一些 HTML 和 React 的事件处理的主要不同：
 
 1. 在 HTML 中，事件名应该是全小写的：
@@ -225,7 +224,7 @@ setState({ name: 'John' }, () =>
 
 然而在 React 中事件名遵循小驼峰 格式：
 
-```jsx | pure
+```jsx
 <button onClick={activateLasers}>
 ```
 
@@ -247,9 +246,9 @@ function handleClick(event) {
 3. 在 HTML 中，你调用函数时需要加上 `()`：
 
 然后在 React 中你不应该在函数名后带上 `()`。（比如前面示例中的 `activateLasers` 函数）
+{% endfolding %}
 
-## 14. 如何在 JSX 回调函数中绑定方法或事件处理器
-
+{% folding yellow, 14. 如何在 JSX 回调函数中绑定方法或事件处理器 %}
 这里有 3 个方法做到这一点：
 
 1. **在构造器中绑定：** 在 JavaScript 类中，默认情况下不绑定方法。同样的事情也适用于定义为类方法的 React 事件处理器。通常我们将它们绑定在构造函数中。
@@ -269,56 +268,56 @@ class Component extends React.Component {
 
 2. **类的公共字段语法：** 如果你不喜欢使用绑定的方式，也可以使用类的公共字段语法来正确绑定回调：
 
-```jsx | pure
+```jsx
 handleClick = () => {
   console.log('this is:', this);
 };
 ```
 
-```jsx | pure
+```jsx
 <button onClick={this.handleClick}>{'Click me'}</button>
 ```
 
 3. **箭头函数作为回调：** 你可以直接在回调中使用箭头函数
 
-```jsx | pure
+```jsx
 <button onClick={event => this.handleClick(event)}>{'Click me'}</button>
 ```
 
 > **注意：** 如果回调作为 prop 传递给子组件，这些组件可能会触发额外的重渲染。在这些场景中，考虑到性能因素，最佳的选择是使用 `.bind()` 或类的公共字段语法。
+{% endfolding %}
 
-## 15. 如何传递参数给事件处理器或回调？
-
+{% folding yellow, 15. 如何传递参数给事件处理器或回调？ %}
 你可以使用一个箭头函数来包裹一个事件处理器并传递参数：
 
-```jsx | pure
+```jsx
 <button onClick={() => this.handleClick(id)} />
 ```
 
 这等价于调用 `.bind` 函数：
 
-```jsx | pure
+```jsx
 <button onClick={this.handleClick.bind(this, id)} />
 ```
 
 除了这两种办法，你也可以传递参数给一个箭头函数：
 
-```jsx | pure
+```jsx
 <button onClick={this.handleClick(id)} />;
 handleClick = id => () => {
   console.log('Hello, your ticket number is', id);
 };
 ```
+{% endfolding %}
 
-## 16. React 中的合成事件是什么？
-
+{% folding yellow, 16. React 中的合成事件是什么？ %}
 `SyntheticEvent` 是基于浏览器本地事件的跨浏览器包装。它的 API 与浏览器的本地事件相同，包括 `stopPropagation()` 和 `preventDefault()`，但事件在所有浏览器中的表现均一致。
+{% endfolding %}
 
-## 17. 什么是内联条件表达式？
-
+{% folding yellow, 17. 什么是内联条件表达式？ %}
 你可以使用 JS 可用的 `if` 语句或三元表达式来有条件地渲染表达式。 除了这些方法之外，还可以通过将所有表达式括在花括号中然后在其后跟 JS 逻辑运算符 `&&` 来将任何表达式嵌入 JSX。
 
-```jsx | pure
+```jsx
 <h1>Hello!</h1>;
 {
   messages.length > 0 && !isLogin ? (
@@ -328,20 +327,20 @@ handleClick = id => () => {
   );
 }
 ```
+{% endfolding %}
 
-## 18. 什么是 `key` prop？在元素数组中使用它的好处是什么？
-
+{% folding yellow, 18. 什么是 `key` prop？在元素数组中使用它的好处是什么？ %}
 `key` 是当你创建一个元素数组时应该包含的一个特殊的字符串属性。`key` prop 会帮助 React 识别具体哪一项被修改、添加或被移除。
 
 通常，我们将数据中的 ID 用作 `key`：
 
-```jsx | pure
+```jsx
 const todoItems = todos.map(todo => <li key={todo.id}>{todo.text}</li>);
 ```
 
 如果呈现的项目没有稳定的 ID，退而求其次，我们可以将 `index` 作为 `key`：
 
-```jsx | pure
+```jsx
 const todoItems = todos.map((todo, index) => (
   <li key={index.toString()}>{todo.text}</li>
 ));
@@ -352,10 +351,11 @@ const todoItems = todos.map((todo, index) => (
 1. 如果列表项可能改变，不建议使用 `indexes` 作为 `keys`。这可能会对性能产生负面影响，并可能导致组件状态出现问题。
 2. 如果你将列表项提取为单独的组件，则在列表组件上应用 `keys` 而不是 `li` 标签。
 3. 如果列表项中不存在 `key` prop，则控制台中将出现警告消息。
+{% endfolding %}
 
-## 19. refs 有什么用？
-
+{% folding yellow, 19. refs 有什么用？ %}
 refs 用于返回对该元素的引用。在大多数情况下，应避免使用它们，但是，当你需要直接访问 DOM 元素或组件的实例时，它们会很有用。
+{% endfolding %}
 
 ## 20. 如何创建 refs？
 
@@ -363,7 +363,7 @@ refs 用于返回对该元素的引用。在大多数情况下，应避免使用
 
 1.这是最近添加的方法。使用 `React.createRef()` 方法创建 refs，并通过 ref 属性附加到 React 元素。为了在整个组件中使用 refs，只需将 ref 分配给构造函数中的 instance 属性。
 
-```jsx | pure
+```jsx
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -377,7 +377,7 @@ class MyComponent extends React.Component {
 
 2. 无论 React 版本如何，你都可以使用 ref 回调方法。例如，搜索栏组件的输入元素的访问方式如下。
 
-```jsx | pure
+```jsx
 class SearchBar extends Component {
   constructor(props) {
     super(props);
@@ -410,7 +410,7 @@ class SearchBar extends Component {
 
 _Ref 转发_ 是让某些组件可以使用它们接收的 `ref` 的特性，这些组件还可以进一步将其传递给子组件。
 
-```jsx | pure
+```jsx
 const ButtonElement = React.forwardRef((props, ref) => (
   <button ref={ref} className="CustomButton">
     {props.children}
@@ -467,7 +467,7 @@ class MyComponent extends Component {
 3. 他们不能和静态分析工具配合（比如 Flow）。Flow 无法猜测出框架 `this.refs` 上出现的字符串引用及其类型（可能不同）。 回调引用对静态分析更友好。
 4. 它无法像大多数人期望的那样使用“渲染回调”模式（例如）
 
-   ```jsx | pure
+   ```jsx
    class MyComponent extends Component {
      renderRow = index => {
        // This won't work. Ref will get attached to DataTable rather than MyComponent:
@@ -533,7 +533,7 @@ handleChange(event) {
 
 在下面的 `UserProfile` 组件中，`name` 输入被使用 `ref` 获取：
 
-```jsx | pure
+```jsx
 class UserProfile extends React.Component {
   constructor(props) {
     super(props);
@@ -636,7 +636,7 @@ HOC 可以用到很多场景中：
 
 您可以使用属性代理模式添加或编辑传递给组件的属性，如下所示：
 
-```jsx | pure
+```jsx
 function HOC(WrappedComponent) {
   return class Test extends Component {
     render() {
@@ -675,7 +675,7 @@ React API 中有许多方法可作为该属性。其中包括 `React.Children.ma
 
 children 的简单用法如下所示：
 
-```jsx | pure
+```jsx
 const MyDiv = React.createClass({
   render: function() {
     return <div>{this.props.children}</div>;
@@ -697,7 +697,7 @@ React JSX 中的注释和 JavaScript 的多行注释很像，但是用大括号�
 
 **单行注释：**
 
-```jsx | pure
+```jsx
 <div>
   {/* 这里是单行注释 */}
   {`Welcome ${user}, let's play React`}
@@ -706,7 +706,7 @@ React JSX 中的注释和 JavaScript 的多行注释很像，但是用大括号�
 
 **多行注释：**
 
-```jsx | pure
+```jsx
 <div>
   {/* Multi-line comments for more than
    one line */}
@@ -774,7 +774,7 @@ handleInputChange(event) {
 
 你需要确保在传递函数作为参数时，没有调用该函数。
 
-```jsx | pure
+```jsx
 render() {
   // 错误❌： handleClick 被调用而不是作为引用被传入
   return <button onClick={this.handleClick()}>{'Click Me'}</button>
@@ -783,7 +783,7 @@ render() {
 
 取而代之的是传递函数本身，不加圆括号。
 
-```jsx | pure
+```jsx
 render() {
   // 正确：handleClick 是作为一个引用传递的!
   return <button onClick={this.handleClick}>{'Click Me'}</button>
@@ -820,7 +820,7 @@ const SomeComponent = lazy(() => import('./IntermediateComponent.js'));
 
 `class` 是 JavaScript 的一个关键字，而 JSX 是 JavaScript 的一个扩展。这就是为什么 React 使用 `className` 而不是 `class` 的主要原因。传递一个字符串作为 `className` prop。
 
-```jsx | pure
+```jsx
 render() {
   return <span className={'menu navigation-menu'}>{'Menu'}</span>
 }
@@ -830,7 +830,7 @@ render() {
 
 这是 React 中常见的模式，用于一个组件返回多个元素。片段让你可以对一个 children 的列表进行分组，而无需在 DOM 中添加额外的节点。
 
-```jsx | pure
+```jsx
 render() {
   return (
     <React.Fragment>
@@ -844,7 +844,7 @@ render() {
 
 这里还有一个短语法可以用，但是很多工具不支持：
 
-```jsx | pure
+```jsx
 render() {
   return (
     <>
@@ -912,6 +912,8 @@ const App = (props) => {
 }
 ```
 
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ## 51. 如何在 React 中对 props 进行验证？
 
 当应用程序运行在开发模式时，React 会自动检查我们在组件上设置的所有 props，以确保它们具有正确的类型。如果类型不正确，React 会在控制台生成警告信息。由于对性能的影响，它在生产模式中被禁用。必需 props 是用 `isRequired` 定义的。
@@ -931,7 +933,7 @@ const App = (props) => {
 
 我们可以为 `User` 组件定义 `propTypes`，如下所示。
 
-```jsx | pure
+```jsx
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -956,7 +958,7 @@ class User extends React.Component {
 
 等效的函数式组件：
 
-```jsx | pure
+```jsx
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -1001,7 +1003,7 @@ User.propTypes = {
 
 如果一个类组件定义了一个新的生命周期方法 `componentDidCatch(error, info)` 或 `static getDerivedStateFromError()` ，它就成为一个错误边界。
 
-```jsx | pure
+```jsx
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
@@ -1030,7 +1032,7 @@ class ErrorBoundary extends React.Component {
 
 之后把它作为一个普通的组件使用。
 
-```jsx | pure
+```jsx
 <ErrorBoundary>
   <MyWidget />
 </ErrorBoundary>
@@ -1058,7 +1060,7 @@ React v15 使用 `unstable_handleError` 方法为错误边界提供了非常基�
 
 此方法用于将 React 元素渲染到提供的容器中的 DOM 中，并返回对组件的引用。如果 React 元素之前已渲染到容器中，它将对其执行更新，并且仅在必要时更改 DOM 以反映最新更改。
 
-```jsx | pure
+```jsx
 ReactDOM.render(element, container[, callback])
 ```
 
@@ -1093,7 +1095,7 @@ app.get('/', (req, res) => {
 
 在这个例子中，MyComponent 使用 `dangerouslySetInnerHTML` 属性来设置 HTML 标记：
 
-```jsx | pure
+```jsx
 function createMarkup() {
   return { __html: 'First &middot; Second' };
 }
@@ -1107,7 +1109,7 @@ function MyComponent() {
 
 `style` 属性接受一个小驼峰命名法属性的 JavaScript 对象，而不是一个 CSS 字符串。这与 DOM 风格的 JavaScript 属性一致，更有效率，并能防止 XSS 安全漏洞。
 
-```jsx | pure
+```jsx
 const divStyle = {
   color: 'blue',
   backgroundImage: `url(${imgUrl})`,
@@ -1139,7 +1141,7 @@ Handling events in React elements has some syntactic differences:
 
 在下面的代码片段中，每个元素的键都是基于索引的，而不是与被表示的数据相联系。这限制了 React 可以做的优化。
 
-```jsx | pure
+```jsx
 {
   todos.map((todo, index) => <Todo {...todo} key={index} />);
 }
@@ -1147,7 +1149,7 @@ Handling events in React elements has some syntactic differences:
 
 如果你使用元素数据作为唯一键，假设 `todo.id` 在这个列表中是唯一的，并且是稳定的，React 将能够对元素进行重新排序，而不需要像以前那样重新计算它们。
 
-```jsx | pure
+```jsx
 {
   todos.map(todo => <Todo {...todo} key={todo.id} />);
 }
@@ -1157,7 +1159,7 @@ Handling events in React elements has some syntactic differences:
 
 是的，在 `componentWillMount()` 方法中使用 `setState()` 是安全的。但同时，建议避免在`componentWillMount()` 生命周期方法中进行异步初始化。`componentWillMount()` 在挂载发生前立即被调用。它在 `render()` 之前被调用，因此在这个方法中设置状态不会触发重新渲染。避免在这个方法中引入任何副作用或订阅。我们需要确保组件初始化的异步调用发生在 `componentDidMount()` 而不是 `componentWillMount()`。
 
-```jsx | pure
+```jsx
 componentDidMount() {
   axios.get(`api/todos`).then((result) => {
     this.setState({
@@ -1173,7 +1175,7 @@ componentDidMount() {
 
 下面这个组件就不会显示更新的输入值。
 
-```jsx | pure
+```jsx
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -1192,7 +1194,7 @@ class MyComponent extends React.Component {
 
 在 render 方法中使用 props 将更新数值。
 
-```jsx | pure
+```jsx
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -1212,7 +1214,7 @@ class MyComponent extends React.Component {
 
 在某些情况下，你想根据一些状态来渲染不同的组件。JSX 不渲染 `false` 或 `undefined`，所以你可以使用条件性短路来渲染你的组件的某一部分，只有当某个条件为真时。
 
-```jsx | pure
+```jsx
 const MyComponent = ({ name, address }) => (
   <div>
     <h2>{name}</h2>
@@ -1223,7 +1225,7 @@ const MyComponent = ({ name, address }) => (
 
 如果你需要一个 `if-else` 条件，则使用三元运算符。
 
-```jsx | pure
+```jsx
 const MyComponent = ({ name, address }) => (
   <div>
     <h2>{name}</h2>
@@ -1238,7 +1240,7 @@ const MyComponent = ({ name, address }) => (
 
 比如说。
 
-```jsx | pure
+```jsx
 const ComponentA = () => (
   <ComponentB isDisplay={true} className={'componentStyle'} />
 );
@@ -1252,7 +1254,7 @@ const ComponentB = ({ isDisplay, ...domProps }) => (
 
 你可以对你的类组件进行装饰，这与将组件传入一个函数是一样的。**装饰器**是修改组件功能的灵活和可读的方式。
 
-```jsx | pure
+```jsx
 @setTitle('Profile')
 class Profile extends React.Component {
   //....
@@ -1282,7 +1284,7 @@ const setTitle = title => WrappedComponent => {
 
 例如，`moize` 库可以在另一个组件中对组件进行 memo 化。
 
-```jsx | pure
+```jsx
 import moize from 'moize';
 import Component from './components/Component'; // 本模块导出一个非 memo 组件
 
@@ -1310,7 +1312,7 @@ export default React.memo(MyFunctionComponent);
 
 React 已经具备了在 Nod e服务器上处理渲染的能力。有一个特殊版本的 DOM 渲染器，它与客户端的模式相同。
 
-```jsx | pure
+```jsx
 import ReactDOMServer from 'react-dom/server';
 import App from './App';
 
@@ -1449,7 +1451,7 @@ export default class TodoApp extends React.Component {
 
 例如，一个切换组件可以根据 `page` props 显示不同的页面。
 
-```jsx | pure
+```jsx
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
 import ServicesPage from './ServicesPage';
@@ -1523,7 +1525,7 @@ this.setState((prevState, props) => ({
 
 `React.StrictMode` 是一个有用的组件，用于暴露应用程序中的潜在问题。就像 `<Fragment>`，`<StrictMode>`不会渲染任何额外的 DOM 元素。它为其后代激活了额外的检查和警告。这些检查只适用于开发模式。
 
-```jsx | pure
+```jsx
 import React from 'react';
 
 function ExampleApplication() {
@@ -1581,7 +1583,7 @@ if (this.isMounted()) {
 
 如果你使用 JSX 渲染你的组件，该组件的名称必须以大写字母开头，否则 React 将抛出一个错误，即未识别的标签。这个惯例是因为只有 HTML 元素和 SVG 标签可以以小写字母开头。
 
-```jsx | pure
+```jsx
 class SomeComponent extends Component {
   // 掘金不止，代码不停
 }
@@ -1589,7 +1591,7 @@ class SomeComponent extends Component {
 
 你可以定义名称以小写字母开头的组件类，但当它被导入时，它应该是大写字母。在这里，小写就可以了。
 
-```jsx | pure
+```jsx
 class myComponent extends Component {
   render() {
     return <div />;
@@ -1601,7 +1603,7 @@ export default myComponent;
 
 而当导入另一个文件时，它应该以大写字母开始。
 
-```jsx | pure
+```jsx
 import MyComponent from './MyComponent';
 ```
 
@@ -1611,7 +1613,7 @@ import MyComponent from './MyComponent';
 
 例如，下面的标签可以被编译成一个有效的组件。
 
-```jsx | pure
+```jsx
 render(){
 return (
     <obj.component /> // `React.createElement(obj.component)`
@@ -1625,7 +1627,7 @@ return (
 
 例如，让我们看一下下面的属性。
 
-```jsx | pure
+```jsx
 <div mycustomattribute={'something'} />
 ```
 
@@ -1717,7 +1719,7 @@ class MyComponent extends React.Component {
 
 例如，对象的 `items` 数组被映射成组件的数组。
 
-```jsx | pure
+```jsx
 <tbody>
   {items.map(item => (
     <SomeComponent key={item.id} name={item.name} />
@@ -1727,7 +1729,7 @@ class MyComponent extends React.Component {
 
 但你不能用 `for` 循环来迭代。
 
-```jsx | pure
+```jsx
 <tbody>
 for (let i = 0; i < items.length; i++) {
   <SomeComponent key={items[i].id} name={items[i].name} />
@@ -1741,19 +1743,19 @@ for (let i = 0; i < items.length; i++) {
 
 React（或 JSX）不支持属性值内的变量插值。下面的表示方法就不能用了。
 
-```jsx | pure
+```jsx
 <img className="image" src="images/{this.props.image}" />
 ```
 
 但你可以把任何 JS 表达式放在大括号内作为整个属性值。所以下面的表达式是有效的。
 
-```jsx | pure
+```jsx
 <img className="image" src={'images/' + this.props.image} />
 ```
 
 使用模板字符串也可以。
 
-```jsx | pure
+```jsx
 <img className="image" src={`images/${this.props.image}`} />
 ```
 
@@ -1776,19 +1778,19 @@ ReactComponent.propTypes = {
 
 你不应该在引号内使用大括号，因为它将被计算为一个字符串。
 
-```jsx | pure
+```jsx
 <div className="btn-panel {this.props.visible ? 'show' : 'hidden'}">
 ```
 
 相反，你需要把大括号移到外面（别忘了在类名之间包括空格）。
 
-```jsx | pure
+```jsx
 <div className={'btn-panel ' + (this.props.visible ? 'show' : 'hidden')}>
 ```
 
 模板字符串也可以使用。
 
-```jsx | pure
+```jsx
 <div className={`btn-panel ${this.props.visible ? 'show' : 'hidden'}`}>
 ```
 
@@ -1806,14 +1808,14 @@ React 团队致力于将所有与 DOM 相关的功能提取到一个单独的库
 
 如果你试图用标准的 `for` 属性渲染一个绑定在文本输入上的 `<label>` 元素，那么它产生的 HTML 会缺少该属性，并在控制台打印出警告。
 
-```jsx | pure
+```jsx
 <label for={'user'}>{'User'}</label>
 <input type={'text'} id={'user'} />
 ```
 
 由于 `for` 在 JavaScript 中是一个保留关键字，我们可以使用 `htmlFor` 代替。
 
-```jsx | pure
+```jsx
 <label htmlFor={'user'}>{'User'}</label>
 <input type={'text'} id={'user'} />
 ```
@@ -1822,7 +1824,7 @@ React 团队致力于将所有与 DOM 相关的功能提取到一个单独的库
 
 你可以在常规 React 中使用展开语法。
 
-```jsx | pure
+```jsx
 <button style={{ ...styles.panel.button, ...styles.panel.submitButton }}>
   {'Submit'}
 </button>
@@ -1830,7 +1832,7 @@ React 团队致力于将所有与 DOM 相关的功能提取到一个单独的库
 
 如果你使用的是 React Native，那么你可以使用数组符号。
 
-```jsx | pure
+```jsx
 <button style={[styles.panel.button, styles.panel.submitButton]}>
   {'Submit'}
 </button>
@@ -1840,7 +1842,7 @@ React 团队致力于将所有与 DOM 相关的功能提取到一个单独的库
 
 你可以在 `componentDidMount()` 中监听 `resize` 事件，然后更新尺寸（`width` 和 `height`）。你应该在 `componentWillUnmount()` 方法中移除监听器。
 
-```jsx | pure
+```jsx
 class WindowDimensions extends React.Component {
 
   componentWillMount() {
@@ -1868,6 +1870,8 @@ class WindowDimensions extends React.Component {
   }
 }
 ```
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 101. `setState()` 和 `replaceState()` 方法之间的区别是什么？
 
@@ -1901,31 +1905,31 @@ removeItem(index) {
 
 在最新版本（>=16.2）中可以实现。以下是可用选项。
 
-```jsx | pure
+```jsx
 render() {
   return false
 }
 ```
 
-```jsx | pure
+```jsx
 render() {
   return null
 }
 ```
 
-```jsx | pure
+```jsx
 render() {
   return []
 }
 ```
 
-```jsx | pure
+```jsx
 render() {
   return <React.Fragment></React.Fragment>
 }
 ```
 
-```jsx | pure
+```jsx
 render() {
   return <></>
 }
@@ -1937,7 +1941,7 @@ render() {
 
 我们可以使用 `<pre>` 标签，这样可以保留 `JSON.stringify()` 的格式。
 
-```jsx | pure
+```jsx
 const data = { name: 'John', age: 42 };
 
 class User extends React.Component {
@@ -1957,7 +1961,7 @@ React 的理念是，props 应该是**不可变的**和**自上而下**的。这
 
 你可以通过为 `input` 元素创建 ref 并在 `componentDidMount()` 中使用它。
 
-```jsx | pure
+```jsx
 class App extends React.Component {
   componentDidMount() {
     if (this.nameInput) {
@@ -2014,7 +2018,7 @@ this.setState(prevState => ({
 
 你可以使用 `React.version` 来获取版本。
 
-```jsx | pure
+```jsx
 const REACT_VERSION = React.version;
 
 ReactDOM.render(
@@ -2098,7 +2102,7 @@ componentWillUnmount() {
 
 React 不会自动应用 CSS 厂商前缀。你需要手动添加 CSS 厂商前缀。
 
-```jsx | pure
+```jsx
 <div
   style={{
     transform: 'rotate(90deg)',
@@ -2112,7 +2116,7 @@ React 不会自动应用 CSS 厂商前缀。你需要手动添加 CSS 厂商前�
 
 你应该使用默认值来导出组件
 
-```jsx | pure
+```jsx
 import React from 'react';
 import User from 'user';
 
@@ -2149,7 +2153,7 @@ class MyComponent extends React.Component {
 
 1. 在 render 方法中创建 ref：
 
-```jsx | pure
+```jsx
 <input ref={input => (this.inputElement = input)} />
 ```
 
@@ -2163,8 +2167,7 @@ this.inputElement.click();
 
 如果你想在 React 中使用 `async`/`await`，你将需要 Babel 和 [transform-async-to-generator](https://babeljs.io/docs/en/babel-plugin-transform-async-to-generator) 插件。React Native 已经包含了 Babel 和一系列的转换功能。
 
-## 121. React 的常见文件夹结构是什么？
-
+{% folding green, 121. React 的常见文件夹结构是什么？ %}
 React 项目文件结构有两种常见做法。
 
 1. **按特性或路由分组：***
@@ -2213,13 +2216,13 @@ components/
 ├─ ProfileHeader.js
 └─ ProfileHeader.css
 ```
+{% endfolding %}
 
-## 122. 有哪些流行的动画包？
-
+{% folding green, 122. 有哪些流行的动画包？ %}
 React Transition Group 和 React Motion 是 React 生态系统中流行的动画包。
+{% endfolding %}
 
-## 123. 样式模块的好处是什么？
-
+{% folding green, 123. 样式模块的好处是什么？ %}
 我们建议避免在组件中硬编码样式值。任何可能在不同的 UI 组件中使用的值都应该被提取到它们自己的模块中。
 
 例如，这些样式可以被提取到一个单独的组件中。
@@ -2239,6 +2242,7 @@ export const space = [0, 8, 16, 32, 64];
 ```javascript
 import { space, colors } from './styles';
 ```
+{% endfolding %}
 
 {% folding green, 124. 有哪些流行的 React 专用 linter？ %}
 ESLint 是一个很流行的 JavaScript linter。有一些插件可以用来分析特定的代码风格。其中最常见的 React 插件是一个名为 `eslint-plugin-react` 的 npm 包。默认情况下，它将检查一些最佳实践，其规则是检查从迭代器中的键到一整套道具类型的东西。
@@ -2251,7 +2255,7 @@ ESLint 是一个很流行的 JavaScript linter。有一些插件可以用来分�
 
 例如，从 API 获取的雇员名单并设置本地状态。
 
-```jsx | pure
+```jsx
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -2299,7 +2303,7 @@ class MyComponent extends React.Component {
 {% folding green, 126. 什么是 render props？ %}
 **render props** 是一种简单的技术，使用一个 props 在组件之间共享代码，其值是一个函数。下面的组件使用渲染 props，它返回一个 React 元素。
 
-```jsx | pure
+```jsx
 <DataProvider render={data => <h1>{`Hello ${data.target}`}</h1>} />
 ```
 
