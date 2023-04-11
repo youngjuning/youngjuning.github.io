@@ -1,14 +1,14 @@
 ---
-title: 2023 Google Adsense 付款方式的正确设置
+title: 2023 Google Adsense 付款方式设置教程
 date: 2023-04-09 22:42:37
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681054201669.png
 description: 自2020年起，Google AdSense 已暂停使用西联汇款付款方式，而采用更为便捷的电汇方式进行付款。由于技术的不断发展，现在银行也都开发了APP，用户可以在线完成收款和结汇的操作。以下是以招商银行为例介绍 Google AdSense 收款方法
 categories:
   - [Google, Google Adsense]
 tags:
-  - Google
+  - Google Adsense
   - Google Adsense 付款方式
-  - 付款方式
+  - Google Adsense 收款方式
   - 招商银行外汇结汇
   - Google Adsense 电汇
 ---
