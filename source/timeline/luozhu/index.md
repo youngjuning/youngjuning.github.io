@@ -37,24 +37,33 @@ tags:
 ## 2023-04
 
 {% timeline %}
-<!-- timeline 2023-04-11 -->
-{% tabs 2023-04-11 %}
+<!-- timeline 2023-04-12 -->
+{% tabs 2023-04-12 %}
 <!-- tab 博客@fas fa-blog -->
-{% checkbox yellow, 博客增加币圈导航页面%}
 {% checkbox yellow, 所有博文加上广告 %}
 {% checkbox yellow, 迁移掘金两篇文章 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
 {% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
+<!-- endtab -->
+<!-- tab 随笔@fas fa-book -->
+<!-- endtab -->
+<!-- tab 其他@fas fa-stream -->
+{% checkbox green, SHINE 申请联盟营销 %}
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
+<!-- timeline 2023-04-11 -->
+{% tabs 2023-04-11 %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow, 博客增加币圈导航页面 %}
+<!-- endtab -->
+<!-- tab 学习@fas fa-book-open -->
+{% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
 币圈都在传抖音和微博可以查看 BTC 行情了，这和今天 BTC 破 30000 大关有关系吗？我觉得是有的，毕竟大陆的币圈人士还是很多的。
 ![抖音 BTC 趋势](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681195232963.png)
-<!-- endtab -->
-<!-- tab 其他@fas fa-stream -->
-{% checkbox red, 申请 SHINE 和 CIDER 的联盟账号 %}
-{% checkbox red, 挂 10 个商品到 H&Y You %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
