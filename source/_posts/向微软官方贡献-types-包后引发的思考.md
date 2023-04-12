@@ -10,8 +10,7 @@ tags:
   - DefinitelyTyped
   - dts-gen
   - dtslint
-  - @types
-  - @types/tuya-panel-kit
+  - tuya-panel-kit
   - 微软
 ---
 

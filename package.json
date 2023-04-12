@@ -8,7 +8,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo clean && hexo server --draft",
+    "server": "hexo clean && hexo server",
     "post": "hexo new",
     "draft": "hexo new draft"
   },

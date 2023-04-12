@@ -404,6 +404,9 @@ footer_beautify:
       - text: jsDelivr
         desrc: 本站 CDN 支持
         link: https://www.jsdelivr.com/
+      - text: Gallery
+        desrc: 本站图床支持
+        link: /gallery/
       - text: JS ORG
         desrc: 本站域名支持
         link: https://js.org/
