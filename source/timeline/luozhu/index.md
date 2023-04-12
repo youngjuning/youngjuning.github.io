@@ -27,14 +27,14 @@ tags:
 {% checkbox red, 研究如何通过 Adsterra 赚钱并产出一篇博客 %}
 {% checkbox red, H&Y You 商品详情页定制 %}
 {% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》 %}
+{% checkbox red, 使用 [有赞](https://www.youzan.com/) 创建一个美甲店铺 %}
+{% checkbox yellow, issues.js.org 网站雏形 %}
 {% endfolding %}
 
 {% folding blue, 洛竹收藏的一些网站，这里只是一个暂存区，最终都会整理到洛竹的导航 %}
 {% link 链捕手, https://www.chaincatcher.com/, https://www.chaincatcher.com/favicon.ico %}
 {% link Dogecoin, https://dogecoin.com/, https://dogecoin.com/favicon.ico %}
 {% link CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/favicon.svg %}
-{% link 2021 年最值得使用的 Node.js 框架, https://juejin.cn/post/6955402195311263751, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
-{% link 使用 rollup 打包 React Native 插件并发布, https://juejin.cn/post/6952331374065877022, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
 {% link 这个库让你轻松搞定复杂动画！, https://mp.weixin.qq.com/s/joT0KqM0fGUHZtbqCB2uWg %}
 {% checkbox green, [找贝网](https://www.zb-2.com/) <https://www.zb-2.com/favicon.ico> %}
 {% endfolding %}
@@ -50,11 +50,18 @@ tags:
 {% checkbox yellow, 博客增加币圈导航页面 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
+{% checkbox cyan, 《React 设计原理》第一章第一节 %}
 {% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
+**吸引力法则**
+
 我前几天运用秘密法则要求我的返佣链接有人注册，就在昨天有人主动找我要连接了，我非常的开心，这个法则真的是太神奇了。
+
+**当今赚大钱的两大杠杆**
+
+- 零边际成本杠杆： 创作和售卖边际成本为 0 的东西，比如课程、数据、App 会员、电影、跨境电商、广告联盟和联盟营销，要看看长远，现在入局别置身事外。所以我打算写一本小册《React Native 仿 Product Hunt 实战》
+- 联机杠杆：这个时代可借力的东西触手可及，一定要联机成长，联机去解决问题，联机去学习，联机去创造，联机去交流，联机去分享，联机去协作，联机去创业，联机去赚钱，联机去创造价值，联机去创造财富，联机去创造未来。
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
 {% checkbox green, SHINE 申请联盟营销 %}
