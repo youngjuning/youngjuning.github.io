@@ -1,12 +1,19 @@
 ---
 title: CSS 中的居中操作
-date: 2020-06-03 13:35:13
+description: 居中的效果是Web开发中常见的需求，几乎和阴影、圆角可以并列为产品三大法宝，本文的目的是捋顺开发中常用的居中计较，方便记忆和日后查阅。为了方便演示，本文所有 demo 使用 React 的 CSS-in-JS 语法完成。
 cover: https://i.loli.net/2020/06/03/RVGzPKoXgYINsAc.jpg
+date: 2020-06-03 13:35:13
 categories:
   - 前端
 tags:
   - CSS3
+  - flex
+  - lineHeight
+  - textAlign
+  - height
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 居中的效果是Web开发中常见的需求，几乎和阴影、圆角可以并列为产品三大法宝，本文的目的是捋顺开发中常用的居中计较，方便记忆和日后查阅。为了方便演示，本文所有 demo 使用 React 的 CSS-in-JS 语法完成。
 

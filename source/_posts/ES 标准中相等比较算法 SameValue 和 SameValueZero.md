@@ -1,11 +1,18 @@
 ---
 title: ES 标准中相等比较算法 SameValue 和 SameValueZero
+description: JavaScript 对值的相等判断有很多不同的算法，== 只是最常用的一种。由于 NaN 和正负零的涉入，除了 == 和 === 之外还有 SameValue 和 SameValueZero 算法。
 date: 2020-02-05 10:35:30
 categories:
-  - 前端
+  - [前端,JavaScript]
 tags:
   - JavaScript
+  - ES6
+  - SameValue
+  - SameValueZero
+  - NaN
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 JavaScript 对值的相等判断有很多不同的算法，`==` 只是最常用的一种。由于 `NaN` 和正负零的涉入，除了 `==` 和 `===` 之外还有 SameValue 和 SameValueZero 算法。
 

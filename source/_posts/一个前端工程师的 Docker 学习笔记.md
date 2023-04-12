@@ -1,13 +1,24 @@
 ---
 title: 一个前端工程师的 Docker 学习笔记
-date: 2020-03-31 00:23:31
+description: Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威力，极大提高了应用的维护效率，降低了云计算应用开发的成本！使用 Docker，可以让应用的部署、测试和分发都变得前所未有的高效和轻松！
 cover: https://i.loli.net/2020/03/31/UI9JSTCENRvqDwY.png
+date: 2020-03-31 00:23:31
 categories:
   - 运维
 tags:
   - 笔记
   - Docker
+  - 洛竹的笔记
+  - DevOps
+  - Container
+  - 容器
+  - daemon
+  - 守护进程
+  - qshell
+  - crontab
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威力，极大提高了应用的维护效率，降低了云计算应用开发的成本！使用 Docker，可以让应用的部署、测试和分发都变得前所未有的高效和轻松！
 
@@ -15,7 +26,7 @@ Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威�
 
 本文是笔者以一个前端工程师的视角学习 Docker 过程中的笔记，如果对您有所帮助，荣幸之至。
 
-# 基础入门
+## Docker 是什么
 
 **Docker** 使用 `Google` 公司推出的 [Go 语言](https://golang.org/) 进行开发实现，基于 `Linux` 内核的 [cgroup](https://zh.wikipedia.org/wiki/Cgroups)，[namespace](https://en.wikipedia.org/wiki/Linux_namespaces)，以及 [OverlayFS](https://docs.docker.com/storage/storagedriver/overlayfs-driver/) 类的 [Union FS](https://en.wikipedia.org/wiki/Union_mount) 等技术，对进程进行封装隔离，属于 [操作系统层面的虚拟化技术](https://en.wikipedia.org/wiki/Operating-system-level_virtualization)。由于隔离的进程独立于宿主和其它的隔离的进程，因此也称其为容器。最初实现是基于 [LXC](https://linuxcontainers.org/lxc/introduction/)，从 0.7 版本以后开始去除 `LXC`，转而使用自行开发的 [libcontainer](https://github.com/docker/libcontainer)，从 1.11 开始，则进一步演进为使用 [runC](https://github.com/opencontainers/runc) 和 [containerd](https://github.com/containerd/containerd)。
 
@@ -46,7 +57,7 @@ DevOps 的引入能对产品交付、[测试](https://zh.wikipedia.org/wiki/测�
 
 如下图，虚拟机是在硬件层面实现虚拟化，需要额外的虚拟机管理应用和虚拟机操作系统层。Docker容器是在操作系统层面上实现虚拟化，直接复用本地主机的操作系统，因此更加轻量级。
 
-![](https://i.loli.net/2020/03/31/mZiyHL2kGAgrMFx.png)
+![Docker 与虚拟机比较](https://i.loli.net/2020/03/31/mZiyHL2kGAgrMFx.png)
 
 ### Docker核心概念
 
@@ -224,7 +235,7 @@ $ systemctl daemon-reload
 $ systemctl restart docker.service
 ```
 
-## 使用Docker镜像
+## 使用 Docker 镜像
 
 ### 获取镜像
 
@@ -574,7 +585,7 @@ $ docker run -d -P \
 ```shell
 $ docker run -d -P \
     --name web \
-    -v my-vol:/wepapp \
+    -v my-vol:/webapp \
     training/webapp \
     python app.py
 ```
@@ -589,7 +600,7 @@ $ docker run -d -P \
 
 ![](https://i.loli.net/2020/04/11/hmlMV4QA2opON9j.png)
 
-# 应用安装
+## 应用安装
 
 ## GitLab 及其官方镜像
 
@@ -628,19 +639,7 @@ $ docker-compose pull
 $ docker-compose up -d
 ```
 
-## 待实践
-
-- SonarQube
-- Nexus Repository Manager
-- ShowDoc
-- Verdaccio
-- EasyMock
-- Sentry
-- Ansible
-- code-push-server
-- BugOut
-
-# Docker 相关的定时任务
+## Docker 相关的定时任务
 
 ```
 # crontab -e
@@ -649,8 +648,3 @@ $ docker-compose up -d
 ```
 
 > qshell 同步文件到七牛云的配置请参考[备份到七牛云](https://juejin.im/post/5e81e2db518825737b4ad911#heading-59)
-
-# 扩展阅读
-
-- [DevOps 知识平台 Ledge](https://devops.phodal.com/)
-- [jenkins+docker 持续集成](https://juejin.im/post/5b6af759e51d451951138eb4#heading-7)

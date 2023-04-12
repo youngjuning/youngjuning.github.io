@@ -1,21 +1,28 @@
 ---
-title: 《JavaScript高级程序设计》阅读笔记
+title: 《JavaScript高级程序设计》学习笔记
+description: 本文是《JavaScript高级程序设计》的学习笔记，主要记录了一些重要的知识点。
 date: 2020-02-06 14:33:23
 cover: https://i.loli.net/2020/02/06/nKlMCA4agtzHc6R.png
 categories:
-  - 前端
+  - [前端, JavaScript]
 tags:
   - 笔记
   - javascript
 ---
 
-## 1. JavaScript 由哪些部分组成？
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
+{% note danger modern %}
+All in One Post 的学习笔记不可持续且可读性差，之后不会再做此类尝试。
+{% endnote %}
+
+## JavaScript 由哪些部分组成？
 
 - ECMAScript：由 ECMA-262d 定义并提供核心功能。
 - 文档对象模型（DOM，Document Object Model）：提供与网页交互的方法和接口
 - 浏览器对象模型（BOM，Browser Object Model）：提供与浏览器交互的方法和接口
 
-## 2. ECMA-262 到底定义了什么？
+## ECMA-262 到底定义了什么？
 
 - 语法
 - 类型
@@ -27,7 +34,7 @@ tags:
 
 ECMAScript 只是对实现这个规范描述的所有方面的一个抽象，它并不是一个完整的语言。JavaScript 实现了 ECMAScrip，而 Adobe ActionScript 同样实现了 ECMAScript。
 
-## 3. JavaScript 标识符
+## JavaScript 标识符
 
 所谓标识符，就是变量、函数、函数参数或对象属性的名称。标识符可以由一或多个下列字符组成：
 
@@ -38,7 +45,7 @@ ECMAScript 只是对实现这个规范描述的所有方面的一个抽象，它
 
 > 注意：关键字、保留字、true、false、null 不能作为标识符。
 
-## 4. var 声明作用域
+## var 声明作用域
 
 使用 var 操作符定义的变量会成为包含的函数的局部变量，在函数内部使用，函数结束后变量就会被销毁。
 
@@ -52,7 +59,7 @@ console.log(message); // ReferenceError: message is not defined
 
 > 注意：去掉之前的 var 操作符之后，message 就变成了全局变量。只要调用一次函数 `test()`，就会定义这个变量，并且可以在函数外部访问到。
 
-## 5. var 声明提升
+## var 声明提升
 
 使用 `var` 声明的变量会被自动提升到函数作用域顶部：
 
@@ -75,7 +82,7 @@ function foo() {
 
 这就是所谓的“提升”（hoist），也就是把所有变量声明都拉到函数作用域的顶部。
 
-## 6. var 重复声明
+## var 重复声明
 
 反复多次使用 `var` 声明同一个变量也没有问题：
 

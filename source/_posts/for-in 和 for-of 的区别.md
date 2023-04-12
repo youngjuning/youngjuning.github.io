@@ -1,19 +1,25 @@
 ---
 title: for-in 和 for-of 的区别
-date: 2022-04-12 17:13:30
+description: 本文详细介绍了 for-in 和 for-of 的区别，包括迭代的输入不同、迭代的输出不同、Array、Set、Map 等。
 cover: https://s2.loli.net/2022/04/12/cIu5YhaebGpqfX7.png
+date: 2022-04-12 17:13:30
 categories:
   - [前端, JavaScript]
 tags:
   - 面试题
+  - for...in
+  - for...of
+  - JavaScript Array
+  - JavaScript Map
+  - JavaScript Set
 ---
 
-# 迭代的输入不同
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
+## 迭代的输入不同
 
 - `for...in` 可以对任何对象进行操作；它通常被用作检查对象的属性。
 - `for...of` 只能对可迭代对象进行操作；它通常被用作迭代数组的元素。
-
-## 代码示例
 
 ```js
 var obj = {
@@ -31,12 +37,10 @@ for (var value of obj) { // Uncaught TypeError: obj is not iterable
 }
 ```
 
-# 迭代的输出不同
+## 迭代的输出不同
 
 - `for...in` 返回被迭代对象的键列表
 - `for...of` 返回被迭代对象的数字属性的值列表
-
-## 代码示例
 
 ### Array
 
@@ -55,7 +59,7 @@ for (let i of list) {
 
 ### Set
 
-![](https://s2.loli.net/2022/04/12/RycBMqHSUPr8uXg.png)
+![JavaScript Set](https://s2.loli.net/2022/04/12/RycBMqHSUPr8uXg.png)
 
 ```js
 let pets = new Set(['cat', 'dog', 'bat']);
@@ -72,7 +76,7 @@ for (let pet of pets) {
 
 ### Map
 
-![](https://s2.loli.net/2022/04/12/x3WkK54cEUq2pDn.png)
+![JavaScript Map](https://s2.loli.net/2022/04/12/x3WkK54cEUq2pDn.png)
 
 ```js
 var pets = new Map([["1", "cat"],["2", "dog"],["3", "bat"]]);

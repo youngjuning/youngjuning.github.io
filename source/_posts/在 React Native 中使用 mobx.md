@@ -1,13 +1,16 @@
 ---
 title: 在 React Native 中使用 Mobx
-date: 2020-01-29 20:46:38
+description: Mobx 是简单、可扩展的状态管理，React 和 MobX 是一对强力组合。React 通过提供机制把应用状态转换为可渲染组件树并对其进行渲染。而 MobX 提供机制来存储和更新应用状态供 React 使用。
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202109241156069.png
+date: 2020-01-29 20:46:38
 categories:
   - [前端, React Native]
 tags:
   - Mobx
   - React Native
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 Mobx 是简单、可扩展的状态管理，React 和 MobX 是一对强力组合。React 通过提供机制把应用状态转换为可渲染组件树并对其进行渲染。而 MobX 提供机制来存储和更新应用状态供 React 使用。
 

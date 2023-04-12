@@ -1,11 +1,17 @@
 ---
 title: wx-promise-pro
 date: 2020-02-18 21:57:59
+description: wx-promise-pro 是一个 强大、优雅的小程序异步库🚀 小程序 promise 插件
 categories:
-  - 前端
+  - [前端, 微信小程序]
 tags:
   - 微信小程序
+  - 微信小程序异步库
+  - 微信小程序promise
+  - 微信小程序async/await
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 ✨强大、优雅的小程序异步库🚀 小程序promise
 

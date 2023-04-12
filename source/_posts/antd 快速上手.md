@@ -1,13 +1,19 @@
 ---
-title: antd 快速上手
-date: 2020-03-04 04:17:10
+title: Antd 快速上手教程
+description: 以笔者的经验来看，Ant Design 设计体系下的产品设计理念、使用方式、底层技术、周边工具都保持着高度一致，工具不是越多越好，有一套好用顺手的就行，UI 框架千千万，你不可能都学一遍。Ant Design 无疑能够减少你的学习成本。
 cover: https://i.loli.net/2020/03/04/hK2MgsYGvuayp7Q.png
+date: 2020-03-04 04:17:10
 categories:
-  - 前端
+  - [前端, React]
 tags:
   - antd
-  - UI框架
+  - UI 框架
+  - Ant Design
+  - babel-plugin-import
+  - babel
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 `antd` 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
 
@@ -15,7 +21,7 @@ tags:
 
 ## Ant Design 设计体系
 
-以笔者的经验来看，Ant Design 设计体系下的产品设计理念、使用方式、底层技术、周边工具都保持着高度一致，工具不是越多越好，有一套好用顺手的就行，UI框架千千万，你不可能都学一遍。Ant Design 无疑能够减少你的学习成本。
+以笔者的经验来看，Ant Design 设计体系下的产品设计理念、使用方式、底层技术、周边工具都保持着高度一致，工具不是越多越好，有一套好用顺手的就行，UI 框架千千万，你不可能都学一遍。Ant Design 无疑能够减少你的学习成本。
 
 - 设计
   - 设计价值观

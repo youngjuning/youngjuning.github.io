@@ -1,12 +1,16 @@
 ---
-title: echarts 开发技巧
+title: Echarts 开发技巧
+description: 这里记录了一些实用的 Echarts 开发技巧
 date: 2020-06-05 14:05:24
 categories:
   - 前端
 tags:
   - echarts
   - 可视化
+  - 开发技巧
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 ## 柱状图颜色渐变
 

@@ -1,16 +1,18 @@
 ---
-title: antd 开发技巧
+title: Antd 开发技巧
 date: 2020-06-05 16:59:43
 categories:
-  - 前端
+  - [前端, React]
 tags:
   - antd
   - React
+  - Form 表单
+  - Input
 ---
 
 ## Form 表单
 
-### 让Input 组件自动获取焦点
+### 让 Input 组件自动获取焦点
 
 添加 `autoFocus` 属性：
 
@@ -102,7 +104,7 @@ const handleTableChange = async (pagination, filters, sorter) => {
 
 ## Tooltip
 
-### 如何更改ant-tooltip组件的文本颜色和背景颜色
+### 如何更改 ant-tooltip 组件的文本颜色和背景颜色
 
 > 解决办法来自: https://www.coder.work/article/3437880
 
@@ -123,7 +125,7 @@ const handleTableChange = async (pagination, filters, sorter) => {
 
 ## Icon
 
-### 自定义svg图标
+### 自定义 svg 图标
 
 > 解决办法参考自: https://blog.csdn.net/c5211314963/article/details/103371845
 
@@ -170,7 +172,7 @@ export default props => <Icon component={() => <PointIconSvg {...props} />} />;
 
 ## Button
 
-### 点击动画边框css清除
+### 点击动画边框 css 清除
 
 ```css
 :global{

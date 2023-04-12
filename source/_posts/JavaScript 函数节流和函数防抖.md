@@ -1,12 +1,18 @@
 ---
-title: JavaScript 函数节流和函数防抖
-date: 2020-02-13 20:33:46
+title: JavaScript 函数节流与函数防抖
+description: 在前端开发中有一部分的用户行为会频繁地触发事件执行，而对于 DOM 操作、资源加载等耗费性能的处理，很可能导致界面卡顿，甚至浏览器的崩溃，JavaScript 函数节流与函数防抖就是为了解决类似需求应运而生的。
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202109241207550.png
+date: 2020-02-13 20:33:46
 categories:
-  - 前端
+  - [前端, JavaScript]
 tags:
-  - JavaScript
+  - JavaScript 函数防抖
+  - JavaScript 函数节流
+  - JavaScript throttle
+  - JavaScript debounce
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 在前端开发中有一部分的用户行为会频繁地触发事件执行，而对于 DOM 操作、资源加载等耗费性能的处理，很可能导致界面卡顿，甚至浏览器的崩溃，函数节流（`throttle`）和函数防抖（`debounce`）就是为了解决类似需求应运而生的。
 

@@ -1,11 +1,19 @@
 ---
 title: JavaScript 浅比较和深比较
+description: 本文介绍了 JavaScript 中的浅比较和深比较
 date: 2020-02-05 14:33:23
 categories:
-  - 前端
+  - [前端, JavaScript]
 tags:
-  - JavaScript
+  - JavaScript 浅比较
+  - JavaScript 深比较
+  - JavaScript 基本类型
+  - JavaScript 引用类型
+  - JavaScript 原始类型
+  - JavaScript 原始值
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 ## 基本类型和引用类型的值
 

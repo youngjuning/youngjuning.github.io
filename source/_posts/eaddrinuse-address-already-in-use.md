@@ -1,7 +1,8 @@
 ---
 title: '「已解决」EADDRINUSE: address already in use'
-date: 2023-03-10T10:25:43+08:00
+description: '本文介绍了如何解决 EADDRINUSE: address already in use'
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678415328290.png
+date: 2023-03-10T10:25:43+08:00
 categories:
   - [洛竹翻译计划]
   - [issues]
@@ -13,7 +14,9 @@ tags:
   - 进程
 ---
 
-# 问题
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
+## 问题
 
 当你尝试重启一个 Node 应用时，上一个应用没有正确关闭，你可能会看到一个“listen EADDRINUSE: address already in use”错误，例如：
 
@@ -43,27 +46,27 @@ tags:
 [0] [nodemon] app crashed - waiting for file changes before starting...
 ```
 
-# 问题背后的原因
+## 问题背后的原因
 
 `process.on('exit', ...)` 不会在进程崩溃或被杀死时调用。它只在事件循环结束时调用，因为 `server.close()` 会结束事件循环（它仍然必须等待当前运行的堆栈），所以将其放在 exit 事件中是没有意义的。
 
 > 译者注：有时候直接关闭 vscode 会导致进程没有正确关闭，这时候也可能会出现这个问题。
 
-# 解决方案
+## 解决方案
 
 该应用程序的正确修复是
 
 - 在 `server.listen()` 之前检查端口是否已经被占用
 - 在崩溃时，可以使用 `process.on('uncaughtException', ..)` 进行处理。
-- 在 kill 操作上，可以使用 `process.on('SIGTERM', ..)` 进行处理。
+- 在 `kill` 操作上，可以使用 `process.on('SIGTERM', ..)` 进行处理。
 
-当出现 EADDRINUSE 问题时，为了解决它，您需要手动终止该进程。为此，您需要找到进程的进程 ID（PID）。您知道该进程占用了机器或服务器上的特定端口。
+当出现 EADDRINUSE 问题时，为了解决它，你需要手动终止该进程。为此，你需要找到进程的进程 ID（PID）。
 
 ## 手动杀死进程
 
 ### Mac/Linux
 
-找到与该端口关联的进程ID（PID）
+找到与该端口关联的进程 ID（PID）
 
 ```sh
 $ lsof -i tcp:3000

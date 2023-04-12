@@ -1,8 +1,8 @@
 ---
 title: Antd Descriptions 组件隐藏 label 的冒号
-date: 2023-03-16 15:41:41
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678952807676.png
 description: 本文介绍了如何隐藏 antd Descriptions 组件 label 后面的冒号。
+date: 2023-03-16 15:41:41
 categories:
   - [issues, antd]
   - [前端, React]
@@ -11,9 +11,12 @@ tags:
   - descriptions
   - antd descriptions
   - 前端开发
+  - Descriptions
 ---
 
-# 问题
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
+## 问题
 
 在使用 antd 的 Descriptions 组件时，发现 label 后面总是有一个冒号，如下图所示：
 
@@ -30,7 +33,7 @@ tags:
 
 正常来说是没问题的，但是 UI 看着不顺眼，走查的时候要求去掉，但是发现没有相关属性可以配置。
 
-# 解决方案
+## 解决方案
 
 直接改 antd 的 css 样式来隐藏即可：
 
@@ -42,9 +45,9 @@ tags:
 }
 ```
 
-# 扩展
+## 扩展
 
-## 自定义 label 和 content 的 padding
+### 自定义 label 和 content 的 padding
 
 同样是因为 UI 走查看不顺眼，要求把 label 和 content 的 padding 值改为 4px，可以通过修改 antd 的样式来实现：
 

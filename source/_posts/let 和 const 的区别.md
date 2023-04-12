@@ -1,12 +1,16 @@
 ---
 title: let 和 const 的区别
+description: let 与 const 都是只在声明所在的块级作用域内有效。
 date: 2020-02-07 18:49:11
 categories:
-  - 前端
+  - [前端,JavaScript]
 tags:
   - ES6
-  - JavaScript
+  - let
+  - const
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 `let` 与 `const` 都是只在声明所在的块级作用域内有效。
 

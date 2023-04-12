@@ -3,9 +3,10 @@ title: JavaScript 隐式类型转换之相等操作符
 date: 2022-04-16 17:32:32
 cover: https://s2.loli.net/2022/04/17/8l1Me5Vf9ZE7Lqh.png
 categories:
-  - 前端
+  - [前端, JavaScript]
 tags:
-  - JavaScript
+  - JavaScript 隐式类型转换
+  - JavaScript 相等操作符
 ---
 
 隐式类型转换多存在于使用 `==` 进行比较的场景，例如：
