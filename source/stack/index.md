@@ -18,7 +18,9 @@ tags:
 
 {% galleryGroup '站长导航' '站长工具、建站工具、Hexo 插件和主题' /webmaster/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654863950.png %}
 
-{% galleryGroup '前端导航' '前端面试、React 全家桶、React Native 全家桶、调试工具、图标、在线工具' /frontend/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681090797510.png %}
+{% galleryGroup '币圈导航' '币圈导航网站提供加密世界常用网址导航，包含各类土狗币、空投等相关查询工具。' /crypto/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679324364526.png %}
+
+{% galleryGroup '前端导航' '前端面试、React 全家桶、React Native 全家桶、调试工具、图标、在线工具' /frontend/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679324540009.png %}
 
 {% galleryGroup '工具导航' '办公工具、人工智能、抢拍脚本' /tool/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654550126.png %}
 

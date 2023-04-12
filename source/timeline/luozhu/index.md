@@ -31,8 +31,6 @@ tags:
 {% endfolding %}
 
 {% folding blue, 洛竹收藏的一些网站，这里只是一个暂存区，最终都会整理到洛竹的导航 %}
-{% link 链捕手, https://www.chaincatcher.com/, https://www.chaincatcher.com/favicon.ico %}
-{% link Dogecoin, https://dogecoin.com/, https://dogecoin.com/favicon.ico %}
 {% link CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/favicon.svg %}
 {% link 这个库让你轻松搞定复杂动画！, https://mp.weixin.qq.com/s/joT0KqM0fGUHZtbqCB2uWg %}
 {% checkbox green, [找贝网](https://www.zb-2.com/) <https://www.zb-2.com/favicon.ico> %}
@@ -49,7 +47,8 @@ tags:
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan, text %}
+{% checkbox cyan checked, 《React 设计原理》第一章第二节 %}
+{% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
 <!-- endtab -->
@@ -62,12 +61,11 @@ tags:
 {% tabs 2023-04-12 %}
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow checked, 博文加上头部广告 %}
-{% checkbox yellow, 博客增加币圈导航页面 %}
+{% checkbox yellow checked, 博客增加币圈导航页面 %}
 {% checkbox yellow checked, 前端框架如何描述和组织 UI 与逻辑 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan checked, 《React 设计原理》第一章第一节 %}
-{% checkbox cyan checked, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
 **吸引力法则**

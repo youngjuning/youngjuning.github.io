@@ -1,0 +1,38 @@
+[
+  {
+    "class_name": "加密货币",
+    "class_desc": "排名前十的加密货币",
+    "link_list": [
+      {
+        "link": "https://coinmarketcap.com/zh/currencies/bitcoin/",
+        "name": "Bitcoin（BTC）",
+        "avatar": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
+        "descr": "比特币是一种去中心化的加密货币。在2008年发布的白皮书中，由某个人或某个群体化名为中本聪（Satoshi Nakamoto） ，首度探讨了比特币的机制。2009年1月，比特币正式问世。"
+      },
+      {
+        "link": "https://coinmarketcap.com/zh/currencies/ethereum/",
+        "name": "Ethereum（ETH）",
+        "avatar": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+        "descr": "以太坊是一个去中心化开源区块链系统，它拥有自己的原生加密货币——以太币。以太坊还是很多其他加密货币的交易平台，同时它也可以执行去中心化智能合约。"
+      },
+      {
+        "link": "https://coinmarketcap.com/zh/currencies/dogecoin/",
+        "name": "Dogecoin（Doge）",
+        "avatar": "https://dogecoin.com/favicon.ico",
+        "descr": "狗狗币（DOGE）的名称源于网络流行语“DOGE”，它的logo上有一只柴犬。Telsa公司的CEO埃隆·马斯克曾数次发推说狗狗币是他的最爱。"
+      }
+    ]
+  },
+  {
+    "class_name": "币圈资讯",
+    "class_desc": "币圈一些实用的获取资讯的工具",
+    "link_list": [
+      {
+        "link": "https://www.chaincatcher.com/",
+        "name": "链捕手",
+        "avatar": "https://www.chaincatcher.com/favicon.ico",
+        "descr": "链捕手为区块链技术爱好者与项目决策者提供NFT、Web3社交、DID、Layer2等专业的资讯与研究内容，Chain Catcher输出对Scroll、Sui、ENS等项目的思考，拓宽读者对区块链与数字经济认知的边界。"
+      }
+    ]
+  }
+]
