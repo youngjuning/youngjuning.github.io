@@ -1,11 +1,17 @@
 ---
 title: 使用 git-filter-branch 删除单个文件及其相关的 commit 信息
 date: 2020-11-15 19:55
+description: 对于程序员来说，公司就像是工地，代码就是我们的钢筋水泥。那在工地什么最重要呢？没错就是安全生产。本文要讨论的是开发中的合规安全。
 categories:
   - 工具
 tags:
   - git
+  - git-filter-repo
+  - git-filter-branch
+  - git-filter
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 ## 前言
 

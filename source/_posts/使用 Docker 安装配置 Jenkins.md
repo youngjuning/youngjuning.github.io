@@ -1,12 +1,16 @@
 ---
-title: 使用Docker安装配置Jenkins
+title: 使用 Docker 安装配置 Jenkins
 date: 2020-05-08 18:16:43
+description: 本文介绍了如何通过 Docker 安装配置 Jenkins
 categories:
   - 运维
 tags:
   - android
   - Jenkins
+  - docker
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 Docker 安装配置请参考我的另一篇文章: https://juejin.im/post/5e839f2851882573ab44f1b4#heading-11
 

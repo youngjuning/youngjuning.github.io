@@ -1,14 +1,21 @@
 ---
 title: 使用 react-native-amap-geolocation 接入高德地图定位
+description: react-native-amap-geolocation 这款插件接入了高德地图定位模块。支持 Android + iOS，提供尽可能完善的原生接口， 同时提供符合 Web 标准的 Geolocation API。
 date: 2020-03-17 16:05:44
 categories:
   - [前端, React Native]
 tags:
   - amap
   - React Native
+  - 高德地图
+  - 定位
+  - react-native-amap-geolocation
+  - react-native
 ---
 
-react-native-amap-geolocation这款插件接入了高德地图定位模块。支持 Android + iOS，提供尽可能完善的原生接口， 同时提供符合 Web 标准的 Geolocation API。
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
+react-native-amap-geolocation 这款插件接入了高德地图定位模块。支持 Android + iOS，提供尽可能完善的原生接口， 同时提供符合 Web 标准的 Geolocation API。
 
 > 本文基于 react-native 0.60 以上版本！
 

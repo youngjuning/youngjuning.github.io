@@ -1,5 +1,6 @@
 ---
-title: 写给前端的Linux实战教程
+title: 写给前端的 Linux 实战教程
+description: 本文主要讲解了写给前端的 Linux 实战教程，简单易懂，又有实战操作，对你有一定的参考价值，需要的朋友可以学习下。
 date: 2020-03-28 20:39:42
 cover: https://i.loli.net/2020/03/30/rzVCW97GcjAa81k.png
 categories:
@@ -7,7 +8,14 @@ categories:
 tags:
   - Ubuntu
   - Linux
+  - 阿里云
+  - 腾讯云
+  - 华为云
+  - GNU
+  - ssh
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 笔者使用的是 AliYun 服务器 ECS，镜像选择的是 Ubuntu，Ubuntu的详细版本信息是：`Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-91-generic x86_64)`，如何购买云服务器不在本文讨论范围内，如果只是学习，那你完全可以使用 virtualbox 安装 Ubuntu。
 

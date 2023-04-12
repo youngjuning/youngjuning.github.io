@@ -20,6 +20,8 @@ tags:
   - 金融科技
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 🌟 来跟我一起组团睡觉呀！睡觉也能赚钱！ARB 上首款睡眠 App，GoSleep 公测上线！颠覆你的睡眠体验！
 不用买NFT也可以玩，成功睡眠15天，即可获得等值 $10U token 下
 

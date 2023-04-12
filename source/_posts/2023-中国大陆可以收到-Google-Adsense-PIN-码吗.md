@@ -16,11 +16,11 @@ tags:
   - 谷歌地址验证最低限额
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 ![Google Adsense PIN 码](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681044391871.jpeg)
 
 为确保你的帐号安全无虞，在向你发放任何付款之前，谷歌会要求你先验证地址。验证地址的 PIN 码会以国际平信的方式邮寄给你。那么 2023 年中国大陆还能收到 PIN 码吗？答案是肯定的，只不过有一些需要注意的细节。
-
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 地址验证的工作原理
 

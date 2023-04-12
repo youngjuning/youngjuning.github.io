@@ -1,12 +1,19 @@
 ---
 title: 使用 wml 进行模块调试
+description: 前端模块开发已经成为了开发标准。模块开发带来的一大便利就是让我们可以跨页面甚至跨应用复用代码。当我们跨应用复用模块时，就需要借助 npm 把模块发布出去供各个系统调用。今天介绍的 wml 是一个进行模块调试的利器。
 date: 2020-07-10 16:15:07
 cover: https://i.loli.net/2020/07/10/U9HfpMmCqe3ZV25.jpg
 categories:
 	- 前端
 tags:
 	- vant
+  - wml
+  - 模块调试
+  - 组件调试
+  - 前端组件化
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 前端模块开发已经成为了开发标准。模块开发带来的一大便利就是让我们可以跨页面甚至跨应用复用代码。当我们跨应用复用模块时，就需要借助 npm 把模块发布出去供各个系统调用。今天介绍的 wml 是一个进行模块调试的利器。
 

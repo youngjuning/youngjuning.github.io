@@ -1,5 +1,6 @@
 ---
 title: 玩转 React Native 自定义字体
+description: 本文主要讲解了如何在 React Native 中使用自定义字体，以及如何在 iOS 和 Android 中使用自定义字体。
 date: 2020-02-29 16:52:39
 cover: https://i.loli.net/2020/02/29/4AacpxzRh8nfY2B.png
 categories:
@@ -8,6 +9,8 @@ tags:
   - React Native
   - 掘金
 ---
+
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 1. 下载[免费商用字体](http://hao.ziticq.com/)
 
