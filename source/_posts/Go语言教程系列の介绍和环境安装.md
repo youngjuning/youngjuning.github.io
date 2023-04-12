@@ -15,6 +15,8 @@ tags:
   - swiper
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 这是我们 Golang 教程系列中的第一篇教程。本教程介绍了 Go，并讨论了选择 Go 而不是其他编程语言的原因。我们还将学习如何在 Mac OS，Windows 和 Linux 中安装 Go。
 
 ## 介绍

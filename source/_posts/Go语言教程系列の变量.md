@@ -13,6 +13,8 @@ tags:
   - Golang 变量
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 这是我们 Golang 教程系列中的第三篇教程，它涉及 Golang 中的变量。
 
 你可以先阅读 [《Go 语言教程系列》Hello World | Go 主题月](https://juejin.cn/post/6942876429625327653) 来了解关于配置 Go 和运行 hello world 程序的信息。

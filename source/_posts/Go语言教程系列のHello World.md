@@ -12,6 +12,8 @@ tags:
   - Go 语言教程系列
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 这是《Golang 教程系列》的第二篇。如果还没有，你可能需要先看一下我们的上一篇教程 [Golang 介绍和环境安装](https://juejin.cn/post/6942492190291525662) 以了解一下 Golang 是什么以及如何下载 Golang。
 
 这篇教程是基于 Go 1.16 以上的版本。

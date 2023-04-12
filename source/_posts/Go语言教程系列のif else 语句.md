@@ -13,6 +13,8 @@ tags:
   - Golang if else
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 `if` 是一个具有布尔条件的语句，如果该条件的值为 `true`，它将执行一个代码块。如果判定条件为 `false`，它将执行 `else` 代码块。在本教程中，我们将研究 `if` 语句的各种语法和使用方法。
 
 ## `if` 语句语法

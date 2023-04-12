@@ -13,6 +13,8 @@ tags:
   - Go 切片
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 切片是数组上面的一个方便、灵活和强大的包装器。切片并不拥有自己的任何数据。它们只是对现有数组的引用。
 
 ## 创建切片

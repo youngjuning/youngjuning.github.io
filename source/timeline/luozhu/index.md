@@ -20,15 +20,14 @@ tags:
 
 {% folding cyan, 待办清单 %}
 {% checkbox yellow, 博客添加《Puppeteer 入门教程》 %}
-{% checkbox yellow, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
 {% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
-{% checkbox yellow, text %}
-{% checkbox red, 研究如何通过 Adsterra 赚钱并产出一篇博客 %}
-{% checkbox red, H&Y You 商品详情页定制 %}
+{% checkbox yellow, 研究如何通过 Adsterra 赚钱并产出一篇博客 %}
 {% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》 %}
-{% checkbox red, 使用 [有赞](https://www.youzan.com/) 创建一个美甲店铺 %}
-{% checkbox yellow, issues.js.org 网站雏形 %}
+{% checkbox blue, H&Y You 商品详情页定制 %}
+{% checkbox blue, 使用 [有赞](https://www.youzan.com/) 创建一个美甲店铺 %}
+{% checkbox blue, 《React Native 仿 Product Hunt 实战》大纲 %}
+{% checkbox blue, issues.js.org 网站雏形 %}
 {% endfolding %}
 
 {% folding blue, 洛竹收藏的一些网站，这里只是一个暂存区，最终都会整理到洛竹的导航 %}
@@ -42,10 +41,26 @@ tags:
 ## 2023-04
 
 {% timeline %}
+<!-- timeline 2023-04-13 -->
+{% tabs 2023-04-13 %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow checked, 博文加上头部广告 %}
+{% checkbox yellow, 迁移掘金两篇文章 %}
+{% checkbox yellow, 博客增加 “Up主导航” 页面%}
+<!-- endtab -->
+<!-- tab 学习@fas fa-book-open -->
+{% checkbox cyan, text %}
+<!-- endtab -->
+<!-- tab 随笔@fas fa-book -->
+<!-- endtab -->
+<!-- tab 其他@fas fa-stream -->
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
 <!-- timeline 2023-04-12 -->
 {% tabs 2023-04-12 %}
 <!-- tab 博客@fas fa-blog -->
-{% checkbox yellow, 所有博文加上广告 %}
+{% checkbox yellow checked, 博文加上头部广告 %}
 {% checkbox yellow, 迁移掘金两篇文章 %}
 {% checkbox yellow, 博客增加币圈导航页面 %}
 <!-- endtab -->

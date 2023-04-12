@@ -13,6 +13,8 @@ tags:
   - Golang Loop
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 循环语句用于重复执行代码块。
 
 `for` 是 Go 中唯一可用的循环。Go 没有在其他语言（例如 C）中存在的`while` 或 `do while` 循环。

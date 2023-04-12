@@ -1,5 +1,7 @@
 ---
 title: {{ title }}
+description: ''
+cover: ''
 DRAFT: {{ title }}
 date: {{ date }}
 categories:

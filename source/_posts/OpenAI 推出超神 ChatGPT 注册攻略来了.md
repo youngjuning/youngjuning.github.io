@@ -14,12 +14,14 @@ tags:
   - swiper
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 OpenAI 推出超神 ChatGPT，非常火爆。但是呢，由于 ChatGPT 注册的问题，大部分人无法体验到。这里我分享一下我的国内 ChatGPT 注册攻略。
 
 ## 准备
 
 - VPN：保证能访问 Google（前置条件，没有梯子的可以看下我收藏的[科学上网工具](https://youngjuning.js.org/vpn/)）
-- 国外手机号：如果你没有国外手机号，我推荐使用 [SMS Activate 在线接码平台](https://sms-activate.org) 
+- 国外手机号：如果你没有国外手机号，我推荐使用 [SMS Activate 在线接码平台](https://sms-activate.org)
 
 ## 注册短信平台并充值
 

@@ -13,6 +13,8 @@ tags:
   - Go Map
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 ## map 是什么？
 
 map 是 Go 中的一个内置类型，用于存储键值对。让我们以一个有几个员工的创业公司为例。为了简单起见，我们假设所有这些员工的名字都是唯一的。我们正在寻找一个数据结构来存储每个员工的工资。对于这个用例来说，一个 map 将是一个完美的选择。员工的名字可以是键，工资可以是值。map 类似于其他语言中的字典，如 Python。

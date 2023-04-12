@@ -13,6 +13,8 @@ tags:
   - Golang 函数
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 ## 函数是什么？
 
 函数是执行特定任务的代码块。一个函数接受一个输入，对该输入执行一些计算，然后生成一个输出。

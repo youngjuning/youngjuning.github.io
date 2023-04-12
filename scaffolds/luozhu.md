@@ -1,5 +1,7 @@
 ---
 title: {{ title }}
+description: ''
+cover: ''
 date: {{ date }}
 categories:
   - 洛竹翻译计划

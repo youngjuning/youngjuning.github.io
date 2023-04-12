@@ -13,13 +13,7 @@ tags:
   - Golang 包
 ---
 
-> 大家好，我是 [@洛竹](https://github.com/youngjuning)
->
-> 本文首发于 [洛竹的官方网站](https://youngjuning.js.org/)
->
-> 本文翻译自 [Golang tutorial series](https://golangbot.com/learn-golang-series/)
->
-> 本文同步于公众号洛竹早茶馆，转载请联系作者。
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 ## 什么是包（package），为什么使用它们？
 

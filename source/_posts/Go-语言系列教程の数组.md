@@ -13,6 +13,8 @@ tags:
   - Go 数组
 ---
 
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+
 数组是属于同一类型的元素的集合。 例如，整数 5、8、9、79、76 的集合构成一个数组。 Go 中不允许混合不同类型的值，例如同时包含字符串和整数的数组。
 
 ## 数组声明
