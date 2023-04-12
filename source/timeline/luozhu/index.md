@@ -1,13 +1,17 @@
 ---
 title: 洛竹的时间轴
 date: 2023-04-04 17:10:15
-description: 洛竹的时间轴记录着洛竹在这个世上的点点滴滴。
+description: 洛竹的时间轴记录着洛竹在这个世上的点点滴滴，是一个斜杠青年的生活真人秀。
 tags:
   - 洛竹的博客
   - 洛竹的时间轴
   - 时间轴
   - timeline
-  - 生命
+  - 洛竹
+  - 随笔
+  - 博客
+  - 斜杠青年
+  - 真人秀
 ---
 
 {% note success modern %}
@@ -31,6 +35,7 @@ tags:
 {% link CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/favicon.svg %}
 {% link 2021 年最值得使用的 Node.js 框架, https://juejin.cn/post/6955402195311263751, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
 {% link 使用 rollup 打包 React Native 插件并发布, https://juejin.cn/post/6952331374065877022, https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9763b1fa556f4cbd8ced21b60d3ed40c~tplv-k3u1fbpfcp-watermark.image %}
+{% link 这个库让你轻松搞定复杂动画！, https://mp.weixin.qq.com/s/joT0KqM0fGUHZtbqCB2uWg %}
 {% checkbox green, [找贝网](https://www.zb-2.com/) <https://www.zb-2.com/favicon.ico> %}
 {% endfolding %}
 
@@ -42,25 +47,23 @@ tags:
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow, 所有博文加上广告 %}
 {% checkbox yellow, 迁移掘金两篇文章 %}
+{% checkbox yellow, 博客增加币圈导航页面 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan, 《React 设计原理》前端框架原理概览 %}
+{% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
+我前几天运用秘密法则要求我的返佣链接有人注册，就在昨天有人主动找我要连接了，我非常的开心，这个法则真的是太神奇了。
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
 {% checkbox green, SHINE 申请联盟营销 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
+
 <!-- timeline 2023-04-11 -->
 {% tabs 2023-04-11 %}
-<!-- tab 博客@fas fa-blog -->
-{% checkbox yellow, 博客增加币圈导航页面 %}
-<!-- endtab -->
-<!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
-<!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
 币圈都在传抖音和微博可以查看 BTC 行情了，这和今天 BTC 破 30000 大关有关系吗？我觉得是有的，毕竟大陆的币圈人士还是很多的。
 ![抖音 BTC 趋势](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681195232963.png)
