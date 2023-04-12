@@ -4,18 +4,18 @@
 
 menu:
   首页: / || fas fa-home
-  导航: /stack/ || fas fa-location-arrow
-  相册: /album/ || fas fa-images
-  时间轴: /timeline/ || fas fa-stream
-  随便逛逛: /random/ || fas fa-random
-  宇宙快车: https://travellings.vercel.app/ || fas fa-paper-plane
   文章|| fa-fw fas fa-lines-leaning:
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
     归档: /archives/ || fas fa-archive
   教程|| fas fa-book:
     React 面试题: /react-interview/ || fab fa-react
-    Go 语言系列教程: /Golang/Go-语言系列教程/ || fas fa-book
+    Go 语言系列教程: /categories/Golang/Go-语言系列教程/ || fas fa-book
+  导航: /stack/ || fas fa-location-arrow
+  相册: /album/ || fas fa-images
+  时间轴: /timeline/ || fas fa-stream
+  随便逛逛: /random/ || fas fa-random
+  开往宇宙: https://travellings.vercel.app/ || fas fa-paper-plane
   我的||fas fa-heart:
     关于: /about/ || fas fa-spa
     友人: /friends/ || fas fa-link
