@@ -54,6 +54,7 @@ tags:
 <!-- tab 随笔@fas fa-book -->
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
+{% checkbox green, SHINE 申请联盟营销 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
@@ -61,12 +62,12 @@ tags:
 {% tabs 2023-04-12 %}
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow checked, 博文加上头部广告 %}
-{% checkbox yellow, 迁移掘金两篇文章 %}
 {% checkbox yellow, 博客增加币圈导航页面 %}
+{% checkbox yellow checked, 前端框架如何描述和组织 UI 与逻辑 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan, 《React 设计原理》第一章第一节 %}
-{% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
+{% checkbox cyan checked, 《React 设计原理》第一章第一节 %}
+{% checkbox cyan checked, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
 **吸引力法则**
@@ -77,9 +78,6 @@ tags:
 
 - 零边际成本杠杆： 创作和售卖边际成本为 0 的东西，比如课程、数据、App 会员、电影、跨境电商、广告联盟和联盟营销，要看看长远，现在入局别置身事外。所以我打算写一本小册《React Native 仿 Product Hunt 实战》
 - 联机杠杆：这个时代可借力的东西触手可及，一定要联机成长，联机去解决问题，联机去学习，联机去创造，联机去交流，联机去分享，联机去协作，联机去创业，联机去赚钱，联机去创造价值，联机去创造财富，联机去创造未来。
-<!-- endtab -->
-<!-- tab 其他@fas fa-stream -->
-{% checkbox green, SHINE 申请联盟营销 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
