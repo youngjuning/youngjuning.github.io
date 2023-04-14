@@ -1,7 +1,7 @@
 ---
 title: JavaScript 异步编程
 date: 2020-01-30 17:15:25
-cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202109241209534.png
+description: 围绕异步编程领域，现代软件设计正在加速旋转，就为了让程序在一个时间内做更多的事情。当你使用更新更强大的 API 时，你会发现在更多的情况下，使用异步编程是唯一的途径。以前写异步代码很困难，现在也需要你来适应，但是已经变容易了很多。
 categories:
   - [前端, JavaScript]
 tags:
