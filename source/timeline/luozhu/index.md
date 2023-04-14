@@ -23,9 +23,13 @@ tags:
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
 {% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
 {% checkbox yellow, 研究如何通过 Adsterra 赚钱并产出一篇博客 %}
+{% checkbox yellow, 《苹果 2023 开发者大会发布第一代 MR 头显设备，利好 VR/AR 板块》 %}
 {% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》 %}
 {% checkbox blue, H&Y You 商品详情页定制 %}
 {% checkbox blue, 使用 [有赞](https://www.youzan.com/) 创建一个美甲店铺 %}
+{% checkbox blue, 筹备运营小红书、微信视频号美甲账号💅🏻 %}
+{% checkbox blue, 学习视频剪辑 %}
+{% checkbox blue, 整理 AI 工具 %}
 {% checkbox blue, 《React Native 仿 Product Hunt 实战》大纲 %}
 {% checkbox blue, issues.js.org 网站雏形 %}
 {% endfolding %}
@@ -39,21 +43,40 @@ tags:
 ## 2023-04
 
 {% timeline %}
-<!-- timeline 2023-04-13 -->
-{% tabs 2023-04-13 %}
+<!-- timeline 2023-04-14 -->
+{% tabs 2023-04-14 %}
 <!-- tab 博客@fas fa-blog -->
-{% checkbox yellow checked, 博文加上头部广告 %}
 {% checkbox yellow, 迁移掘金两篇文章 %}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan checked, 《React 设计原理》第一章第二节 %}
-{% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
+{% checkbox cyan checked, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
+1. 能用钱解决的事，就不要动用人情。
+2. 能用钱看清的人，就不要浪费时间。
+3. 不要害怕失去朋友，成年人本就没有朋友。
+4. 当你被别人占便宜时，不要忍气吞声。
+5. 和聪明人共事，你就要做好被利用的准备。
+6. 每个优秀的人，都有一段沉默的时光。
+7. 过程可以博弈，但结局必须是双赢。
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
 {% checkbox green, SHINE 申请联盟营销 %}
+{% checkbox green, 申请一个新的 Google Adsense 账号 %}
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
+
+<!-- timeline 2023-04-13 -->
+{% tabs 2023-04-13 %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow checked, 博文加上头部广告 %}
+<!-- endtab -->
+<!-- tab 学习@fas fa-book-open -->
+{% checkbox cyan checked, 《React 设计原理》第一章第二节 %}
+{% checkbox cyan checked, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
