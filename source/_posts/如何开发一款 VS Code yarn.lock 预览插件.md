@@ -1,19 +1,20 @@
 ---
 title: 如何开发一款 VS Code yarn.lock 预览插件
+description: 人们总是喜欢炫耀自己的新技能，洛竹也不例外，毕竟新技能需要大量的实战练习。在入门了 VS Code 扩展开发后，遇到开发痛点我就习惯地用 VS Code 插件的思路去解决。不过大多扩展 idea 都已经名花有主，直到我想到可以将 yarn.lock 文件可视化并搜索相关插件无果后，我知道机会来了。
 date: 2023-02-26T21:56:50+08:00
-cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677419997286.webp
 categories:
   - [前端, VS Code]
 tags:
   - VS Code
   - yarn.lock
+  - vscode 中文文档
+  - vscode 插件开发
+  - vscode webview
 ---
 
 <center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 > [Yarn Lock Preview](https://marketplace.visualstudio.com/items?itemName=youngjuning.yarn-lock-preview) 插件已发布，亲测已比较稳定，源码在 [vscode-yarn-lock-preview](https://github.com/youngjuning/vscode-yarn-lock-preview) ，如果对你些许帮助和启发，不妨赏一个 Star。
-
-> [VS Code API 中文文档](https://vscode-api-cn.js.org/) 在大家的热情下已经有序开展了翻译工作，也欢迎大家一起参与翻译！
 
 ## 前言
 
