@@ -706,8 +706,8 @@ aside:
       text: Follow Me
       link: https://github.com/youngjuning
   card_announcement:
-    enable: true
-    content: "<center><script type=\"text/javascript\">atOptions = {'key' : '42bb4e86d8349b6e49127ff25ac0e017','format' : 'iframe','height' : 300,'width' : 160};document.write('<scr' + 'ipt type=\"text/javascript\" src=\"http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/42bb4e86d8349b6e49127ff25ac0e017/invoke.js\"></scr' + 'ipt>');</script></center>"
+    enable: false
+    content: ""
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
