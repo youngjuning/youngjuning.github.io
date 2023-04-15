@@ -12,6 +12,3 @@ tags:
   - 鸡腿钱
   - 啤酒钱
 ---
-
-<script async="async" data-cfasync="false" src="//pl18904263.highrevenuegate.com/60a9585e87207b9db130c85b2cfbff86/invoke.js"></script>
-<div id="container-60a9585e87207b9db130c85b2cfbff86"></div>
