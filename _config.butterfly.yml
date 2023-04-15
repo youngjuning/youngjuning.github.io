@@ -914,8 +914,6 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="xxxx">
-    - <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/mainColor/heoMainColor.css">
-    - <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/404/404.css">
   bottom:
     # - <script src="xxxx"></scrip>
 

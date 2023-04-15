@@ -226,18 +226,33 @@ index 680ad3f..a355a06 100644
        code
          background: #2c2c2c
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_page/404.styl b/node_modules/hexo-theme-butterfly/source/css/_page/404.styl
-index ea8e056..78fb11d 100644
+index ea8e056..8dfa902 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_page/404.styl
 +++ b/node_modules/hexo-theme-butterfly/source/css/_page/404.styl
-@@ -32,7 +32,7 @@ if hexo-config('error_404.enable')
+@@ -12,6 +12,7 @@ if hexo-config('error_404.enable')
+ 
+       .error-content
+         @extend .cardHover
++        background: rgba(0, 0, 0, 0)
+         overflow: hidden
+         margin: 0 20px
+         height: 360px
+@@ -32,13 +33,14 @@ if hexo-config('error_404.enable')
  
            img
              @extend .imgHover
 -            background-color: $theme-color
-+            background-color: #ffffff
++            background: var(--card-bg)
  
          .error-info
            display: inline-flex
+           flex-direction: column
+           justify-content: center
+           align-content: center
++          background: var(--card-bg)
+           width: 50%
+           height: 100%
+           vertical-align: top
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_page/common.styl b/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
 index 3356d17..99b24bd 100644
 --- a/node_modules/hexo-theme-butterfly/source/css/_page/common.styl
