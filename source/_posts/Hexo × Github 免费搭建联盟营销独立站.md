@@ -13,7 +13,7 @@ tags:
   - GitHub
 ---
 
-<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 随着亚马逊、虾皮、速卖通等平台电商进入红海，门槛越来越高、内卷越来越严重，跨境电商独立站成为了一种新的选择。最流行的独立站建站平台是 Shopify，但是 Shopify 的价格是 29 美元/月起，对于刚刚起步的小站来说，这个价格还是有点高的。本文将介绍如何使用 Hexo 和 GitHub 搭建一个免费的联盟营销独立站。
 

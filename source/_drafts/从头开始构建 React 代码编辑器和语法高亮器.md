@@ -13,5 +13,3 @@ tags:
 > 原文地址：[Building a React code editor and syntax highlighter from scratch](https://blog.logrocket.com/building-react-code-editor-syntax-highlighter/)
 > 原文作者：[Madars Bišs](https://blog.logrocket.com/author/madarsbiss/)
 > 译文出自：洛竹翻译计划
-
-DRAFT: Building a React code editor and syntax highlighter from scratch

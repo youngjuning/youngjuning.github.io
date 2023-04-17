@@ -12,8 +12,6 @@ tags:
   - SSR
 ---
 
-DRAFT SPAs、SSGs 和 SSR 的区别是什么？
-
 > 原文链接🔗：https://graphcms.com/blog/difference-spa-ssg-ssr
 
 本文我们回归 [可组合架构](https://graphcms.com/blog/better-digital-experiences-with-composable-architectures) 的基础知识，并强调一些重要的行话，这些行话在试图构建现代网络体验时是必须要理解的。在现代网络开发中，当涉及到构建数字体验时，总是有新的趋势，无论是完全拥抱新的技术或方法，还是发誓回归基本原理和简单性。

@@ -25,6 +25,7 @@ tags:
 {% checkbox yellow, 研究如何通过 Adsterra 赚钱并产出一篇博客 %}
 {% checkbox yellow, 《苹果 2023 开发者大会发布第一代 MR 头显设备，利好 VR/AR 板块》 %}
 {% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》 %}
+{% checkbox blue, 申请 SHINE 联盟营销 %}
 {% checkbox blue, H&Y You 商品详情页定制 %}
 {% checkbox blue, 使用 [有赞](https://www.youzan.com/) 创建一个美甲店铺 %}
 {% checkbox blue, 筹备运营小红书、微信视频号美甲账号💅🏻 %}
@@ -50,12 +51,14 @@ tags:
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan checked, 《React 设计原理》第一章第二节 %}
+{% checkbox cyan, 《React 设计原理》第一章第二节 %}
+{% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
-{% checkbox blue, 玩转 IPWeb %}
+{% checkbox blue checked, 玩转 IPWeb %}
+{% checkbox blue, 玩转 fiverr %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->

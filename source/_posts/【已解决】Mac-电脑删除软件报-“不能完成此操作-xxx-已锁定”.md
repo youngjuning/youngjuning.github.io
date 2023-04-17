@@ -13,7 +13,7 @@ tags:
   - 苹果电脑
 ---
 
-<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 公司用的 VPN 在前一段时间强制给电脑添加了全屏水印，但是我的个人电脑为了随时支持，也安装了内网 VPN，这个水印是不能去掉的，所以我就想着卸载这个软件，但是卸载的时候就报错了，不能完成此操作，xxx 已锁定，这个时候我们就需要使用终端来卸载这些软件了。
 

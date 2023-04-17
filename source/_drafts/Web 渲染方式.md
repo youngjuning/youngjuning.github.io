@@ -12,6 +12,4 @@ tags:
   - hydration
 ---
 
-DRAFT Web 渲染方式
-
 > 原文链接🔗：https://developers.google.com/web/updates/2019/02/rendering-on-the-web

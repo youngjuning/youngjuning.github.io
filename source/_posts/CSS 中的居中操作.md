@@ -13,7 +13,7 @@ tags:
   - height
 ---
 
-<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 居中的效果是Web开发中常见的需求，几乎和阴影、圆角可以并列为产品三大法宝，本文的目的是捋顺开发中常用的居中计较，方便记忆和日后查阅。为了方便演示，本文所有 demo 使用 React 的 CSS-in-JS 语法完成。
 

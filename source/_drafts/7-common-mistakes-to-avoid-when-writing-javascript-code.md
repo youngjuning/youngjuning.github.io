@@ -1,6 +1,5 @@
 ---
 title: 编写 JavaScript 代码时需要避免的 7 个常见错误
-DRAFT: 编写 JavaScript 代码时需要避免的 7 个常见错误
 date: 2023-03-16 10:17:08
 categories:
   - [前端, JavaScript]
