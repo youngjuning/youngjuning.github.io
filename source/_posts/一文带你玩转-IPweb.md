@@ -96,7 +96,7 @@ IPweb 的推广和收益系统，它提供了一些独特的机会，包括增�
 
 ![IPweb Time Zone](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681730858632.png)
 
-### 访问地理位置
+### 访客地理位置
 
 ![IPweb Geo targeting](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681731094683.png)
 
@@ -114,6 +114,7 @@ IPweb 的推广和收益系统，它提供了一些独特的机会，包括增�
   - 马来西亚
   - 澳大利亚
   - 台湾（中国）
+  - 挪威
 
 ### campaign status（广告活动状态）
 
@@ -126,3 +127,19 @@ IPweb 的推广和收益系统，它提供了一些独特的机会，包括增�
 - `Rejected`：已拒绝
 
 ![IPweb Ad campaign statuses](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681731261393.png)
+
+## Surfing Earnings（浏览收益）
+
+如果你不想充值并且有很多空闲时间，那么你可以通过浏览网页来获取收益，然后再用来发布广告活动。
+
+### Web Surfing
+
+![Web Surfing](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681745700515.png)
+
+### App Surfing
+
+除了浏览网页，你还可以通过浏览 APP 来获取收益。
+
+![App Surfing](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681745939447.png)
+
+![App Surfing](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681746084243.png)

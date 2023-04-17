@@ -707,8 +707,8 @@ aside:
       text: Follow Me
       link: https://github.com/youngjuning
   card_announcement:
-    enable: false
-    content: ""
+    enable: true
+    content: <a href="https://www.ipweb.pro/?luozhu2021"><img src="https://www.ipweb.pro/banners/ipweb_240_400_2_en.gif" width="240" height="400" border="0"></a>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
