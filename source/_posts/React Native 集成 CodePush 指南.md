@@ -1,5 +1,6 @@
 ---
 title: React Native 集成 CodePush 指南
+description: 本文分享的是基于微软 AppCenter 的 CodePush 服务实现热更新，这个比较有代表性，也方便各位读者大大实践。当然鉴于国内的网络环境，后期会发布一篇如何基于 code-push-server 实现热更新功能。
 date: 2020-02-25 17:08:43
 categories:
   - [前端, React Native]
@@ -9,7 +10,7 @@ tags:
   - React Native
 ---
 
-![](https://i.loli.net/2020/02/25/dLMXty7iYKnVk35.png)
+![React Native 集成 CodePush 指南](https://i.loli.net/2020/02/25/dLMXty7iYKnVk35.png)
 
 目前现存的热更新方案有腾讯的 [Bugly 应用升级](https://bugly.qq.com/v2/products/upgrade)、React Native 中文网的 [Pushy](https://update.reactnative.cn/home)、微软的 [CodePush](https://bre.is/r3Y9hJvB) 和用来搭建私服的 [code-push-server](https://github.com/lisong/code-push-server)。
 
@@ -38,7 +39,7 @@ npm install -g appcenter-cli
 
 成功安装 App Center CLI 后，执行`appcenter login`命令为你的 App Center 帐户详细信息配置 CLI：
 
-![](https://i.loli.net/2020/02/26/TwJyWsBOK5trHmj.png)
+![React Native 集成 CodePush 指南](https://i.loli.net/2020/02/26/TwJyWsBOK5trHmj.png)
 
 ### 2.应用管理
 
@@ -172,7 +173,7 @@ yarn add react-native-code-push
 
    你可以通过 `appcenter codepush deployment list -k` 来检索这个值（该 `-k` 标志是必需的，因为默认情况下不会显示键），然后复制相对应的 `Deployment Key` 即可。
 
-   ![](https://cloud.githubusercontent.com/assets/116461/11601733/13011d5e-9a8a-11e5-9ce2-b100498ffb34.png)
+   ![React Native 集成 CodePush 指南](https://cloud.githubusercontent.com/assets/116461/11601733/13011d5e-9a8a-11e5-9ce2-b100498ffb34.png)
 
    为了有效利用与 CodePush 应用程序一起创建的 `Staging` 和 `Production` 部署，请在实际将你的应用程序对 CodePush 的使用移入生产环境之前，进行[多部署测试](#多部署测试)的配置。
 
@@ -212,7 +213,7 @@ yarn add react-native-code-push
 
    为了让 CodePush 运行时知道它应该查询哪些部署更新，请打开您的应用程序的 `string.xml` 文件，并添加一个名为 `CodePushDeploymentKey` 的新字符串，它的值是应用的 `Staging` 部署。你可以通过 `appcenter deployment list <ownerName>/<appName> -k` 获取该值。
 
-   ![](https://cloud.githubusercontent.com/assets/116461/11601733/13011d5e-9a8a-11e5-9ce2-b100498ffb34.png)
+   ![React Native 集成 CodePush 指南](https://cloud.githubusercontent.com/assets/116461/11601733/13011d5e-9a8a-11e5-9ce2-b100498ffb34.png)
 
    您`strings.xml`应该看起来像这样：
 
@@ -399,7 +400,7 @@ Xcode 允许你为每个**配置** (如 `debug`, `release`) 自定义构建设�
 3. 选择 `Info` 标签
 
 4. 点击 `+` 的内部按钮`Duplicate "Release" Configuration`
-  ![](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/images/rn-ios-8.png)
+  ![React Native 集成 CodePush 指南](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/images/rn-ios-8.png)
 
 5. 将新配置命名为 `Staging`（或您喜欢的任何名称）
 
@@ -407,23 +408,23 @@ Xcode 允许你为每个**配置** (如 `debug`, `release`) 自定义构建设�
 
 7. 单击工具栏上的 `+` 按钮，创建一个名为  `CONFIGURATION_BUILD_DIR` 的 `User-Defined Setting`, 使用相同的 `per-configuration` 配置。
 
-  ![](https://i.stack.imgur.com/Sodu3.png)
+  ![React Native 集成 CodePush 指南](https://i.stack.imgur.com/Sodu3.png)
 
   > 注意：每次创建这个 Xcode 都会崩溃，只能先把值写入之后，在 `project.pbxproj` 中新建。
 
 8. 点击工具栏的 `+`  并选择 `Add User-Defined Setting`
 
-   ![](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/images/rn-ios-10.png)
+   ![React Native 集成 CodePush 指南](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/images/rn-ios-10.png)
 
 9. 将此新设置命名为`CodePushDeploymentKey`，展开它，然后为 `Staging `配置指定您的 `Staging` 部署密钥，为 `Release` 配置指定您的 `Production` 部署密钥。
 
-   ![](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/images/rn-ios-11.png)
+   ![React Native 集成 CodePush 指南](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/images/rn-ios-11.png)
 
    > 提醒一下，您可以通过`appcenter codepush deployment list -a <ownerName>/<appName> --displayKeys`从终端运行来检索这些键。
 
 10. 打开项目的 `Info.plist` 文件，然后将`CodePushDeploymentKey`条目的值更改为`$(CODEPUSH_KEY)`
 
-    ![](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/images/rn-ios-12.png)
+    ![React Native 集成 CodePush 指南](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/images/rn-ios-12.png)
 
 就是这样了，现在当你运行或构建你的App，你的 `Staging` 包将自动同步你的 `Staging` 部署，你的 `Release` 包将自动同步你的 `Production` 部署。
 

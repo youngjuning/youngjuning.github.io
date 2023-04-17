@@ -1,5 +1,6 @@
 ---
 title: React Navigation 5 最佳实践
+description: 本文记录了 React Navigation 5 最佳实践
 date: 2020-02-17 10:29:14
 cover: https://i.loli.net/2020/02/23/caAngkCQdUxlp8L.png
 categories:
@@ -8,6 +9,8 @@ tags:
   - 最佳实践
   - React Native
 ---
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 > 文章示例源码: https://github.com/youngjuning/react-navigation-best-practice
 

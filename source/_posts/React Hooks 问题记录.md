@@ -1,13 +1,18 @@
 ---
 title: React Hooks 问题记录
+description: 本文记录了一些 React Hooks 使用中的问题
 date: 2021-12-10 10:44:31
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202112101055275.png
 categories:
-  - 前端
+  - [前端, React]
 tags:
   - react
   - hooks
+  - useEffect
+  - useState
 ---
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## Warning: Can't perform a React state update on an unmounted component
 
