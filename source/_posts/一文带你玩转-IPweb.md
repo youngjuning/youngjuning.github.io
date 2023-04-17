@@ -42,7 +42,7 @@ IPweb 的推广和收益系统，它提供了一些独特的机会，包括增�
 
 ![advcash](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681731844004.png)
 
-### 付款福州
+### 付款步骤
 
 1、由于不想卖 ETH，所以我选择了 USDT 付款。
 
