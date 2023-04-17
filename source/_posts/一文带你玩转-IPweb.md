@@ -96,6 +96,10 @@ IPweb 的推广和收益系统，它提供了一些独特的机会，包括增�
 
 ![IPweb Time Zone](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681730858632.png)
 
+为了流量更真实，建议设置 Referer 字段替代：
+
+![Referer field substitution](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681746832071.png)
+
 ### 访客地理位置
 
 ![IPweb Geo targeting](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681731094683.png)
@@ -103,11 +107,9 @@ IPweb 的推广和收益系统，它提供了一些独特的机会，包括增�
 建议选择 CPC 高的国家，比如：
 
 - 美国
-- 德国
 - 欧洲其它国家
-  > 除了 法国、荷兰、西班牙、意大利、塞尔维亚、瑞典、匈牙利都可以选
+  > 除了 法国、荷兰、西班牙、意大利、塞尔维亚、瑞典、罗马尼亚、匈牙利、瑞士都可以选
 - 其他国家
-  - 印度尼西亚
   - 加拿大
   - 日本
   - 泰国
