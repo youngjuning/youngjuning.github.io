@@ -43,12 +43,30 @@ tags:
 ## 2023-04
 
 {% timeline %}
-<!-- timeline 2023-04-14 -->
-{% tabs 2023-04-14 %}
+<!-- timeline 2023-04-17 -->
+{% tabs 2023-04-17 %}
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow, 迁移掘金两篇文章 %}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
 <!-- endtab -->
+<!-- tab 学习@fas fa-book-open -->
+{% checkbox cyan checked, 《React 设计原理》第一章第二节 %}
+<!-- endtab -->
+<!-- tab 随笔@fas fa-book -->
+<!-- endtab -->
+<!-- tab 其他@fas fa-stream -->
+{% checkbox blue, 玩转 IPWeb %}
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
+<!-- timeline 2023-04-15 - 2023-04-16 -->
+1. 加班配合云端联调
+2. 看陈晓和李沁的新剧看了三集被剧情恶心到弃坑了
+3. 去临安衣锦街卖水果、北京烤鸭以及去新华书店看书
+4. 《当下的力量》读了 20 页
+<!-- endtimeline -->
+<!-- timeline 2023-04-14 -->
+{% tabs 2023-04-14 %}
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan checked, 《React 设计原理》第一章第二节 %}
 {% checkbox cyan checked, 《秘密 如何改变了我的生活》10 页 %}
