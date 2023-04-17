@@ -1,5 +1,6 @@
 ---
 title: word-wrap 和 word-break
+description: word-wrap 和 word-break 是一对用于单词断句的双生属性，但是又有微妙的区别，每次要用的时候还要重新翻一下 MDN 文档，本文力求通过一张流程图快速记忆两者如何使用。
 date: 2023-02-13 13:47:56
 categories:
   - [前端, CSS]
@@ -8,6 +9,8 @@ tags:
   - word-wrap
   - word-break
 ---
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 word-wrap 和 word-break 是一对用于单词断句的双生属性，但是又有微妙的区别，每次要用的时候还要重新翻一下 MDN 文档，本文力求通过一张流程图快速记忆两者如何使用。
 

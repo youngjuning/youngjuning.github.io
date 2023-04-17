@@ -1,11 +1,17 @@
 ---
-title: single-spa 原理解析（内部分享）
+title: single-spa 原理解析
+description: Single-spa 是一个将多个单页面应用聚合为一个整体应用的 JavaScript 微前端框架。 使用 single-spa 进行前端架构设计可以带来很多好处
 date: 2021-11-21 17:00:00
 categories:
-  - 前端
+  - [前端, 微前端]
 tags:
   - 微前端
+  - single-spa
+  - single-spa 原理解析
+  - 源码解析
 ---
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## single-spa 是什么？
 

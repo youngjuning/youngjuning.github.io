@@ -49,6 +49,7 @@ tags:
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow, 迁移掘金两篇文章 %}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
+{% checkbox yellow checked, 所有文章头部加 banner 广告并做关键词和描述的 SEO 优化 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan, 《React 设计原理》第一章第二节 %}

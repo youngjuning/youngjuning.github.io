@@ -1,7 +1,8 @@
 ---
 title: react-native-scrollable-tab-view
-date: 2020-01-30 15:19:19
+description: react-native-scrollable-tab-view 中文文档
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/202109241201260.png
+date: 2020-01-30 15:19:19
 categories:
   - [前端, React Native]
 tags:
@@ -10,7 +11,7 @@ tags:
   - 翻译
 ---
 
-> 本文首发于 [洛竹的博客](https://youngjuning.js.org/af0984676cf5)，暂未同步于任何平台。
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 安装
 
