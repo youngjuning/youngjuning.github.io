@@ -32,6 +32,7 @@ tags:
 {% checkbox blue, 学习视频剪辑 %}
 {% checkbox blue, 整理 AI 工具 %}
 {% checkbox blue, 《React Native 仿 Product Hunt 实战》大纲 %}
+{% checkbox blue, Youtube 收藏的视频看一遍 %}
 {% checkbox blue, issues.js.org 网站雏形 %}
 {% endfolding %}
 
@@ -44,12 +45,10 @@ tags:
 ## 2023-04
 
 {% timeline %}
-<!-- timeline 2023-04-17 -->
-{% tabs 2023-04-17 %}
+<!-- timeline 2023-04-18 -->
+{% tabs 2023-04-18 %}
 <!-- tab 博客@fas fa-blog -->
-{% checkbox yellow, 迁移掘金两篇文章 %}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
-{% checkbox yellow checked, 所有文章头部加 banner 广告并做关键词和描述的 SEO 优化 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan, 《React 设计原理》第一章第二节 %}
@@ -58,8 +57,18 @@ tags:
 <!-- tab 随笔@fas fa-book -->
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
-{% checkbox blue checked, 玩转 IPWeb %}
 {% checkbox blue, 玩转 fiverr %}
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
+<!-- timeline 2023-04-17 -->
+{% tabs 2023-04-17 %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow checked, [一文带你玩转 IPweb](https://youngjuning.js.org/15c5cda3b015/) %}
+{% checkbox yellow checked, 所有文章头部加 banner 广告并做关键词和描述的 SEO 优化 %}
+<!-- endtab -->
+<!-- tab 其他@fas fa-stream -->
+{% checkbox blue checked, 玩转 IPWeb %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
