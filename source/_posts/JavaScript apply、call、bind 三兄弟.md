@@ -1,5 +1,6 @@
 ---
 title: JavaScript apply、call、bind 三兄弟
+description: 本文介绍了 JavaScript apply、call、bind 三兄弟的使用
 date: 2020-02-09 16:07:05
 categories:
   - [前端, JavaScript]
@@ -9,6 +10,8 @@ tags:
   - call
   - bind
 ---
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 这三个函数的存在意义是什么？答案是**改变函数执行时的上下文**，再具体一点就是改变函数运行时的 `this` 指向。
 

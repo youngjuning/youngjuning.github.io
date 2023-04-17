@@ -1,12 +1,18 @@
 ---
 title: JavaScript 循环闭包
 date: 2020-02-16 23:57:59
+description: 本文介绍了 JavaScript 中的循环闭包
 cover: https://pic4.zhimg.com/80/v2-31c9c3801c7f7d0d1e5c2f840f291e33_hd.jpg
 categories:
-  - 前端
+  - [前端, JavaScript]
 tags:
   - JavaScript
+  - 闭包
+  - 循环
+  - 词法作用域
 ---
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 当函数可以记住并访问所在词法作用域时，就产生了闭包，即使函数是在当前词法作用域之外执行的。
 

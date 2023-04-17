@@ -16,6 +16,8 @@ tags:
   - JavaScript Callback
 ---
 
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 围绕异步编程领域，现代软件设计正在加速旋转，就为了让程序在一个时间内做更多的事情。当你使用更新更强大的 API 时，你会发现在更多的情况下，使用异步编程是唯一的途径。以前写异步代码很困难，现在也需要你来适应，但是已经变容易了很多。
 
 ## 回调函数（Callback）

@@ -1,5 +1,6 @@
 ---
 title: JavaScript 隐式类型转换之相等操作符
+description: JavaScript 隐式类型转换之相等操作符
 date: 2022-04-16 17:32:32
 cover: https://s2.loli.net/2022/04/17/8l1Me5Vf9ZE7Lqh.png
 categories:
@@ -8,6 +9,8 @@ tags:
   - JavaScript 隐式类型转换
   - JavaScript 相等操作符
 ---
+
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 隐式类型转换多存在于使用 `==` 进行比较的场景，例如：
 
