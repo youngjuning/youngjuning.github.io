@@ -9,7 +9,7 @@ tags:
   - Token 刷新
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
 
 为了安全考虑，一般后端都要求在请求接口时传递登录的 Token。为了防止 Token 泄漏的风险，服务器的 Token 一般不会设置太长时间，比如我最近联调的，两个小时就会过期，token 过期就需要重新登陆。频繁要求登陆会造成用户体验差，所以后端同时会提供刷新 Token 的接口，本文就是记录一下几种无感知刷新的方法。
 
