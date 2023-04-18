@@ -2,6 +2,13 @@ top:
   - class_name: user-map
     id_name: user-map
     name: 访客地图
-    icon: fas fa-heartbeat
-    order: 2
+    icon: fas fa-global
+    order: 1
     html: '<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=GxY0uNwJ-R6qfXXonTr3FEq7qT8qAPpGdd-XpGVHSEo"></script>'
+bottom:
+  - class_name: user-map
+    id_name: user-map
+    name: IPweb
+    icon: fas fa-dollar-sign
+    order: 1
+    html: '<center><a href="https://www.ipweb.pro/?luozhu2021"><img src="https://www.ipweb.pro/banners/ipweb_240_400_2_en.gif" width="240" height="400" border="0"></a></center>'
