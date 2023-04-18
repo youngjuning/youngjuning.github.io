@@ -14,7 +14,7 @@ tags:
   - 网站建设
 ---
 
-<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## IPweb 是什么
 
@@ -106,29 +106,31 @@ IPweb 的推广和收益系统，它提供了一些独特的机会，包括增�
 
 建议选择 CPC 高的国家，比如：
 
-- 美国
-- 德国
+- **美国（530）**
+- **德国（147）**
 - 欧洲其它国家
-  - 波兰
-  - 罗马尼亚
-  - 意大利
-  - 保加利亚
-  - 捷克共和国
-  - 芬兰
-  - 瑞典
-  - 瑞士
-  - 匈牙利
-  - 葡萄牙
-  - 斯洛伐克
-  - 奥地利
-  - 丹麦
-  - 希腊
+  - **法国（104）**
+  - **大不列颠（62）**
+  - 波兰（44）
+  - **罗马尼亚（29）**
+  - 捷克共和国（18）
+  - **保加利亚（18）**
+  - **芬兰（17）**
+  - **瑞典（13）**
+  - 瑞士（10）
+  - 匈牙利（10）
+  - 卢森堡（7）
+  - 葡萄牙（7）
+  - 斯洛伐克（7）
+  - **奥地利（6）**
+  - 丹麦（6）
+  - 希腊（5）
 - 其他国家
-  - 加拿大
-  - 泰国
-  - 马来西亚
-  - 挪威
-  - 台湾（中国）
+  - **加拿大（25）**
+  - 泰国（14）
+  - 马来西亚（10）
+  - **挪威（5）**
+  - 台湾（中国）（5）
 
 ### campaign status（广告活动状态）
 

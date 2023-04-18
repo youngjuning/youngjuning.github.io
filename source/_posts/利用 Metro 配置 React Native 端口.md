@@ -9,7 +9,8 @@ tags:
   - React Native
 ---
 
-<center><script type="text/javascript">atOptions = {'key' : '8f470a3a0b9c8fb81916828853d00507','format' : 'iframe','height' : 90,'width' : 728};document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://harassinganticipation.com/8f470a3a0b9c8fb81916828853d00507/invoke.js"></scr' + 'ipt>');</script></center>
+<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 
 当我们执行 `react-native start` 命令时，React Native 会启动一个默认端口号为 `8081`的本地服务，该 `8081` 的服务就是React Native项目的一个本地 Node 服务器，用于提供 JSBundle 包和一些静态资源。这一切都是 React Native 帮开发者配置好的，一切都是那么简便。
 
