@@ -138,9 +138,15 @@
     ]
   },
   {
-    "class_name": "中文文档",
-    "class_desc": "前端技术的中文文档",
+    "class_name": "常用 JavaScript 库",
+    "class_desc": "前端常用的 JavaScript 库",
     "link_list": [
+      {
+        "link": "https://day.js.org/zh-CN/",
+        "name": "Day.js",
+        "avatar": "https://day.js.org/img/favicon.ico",
+        "descr": "Moment.js 的 2kB 轻量化方案，拥有同样强大的 API"
+      },
       {
         "name": "Puppeteer 中文文档",
         "link": "https://puppeteer.bootcss.com/",
