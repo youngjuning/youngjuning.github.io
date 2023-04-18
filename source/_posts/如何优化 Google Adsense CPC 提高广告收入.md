@@ -624,6 +624,22 @@ HealthiNation
 The Trade Desk
 Zemanta
 Media.net DSP
+DoubleClick Bid Manager (Europe)
+Google: DCLK Bid Manager
+Bmind w/ DBM
+MightyHive - DBM - Global
+Google: DCLK Bid Manager (China)
+Google: DCLK Bid Manager (China) 3
+Cadreon w/ DBM
+DQ&A w/DBM
+DV360 (BR)
+NextRoll
+RTB House (APAC)
+Traffic Media Solutions, SL (T2O) w/DBM
+Value Media (PL) w/ DBM
+Verizon Media DSP - Global
+Acceleration // DBM
+Performance Advertising w/DBM
 ```
 除此之外你还可以通过分析广告网络报告来决定是否屏蔽某个广告联盟。
 
