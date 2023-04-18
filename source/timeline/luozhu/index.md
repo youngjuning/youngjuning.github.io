@@ -24,6 +24,7 @@ tags:
 {% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
 {% checkbox yellow, 研究如何通过 Adsterra 赚钱并产出一篇博客 %}
 {% checkbox yellow, 《苹果 2023 开发者大会发布第一代 MR 头显设备，利好 VR/AR 板块》 %}
+{% checkbox yellow, 2023 最佳被动赚零花钱项目 honeygain 教程 %}
 {% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》 %}
 {% checkbox blue, 申请 SHINE 联盟营销 %}
 {% checkbox blue, H&Y You 商品详情页定制 %}
