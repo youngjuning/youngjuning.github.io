@@ -22,7 +22,7 @@ cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b79b60e52f9b4e199372d26
 
 在 [《每个前端都应该拥有自己的组件库,就像每个夏天都有西瓜🍉》](https://juejin.cn/post/6983854006124675108) 一文中，洛竹带领小黑从零搭建了一个组件库项目，完成了项目结构、构建、测试、文档等基础工程化工作并完成了第一个组件 Icon。本期延续上期的组件工程化的主题，夏日炎热，点上一杯杨枝甘露，和洛竹赴一场 Button 开发之约吧。赴约后，你将会收获以下的内容：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/58285f3cce144972b2ccb88e11efd73f~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/58285f3cce144972b2ccb88e11efd73f~tplv-k3u1fbpfcp-zoom-1.image)
 
 > PS：配合[仓库](https://github.com/youngjuning/vant-react-native)和[组件库文档](https://vant-react-native.js.org/)阅读本文效果更佳喲！
 
@@ -36,7 +36,7 @@ cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b79b60e52f9b4e199372d26
 
 想象一下把键盘按键换成触摸屏，你最在乎的一定是完美还原物理键的敲击感，像洛竹用手机虚拟键盘就喜欢设置按键震动和音效。通过打击（点击）获得快感是较为普遍的人性。按钮在按下、松开时有丰富的质感和交互感，完美满足了人们点一下的快感。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/542a6bbb880e4594ae384ee0bd1e511d~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/542a6bbb880e4594ae384ee0bd1e511d~tplv-k3u1fbpfcp-watermark.image)
 
 ### 现实的实用性
 
@@ -48,7 +48,7 @@ cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b79b60e52f9b4e199372d26
 
 小米 10 虽然移除了单独的唤起键，却把原来的电源键改成了一键多用。每次想要重启手机还得先唤起一下小爱同学。不得不说，小爱同学小米亲女儿。
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/633381b8c2c342ed94bf024dbc19cf76~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/633381b8c2c342ed94bf024dbc19cf76~tplv-k3u1fbpfcp-watermark.image)
 
 吐槽归吐槽，小米这个按钮确实起到了培养用户习惯的任务。当用户知悉某个按钮能指向某个操作，或者获取某类信息后，长此以往用户就会形成使用习惯。如果某操作能够为用户和厂商持续带来价值，那就可以让按钮的位置更加醒目，持续培养用户点击习惯。
 
@@ -56,11 +56,11 @@ cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b79b60e52f9b4e199372d26
 
 这个在 Web 开发中是最常见的使用场景，每个可交互页面上都有这类按钮的出现，用来指引用户下一步该怎么做。比如表单的提交和重置。
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d2c2a8abbe84471f96a67e18196c53fb~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d2c2a8abbe84471f96a67e18196c53fb~tplv-k3u1fbpfcp-watermark.image)
 
 虽然按钮也常作为表单元素，但是区别于其他表单元素，按钮因其天然地自说明性，不需要 Label 对其进行辅助说明，啰嗦这么多，掘友们应该在看到一个按钮时，应该也会有从设计上品鉴的意识了，欢迎将对下图的品鉴在评论区告诉洛竹。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/88c6754b28984fc3866319c35790fc03~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/88c6754b28984fc3866319c35790fc03~tplv-k3u1fbpfcp-watermark.image)
 
 ## 组件主题化
 
@@ -218,7 +218,7 @@ const Button: FunctionComponent<ButtonProps> = props => {
 
 实现效果如下：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4a0b412c227e4dc994b818294165240d~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4a0b412c227e4dc994b818294165240d~tplv-k3u1fbpfcp-watermark.image)
 
 ### 朴素按钮
 
@@ -256,7 +256,7 @@ const getTextColor = () => {
 
 实现效果如下：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0fc1bedf56fe4dd0a31e6d18b048665c~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0fc1bedf56fe4dd0a31e6d18b048665c~tplv-k3u1fbpfcp-watermark.image)
 
 ### 细边框
 
@@ -280,7 +280,7 @@ const styles = StyleSheet.create({
 
 实现效果如下：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/43d80d537b07487d9043d718e6541f7e~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/43d80d537b07487d9043d718e6541f7e~tplv-k3u1fbpfcp-watermark.image)
 
 ### 禁用状态
 
@@ -298,7 +298,7 @@ const styles = StyleSheet.create({
 
 实现效果如下：
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/892589086d07426a8346319d8466bccf~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/892589086d07426a8346319d8466bccf~tplv-k3u1fbpfcp-watermark.image)
 
 ### 加载状态
 
@@ -347,7 +347,7 @@ export const useIndicatorColor = (props: ButtonProps): string => {
 
 实现效果如下：
 
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/27c4340df2254245a3c830bf667a2e28~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/27c4340df2254245a3c830bf667a2e28~tplv-k3u1fbpfcp-watermark.image)
 
 ### 按钮形状
 
@@ -375,7 +375,7 @@ const styles = StyleSheet.create({
 
 实现效果如下：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d1402517566e49d1a1920fd9b3f7bb20~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d1402517566e49d1a1920fd9b3f7bb20~tplv-k3u1fbpfcp-watermark.image)
 
 ### 按钮尺寸
 
@@ -432,7 +432,7 @@ const styles = StyleSheet.create({
 
 实现效果如下：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/59c01002f25b477d85ed26fa1e21c86b~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/59c01002f25b477d85ed26fa1e21c86b~tplv-k3u1fbpfcp-watermark.image)
 
 ### 自定义颜色
 
@@ -448,7 +448,7 @@ if (props.color) {
 
 实现效果如下：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8efffdbfd6424618be6152895a53e8ee~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8efffdbfd6424618be6152895a53e8ee~tplv-k3u1fbpfcp-watermark.image)
 
 ## 双击事件的实现
 
@@ -511,7 +511,7 @@ interface ButtonProps extends TouchableHighlightProps {
 
 内置组件 API 没有处理继承的情况，我们后续会自定义一个 API 组件，这里就不展开了，浏览 [Button 文档](https://vant-react-native.js.org/components/button#api) 可以查看现在的效果：
 
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7bedac7240334ff79c4142005a66b158~tplv-k3u1fbpfcp-watermark.image)
+![洛竹](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7bedac7240334ff79c4142005a66b158~tplv-k3u1fbpfcp-watermark.image)
 
 ## 工程化串讲
 
@@ -668,7 +668,7 @@ fs.copySync(tmpdir.path, `${process.cwd()}/packages/${locPath}`);
 
 折腾这一顿，让我们来看下成果吧：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ba477bcbd8b4ef6b880c7e8e5a095bc~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ba477bcbd8b4ef6b880c7e8e5a095bc~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### Github CODEOWENERS
 
@@ -699,11 +699,11 @@ CODEOWNERS 文件使用遵循 gitignore 文件中所用大多数规则的模式�
 
 一般如果文件具有代码所有者，则在打开拉取请求之前可以看到代码所有者是谁。在仓库中，你可以找到文件并悬停于一个锁图标上，悬浮之后会告诉你该文件所有者是谁：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/726bd5144a104902ae27ad31e1d46f93~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/726bd5144a104902ae27ad31e1d46f93~tplv-k3u1fbpfcp-zoom-1.image)
 
 然后我们提交一个 pr 看看效果：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bf4cb8b7ef5c41989660e735e621fc4e~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bf4cb8b7ef5c41989660e735e621fc4e~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### NPM 发包自动化
 

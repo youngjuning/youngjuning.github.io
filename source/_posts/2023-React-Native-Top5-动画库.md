@@ -25,7 +25,7 @@ tags:
 
 使用 [Bit][Bit] 可以跨平台分享和重用 React 组件。作为一个团队在共享组件上进行协作，可以更敏捷地共同构建应用程序。让 Bit 做繁重的工作，这样你就可以轻松地发布、安装和更新你的个人组件而不需要任何开销。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e1c5f1759c924881ba62904a329645ef~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e1c5f1759c924881ba62904a329645ef~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## react-native-animatable
 

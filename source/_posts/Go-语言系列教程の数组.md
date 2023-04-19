@@ -365,7 +365,7 @@ AT&T T-Mobile
 - `点赞`等于学会，`在看`等于精通
 - 最后祝大家 2021 学习进步，升职加薪
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a9752661d5474d8f8f4ae2584c288ac9~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a9752661d5474d8f8f4ae2584c288ac9~tplv-k3u1fbpfcp-zoom-1.image)
 
 > 原文地址 [Arrays and Slices](https://golangbot.com/arrays-and-slices/)
 > 原文作者：[Naveen Ramanathan](https://golangbot.com/about/)

@@ -20,11 +20,11 @@ React 16.5 添加了对开发者工具的 Profiler 插件的支持。该插件�
 
 这个“Profiler”面板初始为空，你可以点击 record 按钮开始分析：
 
-![](https://zh-hans.reactjs.org/static/bae8d10e17f06eeb8c512c91c0153cff/ad997/start-profiling.png)
+![洛竹](https://zh-hans.reactjs.org/static/bae8d10e17f06eeb8c512c91c0153cff/ad997/start-profiling.png)
 
 当你开始记录之后，开发者工具将在每次应用程序渲染时自动收集性能数据。 你可以和平常一样使用你的应用程序， 当你完成分析之后，请点击“Stop”按钮。
 
-![](https://zh-hans.reactjs.org/static/45619de03bed468869f7a0878f220586/ad997/stop-profiling.png)
+![洛竹](https://zh-hans.reactjs.org/static/45619de03bed468869f7a0878f220586/ad997/stop-profiling.png)
 
 ## 优化法则
 
@@ -73,7 +73,7 @@ export default App;
 
 在以上示例中，我们声明了一个显示随机数的组件和一个依赖 count 状态的数字显示组件，使用 React Profiler 工具分析如下：
 
-![](https://s2.loli.net/2022/09/25/zKn9HslamJi6Ro5.png)
+![洛竹](https://s2.loli.net/2022/09/25/zKn9HslamJi6Ro5.png)
 
 就像预期的那样，App、Count 和 Random 组件都更新了，从工具中我们可以看到它们更新的原因：
 
@@ -121,7 +121,7 @@ export default App;
 
 从下图 Profiler 分析可以看到当 count 更新时，只有 Count 组件更新了。
 
-![](https://s2.loli.net/2022/09/25/YheAM9ZuviaJDmo.png)
+![洛竹](https://s2.loli.net/2022/09/25/YheAM9ZuviaJDmo.png)
 
 上面的示例太过理想化，大部分时候，负责更新状态的组件和负责展示状态的组件可能并不在一起，也就没办法抽离动态组件。比如我们将示例中的组件位置做下调整：
 

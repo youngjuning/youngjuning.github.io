@@ -84,7 +84,7 @@ server {
 
 2. 在 **系统管理** -> **安全** -> **全局安全设置** 中的 **授权策略** 配置项中选择 **Role-Based Strategy**
 
-   ![](https://i.loli.net/2020/05/09/FiR59LEtqwCbDIh.png)
+   ![洛竹](https://i.loli.net/2020/05/09/FiR59LEtqwCbDIh.png)
 
 3. 然后就可以在 `Manage and Assign Roles` 中管理角色
 
@@ -94,19 +94,19 @@ server {
 
 > 自动安装请先到Oracle注册账号
 
-![](https://i.loli.net/2020/05/09/jbzQ15qthxmTu9Z.png)
+![洛竹](https://i.loli.net/2020/05/09/jbzQ15qthxmTu9Z.png)
 
 ### Git
 
 > 需要先执行 `apt install git` 安装git，然后通过 `which git` 查看 git 安装位置！
 
-![](https://i.loli.net/2020/05/09/lLSYIN5FARQ38uH.png)
+![洛竹](https://i.loli.net/2020/05/09/lLSYIN5FARQ38uH.png)
 
 ### NodeJS
 
 > 需要先需要安装 [NodeJS Plugin](https://plugins.jenkins.io/nodejs) 插件
 
-![](https://i.loli.net/2020/05/09/B9R7pgIXd5OSCbq.png)
+![洛竹](https://i.loli.net/2020/05/09/B9R7pgIXd5OSCbq.png)
 
 ## Android 打包环境
 
@@ -154,7 +154,7 @@ $ yes | sdkmanager --sdk_root=${ANDROID_HOME} --licenses
 
 进入 **系统管理** -> **系统配置** -> **全局属性** 新增环境变量 `ANDROID_HOME`：
 
-![](https://i.loli.net/2020/05/09/jWANFZh8xCD1Sgm.png)
+![洛竹](https://i.loli.net/2020/05/09/jWANFZh8xCD1Sgm.png)
 
 ## GitHub Plugin
 
@@ -164,7 +164,7 @@ $ yes | sdkmanager --sdk_root=${ANDROID_HOME} --licenses
 
 > **GitHub 主页** -> **Settings** -> **Developer settings** -> **Personal access tokens**
 
-![](https://i.loli.net/2020/05/09/qTLBC359Z2rNday.png)
+![洛竹](https://i.loli.net/2020/05/09/qTLBC359Z2rNday.png)
 
 ### 添加Github服务器
 
@@ -172,15 +172,15 @@ $ yes | sdkmanager --sdk_root=${ANDROID_HOME} --licenses
 
 这里的名称随便填，API URL 填写 `https://api.github.com/`：
 
-![](https://i.loli.net/2020/05/09/1FLEfTHhpexyXQW.png)
+![洛竹](https://i.loli.net/2020/05/09/1FLEfTHhpexyXQW.png)
 
 凭证类型选 `Secret text`：
 
-![](https://i.loli.net/2020/05/09/3Oypr4xniKZamG9.png)
+![洛竹](https://i.loli.net/2020/05/09/3Oypr4xniKZamG9.png)
 
 在凭据选上刚刚你添加的，勾上管理 Hook，点击“连接测试”，成功之后如下所示：
 
-![](https://i.loli.net/2020/05/09/pBWKZMfq5IkGvyz.png)
+![洛竹](https://i.loli.net/2020/05/09/pBWKZMfq5IkGvyz.png)
 
 ### 配置 GitHub 的 webhook 地址
 
@@ -192,19 +192,19 @@ webhook 是通知 Jenkins 时的请求地址，用来填写到 GitHub 上，这�
 
 在 Payload URL 位置填入 webhook 地址，再点击底部的 Add webhook 按钮，这样就完成 webhook 配置了，今后当前工程有代码提交，GitHub 就会向此 webhook 地址发请求，通知 Jenkins 构建：
 
-![](https://i.loli.net/2020/05/09/BqoXjUQsile3K7A.png)
+![洛竹](https://i.loli.net/2020/05/09/BqoXjUQsile3K7A.png)
 
 ### 任务配置
 
 - 构造触发器选择：GitHub hook trigger for GITScm polling
 
-  ![](https://i.loli.net/2020/05/09/EF5DYKJHgOPayxA.png)
+  ![洛竹](https://i.loli.net/2020/05/09/EF5DYKJHgOPayxA.png)
 
 - 构建环境和绑定
 
   如下图所示，勾选 Use secret text(s) or file(s)，下面的”凭据”选择我们之前配置过的凭证
 
-  ![](https://i.loli.net/2020/05/09/2noTEULmhAzd7Dg.png)
+  ![洛竹](https://i.loli.net/2020/05/09/2noTEULmhAzd7Dg.png)
 
 ## 常见问题
 

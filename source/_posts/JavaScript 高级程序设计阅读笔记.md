@@ -276,9 +276,9 @@ false + 1 // -> 1
 5. 判断其中一方是否为 `boolean`，是的话就会把 `boolean` 转为 `number` 再进行判断
 6. 判断其中一方是否为 `object` 且另一方为 `string`、`number` 或者 `symbol`，是的话就会把 `object` 转为原始类型再进行判断
 
-> `[] == ![]` => `true`
+> `[] == ![洛竹]` => `true`
 
-![](https://i.loli.net/2020/04/30/inuaIUJvYQP5BjD.png)
+![洛竹](https://i.loli.net/2020/04/30/inuaIUJvYQP5BjD.png)
 
 ## 闭包（Closure）
 

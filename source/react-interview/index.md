@@ -588,7 +588,7 @@ JSX 元素将被转换为 `React.createElement()` 函数以创建 React 元素�
 
 React 16.3+ (或者 [在线交互版本](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/))
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fac807b8490c4c11a9630a9f29e467d3~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fac807b8490c4c11a9630a9f29e467d3~tplv-k3u1fbpfcp-zoom-1.image)
 
 React 16.3 之前的版本：
 

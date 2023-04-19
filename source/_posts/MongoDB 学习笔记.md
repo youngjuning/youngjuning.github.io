@@ -38,7 +38,7 @@ sudo apt install mongodb
 sudo systemctl status mongodb
 ```
 
-![](https://s2.loli.net/2022/04/13/YX7SqhNajgwHuZv.png)
+![洛竹](https://s2.loli.net/2022/04/13/YX7SqhNajgwHuZv.png)
 
 可以看到，服务正常启动了。
 
@@ -90,7 +90,7 @@ $ sudo systemctl restart mongodb
 
 安装 [Studio 3T for Free](https://studio3t.com/free)，然后连接：
 
-![](https://s2.loli.net/2022/04/13/tUBEgnVpSAc715F.png)
+![洛竹](https://s2.loli.net/2022/04/13/tUBEgnVpSAc715F.png)
 
 ## 安全管理
 
@@ -116,7 +116,7 @@ sudo systemctl restart mongodb
 
 在 Studio 3T 中配置用户名密码即可，需要注意的是 Authentication DB 需要填写对应的。
 
-![](https://s2.loli.net/2022/04/13/fLhd9t1sZ8KTaRA.png)
+![洛竹](https://s2.loli.net/2022/04/13/fLhd9t1sZ8KTaRA.png)
 
 更多安全知识参考 [MongoDB数据库未授权访问漏洞防御最佳实践](https://help.aliyun.com/document_detail/112035.html)
 

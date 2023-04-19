@@ -43,7 +43,7 @@ console.log('Hello World')
 
 在命令行输入 `npm link` 或 `npm install -g` 将当前项目安装到全局环境，这样就可以直接使用 `youngjuning` 来运行文件了：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9dc89f3724cf4aa5bc71f7089c27c28d~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9dc89f3724cf4aa5bc71f7089c27c28d~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## commander.js
 

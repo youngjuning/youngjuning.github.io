@@ -388,7 +388,7 @@ All done!
 SHOW VARIABLES LIKE 'validate_password%';
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68541c4633b944d69276a3da8f453406~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68541c4633b944d69276a3da8f453406~tplv-k3u1fbpfcp-zoom-1.image)
 
 使用命令 `mysql -u root` 登陆，执行：
 

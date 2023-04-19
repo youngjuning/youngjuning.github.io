@@ -34,7 +34,7 @@ WebIDE 是基于 H5 支持多语言的在线集成开发环境。相较于传统
 
 ### WebIDE 通用架构
 
-![](https://s2.loli.net/2022/03/23/UfjaX4QpTmg5MKu.png)
+![洛竹](https://s2.loli.net/2022/03/23/UfjaX4QpTmg5MKu.png)
 
 ### WebIDE 的优势
 

@@ -99,19 +99,19 @@ public class MainActivity extends ReactActivity {
 
 1、添加 LaunchImage
 
-![](https://i.loli.net/2019/09/16/SpIYPmE7MHTzw6o.png)
+![洛竹](https://i.loli.net/2019/09/16/SpIYPmE7MHTzw6o.png)
 
 2、将准备好的图片拖到下图红框的区域
 
-![](https://i.loli.net/2019/09/16/bBO1u4PAaWLdMqV.png)
+![洛竹](https://i.loli.net/2019/09/16/bBO1u4PAaWLdMqV.png)
 
 3、你在 `buildSetting` 中搜索 `launch`,可看到 `Asset Catalog Launch Image Set Name` 你只要把对应的`LaunchImage` 名称设置上去就好了:
 
-![](https://i.loli.net/2020/02/21/dXqnrGc2sWK4aVP.png)
+![洛竹](https://i.loli.net/2020/02/21/dXqnrGc2sWK4aVP.png)
 
 4、清空 Launch Screen File
 
-![](https://i.loli.net/2020/02/21/oyFKjUY1RZwtf45.png)
+![洛竹](https://i.loli.net/2020/02/21/oyFKjUY1RZwtf45.png)
 
 5、最后别忘了把 `Info.list` 的 `UILaunchStoryboardName` 删除:
 

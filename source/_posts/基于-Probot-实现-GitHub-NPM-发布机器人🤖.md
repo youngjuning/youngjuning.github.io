@@ -149,14 +149,14 @@ INFO (server): Connected
 2. 访问 http://localhost:3000 查看下一步。
 3. 你会看到类似下面的页面。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0e1601ae833f47a1815d79cb1dea2e6f~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0e1601ae833f47a1815d79cb1dea2e6f~tplv-k3u1fbpfcp-zoom-1.image)
 
 4. 点击 **Register a GitHub App** 按钮继续。
 5. 接着，你需要给你的 App 取一个没有被占用的名字，注意：如果你看到类似 `Name is reserved for the account @tuya` 的提示，这意味着你不能使用已存在的 GitHub organization 的名字作为 app 的名字（除非你是该组织的 owner）
 
 ## GitHub Release 时 `npm publish`
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a5e7c791feb140cbb537a79c89450842~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a5e7c791feb140cbb537a79c89450842~tplv-k3u1fbpfcp-zoom-1.image)
 
 实现 GitHub CI 自动发布 NPM 包，主要是为了合理管理对外 npm 发布权限。而比较通用的发布时机是在 GitHub release 时。基于上面流程图的分析，我们可以看出 released 状态时执行 `npm publish` 最合适。
 
@@ -210,15 +210,15 @@ app.on('release.released', async context => {
 
 **1. 访问 npmjs.com 进入 Access Tokens 页面**
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2e077e9f9d0a4dc8bde0a24e121461c3~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2e077e9f9d0a4dc8bde0a24e121461c3~tplv-k3u1fbpfcp-zoom-1.image)
 
 **2. 点击 Generate New Token 按钮**
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/82e09021f85c413d80ac77ed3df6746e~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/82e09021f85c413d80ac77ed3df6746e~tplv-k3u1fbpfcp-zoom-1.image)
 
 **3. Token 类型选择 Publish**
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/256574d0e063410aa50c85d469346809~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/256574d0e063410aa50c85d469346809~tplv-k3u1fbpfcp-zoom-1.image)
 
 #### 保证 NPM Publish Token 安全性
 

@@ -29,7 +29,7 @@ tags:
 
 VS Code 中编辑器（Editor）其实就是我们使用频率最高的编码的地方。如下图，VS Code 的用户界面分为 5 个部分，分别是 Activity Bar（活动栏）、Side Bar（侧边栏）、Editor Groups（编辑器组）、Panel（面板） 和 Status Bar（状态栏）。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/301eab5bbab04c65aec4a927b7d306a9~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/301eab5bbab04c65aec4a927b7d306a9~tplv-k3u1fbpfcp-zoom-1.image)
 
 自定义编辑器指的是 VS Code 中相对于默认文本编辑器的编辑器类型。根据用途不同，自定义编辑器又分为 [自定义文本编辑器](https://vscode-api-cn.js.org/interfaces/vscode.CustomTextEditorProvider.html)、[自定义编辑器](https://vscode-api-cn.js.org/interfaces/vscode.CustomEditorProvider.html) 和 [自定义只读编辑器](https://vscode-api-cn.js.org/interfaces/vscode.CustomReadonlyEditorProvider.html)。
 
@@ -136,7 +136,7 @@ $ code ./vscode-yarn-lock-preview
 
 编写一个自定义编辑器会涉及视图、插件、文档模型、底层资源文件以及它们之间的交互，其大概原理如下图：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/116948b627f4406ba51faa0353f147a7~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/116948b627f4406ba51faa0353f147a7~tplv-k3u1fbpfcp-zoom-1.image)
 
 由于预览 `yarn.lock` 不需要我们提供文档模型，因此我们只需要基于 [CustomTextEditorProvider](https://vscode-api-cn.js.org/interfaces/vscode.CustomTextEditorProvider.html) 编写一个 CustomEditorProvider 给插件注册使用，然后编写我们的视图（用户界面），最后实现视图和插件的交互即可。
 

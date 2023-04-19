@@ -26,21 +26,21 @@ tags:
 
 只切换 VPN 节点，我们还是无法成功验证手机号，必须将时区设置成和 VPN 节点一致才可以，使用 [whoer.net](https://whoer.net) 可以看到当前时区不一致：
 
-![](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678987547217.png)
+![洛竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678987547217.png)
 
 使用浏览器扩展 [Change Timezone (Time Shift)](https://chrome.google.com/webstore/detail/change-timezone-time-shif/nbofeaabhknfdcpoddmfckpokmncimpj?utm_source=chrome-ntp-icon) 我们可以很方便地切换时区：
 
-![](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678987441408.png)
+![洛竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678987441408.png)
 
 # 修改浏览器语言
 
 将浏览器的语言设置成 英语（美国），然后删除其他语言：
 
-![](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678988750775.png)
+![洛竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678988750775.png)
 
 然后再用 [whoer.net](https://whoer.net) 检查一下：
 
-![](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678987676196.png)
+![洛竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678987676196.png)
 
 这个时候你就可以成功注册 Google 了。
 

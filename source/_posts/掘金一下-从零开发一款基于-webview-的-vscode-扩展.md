@@ -121,15 +121,15 @@ $ yarn lint --fix
 
 按下 `F5` 开启调试会出现[扩展开发宿主]窗口，然后按 `Command+Shift+P` 组件键输入 `Hello World` 命令。如下图所示 vscode 弹出了 `Hello World from Juejin Posts!` 的提示。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bc26d7d429f84564b88b55e9df60fcd7~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bc26d7d429f84564b88b55e9df60fcd7~tplv-k3u1fbpfcp-zoom-1.image)
 
 同时我们的开发窗口中，会出现一个 watch 任务的终端：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/75a15d0bd2cc4096af1a3f76173cbbe1~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/75a15d0bd2cc4096af1a3f76173cbbe1~tplv-k3u1fbpfcp-zoom-1.image)
 
 开发窗口的调试控制台会输出插件运行日志（忽略红色的警告）：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c31068ea0bca4d4793e35bdb16d70c0a~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c31068ea0bca4d4793e35bdb16d70c0a~tplv-k3u1fbpfcp-zoom-1.image)
 
 调试执行的任务是在 `.vscode/tasks.json` 中配置的：
 
@@ -173,11 +173,11 @@ $ vsce package
  ERROR  Make sure to edit the README.md file before you package or publish your extension.
 ```
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cf561381232b4690a5d7cd0378c267d7~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cf561381232b4690a5d7cd0378c267d7~tplv-k3u1fbpfcp-zoom-1.image)
 
 额，裂开，这咋还报错，假装淡定，读一下提示原来是要我们编辑一下 README.md，没错，vscode 模板里有初始的 README，我们需要编辑一下才可以打包。修改后再次尝试 `vsce package`：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/acfe2e957c9545578c7b6990371a3f0b~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/acfe2e957c9545578c7b6990371a3f0b~tplv-k3u1fbpfcp-zoom-1.image)
 
 终于，打包成功！为了追求完美，最后我们再来做一些优化工作：
 
@@ -188,7 +188,7 @@ $ vsce package
 
 然后再次尝试 `yarn package` 就完美了：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4a9a251834b945c8a882039020f56e4f~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4a9a251834b945c8a882039020f56e4f~tplv-k3u1fbpfcp-zoom-1.image)
 
 > 提示：vsce package 会先执行 `vscode:prepublish` 这个预发布脚本去编译项目。
 
@@ -198,21 +198,21 @@ $ vsce package
 
 如过你也跟着一路敲到了这里，此时你会在项目根目录发现 `vsix` 结尾的文件：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f2c0846bd66747ceab0c09524a209b28~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f2c0846bd66747ceab0c09524a209b28~tplv-k3u1fbpfcp-zoom-1.image)
 
 这就是 vscode 插件的安装包，我们先不急着安装，先一起来看一下这个文件是个什么东西。尝试用归档工具解压后得到如下目录文件夹：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/182c365a0690467cb0bd8b0d1490c175~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/182c365a0690467cb0bd8b0d1490c175~tplv-k3u1fbpfcp-zoom-1.image)
 
 我们可以看到编译后的文件夹 `out` 和其他一些文件是被直接压缩进安装包的，聪明的你肯定发现了 `.cz-config.js`、`.prettierrc.js` 和 `commitlint.config.js` 这种开发时文件也被压缩了，运行插件完全用不到，这明显不合理。其实和其他插件体系一样，vscode 也提供了 `.vscodeignore` 来实现打包忽略配置，我们将以上无关文件忽略重新打包即可。
 
 原理就这？不存在的，我们打开 `extension.js` 会发现引用了 `vscode` 这个包：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bb42881e49a94456aeac417f6b5cba71~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bb42881e49a94456aeac417f6b5cba71~tplv-k3u1fbpfcp-zoom-1.image)
 
 但是我们的安装包中并没有 _node_modules_，那么 vscode 这个包存在在哪里呢？我猜的是挂在 node 环境上了，读了[源码](https://is.gd/33GTcH)后我发现我竟然是对的：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5e796fcf81b64fd7a18d9c3e36fbefdf~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5e796fcf81b64fd7a18d9c3e36fbefdf~tplv-k3u1fbpfcp-zoom-1.image)
 
 vscode 实现了拦截器在加载 Node 环境的时候将 vscode 给添加到了内置包中，这样的好处是减小插件的体积。
 
@@ -235,7 +235,7 @@ This extension consists of 1060 files, out of which 1049 are JavaScript files. F
 
 这个时候提示我们有 1000 多个文件，大概率 _node_modules_ 文件夹被打包了，我们来解压下见证一下：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/917b7742991640c9a0b03314cef24ce6~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/917b7742991640c9a0b03314cef24ce6~tplv-k3u1fbpfcp-zoom-1.image)
 
 不出所料，vscode 默认的打包方式就是简单的编译拷贝，通过忽略文件减小体积也是杯水车薪。而且 vscode 扩展的规模往往增长很快。它们是在多个源文件中编写的，并依赖于 npm 的模块。分解和重用是开发的最佳实践，但在安装和运行扩展时，它们是有代价的。加载 100 个小文件要比加载一个大文件慢得多。这就是我们推荐捆绑的原因。捆绑是将多个小的源文件合并成一个文件的过程。
 
@@ -274,7 +274,7 @@ $ yarn add -D esbuild
 
 理论上我们把打包命令改成 esbuild 之后，应该将 vscode 任务中的问题匹配程序设置为 `$esbuild-watch`，但是 vscode 会提示我们无法识别的问题匹配程序：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4b51c79ee1344b6f92a3f2efaf9ef7aa~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4b51c79ee1344b6f92a3f2efaf9ef7aa~tplv-k3u1fbpfcp-zoom-1.image)
 
 尝试搜索扩展，果然有一个 esbuild Problem Matchers 插件，我们将其安装并添加 `"connor4312.esbuild-problem-matchers"` 到 _.vscode/extensions.json_ 文件的 `recommendations` 中。
 
@@ -286,7 +286,7 @@ $ yarn add -D esbuild
 
 从图中我们可以看到，安装包的体积大大减小了。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ba86286be7fc41f4b8325a3e0be0d2d2~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ba86286be7fc41f4b8325a3e0be0d2d2~tplv-k3u1fbpfcp-zoom-1.image)
 
 > 提交记录：[chore: config esbuild](https://is.gd/F12xNk)
 
@@ -484,7 +484,7 @@ error TS6059: File '/Users/luozhu/Desktop/github/juejin-posts/web/src/pages/inde
 
 现在，你可以按下 `F5` 看到**插件发开主机**窗口的同时还会看到两个调试任务：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d4b3b6f2522643fb9bc574e2f9982775~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d4b3b6f2522643fb9bc574e2f9982775~tplv-k3u1fbpfcp-zoom-1.image)
 
 > 注意📢：请选择 Debug Extension 调试任务而不是 Run Extension
 
@@ -621,7 +621,7 @@ const panel = vscode.window.createWebviewPanel(
 
 我们使用了 [window.createWebviewPanel](https://vscode-api.js.org/modules/window.html#createWebviewPanel) API 创建了一个 webview 面板，现在我们尝试运行 `juejin-posts.start` 就可以打开一个 webview 面板：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d85ad985232542f587376e5073feb1a1~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d85ad985232542f587376e5073feb1a1~tplv-k3u1fbpfcp-zoom-1.image)
 
 #### 给面板设置内容
 
@@ -672,7 +672,7 @@ panel.webview.html = getWebviewContent();
 
 重新使用 `juejin-posts.start` 命令就可以调戏悠悠船长了：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5160d0c76536441b8d1ac3cfcedc0d0e~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5160d0c76536441b8d1ac3cfcedc0d0e~tplv-k3u1fbpfcp-zoom-1.image)
 
 #### 限制 webview 视图为一个
 
@@ -908,7 +908,7 @@ window.addEventListener('message', event => {
 
 **效果**：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0dd7dd37db954d84925ac1c0f60cb965~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0dd7dd37db954d84925ac1c0f60cb965~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### webview 传递信息给插件
 
@@ -943,7 +943,7 @@ currentPanel.webview.onDidReceiveMessage(
 
 **效果**：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c32c8b374b534d6fac1cb552287de6ca~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c32c8b374b534d6fac1cb552287de6ca~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### 在 webview 中请求接口
 
@@ -1341,9 +1341,9 @@ context.subscriptions.push(
 
 感兴趣的话你也可以直接在扩展中搜索“掘金一下”自行体验。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ac7d2ab498b2469486e8f237fc3b7997~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ac7d2ab498b2469486e8f237fc3b7997~tplv-k3u1fbpfcp-zoom-1.image)
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/91ae0fdbff7043db9513e539640fcc2e~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/91ae0fdbff7043db9513e539640fcc2e~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## 彩蛋
 
@@ -1355,7 +1355,7 @@ context.subscriptions.push(
 
 为了答谢掘金平台和掘友一直以来的支持，我编写了一款专为掘金适配的 Markdown 文件字数统计 VS Code 扩展，字数统计会实时显示在状态栏。比起来 vscode 官方的 Word Count，我们支持中文字数统计，比起来 Word Count CJK，我们支持中英文混排。如果你也喜欢使用 VS Code 的 Markdown 编辑能力，那么一定不要错过洛竹的这款插件，下载请认准：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/08c060326c954849b3eb2d34f2e6b0e5~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/08c060326c954849b3eb2d34f2e6b0e5~tplv-k3u1fbpfcp-zoom-1.image)
 
 如果你还在犹豫要不要下载，那不妨看下三个插件的统计对比，我们拿 `i love juejin. 我爱掘金` 这个字符串测试一下三款插件的功能：
 
@@ -1368,7 +1368,7 @@ context.subscriptions.push(
 
 在学习和开发 vscode 插件的过程中，最大的痛点无过于 API 文档翻译的缺失。哪怕是硬着头皮看英文原版 API 文档，阅读体验也很差。为了方便自己、回馈社区，我和 [寒草](https://juejin.cn/user/703340610597064) 等小伙伴决定翻译 vscode api 类型声明并使用 Typedoc 承载，另外在完工后我们也会输出 `@types/vscode-cn` 类型包代替 `@types/vscode` 进一步方便 vscode 插件开发者。团队成员现状：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/aa80c1603b2e4482883fe39e1b44f62e~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/aa80c1603b2e4482883fe39e1b44f62e~tplv-k3u1fbpfcp-zoom-1.image)
 
 翻译是一件带有侠义精神的事业，欢迎更多的小伙伴加入我们。你可以浏览[仓库](https://github.com/vscode-cn/vscode-api-cn)和[官网](https://vscode-api-cn.js.org/)了解具体情况。
 

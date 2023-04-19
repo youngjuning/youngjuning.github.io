@@ -1,19 +1,33 @@
 # 洛竹的博客
 
-[![](https://img.shields.io/website-up-down-green-red/https/youngjuing.js.org.svg)](https://youngjuning.js.org)
+[![洛竹](https://img.shields.io/website-up-down-green-red/https/youngjuing.js.org.svg)](https://youngjuning.js.org)
 [![github pages](https://github.com/youngjuning/youngjuning.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/youngjuning/youngjuning.github.io/actions/workflows/gh-pages.yml)
-[![](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://guides.github.com/features/mastering-markdown/)
+[![洛竹](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://guides.github.com/features/mastering-markdown/)
 
 ![洛竹早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681893499125.png)
 
-# 书籍
+## 前端学习路线
+
+![洛竹](https://i.loli.net/2021/03/31/hYFQxyzriawD93k.png)
+
+## 后端学习路线
+
+![洛竹](https://i.loli.net/2021/03/31/adMZ9hxfGolt3CH.png)
+
+## DevOps 学习路线
+
+![洛竹](https://i.loli.net/2021/03/31/HTJUfCPLwQ31t87.png)
+
+## 书籍
+
 - 《Web全栈工程师的自我修养》
 - 《卓越程序员密码》
 - 《只是为了好玩 Linux之父林纳斯自传》
 - 《软件随想录》
 - 《黑客与画家》
 - 《软技能: 代码之外的生存指南》
-- 《高效程序员的45个习惯 敏捷开发修炼之道》
+- 《高效程序员的45个习惯 敏捷开![图 30](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681893481091.gif)
+发修炼之道》
 - 《程序员的自我修养—链接、装载与库》
 - 《代码整洁之道》
 - 《你就是极客 软件开发人员生存指南》
