@@ -4,6 +4,8 @@
 [![github pages](https://github.com/youngjuning/youngjuning.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/youngjuning/youngjuning.github.io/actions/workflows/gh-pages.yml)
 [![](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://guides.github.com/features/mastering-markdown/)
 
+![洛竹早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681893499125.png)
+
 # 书籍
 - 《Web全栈工程师的自我修养》
 - 《卓越程序员密码》
