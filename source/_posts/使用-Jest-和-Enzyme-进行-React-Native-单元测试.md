@@ -27,15 +27,15 @@ tags:
 
 前端测试常见的测试类型有单元测试(Unit testing)、集成测试(Integration testing)、端到端(E2E testing)测试，一般我们投入的测试资源排序如下：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/411210ad2c1b46a69444efca8b5f9c35~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/411210ad2c1b46a69444efca8b5f9c35~tplv-k3u1fbpfcp-zoom-1.image)
 
 集成测试是在单元测试的基础上，集成多个模块进行测试，确保模块之间互动行为正确无误的工作。有时，单一的模块完全通过单元测试，单独使用也没有问题，但是当与其他模块配合使用时，可能就出现问题了，下图是未通过集成测试的例子：
 
-![](https://user-images.githubusercontent.com/88981/52933895-c0d47600-338f-11e9-9034-11e1ad0c42f1.gif)
+![洛竹](https://user-images.githubusercontent.com/88981/52933895-c0d47600-338f-11e9-9034-11e1ad0c42f1.gif)
 
 端到端测试是站在用户角度出发（一端）到真实运行环境（另一端）进行测试。一般我们会使用 Cypress、puppeteer 这些工具进行自动化测试以替代人肉测试。下图是未通过端到端测试的例子：
 
-![](https://imgur.com/download/Po1unSh)
+![洛竹](https://imgur.com/download/Po1unSh)
 
 ## 测试覆盖率
 
@@ -48,24 +48,24 @@ tags:
 
 下图是执行 `jest --coverage` 之后生成的命令行输出：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/304867f9cd894882b110a3f36eb491f4~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/304867f9cd894882b110a3f36eb491f4~tplv-k3u1fbpfcp-zoom-1.image)
 
 下图是生成的精美的测试覆盖率报告：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0f9eaa5afd7c48a8a0c6e354075790db~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0f9eaa5afd7c48a8a0c6e354075790db~tplv-k3u1fbpfcp-zoom-1.image)
 
 点击 App.js 可以查看单个文件的测试覆盖率情况：
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9c6240f0c86b497999fe854b20533b1a~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9c6240f0c86b497999fe854b20533b1a~tplv-k3u1fbpfcp-zoom-1.image)
 
 点开每个也没你，你会看到页面是五颜六色的，别担心，这些颜色都是有明确的意义：
 
 - 粉紅色的代码: 尚未被执行的 statement 或 function
 - 黄色的代码: 沒被覆盖到的 branch
 - I: 代表 if-else 的 if 没有被执行
-  > ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/530b087960784ddd821a4fe86d06525e~tplv-k3u1fbpfcp-zoom-1.image)
+  > ![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/530b087960784ddd821a4fe86d06525e~tplv-k3u1fbpfcp-zoom-1.image)
 - E: 代表 if-else 的 if 没有被执行
-  > ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2215ef958ea5409aad116f07f42543d8~tplv-k3u1fbpfcp-zoom-1.image)
+  > ![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2215ef958ea5409aad116f07f42543d8~tplv-k3u1fbpfcp-zoom-1.image)
 - Nx: 代表代码块被执行到的次数，可以作为代码性能的参考依据
 
 ## 安装依赖

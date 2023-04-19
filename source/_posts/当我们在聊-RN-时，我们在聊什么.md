@@ -20,7 +20,7 @@ tags:
 
 怎么说呢，当时也就中等焦虑吧。也就赶鸭子上架各种不适，也就睡不好吃不好担心末位淘汰，也就担心没工作被我爸唠叨。
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c327b38e8ca3410ea7f74d67d8080ccb~tplv-k3u1fbpfcp-zoom-1.image)
+![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c327b38e8ca3410ea7f74d67d8080ccb~tplv-k3u1fbpfcp-zoom-1.image)
 
 人们常说压不倒你的，最终都能成就你。我就是顶着巨大心里压力一头扎进了跨端开发这个领域，一晃便是两年多过去了。接着掘金的活动，和大家聊一聊 RN 的一些事。
 
