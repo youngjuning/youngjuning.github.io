@@ -78,8 +78,6 @@ CTR 固然重要，但是如果你的单价很低，那么你的收入也会很�
 
 ![Google Adsense 低 CPC 广告客户网站](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677287190848.png)
 
-> 注意：复制后需要删除最后的版权信息再粘贴到屏蔽列表中。
-
 {% note primary modern %}
 数据全是自己手动统计，如有需要可以加我微信：`AAIII1689888`（备注 CPC），发 `9.99` 元红包获取。
 {% endnote %}
