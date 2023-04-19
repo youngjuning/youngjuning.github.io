@@ -50,16 +50,20 @@ tags:
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, 整理 AI 工具 %}
-{% checkbox yellow, 迁移所有掘金的文章 %}
+{% checkbox yellow checked, 迁移掘金的文章 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan, 《React 设计原理》第一章第二节 %}
 {% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
+睡好心态好才能健康长寿
+1. 睡好不只是睡够8小时，睡得时间段和质量也很关键，比如肝脏心脏大脑都有固定的需要休息的时间段，所以要养成科学规律的作息
+2. 百岁老人最关键的是他们有平和的心态，随着年龄增长，身体机能不可避免地退化，一个平和良好的心态不仅能延缓身体的衰老，更能保持一个高质量的健康身体
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
 {% checkbox blue, 玩转 fiverr %}
+{% checkbox blue, 申请 SHINE 的联盟营销 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
