@@ -4,7 +4,7 @@ date: 2023-04-09 20:32:06
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681044435134.png
 description: 为确保你的帐号安全无虞，在向你发放任何付款之前，谷歌会要求你先验证地址。验证地址的 PIN 码会以国际平信的方式邮寄给你。那么 2023 年中国大陆还能收到 PIN 码吗？答案是肯定的，只不过有一些需要注意的细节。
 categories:
-  - [Google, Google Adsense]
+  - [Google, Adsense]
 tags:
   - Google Adsense
   - Google Adsense PIN 码

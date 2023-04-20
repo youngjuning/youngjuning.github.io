@@ -4,8 +4,7 @@ description: CTR代表点击率（Click Though rate）。简单来说，它表�
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678970392497.png
 date: 2023-03-16 20:38:10
 categories:
-  - [Google, Google Adsense]
-  - [Adsense]
+  - [Google, Adsense]
   - [洛竹翻译计划]
 tags:
   - AdSenseCTR
