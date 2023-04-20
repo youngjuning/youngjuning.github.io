@@ -31,7 +31,7 @@ tags:
 {% checkbox blue, 使用 [有赞](https://www.youzan.com/) 创建一个美甲店铺 %}
 {% checkbox blue, 筹备运营小红书、微信视频号美甲账号💅🏻 %}
 {% checkbox blue, 学习视频剪辑 %}
-{% checkbox blue, 《React Native 仿 Product Hunt 实战》大纲 %}
+{% checkbox blue, 《React Native 仿 Product Hunt 实战开发》大纲 %}
 {% checkbox blue, Youtube 收藏的视频看一遍 %}
 {% checkbox blue, issues.js.org 网站雏形 %}
 {% endfolding %}
@@ -39,7 +39,7 @@ tags:
 {% folding blue, 洛竹收藏的一些网站，这里只是一个暂存区，最终都会整理到洛竹的导航 %}
 {% link CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/favicon.svg %}
 {% link 这个库让你轻松搞定复杂动画！, https://mp.weixin.qq.com/s/joT0KqM0fGUHZtbqCB2uWg %}
-{% checkbox green, [找贝网](https://www.zb-2.com/) <https://www.zb-2.com/favicon.ico> %}
+{% link 找贝网, https://www.zb-2.com/, https://www.zb-2.com/favicon.ico %}
 {% endfolding %}
 
 ## 2023-04
@@ -50,12 +50,16 @@ tags:
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, 整理 AI 工具 %}
+{% checkbox yellow, blog.hyonline.store 大纲 %}
+{% checkbox yellow, 优化 google adsense cpc %}
+{% checkbox yellow, 首页添加分类展示插件 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan checked, 《React 设计原理》1.4 - 2.1 %}
+{% checkbox cyan, 《React 设计原理》1.4 - 2.1 %}
 {% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
+大分子和小分子的概念，传统的食补都是大分子，人体难以有效吸收。就像平时我们喝的水都是大分子的，所以会有越喝越渴的感觉。
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
 {% checkbox blue, 玩转 fiverr %}
