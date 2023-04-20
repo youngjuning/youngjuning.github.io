@@ -19,7 +19,19 @@
         "link": "https://monica.im/",
         "name": "Monica",
         "avatar": "https://monica.im/logo.png",
-        "descr": "你强大的的 ChatGPT AI 助手"
+        "descr": "你强大的的 ChatGPT Chrome AI 助手"
+      }
+    ]
+  },
+  {
+    "class_name": "生成式AI - AIGC",
+    "class_desc": "又称生成式AI，意为人工智能生成内容。 例如AI文本续写，文字转图像的AI图、AI主持人等，都属于AIGC的应用。",
+    "link_list": [
+      {
+        "link": "https://www.midjourney.com/",
+        "name": "Midjourney",
+        "avatar": "https://www.midjourney.com/favicon.ico",
+        "descr": "Midjourney 是一个由同名研究实验室开发的人工智能程序，可根据文字生成图像，于 2022 年 7 月 12 日进入公开测试阶段，使用者可通过 Discord 的机器人指令进行操作。"
       }
     ]
   }
