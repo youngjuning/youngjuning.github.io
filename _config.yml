@@ -112,8 +112,10 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+# https://github.com/hexojs/hexo-generator-sitemap
 sitemap:
   path: sitemap.xml
+  rel: true
 feed:
   type:
     - atom
