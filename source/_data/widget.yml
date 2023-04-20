@@ -4,4 +4,4 @@ top:
     name: 访客地图
     icon: fas fa-global
     order: 1
-    html: '<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=GxY0uNwJ-R6qfXXonTr3FEq7qT8qAPpGdd-XpGVHSEo"></script>'
+    html: '<script async type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=GxY0uNwJ-R6qfXXonTr3FEq7qT8qAPpGdd-XpGVHSEo"></script>'

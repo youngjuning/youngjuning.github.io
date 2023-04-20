@@ -469,7 +469,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-# baidu_analytics: df1911ed1429a8432517d427138fbb79
+# baidu_analytics:
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -481,7 +481,7 @@ cloudflare_analytics:
 
 # Microsoft Clarity
 # https://clarity.microsoft.com/
-# microsoft_clarity: fytne6knad
+microsoft_clarity: fytne6knad
 
 # Advertisement
 # --------------------------------------
