@@ -33,7 +33,9 @@ tags:
 {% checkbox blue, 学习视频剪辑 %}
 {% checkbox blue, 《React Native 仿 Product Hunt 实战开发》大纲 %}
 {% checkbox blue, Youtube 收藏的视频看一遍 %}
-{% checkbox blue, issues.js.org 网站雏形 %}
+{% checkbox blue, issues.js.org 搭建 %}
+{% checkbox yellow, blog.hyonline.store 搭建（hexo-theme-next）%}
+{% checkbox yellow, nav.hyonline.store 独立站导航（hexo-theme-webstack） %}
 {% endfolding %}
 
 {% folding blue, 洛竹收藏的一些网站，这里只是一个暂存区，最终都会整理到洛竹的导航 %}
@@ -44,14 +46,13 @@ tags:
 
 ## 2023-04
 
-{% timeline %}
-<!-- timeline 2023-04-20 -->
-{% tabs 2023-04-20 %}
+{% timeline 2023-04-21 %}
+<!-- timeline 2023-04-21 -->
+{% tabs  %}
 <!-- tab 博客@fas fa-blog -->
+{% checkbox yellow checked, 整理 AI 工具 %}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
-{% checkbox yellow, 整理 AI 工具 %}
 {% checkbox yellow, blog.hyonline.store 大纲 %}
-{% checkbox yellow, 优化 google adsense cpc %}
 {% checkbox yellow, 首页添加分类展示插件 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
@@ -59,11 +60,20 @@ tags:
 {% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
-大分子和小分子的概念，传统的食补都是大分子，人体难以有效吸收。就像平时我们喝的水都是大分子的，所以会有越喝越渴的感觉。
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
 {% checkbox blue, 玩转 fiverr %}
 {% checkbox blue, 申请 SHINE 的联盟营销 %}
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
+<!-- timeline 2023-04-20 -->
+{% tabs 2023-04-20 %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow checked, 优化 google adsense cpc %}
+<!-- endtab -->
+<!-- tab 随笔@fas fa-book -->
+大分子和小分子的概念，传统的食补都是大分子，人体难以有效吸收。就像平时我们喝的水都是大分子的，所以会有越喝越渴的感觉。
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
