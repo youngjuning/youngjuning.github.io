@@ -1,6 +1,6 @@
 [
   {
-    "class_name": "ChatGpt",
+    "class_name": "人工智能",
     "class_desc": "ChatGPT，全称聊天生成预训练转换器，是 OpenAI 开发的人工智能聊天机器人程序，于 2022 年 11 月推出。",
     "link_list": [
       {
@@ -10,11 +10,47 @@
         "descr": "2022 年 11 月发布的强大的人工智能引擎"
       },
       {
-        "link": "https://www.gptchina.ai/",
-        "name": "GptChina",
-        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681019064204.png",
-        "descr": "ChatGpt 中国大陆版"
+        "link": "https://github.com/Significant-Gravitas/Auto-GPT",
+        "name": "Auto-GPT",
+        "avatar": "https://autogpt.net/wp-content/uploads/2023/04/favicon-1.png",
+        "descr": "一个实验性的开源尝试，旨在使 GPT-4 完全自主化。"
       },
+      {
+        "link": "https://godmode.space/",
+        "name": "GodMode",
+        "avatar": "https://godmode.space/favicon.png",
+        "descr": "Auto-GPT 网页版"
+      }
+    ]
+  },
+  {
+    "class_name": "资讯&导航",
+    "class_desc": "AI 相关资讯和导航网站",
+    "link_list": [
+      {
+        "link": "https://openaimaster.com/",
+        "name": "Open AI Master",
+        "avatar": "",
+        "descr": "探索人工智能的未来"
+      },
+      {
+        "link": "https://www.yuanyuzhouneican.com/",
+        "name": "元宇宙内参",
+        "avatar": "https://www.yuanyuzhouneican.com/favicon.ico",
+        "descr": "关注元宇宙行业发展"
+      },
+      {
+        "link": "https://ai-bot.cn/",
+        "name": "AI 工具集",
+        "avatar": "https://openaimaster.com/wp-content/uploads/2023/03/cropped-OpenAI-Master-logo-32x32.png",
+        "descr": "500+ AI工具导航大全，国内外AI工具集合网站"
+      }
+    ]
+  },
+  {
+    "class_name": "插件&扩展",
+    "class_desc": "在任何地方使用 AI",
+    "link_list": [
       {
         "link": "https://monica.im/",
         "name": "Monica",
@@ -32,6 +68,24 @@
         "name": "Midjourney",
         "avatar": "https://www.midjourney.com/favicon.ico",
         "descr": "Midjourney 是一个由同名研究实验室开发的人工智能程序，可根据文字生成图像，于 2022 年 7 月 12 日进入公开测试阶段，使用者可通过 Discord 的机器人指令进行操作。"
+      }
+    ]
+  },
+  {
+    "class_name": "国产AI",
+    "class_desc": "文心一言、ChatGpt 中国大陆版",
+    "link_list": [
+      {
+        "link": "https://www.gptchina.ai/",
+        "name": "GptChina",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681019064204.png",
+        "descr": "ChatGpt 中国大陆版"
+      },
+      {
+        "link": "https://yiyan.baidu.com/",
+        "name": "文心一言|百度",
+        "avatar": "",
+        "descr": "百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。"
       }
     ]
   }
