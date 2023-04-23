@@ -46,24 +46,55 @@ tags:
 
 ## 2023-04
 
-{% timeline 2023-04-21 %}
-<!-- timeline 2023-04-21 -->
-{% tabs  %}
+{% timeline 2023-04 %}
+<!-- timeline 2023-04-22 -->
+{% tabs 2023-04-22 %}
 <!-- tab 博客@fas fa-blog -->
-{% checkbox yellow checked, 整理 AI 工具 %}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, blog.hyonline.store 大纲 %}
 {% checkbox yellow, 首页添加分类展示插件 %}
+{% checkbox yellow, 《如何设置 Gatsby 绝对路径引用别名》 https://levelup.gitconnected.com/how-to-set-up-import-aliases-for-gatsby-32398ae67e7f %}
+{% checkbox yellow, 《如何设置 React Typescript 项目绝对路径引用别名》 https://juejin.cn/post/7081990292013842440%}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox cyan, 《React 设计原理》1.4 - 2.1 %}
 {% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
+主线任务：
+
+- 刷算法锻炼自己的思维能力
+- 写书锻炼自己的表达能力
+- 跨境电商锻炼自己的商业能力
+- 写博客锻炼自己的写作能力
+
+支线任务：
+
+- 学习英语口语锻炼自己的沟通能力
+- 学习视频剪辑锻炼自己的创作能力
+- 学习篮球锻炼自己的身体素质
+- 写代码锻炼自己的编程能力
+- 写日记锻炼自己的想象能力
+- 学习软考知识锻炼自己的学习能力
+
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
 {% checkbox blue, 玩转 fiverr %}
+{% checkbox blue, 玩转 profitcentr %}
 {% checkbox blue, 申请 SHINE 的联盟营销 %}
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
+<!-- timeline 2023-04-21 -->
+{% tabs  %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow checked, 整理 AI 工具 %}
+<!-- endtab -->
+<!-- tab 学习@fas fa-book-open -->
+{% checkbox cyan checked, 《React Native 开发实战》读完 %}
+<!-- endtab -->
+<!-- tab 随笔@fas fa-book -->
+今天和老婆去了杭州图书馆，借了一些书。如此海量的书我的经验是先从目录看起，然后再看简介，最后再看封面。这样可以快速的筛选出自己想看的书籍。
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
