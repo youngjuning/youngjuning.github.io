@@ -37,6 +37,7 @@ tags:
 {% checkbox yellow, blog.hyonline.store 搭建（hexo-theme-next）%}
 {% checkbox yellow, nav.hyonline.store 独立站导航（hexo-theme-webstack） %}
 {% checkbox yellow, 《netlify 部署网站教程》 %}
+{% checkbox blue, 申请 SHINE 的联盟营销 %}
 {% endfolding %}
 
 {% folding blue, 洛竹收藏的一些网站，这里只是一个暂存区，最终都会整理到洛竹的导航 %}
@@ -83,9 +84,9 @@ tags:
 
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
-{% checkbox blue, 玩转 fiverr %}
-{% checkbox blue, 玩转 profitcentr %}
-{% checkbox blue, 申请 SHINE 的联盟营销 %}
+{% checkbox blue checked, 玩转 fiverr %}
+{% checkbox blue checked, 玩转 profitcentr %}
+{% checkbox yellow checked, 基于 Gastby 搭建竹寻网站 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
