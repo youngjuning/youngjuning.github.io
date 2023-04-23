@@ -172,5 +172,35 @@
         "descr": "Next-Generation Mobile Apps and Cross Browser Testing Cloud"
       }
     ]
+  },
+  {
+    "class_name": "免费部署服务",
+    "class_desc": "github pages、vercel、netlify、heroku",
+    "link_list": [
+      {
+        "link": "https://pages.github.com/",
+        "name": "GitHub Pages",
+        "avatar": "https://pages.github.com/favicon.ico",
+        "descr": "Websites for you and your projects."
+      },
+      {
+        "link": "https://vercel.com/",
+        "name": "Vercel",
+        "avatar": "https://assets.vercel.com/image/upload/front/favicon/vercel/57x57.png",
+        "descr": "Develop. Preview. Ship. For the best frontend teams"
+      },
+      {
+        "link": "https://www.netlify.com/",
+        "name": "netlify",
+        "avatar": "https://www.netlify.com/favicon.ico",
+        "descr": "Develop and deploy websites and apps in record time"
+      },
+      {
+        "link": "https://www.heroku.com/",
+        "name": "Heroku",
+        "avatar": "https://www.herokucdn.com/favicon.ico",
+        "descr": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud."
+      }
+    ]
   }
 ]
