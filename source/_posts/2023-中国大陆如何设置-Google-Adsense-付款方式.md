@@ -27,6 +27,10 @@ Google Adsense 并没有人工客服服务，由于 Google 在中国大陆的退
 
 ## 添加付款方式
 
+{% note danger modern %}
+由于国内信用卡的限制，无法接收境外汇款，所以必须使用储蓄卡付款。
+{% endnote %}
+
 进入 Google AdSense 管理后台点击`付款` -> `付款信息` -> `管理付款方式`，添加付款方式信息。银行卡必须为一类账户，二类及以下账户没有权限收款外币，所以到银行开户需要注意账户类型。
 
 - 付款人ID（可选）
@@ -42,9 +46,9 @@ Google Adsense 并没有人工客服服务，由于 Google 在中国大陆的退
 
 ![总行接受境外汇款的路径](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681053178244.png)
 
-- 收款行(Beneficiary＇s Bank): China Merchants Bank, H.O. Shenzhen, China
-- Swift Code(BIC): CMBCCNBS（11位的可填写：CMBCCNBSXXX）
-- 收款人(一卡通或存折或对公账号)账号(Beneficiary＇s a/c no.):  ************
+- 收款行(Beneficiary＇s Bank): `China Merchants Bank, H.O. Shenzhen, China`
+- Swift Code(BIC): `CMBCCNBS`（11位的可填写：`CMBCCNBSXXX`）
+- 收款人(一卡通或存折或对公账号)账号(Beneficiary＇s a/c no.):  `************`
 - 收款人名称(Beneficiary): ***(注:境内个人以我行开户证件姓名的汉语拼音为准，境外个人以我行开户证件姓名为准；对公客户英文名称)
 - 地址(address): 深圳市深南大道7088号招商银行大厦（China Merchants Bank, H.O.,CMB Tower,7088 Shennan Boulevard, Shenzhen, China）
 
