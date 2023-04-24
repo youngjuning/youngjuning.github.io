@@ -12,13 +12,25 @@ tags:
   - 博客
   - 斜杠青年
   - 真人秀
+  - 周记
+  - 规划
 ---
 
 {% note success modern %}
 洛竹的时间轴记录着洛竹在这个世上的点点滴滴。
 {% endnote %}
 
-{% folding cyan, 待办清单 %}
+{% folding blue, 洛竹收藏的一些网站，这里只是一个暂存区，最终都会整理到洛竹的导航 %}
+{% link CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/favicon.svg %}
+{% link 这个库让你轻松搞定复杂动画！, https://mp.weixin.qq.com/s/joT0KqM0fGUHZtbqCB2uWg %}
+{% link 找贝网, https://www.zb-2.com/, https://www.zb-2.com/favicon.ico %}
+{% endfolding %}
+
+## 2023-05
+
+按天来记录有些累啊，改成按周记录吧，每周末规划下一周要做的事情。
+
+{% folding pink, 2023-05 %}
 {% checkbox yellow, 博客添加《Puppeteer 入门教程》 %}
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
 {% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
@@ -40,17 +52,11 @@ tags:
 {% checkbox blue, 申请 SHINE 的联盟营销 %}
 {% endfolding %}
 
-{% folding blue, 洛竹收藏的一些网站，这里只是一个暂存区，最终都会整理到洛竹的导航 %}
-{% link CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/favicon.svg %}
-{% link 这个库让你轻松搞定复杂动画！, https://mp.weixin.qq.com/s/joT0KqM0fGUHZtbqCB2uWg %}
-{% link 找贝网, https://www.zb-2.com/, https://www.zb-2.com/favicon.ico %}
-{% endfolding %}
-
 ## 2023-04
 
 {% timeline 2023-04 %}
-<!-- timeline 2023-04-22 -->
-{% tabs 2023-04-22 %}
+<!-- timeline 2023-04-23 - 2023-04-31 -->
+{% tabs 2023-04-23 - 2023-04-31 %}
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, blog.hyonline.store 大纲 %}
@@ -62,9 +68,17 @@ tags:
 {% checkbox yellow, 《Set your NodeJS version in Netlify》https://www.elian.codes/blog/21-12-03-set-your-node-version-in-netlify/ %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan, 《React 设计原理》1.4 - 2.1 %}
-{% checkbox cyan, 《秘密 如何改变了我的生活》10 页 %}
+<!-- tab 学习@fas fa-book-open -->
+{% checkbox cyan, 《React 设计原理》前两章 %}
+{% checkbox cyan, 《秘密 如何改变了我的生活》40 页 %}
 <!-- endtab -->
+<!-- endtab -->
+<!-- tab 其他@fas fa-stream -->
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
+<!-- timeline 2023-04-22 -->
+{% tabs 2023-04-22 %}
 <!-- tab 随笔@fas fa-book -->
 主线任务：
 
