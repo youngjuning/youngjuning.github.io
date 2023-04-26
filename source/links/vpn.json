@@ -22,12 +22,6 @@
         "descr": "What is my IP address"
       },
       {
-        "link": "https://www.webshare.io/",
-        "name": "WebShare",
-        "avatar": "https://global-uploads.webflow.com/5e42f62100b3490abec730e4/5e42f75400b34997c9c74185_favicon.png",
-        "descr": "Fast & Affordable Proxy Servers"
-      },
-      {
         "name": "ClashX for Mac",
         "link": "https://github.com/yichengchen/clashX",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678003208649.png",
@@ -38,6 +32,24 @@
         "link": "https://github.com/Kr328/ClashForAndroid/releases",
         "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678003325833.png",
         "descr": "A rule-based tunnel for Android."
+      }
+    ]
+  },
+  {
+    "class_name": "代理 IP",
+    "class_desc": "IP Proxy",
+    "link_list": [
+      {
+        "link": "https://www.webshare.io/",
+        "name": "WebShare",
+        "avatar": "https://global-uploads.webflow.com/5e42f62100b3490abec730e4/5e42f75400b34997c9c74185_favicon.png",
+        "descr": "Fast & Affordable Proxy Servers"
+      },
+      {
+        "link": "https://smartdaili-china.com/",
+        "name": "smartdaili-china",
+        "avatar": "https://dashboard.smartdaili-china.com/favicon.ico",
+        "descr": "1 个 ip 0.1 美元"
       }
     ]
   },
