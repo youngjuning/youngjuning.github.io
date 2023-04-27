@@ -1,5 +1,6 @@
 ---
 title: React Native 引入第三方 Android SDK
+date: 2023-04-21 18:40:00
 cover: https://i.loli.net/2021/04/07/Vm2bOetv4HuB3Al.png
 description: 在 React Native 开发中，如果一个原生 SDK 没有适配 React Native 的插件，原则上我们不推荐你使用。但是万不得已的情况下，我们有办法吗？答案是肯定的。步骤大致分为集成 SDK、编写桥接代码。知难行易，本文就是顺着这个思路来解决让前端工程师脑壳疼的集成第三方 SDK 并编写桥接代码的问题。
 categories:
