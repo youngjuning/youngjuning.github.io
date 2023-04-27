@@ -105,7 +105,7 @@ tags:
 {% endtabs %}
 <!-- endtimeline -->
 <!-- timeline 2023-04-21 -->
-{% tabs  %}
+{% tabs 2023-04-21 %}
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow checked, 整理 AI 工具 %}
 <!-- endtab -->
