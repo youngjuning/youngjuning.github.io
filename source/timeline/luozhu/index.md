@@ -92,7 +92,8 @@ tags:
 <!-- timeline 2023-04-23 - 2023-04-31 -->
 {% tabs 2023-04-23 - 2023-04-31 %}
 <!-- tab 博客@fas fa-blog -->
-{% checkbox yellow checked, 微信 oAuth 授权 %}
+{% checkbox yellow checked, 《2023 Google Adsense 账户注册教程》 %}
+{% checkbox yellow checked, 《微信 oAuth 授权》 %}
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
 {% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
