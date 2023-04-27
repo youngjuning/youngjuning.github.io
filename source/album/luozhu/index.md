@@ -4,7 +4,6 @@ date: 2023-04-02 23:51:00
 description: 洛竹的相册
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681038780175.png
 type: galleryGroup
-![图 18](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681893370544.png)
 tags:
   - 洛竹
   - 素材
@@ -25,6 +24,7 @@ tags:
 ![洛竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681038734909.png)
 ![洛竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450445599.png)
 ![洛竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450294102.jpeg)
+![洛竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681893370544.png)
 {% endgallery %}
 
 ## 天目山禅缘寺

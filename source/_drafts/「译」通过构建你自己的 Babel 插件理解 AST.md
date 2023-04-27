@@ -1,5 +1,5 @@
 ---
-title:「译」通过构建你自己的 Babel 插件理解 AST
+title: 「译」通过构建你自己的 Babel 插件理解 AST
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images/20210517191449.png
 tags: [nodejs,翻译]
 ---

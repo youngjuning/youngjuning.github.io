@@ -1,6 +1,5 @@
 ---
-title:「译」Babel 新手向
-cover:
+title: 「译」Babel 新手向
 tags: [nodejs, 翻译]
 ---
 
