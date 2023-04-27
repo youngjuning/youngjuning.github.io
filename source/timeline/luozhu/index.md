@@ -26,30 +26,64 @@ tags:
 {% link 找贝网, https://www.zb-2.com/, https://www.zb-2.com/favicon.ico %}
 {% endfolding %}
 
+{% folding green, 站群建设 %}
+1. youngjuning.js.org
+  - Google Analytics ✅
+  - Google Search Console ✅
+  - Google Adsense ✅
+  - Bing Webmaster ✅
+  - ClustrMaps ✅
+2. vscode-api-cn.js.org
+  - Google Analytics ✅
+  - Google Search Console ✅
+  - Google Adsense ✅
+  - ClustrMaps ✅
+  - Bing Webmaster ❌
+3. vscode-api.js.org
+  - Google Analytics ✅
+  - Google Search Console ✅
+  - Google Adsense ❌
+  - ClustrMaps ✅
+  - Bing Webmaster ❌
+4. usedapp.js.org
+  - Google Analytics ✅
+  - Google Search Console ✅
+  - Google Adsense ❌
+  - ClustrMaps ❌
+  - Bing Webmaster ❌
+5. festar.js.org ❌
+  - Google Analytics ❌
+  - Google Search Console ❌
+  - Google Adsense ❌
+  - ClustrMaps ❌
+  - Bing Webmaster ❌
+{% endfolding %}
+
+## 2023-06
+
+{% folding green, 2023-06 %}
+{% checkbox yellow, 博客添加《Puppeteer 入门教程》 %}
+{% checkbox blue, 使用 [有赞](https://www.youzan.com/) 创建一个美甲店铺 %}
+{% checkbox blue, 筹备运营小红书、微信视频号美甲账号💅🏻 %}
+{% checkbox blue, 学习视频剪辑 %}
+{% checkbox blue, Youtube 收藏的视频看一遍 %}
+{% checkbox yellow, 《netlify 部署网站教程》 %}
+{% endfolding %}
+
 ## 2023-05
 
-按天来记录有些累啊，改成按周记录吧，每周末规划下一周要做的事情。
-
 {% folding pink, 2023-05 %}
-{% checkbox yellow, 博客添加《Puppeteer 入门教程》 %}
-{% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
-{% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
-{% checkbox yellow, 研究如何通过 Adsterra 赚钱并产出一篇博客 %}
 {% checkbox yellow, 《苹果 2023 开发者大会发布第一代 MR 头显设备，利好 VR/AR 板块》 %}
 {% checkbox yellow, 2023 最佳被动赚零花钱项目 honeygain 教程 %}
 {% checkbox yellow, 搜索替换为 https://www.algolia.com/ %}
 {% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》 %}
 {% checkbox blue, H&Y You 商品详情页定制 %}
-{% checkbox blue, 使用 [有赞](https://www.youzan.com/) 创建一个美甲店铺 %}
-{% checkbox blue, 筹备运营小红书、微信视频号美甲账号💅🏻 %}
-{% checkbox blue, 学习视频剪辑 %}
 {% checkbox blue, 《React Native 仿 Product Hunt 实战开发》大纲 %}
-{% checkbox blue, Youtube 收藏的视频看一遍 %}
-{% checkbox blue, issues.js.org 搭建 %}
 {% checkbox yellow, blog.hyonline.store 搭建（hexo-theme-next）%}
 {% checkbox yellow, nav.hyonline.store 独立站导航（hexo-theme-webstack） %}
-{% checkbox yellow, 《netlify 部署网站教程》 %}
+{% checkbox yellow, blog.hyonline.store 大纲 %}
 {% checkbox blue, 申请 SHINE 的联盟营销 %}
+{% checkbox yellow, 首页添加分类展示插件 %}
 {% endfolding %}
 
 ## 2023-04
@@ -58,22 +92,22 @@ tags:
 <!-- timeline 2023-04-23 - 2023-04-31 -->
 {% tabs 2023-04-23 - 2023-04-31 %}
 <!-- tab 博客@fas fa-blog -->
+{% checkbox yellow checked, 微信 oAuth 授权 %}
+{% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
+{% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
 {% checkbox yellow, 博客增加 “Up主导航” 页面%}
-{% checkbox yellow, blog.hyonline.store 大纲 %}
-{% checkbox yellow, 首页添加分类展示插件 %}
 {% checkbox yellow, 《如何设置 Gatsby 绝对路径引用别名》 https://levelup.gitconnected.com/how-to-set-up-import-aliases-for-gatsby-32398ae67e7f %}
-{% checkbox yellow, 《如何设置 React Typescript 项目绝对路径引用别名》 https://juejin.cn/post/7081990292013842440%}
-{% checkbox yellow, 《如何在 React Native 中声明全局类型》 %}
+{% checkbox yellow, 《如何设置 React Typescript 项目绝对路径引用别名》 https://juejin.cn/post/7081990292013842440 %}
+{% checkbox yellow, 《如何在 React Native 中声明全局类型》 https://www.jiyik.com/tm/xwzj/prolan_1645.html %}
 {% checkbox yellow, 《How to deploy a private GitHub repo on Netlify》https://dev.to/ifeanyichima/how-to-publish-a-private-repo-to-netlify-545a %}
 {% checkbox yellow, 《Set your NodeJS version in Netlify》https://www.elian.codes/blog/21-12-03-set-your-node-version-in-netlify/ %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
-<!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan, 《React 设计原理》前两章 %}
-{% checkbox cyan, 《秘密 如何改变了我的生活》40 页 %}
-<!-- endtab -->
+{% checkbox cyan, 《React 设计原理》前三章 %}
+{% checkbox cyan, 《秘密 如何改变了我的生活》读完 %}
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
+{% checkbox cyan, usedapp.js.org 优化%}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
@@ -152,11 +186,7 @@ tags:
 <!-- timeline 2023-04-17 -->
 {% tabs 2023-04-17 %}
 <!-- tab 博客@fas fa-blog -->
-{% checkbox yellow checked, [一文带你玩转 IPweb](https://youngjuning.js.org/15c5cda3b015/) %}
 {% checkbox yellow checked, 所有文章头部加 banner 广告并做关键词和描述的 SEO 优化 %}
-<!-- endtab -->
-<!-- tab 其他@fas fa-stream -->
-{% checkbox blue checked, 玩转 IPWeb %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
