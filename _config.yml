@@ -194,6 +194,10 @@ minify:
   exclude: ['*.min.*']
   js:
     enable: true
+    sourceMap:
+      enable: false ## 生成 sourceMap
+      ## 将 sourceMappingURL 插入压缩后的 js 文件，如果为 false 则需要在浏览器开发者工具中手动添加 sourceMap
+      sourceMappingURL: false ## //# sourceMappingURL=xxx.js.map
     ## 详细配置: https://github.com/terser/terser#minify-options
     options: {}
   css:
