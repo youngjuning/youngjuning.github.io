@@ -94,8 +94,8 @@ tags:
   - ClustrMaps ✅
   - Bing Webmaster ❌
 4. usedapp.js.org
-  - Google Analytics ✅
-  - Google Search Console ✅
+  - Google Analytics ❌
+  - Google Search Console ❌
   - Google Adsense ❌
   - ClustrMaps ❌
   - Bing Webmaster ❌
@@ -143,7 +143,7 @@ tags:
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow checked, 《2023 Google Adsense 账户注册教程》 %}
 {% checkbox yellow checked, 《微信 oAuth 授权》 %}
-{% checkbox yellow, 博客增加 “Up主导航” 页面%}
+{% checkbox yellow checked, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
 {% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
 {% checkbox yellow, 《如何设置 Gatsby 绝对路径引用别名》 https://levelup.gitconnected.com/how-to-set-up-import-aliases-for-gatsby-32398ae67e7f %}

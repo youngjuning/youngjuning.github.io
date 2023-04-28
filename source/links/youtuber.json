@@ -1,0 +1,20 @@
+[
+  {
+    "class_name": "独立站",
+    "class_desc": "跨境电商、独立站相关 YouTuber",
+    "link_list": [
+      {
+        "link": "https://www.youtube.com/@TikTokEthan",
+        "name": "TikTok電商學長Ethan",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679328744132.png",
+        "descr": "TikTok電商 X Shopify獨立站，你想要了解的訊息都在這裡，希望我的分享能夠讓你少走一些彎路！"
+      },
+      {
+        "link": "https://www.youtube.com/@waimaomike",
+        "name": "外贸麦可",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1682677168595.png",
+        "descr": "《跨境电商 Shopify 独立站运营实战》作者"
+      }
+    ]
+  }
+]

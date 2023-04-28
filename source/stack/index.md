@@ -32,6 +32,8 @@ tags:
 
 {% galleryGroup 'AI导航' '人工智能（Artificial Intelligence，简称AI）是指通过计算机技术和算法实现的智能化系统，使得机器能够模拟人类智能，包括感知、推理、学习、创造等多个方面。' /ai/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681094857961.png %}
 
+{% galleryGroup 'Youtuber 导航' '收藏的一些各行各业优秀的 Youtuber' /youtuber/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1682680270215.png %}
+
 {% galleryGroup '科学上网' '科学上网是一种必备技巧' /vpn/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681039070846.png %}
 
 </div>

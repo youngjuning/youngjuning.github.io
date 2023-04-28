@@ -148,17 +148,5 @@
         "descr": "极客和所有与科技有关的事物的爱好者"
       }
     ]
-  },
-  {
-    "class_name": "YouTuber",
-    "class_desc": "推荐一波洛竹关注的优质 YouTuber",
-    "link_list": [
-      {
-        "name": "TikTok電商學長Ethan",
-        "link": "https://www.youtube.com/@TikTokEthan",
-        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679328744132.png",
-        "descr": "TikTok電商 X Shopify獨立站，你想要了解的訊息都在這裡，希望我的分享能夠讓你少走一些彎路！"
-      }
-    ]
   }
 ]
