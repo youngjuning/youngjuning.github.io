@@ -26,6 +26,54 @@ tags:
 {% link 找贝网, https://www.zb-2.com/, https://www.zb-2.com/favicon.ico %}
 {% endfolding %}
 
+{% folding pink, React Native 小册大纲 %}
+- 读者将学到什么
+- 读者应该具备什么
+- 开发环境配置
+- 初识 React Native
+  - 介绍 React Native
+  - 了解 React Native 工作原理
+  - React Native 的优点
+  - React Native 的缺点
+  - 创建和使用基本组件
+  - 创建一个入门项目
+- 再看 React Native
+  - 使用状态管理组件数据
+  - 使用属性管理组件数据
+  - React 组件规范
+  - React Context
+  - React Hooks
+  - 基于 React Native 构建 ChatGpt 程序
+- 再听 React Native
+  - 样式入门
+  - 样式进阶
+    - 使用 styled-components 开发组件
+    - 使用 NativeWind 开发组件
+  - 导航
+  - 动画
+  - 使用 Redux 状态管理库
+  - 使用 Axios 网络请求库
+  - 使用 @luozhu/react-native-mock mock 库
+- 实现 Product Hub 应用程序
+  - Product Hub 需求分析
+  - Product Hub 项目架构设计
+  - Product Hub 页面布局
+    - ...
+    - ...
+    - ...
+- React Native 项目优化
+  - 启动白屏优化
+  - 代码混淆与代码压缩
+  - 热更新实现方案
+- React Native 组件库开发
+  - 架构设计
+  - 组件开发
+  - 组件预览
+  - 单元测试
+  - 组件文档
+  - 组件发布
+{% endfolding %}
+
 {% folding green, 站群建设 %}
 1. youngjuning.js.org
   - Google Analytics ✅
@@ -73,6 +121,7 @@ tags:
 ## 2023-05
 
 {% folding pink, 2023-05 %}
+{% checkbox yellow, 《如何使用 Netlify 和 GitHub Action 创建一个 CI/CD 流程》 https://javascript.works-hub.com/learn/how-to-create-a-ci-slash-cd-pipeline-using-netlify-and-github-actions-90aeb %}
 {% checkbox yellow, 《苹果 2023 开发者大会发布第一代 MR 头显设备，利好 VR/AR 板块》 %}
 {% checkbox yellow, 2023 最佳被动赚零花钱项目 honeygain 教程 %}
 {% checkbox yellow, 搜索替换为 https://www.algolia.com/ %}
@@ -94,9 +143,9 @@ tags:
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow checked, 《2023 Google Adsense 账户注册教程》 %}
 {% checkbox yellow checked, 《微信 oAuth 授权》 %}
+{% checkbox yellow, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
 {% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
-{% checkbox yellow, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, 《如何设置 Gatsby 绝对路径引用别名》 https://levelup.gitconnected.com/how-to-set-up-import-aliases-for-gatsby-32398ae67e7f %}
 {% checkbox yellow, 《如何设置 React Typescript 项目绝对路径引用别名》 https://juejin.cn/post/7081990292013842440 %}
 {% checkbox yellow, 《如何在 React Native 中声明全局类型》 https://www.jiyik.com/tm/xwzj/prolan_1645.html %}
@@ -107,8 +156,14 @@ tags:
 {% checkbox cyan, 《React 设计原理》前三章 %}
 {% checkbox cyan, 《秘密 如何改变了我的生活》读完 %}
 <!-- endtab -->
+<!-- tab 随笔@fas fa-book -->
+- 勿以恶小而为之，勿以善小而不为。
+- 一点点消极的想法，会导致一点点消极的行为，最终导致一生的消极。
+- 一点点积极的想法，会导致一点点积极的行为，最终导致一生的积极。
+<!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
-{% checkbox cyan, usedapp.js.org 优化%}
+{% checkbox cyan, usedapp.js.org 翻译完成%}
+{% checkbox cyan checked, 翻译 vscode-api-cn.js.org Range %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
