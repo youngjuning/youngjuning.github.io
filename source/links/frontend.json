@@ -34,6 +34,30 @@
         "descr": "用于网络和本地用户界面的库"
       },
       {
+        "link": "https://cn.redux.js.org/",
+        "name": "Redux 中文官网",
+        "avatar": "https://cn.redux.js.org/img/favicon/favicon.ico",
+        "descr": "JS 应用的状态容器，提供可预测的状态管理"
+      },
+      {
+        "link": "https://cn.react-redux.js.org/",
+        "name": "React Redux 中文文档",
+        "avatar": "https://cn.redux.js.org/img/favicon/favicon.ico",
+        "descr": "官方的 React 对 Redux 绑定库"
+      },
+      {
+        "link": "https://redux-toolkit.js.org/",
+        "name": "Redux Toolkit",
+        "avatar": "https://cn.redux.js.org/img/favicon/favicon.ico",
+        "descr": "官方、主观、内置电池的工具集，用于高效的 Redux 开发。"
+      },
+      {
+        "link": "https://ahooks.js.org/zh-CN/",
+        "name": "ahooks",
+        "avatar": "https://ahooks.js.org/simple-logo.svg",
+        "descr": "一套高质量可靠的 React Hooks 库"
+      },
+      {
         "link": "https://ant.design/index-cn",
         "name": "Ant Design",
         "avatar": "https://gw.alipayobjects.com/zos/antfincdn/UmVnt3t4T0/antd.png",
@@ -68,6 +92,36 @@
         "name": "Fiddler",
         "avatar": "https://www.telerik.com/favicon.ico",
         "descr": "Fiddler是一个用于HTTP调试的代理服务器应用程序，最初由微软Internet Explorer开发团队的前程序经理Eric Lawrence编写。"
+      },
+      {
+        "link": "https://apifox.com/",
+        "name": "Apifox",
+        "avatar": "https://cdn.apifox.cn/logo/apifox-logo-256.png",
+        "descr": "API 文档、API 调试、API Mock、API 自动化测试 API 一体化协作平台"
+      },
+      {
+        "link": "https://github.com/typicode/json-server",
+        "name": "JSON Server",
+        "avatar": "https://avatars.githubusercontent.com/u/5502029?s=64&v=4",
+        "descr": "在不到30秒的时间内，零编码就可以获得完整的虚假 REST API（真的）。"
+      },
+      {
+        "link": "https://miragejs.com/",
+        "name": "Mirage.js",
+        "avatar": "https://miragejs.com/favicon.svg",
+        "descr": "Mirage JS 是一个 API 模拟库，它能让你构建、测试和分享一个完整的工作 JavaScript 应用程序，而无需依赖任何后端服务。"
+      },
+      {
+        "link": "https://fakerjs.dev/",
+        "name": "Faker.js",
+        "avatar": "https://fakerjs.dev/logo.svg",
+        "descr": "生成大量的虚假（但真实）数据以进行测试和开发。"
+      },
+      {
+        "link": "http://mockjs.com/",
+        "name": "Mock.js",
+        "avatar": "http://mockjs.com/assets/img/logo-2.svg",
+        "descr": "生成随机数据，拦截 Ajax 请求"
       }
     ]
   },

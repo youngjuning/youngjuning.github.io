@@ -135,15 +135,10 @@ tags:
 {% checkbox yellow, 首页添加分类展示插件 %}
 {% endfolding %}
 
-## 2023-04
-
-{% timeline 2023-04 %}
-<!-- timeline 2023-04-23 - 2023-04-31 -->
-{% tabs 2023-04-23 - 2023-04-31 %}
+{% timeline 2023-05 pink %}
+<!-- timeline 2023-05-04 -->
+{% tabs 2023-05-04 %}
 <!-- tab 博客@fas fa-blog -->
-{% checkbox yellow checked, 《2023 Google Adsense 账户注册教程》 %}
-{% checkbox yellow checked, 《微信 oAuth 授权》 %}
-{% checkbox yellow checked, 博客增加 “Up主导航” 页面%}
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
 {% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
 {% checkbox yellow, 《如何设置 Gatsby 绝对路径引用别名》 https://levelup.gitconnected.com/how-to-set-up-import-aliases-for-gatsby-32398ae67e7f %}
@@ -153,8 +148,28 @@ tags:
 {% checkbox yellow, 《Set your NodeJS version in Netlify》https://www.elian.codes/blog/21-12-03-set-your-node-version-in-netlify/ %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
-{% checkbox cyan, 《React 设计原理》前三章 %}
-{% checkbox cyan, 《秘密 如何改变了我的生活》读完 %}
+{% checkbox green, React 设计原理 10 页 %}
+{% checkbox green, 《秘密》 15 页 %}
+{% checkbox green, 《犹太人的财富观念》15 页 %}
+<!-- endtab -->
+<!-- tab 随笔@fas fa-book -->
+<!-- endtab -->
+<!-- tab 其他@fas fa-stream -->
+{% checkbox cyan, usedapp.js.org 重构完成%}
+<!-- endtab -->
+{% endtabs %}
+<!-- endtimeline -->
+{% endtimeline %}
+
+## 2023-04
+
+{% timeline 2023-04 %}
+<!-- timeline 2023-04-23 - 2023-04-31 -->
+{% tabs 2023-04-23 - 2023-04-31 %}
+<!-- tab 博客@fas fa-blog -->
+{% checkbox yellow checked, 《2023 Google Adsense 账户注册教程》 %}
+{% checkbox yellow checked, 《微信 oAuth 授权》 %}
+{% checkbox yellow checked, 博客增加 “Up主导航” 页面%}
 <!-- endtab -->
 <!-- tab 随笔@fas fa-book -->
 - 勿以恶小而为之，勿以善小而不为。
@@ -164,6 +179,7 @@ tags:
 <!-- tab 其他@fas fa-stream -->
 {% checkbox cyan, usedapp.js.org 翻译完成%}
 {% checkbox cyan checked, 翻译 vscode-api-cn.js.org Range %}
+{% checkbox cyan checked, 个人 Mac 电脑恢复出厂设置 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
