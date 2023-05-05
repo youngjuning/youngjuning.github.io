@@ -2,5 +2,4 @@ User-agent: *
 Allow: /
 Disallow: .json$
 Disallow: .sh$
-Disallow: /random
 Sitemap: https://youngjuning.js.org/sitemap.xml
