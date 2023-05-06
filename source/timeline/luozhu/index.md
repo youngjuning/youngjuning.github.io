@@ -136,7 +136,7 @@ tags:
 {% checkbox yellow, 首页添加分类展示插件 %}
 {% endfolding %}
 
-{% timeline 2023-05 pink %}
+{% timeline 2023-05, pink %}
 <!-- timeline 2023-05-06 -->
 {% tabs 2023-05-06 %}
 <!-- tab 博客@fas fa-blog -->
