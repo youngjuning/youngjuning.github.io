@@ -26,7 +26,7 @@
 - 《软件随想录》
 - 《黑客与画家》
 - 《软技能: 代码之外的生存指南》
-- 《高效程序员的45个习惯 敏捷开![图 30](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681893481091.gif)
+- 《高效程序员的45个习惯 敏捷开》
 发修炼之道》
 - 《程序员的自我修养—链接、装载与库》
 - 《代码整洁之道》
@@ -61,7 +61,6 @@
 
 - 《JavaScript高级程序设计》
 - 《你不知道的JavaScript 上卷》
-  - [读书笔记](https://mubu.com/doc/13bnYs-Mq0r)
 - 《你不知道的JavaScript 中卷》
 - 《你不知道的JavaScript 下卷》
 - 《ES6标准入门》

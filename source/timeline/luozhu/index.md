@@ -116,28 +116,27 @@ tags:
 {% checkbox blue, 学习视频剪辑 %}
 {% checkbox blue, Youtube 收藏的视频看一遍 %}
 {% checkbox yellow, 《netlify 部署网站教程》 %}
+{% checkbox yellow, 《如何使用 Netlify 和 GitHub Action 创建一个 CI/CD 流程》 https://javascript.works-hub.com/learn/how-to-create-a-ci-slash-cd-pipeline-using-netlify-and-github-actions-90aeb %}
+{% checkbox green, SHINE 申请联盟营销 %}
+{% checkbox blue, H&Y You 商品详情页定制 %}
+{% checkbox yellow, nav.hyonline.store 独立站导航（hexo-theme-webstack） %}
+{% checkbox yellow, blog.hyonline.store 大纲 %}
+{% checkbox yellow, blog.hyonline.store 搭建（hexo-theme-next）%}
 {% endfolding %}
 
 ## 2023-05
 
 {% folding pink, 2023-05 %}
-{% checkbox yellow, 《如何使用 Netlify 和 GitHub Action 创建一个 CI/CD 流程》 https://javascript.works-hub.com/learn/how-to-create-a-ci-slash-cd-pipeline-using-netlify-and-github-actions-90aeb %}
-{% checkbox yellow, 《苹果 2023 开发者大会发布第一代 MR 头显设备，利好 VR/AR 板块》 %}
 {% checkbox yellow, 2023 最佳被动赚零花钱项目 honeygain 教程 %}
 {% checkbox yellow, 搜索替换为 https://www.algolia.com/ %}
 {% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》 %}
-{% checkbox blue, H&Y You 商品详情页定制 %}
-{% checkbox blue, 《React Native 仿 Product Hunt 实战开发》大纲 %}
-{% checkbox yellow, blog.hyonline.store 搭建（hexo-theme-next）%}
-{% checkbox yellow, nav.hyonline.store 独立站导航（hexo-theme-webstack） %}
-{% checkbox yellow, blog.hyonline.store 大纲 %}
-{% checkbox blue, 申请 SHINE 的联盟营销 %}
+{% checkbox blue, 《React Native 仿 Product Hunt 实战开发》 %}
 {% checkbox yellow, 首页添加分类展示插件 %}
 {% endfolding %}
 
 {% timeline 2023-05 pink %}
-<!-- timeline 2023-05-04 -->
-{% tabs 2023-05-04 %}
+<!-- timeline 2023-05-06 -->
+{% tabs 2023-05-06 %}
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
 {% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
@@ -146,6 +145,7 @@ tags:
 {% checkbox yellow, 《如何在 React Native 中声明全局类型》 https://www.jiyik.com/tm/xwzj/prolan_1645.html %}
 {% checkbox yellow, 《How to deploy a private GitHub repo on Netlify》https://dev.to/ifeanyichima/how-to-publish-a-private-repo-to-netlify-545a %}
 {% checkbox yellow, 《Set your NodeJS version in Netlify》https://www.elian.codes/blog/21-12-03-set-your-node-version-in-netlify/ %}
+{% checkbox yellow checked, 《如何填写 Google Adsense 税务信息可以免税 | W-8BEN》 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox green, React 设计原理 10 页 %}
@@ -155,7 +155,7 @@ tags:
 <!-- tab 随笔@fas fa-book -->
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
-{% checkbox cyan, usedapp.js.org 重构完成%}
+{% checkbox cyan checked, usedapp.js.org 重构完成%}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
@@ -284,8 +284,7 @@ tags:
 7. 过程可以博弈，但结局必须是双赢。
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
-{% checkbox green, SHINE 申请联盟营销 %}
-{% checkbox green, 申请一个新的 Google Adsense 账号 %}
+{% checkbox green checked, 申请一个新的 Google Adsense 账号 %}
 <!-- endtab -->
 {% endtabs %}
 <!-- endtimeline -->
