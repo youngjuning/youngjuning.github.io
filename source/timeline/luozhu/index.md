@@ -80,26 +80,28 @@ tags:
   - Google Search Console ✅
   - Google Adsense ✅
   - Bing Webmaster ✅
-  - ClustrMaps ✅
 2. vscode-api-cn.js.org
   - Google Analytics ✅
   - Google Search Console ✅
   - Google Adsense ✅
   - ClustrMaps ✅
-  - Bing Webmaster ❌
+  - Bing Webmaster ✅
 3. vscode-api.js.org
   - Google Analytics ✅
   - Google Search Console ✅
-  - Google Adsense ❌
+  - Google Adsense ✅
   - ClustrMaps ✅
-  - Bing Webmaster ❌
+  - Bing Webmaster ✅
 4. usedapp.js.org
-  - Google Analytics ❌
-  - Google Search Console ❌
-  - Google Adsense ❌
-  - ClustrMaps ❌
-  - Bing Webmaster ❌
-5. festar.js.org ❌
+  - Google Analytics ✅
+  - Google Search Console ✅
+  - Google Adsense ✅
+  - Bing Webmaster ✅
+5. you.hyonline.store ✅
+  - Google Analytics ✅
+  - Google Search Console ✅
+  - Bing Webmaster ✅
+6. festar.js.org ❌
   - Google Analytics ❌
   - Google Search Console ❌
   - Google Adsense ❌
