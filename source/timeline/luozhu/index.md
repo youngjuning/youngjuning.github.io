@@ -84,13 +84,11 @@ tags:
   - Google Analytics ✅
   - Google Search Console ✅
   - Google Adsense ✅
-  - ClustrMaps ✅
   - Bing Webmaster ✅
 3. vscode-api.js.org
   - Google Analytics ✅
   - Google Search Console ✅
   - Google Adsense ✅
-  - ClustrMaps ✅
   - Bing Webmaster ✅
 4. usedapp.js.org
   - Google Analytics ✅
@@ -105,7 +103,6 @@ tags:
   - Google Analytics ❌
   - Google Search Console ❌
   - Google Adsense ❌
-  - ClustrMaps ❌
   - Bing Webmaster ❌
 {% endfolding %}
 
