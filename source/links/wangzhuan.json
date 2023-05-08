@@ -46,47 +46,5 @@
         "descr": "All Your Sharing Information at Hand"
       }
     ]
-  },
-  {
-    "class_name": "CPA 广告联盟",
-    "class_desc": "CPA广告是网络中最常见的一种广告形式，当用户点击某个网站上的cpa广告后，这个站的站长就会获得相应的收入。 CPA （每次行动成本，Cost Per Action）计价方式是指按广告投放实际效果，即按回应的有效问卷或定单来计费，而不限广告投放量。",
-    "link_list": [
-      {
-        "link": "https://www.cpalead.com/",
-        "name": "CPAlead",
-        "avatar": "https://www.cpalead.com/favicon.ico",
-        "descr": "安装 Android 或 iOS 应用程序而获得报酬"
-      },
-      {
-        "link": "https://www.clickbank.com/",
-        "name": "ClickBank",
-        "avatar": "https://www.clickbank.com/favicon.ico",
-        "descr": "在 ClickBank，我们提供值得信赖的电子商务工具、全球联盟市场以及行业领先的支持和教育"
-      }
-    ]
-  },
-  {
-    "class_name": "众包平台",
-    "class_desc": "雇佣自由职业者完成任务",
-    "link_list": [
-      {
-        "link": "http://www.fiverr.com/s2/1968d02cc5",
-        "name": "fiverr",
-        "avatar": "https://fiverr-res.cloudinary.com/npm-assets/layout-server/favicon.52df53a.ico",
-        "descr": "自由职业者服务市场"
-      },
-      {
-        "link": "https://sproutgigs.com/",
-        "name": "SproutGigs",
-        "avatar": "https://sproutgigs.com/favicon-32x32.png",
-        "descr": "我们的在线市场帮助雇主雇用世界各地的自由职业者。今天就搜索并向几位自由职业者发出邀请!"
-      },
-      {
-        "link": "https://rapidworkers.com/",
-        "name": "RapidWorkers",
-        "avatar": "https://rapidworkers.com/favicon.ico",
-        "descr": "RapidWorkers是一个众包服务，有超过20万名工人。"
-      }
-    ]
   }
 ]

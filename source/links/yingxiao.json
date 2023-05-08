@@ -1,7 +1,7 @@
 [
   {
-    "class_name": "联盟营销",
-    "class_desc": "联盟营销也叫联盟行销是一种通过互联网来推广产品或服务的方式，通过联盟营销，您可以通过与其他网站或博客建立合作关系来推广您的产品或服务。",
+    "class_name": "广告联盟",
+    "class_desc": "广告联盟是指由多个网站或广告主联合组成的一个联盟，旨在通过共享广告资源和流量来实现互惠互利的合作模式。",
     "link_list": [
       {
         "name": "Google Adsense",
@@ -10,16 +10,10 @@
         "descr": "我们将您的内容化为真金白银"
       },
       {
-        "link": "https://publishers.adsterra.com/referral/nmsaz7MjPk",
-        "name": "Adsterra",
-        "avatar": "https://adsterra.com/favicon.ico",
-        "descr": "通过 Adsterra，您可以将任何流量货币化，从一个小博客到APK文件或社会流量。你甚至不需要一个网站就可以开始通过显示广告盈利。人工智能算法将选择最具竞争力的CPM费率以及相关的广告内容。"
-      },
-      {
-        "name": "百度联盟",
-        "link": "https://union.baidu.com/bqt/#/",
-        "avatar": "https://union.baidu.com/bqt/favicon.ico",
-        "descr": "国内最具实力的联盟体系之一"
+        "link": "https://adfoc.us/",
+        "name": "AdFoc.us",
+        "avatar": "https://adfoc.us/favicon.ico",
+        "descr": "缩短、分享和赚钱！"
       },
       {
         "link": "https://evadav.com/",
@@ -32,6 +26,66 @@
         "name": "Monetag",
         "avatar": "https://publishers.monetag.com/assets/favicon.ico",
         "descr": "无论你想通过什么受众和网络或移动流量来实现盈利，Monetag 都准备好满足你的期望，在收入和用户体验之间取得出色的平衡。"
+      },
+      {
+        "link": "https://publishers.adsterra.com/referral/nmsaz7MjPk",
+        "name": "Adsterra",
+        "avatar": "https://adsterra.com/favicon.ico",
+        "descr": "通过 Adsterra，您可以将任何流量货币化，从一个小博客到APK文件或社会流量。你甚至不需要一个网站就可以开始通过显示广告盈利。人工智能算法将选择最具竞争力的CPM费率以及相关的广告内容。"
+      },
+      {
+        "name": "百度联盟",
+        "link": "https://union.baidu.com/bqt/#/",
+        "avatar": "https://union.baidu.com/bqt/favicon.ico",
+        "descr": "国内最具实力的联盟体系之一，由于需要备案，适合接入国内的博客平台，比如 CSDN、博客园等，可以作为博客备份的选项"
+      }
+    ]
+  },
+  {
+    "class_name": "联盟营销",
+    "class_desc": "联盟营销也叫联盟行销是一种通过互联网来推广产品或服务的方式，通过联盟营销，您可以通过与其他网站或博客建立合作关系来推广您的产品或服务。",
+    "link_list": [
+      {
+        "link": "https://www.cpalead.com/",
+        "name": "CPAlead",
+        "avatar": "https://www.cpalead.com/favicon.ico",
+        "descr": "安装 Android 或 iOS 应用程序而获得报酬"
+      },
+      {
+        "link": "https://www.clickbank.com/",
+        "name": "ClickBank",
+        "avatar": "https://www.clickbank.com/favicon.ico",
+        "descr": "在 ClickBank，我们提供值得信赖的电子商务工具、全球联盟市场以及行业领先的支持和教育"
+      },
+      {
+        "link": "https://www.cpagrip.com/",
+        "name": "CAPGrip",
+        "avatar": "https://www.cpagrip.com/favicon.ico",
+        "descr": "CPAGrip是联盟营销领域的行业领导者，自2013年以来一直保持着令人印象深刻的成功记录和出版商满意度。"
+      }
+    ]
+  },
+  {
+    "class_name": "众包平台",
+    "class_desc": "雇佣自由职业者完成任务",
+    "link_list": [
+      {
+        "link": "http://www.fiverr.com/s2/1968d02cc5",
+        "name": "fiverr",
+        "avatar": "https://fiverr-res.cloudinary.com/npm-assets/layout-server/favicon.52df53a.ico",
+        "descr": "自由职业者服务市场"
+      },
+      {
+        "link": "https://sproutgigs.com/",
+        "name": "SproutGigs（PicoWorkers）",
+        "avatar": "https://sproutgigs.com/favicon-32x32.png",
+        "descr": "我们的在线市场帮助雇主雇用世界各地的自由职业者。今天就搜索并向几位自由职业者发出邀请!"
+      },
+      {
+        "link": "https://rapidworkers.com/",
+        "name": "RapidWorkers",
+        "avatar": "https://rapidworkers.com/favicon.ico",
+        "descr": "RapidWorkers是一个众包服务，有超过20万名工人。"
       }
     ]
   },
@@ -126,9 +180,15 @@
     ]
   },
   {
-    "class_name": "社媒优化",
+    "class_name": "社交网络",
     "class_desc": "加粉丝、加点赞、加浏览、加评论",
     "link_list": [
+      {
+        "link": "https://www.like4like.org/",
+        "name": "Like4Like",
+        "avatar": "https://www.like4like.org/favicon.ico",
+        "descr": "免费获取真实用户的赞和关注，支持所有主要的社交网络"
+      },
       {
         "name": "Somiibo",
         "link": "https://somiibo.com/",
