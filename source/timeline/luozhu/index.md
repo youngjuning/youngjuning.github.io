@@ -118,9 +118,6 @@ tags:
 {% checkbox yellow, 《如何使用 Netlify 和 GitHub Action 创建一个 CI/CD 流程》 https://javascript.works-hub.com/learn/how-to-create-a-ci-slash-cd-pipeline-using-netlify-and-github-actions-90aeb %}
 {% checkbox green, SHINE 申请联盟营销 %}
 {% checkbox blue, H&Y You 商品详情页定制 %}
-{% checkbox yellow, nav.hyonline.store 独立站导航（hexo-theme-webstack） %}
-{% checkbox yellow, blog.hyonline.store 大纲 %}
-{% checkbox yellow, blog.hyonline.store 搭建（hexo-theme-next）%}
 {% endfolding %}
 
 ## 2023-05
@@ -130,13 +127,15 @@ tags:
 {% checkbox yellow, 搜索替换为 https://www.algolia.com/ %}
 {% checkbox cyan, 学习《[前端面试真题](https://bit.ly/3ZQl91F)》 %}
 {% checkbox blue, 《React Native 仿 Product Hunt 实战开发》 %}
-{% checkbox yellow, 首页添加分类展示插件 %}
+{% checkbox yellow, festar.js.org 前端导航站 %}
 {% endfolding %}
 
 {% timeline 2023-05, pink %}
 <!-- timeline 2023-05-06 -->
-{% tabs 2023-05-06 %}
+{% tabs 05-08 至 05-14%}
 <!-- tab 博客@fas fa-blog -->
+{% checkbox yellow checked, 《如何填写 Google Adsense 税务信息可以免税 | W-8BEN》 %}
+{% checkbox yellow checked, 《Antd <DatePicker /> date.clone is not a function》 %}
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
 {% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
 {% checkbox yellow, 《如何设置 Gatsby 绝对路径引用别名》 https://levelup.gitconnected.com/how-to-set-up-import-aliases-for-gatsby-32398ae67e7f %}
@@ -144,14 +143,11 @@ tags:
 {% checkbox yellow, 《如何在 React Native 中声明全局类型》 https://www.jiyik.com/tm/xwzj/prolan_1645.html %}
 {% checkbox yellow, 《How to deploy a private GitHub repo on Netlify》https://dev.to/ifeanyichima/how-to-publish-a-private-repo-to-netlify-545a %}
 {% checkbox yellow, 《Set your NodeJS version in Netlify》https://www.elian.codes/blog/21-12-03-set-your-node-version-in-netlify/ %}
-{% checkbox yellow checked, 《如何填写 Google Adsense 税务信息可以免税 | W-8BEN》 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox green, React 设计原理 10 页 %}
 {% checkbox green, 《秘密》 15 页 %}
 {% checkbox green, 《犹太人的财富观念》15 页 %}
-<!-- endtab -->
-<!-- tab 随笔@fas fa-book -->
 <!-- endtab -->
 <!-- tab 其他@fas fa-stream -->
 {% checkbox cyan checked, usedapp.js.org 重构完成%}
