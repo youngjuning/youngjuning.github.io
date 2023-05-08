@@ -118,6 +118,8 @@ tags:
 {% checkbox yellow, 《如何使用 Netlify 和 GitHub Action 创建一个 CI/CD 流程》 https://javascript.works-hub.com/learn/how-to-create-a-ci-slash-cd-pipeline-using-netlify-and-github-actions-90aeb %}
 {% checkbox green, SHINE 申请联盟营销 %}
 {% checkbox blue, H&Y You 商品详情页定制 %}
+{% checkbox yellow, 《How to deploy a private GitHub repo on Netlify》https://dev.to/ifeanyichima/how-to-publish-a-private-repo-to-netlify-545a %}
+{% checkbox yellow, 《Set your NodeJS version in Netlify》https://www.elian.codes/blog/21-12-03-set-your-node-version-in-netlify/ %}
 {% endfolding %}
 
 ## 2023-05
@@ -138,11 +140,9 @@ tags:
 {% checkbox yellow checked, 《Antd <DatePicker /> date.clone is not a function》 %}
 {% checkbox yellow checked, 《如何在 React Native 中声明全局类型》 %}
 {% checkbox yellow checked, 《如何设置 React Typescript 项目绝对路径引用别名》 %}
-{% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
-{% checkbox yellow, 《如何设置 Gatsby 绝对路径引用别名》 https://levelup.gitconnected.com/how-to-set-up-import-aliases-for-gatsby-32398ae67e7f %}
-{% checkbox yellow, 《How to deploy a private GitHub repo on Netlify》https://dev.to/ifeanyichima/how-to-publish-a-private-repo-to-netlify-545a %}
-{% checkbox yellow, 《Set your NodeJS version in Netlify》https://www.elian.codes/blog/21-12-03-set-your-node-version-in-netlify/ %}
+{% checkbox yellow checked, 《如何设置 Gatsby 绝对路径引用别名》 https://levelup.gitconnected.com/how-to-set-up-import-aliases-for-gatsby-32398ae67e7f %}
 {% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
+{% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox green, React 设计原理 10 页 %}
