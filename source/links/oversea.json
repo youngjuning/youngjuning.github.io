@@ -1,31 +1,13 @@
 [
   {
-    "class_name": "科学上网",
-    "class_desc": "科学上网，链接世界。",
+    "class_name": "平台",
+    "class_desc": "常用的跨境服务平台",
     "link_list": [
       {
-        "name": "SockBoom",
-        "link": "https://sockboom.shop/auth/register?affid=552052",
-        "avatar": "https://sockboom.one/theme/material/images/users/favicon.png",
-        "descr": "我们都是小小的星尘"
-      },
-      {
-        "name": "CreamData",
-        "link": "https://fonete.com/",
-        "avatar": "https://fonete.com/assets/index02/images/favicon.png",
-        "descr": "2023年最稳的网络加速机场"
-      },
-      {
-        "name": "WhatIs MyIPAddress",
-        "link": "https://whatismyipaddress.com/",
-        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678002092318.png",
-        "descr": "查询 ip 确定所在时区"
-      },
-      {
-        "name": "Whoer",
-        "link": "https://whoer.net/",
-        "avatar": "https://whoer.net/favicon.png",
-        "descr": "检查您的 IP 地址和 DNS 地址，确保安全性"
+        "link": "https://www.cifnews.com/",
+        "name": "雨果跨境",
+        "avatar": "https://www.cifnews.com/favicon.ico",
+        "descr": "跨境电商品牌出海产业互联网平台"
       }
     ]
   },
@@ -65,7 +47,7 @@
       {
         "name": "GGHALL",
         "link": "https://www.gghall.com/",
-        "avatar": "https://www.gghall.com/favicon.ico",
+        "avatar": "https://www.gghall.com/assets/img/favicon.png",
         "descr": "谷歌、脸书、推特、LINE、TikTok 等海外平台广告户"
       },
       {
@@ -109,7 +91,13 @@
         "link": "https://www.temu.com/",
         "avatar": "https://www.temu.com/favicon.ico",
         "descr": "一個基於美國的在線市場。這是一個“跨境電子商務網站，大多數產品可能來自海外，尤其是中國。”它是位於中國的PDD Holdings Inc.的子公司，該公司還擁有拼多多。"
-      },
+      }
+    ]
+  },
+  {
+    "class_name": "联盟营销",
+    "class_desc": "跨境领域的联盟营销项目",
+    "link_list": [
       {
         "name": "SHEIN",
         "link": "https://us.shein.com/",
@@ -151,6 +139,12 @@
         "link": "https://www.paypal.com/c2/home",
         "avatar": "https://www.paypalobjects.com/webstatic/icon/pp258.png",
         "descr": "安全海淘国际支付平台_安全收款外贸平台-PayPal CN"
+      },
+      {
+        "link": "https://stripe.com/zh-cn-sg",
+        "name": "Stripe",
+        "avatar": "https://images.ctfassets.net/fzn2n1nzq965/2EOOpI2mMZgHYBlbO44zWV/5a6c5d37402652c80567ec942c733a43/favicon.png?w=180&h=180",
+        "descr": "网络信用卡支付基础设施"
       }
     ]
   }
