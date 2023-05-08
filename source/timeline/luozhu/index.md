@@ -136,13 +136,13 @@ tags:
 <!-- tab 博客@fas fa-blog -->
 {% checkbox yellow checked, 《如何填写 Google Adsense 税务信息可以免税 | W-8BEN》 %}
 {% checkbox yellow checked, 《Antd <DatePicker /> date.clone is not a function》 %}
-{% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
+{% checkbox yellow checked, 《如何在 React Native 中声明全局类型》 %}
+{% checkbox yellow checked, 《如何设置 React Typescript 项目绝对路径引用别名》 %}
 {% checkbox yellow, 升级 hexo-theme-butterfly 到 4.8.1 %}
 {% checkbox yellow, 《如何设置 Gatsby 绝对路径引用别名》 https://levelup.gitconnected.com/how-to-set-up-import-aliases-for-gatsby-32398ae67e7f %}
-{% checkbox yellow, 《如何设置 React Typescript 项目绝对路径引用别名》 https://juejin.cn/post/7081990292013842440 %}
-{% checkbox yellow, 《如何在 React Native 中声明全局类型》 https://www.jiyik.com/tm/xwzj/prolan_1645.html %}
 {% checkbox yellow, 《How to deploy a private GitHub repo on Netlify》https://dev.to/ifeanyichima/how-to-publish-a-private-repo-to-netlify-545a %}
 {% checkbox yellow, 《Set your NodeJS version in Netlify》https://www.elian.codes/blog/21-12-03-set-your-node-version-in-netlify/ %}
+{% checkbox yellow, 更新 《Hexo Butterfly Theme 魔改记录》 %}
 <!-- endtab -->
 <!-- tab 学习@fas fa-book-open -->
 {% checkbox green, React 设计原理 10 页 %}
