@@ -76,4 +76,4 @@ OpenAI 推出超神 ChatGPT，非常火爆。但是呢，由于 ChatGPT 注册�
 ## 2023-04-09 更新
 
 - VS Code 插件推荐：[ChatGPT - Genie AI](https://marketplace.visualstudio.com/items?itemName=genieai.chatgpt-vscode)
-- Chrome 扩展：[ChatGPT for Google](https://chrome.google.com/webstore/detail/chatgpt-for-google/jgjaeacdkonaoafenlfkkkmbaopkbilf/related?hl=zh-CN)
+- Chrome 扩展：[ChatGPT for Google](https://chrome.google.com/webstore/detail/chatgpt-for-google/jgjaeacdkonaoafenlfkkkmbaopkbilf/related?hl=zh-CN)、[Monica](https://monica.im/?c=UH68PBPR)
