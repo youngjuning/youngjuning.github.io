@@ -1,0 +1,18 @@
+{
+  "class_name": "跨境电商",
+  "class_desc": "跨境电商常用安装包",
+  "link_list": [
+    {
+      "link": "https://youngjuning.js.org/apks/TikTOk.apk",
+      "name": "TikTOk",
+      "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1683685181989.png",
+      "descr": "TikTOk 破解版"
+    },
+    {
+      "link": "https://youngjuning.js.org/apks/TikTok.Plugin.2.3.8.apk",
+      "name": "TikTok Plugin",
+      "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1683685366938.png",
+      "descr": "TikTok Plugin for Android"
+    }
+  ]
+}
