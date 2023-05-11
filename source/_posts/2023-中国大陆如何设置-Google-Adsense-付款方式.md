@@ -5,6 +5,7 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681054201669.png
 description: 自2020年起，Google AdSense 已暂停使用西联汇款付款方式，而采用更为便捷的电汇方式进行付款。由于技术的不断发展，现在银行也都开发了APP，用户可以在线完成收款和结汇的操作。以下是以招商银行为例介绍 Google AdSense 收款方法
 categories:
   - [Google, Adsense]
+  - [站点运营, 广告]
 tags:
   - Google
   - Adsense

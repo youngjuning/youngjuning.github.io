@@ -4,6 +4,7 @@ description: 本文讲解了如何填写 Google Adsense 税务信息可以免税
 date: 2023-05-06 19:47:53
 categories:
   - [Google, Adsense]
+  - [站点运营, 广告]
 tags:
   - Google
   - Adsense

@@ -5,6 +5,7 @@ description: 作为一个技术博客的博主，我一直在寻找优化 Google
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677294911791.png
 categories:
   - [Google, Adsense]
+  - [站点运营, 广告]
 tags:
   - google adsense
   - google adsense cpc
