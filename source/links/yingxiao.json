@@ -136,6 +136,12 @@
     "class_desc": "Traffic Ape、Somiibo、SparkTraffic、BabyLon Traffic、Traffic Stars、Traffic Bot、Sigma Traffic",
     "link_list": [
       {
+        "link": "http://www.ipts.com/",
+        "name": "流量精灵英文版",
+        "avatar": "http://www.ipts.com/favicon.ico",
+        "descr": "流量精灵-SEO工具软件_站长工具_网站推广工具_网站测试工具_网站优化工具"
+      },
+      {
         "name": "Traffic Ape",
         "link": "https://www.trafficape.com/",
         "avatar": "https://az622064.vo.msecnd.net/img/favicon.ico",
@@ -210,25 +216,25 @@
       {
         "link": "https://www.ip246.com/",
         "name": "在线流量专家",
-        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679845752178.png",
+        "avatar": "https://www.ip246.com/favicon.ico",
         "descr": "SEO优化，手机流量，超长停留时间，功能强大，几十万独立IP库，..."
       },
       {
         "link": "http://www.zangtui.com/",
         "name": "藏推宝",
-        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679845752178.png",
+        "avatar": "http://www.zangtui.com/favicon.ico",
         "descr": "藏推宝是一款专业的免费刷流量软件,用于怎么快速提升网站流量,网店访问量和刷宝贝人气,是网站推广、电商运营、seo关键词优化,网络营销必备的免费流量推广利器!"
       },
       {
         "link": "http://www.ipjingling.com/",
         "name": "流量精灵",
-        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679845752178.png",
+        "avatar": "http://www.ipts.com/favicon.ico",
         "descr": "流量精灵-SEO工具软件_站长工具_网站推广工具_网站测试工具_网站优化工具"
       },
       {
         "link": "http://www.liuliangxiaobao.com/",
         "name": "流量小宝",
-        "avatar": "http://www.liuliangxiaobao.com/favicon.ico",
+        "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1683799829321.png",
         "descr": "软件基于用户间互访原理，迅速提升网站、博客、网店等访问流量。"
       }
     ]
