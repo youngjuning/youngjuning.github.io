@@ -256,5 +256,17 @@
         "descr": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud."
       }
     ]
+  },
+  {
+    "class_name": "慕课",
+    "class_desc": "有前端课程的国内外慕课平台",
+    "link_list": [
+      {
+        "link": "https://www.udemy.com/",
+        "name": "Udemy",
+        "avatar": "https://www.udemy.com/staticx/udemy/images/v7/apple-touch-icon.png",
+        "descr": "Udemy是一个在线学习平台，提供各种课程，包括编程、商业、设计、营销等等。"
+      }
+    ]
   }
 ]

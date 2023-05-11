@@ -95,18 +95,6 @@
     ]
   },
   {
-    "class_name": "联盟营销",
-    "class_desc": "跨境领域的联盟营销项目",
-    "link_list": [
-      {
-        "name": "SHEIN",
-        "link": "https://us.shein.com/",
-        "avatar": "https://us.shein.com/favicon.ico",
-        "descr": "女性商品代发"
-      }
-    ]
-  },
-  {
     "class_name": "金融&物流",
     "class_desc": "跨国运输服务、跨境金融服务",
     "link_list": [
