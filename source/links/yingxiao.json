@@ -420,6 +420,36 @@
     ]
   },
   {
+    "class_name": "云桌面",
+    "class_desc": "云桌面是一种基于云计算技术的虚拟桌面，用户可以通过互联网访问云端的计算机资源，实现远程办公或使用。",
+    "link_list": [
+      {
+        "link": "https://adfoc.us/81142995594280",
+        "name": "阿里云无影云桌面",
+        "avatar": "https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico",
+        "descr": "阿里云无影云桌面（Elastic Desktop Service），是一种易用、安全、高效的云上桌面服务。它支持快速便捷的桌面环境创建、部署、统一管控与运维。"
+      },
+      {
+        "link": "https://adfoc.us/81142995605674",
+        "name": "Amazon WorkSpaces",
+        "avatar": "https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico",
+        "descr": "Amazon WorkSpaces是一项云计算服务，可以让用户在任何地方使用云桌面来访问其应用程序和文件。"
+      },
+      {
+        "link": "https://adfoc.us/81142995606178",
+        "name": "Microsoft Azure 虚拟桌面",
+        "avatar": "https://azure.microsoft.com/favicon.ico?v2",
+        "descr": "Microsoft Azure 虚拟桌面是一种基于云计算的桌面虚拟化解决方案，可以将用户的桌面环境和应用程序部署在云端，用户可以通过任何设备实现远程访问。"
+      },
+      {
+        "link": "https://adfoc.us/81142995603745",
+        "name": "华为云云桌面",
+        "avatar": "https://www.huaweicloud.com/favicon.ico",
+        "descr": "华为云桌面服务，支持云桌面的快速创建、部署和集中运维管理。"
+      }
+    ]
+  },
+  {
     "class_name": "优秀站点",
     "class_desc": "广告联盟大事记、赚鸡腿钱指南、成为你自己的老板",
     "link_list": [
