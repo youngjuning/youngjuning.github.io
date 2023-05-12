@@ -312,6 +312,18 @@
     ]
   },
   {
+    "class_name": "广告投流",
+    "class_desc": "广告投流是指将广告投放到互联网上的各种渠道，如搜索引擎、社交媒体、视频网站等，以吸引潜在客户并促进销售。",
+    "link_list": [
+      {
+        "link": "https://www.taboola.com/",
+        "name": "Taboola",
+        "avatar": "https://www.taboola.com//wp-content/uploads/2020/04/favicon.png",
+        "descr": "通过在最容易接收新消息的受众群体中定位受众，从而提高营销效果。"
+      }
+    ]
+  },
+  {
     "class_name": "平面设计",
     "class_desc": "平面设计做图软件",
     "link_list": [
