@@ -10,6 +10,7 @@ tags:
   - Google Adsense
   - Google Adsense 付款周期
   - Google Adsense 付款时间
+copyright_url: http://adfoc.us/81142995594129
 ---
 
 {% note info modern%}
