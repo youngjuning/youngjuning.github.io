@@ -11,7 +11,7 @@ tags:
 copyright_url:
 ---
 
-[adfoc.us](http://adfoc.us/?refid=811429) 是一个在线链接缩短服务，可以缩短长链接并为用户提供收益。原则上轻松日赚 10 美金很轻松。
+[adfoc.us](http://adfoc.us/?refid=811429) 是一个在线链接缩短服务，可以缩短长链接并为用户提供收益。原则上轻松日赚 10 美金很轻松。如果你研究的更深入，日赚 100 美金也是有可能的。
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
@@ -73,3 +73,7 @@ https://youngjuning.js.org/729a93dae902/
   - Twitter
   - 论坛
 2. 免费流量（快就是更快）：这个方法可以自动化为我们日赚 10 美金，当然在这里不能讨论，如果你感兴趣可以在侧边栏找到我的微信付费咨询（20$），我会把这个方法毫无保留的教给你。
+
+## 免费获取方案
+
+如果你用我的 [adfoc.us 推荐链接](http://adfoc.us/?refid=811429)，加我微信，发我 user id，即可免费获取日赚 10 美金的方案。
