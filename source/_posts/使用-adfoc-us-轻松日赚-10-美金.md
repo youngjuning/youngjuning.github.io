@@ -11,7 +11,7 @@ tags:
 copyright_url: https://adfoc.us/81142995986397
 ---
 
-<a href="//adfoc.us/?refid=811429" target="_blank"><img src="///images/banners/728x90-2.gif" border="0" alt="AdFoc.us Banner"></a>
+<center><a href="https://adfoc.us/?refid=811429" target="_blank"><img src="https://adfoc.us/images/banners/728x90-2.gif" border="0" alt="AdFoc.us Banner"></a></center>
 
 ## adfoc.us 是什么
 
