@@ -36,7 +36,7 @@ copyright_url: https://adfoc.us/81142995986397
 [AdFocus](http://adfoc.us/?refid=811429) 提供 PayPal 和 Bitcoin 两种收款方式，我推荐使用 Bitcoin，因为 PayPal 提现有 20% 手续费。
 
 {% note success modern %}
-如果还没有交易所账号，推荐使用 [欧易](https://cnouyi.careers/join/12735795) 注册，具体怎么使用 Bitcoin 收款，可以在侧边栏找到我的微信扫码加我付费咨询（5$）。
+如果还没有交易所账号，推荐使用 [欧易](https://www.cnouyi.careers/join/93645516) 注册（这个链接你可以获取 10% 返佣），具体怎么使用 Bitcoin 收款，可以在侧边栏找到我的微信扫码加我付费咨询（5$）。
 {% endnote %}
 
 ![AdFocus 收款方式](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1684119728484.png)
