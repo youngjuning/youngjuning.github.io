@@ -11,9 +11,7 @@ tags:
 copyright_url: https://adfoc.us/81142995986397
 ---
 
-[adfoc.us](http://adfoc.us/?refid=811429) 是一个在线链接缩短服务，可以缩短长链接并为用户提供收益。原则上轻松日赚 10+ 美金很轻松。如果你研究的更深入，日赚 100 美金也是有可能的。
-
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+<a href="//adfoc.us/?refid=811429" target="_blank"><img src="///images/banners/728x90-2.gif" border="0" alt="AdFoc.us Banner"></a>
 
 ## adfoc.us 是什么
 
