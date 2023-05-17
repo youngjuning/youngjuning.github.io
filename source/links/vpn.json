@@ -46,22 +46,10 @@
         "descr": "Fast & Affordable Proxy Servers"
       },
       {
-        "link": "https://app.proxy-cheap.com/r/Xx9pEz",
-        "name": "Proxy Cheap",
-        "avatar": "https://app.proxy-cheap.com/assets/img/favicon.png",
-        "descr": "一个 IP 最低 1.99$/月"
-      },
-      {
         "link": "https://smartdaili-china.com/",
         "name": "smartdaili-china",
         "avatar": "https://dashboard.smartdaili-china.com/favicon.ico",
         "descr": "几乎适用于每个用例的优质数据收集基础设施。"
-      },
-      {
-        "link": "https://asocks.com/",
-        "name": "ASocks",
-        "avatar": "https://app.asocks.com/assets/960e5d0c/img/favicon/apple-touch-icon.png",
-        "descr": "最稳定的住宅代理网络"
       }
     ]
   },
