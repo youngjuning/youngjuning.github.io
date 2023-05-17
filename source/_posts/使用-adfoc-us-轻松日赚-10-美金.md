@@ -41,27 +41,17 @@ copyright_url: https://adfoc.us/81142995986397
 
 ![AdFocus 收款方式](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1684119728484.png)
 
+## 付款频率
+
+- 每月7日至11日处理付款。
+- 可以在账号信息中设置自动付款。
+
 ## 获取链接
 
 - 建议使用 Multiple Links 批量的方式，因为 Single Link 有时候会很慢。
 - 链接可以试任意的，但是推荐是你想要分享的，比如博客链接、联盟营销链接。
 
 ![AdFocus](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1684120238509.png)
-
-如果你没有合适的链接，可以使用我的博客链接：
-
-```txt
-https://youngjuning.js.org/
-https://youngjuning.js.org/yingxiao/
-https://youngjuning.js.org/06449303494e/
-https://youngjuning.js.org/66ec8687cd46/
-https://youngjuning.js.org/5c6d54a112a6/
-https://youngjuning.js.org/5de90b19f4d9/
-https://youngjuning.js.org/5328a4a14a49/
-https://youngjuning.js.org/c9874d785dd6/
-https://youngjuning.js.org/e7eb0384452b/
-https://youngjuning.js.org/729a93dae902/
-```
 
 ## 获取流量
 
