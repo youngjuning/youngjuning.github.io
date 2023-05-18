@@ -1,5 +1,5 @@
 ---
-title: 使用 adfoc.us 轻松日赚 10+ 美金
+title: 玩转 AdFoc.us 轻松日赚 10+ 美金
 description: adfoc.us是一个在线链接缩短服务，可以缩短长链接并为用户提供收益。原则上轻松日赚 10+ 美金很轻松。如果你研究的更深入，日赚 100+ 美金也是有可能的。
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1684119117438.png
 date: 2023-05-15 10:43:44
