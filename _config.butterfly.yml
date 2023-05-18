@@ -708,7 +708,7 @@ aside:
       link: https://github.com/youngjuning
   card_announcement:
     enable: true
-    content: 《React Native 仿 Product Hunt 实战开发》教程正在紧锣密鼓地写作中，敬请期待！
+    content: <a href="//adfoc.us/?refid=811429" target="_blank"><img src="https://adfoc.us/images/banners/300x250-3.gif" width="100%" border="0" alt="AdFoc.us Banner"></a>
 
   card_recent_post:
     enable: true
