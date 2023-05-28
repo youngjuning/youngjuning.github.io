@@ -708,7 +708,7 @@ aside:
       link: https://github.com/youngjuning
   card_announcement:
     enable: true
-    content: 《Google Adsense 博客变现服务》请加微信咨询
+    content: 《Google Adsense 博客变现服务》请加微信咨询: <img src="https://cdn.jsdelivr.net/gh/youngjuning/images/202109211725265.png" alt="洛竹的微信" width="100%" />
 
   card_recent_post:
     enable: true
