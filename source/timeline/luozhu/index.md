@@ -80,30 +80,37 @@ tags:
   - Google Search Console ✅
   - Google Adsense ✅
   - Bing Webmaster ✅
+  - Baidu Webmaster ✅
 2. vscode-api-cn.js.org
   - Google Analytics ✅
   - Google Search Console ✅
   - Google Adsense ✅
   - Bing Webmaster ✅
+  - Baidu Webmaster ✅
 3. vscode-api.js.org
   - Google Analytics ✅
   - Google Search Console ✅
   - Google Adsense ✅
   - Bing Webmaster ✅
+  - Baidu Webmaster ❌
 4. usedapp.js.org
   - Google Analytics ✅
   - Google Search Console ✅
   - Google Adsense ✅
   - Bing Webmaster ✅
-5. you.hyonline.store ✅
-  - Google Analytics ✅
+  - Baidu Webmaster ❌
+5. zustand.js.org ❌
+  - Google Analytics ❌
   - Google Search Console ✅
-  - Bing Webmaster ✅
+  - Bing Webmaster ❌
+  - Baidu Webmaster ❌
+  - Google Adsense ✅
 6. festar.js.org ❌
   - Google Analytics ❌
   - Google Search Console ❌
   - Google Adsense ❌
   - Bing Webmaster ❌
+  - Baidu Webmaster ❌
 {% endfolding %}
 
 ## 2023-06
