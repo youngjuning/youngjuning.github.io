@@ -2885,10 +2885,10 @@ hexo-bunyan@^1.0.0:
     mv "~2"
     safe-json-stringify "~1"
 
-hexo-butterfly-charts@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/hexo-butterfly-charts/-/hexo-butterfly-charts-1.1.4.tgz#578f705e6d22765357803ac2039f8a9ece3fceab"
-  integrity sha512-HfXiDKsUSwE7vkC8xN8HBkL8j8AhGFh67GOPlLZrRIa+MMJjLgBfbwJs4sfp3oh3HMgGULQOuclWHT+sk5X6Cw==
+hexo-butterfly-charts@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-charts/-/hexo-butterfly-charts-1.1.5.tgz#84e7146b47af276251188c5981dd05329e36e7d7"
+  integrity sha512-ey+/J1cWOvoUqwFXgkvIkLZMacUXBqix4coZH/OpWH/m326bi7nasF0efJTm8QjSgG1+JfO6e4OquCOGl6AOvQ==
   dependencies:
     cheerio "^1.0.0-rc.10"
     moment "^2.29.4"
