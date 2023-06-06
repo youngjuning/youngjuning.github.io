@@ -38,7 +38,7 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-butterfly": "4.7.0",
+    "hexo-theme-butterfly": "4.9.0",
     "hexo-wordcount": "^6.0.1",
     "live2d-widget-model-miku": "^1.0.5",
     "yamljs": "^0.3.0"

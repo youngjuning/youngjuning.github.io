@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@adobe/css-tools@^4.0.1":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.2.0.tgz#e1a84fca468f4b337816fcb7f0964beb620ba855"
+  integrity sha512-E09FiIft46CmH5Qnjb0wsW54/YQd69LsxeKUOWawmws1XWvyFGURnAChH0mlr7YPFR1ofwvUQfcL0J3lMxXqPA==
+
 "@babel/code-frame@^7.0.0":
   version "7.18.6"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.18.6.tgz#3b25d38c89600baa2dcc219edfa88a74eb2c427a"
@@ -3145,6 +3150,14 @@ hexo-renderer-stylus@^2.1.0:
     nib "^1.2.0"
     stylus "^0.57.0"
 
+hexo-renderer-stylus@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-stylus/-/hexo-renderer-stylus-3.0.0.tgz#6d5d8678c327e68aef213b41a9e7fcf0527ccd51"
+  integrity sha512-wgKOcjUzq1i4Y70luoyYDbh91QeQcDzJO+v1598LgY+IdREFAm+vy1MWtl/TZsVXyPaEtsULNi3Vi22hdsPUSA==
+  dependencies:
+    nib "^1.2.0"
+    stylus "^0.59.0"
+
 hexo-server@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/hexo-server/-/hexo-server-3.0.0.tgz#fcc597b29b72ee1f035824c5ebd3d92f7e1adb1c"
@@ -3159,13 +3172,13 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-butterfly@4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/hexo-theme-butterfly/-/hexo-theme-butterfly-4.7.0.tgz#760776642f5deb5caf31ee935d5ffbdda9dad17d"
-  integrity sha512-g5LtCZptHcfTWjG2VLqup9OtYj1KQnhkDe3xAmQf9EnB8dsYyB69LA+WVnEwv2hYz7YyYhbUUxQh3l/oWVXtKA==
+hexo-theme-butterfly@4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/hexo-theme-butterfly/-/hexo-theme-butterfly-4.9.0.tgz#787cfef1bf816f5081ce3f49cdba3350ecf7e442"
+  integrity sha512-/aWtJJm90s/Z8RnnJm3U1wH05KTNtUz49TS7Wk8ItPRt2L4+tSIh1h7PPslwEJ5YpNfQH9DUZ7eHf4SzBIQj1w==
   dependencies:
     hexo-renderer-pug "^3.0.0"
-    hexo-renderer-stylus "^2.1.0"
+    hexo-renderer-stylus "^3.0.0"
 
 hexo-util@^0.6.0:
   version "0.6.3"
@@ -6810,6 +6823,17 @@ stylus@^0.57.0:
     debug "^4.3.2"
     glob "^7.1.6"
     safer-buffer "^2.1.2"
+    sax "~1.2.4"
+    source-map "^0.7.3"
+
+stylus@^0.59.0:
+  version "0.59.0"
+  resolved "https://registry.yarnpkg.com/stylus/-/stylus-0.59.0.tgz#a344d5932787142a141946536d6e24e6a6be7aa6"
+  integrity sha512-lQ9w/XIOH5ZHVNuNbWW8D822r+/wBSO/d6XvtyHLF7LW4KaCIDeVbvn5DF8fGCJAUCwVhVi/h6J0NUcnylUEjg==
+  dependencies:
+    "@adobe/css-tools" "^4.0.1"
+    debug "^4.3.2"
+    glob "^7.1.6"
     sax "~1.2.4"
     source-map "^0.7.3"
 
