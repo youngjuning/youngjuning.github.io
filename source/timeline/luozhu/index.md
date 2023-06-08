@@ -74,45 +74,6 @@ tags:
   - 组件发布
 {% endfolding %}
 
-{% folding green, 站群建设 %}
-1. youngjuning.js.org
-  - Google Analytics ✅
-  - Google Search Console ✅
-  - Google Adsense ✅
-  - Bing Webmaster ✅
-  - Baidu Webmaster ✅
-2. vscode-api-cn.js.org
-  - Google Analytics ✅
-  - Google Search Console ✅
-  - Google Adsense ✅
-  - Bing Webmaster ✅
-  - Baidu Webmaster ✅
-3. vscode-api.js.org
-  - Google Analytics ✅
-  - Google Search Console ✅
-  - Google Adsense ✅
-  - Bing Webmaster ✅
-  - Baidu Webmaster ❌
-4. usedapp.js.org
-  - Google Analytics ✅
-  - Google Search Console ✅
-  - Google Adsense ✅
-  - Bing Webmaster ✅
-  - Baidu Webmaster ❌
-5. zustand.js.org ❌
-  - Google Analytics ❌
-  - Google Search Console ✅
-  - Bing Webmaster ❌
-  - Baidu Webmaster ❌
-  - Google Adsense ✅
-6. festar.js.org ❌
-  - Google Analytics ❌
-  - Google Search Console ❌
-  - Google Adsense ❌
-  - Bing Webmaster ❌
-  - Baidu Webmaster ❌
-{% endfolding %}
-
 ## 2023-06
 
 {% folding green, 2023-06 %}
