@@ -15,7 +15,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 ## Xcode Command Line Tools
 
 ```sh
@@ -166,7 +165,7 @@ $ nrm add local http://127.0.0.0:4873 http://127.0.0.0:4873
 
 [Visual Studio Code](https://code.visualstudio.com/) 是一个由微软开发，同时支持 Windows 、 Linux 和 macOS 等操作系统且开放源代码的代码编辑器，它支持测试，并内置了 Git 版本控制功能，同时也具有开发环境功能，例如代码补全、代码片段和代码重构等。
 
-## d8
+## v8
 
 > 不要使用 `brew install v8`，因为可用命令是不完整的。
 
@@ -203,23 +202,40 @@ I'd also recommend adding these to your `.zshrc`:
 
 ### 下载安装
 
-- [javase-jdk8-downloads](https://www.oracle.com/hk/java/technologies/javase/javase-jdk8-downloads.html)
-- [Oracle Java 存档](https://www.oracle.com/cn/java/technologies/oracle-java-archive-downloads.html)
+```sh
+brew tap homebrew/cask-versions
+brew install --cask zulu11
+```
+
+### 添加环境变量
+
+添加以下配置到 `~/.zshrc`
+
+```sh
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+export JAVA_HOME=`/usr/libexec/java_home -v 11`
+```
+
+执行下面的命令让配置立即生效：
+
+```sh
+source ~/.zshrc
+```
 
 ### 实用命令
 
-- Mac 下查看已安装的 jdk 版本及其安装目录: `/usr/libexec/java_home -V`
+1、Mac 下查看已安装的 jdk 版本及其安装目录: `/usr/libexec/java_home -V`
 
-  ```sh
-  Matching Java Virtual Machines (2):
-   1.8.0_221, x86_64:	"Java SE 8"	/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
-   1.7.0_80, x86_64:	"Java SE 7"	/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
+```sh
+Matching Java Virtual Machines (2):
+  11.0.17 (x86_64) "Azul Systems, Inc." - "Zulu 11.60.19" /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+  1.8.0_312 (x86_64) "Homebrew" - "OpenJDK 8" /usr/local/Cellar/openjdk@8/1.8.0+312/libexec/openjdk.jdk/Contents/Home
+/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+```
 
-  /Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
-  ```
+2、查看 jre 版本: `java -version`
 
-- 查看 jre 版本: `java -version`
-- 查看 jdk 版本: `javac -version`
+3、查看 jdk 版本: `javac -version`
 
 ## Maven
 
@@ -266,21 +282,19 @@ $ brew update
 $ brew install maven
 ```
 
-## 数据库
-
-### MySql
+## MySql
 
 ```shell
 $ brew install mysql
 ```
 
-#### 修改配置文件
+### 修改配置文件
 
 ```shell
 $ nano /usr/local/etc/my.cnf
 ```
 
-#### 启动服务
+### 启动服务
 
 ```shell
 brew services start mysql
@@ -292,7 +306,7 @@ brew services stop mysql
 
 > Or, if you don't want/need a background service you can just run: `mysql.server start`
 
-#### 安全设置
+### 安全设置
 
 ```shell
 $ mysql_secure_installation
@@ -398,24 +412,24 @@ set global validate_password.length=4;
 #将密码规则设置为LOW，就可以使用纯数字纯字母密码
 ```
 
-#### 登陆
+### 登陆
 
 ```shell
 $ mysql -u root -p
 ```
 
-### mongodb
+## mongodb
 
 > 参考: [Mac OSX 平台安装 MongoDB](https://www.runoob.com/mongodb/mongodb-osx-install.html)、[Mac 下安装 MongoDB 数据库-启动-停止-开启验证-登陆](https://www.32e.top/system/mac/article-87.html)、[【环境搭建：二】Mac 安装、配置 MongoDB](https://uizph.com/article/5db177e4a9f13d7f535810c5)、[MongoDB 的用户创建更新及删除](https://www.jianshu.com/p/f5afc6488f9e)、[MongoDB 用户名密码登录 认证登陆](https://cloud.tencent.com/developer/article/1446551)
 
-#### 下载安装
+### 下载安装
 
 ```sh
 $ brew install mongodb/brew/mongodb-community
 $ mongod -version
 ```
 
-#### 配置
+### 配置
 
 **启动 mongo**：
 
@@ -487,7 +501,7 @@ $ mongo
 > ab.auth("admin","123456")
 ```
 
-#### 退出 mongodb
+### 退出 mongodb
 
 ```sh
 # 先停止 mongod 服务
@@ -516,5 +530,11 @@ ssh-add --apple-use-keychain ~/.ssh/id_rsa
 gh auth login
 gh ssh-key add ~/.ssh/id_rsa.pub -t id_rsa
 ```
+
+### starship
+
+### Raycast
+
+### drawio
 
 > 本文首发于「[洛竹的官方网站](https://youngjuning.js.org/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。
