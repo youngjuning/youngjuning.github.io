@@ -11,7 +11,6 @@ tags:
   - google adsense cpc
   - google adsense cpc 优化
   - 优化 google adsense cpc
-copyright_url: https://adfoc.us/81142995594256
 ---
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>

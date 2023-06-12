@@ -10,7 +10,6 @@ tags:
   - 站点运营
   - 网站运营
   - CPM
-copyright_url: http://adfoc.us/81142995588438
 ---
 
 RPM（Revenue per mille）广告是指每千次广告展示可以获得的收入。它是根据广告的展示次数、点击率和广告主出价等因素计算出来的。

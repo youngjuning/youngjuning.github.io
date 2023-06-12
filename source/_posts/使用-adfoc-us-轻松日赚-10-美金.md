@@ -8,7 +8,6 @@ categories:
 tags:
   - 短链接
   - adfoc.us
-copyright_url: https://adfoc.us/81142995986397
 ---
 
 <center><a href="https://adfoc.us/?refid=811429" target="_blank"><img src="https://adfoc.us/images/banners/728x90-2.gif" border="0" alt="Join AdFoc.us"></a></center>
