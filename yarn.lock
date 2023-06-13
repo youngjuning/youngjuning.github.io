@@ -2860,10 +2860,10 @@ he@^1.2.0:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
-hexo-bilibili-bangumi@^1.8.7:
-  version "1.8.7"
-  resolved "https://registry.yarnpkg.com/hexo-bilibili-bangumi/-/hexo-bilibili-bangumi-1.8.7.tgz#37f8e6c1800e8ac8e492d601766460977066583b"
-  integrity sha512-SSVJ+3AjAEw1bxwRhxU32RJ14ksfQmgqp27vrYrpX6AysiepXS+zjawsw14VmsGDLpWrFEBDmUGDCmpFRYzH0A==
+hexo-bilibili-bangumi@^1.8.8:
+  version "1.8.8"
+  resolved "https://registry.yarnpkg.com/hexo-bilibili-bangumi/-/hexo-bilibili-bangumi-1.8.8.tgz#84984dbaa98ad4e8da9151a8acc58d7c9288c475"
+  integrity sha512-XaWV0Iq0JkJgRUKGsXG4xnyR5dYEbANbHfSUXiD8AWQYY9RN/JznGncb/FXxFGPyJwu+gqoq1Y6Sre7QlIBD4w==
   dependencies:
     "@babel/runtime" "^7.18.0"
     axios "^1.0.0"
