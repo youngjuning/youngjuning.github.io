@@ -25,6 +25,6 @@ TODO
   link_list:
     - name: Zustand 中文文档
       link: https://zustand-cn.js.org/
-      avatar: https://zustand-cn.js.org/
+      avatar: https://docs.pmnd.rs/zustand.ico
       descr: 一个小型、快速、可扩展的基本状态管理解决方案
 {% endflink %}
