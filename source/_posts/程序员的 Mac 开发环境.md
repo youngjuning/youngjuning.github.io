@@ -61,21 +61,8 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 
 ### 插件
 
-#### zsh-syntax-highlighting
-
-- `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-- `plugins=( [plugins...] zsh-syntax-highlighting)`
-- `source ~/.zshrc`
-
-#### WakaTime for Terminal
-
-- `sudo easy_install pip`
-- `sudo pip install wakatime`
-- `cd ~/.oh-my-zsh/custom/plugins`
-- `git clone https://github.com/sobolevn/wakatime-zsh-plugin.git wakatime`
-- 在你的 `~/.zshrc` 文件的 [list of plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/External-plugins) 添加 `wakatime`
-- `source ~/.zshrc`
-- 确保你的 [~/.wakatime.cfg](https://github.com/wakatime/wakatime#configuring) 文件中配置了 [API key](https://wakatime.com/settings/api-key) 。
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 
 ## Git
 
