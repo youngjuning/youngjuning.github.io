@@ -55,6 +55,10 @@ $ chsh -s /bin/zsh
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+## iTerm2
+
+- [这篇 iTerm2 + Oh My Zsh 教程手把手让你成为这条街最靓的仔](https://juejin.cn/post/6844904178075058189)
+
 ### 插件
 
 #### zsh-syntax-highlighting
@@ -74,18 +78,6 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 - 在你的 `~/.zshrc` 文件的 [list of plugins](https://github.com/robbyrussell/oh-my-zsh/wiki/External-plugins) 添加 `wakatime`
 - `source ~/.zshrc`
 - 确保你的 [~/.wakatime.cfg](https://github.com/wakatime/wakatime#configuring) 文件中配置了 [API key](https://wakatime.com/settings/api-key) 。
-
-## vim
-
-> 建议使用：https://github.com/amix/vimrc
-
-```shell
-$ git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-$ sh ~/.vim_runtime/install_awesome_vimrc.sh
-$ echo "set number" >> ~/.vimrc
-$ echo "set showcmd" >> ~/.vimrc
-$ source ~/.vimrc
-```
 
 ## Git
 
@@ -535,6 +527,18 @@ ssh-add --apple-use-keychain ~/.ssh/id_rsa
 # 添加 public key 到 github
 gh auth login
 gh ssh-key add ~/.ssh/id_rsa.pub -t id_rsa
+```
+
+### vim
+
+> 建议使用：https://github.com/amix/vimrc
+
+```shell
+$ git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+$ sh ~/.vim_runtime/install_awesome_vimrc.sh
+$ echo "set number" >> ~/.vimrc
+$ echo "set showcmd" >> ~/.vimrc
+$ source ~/.vimrc
 ```
 
 > 本文首发于「[洛竹的官方网站](https://youngjuning.js.org/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。
