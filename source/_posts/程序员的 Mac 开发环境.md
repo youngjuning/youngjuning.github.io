@@ -46,6 +46,10 @@ $ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
 ```
 
+## iTerm2
+
+- [这篇 iTerm2 + Oh My Zsh 教程手把手让你成为这条街最靓的仔](https://juejin.cn/post/6844904178075058189)
+
 ## ohmyzsh
 
 ```sh
@@ -54,10 +58,6 @@ $ chsh -s /bin/zsh
 # 通过 curl 安装 ohmyzsh
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-
-## iTerm2
-
-- [这篇 iTerm2 + Oh My Zsh 教程手把手让你成为这条街最靓的仔](https://juejin.cn/post/6844904178075058189)
 
 ### 插件
 
