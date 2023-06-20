@@ -63,11 +63,9 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 
 #### zsh-syntax-highlighting
 
-- 安装: `brew install zsh-syntax-highlighting`
-- Oh-my-zsh
-  - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-  - `plugins=( [plugins...] zsh-syntax-highlighting)`
-  - `source ~/.zshrc`
+- `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+- `plugins=( [plugins...] zsh-syntax-highlighting)`
+- `source ~/.zshrc`
 
 #### WakaTime for Terminal
 
