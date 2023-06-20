@@ -162,6 +162,7 @@ $ nrm add local http://127.0.0.0:4873 http://127.0.0.0:4873
 - starship
 - drawio
 - Xmind
+- [Monica](https://monica.im/)：人工智能助手
 
 ## v8
 
