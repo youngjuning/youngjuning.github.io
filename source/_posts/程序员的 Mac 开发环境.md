@@ -125,13 +125,6 @@ $ git config --global https.proxy http://127.0.0.1:7890
 $ git config --global http.proxy http://127.0.0.1:7890
 ```
 
-### 学习资料
-
-- [官方 Book](https://git-scm.com/book/zh/v2)
-- [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)：助你入门 git 的简明指南，木有高深内容
-- [廖雪峰的 git 教程](http://t.cn/RK0tLXB)
-- [猴子都能懂的 GIT 入门](https://backlog.com/git-tutorial/cn/)
-
 ## Node
 
 Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时。我们使用 `n` 模块来维护 Node 的版本：
@@ -173,7 +166,10 @@ $ nrm add local http://127.0.0.0:4873 http://127.0.0.0:4873
 
 ## 提效
 
-- [Alfred](https://www.alfredapp.com/)
+- [Alfred](https://www.alfredapp.com/)：Mac 上最强大的效率工具
+- starship
+- drawio
+- Xmind
 
 ## v8
 
@@ -540,9 +536,5 @@ ssh-add --apple-use-keychain ~/.ssh/id_rsa
 gh auth login
 gh ssh-key add ~/.ssh/id_rsa.pub -t id_rsa
 ```
-
-- starship
-- drawio
-- Xmind
 
 > 本文首发于「[洛竹的官方网站](https://youngjuning.js.org/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。
