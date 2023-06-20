@@ -23,9 +23,15 @@ $ xcode-select --install
 
 ## Homebrew
 
-访问 [brew.sh](https://brew.sh/index_zh-cn) 安装。使用 Homebrew 安装 Apple（或您的 Linux 系统）没有预装但 [你需要的东西](https://formulae.brew.sh/formula/)。Homebrew 将大大降低维护环境的时间。本文后面将尽可能使用 Homebrew。
+使用 Homebrew 安装 Apple（或您的 Linux 系统）没有预装但 [你需要的东西](https://formulae.brew.sh/formula/)。Homebrew 将大大降低维护环境的时间。本文后面将尽可能使用 Homebrew。
 
-> 网络问题请参考 [解决homebrew安装curl: (7) Failed to connect to http://raw.githubusercontent.com port 443错误](https://www.huaweicloud.com/articles/2378bf35864b07da2b8b30db035a9897.html) 解决。
+安装脚本：
+
+```sh
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
+
+常用命令：
 
 - `brew install`：安装
 - `brew uninstall`：卸载
@@ -531,10 +537,8 @@ gh auth login
 gh ssh-key add ~/.ssh/id_rsa.pub -t id_rsa
 ```
 
-### starship
-
-### Raycast
-
-### drawio
+- starship
+- drawio
+- Xmind
 
 > 本文首发于「[洛竹的官方网站](https://youngjuning.js.org/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。
