@@ -29,24 +29,6 @@ $ xcode-select --install
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
 
-## iTerm2
-
-- [这篇 iTerm2 + Oh My Zsh 教程手把手让你成为这条街最靓的仔](https://juejin.cn/post/6844904178075058189)
-
-## ohmyzsh
-
-```sh
-# 切换 shell 为 zsh
-$ chsh -s /bin/zsh
-# 通过 curl 安装 ohmyzsh
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-### 插件
-
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
-
 ## Git
 
 ### 命令行工具
@@ -120,6 +102,24 @@ $ nrm add local http://127.0.0.0:4873 http://127.0.0.0:4873
 ## VS Code
 
 [Visual Studio Code](https://code.visualstudio.com/) 是一个由微软开发，同时支持 Windows 、 Linux 和 macOS 等操作系统且开放源代码的代码编辑器，它支持测试，并内置了 Git 版本控制功能，同时也具有开发环境功能，例如代码补全、代码片段和代码重构等。
+
+## iTerm2
+
+- [这篇 iTerm2 + Oh My Zsh 教程手把手让你成为这条街最靓的仔](https://juejin.cn/post/6844904178075058189)
+
+## ohmyzsh
+
+```sh
+# 切换 shell 为 zsh
+$ chsh -s /bin/zsh
+# 通过 curl 安装 ohmyzsh
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### 插件
+
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 
 ## 提效工具
 
