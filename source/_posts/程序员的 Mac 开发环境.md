@@ -23,8 +23,6 @@ $ xcode-select --install
 
 ## Homebrew
 
-使用 Homebrew 安装 Apple（或您的 Linux 系统）没有预装但 [你需要的东西](https://formulae.brew.sh/formula/)。Homebrew 将大大降低维护环境的时间。本文后面将尽可能使用 Homebrew。
-
 ```sh
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
@@ -96,12 +94,13 @@ $ sudo npm install -g nrm
 # 列出可用的代理
 $ nrm ls
 # 添加私有代理
-$ nrm add local http://127.0.0.0:4873 http://127.0.0.0:4873
+$ nrm add <name> <url> [home]
 ```
 
 ## VS Code
 
-[Visual Studio Code](https://code.visualstudio.com/) 是一个由微软开发，同时支持 Windows 、 Linux 和 macOS 等操作系统且开放源代码的代码编辑器，它支持测试，并内置了 Git 版本控制功能，同时也具有开发环境功能，例如代码补全、代码片段和代码重构等。
+- 下载 [Visual Studio Code](https://code.visualstudio.com/)
+- 安装 [vscode-luozhu-pack](https://marketplace.visualstudio.com/items?itemName=youngjuning.vscode-luozhu-pack) 扩展包插件
 
 ## iTerm2
 
