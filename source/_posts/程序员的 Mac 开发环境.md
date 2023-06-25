@@ -25,25 +25,8 @@ $ xcode-select --install
 
 使用 Homebrew 安装 Apple（或您的 Linux 系统）没有预装但 [你需要的东西](https://formulae.brew.sh/formula/)。Homebrew 将大大降低维护环境的时间。本文后面将尽可能使用 Homebrew。
 
-安装脚本：
-
 ```sh
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
-```
-
-常用命令：
-
-- `brew install`：安装
-- `brew uninstall`：卸载
-- `brew update`：更新 homebrew
-- `brew upgrade`：更新已安装软件
-- `brew cleanup`：清理
-- `brew update && brew upgrade && brew cleanup`：一键清理
-
-卸载脚本：
-
-```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
 ```
 
 ## iTerm2
@@ -89,9 +72,6 @@ $ git config --global core.autocrlf input
 # 5、输出到terminal而不是vim
 $ git config --global pager.branch false
 ```
-
-> Linux 或 Mac 系统使用 LF 作为行结束符，因此你不想 Git 在签出文件时进行自动的转换；当一个以 `CRLF` 为行结束符的文件不小心被引入时你肯定想进行修正，把 `core.autocrlf` 设置成 `input` 来告诉 Git 在提交时把 `CRLF` 转换成 `LF`，签出时不转换：
-> 这样会在 Windows 系统上的签出文件中保留 `CRLF`，会在 Mac 和 Linux 系统上，包括仓库中保留 `LF`。
 
 ### 代理配置
 
@@ -141,12 +121,9 @@ $ nrm add local http://127.0.0.0:4873 http://127.0.0.0:4873
 
 [Visual Studio Code](https://code.visualstudio.com/) 是一个由微软开发，同时支持 Windows 、 Linux 和 macOS 等操作系统且开放源代码的代码编辑器，它支持测试，并内置了 Git 版本控制功能，同时也具有开发环境功能，例如代码补全、代码片段和代码重构等。
 
-## 提效
+## 提效工具
 
 - [Alfred](https://www.alfredapp.com/)：Mac 上最强大的效率工具
-- starship
-- drawio
-- Xmind
 - [Monica](https://monica.im/)：人工智能助手
 
 ## v8
