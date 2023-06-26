@@ -70,7 +70,7 @@ Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时。我们使用 
 $ brew install n
 ```
 
-安装命令：
+### 安装命令
 
 ```sh
 # 安装最新的稳定版
@@ -81,13 +81,19 @@ $ sudo n latest
 $ sudo n 10.16.0
 ```
 
-删除命令：
+### 删除命令
 
 ```sh
 # 删除指定版本
 $ n rm 12.10.0
 # 除去当前版本以外的所有缓存版本
 $ n prune
+```
+
+### 安装 yarn
+
+```sh
+$ sudo npm install yarn -g
 ```
 
 ### 更新 npm
