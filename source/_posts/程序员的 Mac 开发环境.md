@@ -66,15 +66,24 @@ $ git config --global http.proxy http://127.0.0.1:7890
 
 Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时。我们使用 `n` 模块来维护 Node 的版本：
 
-```shell
+```sh
 $ brew install n
-# 安装最新版
-$ sudo n latest
-## 其他命令##
-# 安装指定版本
-$ sudo n 10.16.0
+```
+
+安装命令：
+
+```sh
 # 安装最新的稳定版
 $ sudo n lts
+# 安装最新版
+$ sudo n latest
+# 安装指定版本
+$ sudo n 10.16.0
+```
+
+删除命令：
+
+```sh
 # 删除指定版本
 $ n rm 12.10.0
 # 除去当前版本以外的所有缓存版本
