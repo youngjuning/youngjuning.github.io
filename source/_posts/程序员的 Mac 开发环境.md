@@ -119,7 +119,7 @@ $ nrm add <name> <url> [home]
 
 ## iTerm2
 
-- [这篇 iTerm2 + Oh My Zsh 教程手把手让你成为这条街最靓的仔](https://juejin.cn/post/6844904178075058189)
+点击 https://iterm2.com/downloads/stable/latest 下载最新版 iTerm2。
 
 ## ohmyzsh
 
