@@ -135,6 +135,10 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 
+### 主题
+
+ohmyzsh 主题我只用 ys。
+
 ## 提效工具
 
 - [Alfred](https://www.alfredapp.com/)：Mac 上最强大的效率工具
