@@ -356,9 +356,6 @@ footer_beautify:
           - text: 站点监控
             link: https://www.githubstatus.com/
             class: out
-          - text: 时间轴
-            link: /timeline/
-            class: in
           - text: 我的相册
             link: /album/
             class: in
@@ -381,17 +378,6 @@ footer_beautify:
             class: in
           - text: 查看全部
             link: /categories/
-            class: in
-      - group_title: 时间轴
-        footer_links:
-          - text: 紫竹
-            link: /timeline/luozhu/
-            class: in
-          - text: ChatGPT
-            link: /timeline/chatgpt/
-            class: in
-          - text: 狗狗币
-            link: /timeline/doge/
             class: in
   footer_friend_links:
     enable: false
