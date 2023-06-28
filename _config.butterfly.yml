@@ -25,7 +25,7 @@ menu:
     追番: /bangumi/ || fas fa-tv
     开往宇宙: https://travellings.vercel.app/ || fas fa-paper-plane
 nav:
-  logo: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png # image
+  logo: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png # image
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -94,11 +94,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png
+favicon: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png
+  img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png
   effect: false
 
 # Disable all banner image
