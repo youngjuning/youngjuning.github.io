@@ -1,13 +1,13 @@
 ---
-title: 洛竹的时间轴
+title: 紫升的时间轴
 date: 2023-04-04 17:10:15
-description: 洛竹的时间轴记录着洛竹在这个世上的点点滴滴，是一个斜杠青年的生活真人秀。
+description: 紫升的时间轴记录着紫升在这个世上的点点滴滴，是一个斜杠青年的生活真人秀。
 tags:
-  - 洛竹的博客
-  - 洛竹的时间轴
+  - 紫升的博客
+  - 紫升的时间轴
   - 时间轴
   - timeline
-  - 洛竹
+  - 紫升
   - 随笔
   - 博客
   - 斜杠青年
@@ -17,10 +17,10 @@ tags:
 ---
 
 {% note success modern %}
-洛竹的时间轴记录着洛竹在这个世上的点点滴滴。
+紫升的时间轴记录着紫升在这个世上的点点滴滴。
 {% endnote %}
 
-{% folding blue, 洛竹收藏的一些网站，这里只是一个暂存区，最终都会整理到洛竹的导航 %}
+{% folding blue, 紫升收藏的一些网站，这里只是一个暂存区，最终都会整理到紫升的导航 %}
 {% link CSS-Tricks, https://css-tricks.com/, https://css-tricks.com/favicon.svg %}
 {% link 这个库让你轻松搞定复杂动画！, https://mp.weixin.qq.com/s/joT0KqM0fGUHZtbqCB2uWg %}
 {% link 找贝网, https://www.zb-2.com/, https://www.zb-2.com/favicon.ico %}

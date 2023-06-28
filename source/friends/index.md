@@ -11,13 +11,13 @@ description: 有朋自网线来，不亦说乎
 
 | <img src="https://i.loli.net/2021/03/30/3c479HwZlBLGDyj.png" style="width:200px;" /> | <img src="https://i.loli.net/2021/03/30/eSONDCYr1Ehjdlt.jpg" style="width:200px;" /> | <img src="https://i.loli.net/2021/03/30/CSNVBX2F9KRqDbA.png" style="width:200px" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                        掘金开发者社区                        |                          洛竹早茶馆                          |                           Python猫                           |
+|                        掘金开发者社区                        |                          紫升早茶馆                          |                           Python猫                           |
 
 欢迎互换友链，我的信息是：
 
 ```json
 {
-  "name": "洛竹的博客",
+  "name": "紫升的博客",
   "link": "https://youngjuning.js.org",
   "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
   "descr": "怕什么真理无穷，进一寸有一寸的欢喜。"
@@ -25,7 +25,7 @@ description: 有朋自网线来，不亦说乎
 ```
 
 ```yml
--  "name": "洛竹的博客",
+-  "name": "紫升的博客",
   "link": "https://youngjuning.js.org",
   "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450378978.png",
   "descr": "怕什么真理无穷，进一寸有一寸的欢喜。"

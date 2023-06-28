@@ -2,7 +2,7 @@
 title: 十种优化网站 SEO 并提高在线收入的方法
 date: 2023-03-19 17:14:52
 categories:
-  - [洛竹翻译计划]
+  - [紫升翻译计划]
   - [站点运营, SEO]
 tags:
   - SEO
@@ -42,4 +42,4 @@ Social media is a powerful tool for driving traffic and increasing online earnin
 
 > 原文地址：[10 Ways to Optimize Your Website for SEO and Boost Online Earnings](https://techaayt.blogspot.com/2023/02/10-ways-to-optimize-your-website-for.html)
 > 原文作者：[TECH AA](https://www.blogger.com/profile/01059508543211583962)
-> 译文出自：[洛竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

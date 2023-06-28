@@ -1,7 +1,7 @@
 ---
-title: 洛竹的相册
+title: 紫升的相册
 date: 2023-03-20 22:23:55
-description: 碧蓝档案、碧蓝航线、崩坏、罗小黑战记、AI 美女、推特美图、洛竹的素材
+description: 碧蓝档案、碧蓝航线、崩坏、罗小黑战记、AI 美女、推特美图、紫升的素材
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654444764.png
 tags:
   - 碧蓝档案
@@ -9,12 +9,12 @@ tags:
   - 崩坏：星穹铁道
   - 罗小黑战记
   - 推特美图
-  - 洛竹的素材
+  - 紫升的素材
 ---
 
 <div class="gallery-group-main">
 
-{% galleryGroup '洛竹的相册' '洛竹拍摄的作品' '/album/luozhu/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681038780175.png %}
+{% galleryGroup '紫升的相册' '紫升拍摄的作品' '/album/luozhu/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681038780175.png %}
 
 {% galleryGroup '推特美图' '收藏的一些推特配图' '/album/Twitter/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838653179.png %}
 

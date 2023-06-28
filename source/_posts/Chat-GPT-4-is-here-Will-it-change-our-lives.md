@@ -4,7 +4,7 @@ description: Chat GPT-4 被誉为改变游戏规则的技术，从许多方面�
 date: 2023-03-17 14:14:20
 categories:
   - [人工智能]
-  - [洛竹翻译计划]
+  - [紫升翻译计划]
 tags:
   - GPT-4
   - ChatGpt
@@ -44,4 +44,4 @@ ChatGPT-4 版本的训练速度更快，并且新的升级将不断推出。尽�
 
 > 原文地址：[Chat GPT-4 is here - Will it change our lives?](https://www.fox5ny.com/news/chat-gpt-4-is-here-will-it-change-our-lives)
 > 原文作者：[Ashlie Rodriguez](https://www.fox5ny.com/person/r/ashlie-rodriguez)
-> 译文出自：[洛竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

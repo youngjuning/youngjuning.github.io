@@ -7,8 +7,8 @@ categories:
   - Rust
 tags:
   - Rust
-  - 洛竹的博客
-  - 洛竹
+  - 紫升的博客
+  - 紫升
 ---
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -17,7 +17,7 @@ tags:
 猜数游戏代码在 [guessing_game](https://github.com/youngjuning/learn-rust/tree/master/guessing_game)
 {% endnote %}
 
-为了方便大家学习，需要运行（`cargo run`）看效果的地方，我都截了GIF图。喜欢的话可以给洛竹个👍🏻鼓励一下。
+为了方便大家学习，需要运行（`cargo run`）看效果的地方，我都截了GIF图。喜欢的话可以给紫升个👍🏻鼓励一下。
 
 ## 环境
 
@@ -126,7 +126,7 @@ Rust 编译器提醒我们 `read_line` 方法返回的 `Result` 值还没有被�
 
 现在，让我们借助 `cargo run` 命令来尝试运行一下这段代码：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/74adfa100e0147b083ae72c782928916~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/74adfa100e0147b083ae72c782928916~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## 生成一个保密数字
 
@@ -157,7 +157,7 @@ rand = "0.3.14"
 
 我们先不修改任何代码，直接重新构建这个项目：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5fe9b017f6e8431bb31df50335e7cd67~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5fe9b017f6e8431bb31df50335e7cd67~tplv-k3u1fbpfcp-zoom-1.image)
 
 现在，我们的程序有了一个外部依赖，Cargo 可以从注册表（registry）中获取所有可用库的最新版本信息，而这些信息通常是从[cartes.io](https://cartes.io/) 上拷贝过来的。
 
@@ -165,7 +165,7 @@ rand = "0.3.14"
 
 现在，如果你没有做出任何改变，立即重新运行 `cargo build`，那么只会有 Finished 提示。Cargo 会自动分析当前已经下载或编译过的内容，并跳过无需重复的步骤。
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/910a4092bb524a788621f193cde3618f~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/910a4092bb524a788621f193cde3618f~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### 生成一个随机数
 
@@ -202,7 +202,7 @@ fn main() {
 
 使用第三方包，不可避免要频繁查看文档。你可以去官方文档看，这没什么问题。但是你也可以借助`cargo doc --open` 命令在本地构建一份有关所有依赖的文档，并自动地在浏览器中将文档打来来供你查阅：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5bc83c1f8feb432884ceaef1794af0a0~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5bc83c1f8feb432884ceaef1794af0a0~tplv-k3u1fbpfcp-zoom-1.image)
 
 上面代码中，我们将保密数字打印出来，只是为了调试，之后会删掉这段代码。
 
@@ -290,7 +290,7 @@ fn main() {
 
 现在我们重新 Run 一下我们的程序：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7a2e0066cbbb4948aacf17ad5ea8b24b~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7a2e0066cbbb4948aacf17ad5ea8b24b~tplv-k3u1fbpfcp-zoom-1.image)
 
 这个游戏已经大体成型了，但玩家只能做出一次猜测，这显然是不够的，接下来，我们会加入一个循环来完善这个游戏。
 
@@ -336,13 +336,13 @@ fn main() {
 
 运行程序，玩家猜对数字，输出**You Win!**后，会退出程序：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d6b7b5953aec4e36a9fe7b44805100c0~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d6b7b5953aec4e36a9fe7b44805100c0~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## 处理非法输入
 
 在转换 `guess` 字符串为 `number` 类型是，我们使用 `expect("Please type a number")`来处理可能出现的错误，我们尝试输入一个非 `number` 类型的值运行一下：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b33a4d37eeb648f9837aef91fea55b05~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b33a4d37eeb648f9837aef91fea55b05~tplv-k3u1fbpfcp-zoom-1.image)
 
 用户如果想要重新开始游戏，需要重启程序，这很明显，用户体验挺差的。为了改善游戏的可玩性，我们可以在用户输入了一个非数字数据时简单地忽略这次猜测行为，并使用户可以继续进行猜测，从而避免程序发生崩溃。
 
@@ -392,4 +392,4 @@ fn main() {
 
 万事具备，让我们运行这个项目试试看：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dd1f88a003e34ac0b23e1cd4e923cbbc~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dd1f88a003e34ac0b23e1cd4e923cbbc~tplv-k3u1fbpfcp-zoom-1.image)

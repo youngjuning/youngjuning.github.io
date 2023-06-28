@@ -20,13 +20,13 @@ tags:
 
 怎么说呢，当时也就中等焦虑吧。也就赶鸭子上架各种不适，也就睡不好吃不好担心末位淘汰，也就担心没工作被我爸唠叨。
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c327b38e8ca3410ea7f74d67d8080ccb~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c327b38e8ca3410ea7f74d67d8080ccb~tplv-k3u1fbpfcp-zoom-1.image)
 
 人们常说压不倒你的，最终都能成就你。我就是顶着巨大心里压力一头扎进了跨端开发这个领域，一晃便是两年多过去了。接着掘金的活动，和大家聊一聊 RN 的一些事。
 
 ## 聊聊 React Native 入门
 
-找到洛竹询问 React Native 最多的问题便是 React Native 环境的搭建，我都会耐心地帮助大家排查（有时也会让仔细看官网）。这个时候我一般都会和他们聊一下我们三剑客初次搭建环境最快的也是用了一整个工作日，最慢的因为电脑环境混乱多花了一个周末排查问题的故事。
+找到紫升询问 React Native 最多的问题便是 React Native 环境的搭建，我都会耐心地帮助大家排查（有时也会让仔细看官网）。这个时候我一般都会和他们聊一下我们三剑客初次搭建环境最快的也是用了一整个工作日，最慢的因为电脑环境混乱多花了一个周末排查问题的故事。
 
 万事开头难这句话用在 RN 和 Flutter 上尤其合适，跨端对于原生转和前端上手都是不太友好的，所以不要再问前端转合不合适，原生转不比你舒服到哪里去。
 
@@ -49,7 +49,7 @@ tags:
 
 但是如果是要掌控整个 App 的架构和开发，那要求会多一些。但也无非是 React 开发同样需要掌握的全局状态管理、路由管理、组件封装等能力。
 
-你可能会问不会原生开发可以从事 RN 开发吗？答案是肯定的，跨端方案的出现对于前端开发者的一大利好便是可以使用前端技术开发移动应用。React Native 不管是官方还是社区都有大量的封装好的 SDK 可供使用，比如 [react-native-svg](https://github.com/react-native-svg/react-native-svg)、[react-native-camera](https://github.com/react-native-camera/react-native-camera)、[react-native-video](https://github.com/react-native-video/react-native-video)、[react-native-sound](https://github.com/zmxv/react-native-sound)、[react-native-permissions](https://github.com/zoontek/react-native-permissions) 等等这些优秀的三方库。当然你可能还有疑问，如果社区没有现成的，或者需要自定义原生的功能才能完成业务怎么办？这个就没那么简单了，但是别担心，现代工业社会是讲究协作和精细化分工的，在涂鸦，我们有专业的原生开发团队为我们提供底层 SDK 业务编写，但是我还建议大家 ios、android 的桥接代码还是要会写、原生的配置要懂，有助于提升个人能力和稀缺性。相信我这并不复杂，你遇到的问题搜一下也能解决。洛竹的经验也仅限于掌握原生配置、对原生 SDK 进行封装暴露接口给 JS 层调用，ios 课程买了有一年了，也没看一点（实在惭愧）。对原生 SDK 桥接感兴趣的可以看下[原生模块简介](https://reactnative.cn/docs/native-modules-intro)和[create-react-native-module](https://github.com/brodybits/create-react-native-module)。
+你可能会问不会原生开发可以从事 RN 开发吗？答案是肯定的，跨端方案的出现对于前端开发者的一大利好便是可以使用前端技术开发移动应用。React Native 不管是官方还是社区都有大量的封装好的 SDK 可供使用，比如 [react-native-svg](https://github.com/react-native-svg/react-native-svg)、[react-native-camera](https://github.com/react-native-camera/react-native-camera)、[react-native-video](https://github.com/react-native-video/react-native-video)、[react-native-sound](https://github.com/zmxv/react-native-sound)、[react-native-permissions](https://github.com/zoontek/react-native-permissions) 等等这些优秀的三方库。当然你可能还有疑问，如果社区没有现成的，或者需要自定义原生的功能才能完成业务怎么办？这个就没那么简单了，但是别担心，现代工业社会是讲究协作和精细化分工的，在涂鸦，我们有专业的原生开发团队为我们提供底层 SDK 业务编写，但是我还建议大家 ios、android 的桥接代码还是要会写、原生的配置要懂，有助于提升个人能力和稀缺性。相信我这并不复杂，你遇到的问题搜一下也能解决。紫升的经验也仅限于掌握原生配置、对原生 SDK 进行封装暴露接口给 JS 层调用，ios 课程买了有一年了，也没看一点（实在惭愧）。对原生 SDK 桥接感兴趣的可以看下[原生模块简介](https://reactnative.cn/docs/native-modules-intro)和[create-react-native-module](https://github.com/brodybits/create-react-native-module)。
 
 ## 聊聊我为社区做的一些事
 

@@ -44,4 +44,4 @@ Finally, writing efficient, maintainable, and bug-free JavaScript code is critic
 
 > 原文地址：[7 Common Mistakes to Avoid When Writing JavaScript Code](https://dev.to/haszankauna/7-common-mistakes-to-avoid-when-writing-javascript-code-609)
 > 原文作者：[Kauna Hassan](https://dev.to/haszankauna)
-> 译文出自：[洛竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

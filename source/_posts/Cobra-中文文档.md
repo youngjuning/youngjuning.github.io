@@ -492,7 +492,7 @@ Echo works a lot like print, except it has a child command.`,
 
 以下输出由 Cobra 自动生成。 除了命令和标志定义外，什么都不需要。
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ab343af6ed24362b1926bb8fd0a23b0~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ab343af6ed24362b1926bb8fd0a23b0~tplv-k3u1fbpfcp-zoom-1.image)
 
 `help` 就像其他命令一样。并没有特殊的逻辑或行为。实际上，你可以根据需要提供自己的服务。
 
@@ -512,7 +512,7 @@ cmd.setHelpTemplate(s string)
 
 当用户提供无效的标志或无效的命令时，Cobra 会通过向用户显示 `usage` 进行响应。
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0f1975f1c578418ebd37e81b682e69dd~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0f1975f1c578418ebd37e81b682e69dd~tplv-k3u1fbpfcp-zoom-1.image)
 
 #### 定义你自己的使用信息
 

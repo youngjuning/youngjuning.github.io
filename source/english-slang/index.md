@@ -1,6 +1,6 @@
 ---
 title: 生词本
-description: 洛竹的生词本、网络英语、英语俚语、英语短语、英语词汇、英语常用语、英语口语、英语词组、英语成语、英语谚语、英语习语、英语熟语
+description: 紫升的生词本、网络英语、英语俚语、英语短语、英语词汇、英语常用语、英语口语、英语词组、英语成语、英语谚语、英语习语、英语熟语
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679325810233.png
 date: 2023-04-17 17:34:36
 tags:

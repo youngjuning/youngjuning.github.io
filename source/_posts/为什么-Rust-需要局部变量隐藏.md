@@ -56,7 +56,7 @@ let name = name; // "string" again, this definition shadows all the others
 
 ### 回答
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6956030e8f734c3a81e5598aa9123dd7~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6956030e8f734c3a81e5598aa9123dd7~tplv-k3u1fbpfcp-zoom-1.image)
 
 变量隐藏与仿射类型（affine types）具有很多协同作用。例如：
 
@@ -67,13 +67,13 @@ let foo = foo.unwrap();
 你在其中重新绑定 `foo` 的同时引用 `unwrap()` 的结果，因此旧 `foo` 由于该原因而变得不可访问。——变量指向了新的内存空间。
 
 ---
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e9b00e7afe1946ed84b10d7085f0a320~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e9b00e7afe1946ed84b10d7085f0a320~tplv-k3u1fbpfcp-zoom-1.image)
 
 好处是使用一个单词来表示共同的变量，例如 `c` 用于绘制上下文。变量可以被改变类型，[Rust-Graphics](https://github.com/PistonDevelopers/graphics) 大量地依赖该特性。每一个方法返回一个新的类型，并且当上下文提供足够的信息去绘制时，你只能调用`.draw(gl)`。
 
 ---
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/699da31543d44ae99d95e0d371e9fce8~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/699da31543d44ae99d95e0d371e9fce8~tplv-k3u1fbpfcp-zoom-1.image)
 
 我经常使用的单个字母是：
 
@@ -87,7 +87,7 @@ let foo = foo.unwrap();
 
 ---
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/666f1cfe0c0e4a7f97779b7cc95dedf7~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/666f1cfe0c0e4a7f97779b7cc95dedf7~tplv-k3u1fbpfcp-zoom-1.image)
 
 我认为变量隐藏的最佳论据是阻止对象可变性的能力。
 
@@ -102,7 +102,7 @@ let vec = vec;
 
 ---
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f2a0e9fa316c4ad8a95d655d76b9295b~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f2a0e9fa316c4ad8a95d655d76b9295b~tplv-k3u1fbpfcp-zoom-1.image)
 
 我不确定，但我认为此功能可将可变性降至最低。您可以使用新值重新声明它，而不用突变一个变量。
 
@@ -112,7 +112,7 @@ let vec = vec;
 
 ---
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/551b748ead0b4ae89a1797d0032b79f5~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/551b748ead0b4ae89a1797d0032b79f5~tplv-k3u1fbpfcp-zoom-1.image)
 
 我昨天也注意到了这一点。我宁愿没有它，因为它引入了难以发现的错误。
 
@@ -129,7 +129,7 @@ let vec = vec;
 
 ---
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/07fc8946bff243ddaf9abac9db16b02d~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/07fc8946bff243ddaf9abac9db16b02d~tplv-k3u1fbpfcp-zoom-1.image)
 
 我经常使用隐藏来防止再次引用另一个变量。这是我从OCaml那里习得的一种习惯，在该习惯下，隐藏是允许的并且是惯用的。
 

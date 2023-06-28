@@ -5,7 +5,7 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679280067130.png
 description: 包用于组织 Go 源代码，以提高可重用性和可读性。包是位于同一目录中的 Go 源文件的集合。包提供了代码分隔，因此我们可以轻松维护 Go 项目。
 categories:
   - [Golang, Go 语言系列教程]
-  - [洛竹翻译计划]
+  - [紫升翻译计划]
 tags:
   - Golang
   - Go 语言教程
@@ -369,4 +369,4 @@ func main() {
 
 > 原文地址 [Go Packages](https://golangbot.com/go-packages/)
 > 原文作者：[Naveen Ramanathan](https://golangbot.com/about/)
-> 译文出自：[洛竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

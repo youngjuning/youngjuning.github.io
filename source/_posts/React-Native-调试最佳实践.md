@@ -25,7 +25,7 @@ tags:
 
 这就是为什么在每一个开发者的职业生涯中最重要的是知道如何处理这些失误。作为一个 React Native 开发者，我经常想要写出没有 BUG 的代码，但是当出现问题时，我需要确保我能够追踪并解决问题。
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b361ca265e1d478faf33e97edd22b1e2~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b361ca265e1d478faf33e97edd22b1e2~tplv-k3u1fbpfcp-zoom-1.image)
 
 在这篇文章中，我想讨论一些日常用于移动应用程序开发的工具和技术。我希望你可以发现一些对你的项目有帮助的东西。
 
@@ -55,9 +55,9 @@ Linting 是执行程序的过程，用于分析潜在的语法程序错误。Jav
 
 比较一下下面的代码片段：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b3f4cfbcf58a4726af1eb510386dc12a~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b3f4cfbcf58a4726af1eb510386dc12a~tplv-k3u1fbpfcp-zoom-1.image)
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ec3a96ee27354026a8013168bbb9b053~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ec3a96ee27354026a8013168bbb9b053~tplv-k3u1fbpfcp-zoom-1.image)
 
 我建议大家使用 Prettier 格式化代码 - 它很容易集成和配置。你也可以通过 `eslint-config-prettier` 和 `eslint-plugin-prettier` 这两个插件和 ESLint 配合使用。
 
@@ -65,7 +65,7 @@ Linting 是执行程序的过程，用于分析潜在的语法程序错误。Jav
 
 React Native 具有开发人员友好的环境，会告诉我们我们在警告或错误方面做错了什么：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5b33a0defc7b47c8b7de95526dd76514~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5b33a0defc7b47c8b7de95526dd76514~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## 内置调试模式
 
@@ -79,13 +79,13 @@ npm install -g react-devtools
 
 在开发模式下，您可以打开开发人员菜单并从那里开始调试您的应用程序。只需激活 `debug` 选项：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/682b8dec24284e48a01f6647eb1b333b~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/682b8dec24284e48a01f6647eb1b333b~tplv-k3u1fbpfcp-zoom-1.image)
 
 它将打开带有 `http://localhost8081/debugger-ui` 路径的 Chrome 浏览器标签。
 
 在您的 Chrome 浏览器中，您应该看到以下屏幕：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a119459876cc44d7a6a7388114b92aa3~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a119459876cc44d7a6a7388114b92aa3~tplv-k3u1fbpfcp-zoom-1.image)
 
 您也可以在 Safari 中调试应用的 iOS 版本，而不必启用 `Debug JS Remotely`。
 
@@ -115,7 +115,7 @@ Safari 的 Web 检查器应打开，并应显示一个 `Console` 和一个 `Debu
 - 在 React Native 中显示图像浮层
 - 在 React Native 中跟踪您的异步存储
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2e43cd0a09634d70891b33ae4b563a4a~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2e43cd0a09634d70891b33ae4b563a4a~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## React Native Debugger
 
@@ -127,7 +127,7 @@ Safari 的 Web 检查器应打开，并应显示一个 `Console` 和一个 `Debu
 
 > 注意: 如果你使用了 0.62 版本以上的 React Native，请使用 React Native Debugger v0.11
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/be725c70791d4971b5a4eaefb43ad740~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/be725c70791d4971b5a4eaefb43ad740~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## Native Logs
 
@@ -151,6 +151,6 @@ $ npx react-native log-android
 
 Flipper 支持 React Native Debugger 所有的功能，但是它也增加了很多。查看[官方文档](https://www.flippercloud.io/docs)，以确保并可能创建自己的插件并支持社区。
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/14f985e6f5da4c238c751d873772cc7c~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/14f985e6f5da4c238c751d873772cc7c~tplv-k3u1fbpfcp-zoom-1.image)
 
 > 本文翻译自 [How To Debug React Native Apps Like A Pro? (Tools And Best Practices)](https://www.ideamotive.co/blog/how-to-debug-your-react-native-apps-like-a-pro)

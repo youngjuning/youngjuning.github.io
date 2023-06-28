@@ -6,8 +6,8 @@ date: 2023-04-19 18:19:08
 categories:
   - Rust
 tags:
-  - 洛竹
-  - 洛竹的博客
+  - 紫升
+  - 紫升的博客
   - Rust 语法
 ---
 
@@ -35,9 +35,9 @@ fn main() {
 
 `x = 6` 属于重复赋值，所以执行 `cargo run` 编译是不会通过的：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7c69b2d8dd78470d917c730a5fe5a0d0~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7c69b2d8dd78470d917c730a5fe5a0d0~tplv-k3u1fbpfcp-zoom-1.image)
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dcfbdcb5c80944149b31b331b8165aee~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dcfbdcb5c80944149b31b331b8165aee~tplv-k3u1fbpfcp-zoom-1.image)
 
 我们可以通过在声明的变量名称前添加 `mut` 关键字来使其可变。除了使变量的值可变，`mut` 还会向阅读代码的人暗示其他代码可能会改变这个变量的值。
 
@@ -66,7 +66,7 @@ fn main() {
 
 如下图，我们可以看到 JavaScript 中并没有该特性：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/42b566023d5f486996638d08cdbf31b3~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/42b566023d5f486996638d08cdbf31b3~tplv-k3u1fbpfcp-zoom-1.image)
 
 隐藏机制和变量声明为 `mut` 的不同：
 
@@ -75,7 +75,7 @@ fn main() {
 
 ## 数据类型
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8b6b8078eff445709283898b757e9834~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8b6b8078eff445709283898b757e9834~tplv-k3u1fbpfcp-zoom-1.image)
 
 RUST 的编译器可以根据我们如何绑定、使用变量的值来自动推导出变量的类型。但在无法自动推导的场景，就必须显式地添加一个类型标注。
 
@@ -156,7 +156,7 @@ fn main() {
 
 上面这段带来执行 `cargo run` 会有编译警告：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3db475c146fa43aabef6a2be17dbe1b4~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3db475c146fa43aabef6a2be17dbe1b4~tplv-k3u1fbpfcp-zoom-1.image)
 
 意思是，如果你是故意声明一个 `unused variable`，那就给变量名加一个下划线前缀来忽略警告
 
@@ -240,7 +240,7 @@ fn main() {
 
 在 [Rust Playground](https://play.rust-lang.org/) 运行这段代码，编译器提示我们，这个操作将会在运行时崩溃。原因是索引越界（Java 常见错误），数组长度是 5，但是我们给的索引是 10。
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/af82e05277824ab285e1c35224c07996~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/af82e05277824ab285e1c35224c07996~tplv-k3u1fbpfcp-zoom-1.image)
 
 > 许多底层语言并没有类似的检查，一旦尝试使用非法索引，你就会访问到某块无效的内存空间（JavaScript 中则返回一个 `undefined`）
 
@@ -341,7 +341,7 @@ fn plus_one(x: i32) -> i32 {
 
 尝试编译这段代码会产生如下错误信息：
 
-![洛竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68a309eddc6244e4a5b45bcd39553156~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68a309eddc6244e4a5b45bcd39553156~tplv-k3u1fbpfcp-zoom-1.image)
 
 可以看出，由于 `x +1;` 是表达式没有返回值，函数体隐式地返回了空元祖（`()`），进而导致编译时 `mismatched types` 错误。编译器给的建议是删除 `x +1;` 语句的分号。
 

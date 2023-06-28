@@ -2,7 +2,7 @@
 title: ChatGPT 时间轴
 date: 2023-04-04 17:10:15
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681096173263.png
-description: ChatGPT 时间轴记录了洛竹每天和 ChatGPT 的对话记录
+description: ChatGPT 时间轴记录了紫升每天和 ChatGPT 的对话记录
 tags:
   - OpenAI
   - Bing

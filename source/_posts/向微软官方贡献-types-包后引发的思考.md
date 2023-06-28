@@ -25,13 +25,13 @@ tags:
 
 上图是我在掘金的第一篇文章 [优雅地使用 TypeScript 开发 React Native 应用](https://juejin.cn/post/6844903843155689486) 中的一条素质问答。问题就是有些库不是 TS 写的，也没提供类型声明该怎么办。从图中可见我当时的解决方法都是不可复用且不利他的。但这就是我这一年来处理该问题的常规手段。
 
-![洛竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/04f411da146740aab8f620337a592850~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/04f411da146740aab8f620337a592850~tplv-k3u1fbpfcp-watermark.image)
 
 ## DefinitelyTyped
 
 像是 Node 有 NPM，Java 有 Maven，TypeScript 也有它的另一半，那就是号称 GitHub review 数量之最的 [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) 项目。
 
-![洛竹](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d503ee17f0ab45068a0d50a4d6f6034a~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d503ee17f0ab45068a0d50a4d6f6034a~tplv-k3u1fbpfcp-watermark.image)
 
 在 TypeScript 大规模应用之前，社区已经有超过 90% 的顶级 JavaScript 库，或基于 Flow 编写的库（React系）。如果没有 DefinitelyTyped 项目，这些库想要提供类型支持，无疑只有完全重构代码。这既不现实也没必要。
 
@@ -72,7 +72,7 @@ npm run prettier -- --write types/tuya-panel-kit/**/*.ts
 
 这一步务必要执行，因为 DefinitelyTyped 十分严格，格式不对过不了 CI。过不了 CI，就只配和机器人对话：
 
-![洛竹](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/140adf442a17460aa845aef8e4b8ac18~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/140adf442a17460aa845aef8e4b8ac18~tplv-k3u1fbpfcp-watermark.image)
 
 5、dtslint
 
@@ -94,11 +94,11 @@ yarn lint tuya-panel-kit
 
 3、你的类型声明可能有很多不符合 dtslint 的标准，我看到有的包是在 `tslint.json` 中配置禁用掉部分规则，但是我做了尝试后被人工拒绝了。
 
-![洛竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fafa598fac2e4015ab496cc15fd94496~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fafa598fac2e4015ab496cc15fd94496~tplv-k3u1fbpfcp-watermark.image)
 
 然后我尝试在顶部加入 `// tslint:disable:max-line-length` 禁用规则，在说明原因后通过了 Review。就在发稿时，最新 PR 却因为一个禁用规则，被要求修改：
 
-![洛竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/21a0b43a6f464c47a1b94a5fc7ed619f~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/21a0b43a6f464c47a1b94a5fc7ed619f~tplv-k3u1fbpfcp-watermark.image)
 
 ## 规范的重要性
 
