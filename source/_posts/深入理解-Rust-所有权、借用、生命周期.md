@@ -20,7 +20,7 @@ tags:
 > * 原文作者：[bugaevc](hhttps://medium.com/@bugaevc)
 > * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
 > * 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/article/2021/understanding-rust-ownership-borrowing-lifetimes.md](https://github.com/xitu/gold-miner/blob/master/article/2021/understanding-rust-ownership-borrowing-lifetimes.md)
-> * 译者：[紫升](https://youngjuning.js.org)
+> * 译者：[紫竹](https://youngjuning.js.org)
 > * 校对者：[霜羽 Hoarfroster](https://github.com/PassionPenguin)、[Zz招锦](https://github.com/zenblo)
 
 我对这些概念的理解是，你一旦掌握了它，所有这些语法都会看起来自然且优雅。
@@ -39,7 +39,7 @@ tags:
 
 有时要实现简单的目地就需要发明复杂的解决方案，而这些解决方案会带来更复杂的逻辑。我们很难避免在庞大的代码库中迷失，并且 Bug 总是在这里或那里突然冒出来，我们最终也见怪不怪了。其中大多数的问题都很容易被发现，但是与资源相关的错误却很难被发现。因此，一旦如果资源被野指针利用，便会非常危险。
 
-![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d66aa3a26a7842d7b2102f3a3ef2b6db~tplv-k3u1fbpfcp-zoom-1.image)
+![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d66aa3a26a7842d7b2102f3a3ef2b6db~tplv-k3u1fbpfcp-zoom-1.image)
 
 当然，像 Rust 这样的新语言无法为你解决 Bug，但是，它可以成功地影响你的思维方式，将一些架构带入你的思想，从而使这类错误的发生几率大大降低。
 

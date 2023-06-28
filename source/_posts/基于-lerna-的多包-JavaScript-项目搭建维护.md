@@ -225,4 +225,4 @@ $ yarn add -WD typescript
 }
 ```
 
-> 本文首发于「[紫升的官方网站](https://youngjuning.js.org/)」，同步于公众号「[紫升早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images/20210418112129.jpeg)」和「[掘金专栏](https://juejin.cn/user/325111174662855)」。
+> 本文首发于「[紫竹的官方网站](https://youngjuning.js.org/)」，同步于公众号「[紫竹早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images/20210418112129.jpeg)」和「[掘金专栏](https://juejin.cn/user/325111174662855)」。

@@ -6,7 +6,7 @@ swiper_index: 6
 description: 这是我们 Golang 教程系列中的第一篇教程。本教程介绍了 Go，并讨论了选择 Go 而不是其他编程语言的原因。我们还将学习如何在 Mac OS，Windows 和 Linux 中安装 Go。
 categories:
   - [Golang, Go 语言系列教程]
-  - [紫升翻译计划]
+  - [紫竹翻译计划]
 tags:
   - Golang
   - Go 语言教程
@@ -114,4 +114,4 @@ go version go1.16 darwin/amd64
 
 > 原文地址 [Part 1: Introduction and Installation](https://golangbot.com/golang-tutorial-part-1-introduction-and-installation/)
 > 原文作者：[Naveen Ramanathan](https://golangbot.com/about/)
-> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

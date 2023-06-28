@@ -41,7 +41,7 @@ $ brew install git
 
 ```bash
 # 1、初始化设置
-$ git config --global user.name '紫升'
+$ git config --global user.name '紫竹'
 $ git config --global user.email 'luozhu2021@gmail.com'
 # 2、将 `color.ui` 设置为 `auto` 可以让命令的输出拥有更高的可读性。
 $ git config --global color.ui auto
@@ -381,7 +381,7 @@ All done!
 SHOW VARIABLES LIKE 'validate_password%';
 ```
 
-![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68541c4633b944d69276a3da8f453406~tplv-k3u1fbpfcp-zoom-1.image)
+![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/68541c4633b944d69276a3da8f453406~tplv-k3u1fbpfcp-zoom-1.image)
 
 使用命令 `mysql -u root` 登陆，执行：
 
@@ -522,4 +522,4 @@ $ echo "set showcmd" >> ~/.vimrc
 $ source ~/.vimrc
 ```
 
-> 本文首发于「[紫升的官方网站](https://youngjuning.js.org/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。
+> 本文首发于「[紫竹的官方网站](https://youngjuning.js.org/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。

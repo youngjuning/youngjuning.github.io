@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 紫升的博客
+title: 紫竹的博客
 subtitle: 怕什么真理无穷，进一寸有一寸的欢喜。
-description: 紫升的个人博客，记录分享美好生活、学习笔记、工作经验、编程开发技巧、加密投研、金融知识、联盟营销和跨境电商，总之在紫升的博客你会发现了一个兴趣广泛且爱折腾的程序员。
+description: 紫竹的个人博客，记录分享美好生活、学习笔记、工作经验、编程开发技巧、加密投研、金融知识、联盟营销和跨境电商，总之在紫竹的博客你会发现了一个兴趣广泛且爱折腾的程序员。
 keywords:
   - 计算机
   - 互联网
@@ -20,10 +20,10 @@ keywords:
   - 跨境电商
   - chatgpt
   - 前端开发
-  - 紫升
+  - 紫竹
   - 罗小黑战记
   - 斜杠青年
-author: 紫升
+author: 紫竹
 language: zh-CN
 timezone: Asia/Hong_Kong
 
@@ -384,7 +384,7 @@ footer_beautify:
             class: in
       - group_title: 时间轴
         footer_links:
-          - text: 紫升
+          - text: 紫竹
             link: /timeline/luozhu/
             class: in
           - text: ChatGPT
@@ -399,7 +399,7 @@ footer_beautify:
   footer_bottom:
     copyright:
       enable: true
-      author: 紫升
+      author: 紫竹
       link: https://youngjuning.js.org/
       time: 2021
     left:

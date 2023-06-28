@@ -27,13 +27,13 @@ tags:
 
 ## 项目背景
 
-涂鸦智能是一家全球化物联网 AI + IOT 领军企业，紫升所在的 [IoTOS](https://www.tuya.com/cn/product/product-development/IoTOS-Development) 部门主要是赋能开发者使用涂鸦 IoTOS, 自主选择不同芯片进行智能产品开发。
+涂鸦智能是一家全球化物联网 AI + IOT 领军企业，紫竹所在的 [IoTOS](https://www.tuya.com/cn/product/product-development/IoTOS-Development) 部门主要是赋能开发者使用涂鸦 IoTOS, 自主选择不同芯片进行智能产品开发。
 
 随着公司内部和公司外部开发者不断增多，维护两套开发工具已不再适应趋势。为了更好地服务广大开发者。我们需要搭建统一的开发者平台。开发者工具（CLI）无疑是很好的开端。
 
 ## 技术选型
 
-在真正开始开发前，紫升分别对 Node、Deno 和 Go 的方案进行了调研。之所以没有直接使用 Node 进行开发，一是因为 Boss 要求源代码不开放，二是因为我们的开发者很多是搞嵌入式的。为了最大程度方便开发者（无需安装运行环境）我们们需要一个可以将 CLI 打包成二进制的方案。
+在真正开始开发前，紫竹分别对 Node、Deno 和 Go 的方案进行了调研。之所以没有直接使用 Node 进行开发，一是因为 Boss 要求源代码不开放，二是因为我们的开发者很多是搞嵌入式的。为了最大程度方便开发者（无需安装运行环境）我们们需要一个可以将 CLI 打包成二进制的方案。
 
 ### **Node**
 
@@ -41,13 +41,13 @@ tags:
 
 那 Node 有没有二进制打包方案呢？
 
-答案是肯定的，紫升在调研中发现了[oclif](https://github.com/oclif/oclif) 和 [pkg](https://github.com/vercel/pkg)，两者都可以将开发好的程序进行跨平台打包。区别在于 pkg 只是一个简单地将程序打包成二进制可执行文件的工具，而 oclif 是一个完善的支持插件系统的 CLI 框架。
+答案是肯定的，紫竹在调研中发现了[oclif](https://github.com/oclif/oclif) 和 [pkg](https://github.com/vercel/pkg)，两者都可以将开发好的程序进行跨平台打包。区别在于 pkg 只是一个简单地将程序打包成二进制可执行文件的工具，而 oclif 是一个完善的支持插件系统的 CLI 框架。
 
 目前为止，oclif 看起来就是我们想要的，但是很遗憾，它由于将 Node 环境打包进安装程序造成安装包过大以及直接暴露源代码落选了（pkg 则是由于太过简陋的功能直接 pass）。
 
 ### Deno
 
-紫升是一个 Deno 爱好者，[Deno从入门到跑路 | 🏆 技术专题第一期征文](https://juejin.cn/post/6854573220432248839) 证明了我写过 Hello World。由于语法和 API 上都很接近 Node，所以成为了第二个考虑的方案。
+紫竹是一个 Deno 爱好者，[Deno从入门到跑路 | 🏆 技术专题第一期征文](https://juejin.cn/post/6854573220432248839) 证明了我写过 Hello World。由于语法和 API 上都很接近 Node，所以成为了第二个考虑的方案。
 
 Deno 在 1.7.0 加入了对 Windows 平台的编译支持后，完整支持了跨平台编译。[seve](https://github.com/youngjuning/seve) 是我写的一个简单的 CLI Demo。
 
@@ -55,7 +55,7 @@ Deno 在 1.7.0 加入了对 Windows 平台的编译支持后，完整支持了�
 
 ### Go
 
-紫升也是一个 Go 的爱好者，同样的 [极速入门Go并爬取掘金专栏 | 🏆 技术专题第二期](https://juejin.cn/post/6860522117423857678) 证明我写过 Hello World。之所以最后才考虑 Go，是因为作为前端开发者，Node 和 Deno 给我的心理压力很小或者几乎没有，而 Go 对我来说是既熟悉又陌生。如果不是前两者都无法符合要求，恐怕我是不会选择 Go 的。
+紫竹也是一个 Go 的爱好者，同样的 [极速入门Go并爬取掘金专栏 | 🏆 技术专题第二期](https://juejin.cn/post/6860522117423857678) 证明我写过 Hello World。之所以最后才考虑 Go，是因为作为前端开发者，Node 和 Deno 给我的心理压力很小或者几乎没有，而 Go 对我来说是既熟悉又陌生。如果不是前两者都无法符合要求，恐怕我是不会选择 Go 的。
 
 **跨平台编译**
 
@@ -123,7 +123,7 @@ CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -o ${name} main.go
 
 3、下载模板：我是使用 `net/http` 手撸了一个文件下载函数，然后使用 [archiver](github.com/mholt/archiver) 对压缩包解压到缓存目录，最后使用 [copy](github.com/otiai10/copy) 复制到当前目录。
 
-![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ee160384538a4fba8882ccf08bed0cb0~tplv-k3u1fbpfcp-zoom-1.image)
+![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ee160384538a4fba8882ccf08bed0cb0~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### upgrade 升级命令
 
@@ -143,7 +143,7 @@ CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -o ${name} main.go
 
 ### homebrew
 
-为了进一步方便 Homebrew 用户，紫升将 tuya-panel-cli 发布到了 [youngjuning/homebrew-tap](https://github.com/youngjuning/homebrew-tap)，具体的内容请参考当时我写的文章[不会吧？不会吧！还有人不会发 Homebrew 包？](https://juejin.cn/post/6922347045692899336)
+为了进一步方便 Homebrew 用户，紫竹将 tuya-panel-cli 发布到了 [youngjuning/homebrew-tap](https://github.com/youngjuning/homebrew-tap)，具体的内容请参考当时我写的文章[不会吧？不会吧！还有人不会发 Homebrew 包？](https://juejin.cn/post/6922347045692899336)
 
 ## 总结思考
 

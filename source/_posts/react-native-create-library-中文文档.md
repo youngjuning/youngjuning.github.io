@@ -3,7 +3,7 @@ title: react-native-create-library 中文文档
 description: react-native-create-library 使你可以使用一个命令创建 React Native 原生库的工具
 date: 2023-03-08 16:53:10
 categories:
-  - [紫升翻译计划]
+  - [紫竹翻译计划]
   - [前端, React Native]
 tags:
   - React Native

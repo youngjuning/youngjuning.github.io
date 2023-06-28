@@ -8,7 +8,7 @@ categories:
 tags:
   - 笔记
   - Docker
-  - 紫升的笔记
+  - 紫竹的笔记
   - DevOps
   - Container
   - 容器
@@ -599,7 +599,7 @@ $ docker run -d -P \
 
 > 详细指令详解请查看：[Dockerfile 指令详解](https://vuepress.mirror.docker-practice.com/image/dockerfile/)
 
-![紫升](https://i.loli.net/2020/04/11/hmlMV4QA2opON9j.png)
+![紫竹](https://i.loli.net/2020/04/11/hmlMV4QA2opON9j.png)
 
 ## 应用安装
 

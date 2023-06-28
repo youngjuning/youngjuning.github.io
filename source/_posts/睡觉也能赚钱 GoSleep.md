@@ -113,9 +113,9 @@ GoSleep 是一款結合 GameFi、SocialFi 和 HealthFi 的 Web3 生活方式應�
 ## 投资者
 
 {% gallery true%}
-![紫升的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680319351304.png)
-![紫升的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680319412117.png)
-![紫升的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680319417605.png)
-![紫升的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680319422147.png)
-![紫升的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680319426468.png)
+![紫竹的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680319351304.png)
+![紫竹的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680319412117.png)
+![紫竹的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680319417605.png)
+![紫竹的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680319422147.png)
+![紫竹的博客](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680319426468.png)
 {% endgallery %}

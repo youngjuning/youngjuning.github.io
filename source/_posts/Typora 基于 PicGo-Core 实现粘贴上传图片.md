@@ -32,7 +32,7 @@ $ yarn global add picgo
 
 上传服务选择“Custom Command”，自定义命令格式是 “[your node path] [your picgo-core path] upload”，比如我的是 `/usr/local/bin/node /usr/local/bin/picgo upload `
 
-![紫升](https://i.loli.net/2020/04/10/aCFG5ZW2xuR6qls.png)
+![紫竹](https://i.loli.net/2020/04/10/aCFG5ZW2xuR6qls.png)
 
 ## 配置 sm.ms api token
 

@@ -18,7 +18,7 @@ tags:
 
 宝塔 Linux 面板是提升运维效率的服务器管理软件，支持一键 LAMP/LNMP/集群/监控/网站/FTP/数据库/JAVA 等 100 多项服务器管理功能。有 30 个人的专业团队研发及维护，经过 200 多个版本的迭代，功能全，少出错且足够安全，已获得全球百万用户认可安装。运维要高效，装宝塔。
 
-![紫升](https://www.bt.cn/Public/images/linux_pc_free.png)
+![紫竹](https://www.bt.cn/Public/images/linux_pc_free.png)
 
 ## 为什么使用 Docker 安装？
 

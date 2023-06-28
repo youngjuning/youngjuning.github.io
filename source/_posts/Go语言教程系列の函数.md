@@ -5,7 +5,7 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679280067130.png
 description: 函数是执行特定任务的代码块。一个函数接受一个输入，对该输入执行一些计算，然后生成一个输出。
 categories:
   - [Golang, Go 语言系列教程]
-  - [紫升翻译计划]
+  - [紫竹翻译计划]
 tags:
   - Golang
   - Go 语言教程
@@ -175,4 +175,4 @@ func main() {
 
 > 原文地址 [Functions](https://golangbot.com/functions/)
 > 原文作者：[Naveen Ramanathan](https://golangbot.com/about/)
-> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

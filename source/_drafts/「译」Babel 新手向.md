@@ -3,7 +3,7 @@ title: 「译」Babel 新手向
 tags: [nodejs, 翻译]
 ---
 
-> 怕什么真理无穷，进一寸有一寸的欢喜。大家好，我是[@紫升](https://github.com/youngjuning)，一名热爱编程、热爱生活的终身学习实践者。
+> 怕什么真理无穷，进一寸有一寸的欢喜。大家好，我是[@紫竹](https://github.com/youngjuning)，一名热爱编程、热爱生活的终身学习实践者。
 
 本文介绍了 Babel，一个允许开发者可以使用下一代 JavaScript 的编译器。
 
@@ -185,11 +185,11 @@ As JavaScript is evolving at such a rapid pace, it’s obvious that browser manu
 
 ## 结语
 
-关注公众号`紫升早茶馆`，一个持续分享编程知识的地方。
+关注公众号`紫竹早茶馆`，一个持续分享编程知识的地方。
 
 - `点赞`等于学会，`在看`等于精通
 - 最后祝大家 2021 学习进步，升职加薪
 
-> 本文首发于「[紫升的官方网站](https://youngjuning.js.org/)」，同步于公众号「[紫升早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images/20210418112129.jpeg)」和「[掘金专栏](https://juejin.cn/user/325111174662855)」。
+> 本文首发于「[紫竹的官方网站](https://youngjuning.js.org/)」，同步于公众号「[紫竹早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images/20210418112129.jpeg)」和「[掘金专栏](https://juejin.cn/user/325111174662855)」。
 
-![紫升](https://youngjuning.js.org/img/luozhu.png)
+![紫竹](https://youngjuning.js.org/img/luozhu.png)

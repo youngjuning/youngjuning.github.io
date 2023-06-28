@@ -133,7 +133,7 @@ $ yarn add react-native-code-push
 
    你可以通过 `code-push deployment ls <appName> -k` 来检索这个值（该 `-k` 标志是必需的，因为默认情况下不会显示键），然后复制相对应的 `Deployment Key` 即可。
 
-   ![紫升](https://user-gold-cdn.xitu.io/2020/2/27/170823d9cfe4d5ba?w=1764&h=414&f=png&s=250595)
+   ![紫竹](https://user-gold-cdn.xitu.io/2020/2/27/170823d9cfe4d5ba?w=1764&h=414&f=png&s=250595)
 
    为了有效利用与 CodePush 应用程序一起创建的 `Staging` 和 `Production` 部署，请在实际将你的应用程序对 CodePush 的使用移入生产环境之前，进行**多部署测试**的配置。
 
@@ -153,7 +153,7 @@ Xcode 允许你为每个**配置** (如 `debug`, `release`) 自定义构建设�
 3. 选择 `Info` 标签
 
 4. 点击 `+` 的内部按钮`Duplicate "Release" Configuration`
-    ![紫升](https://user-gold-cdn.xitu.io/2020/3/9/170bb342a289a24a?w=1026&h=366&f=png&s=63534)
+    ![紫竹](https://user-gold-cdn.xitu.io/2020/3/9/170bb342a289a24a?w=1026&h=366&f=png&s=63534)
 
 5. 将新配置命名为 `Staging`（或您喜欢的任何名称）
 
@@ -165,23 +165,23 @@ Xcode 允许你为每个**配置** (如 `debug`, `release`) 自定义构建设�
      $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)`为`$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)`
      ```
 
-![紫升](https://user-gold-cdn.xitu.io/2020/3/9/170bb34307cf8b7f?w=1058&h=316&f=png&s=99721)
+![紫竹](https://user-gold-cdn.xitu.io/2020/3/9/170bb34307cf8b7f?w=1058&h=316&f=png&s=99721)
 
   > 注意：每次创建这个 Xcode 都会崩溃，只能先把值写入之后，在 `project.pbxproj` 中新建。
 
 8. 点击工具栏的 `+`  并选择 `Add User-Defined Setting`
 
-   ![紫升](https://user-gold-cdn.xitu.io/2020/3/9/170bb342a1fca283?w=1308&h=228&f=png&s=62560)
+   ![紫竹](https://user-gold-cdn.xitu.io/2020/3/9/170bb342a1fca283?w=1308&h=228&f=png&s=62560)
 
 9. 将此新设置命名为`CodePushDeploymentKey`，展开它，然后为 `Staging `配置指定您的 `Staging` 部署密钥，为 `Release` 配置指定您的 `Production` 部署密钥。
 
-   ![紫升](https://user-gold-cdn.xitu.io/2020/3/9/170bb342d671ab43?w=890&h=172&f=png&s=67687)
+   ![紫竹](https://user-gold-cdn.xitu.io/2020/3/9/170bb342d671ab43?w=890&h=172&f=png&s=67687)
 
    > 提醒一下，您可以通过`appcenter codepush deployment list -a <ownerName>/<appName> --displayKeys`从终端运行来检索这些键。
 
 10. 打开项目的 `Info.plist` 文件，然后将`CodePushDeploymentKey`条目的值更改为`$(CODEPUSH_KEY)`
 
-    ![紫升](https://user-gold-cdn.xitu.io/2020/3/9/170bb342f42a6b4e?w=890&h=110&f=png&s=29574)
+    ![紫竹](https://user-gold-cdn.xitu.io/2020/3/9/170bb342f42a6b4e?w=890&h=110&f=png&s=29574)
 
 就是这样了，现在当你运行或构建你的App，你的 `Staging` 包将自动同步你的 `Staging` 部署，你的 `Release` 包将自动同步你的 `Production` 部署。
 
@@ -219,7 +219,7 @@ Xcode 允许你为每个**配置** (如 `debug`, `release`) 自定义构建设�
 
    为了让 CodePush 运行时知道它应该查询哪些部署更新，请打开您的应用程序的 `string.xml` 文件，并添加一个名为 `CodePushDeploymentKey` 的新字符串，它的值是应用的 `Staging` 部署。你可以通过 `appcenter deployment list <ownerName>/<appName> -k` 获取该值。
 
-   ![紫升](https://user-gold-cdn.xitu.io/2020/2/27/170823d9cfe4d5ba?w=1764&h=414&f=png&s=250595)
+   ![紫竹](https://user-gold-cdn.xitu.io/2020/2/27/170823d9cfe4d5ba?w=1764&h=414&f=png&s=250595)
 
    您`strings.xml`应该看起来像这样：
 

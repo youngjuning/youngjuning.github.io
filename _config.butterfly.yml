@@ -708,7 +708,7 @@ aside:
       link: https://github.com/youngjuning
   card_announcement:
     enable: true
-    content: "<center><div style=\"font-size: 16px; font-weight: 600\">博客变现接受付费咨询</div><img src=\"https://cdn.jsdelivr.net/gh/youngjuning/images/202109211725265.png\" alt=\"紫升的微信\" width=\"100%\" /><a href=\"https://cloud.tencent.com/act/cps/redirect?redirect=1040&cps_key=ea8068199c73a836ffe37e4ea4c2ddee&from=console\" nofollow alt=\"腾讯云新客专属福利\" target=\"_blank\">腾讯云新客专属福利</a><br/><a href=\"https://www.cnouyi.careers/join/54171828\" nofollow alt=\"欧易 - 注册开盲盒赢 BTC、ETH、DOGE\" target=\"_blank\">欧易 - 注册开盲盒赢 BTC 和 ETH</a><br/><a href=\"https://sockboom.shop/auth/register?affid=552052\" nofollow alt=\"SockBoom - 科学上网 VPN 梯子\" target=\"_blank\">SockBoom 稳定的科学上网梯子</a></center>"
+    content: "<center><div style=\"font-size: 16px; font-weight: 600\">博客变现接受付费咨询</div><img src=\"https://cdn.jsdelivr.net/gh/youngjuning/images/202109211725265.png\" alt=\"紫竹的微信\" width=\"100%\" /><a href=\"https://cloud.tencent.com/act/cps/redirect?redirect=1040&cps_key=ea8068199c73a836ffe37e4ea4c2ddee&from=console\" nofollow alt=\"腾讯云新客专属福利\" target=\"_blank\">腾讯云新客专属福利</a><br/><a href=\"https://www.cnouyi.careers/join/54171828\" nofollow alt=\"欧易 - 注册开盲盒赢 BTC、ETH、DOGE\" target=\"_blank\">欧易 - 注册开盲盒赢 BTC 和 ETH</a><br/><a href=\"https://sockboom.shop/auth/register?affid=552052\" nofollow alt=\"SockBoom - 科学上网 VPN 梯子\" target=\"_blank\">SockBoom 稳定的科学上网梯子</a></center>"
 
   card_recent_post:
     enable: true

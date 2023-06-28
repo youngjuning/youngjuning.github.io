@@ -5,11 +5,11 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679280067130.png
 description: 一般来说，函数只接受固定数量的参数。参数可变的函数是一个接受可变参数的函数。如果一个函数定义的最后一个参数前面有省略号 ...，那么该函数可以接受该参数的任何数量的参数。
 categories:
   - [Golang, Go 语言系列教程]
-  - [紫升翻译计划]
+  - [紫竹翻译计划]
 tags:
   - Golang
   - Go 语言系列教程
-  - 紫升翻译计划
+  - 紫竹翻译计划
   - Go 参数可变的函数
 ---
 
@@ -332,4 +332,4 @@ func main() {
 
 > 原文地址 [Variadic Functions](https://golangbot.com/variadic-functions/)
 > 原文作者：[Naveen Ramanathan](https://golangbot.com/about/)
-> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

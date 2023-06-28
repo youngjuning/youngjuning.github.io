@@ -1,7 +1,7 @@
 ---
-title: 紫升的导航
+title: 紫竹的导航
 date: 2023-04-06 22:23:55
-description: 纷杂的信息让人焦虑，紫升的导航就是一个很好的减熵的导航工具。
+description: 纷杂的信息让人焦虑，紫竹的导航就是一个很好的减熵的导航工具。
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654430779.png
 tags:
   - 站长导航
