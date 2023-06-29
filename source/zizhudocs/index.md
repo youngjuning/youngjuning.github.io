@@ -15,9 +15,8 @@ tags:
 
 ## 环境准备
 
-1. Git
-2. Node lts
-3. GitHub 账号
+1. Git: https://www.runoob.com/git/git-install-setup.html
+2. Node: https://www.runoob.com/nodejs/nodejs-install-setup.html
 
 ## 参与流程
 
@@ -25,9 +24,9 @@ tags:
 2. 侧边栏扫码加我微信沟通
 3. 我会提供一个仓库给你翻译
 
-## 如何表现
+## 奖励机制
 
-目前计划处于 beta 阶段，只接受熟人参与，项目正式发布之后会出表现模式。
+目前计划处于 beta 阶段，只接受熟人参与，项目正式发布之后会公开奖励机制。
 
 ## 网站列表
 
@@ -35,6 +34,10 @@ tags:
 - class_name: 编程
   class_desc: 编程文档翻译
   link_list:
+    - name: usedapp 中文文档
+      link: https://usedapp.js.org/
+      avatar: https://usedapp.io/img/favicon.svg
+      descr: 为快速 Dapp 开发而生的框架
     - name: Zustand 中文文档
       link: https://zustand-cn.js.org/
       avatar: https://docs.pmnd.rs/zustand.ico
