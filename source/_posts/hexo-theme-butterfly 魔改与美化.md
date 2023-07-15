@@ -16,7 +16,7 @@ tags:
 
 > 当前魔改基于 hexo 6.3.0 和 hexo-theme-butterfly 4.7.0
 
-# patch-package 配置
+## patch-package 配置
 
 patch-package 可以将你的魔改记录保存到 `patches` 文件夹下，方便下次更新主题后应用魔改。按照下面的代码修改 package.json 即可：
 
@@ -53,7 +53,7 @@ index 9e63627..905342a 100644
 
 > 鸣谢 https://guole.fun/posts/butterfly-custom/
 
-# 站点 Logo 圆角
+## 站点 Logo 圆角
 
 ```diff
 diff --git a/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl b/node_modules/hexo-theme-butterfly/source/css/_layout/head.styl
