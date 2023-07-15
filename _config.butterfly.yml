@@ -453,8 +453,8 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: <a href="https://www.cnouyi.careers/join/54171828" nofollow target="_blank">欧易 - 注册开盲盒赢 BTC</a> | <a href="https://sockboom.shop/auth/register?affid=552052" nofollow target="_blank">SockBoom - 稳定的科学上网梯子</a>
-  copyright: false # Copyright of theme and framework
+  custom_text: <a href="https://www.cnouyi.careers/join/54171828" nofollow target="_blank">欧易 - 注册开盲盒赢 BTC</a><br/><a href="https://sockboom.shop/auth/register?affid=552052" nofollow target="_blank">SockBoom - 稳定的科学上网梯子</a><br/><a href="https://www.pionex.com/zh-CN/sign/ref/0rcaD2ex9Om" nofollow target="_blank">Pionex 派网 - 网格交易| 量化交易</a>
+  copyright: true # Copyright of theme and framework
 
 # Analysis
 # --------------------------------------
