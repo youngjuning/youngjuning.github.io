@@ -929,7 +929,7 @@ CDN:
   third_party_provider: jsdelivr
 
   # Add version number to CDN, true or false
-  version: true
+  version: false
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
