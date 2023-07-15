@@ -142,23 +142,6 @@ charts:
   categoriesRadar_Title: # 设置分类雷达的标题，默认为空
 # https://github.com/xiazeyu/live2d-widget-models
 # https://www.cnblogs.com/strengthen/p/11112215.html
-# https://imbhj.com/599f1d72/
-live2d:
-  enable: false
-  scriptFrom: jsdelivr
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: false
-  debug: false
-  model:
-    use: live2d-widget-model-miku
-  display:
-    position: left
-    width: 200
-    height: 400
-  mobile:
-    show: false
 douban:
   user: youngjuning
   builtin: true
