@@ -2,6 +2,11 @@
 # see https://butterfly.js.org/posts/4aa8abbe/#導航菜單
 # --------------------------------------
 
+nav:
+  logo: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png # image
+  display_title: true
+  fixed: false # fixed navigation bar
+
 menu:
   首页: / || fas fa-home
   文章|| fa-fw fas fa-lines-leaning:
@@ -23,10 +28,6 @@ menu:
     阅读: /books/ || fas fa-book
     追番: /bangumi/ || fas fa-tv
     开往宇宙: https://travellings.vercel.app/ || fas fa-paper-plane
-nav:
-  logo: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png # image
-  display_title: true
-  fixed: false # fixed navigation bar
 
 # Code Blocks (代碼相關)
 # --------------------------------------
