@@ -15,14 +15,13 @@ menu:
     归档: /archives/ || fas fa-archive
     逛逛: /random/ || fas fa-random
   导航: /stack/ || fas fa-location-arrow
-  相册: /album/ || fas fa-images
   开往: https://travellings.vercel.app/ || fas fa-paper-plane
   友链: /friends/ || fas fa-link
   我的||fas fa-heart:
+    相册: /album/ || fas fa-images
     关于: /about/ || fas fa-spa
     电影: /movies/ || fas fa-video
     阅读: /books/ || fas fa-book
-    追番: /bangumi/ || fas fa-tv
 
 # Code Blocks (代碼相關)
 # --------------------------------------
