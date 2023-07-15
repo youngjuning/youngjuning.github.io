@@ -13,7 +13,7 @@ menu:
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
     归档: /archives/ || fas fa-archive
-    逛逛: /random/ || fas fa-random
+  逛逛: /random/ || fas fa-random
   导航: /stack/ || fas fa-location-arrow
   开往: https://travellings.vercel.app/ || fas fa-paper-plane
   友链: /friends/ || fas fa-link
