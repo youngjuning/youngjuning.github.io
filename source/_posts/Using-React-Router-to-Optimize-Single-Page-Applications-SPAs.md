@@ -15,7 +15,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 <!-- DRAFT 使用 React Router 优化单页应用程序（SPAs）  -->
 
 React 通常用于构建单页面应用程序（SPA）。 SPA 往往具有多个页面视图。当从一个页面视图导航到另一个页面视图时，重新加载整个页面视图是一项繁琐且不那么高效的任务。实际上，它会削弱 SPA 的优势。为了正常工作，SPA 必须在需要时呈现部分视图，而不是重新加载整个页面。

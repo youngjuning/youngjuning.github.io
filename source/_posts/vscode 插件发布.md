@@ -19,7 +19,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 ## 安装发布工具 vsce
 
 [vsce](https://github.com/Microsoft/vsce) 是一个用于将插件发布到[vscode 插件市场](https://marketplace.visualstudio.com/)上的命令行工具。

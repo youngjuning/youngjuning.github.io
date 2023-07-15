@@ -13,7 +13,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 | 方法                    | 参数                                                         | 返回值                                 |
 | ----------------------- | ------------------------------------------------------------ | -------------------------------------- |
 | `slice(start,end)`      | `start`(必需)-起始位置<br />`end`(可选)-结束位置，若未指定，则默认到末尾所有元素 | 返回 `[start,end]`之间的元素           |

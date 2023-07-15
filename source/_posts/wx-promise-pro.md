@@ -13,7 +13,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 ✨强大、优雅的小程序异步库🚀 小程序promise
 
 [![NPM](https://user-gold-cdn.xitu.io/2020/2/18/1705883821e962d8?w=297&h=45&f=png&s=3701)](https://nodei.co/npm/wx-promise-pro/)

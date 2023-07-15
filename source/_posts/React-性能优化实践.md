@@ -13,7 +13,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 ## React Profiler
 
 React 16.5 添加了对开发者工具的 Profiler 插件的支持。该插件使用了 React 的 Profiler API 来收集所有组件渲染的耗时，目的是为了找出 React 应用程序的性能瓶颈。
