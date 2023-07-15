@@ -64,6 +64,10 @@ algolia_search:
 local_search:
   enable: true
   preload: false
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: -1
+  # Unescape html strings to the readable one.
+  unescape: true
   CDN:
 
 # Math (數學)
@@ -99,7 +103,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: transparent
+index_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450445599.png
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://pic2.zhimg.com/80/v2-7099d20a6239795a13c1525a44e243bd_1440w.webp
@@ -430,12 +434,6 @@ daovoice:
   enable: false
   app_id:
 
-# gitter
-# https://gitter.im/
-gitter:
-  enable: false
-  room:
-
 # crisp
 # https://crisp.chat/en/
 crisp:
@@ -455,7 +453,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: xxxx
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -551,10 +549,15 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450445599.png)
+background:
 
 # Footer Background
-footer_bg: transparent
+footer_bg: true
+
+# Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
+mask:
+  header: true
+  footer: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -783,6 +786,9 @@ darkmode:
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
   autoChangeMode: true
+  # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
+  start: # 8
+  end: # 22
 
 # show scroll percent in scroll-to-top button
 rightside_scroll_percent: true
@@ -809,6 +815,12 @@ fancybox: true
 
 # Tag Plugins settings (標籤外掛)
 # --------------------------------------
+
+# abcjs (樂譜渲染)
+# See https://github.com/paulrosen/abcjs
+abcjs:
+  enable: false
+  per_page: true
 
 # mermaid
 # see https://github.com/mermaid-js/mermaid
@@ -941,8 +953,8 @@ CDN:
     # translate: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/tw_cn.js
     # local_search: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/search/local-search.js
     # algolia_js:
-    # algolia_search_v4:
-    # instantsearch_v4:
+    # algolia_search:
+    # instantsearch:
     # pjax:
     # gitalk:
     # gitalk_css:
@@ -953,6 +965,7 @@ CDN:
     # twikoo:
     # waline_js:
     # waline_css:
+    # giscus:
     # sharejs:
     # sharejs_css:
     # mathjax:
@@ -966,8 +979,8 @@ CDN:
     # instantpage:
     # typed:
     # pangu:
-    # fancybox_css_v4:
-    # fancybox_v4:
+    # fancybox_css:
+    # fancybox:
     # medium_zoom:
     # snackbar_css:
     # snackbar:
@@ -975,7 +988,7 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    # fontawesomeV6:
+    # fontawesome:
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:
