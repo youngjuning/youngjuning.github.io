@@ -929,18 +929,18 @@ CDN:
   third_party_provider: jsdelivr
 
   # Add version number to CDN, true or false
-  version: false
+  version: true
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
   custom_format:
 
   option:
-    # main_css: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/css/index.css
-    main: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/main.js
-    utils: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/utils.js
-    translate: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/tw_cn.js
-    local_search: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/search/local-search.js
+    # main_css:
+    # main: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/main.js
+    # utils: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/utils.js
+    # translate: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/tw_cn.js
+    # local_search: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.github.io@gh-pages/js/search/local-search.js
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:
