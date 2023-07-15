@@ -17,7 +17,6 @@ cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b79b60e52f9b4e199372d26
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 ## 前言
 
 在 [《每个前端都应该拥有自己的组件库,就像每个夏天都有西瓜🍉》](https://juejin.cn/post/6983854006124675108) 一文中，紫竹带领小黑从零搭建了一个组件库项目，完成了项目结构、构建、测试、文档等基础工程化工作并完成了第一个组件 Icon。本期延续上期的组件工程化的主题，夏日炎热，点上一杯杨枝甘露，和紫竹赴一场 Button 开发之约吧。赴约后，你将会收获以下的内容：

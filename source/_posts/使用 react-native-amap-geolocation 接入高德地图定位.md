@@ -15,7 +15,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 react-native-amap-geolocation 这款插件接入了高德地图定位模块。支持 Android + iOS，提供尽可能完善的原生接口， 同时提供符合 Web 标准的 Geolocation API。
 
 > 本文基于 react-native 0.60 以上版本！

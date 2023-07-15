@@ -13,7 +13,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 Node.js 用途很广，常用来开发服务、桌面应用等被开发者熟知，Node.js 还有另外一个非常实用的场景 - 命令行应用（后文统称 CLI）。
 
 > 本文可参考的源码：https://github.com/youngjuning/cli
