@@ -15,7 +15,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 切片是数组上面的一个方便、灵活和强大的包装器。切片并不拥有自己的任何数据。它们只是对现有数组的引用。
 
 ## 创建切片

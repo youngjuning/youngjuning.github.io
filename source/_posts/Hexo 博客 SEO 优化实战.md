@@ -16,7 +16,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 ## SEO 是什么
 
 SEO 全名为 Search Engine Optimization，是搜索引擎优化的缩写。 SEO 原理是一种利用搜索引擎的规则提高网站在有关搜索引擎内自然排名的方式。 它是一种可衡量、可重复的过程，可用于向搜索引擎发送信号，表明你的页面值得出现在搜索结果中。

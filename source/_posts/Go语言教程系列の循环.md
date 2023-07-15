@@ -15,7 +15,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 循环语句用于重复执行代码块。
 
 `for` 是 Go 中唯一可用的循环。Go 没有在其他语言（例如 C）中存在的`while` 或 `do while` 循环。

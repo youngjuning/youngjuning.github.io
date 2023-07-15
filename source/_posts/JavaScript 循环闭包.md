@@ -14,7 +14,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 当函数可以记住并访问所在词法作用域时，就产生了闭包，即使函数是在当前词法作用域之外执行的。
 
 要说明循环闭包，for 循环是最常见的例子。

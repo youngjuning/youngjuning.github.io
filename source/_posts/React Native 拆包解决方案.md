@@ -11,7 +11,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 一个 React Native 应用中可能包含许多不同的业务，这些不同的业务很可能是不同部门开发的，这样一个库中就有许许多多的重复的 React Native 代码和第三方库代码。
 
 所以一般做法都是将重复的RN代码和第三方库打包成一个基础包，然后各个业务在基础包的基础上进行开发，这样做的好处是可以降低对内存的占用，减少加载时间，减少热更新时流量带宽等，在优化方面起到了非常大的作用。

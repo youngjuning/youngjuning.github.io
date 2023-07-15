@@ -15,7 +15,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 ## switch 语句是什么？
 
 `switch` 是一个条件语句，它对表达式进行求值并将其与可能的匹配列表进行比较，并执行相应的代码块。可以将其视为替换复杂的 `if` 语句的惯用方式。

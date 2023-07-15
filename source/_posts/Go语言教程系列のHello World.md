@@ -14,7 +14,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 这是《Golang 教程系列》的第二篇。如果还没有，你可能需要先看一下我们的上一篇教程 [Golang 介绍和环境安装](https://juejin.cn/post/6942492190291525662) 以了解一下 Golang 是什么以及如何下载 Golang。
 
 这篇教程是基于 Go 1.16 以上的版本。
