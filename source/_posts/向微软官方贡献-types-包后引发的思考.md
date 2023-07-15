@@ -16,7 +16,6 @@ tags:
 
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-
 在前端社区中，TypeScript 差不多是老生常谈的主题了。这不仅反映了 TypeScript 的流行度，也反映了它的学习上手成本。今天我们不来探讨 TypeScript 本身。而是记录一下我艰难地发布一个 [@types](https://www.npmjs.com/package/@types/tuya-panel-kit) 包的历程。
 
 ## a year ago
