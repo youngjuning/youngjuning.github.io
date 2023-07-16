@@ -1,6 +1,6 @@
 ---
 categories:
-- - 工具
+- 工具
 cover: ''
 date: '2023-07-07T13:39:05.142677+08:00'
 description: 本文详细讲述了如何在 Mac 环境下 切换 github 账号

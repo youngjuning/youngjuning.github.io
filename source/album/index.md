@@ -14,7 +14,7 @@ tags:
 
 <div class="gallery-group-main">
 
-{% galleryGroup '紫竹的相册' '紫竹拍摄的作品' '/album/luozhu/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681038780175.png %}
+{% galleryGroup '紫竹的相册' '紫竹拍摄的作品' '/album/zizhu/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681038780175.png %}
 
 {% galleryGroup '推特美图' '收藏的一些推特配图' '/album/Twitter/' https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679838653179.png %}
 

@@ -2,6 +2,7 @@
 title: 2023 Google Adsense 中国大陆账户注册教程
 description: Google Adsense 是一个由 Google 公司设置的广告计划，会员可以利用 Youtube 流量和 Blogspot 功能置入广告服务，以赚取佣金。会员可分得搜索广告收益的51%、内容广告收益的68%。本文将介绍如何注册 Google Adsense 账户。
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1682570786092.png
+sticky: 4
 date: 2023-04-27 12:36:47
 categories:
   - [Google, Adsense]
