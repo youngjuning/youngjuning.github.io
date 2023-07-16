@@ -116,6 +116,7 @@ ignore:
 sitemap:
   path: sitemap.xml
   rel: true
+
 feed:
   type:
     - atom
@@ -124,9 +125,29 @@ feed:
     - atom.xml
     - rss2.xml
   limit: false
+
 nofollow:
   enable: true
   field: site
+
+# https://easyhexo.com/3-Plugins-use-and-config/3-3-hexo-helper-live2d/
+live2d:
+  enable: false
+  scriptFrom: jsdelivr
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-miku
+  display:
+    position: left
+    width: 200
+    height: 400
+  mobile:
+    show: false
+
 # https://www.cnblogs.com/strengthen/p/11112215.html
 douban:
   user: youngjuning
@@ -150,6 +171,7 @@ douban:
     path: movies
     limit:
   timeout: 10000
+
 # tag-plugins-plus
 # see https://akilar.top/posts/615e2dec/
 tag_plugins:

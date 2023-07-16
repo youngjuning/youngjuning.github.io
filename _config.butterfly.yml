@@ -154,7 +154,7 @@ copy:
   enable: true
   copyright:
     enable: true
-    limit_count: 100
+    limit_count: 80
 
 # Post
 # --------------------------------------
@@ -177,7 +177,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://cdn.jsdelivr.net/gh/youngjuning/images/wechat.png
       # link:
@@ -249,7 +249,6 @@ aside:
   card_announcement:
     enable: true
     content: "<center><div style=\"font-size: 16px; font-weight: 600\">Ask Me Anything</div><img src=\"https://cdn.jsdelivr.net/gh/youngjuning/images/202109211725265.png\" alt=\"紫竹的微信\" width=\"100%\" /></center>"
-
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -262,13 +261,13 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
-    limit: 30 # if set 0 will show all
+    limit: 40 # if set 0 will show all
     color: true
     orderby: random # Order of tags, random/name/length
     order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
-    enable: false
+    enable: true
     type: monthly # yearly or monthly
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -582,7 +581,7 @@ messenger:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-# baidu_analytics:
+baidu_analytics:
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -686,6 +685,14 @@ rightside-bottom:
 # Enter transitions (開啓網頁進入效果)
 enter_transitions: true
 
+# Typewriter Effect (打字效果)
+# https://github.com/disjukr/activate-power-mode
+activate_power_mode:
+  enable: true
+  colorful: true # open particle animation (冒光特效)
+  shake: true #  open shake (抖動特效)
+  mobile: false
+
 # Background effects (背景特效)
 # --------------------------------------
 
@@ -714,23 +721,15 @@ canvas_nest:
   count: 99 # the number of lines, default: 99.
   mobile: false
 
-# Typewriter Effect (打字效果)
-# https://github.com/disjukr/activate-power-mode
-activate_power_mode:
-  enable: true
-  colorful: true # open particle animation (冒光特效)
-  shake: true #  open shake (抖動特效)
-  mobile: false
-
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
-  enable: true
+  enable: false
   zIndex: 9999 # -1 or 9999
   mobile: false
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
@@ -942,7 +941,7 @@ CDN:
   # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # Dev version can only choose. ( dev版的主題只能設置為 local )
-  internal_provider: jsdelivr
+  internal_provider: local
 
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
