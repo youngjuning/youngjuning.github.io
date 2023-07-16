@@ -132,7 +132,7 @@ nofollow:
 
 # https://easyhexo.com/3-Plugins-use-and-config/3-3-hexo-helper-live2d/
 live2d:
-  enable: false
+  enable: true
   scriptFrom: jsdelivr
   pluginRootPath: live2dw/
   pluginJsPath: lib/
