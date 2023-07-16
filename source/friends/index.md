@@ -7,12 +7,6 @@ top_img: https://pic4.zhimg.com/80/v2-74f2b88f82ff7254d350718e5770cc1b_1440w.web
 description: 有朋自网线来，不亦说乎
 ---
 
-## 公众号
-
-| <img src="https://i.loli.net/2021/03/30/3c479HwZlBLGDyj.png" style="width:200px;" /> | <img src="https://i.loli.net/2021/03/30/eSONDCYr1Ehjdlt.jpg" style="width:200px;" /> | <img src="https://i.loli.net/2021/03/30/CSNVBX2F9KRqDbA.png" style="width:200px" /> |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                        掘金开发者社区                        |                          紫竹早茶馆                          |                           Python猫                           |
-
 欢迎互换友链，我的信息是：
 
 ```json
@@ -25,10 +19,10 @@ description: 有朋自网线来，不亦说乎
 ```
 
 ```yml
--  "name": "紫竹的博客",
-  "link": "https://youngjuning.js.org",
-  "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png",
-  "descr": "怕什么真理无穷，进一寸有一寸的欢喜。"
+- name: "紫竹的博客"
+  link: "https://youngjuning.js.org"
+  avatar: "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png"
+  descr: "怕什么真理无穷，进一寸有一寸的欢喜。"
 ```
 
 快速复制填写模板：
