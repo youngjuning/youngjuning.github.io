@@ -181,10 +181,7 @@ reward:
   QR_code:
     - img: https://cdn.jsdelivr.net/gh/youngjuning/images/wechat.png
       # link:
-      text: 微信
-    - img: https://cdn.jsdelivr.net/gh/youngjuning/images/alipay7.png
-      # link:
-      text: 支付宝
+      text: 微信打赏
 
 # Post edit
 # Easily browse and edit blog source code online.
