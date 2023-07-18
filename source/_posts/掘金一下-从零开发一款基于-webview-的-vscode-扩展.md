@@ -2,7 +2,6 @@
 title: 掘金一下 | 从零开发一款基于 webview 的 vscode 扩展
 date: 2023-03-01 00:55:47
 description: 在团队降本提效的基建中，紫竹开发了一款 vscode 插件，第一版我使用的是 vscode 内置 UI，虽说也能用，但是用户体验欠佳。由于 vscode 内置 UI 不够灵活，一番调研后我决定使用 webview 重构。
-cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f53c4850008a49a5baa25a0e5f1b626b~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp
 categories:
   - [前端, VS Code]
 tags:
