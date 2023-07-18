@@ -2,7 +2,7 @@
 categories:
 - - 工具
 date: '2023-07-18T10:47:19.466418+08:00'
-description:    SwitchHosts SwitchHosts是一款免费的跨平台hosts管理工具，可以帮助用户轻松快捷地管理多组hosts，方便地切换各种网络环境。它支持自定义规则、正则表达式以及备份和恢复等...
+description: SwitchHosts SwitchHosts是一款免费的跨平台hosts管理工具，可以帮助用户轻松快捷地管理多组hosts，方便地切换各种网络环境。它支持自定义规则、正则表达式以及备份和恢复等...
 tags:
 - hosts
 - macos
@@ -43,6 +43,3 @@ LightProxy 是阿里巴巴吧开源的一个跨平台的Web调试代理工具，
 
 - [macOS Version Download](https://gw.alipayobjects.com/os/LightProxy/LightProxy.dmg)
 - [Windows Version Download](https://gw.alipayobjects.com/os/LightProxy/LightProxy-Setup.exe)
-
-
-
