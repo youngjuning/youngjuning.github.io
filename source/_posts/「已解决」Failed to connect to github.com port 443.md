@@ -1,10 +1,10 @@
 ---
 categories:
-- - '[issues,github]'
+  - [issues, github]
 date: '2023-07-18T11:20:35.047326+08:00'
-description:    经常使用 Github 的开发在执行 git push 时经常会遇到 Failed to connect to github.com port 443 问题，今天紫竹就来介绍下如何完美解决这个问...
+description: 经常使用 Github 的开发在执行 git push 时经常会遇到 Failed to connect to github.com port 443 问题，今天紫竹就来介绍下如何完美解决这个问...
 tags:
-- github
+  - github
 title: 「已解决」Failed to connect to github.com port 443
 ---
 <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
