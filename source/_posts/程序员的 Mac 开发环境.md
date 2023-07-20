@@ -112,6 +112,14 @@ $ nrm ls
 $ nrm add <name> <url> [home]
 ```
 
+### 权限不足
+
+```sh
+$ sudo chmod -R 777 /usr/local/lib/node_modules
+$ sudo chmod -R 777 /usr/local/bin/
+$ sudo chmod -R 777 ~/.config
+```
+
 ## VS Code
 
 - 下载 [Visual Studio Code](https://code.visualstudio.com/)
