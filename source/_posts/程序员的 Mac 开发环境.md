@@ -122,6 +122,15 @@ $ npm install -g npkill
 $ npkill
 ```
 
+### 清理所有 node 进程
+
+node 进程异常退出不会杀死 node 进程，久而久之 CPU 就负担不了了，这个时候 pkill 命令就可以代替活动监视器。
+
+```sh
+$ pkill node
+$ pkill esbuild
+```
+
 ### 权限不足
 
 ```sh
