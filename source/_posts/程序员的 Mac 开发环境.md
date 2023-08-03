@@ -70,7 +70,7 @@ Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时。我们使用 
 $ brew install n
 ```
 
-### 安装命令
+### 安装指定版本
 
 ```sh
 # 安装最新的稳定版
@@ -110,6 +110,16 @@ $ sudo npm install -g nrm
 $ nrm ls
 # 添加私有代理
 $ nrm add <name> <url> [home]
+```
+
+### 安装 npkill
+
+轻松查找并删除旧的和沉重的 `node_modules` 文件夹
+
+```sh
+$ npm install -g npkill
+# 在要搜索的根目录执行，比如 cd Desktop
+$ npkill
 ```
 
 ### 权限不足
