@@ -11,9 +11,10 @@ title: 「已解决」Failed to connect to github.com port 443
 
 经常使用 Github 的开发在执行 `git push` 时经常会遇到 `Failed to connect to github.com port 443` 问题，今天紫竹就来介绍下如何完美解决这个问题。
 
-- https://github.com.ipaddress.com/
-- https://fastly.net.ipaddress.com/github.global.ssl.fastly.net
-- https://github.com.ipaddress.com/assets-cdn.github.com
+- https://sites.ipaddress.com/github.com
+- https://sites.ipaddress.com/github.global.ssl.fastly.net
+- https://sites.ipaddress.com/assets-cdn.github.com
+- https://sites.ipaddress.com/raw.githubusercontent.com
 
 然后找到 A Records 依次记下 ip。
 
@@ -21,13 +22,8 @@ title: 「已解决」Failed to connect to github.com port 443
 
 ```txt
 140.82.113.4    github.com
+185.199.108.133 raw.githubusercontent.com
 185.199.108.153 assets-cdn.github.com
-185.199.109.153 assets-cdn.github.com
-185.199.110.153 assets-cdn.github.com
-185.199.111.153 assets-cdn.github.com
 151.101.1.194  github.global.ssl.fastly.net
-151.101.65.194  github.global.ssl.fastly.net
-151.101.129.194  github.global.ssl.fastly.net
-151.101.193.194  github.global.ssl.fastly.net
 ```
 
