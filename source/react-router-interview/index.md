@@ -15,8 +15,6 @@ tags:
   - React Router 面试题
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 # 1. React Router 是什么？
 
 React Router 是一个建立在 React 之上的强大的路由库，它可以帮助你快速添加新的屏幕和流程到你的应用程序，同时保持 URL 与页面上显示的内容同步。

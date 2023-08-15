@@ -12,8 +12,6 @@ tags:
   - 跨平台
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 > 原文链接：https://www.thedroidsonroids.com/blog/flutter-vs-react-native-what-to-choose-in-2021
 > 原作者：the droids on roids
 > 校对：[Alex](https://juejin.cn/user/606586150596360)

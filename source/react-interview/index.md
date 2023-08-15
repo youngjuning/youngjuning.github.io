@@ -17,8 +17,6 @@ tags:
   - React.js 教程
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 {% folding green, 1. 什么是 React？ %}
 React 是一个**开源前端 JavaScript 库**，用于构建用户界面，尤其是单页应用程序。它用于处理 Web 和移动应用程序的视图层。React 是由 Facebook 的软件工程师 [乔丹·沃克](https://github.com/jordwalke) 创建的。React 于 2011 年在 Facebook 的 News Feed 上首次发布，2012 年首次在 Instagram 发布。
 {% endfolding %}
@@ -911,8 +909,6 @@ const App = (props) => {
   )
 }
 ```
-
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 51. 如何在 React 中对 props 进行验证？
 
@@ -1870,8 +1866,6 @@ class WindowDimensions extends React.Component {
   }
 }
 ```
-
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 101. `setState()` 和 `replaceState()` 方法之间的区别是什么？
 

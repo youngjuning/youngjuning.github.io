@@ -18,8 +18,6 @@ tags:
   - google adsense
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 Google Adsense 是一个由 Google 公司设置的广告计划，会员可以利用 Youtube 流量和 Blogspot 功能置入广告服务，以赚取佣金。会员可分得搜索广告收益的 51%、内容广告收益的 68%。本文将介绍如何注册 Google Adsense 账户。
 
 ## 前提
