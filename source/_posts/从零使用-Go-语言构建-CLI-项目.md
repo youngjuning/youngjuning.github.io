@@ -11,8 +11,6 @@ tags:
   - Go
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 项目简介
 
 [tuya-panel-cli](https://github.com/tuya/tuya-panel-cli) 是一款基于 Go 语言的服务于涂鸦智能面板开发者的开发工具。

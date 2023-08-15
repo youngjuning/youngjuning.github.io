@@ -12,8 +12,6 @@ tags:
   - Weex
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 缘起
 
 那是 18 年的夏天，公司 6 月底去成都团建回郑州后，小弟、肖老师和当时绰号小萌的我（以下简称三剑客）开始了使用 React Native 开发 App 的工作。当时经验尚浅的我也只是有小程序和公众号的开发经验，唯一的亮点就是封装了 [wx-promise-pro](https://github.com/youngjuning/wx-promise-pro) 并独立完成了一个小程序的全栈开发，而另外两位同事一个后端大佬经验丰富，一个 ios、vue、android、C#、Java 等等技能栈点满。

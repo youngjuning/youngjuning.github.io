@@ -11,8 +11,6 @@ tags:
   - 机器人
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 关于 Github Apps
 
 GitHub Apps 是 GitHub 中优秀的产品。一个 GitHub App 通过 API 直接使用自己的身份进行操作，这意味着你不需要作为一个单独的用户维护一个机器人或服务账户。

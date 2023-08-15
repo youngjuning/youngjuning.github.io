@@ -11,8 +11,6 @@ tags:
   - Circle CI
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 GitHub Action 是 GitHub 官方的 CI/CD 工具，相较于 Travis CI 和 Circle CI，更轻量和易于扩展，[marketplace](https://github.com/marketplace?type=actions) 中有大量社区贡献的插件。各大开源项目都纷纷转向使用 GitHub Action 作为持续集成的工具，比如本文的主角 Deno。
 
 GitHub 的文档中有很多概念写的十分晦涩，有些翻译很僵硬影响理解。截止发稿时，Deno 的 [ci.yml](https://github.com/youngjuning/deno/blob/master/.github/workflows/ci.yml) 文件有 323 行，是一个很好的学习范本。想要对 GitHub Action 有个了解或对 Deno 的持续集成部分感兴趣的同学都可以一起来探究下。

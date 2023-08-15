@@ -12,8 +12,6 @@ tags:
   - 紫竹翻译计划
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 > * 原文地址：[Google slams Microsoft for trying ‘to break the way the open web works’](https://www.theverge.com/2021/3/12/22327306/google-microsoft-attack-open-web-online-news-australia-laws)
 > * 原文作者：Tom Warren
 > * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)

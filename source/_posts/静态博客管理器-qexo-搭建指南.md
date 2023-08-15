@@ -10,8 +10,6 @@ tags:
   - qexo
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 部署
 
 你可以通过 Vercel 提供的免费数据库。但请注意这是个 Beta 功能
