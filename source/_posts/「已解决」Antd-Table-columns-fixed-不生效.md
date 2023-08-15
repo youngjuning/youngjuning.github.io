@@ -14,8 +14,6 @@ tags:
   - columns
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 一般 antd Table columns 比较多的时候，我们会使用 fixed 属性来固定列，但是在使用的时候发现，fixed 属性不生效，这是为什么呢？
 
 如下，我们使用了 fixed 属性，但是并没有生效。
