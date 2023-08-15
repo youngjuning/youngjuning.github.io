@@ -14,7 +14,6 @@ tags:
   - 生命周期
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 > * 原文地址：[Understanding Rust: ownership, borrowing, lifetimes](https://medium.com/@bugaevc/understanding-rust-ownership-borrowing-lifetimes-ff9ee9f79a9c)
 > * 原文作者：[bugaevc](hhttps://medium.com/@bugaevc)
 > * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)

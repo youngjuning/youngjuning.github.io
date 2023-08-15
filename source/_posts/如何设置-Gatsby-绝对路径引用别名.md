@@ -10,8 +10,6 @@ tags:
   - React
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 在这篇文章中，我们将逐步了解如何向我们的 gatsby 站点添加导入别名。
 
 我们设置导入别名的原因更多是为了代码的可读性和导入组件时代码外观的美观。

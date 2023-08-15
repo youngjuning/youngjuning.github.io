@@ -17,8 +17,6 @@ tags:
   - Cost Per Action
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 什么是 CPA？
 
 CPA（每次行动成本，Cost Per Action）是一种广告计费方式，其中广告主只需为广告获得的实际行动（例如点击、下载、注册等）付费。与传统的广告计费方式（例如CPC和CPM）相比，CPA通常更符合广告主的目标，因为他们只需要为真正的业绩付费。

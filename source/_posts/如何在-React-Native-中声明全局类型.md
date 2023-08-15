@@ -12,8 +12,6 @@ tags:
   - global
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 要在 TypeScript 中声明全局类型：
 
 1. 创建一个 `global.d.ts` 文件并在全局命名空间中声明类型。

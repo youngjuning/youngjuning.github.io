@@ -11,8 +11,6 @@ tags:
   - git-filter
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 前言
 
 对于程序员来说，公司就像是工地，代码就是我们的钢筋水泥。那在工地什么最重要呢？没错就是安全生产。本文要讨论的是开发中的合规安全。GitHub 作为当代开源社区的基础设施，不仅是个人开发者在上面维护项目，很多企业也会将内部优秀项目选择开源反馈社区和扩大社区影响力。然后，就出现了公司拖欠工资，员工怒将内部代码开源、员工将敏感信息上传。有些信息虽然看起来不怎么重要，但是如果被不怀好意的黑客盯上，就没有一篇雪花是干净的。
