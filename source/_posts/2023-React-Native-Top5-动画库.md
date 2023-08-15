@@ -12,8 +12,6 @@ tags:
   - React Native Animation Libraries
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 动画在手机上有很大的影响，它可以创造更好的用户体验，这些动画主要用于与用户的行为互动，使用户更多的参与你的应用程序。
 
 在技术层面，React Native 为我们提供了强大的声明式 API 去创建动画，通常我们称之为 `Animated API`。然而，有时你可能想使用一些第三方库来为你处理动画，而不用直接处理 `Animated API`，本文我们便是探索和讨论 5 个你值得是使用的 React Native 插件。

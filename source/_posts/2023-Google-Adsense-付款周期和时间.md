@@ -16,8 +16,6 @@ tags:
 AdSense 的付款周期为每月一次。
 {% endnote %}
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 Google Adsense 服务团队会将你一整个月的估算收入累积起来，然后在下个月月初确定你的最终收入，将其计入帐号余额并显示在付款页中。
 
 如果你的余额超出付款最低限额，且你没有设置暂停付款状态，Google Adsense 会在**该月的 21 日至 26 日**为你发放付款。

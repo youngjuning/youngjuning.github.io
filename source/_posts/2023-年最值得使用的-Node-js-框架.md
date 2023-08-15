@@ -19,8 +19,6 @@ tags:
   - Sails.js
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 > * 原文地址：[Top Node.js Frameworks to use in 2021](https://javascript.plainenglish.io/top-node-js-frameworks-to-use-in-2021-4951ee5940b8)
 > * 原文作者：[Ronak Patel](https://medium.com/@ronakataglowid)
 > * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
