@@ -13,8 +13,6 @@ tags:
   - TDD
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 单元测试是什么 🧐
 
 单元测试是用来对一个模块、一个函数或者一个类来进行正确性检验的测试工作。程序单元是应用的最小可测试部件，在 React 编程中，最小单元通常是组件、函数。如果你熟悉“测试驱动开发”（TDD：Test-Driven Development），单元测试也不会陌生，狭义来说就是单测驱动开发。

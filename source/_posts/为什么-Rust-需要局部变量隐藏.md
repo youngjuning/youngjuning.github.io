@@ -8,8 +8,6 @@ tags:
   - Rust 变量隐藏
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 什么是变量隐藏
 
 在 Rust 的世界中，变量可以被一个同名的变量覆盖掉的现象就叫做隐藏。这意味着我们随后使用这个名称时，他指向的将会是第二个变量。我们可以重复使用`let`关键字并配以相同的名称来不断地隐藏变量：
