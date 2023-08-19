@@ -11,8 +11,6 @@ tags:
   - import/no-unresolved
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 我在使用 eslint 检查 typescript 代码时，遇到了一个问题，就是无法解析路径到模块（Unable to resolve path to module）：
 
 ```ts

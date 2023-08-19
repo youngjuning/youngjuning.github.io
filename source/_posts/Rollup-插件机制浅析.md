@@ -12,8 +12,6 @@ tags:
   - tapable
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## `rollup -c` 简要流程
 
 ![rollup -c 简要流程](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3bd4a66beffc4b6182498a4bda07ce8f~tplv-k3u1fbpfcp-zoom-1.image)

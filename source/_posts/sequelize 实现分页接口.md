@@ -10,8 +10,6 @@ tags:
 description: '最近在开发一个全栈应用，起手就是一套增删改查，写到列表查询时，分页接口如何实现费了一番功夫，遂记录一下，以便后续使用。'
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## findAndCountAll 方法
 
 `findAndCountAll` 会在查出列表记录的同时, 还会返回符合你查询列表数据的条数。

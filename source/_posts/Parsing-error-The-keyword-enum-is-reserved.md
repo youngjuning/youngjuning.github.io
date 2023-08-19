@@ -14,8 +14,6 @@ tags:
   - enum
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 问题
 
 我正在使用 TypeScript 和 React 进行开发。这个项目是通过 CRA 生成的，并且我在 `.eslintrc.json` 中使用了 react-app 的配置。然而，我决定使用 `eslint-config-airbnb`，因此我添加了它并更改了我的 `.eslintrc.json` 文件。

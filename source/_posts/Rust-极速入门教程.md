@@ -16,8 +16,6 @@ tags:
   - 紫竹的博客
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 为什么选择 Rust?
 
 Rust 是一门可以帮助你开发出高效率、高可靠性软件的编程语言。相较于 C/C++，Rust 力图同时提供强大的工程能力及良好的开发体验，在给予开发者控制底层能力（比如内存操作）的同时，避免传统语言带来的诸多麻烦。

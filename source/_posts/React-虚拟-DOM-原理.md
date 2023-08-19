@@ -15,8 +15,6 @@ tags:
   - 虚拟 DOM
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 在 Web 前端开发中，React 是一种非常流行的 JavaScript 库，它的 Virtual DOM（虚拟 DOM）技术被广泛地应用于构建高性能、可维护的 Web 应用程序。那么，React VDOM 技术到底是什么？它又是如何工作的呢？
 
 ## VDOM 是什么？

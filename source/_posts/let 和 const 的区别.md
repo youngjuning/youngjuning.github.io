@@ -10,8 +10,6 @@ tags:
   - const
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 `let` 与 `const` 都是只在声明所在的块级作用域内有效。
 
 `let` 声明的变量可以改变，值和类型都可以改变，没有限制。

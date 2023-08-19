@@ -16,8 +16,6 @@ tags:
   - orjson
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 > * 原文地址：[JSON encoding/decoding with Python](https://levelup.gitconnected.com/json-encoding-decoding-with-python-62a2cae63a6a)
 > * 原文作者：[Martin Thoma](https://medium.com/@martinthoma)
 > * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)

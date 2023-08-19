@@ -12,8 +12,6 @@ tags:
   - useState
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## Warning: Can't perform a React state update on an unmounted component
 
 由于 `useEffect` 中有异步操作，当组件卸载后异步操作结束并执行 state 操作，React 就会提醒存在内存泄漏的风险。在 React Hooks 中，解决方法是在异步操作中判断是否组件被卸载了。代码如下：

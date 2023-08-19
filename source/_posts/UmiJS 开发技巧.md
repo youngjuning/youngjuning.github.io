@@ -10,8 +10,6 @@ tags:
  - React
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 鉴于 UmiJS 是重度的封装了很多工具和功能，对于刚接触的人形成了一层技术壁垒（大佬请忽略这句话）。所以我总结了使用UmiJS 开发中遇到的坑和技巧。
 
 ## 本地开发 umi dev 时关闭 mock

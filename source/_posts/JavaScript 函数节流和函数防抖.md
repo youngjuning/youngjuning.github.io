@@ -12,8 +12,6 @@ tags:
   - JavaScript debounce
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 在前端开发中有一部分的用户行为会频繁地触发事件执行，而对于 DOM 操作、资源加载等耗费性能的处理，很可能导致界面卡顿，甚至浏览器的崩溃，函数节流（`throttle`）和函数防抖（`debounce`）就是为了解决类似需求应运而生的。
 
 ## 函数节流

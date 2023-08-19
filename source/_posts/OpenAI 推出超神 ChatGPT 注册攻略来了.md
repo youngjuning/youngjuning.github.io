@@ -14,8 +14,6 @@ tags:
   - swiper
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 OpenAI 推出超神 ChatGPT，非常火爆。但是呢，由于 ChatGPT 注册的问题，大部分人无法体验到。这里我分享一下我的国内 ChatGPT 注册攻略。
 
 ## 准备

@@ -14,8 +14,6 @@ tags:
 
 RPM（Revenue per mille）广告是指每千次广告展示可以获得的收入。它是根据广告的展示次数、点击率和广告主出价等因素计算出来的。
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 在数字化时代，互联网广告已经成为了企业营销的重要手段。而对于广告主来说，他们最关心的就是广告的效果，即广告投放所带来的收益。而每千次展示收入（RPM）就是一个衡量广告效果的指标。
 
 RPM是指广告主在每千次展示中所获得的收入。它是通过将广告收入除以展示次数，再乘以 1000 得出的。这个指标可以帮助广告主更好地了解他们的广告效果，并作出相应的调整。

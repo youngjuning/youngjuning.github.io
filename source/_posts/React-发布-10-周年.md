@@ -9,8 +9,6 @@ tags:
   - React
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 React 是一种流行的 JavaScript 库，用于构建用户界面。自 React 在 2013 年首次发布以来，它已经成为了前端开发中不可或缺的一部分。在本文中，我们将按年回顾 React 的发展历史。
 
 ## 童年

@@ -11,8 +11,6 @@ tags:
   - React Native
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## @sigmayun/react-native-template-typescript
 
 [@sigmayun/react-native-template-typescript](https://github.com/sigmayun/react-native-template-typescript)是基于 [react-native-community/react-native-template-typescript](https://github.com/react-native-community/react-native-template-typescript) 二次开发的模板脚手架。本文的架构方案融进了该模板。你甚至不需要阅读本文的内容即可使用本文中的最佳实践！！！
