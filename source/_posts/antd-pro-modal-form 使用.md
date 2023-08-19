@@ -11,8 +11,6 @@ tags:
 description: 'ModalForm 是 ProForm 的一个变体，本质上仍然是个表单。所以无法通过 footer 来自定义页脚,如果要定义页脚需要使用 submitter.render 来进行自定义。这两个表单的表现与 ProForm 相同，可以从 ProForm 直接修改而来。'
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ModalForm 是 ProForm 的一个变体，本质上仍然是个表单。所以无法通过 footer 来自定义页脚,如果要定义页脚需要使用 submitter.render 来进行自定义。这两个表单的表现与 ProForm 相同，可以从 ProForm 直接修改而来。本文由浅入深一步一步记录 ModalForm 使用过程。
 
 ## 最小使用
