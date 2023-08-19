@@ -14,8 +14,6 @@ tags:
   - swiper
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 这是我们 Golang 教程系列中的第一篇教程。本教程介绍了 Go，并讨论了选择 Go 而不是其他编程语言的原因。我们还将学习如何在 Mac OS，Windows 和 Linux 中安装 Go。
 
 ## 介绍

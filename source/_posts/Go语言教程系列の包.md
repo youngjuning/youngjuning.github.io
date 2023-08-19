@@ -13,8 +13,6 @@ tags:
   - Golang 包
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 什么是包（package），为什么使用它们？
 
 到目前为止，我们已经看到 Go 程序只有一个带有 `main` 函数的文件，以及几个其他函数。在实际情况下，这种将所有源代码写入单个文件的方法是不可扩展的。重用和维护以此方式编写的代码几乎是不可能。这时就需要用到包的概念。

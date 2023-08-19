@@ -13,8 +13,6 @@ tags:
   - Go 参数可变的函数
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 什么是参数可变的函数？
 
 一般来说，函数只接受固定数量的参数。参数可变的函数是一个接受可变参数的函数。如果一个函数定义的最后一个参数前面有省略号 **...**，那么该函数可以接受该参数的任何数量的参数。

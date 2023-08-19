@@ -14,8 +14,6 @@ tags:
   - 进程
 ---
 
-<ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 ## 问题
 
 当你尝试重启一个 Node 应用时，上一个应用没有正确关闭，你可能会看到一个“listen EADDRINUSE: address already in use”错误，例如：
