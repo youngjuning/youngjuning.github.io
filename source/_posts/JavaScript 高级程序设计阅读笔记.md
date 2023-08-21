@@ -612,15 +612,15 @@ function Person(name) {
   };
 }
 // 当作普通函数调用
-var person = new Person("杨俊宁");
-person.sayName(); // 杨俊宁
+var person = new Person("紫竹");
+person.sayName(); // 紫竹
 // 当作普通函数调用
-Person("杨俊宁"); // 添加到 window
-window.sayName(); // 杨俊宁
+Person("紫竹"); // 添加到 window
+window.sayName(); // 紫竹
 // 在另一个对象的作用域中调用
 var o = new Object();
-Person.call(o, "杨小然");
-o.sayName(); // 杨小然
+Person.call(o, "洛竹");
+o.sayName(); // 洛竹
 ```
 
 ### 原型 prototype

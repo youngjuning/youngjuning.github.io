@@ -319,7 +319,7 @@ $ systemctl restart docker.service
 
 ```shell
 $ docker run -it alpine bash
-$ docker commit -m "install nano" -a "杨俊宁" ff3034d2ffa7 my-alpine:0.1
+$ docker commit -m "install nano" -a "紫竹" ff3034d2ffa7 my-alpine:0.1
 ```
 
 #### 2. 基于 Dockerfile 创建

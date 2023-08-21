@@ -430,13 +430,13 @@ _.groupBy([6.1, 4.2, 6.3], Math.floor) // { '4': [4.2], '6': [6.1, 6.3] }
 // The `_.property` iteratee shorthand.
 _.groupBy(['one', 'two', 'three'], 'length') // { '3': ['one', 'two'], '5': ['three'] }
 const students = [
-  { name: '杨俊宁', province: '河南' },
-  { name: '宋光刚', province: '河南' },
-  { name: '谢晧曜', province: '江苏' },
-  { name: '李珂威', province: '河南' },
+  { name: '张三', province: '河南' },
+  { name: '李四', province: '河南' },
+  { name: '王五', province: '江苏' },
+  { name: '黄六', province: '河南' },
 ]
 _.groupBy(students, 'province')
-// { '江苏': [{ name: '谢晧曜', province: '江苏' }], '河南': [{ name: '杨俊宁', province: '河南' }, { name: '宋光刚', province: '河南' },{ name: '李珂威', province: '河南' }] }
+// { '江苏': [{ name: '王五', province: '江苏' }], '河南': [{ name: '张三', province: '河南' }, { name: '李四', province: '河南' },{ name: '黄六', province: '河南' }] }
 ```
 
 ## 删除数组项
@@ -456,18 +456,18 @@ console.log(array) // => [1, 3]
 console.log(evens) // => [2, 4]
 
 const students = [
-  { name: '杨俊宁', province: '河南' },
-  { name: '宋光刚', province: '河南' },
-  { name: '谢晧曜', province: '江苏' },
-  { name: '李珂威', province: '河南' },
+  { name: '张三', province: '河南' },
+  { name: '李四', province: '河南' },
+  { name: '王五', province: '江苏' },
+  { name: '黄六', province: '河南' },
 ]
 const removedStudent = _.remove(students, student => {
   return student.province === '江苏'
 })
 console.log(students)
-// [{name: "杨俊宁", province: "河南"}, {name: "宋光刚", province: "河南"}, {name: "李珂威", province: "河南"}]
+// [{name: "张三", province: "河南"}, {name: "李四", province: "河南"}, {name: "黄六", province: "河南"}]
 console.log(removedStudent)
-// [{name: "谢晧曜", province: "江苏"}]
+// [{name: "王五", province: "江苏"}]
 ```
 
 ### 根据给定值删除数组项
