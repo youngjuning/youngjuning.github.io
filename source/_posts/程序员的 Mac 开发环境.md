@@ -164,10 +164,16 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 
 ohmyzsh 主题我只用 ys。
 
+
+## SwitchHosts
+
+快速切换 hosts，点击 https://github.com/oldj/SwitchHosts/releases 去下载。
+
 ## 提效工具
 
 - [Alfred](https://www.alfredapp.com/)：Mac 上最强大的效率工具
 - [Monica](https://monica.im/)：人工智能助手
+- [Kap](https://getkap.co/)：Mac 上轻量 GIF 录屏小工具
 
 ## v8
 

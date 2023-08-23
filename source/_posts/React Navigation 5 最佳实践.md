@@ -163,7 +163,7 @@ const DetailsScreen = ({navigation, route}) => {
       <Button
         type="primary"
         // 如果返回上一个页面需要传递参数，请使用 navigate 方法
-        onPress={() => navigation.navigate('HomeScreen', {author: '杨俊宁'})}>
+        onPress={() => navigation.navigate('HomeScreen', {author: '紫竹'})}>
         Go back with Params
       </Button>
     </View>
@@ -623,7 +623,7 @@ function GoToButton({ screenName }) {
 <Stack.Screen
   name="HomeScreen"
   options={{headerTitle: '首页'}}>
-  {props => <HomeScreen {...props} extraData={{author: '杨俊宁'}} />}
+  {props => <HomeScreen {...props} extraData={{author: '紫竹'}} />}
 </Stack.Screen>
 ```
 
