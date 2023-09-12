@@ -44,7 +44,7 @@ yarn server
 
 ![创建 GitHub 仓库](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680158386923.png)
 
-> 仓库格式是 <username>.github.io
+> 仓库格式是 username.github.io
 
 2、推送到 GitHub
 
