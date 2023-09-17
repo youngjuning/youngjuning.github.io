@@ -10,16 +10,22 @@
         "descr": "我们将您的内容化为真金白银"
       },
       {
+        "link": "https://publishers.adsterra.com/referral/nmsaz7MjPk",
+        "name": "Adsterra",
+        "avatar": "https://adsterra.com/favicon.ico",
+        "descr": "通过 Adsterra，您可以将任何流量货币化，从一个小博客到APK文件或社会流量。你甚至不需要一个网站就可以开始通过显示广告盈利。人工智能算法将选择最具竞争力的CPM费率以及相关的广告内容。"
+      },
+      {
+        "link": "https://evadav.com/",
+        "name": "EvaDav",
+        "avatar": "https://evadav.com/img/icons/ic128.png",
+        "descr": "EvaDav 是一个广告网络。流量根据 CPC 和 CPM 定价模型进行交易，并可通过以下广告格式获得：原生广告、页内流量、推送通知和弹出窗口。"
+      },
+      {
         "link": "https://monetag.com/?ref_id=nhVx",
         "name": "Monetag",
         "avatar": "https://publishers.monetag.com/assets/favicon.ico",
         "descr": "无论你想通过什么受众和网络或移动流量来实现盈利，Monetag 都准备好满足你的期望，在收入和用户体验之间取得出色的平衡。"
-      },
-      {
-        "name": "百度联盟",
-        "link": "https://union.baidu.com/bqt/#/",
-        "avatar": "https://union.baidu.com/bqt/favicon.ico",
-        "descr": "国内最具实力的联盟体系之一，由于需要备案，适合接入国内的博客平台，比如 CSDN、博客园等，可以作为博客备份的选项"
       }
     ]
   },
