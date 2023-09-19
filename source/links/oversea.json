@@ -105,16 +105,16 @@
         "descr": "海外退货，海外无忧退货，海外30天无理由退货，退货保险，海外仓退货，海外运费保险"
       },
       {
-        "name": "PingPang",
-        "link": "https://www.pingpang.com/",
-        "avatar": "https://www.pingpongx.com/favicon.ico",
-        "descr": "服务中国跨境卖家"
-      },
-      {
         "name": "Payoneer",
         "link": "https://www.payoneer.com/zh/",
         "avatar": "https://www.payoneer.com/favicon.ico",
         "descr": "Payoneer - 为全球商业提供支付和收款解决方案"
+      },
+      {
+        "link": "https://global.lianlianpay.com/article_globalpay/31-61947.html",
+        "name": "连连支付",
+        "avatar": "https://cn.lianlianpay.com/favicon.ico",
+        "descr": "一站式跨境服务_跨境收款国际支付"
       },
       {
         "name": "万里汇",

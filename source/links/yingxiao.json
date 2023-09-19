@@ -26,24 +26,12 @@
         "name": "Monetag",
         "avatar": "https://publishers.monetag.com/assets/favicon.ico",
         "descr": "无论你想通过什么受众和网络或移动流量来实现盈利，Monetag 都准备好满足你的期望，在收入和用户体验之间取得出色的平衡。"
-      }
-    ]
-  },
-  {
-    "class_name": "短链接赚钱",
-    "class_desc": "短链接赚钱是一种真实的在线赚钱方式。许多网站和平台提供短链接服务，您可以通过缩短链接并在社交媒体、博客或其他网站上共享它们来赚取佣金。",
-    "link_list": [
-      {
-        "link": "http://adfoc.us/?refid=811429",
-        "name": "AdFoc.us",
-        "avatar": "https://adfoc.us/favicon.ico",
-        "descr": "缩短、分享和赚钱！"
       },
       {
-        "link": "https://cuty.io/ref/luozhu2021",
-        "name": "cuty.io",
-        "avatar": "https://cdn.cuty.io/images/shared/favicon.ico",
-        "descr": "Cuty 可以通过缩短链接来帮助您生成 passsive 收入。它高度可定制，并提供最佳的用户体验！"
+        "link": "https://addslice.com/?crew=wHXyN",
+        "name": "Slice",
+        "avatar": "https://addslice.com/favicon-32x32.png",
+        "descr": "拿回属于你的东西--将你的浏览器货币化，从广告中获得报酬，用Slice兑现。"
       }
     ]
   },

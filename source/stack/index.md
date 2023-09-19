@@ -26,8 +26,6 @@ tags:
 
 {% galleryGroup '跨境导航' '跨境导航包含科学上网、Shopify 全家桶、选品 & 营销、一件代发和金融 & 物流' /oversea/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679654781208.png %}
 
-{% galleryGroup '网赚导航' '赚钱 App、获得报酬、被动收入' /wangzhuan/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681038250829.png %}
-
 {% galleryGroup '营销导航' '联盟营销、SEO 工具、社交网络、平面设计、视频制作、免费素材、分析工具' /yingxiao/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681037991531.png %}
 
 {% galleryGroup 'AI导航' '人工智能（Artificial Intelligence，简称AI）是指通过计算机技术和算法实现的智能化系统，使得机器能够模拟人类智能，包括感知、推理、学习、创造等多个方面。' /ai/ https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681094857961.png %}
