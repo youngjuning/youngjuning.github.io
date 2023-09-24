@@ -3,7 +3,7 @@
 # --------------------------------------
 
 nav:
-  logo: https://s2.loli.net/2023/07/17/K91TsgdoRabMtvw.png # image
+  logo: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png # image
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -45,11 +45,11 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://s2.loli.net/2023/07/17/K91TsgdoRabMtvw.png
+favicon: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png
 
 # Avatar (頭像)
 avatar:
-  img: https://s2.loli.net/2023/07/17/K91TsgdoRabMtvw.png
+  img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png
   effect: true
 
 # Disable all banner image
