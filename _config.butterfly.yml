@@ -928,6 +928,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/custom.css">
+    - <meta name="monetag" content="55f2f3d28647d01b5197f3466d11daa3">
   bottom:
     # - <script src="xxxx"></scrip>
 
