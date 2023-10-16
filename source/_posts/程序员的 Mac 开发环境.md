@@ -174,6 +174,7 @@ ohmyzsh 主题我只用 ys。
 - [Alfred](https://www.alfredapp.com/)：Mac 上最强大的效率工具
 - [Monica](https://monica.im/)：人工智能助手
 - [Kap](https://getkap.co/)：Mac 上轻量 GIF 录屏小工具
+- [Snipaste](https://zh.snipaste.com/)：截图+贴图
 
 ## v8
 
