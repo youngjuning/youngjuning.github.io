@@ -142,6 +142,8 @@ anchor:
     always_show: false
     icon: # the unicode value of Font Awesome icon, such as '\3423'
   auto_update: true # when you scroll in post, the URL will update according to header id.
+  # Click the headline to scroll and update the anchor
+  click_to_scroll: false
 
 # figcaption (圖片描述文字)
 photofigcaption: false
@@ -275,6 +277,10 @@ aside:
     post_count: true
     last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
+  card_post_series:
+    enable: true
+    orderBy: 'date' # Order by title or date
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending+
 
 # busuanzi count for PV / UV in site
 # 訪問人數
@@ -390,12 +396,6 @@ docsearch:
 
 # Share System (分享功能)
 # --------------------------------------
-
-# AddThis
-# https://www.addthis.com/
-addThis:
-  enable: false
-  pubid:
 
 # Share.js
 # https://github.com/overtrue/share.js
@@ -663,6 +663,9 @@ index_top_img_height:
 category_ui: # 留空或 index
 tag_ui: # 留空或 index
 
+# Stretches the lines so that each line has equal width（文字向兩側對齊，對最後一行無效）
+text_align_justify: false
+
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
@@ -821,6 +824,12 @@ fancybox: true
 
 # Tag Plugins settings (標籤外掛)
 # --------------------------------------
+
+series:
+  enable: true
+  orderBy: 'title' # Order by title or date
+  order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
+  number: true
 
 # abcjs (樂譜渲染)
 # See https://github.com/paulrosen/abcjs
