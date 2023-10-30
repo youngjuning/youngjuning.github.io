@@ -937,10 +937,8 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/custom.css">
-    - <meta name="monetag" content="55f2f3d28647d01b5197f3466d11daa3">
   bottom:
     # - <script src="xxxx"></scrip>
-    - <script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('baithoph.net',6455867,document.createElement('script'))</script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
