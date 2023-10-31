@@ -14,7 +14,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
-    "hexo": "^6.3.0",
+    "hexo": "^7.0.0",
     "hexo-butterfly-douban": "^1.2.5",
     "hexo-butterfly-tag-plugins-plus": "^1.0.17",
     "hexo-filter-nofollow": "^2.0.2",
