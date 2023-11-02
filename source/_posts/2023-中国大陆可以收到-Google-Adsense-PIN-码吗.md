@@ -6,6 +6,7 @@ description: 为确保你的帐号安全无虞，在向你发放任何付款之�
 categories:
   - [Google, Adsense]
   - [站点运营, 广告]
+sticky: 1
 tags:
   - Google Adsense
   - Google Adsense PIN 码

@@ -10,6 +10,7 @@ tags:
   - Google Adsense
   - Google Adsense 付款周期
   - Google Adsense 付款时间
+sticky: 3
 ---
 
 {% note info modern%}

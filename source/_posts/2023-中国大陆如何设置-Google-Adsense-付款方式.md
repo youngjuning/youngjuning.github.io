@@ -6,6 +6,7 @@ description: 自2020年起，Google AdSense 已暂停使用西联汇款付款方
 categories:
   - [Google, Adsense]
   - [站点运营, 广告]
+sticky: 2
 tags:
   - Google
   - Adsense
