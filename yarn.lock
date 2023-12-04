@@ -962,10 +962,10 @@ hexo-renderer-ejs@^2.0.0:
   dependencies:
     ejs "^3.1.6"
 
-hexo-renderer-marked@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-6.1.1.tgz#0db5e2b07d6e71e5edaa8a3fc43a06965a4e90f5"
-  integrity sha512-vllmRFwl9A1NP/llQW2TbDnyvqaQKgktxXw7c+tK7XVQJmfIUnl32dr8M4jRYqYe5m9972eYm09kBXV8rBtA/A==
+hexo-renderer-marked@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-6.2.0.tgz#8ac3ad71df5086046b6356773f27e0b11b9849f7"
+  integrity sha512-/TwgQCAmqYIyxONzrgqokw0n8rU6W/lCtgbjhWcMoZxhwTaQCYpzaO0+sdu+PKXf9BL4910pg+xAbeFaqqIIrA==
   dependencies:
     dompurify "^3.0.3"
     hexo-util "^3.1.0"
