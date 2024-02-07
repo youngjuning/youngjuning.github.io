@@ -376,7 +376,7 @@ $ docker load -i alpine.tar
 - 添加新标签：`docker tag youngjuning/alpine:latest youngjuning/alpine:1.0.0`
 - 发布 1.0.0 版本：`docker push youngjuning/alpine:1.0.0`
 
-> 可以查看https://hub.docker.com/r/youngjuning/alpine项目查看我发布的基于aliyun镜像的 Aplpine Docker Image
+> 可以查看 [https://hub.docker.com/r/youngjuning/alpine] 项目查看我发布的基于aliyun镜像的 Aplpine Docker Image
 
 ## 操作 Docker 容器
 
