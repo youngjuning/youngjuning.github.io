@@ -4,6 +4,12 @@
     "class_desc": "有朋自网线来，不亦乐乎",
     "link_list": [
       {
+        "name": "JDDFE",
+        "link": "https://blog.jddfe.com/",
+        "avatar": "https://blog.jddfe.com/avatar.jpg",
+        "descr": "Just do dare face everything"
+      },
+      {
         "name": "熊猫实验室",
         "link": "https://pandalab.me/",
         "avatar": "https://cdn.jsdelivr.net/gh/pandalabme/blogImages@main/panda_banboo.jpg",

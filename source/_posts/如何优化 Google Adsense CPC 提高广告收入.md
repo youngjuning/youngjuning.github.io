@@ -89,7 +89,7 @@ CTR 固然重要，但是如果你的单价很低，那么你的收入也会很�
 
 屏蔽较常规的广告类别。注意，这样做可能会导致收入减少。但是也有一些大家公认的低 CPC 类别，建议屏蔽掉：
 
-![Google Adsense 常规类别](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1677288364891.png)
+![Google Adsense 常规类别](https://cdn.jsdelivr.net/gh/youngjuning/images@main/202311022322047.png)
 
 可以看到健康类别展示占比 4%，收入占比 3.7%，虽然名字很健康，但是效益比较差。
 
