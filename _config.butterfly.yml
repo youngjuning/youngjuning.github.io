@@ -606,7 +606,8 @@ google_adsense:
 
 # Insert ads manually (手動插入廣告)
 ad:
-  index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-7962287588031867" data-ad-slot="7586987656"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
+  # index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-7962287588031867" data-ad-slot="7586987656"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
+  index: <!-- /22908732419/youngjuning --><div id='div-gpt-ad-1709627763235-0'><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1709627763235-0'); });</script></div>
   aside: <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-7962287588031867" data-ad-slot="1993549381"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   post: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7962287588031867" data-ad-slot="3864703404" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
