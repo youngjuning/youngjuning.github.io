@@ -938,7 +938,7 @@ inject:
   head:
     - <link rel="stylesheet" href="/custom.css">
   bottom:
-    # - <script src="xxxx"></scrip>
+    - "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script><div id=\"gpt-passback\"><script>window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.defineSlot('/22908732419/youngjuning', ['fluid'], 'gpt-passback').addService(googletag.pubads());googletag.enableServices();googletag.display('gpt-passback');});</script></div>"
 
 # CDN
 # Don't modify the following settings unless you know how they work
