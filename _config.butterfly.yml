@@ -939,9 +939,8 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/custom.css">
-    - <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-    - "<script>window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.defineSlot('/22908732419/youngjuning', ['fluid'], 'div-gpt-ad-1709620434516-0').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs();googletag.enableServices();});</script>"
-    - "<script>window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.defineSlot('/22908732419/youngjuning/aside', ['fluid'], 'div-gpt-ad-1709624392732-0').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs();googletag.enableServices();});</script>"
+    - "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script><script>window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.defineSlot('/22908732419/youngjuning', ['fluid'], 'div-gpt-ad-1709620434516-0').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs();googletag.enableServices();});</script>"
+    # - "<script>window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.defineSlot('/22908732419/youngjuning/aside', ['fluid'], 'div-gpt-ad-1709624392732-0').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs();googletag.enableServices();});</script>"
   bottom:
 
 # CDN
