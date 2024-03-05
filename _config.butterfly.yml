@@ -606,11 +606,12 @@ google_adsense:
 
 # Insert ads manually (手動插入廣告)
 ad:
-  index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-7962287588031867" data-ad-slot="7586987656"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
-  # index: <!-- /22908732419/youngjuning --><div id='div-gpt-ad-1709620434516-0'><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1709620434516-0'); });</script></div>
-  aside: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-7962287588031867" data-ad-slot="7586987656"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
-  # aside: <!-- /22908732419/youngjuning/aside --><div id='div-gpt-ad-1709624392732-0'><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1709624392732-0'); });</script></div>
-  post: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7962287588031867" data-ad-slot="3864703404" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  # index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-7962287588031867" data-ad-slot="7586987656"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
+  index: <!-- /22908732419/youngjuning --><div id='div-gpt-ad-1709626746130-0'><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1709626746130-0'); });</script></div>
+  # aside: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-7962287588031867" data-ad-slot="7586987656"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
+  aside: <!-- /22908732419/youngjuning --><div id='div-gpt-ad-1709626746130-0'><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1709626746130-0'); });</script></div>
+  # post: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7962287588031867" data-ad-slot="3864703404" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  post: <!-- /22908732419/youngjuning --><div id='div-gpt-ad-1709626746130-0'><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1709626746130-0'); });</script></div>
 
 # Verification (站長驗證)
 # --------------------------------------
@@ -939,7 +940,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/custom.css">
-    - "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script><script>window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.defineSlot('/22908732419/youngjuning', ['fluid'], 'div-gpt-ad-1709620434516-0').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs();googletag.enableServices();});</script>"
+    - "<script async src=\"https://securepubads.g.doubleclick.net/tag/js/gpt.js\"></script><script>window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.defineSlot('/22908732419/youngjuning', ['fluid'], 'div-gpt-ad-1709626746130-0').addService(googletag.pubads()); googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs();googletag.enableServices();});</script>"
     # - "<script>window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.defineSlot('/22908732419/youngjuning/aside', ['fluid'], 'div-gpt-ad-1709624392732-0').addService(googletag.pubads());googletag.pubads().enableSingleRequest();googletag.pubads().collapseEmptyDivs();googletag.enableServices();});</script>"
   bottom:
 
