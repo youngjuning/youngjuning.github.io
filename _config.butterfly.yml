@@ -177,7 +177,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://cdn.jsdelivr.net/gh/youngjuning/images/wechat.png
       # link:
