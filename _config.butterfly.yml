@@ -53,7 +53,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450445599.png
+index_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://s2.loli.net/2023/07/17/leDBhzw8xEnOmS6.png
@@ -705,7 +705,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: true
+  enable: false
   mobile: false
 
 # canvas_nest
