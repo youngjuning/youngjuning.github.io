@@ -81,7 +81,7 @@ category_per_img:
 
 cover:
   # display the cover or not (是否顯示文章封面)
-  index_enable: false
+  index_enable: true
   aside_enable: true
   archives_enable: true
   # the position of cover in home page (封面顯示的位置)
