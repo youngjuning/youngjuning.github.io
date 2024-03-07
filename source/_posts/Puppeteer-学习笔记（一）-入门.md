@@ -142,6 +142,8 @@ const puppeteer = require('puppeteer');
 - `page.evaluate(pageFunction[, ...args])`： 在页面实例上下文中执行方法
 - `page.setCookie(...cookies)`：设置 cookie
 - `page.setViewport(viewport)`：如果是一个浏览器多个页面的情况，每个页面都可以有单独的 viewport
+- `page.waitFor()`：设置页面停留时间
+- `page.url()`：返回当前页面的 URL
 
 ## 示例
 
