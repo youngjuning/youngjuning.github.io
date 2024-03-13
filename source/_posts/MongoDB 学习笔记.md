@@ -3,7 +3,7 @@ title: MongoDB 学习笔记
 date: 2022-04-12 16:55:53
 cover: https://s2.loli.net/2022/04/14/Qu5yAM93EDnImKP.png
 categories:
-  - 全栈
+  - 全栈开发
 tags:
   - MongoDB
 ---

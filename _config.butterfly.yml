@@ -17,11 +17,8 @@ menu:
   导航: /stack/ || fas fa-location-arrow
   开往: https://travellings.vercel.app/ || fas fa-paper-plane
   友链: /friends/ || fas fa-link
-  我的||fas fa-heart:
-    相册: /album/ || fas fa-images
-    关于: /about/ || fas fa-spa
-    电影: /movies/ || fas fa-video
-    阅读: /books/ || fas fa-book
+  相册: /album/ || fas fa-images
+  关于: /about/ || fas fa-spa
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -177,7 +174,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://cdn.jsdelivr.net/gh/youngjuning/images/wechat.png
       # link:
@@ -246,10 +243,10 @@ aside:
       text: Follow Me
       link: https://github.com/youngjuning
   card_announcement:
-    enable: true
+    enable: false
     content: "<center><div style=\"font-size: 16px; font-weight: 600\">Ask Me Anything</div><img src=\"https://cdn.jsdelivr.net/gh/youngjuning/images/202109211725265.png\" alt=\"紫竹的微信\" width=\"100%\" /></center>"
   card_recent_post:
-    enable: true
+    enable: false
     limit: 5 # if set 0 will show all
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
@@ -708,7 +705,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: true
+  enable: false
   mobile: false
 
 # canvas_nest
@@ -938,7 +935,6 @@ inject:
   head:
     - <link rel="stylesheet" href="/custom.css">
   bottom:
-    # - <script src="xxxx"></scrip>
 
 # CDN
 # Don't modify the following settings unless you know how they work
