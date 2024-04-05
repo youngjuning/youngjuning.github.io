@@ -209,13 +209,25 @@ I'd also recommend adding these to your `.zshrc`:
 
 > 使用 Demo 请参考 [d8-shell-examples](https://gist.github.com/kevincennis/0cd2138c78a07412ef21#d8-shell-examples)
 
+## Rust
+
+```sh
+brew install rust
+```
+
+## Python3
+
+```sh
+brew install python
+```
+
 ## Java
 
 ### 下载安装
 
 ```sh
 brew tap homebrew/cask-versions
-brew install --cask zulu11
+brew install --cask zulu17
 ```
 
 ### 添加环境变量
@@ -223,8 +235,8 @@ brew install --cask zulu11
 添加以下配置到 `~/.zshrc`
 
 ```sh
-export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
-export JAVA_HOME=`/usr/libexec/java_home -v 11`
+export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
+export JAVA_HOME=`/usr/libexec/java_home -v 17`
 ```
 
 执行下面的命令让配置立即生效：
@@ -256,13 +268,9 @@ Matching Java Virtual Machines (2):
 $ brew install maven
 ```
 
-### 配置 Maven 本地仓库
+### 配置阿里镜像
 
-`setting.xml` 路径为 `${Maven Home}/conf/settings.xml` ，Maven Home 可以通过 `mvn --version 获取`
-
-```xml
-<localRepository>~/maven_repo</localRepository>
-```
+`setting.xml` 路径为 `${Maven Home}/conf/settings.xml` ，Maven Home 可以通过 `mvn --version`
 
 可将 `settings.xml` 直接拷贝到 `.m2` 文件夹下，进行配置。
 
@@ -272,9 +280,7 @@ $ brew install maven
 $ mvn help:system
 ```
 
-然后打开当前用户的目录，可以在其中找到 `.m2` 文件夹
-
-### 配置阿里镜像
+然后打开当前用户的目录，可以在其中找到 `.m2` 文件夹。
 
 ```xml
 <mirror>
@@ -288,7 +294,6 @@ $ mvn help:system
 ### 升级 Maven
 
 ```sh
-$ brew unlink
 $ brew update
 $ brew install maven
 ```
@@ -302,7 +307,7 @@ $ brew install mysql
 ### 修改配置文件
 
 ```shell
-$ nano /usr/local/etc/my.cnf
+$ code /usr/local/etc/my.cnf
 ```
 
 ### 启动服务
@@ -457,7 +462,7 @@ $ sudo mkdir ~/data/log
 $ sudo mongod --dbpath ~/data/db --fork --logpath ~/data/log/mongo.log
 ```
 
-> 注意：Mac OS 10.15.1 版本之后， `/data/db` 文件夹消失了，重新创建文件夹提示 `mkdir: /data/db: Read-only file system`，解决办法也可以是 `sudo mkdir ~/data/db && sudo mongodb --dbpath ~/data/db`
+> 注意：Mac OS 10.15.1 版本之后， `/data/db` 文件夹消失了，重新创建文件夹提示 `mkdir: /data/db: Read-only file system`，解决办法也可以是 `sudo mkdir ~/data/db && sudo mongodb --dbpath ~/data/db`
 
 **设置验证和用户名密码**：
 
