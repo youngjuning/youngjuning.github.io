@@ -1,6 +1,6 @@
 ---
-title: AI 概念学习
-description: 'AI 概念学习'
+title: 人工智能概念学习
+description: '本文介绍了人工智能领域的各种概念，旨在建立起人工智能知识架构，帮助大家更好地理解人工智能'
 date: 2024-04-05 23:12:43
 categories:
   - 人工智能
@@ -78,7 +78,7 @@ tags:
 - 前馈神经网络（Feedforward Neural Network，FNN）：前馈神经网络是最简单的神经网络形式，信息在网络中单向传递，不会形成循环。它包括输入层、隐藏层和输出层，常用于分类和回归任务。
 - 卷积神经网络（Convolutional Neural Network，CNN）：卷积神经网络主要用于处理图像数据，具有共享权重和局部连接的特点，能够有效提取图像特征。CNN在计算机视觉领域取得了巨大成功。
 - 循环神经模型（Recurrent Neural Network，RNN）：循环神经网络具有循环结构，能够处理序列数据，如自然语言处理任务。RNN具有记忆功能，能够保留先前的信息，但存在梯度消失和梯度爆炸问题。
-- 长短期记忆网络（Long Short-Term Memory，LSTM）：LSTM是RNN的一种变体，通过门控机制解决了梯度消失和梯度爆炸问题，适用于处理长序列数据。
+- 长短期记忆网络（Long Short-Term Memory，LSTM）：LSTM 是 RNN 的一种变体，通过门控机制解决了梯度消失和梯度爆炸问题，适用于处理长序列数据。
 - 生成对抗网络（Generative Adversarial Network，GAN）：生成对抗网络由生成器和判别器组成，通过对抗训练实现生成逼真数据的目标。GAN 在图像生成、风格迁移等任务中表现出色。
 - 自编码器（Autoencoder）：自编码器是一种无监督学习模型，通过将输入数据压缩表示并重建输出数据来学习数据的有效表示。自编码器常用于降维和特征提取。
 
@@ -182,4 +182,6 @@ Transformer 模型摒弃了传统的循环神经网络（RNN）和长短期记�
 
 ## 参考
 
+- [什么是人工智能？](https://aws.amazon.com/cn/what-is/artificial-intelligence/)
 - [什么是机器学习？](https://aws.amazon.com/cn/what-is/machine-learning/)
+- [什么是深度学习？](https://aws.amazon.com/cn/what-is/deep-learning/)
