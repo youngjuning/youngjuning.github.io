@@ -37,7 +37,7 @@ Function.prototype.bind1 = function(context) {
 使用方式和原生 `bind()` 一样：
 
 ```js
-var person = { name:"紫竹" }
+var person = { name:"紫升" }
 function sayHi(name) {
   console.log(this, name)
 }

@@ -8,7 +8,7 @@ categories:
 tags:
   - 笔记
   - Docker
-  - 紫竹的笔记
+  - 紫升的笔记
   - DevOps
   - Container
   - 容器
@@ -319,7 +319,7 @@ $ systemctl restart docker.service
 
 ```shell
 $ docker run -it alpine bash
-$ docker commit -m "install nano" -a "紫竹" ff3034d2ffa7 my-alpine:0.1
+$ docker commit -m "install nano" -a "紫升" ff3034d2ffa7 my-alpine:0.1
 ```
 
 #### 2. 基于 Dockerfile 创建
@@ -596,7 +596,7 @@ $ docker run -d -P \
 
 > 详细指令详解请查看：[Dockerfile 指令详解](https://vuepress.mirror.docker-practice.com/image/dockerfile/)
 
-![紫竹](https://i.loli.net/2020/04/11/hmlMV4QA2opON9j.png)
+![紫升](https://i.loli.net/2020/04/11/hmlMV4QA2opON9j.png)
 
 ## 应用安装
 

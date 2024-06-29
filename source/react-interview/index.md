@@ -2,10 +2,10 @@
 title: 2023 React 面试题与答案
 date: 2023-03-06 19:30:00
 top_img: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681097427413.png
-description: 前 500 个 ReactJS 面试必知必会问题与答案，是紫竹诚意翻译的前端 React 面试必备系列。
+description: 前 500 个 ReactJS 面试必知必会问题与答案，是紫升诚意翻译的前端 React 面试必备系列。
 categories:
   - [前端, React 面试题]
-  - [紫竹翻译计划]
+  - [紫升翻译计划]
 tags:
   - React.js 面试题
   - React 面试题
@@ -586,7 +586,7 @@ JSX 元素将被转换为 `React.createElement()` 函数以创建 React 元素�
 
 React 16.3+ (或者 [在线交互版本](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/))
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fac807b8490c4c11a9630a9f29e467d3~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fac807b8490c4c11a9630a9f29e467d3~tplv-k3u1fbpfcp-zoom-1.image)
 
 React 16.3 之前的版本：
 

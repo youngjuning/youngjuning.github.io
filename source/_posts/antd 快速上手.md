@@ -46,15 +46,15 @@ tags:
 
 如果拿 antd 和 element-ui、iview 这些老牌 Vue.js UI 框架对比，遥遥领先啊有没有：
 
-![紫竹](https://user-gold-cdn.xitu.io/2020/3/4/170a4939e1919973?w=1103&h=458&f=png&s=59582)
+![紫升](https://user-gold-cdn.xitu.io/2020/3/4/170a4939e1919973?w=1103&h=458&f=png&s=59582)
 
 如果拿 ant-design-vue 来和 element-ui、iview这些老牌 vue UI框架对比，也是很有竞争力的：
 
-![紫竹](https://user-gold-cdn.xitu.io/2020/3/4/170a4939e21c45c6?w=1115&h=454&f=png&s=76675)
+![紫升](https://user-gold-cdn.xitu.io/2020/3/4/170a4939e21c45c6?w=1115&h=454&f=png&s=76675)
 
 ### GitHub Star
 
-![紫竹](https://user-gold-cdn.xitu.io/2020/3/4/170a4939e23e1d0b?w=1119&h=207&f=png&s=36028)
+![紫升](https://user-gold-cdn.xitu.io/2020/3/4/170a4939e23e1d0b?w=1119&h=207&f=png&s=36028)
 
 ## 特性
 

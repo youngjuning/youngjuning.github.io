@@ -3,20 +3,20 @@ title: 谷歌抨击微软“试图破坏开放 web 的运作方式”
 description: 谷歌和微软工程师可能会在 Chromium 浏览器项目开发上进行合作，但这并没有消除双方之间的企业政治斗争。今天谷歌对微软发起了严厉的攻击，指责它试图 “打破开放 web 的运作方式，以此来削弱竞争对手"。
 date: 2023-04-19 17:31:35
 categories:
-  - [紫竹翻译计划]
+  - [紫升翻译计划]
   - [掘金翻译计划]
 tags:
   - 谷歌
   - 微软
   - 掘金翻译计划
-  - 紫竹翻译计划
+  - 紫升翻译计划
 ---
 
 > * 原文地址：[Google slams Microsoft for trying ‘to break the way the open web works’](https://www.theverge.com/2021/3/12/22327306/google-microsoft-attack-open-web-online-news-australia-laws)
 > * 原文作者：Tom Warren
 > * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
 > * 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/article/2021/google-microsoft-attack-open-web-online-news-australia-laws.md](https://github.com/xitu/gold-miner/blob/master/article/2021/google-microsoft-attack-open-web-online-news-australia-laws.md)
-> * 译者：[紫竹](https://github.com/youngjuning)
+> * 译者：[紫升](https://github.com/youngjuning)
 > * 校对者：[zenblo](https://github.com/zenblo)
 
 谷歌和微软工程师可能会在 Chromium 浏览器项目开发上进行合作，但这并没有消除双方之间的企业政治斗争。今天谷歌对微软发起了严厉的攻击，指责它试图 “打破开放 web 的运作方式，以此来削弱竞争对手"。

@@ -59,5 +59,5 @@ console.log(_.isEqual(m, n)) // true
 
 ```js
 import deepEqual from 'fast-deep-equal'
-deepEqual({name: '紫竹'},{name: '紫竹'}) // true
+deepEqual({name: '紫升'},{name: '紫升'}) // true
 ```

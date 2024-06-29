@@ -273,9 +273,9 @@ false + 1 // -> 1
 5. 判断其中一方是否为 `boolean`，是的话就会把 `boolean` 转为 `number` 再进行判断
 6. 判断其中一方是否为 `object` 且另一方为 `string`、`number` 或者 `symbol`，是的话就会把 `object` 转为原始类型再进行判断
 
-> `[] == ![紫竹]` => `true`
+> `[] == ![紫升]` => `true`
 
-![紫竹](https://i.loli.net/2020/04/30/inuaIUJvYQP5BjD.png)
+![紫升](https://i.loli.net/2020/04/30/inuaIUJvYQP5BjD.png)
 
 ## 闭包（Closure）
 
@@ -612,11 +612,11 @@ function Person(name) {
   };
 }
 // 当作普通函数调用
-var person = new Person("紫竹");
-person.sayName(); // 紫竹
+var person = new Person("紫升");
+person.sayName(); // 紫升
 // 当作普通函数调用
-Person("紫竹"); // 添加到 window
-window.sayName(); // 紫竹
+Person("紫升"); // 添加到 window
+window.sayName(); // 紫升
 // 在另一个对象的作用域中调用
 var o = new Object();
 Person.call(o, "洛竹");

@@ -244,7 +244,7 @@ aside:
       link: https://github.com/youngjuning
   card_announcement:
     enable: false
-    content: "<center><div style=\"font-size: 16px; font-weight: 600\">Ask Me Anything</div><img src=\"https://cdn.jsdelivr.net/gh/youngjuning/images/202109211725265.png\" alt=\"紫竹的微信\" width=\"100%\" /></center>"
+    content: "<center><div style=\"font-size: 16px; font-weight: 600\">Ask Me Anything</div><img src=\"https://cdn.jsdelivr.net/gh/youngjuning/images/202109211725265.png\" alt=\"紫升的微信\" width=\"100%\" /></center>"
   card_recent_post:
     enable: false
     limit: 5 # if set 0 will show all

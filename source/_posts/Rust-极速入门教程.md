@@ -12,8 +12,6 @@ tags:
   - WebAssembly
   - Web
   - Node.js
-  - 紫竹
-  - 紫竹的博客
 ---
 
 ## 为什么选择 Rust?
@@ -200,21 +198,21 @@ rustup self uninstall
 
 > rust-analyzer 也是一个很好的替代品，不过目前还不完善！
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9e375a751e2740f4b69351119e1a0636~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9e375a751e2740f4b69351119e1a0636~tplv-k3u1fbpfcp-zoom-1.image)
 
 安装成功后将 `"rust-client.rustupPath": "$HOME/.cargo/bin/rustup"` 添加到 `setting.json` 来修复 [couldn't start client Rust Language Server](https://github.com/rust-lang/vscode-rust/issues/622)
 
 为了能调试软件，再安装插件 CodeLLDB：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3966c9a4fa5a4d32a58b0d22f3f985af~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3966c9a4fa5a4d32a58b0d22f3f985af~tplv-k3u1fbpfcp-zoom-1.image)
 
 crates 是辅助开发者在使用 `Cargo.toml`时管理依赖的插件
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5c14cf2578d49c7b32d716982f1f783~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5c14cf2578d49c7b32d716982f1f783~tplv-k3u1fbpfcp-zoom-1.image)
 
 由于 Rust 的依赖管理工具 Cargo 使用 TOML 作为配置文件，所以需要下载 `Better TOML` 插件支持语法：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/147252c64d9548bea460c838ae58d583~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/147252c64d9548bea460c838ae58d583~tplv-k3u1fbpfcp-zoom-1.image)
 
 最后设置下保存时自动格式化：
 
@@ -269,13 +267,13 @@ Cargo 是 Rust 工具链中内置的构建系统及包管理器。由于它可�
 
 前面我们的 hellowordl 示例在 vscode 中，Rust 插件会报以下错误，可见 Cargo 是 Rust 的标配：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/00d365305fcf49038f0fe6776230af29~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/00d365305fcf49038f0fe6776230af29~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## 使用 Cargo 创建项目
 
 使用 `cargo new hello_cargo` 新建项目：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fd104928bbb84558ab25cda8ea51f6ea~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fd104928bbb84558ab25cda8ea51f6ea~tplv-k3u1fbpfcp-zoom-1.image)
 
 Cargo 为我们生成了两个文件与一个目录：一个名为 `Cargo.toml` 的文件，以及一个名为 `main.rs` 的源代码文件
 ，该源代码被放置在 src 目录下。于此同时，Cargo 还会初始化一个新的 Git 仓库并升成默认的 `.gitignore` 文件。
@@ -307,17 +305,17 @@ edition = "2018"
 cargo build
 ```
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0f8cf4fbfad741718174bb63a905c1a7~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0f8cf4fbfad741718174bb63a905c1a7~tplv-k3u1fbpfcp-zoom-1.image)
 
 与之前不同，这个命令会将可执行程序生成在路径 `target/debug/hello_cargo` 下：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/60a4d9f725594d5eb2166b8ef26944ad~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/60a4d9f725594d5eb2166b8ef26944ad~tplv-k3u1fbpfcp-zoom-1.image)
 
 首次使用命令 cargo build 构建的时候，会生成 `Cargo.lock`（类似于 yarn.lock），不要手动修改该文件，默认 `.gitignore` 中只忽略了 `target` 目录，我们从 `https://github.com/github/gitignore/blob/master/Rust.gitignore` 中复制最佳实践过来。
 
 使用 `cargo run` 命令可以简单地以此完成编译和运行工作：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b94999dc835c4e1d872c2c3e1b1d3973~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b94999dc835c4e1d872c2c3e1b1d3973~tplv-k3u1fbpfcp-zoom-1.image)
 
 > 我们还可以使用 `cargo check` 快速检查项目是否可以通过编译
 

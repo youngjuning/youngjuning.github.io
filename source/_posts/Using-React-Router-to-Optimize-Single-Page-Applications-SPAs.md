@@ -5,7 +5,7 @@ date: 2023-03-13 23:12:00
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678720445359.png
 categories:
   - [前端, React]
-  - [紫竹翻译计划]
+  - [紫升翻译计划]
 tags:
   - React
   - React Router
@@ -97,7 +97,7 @@ function Home() {
 
 Now, visit the URL on port 3000 and you will see the Home component being rendered right now.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678721815386.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678721815386.png)
 
 This is a bare minimum example. Now let us add another route with the same props like the Home. Call this route About with a similar rendering logic as Home.
 
@@ -128,7 +128,7 @@ function App() {
 
 Try visiting the URL `http://localhost:3000/about`. You will notice that both the components are being rendered right now on the path `/about`.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678721636017.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678721636017.png)
 
 The reason for this is that regular expression engine that React Router uses internally considers both the routes that are being started with a forward slash / equal. To solve this issue, we can use another essential prop on the Home route called exact.
 
@@ -155,7 +155,7 @@ BrowserRouter is a popular choice among modern day web applications. The main re
 
 Here is a small task for you. Modify directory structure like below screenshot and separate the two functional components Home and about in their own component files such that, in future, if they grow with more JSX to render.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678721953570.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678721953570.png)
 
 You can totally skip this if you want and move on to the next section. But performing this small task will benefit you to have an understanding of the above concepts.
 
@@ -199,7 +199,7 @@ export default App
 
 In the above snippet, notice that all the Links are being added before all the Route components. The styling attributes inside style are optional for now. Start the development server and visit the browser window and you will notice a navigation menu pops up at the top. Try clicking links to navigate between different components.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722050699.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722050699.png)
 
 Wherever a `Link` is rendered in a React project, an anchor `<a>` will be rendered in the application’s HTML.
 
@@ -288,11 +288,11 @@ return (
 
 Go back to the browser, open develop tools like below and you will notice, at first, the Home route has a class name active.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722233048.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722233048.png)
 
 Try navigating to the About route and see what happens.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722243666.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722243666.png)
 
 On navigating to About route did you notice that the active class name is also added to the corresponding route? However, the Home route still has the active class even though the URL matches the `/about`. Why?
 
@@ -308,7 +308,7 @@ The way NavLink works is almost similar to Route component in React Router API. 
 
 You will get the desired output this time.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722287934.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722287934.png)
 
 # Adding Parameters to the Routes
 
@@ -398,7 +398,7 @@ export default App
 
 The existing navigation menu has a new route and its called Posts.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722701566.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722701566.png)
 
 Open Posts.js to rend er the list of Posts and display them as a list whenever the current location in the web browser matches `/posts`.
 
@@ -456,7 +456,7 @@ export default Posts
 
 Also, the Child component reads anything coming from the URL parameters, such as, in the above case, the id of each post. A match object contains information about how a `<Route path>` matched the URL, thus, in our case, the id of each post.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722789204.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1678722789204.png)
 
 # Conclusion
 
@@ -467,4 +467,4 @@ You can find the complete for the tutorial at this Github repo.
 
 > 原文地址：<https://www.crowdbotics.com/blog/introduction-to-react-router-v4-with-reactjs>
 > 原文作者：[amanhimself](https://www.crowdbotics.com/author/amanhimself)
-> 译文出自：[紫竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

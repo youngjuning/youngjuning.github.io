@@ -4,7 +4,7 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images/20210517191449.png
 tags: [nodejs,翻译]
 ---
 
-> 怕什么真理无穷，进一寸有一寸的欢喜。大家好，我是[@紫竹](https://github.com/youngjuning)，一名热爱编程、热爱生活的终身学习实践者。
+> 怕什么真理无穷，进一寸有一寸的欢喜。大家好，我是[@紫升](https://github.com/youngjuning)，一名热爱编程、热爱生活的终身学习实践者。
 
 > 原文作者：[Dan Prince](https://www.sitepoint.com/author/dprince)
 >
@@ -44,7 +44,7 @@ Let’s get started with MoriScript!
 
 If we look beneath the surface of Babel, we’ll find three important tools that handle the majority of the process.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517173918.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517173918.png)
 
 ### Parse
 
@@ -75,7 +75,7 @@ a + 5;
 
 When we generate an AST for this program, we end up with a structure that looks like this:
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517175639.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517175639.png)
 
 All ASTs start with a `Program` node at the root of the tree, which contains all of the top level statements in our program. In this case, we only have two:
 
@@ -211,7 +211,7 @@ Now let’s do the same with the call to `mori.vector(1, 2, 3)`.
 
 If we express this visually, we’ll get a better sense of what needs to change between the two trees.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517182653.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517182653.png)
 
 Now we can see quite clearly that we’ll need to replace the top level expression, but we’ll be able to share the numeric literals between the two trees.
 
@@ -307,7 +307,7 @@ This is quite straightforward. There is an array of properties, each with a key 
 
 Again, let’s also look at a visual representation of these ASTs.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517183905.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517183905.png)
 
 Like before, we have a `CallExpression` wrapped around a `MemberExpression` which we can borrow from our array code, but we’ll have to do something a bit more complicated to get the properties and values into a flat array.
 
@@ -380,7 +380,7 @@ mori.assoc(foo, 'bar', 3);
 
 Rather than continue to include the simplified AST we’ll just work with the diagrams and plugin code for now, but feel free to keep running these examples through [astexplorer][astexplorer].
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517185202.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517185202.png)
 
 We’ll have to extract and translate nodes from each side of the `AssignmentExpression` to create the desired `CallExpression`.
 
@@ -429,7 +429,7 @@ mori.get(foo, 'bar');
 
 Here’s the visual representation for the two ASTs.
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517185540.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/20210517185540.png)
 
 We can almost use the properties of the `MemberExpression` directly, however the property section will come as an `Identifier`, so we’ll need to convert it.
 
@@ -505,11 +505,11 @@ This was quite a code-heavy post, but we’ve covered all the basics for designi
 
 ## 结语
 
-关注公众号`紫竹早茶馆`，一个持续分享编程知识的地方。
+关注公众号`紫升早茶馆`，一个持续分享编程知识的地方。
 
 - `点赞`等于学会，`在看`等于精通
 - 最后祝大家 2021 学习进步，升职加薪
 
-> 本文首发于「[紫竹的官方网站](https://youngjuning.js.org/)」，同步于公众号「[紫竹早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images/20210418112129.jpeg)」和「[掘金专栏](https://juejin.cn/user/325111174662855)」。
+> 本文首发于「[紫升的官方网站](https://youngjuning.js.org/)」，同步于公众号「[紫升早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images/20210418112129.jpeg)」和「[掘金专栏](https://juejin.cn/user/325111174662855)」。
 
-![紫竹](https://youngjuning.js.org/img/luozhu.png)
+![紫升](https://youngjuning.js.org/img/luozhu.png)

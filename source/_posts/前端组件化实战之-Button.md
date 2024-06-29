@@ -13,14 +13,14 @@ cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b79b60e52f9b4e199372d26
 
 > ⚠️本文为掘金社区首发签约文章，未获授权禁止转载
 
-> 大家好，我是[紫竹🎋](https://youngjuning.js.org)，一只住在杭城的木系前端🧚🏻‍♀️，如果你喜欢我的文章📚，可以通过点赞帮我聚集灵力⭐️。
+> 大家好，我是[紫升🎋](https://youngjuning.js.org)，一只住在杭城的木系前端🧚🏻‍♀️，如果你喜欢我的文章📚，可以通过点赞帮我聚集灵力⭐️。
 
 
 ## 前言
 
-在 [《每个前端都应该拥有自己的组件库,就像每个夏天都有西瓜🍉》](https://juejin.cn/post/6983854006124675108) 一文中，紫竹带领小黑从零搭建了一个组件库项目，完成了项目结构、构建、测试、文档等基础工程化工作并完成了第一个组件 Icon。本期延续上期的组件工程化的主题，夏日炎热，点上一杯杨枝甘露，和紫竹赴一场 Button 开发之约吧。赴约后，你将会收获以下的内容：
+在 [《每个前端都应该拥有自己的组件库,就像每个夏天都有西瓜🍉》](https://juejin.cn/post/6983854006124675108) 一文中，紫升带领小黑从零搭建了一个组件库项目，完成了项目结构、构建、测试、文档等基础工程化工作并完成了第一个组件 Icon。本期延续上期的组件工程化的主题，夏日炎热，点上一杯杨枝甘露，和紫升赴一场 Button 开发之约吧。赴约后，你将会收获以下的内容：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/58285f3cce144972b2ccb88e11efd73f~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/58285f3cce144972b2ccb88e11efd73f~tplv-k3u1fbpfcp-zoom-1.image)
 
 > PS：配合[仓库](https://github.com/youngjuning/vant-react-native)和[组件库文档](https://vant-react-native.js.org/)阅读本文效果更佳喲！
 
@@ -28,13 +28,13 @@ cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b79b60e52f9b4e199372d26
 
 作为前端工程师，入行至今接触最多的就是设计师了。耳濡目染下虽说没学会什么设计工具，但是对设计与人的心理有了一定认识。
 
-紫竹认为任何事物都不可能凭空出现，自有其传承。使用广泛的基础界面元素 Button 也不例外，我们生活中就有随处可见的按钮。举个栗子🌰，每天上班下班必然要按的电梯按钮、手机音量按钮、小米 9 鸡肋的小爱同学唤起按钮。要搞清楚为什么需要按钮，我们有必要探究下生活中这些按钮的作用。
+紫升认为任何事物都不可能凭空出现，自有其传承。使用广泛的基础界面元素 Button 也不例外，我们生活中就有随处可见的按钮。举个栗子🌰，每天上班下班必然要按的电梯按钮、手机音量按钮、小米 9 鸡肋的小爱同学唤起按钮。要搞清楚为什么需要按钮，我们有必要探究下生活中这些按钮的作用。
 
 ### 点一下按钮的快感
 
-想象一下把键盘按键换成触摸屏，你最在乎的一定是完美还原物理键的敲击感，像紫竹用手机虚拟键盘就喜欢设置按键震动和音效。通过打击（点击）获得快感是较为普遍的人性。按钮在按下、松开时有丰富的质感和交互感，完美满足了人们点一下的快感。
+想象一下把键盘按键换成触摸屏，你最在乎的一定是完美还原物理键的敲击感，像紫升用手机虚拟键盘就喜欢设置按键震动和音效。通过打击（点击）获得快感是较为普遍的人性。按钮在按下、松开时有丰富的质感和交互感，完美满足了人们点一下的快感。
 
-![紫竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/542a6bbb880e4594ae384ee0bd1e511d~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/542a6bbb880e4594ae384ee0bd1e511d~tplv-k3u1fbpfcp-watermark.image)
 
 ### 现实的实用性
 
@@ -46,7 +46,7 @@ cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b79b60e52f9b4e199372d26
 
 小米 10 虽然移除了单独的唤起键，却把原来的电源键改成了一键多用。每次想要重启手机还得先唤起一下小爱同学。不得不说，小爱同学小米亲女儿。
 
-![紫竹](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/633381b8c2c342ed94bf024dbc19cf76~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/633381b8c2c342ed94bf024dbc19cf76~tplv-k3u1fbpfcp-watermark.image)
 
 吐槽归吐槽，小米这个按钮确实起到了培养用户习惯的任务。当用户知悉某个按钮能指向某个操作，或者获取某类信息后，长此以往用户就会形成使用习惯。如果某操作能够为用户和厂商持续带来价值，那就可以让按钮的位置更加醒目，持续培养用户点击习惯。
 
@@ -54,11 +54,11 @@ cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b79b60e52f9b4e199372d26
 
 这个在 Web 开发中是最常见的使用场景，每个可交互页面上都有这类按钮的出现，用来指引用户下一步该怎么做。比如表单的提交和重置。
 
-![紫竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d2c2a8abbe84471f96a67e18196c53fb~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d2c2a8abbe84471f96a67e18196c53fb~tplv-k3u1fbpfcp-watermark.image)
 
-虽然按钮也常作为表单元素，但是区别于其他表单元素，按钮因其天然地自说明性，不需要 Label 对其进行辅助说明，啰嗦这么多，掘友们应该在看到一个按钮时，应该也会有从设计上品鉴的意识了，欢迎将对下图的品鉴在评论区告诉紫竹。
+虽然按钮也常作为表单元素，但是区别于其他表单元素，按钮因其天然地自说明性，不需要 Label 对其进行辅助说明，啰嗦这么多，掘友们应该在看到一个按钮时，应该也会有从设计上品鉴的意识了，欢迎将对下图的品鉴在评论区告诉紫升。
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/88c6754b28984fc3866319c35790fc03~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/88c6754b28984fc3866319c35790fc03~tplv-k3u1fbpfcp-watermark.image)
 
 ## 组件主题化
 
@@ -216,7 +216,7 @@ const Button: FunctionComponent<ButtonProps> = props => {
 
 实现效果如下：
 
-![紫竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4a0b412c227e4dc994b818294165240d~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4a0b412c227e4dc994b818294165240d~tplv-k3u1fbpfcp-watermark.image)
 
 ### 朴素按钮
 
@@ -254,7 +254,7 @@ const getTextColor = () => {
 
 实现效果如下：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0fc1bedf56fe4dd0a31e6d18b048665c~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0fc1bedf56fe4dd0a31e6d18b048665c~tplv-k3u1fbpfcp-watermark.image)
 
 ### 细边框
 
@@ -278,7 +278,7 @@ const styles = StyleSheet.create({
 
 实现效果如下：
 
-![紫竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/43d80d537b07487d9043d718e6541f7e~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/43d80d537b07487d9043d718e6541f7e~tplv-k3u1fbpfcp-watermark.image)
 
 ### 禁用状态
 
@@ -296,7 +296,7 @@ const styles = StyleSheet.create({
 
 实现效果如下：
 
-![紫竹](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/892589086d07426a8346319d8466bccf~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/892589086d07426a8346319d8466bccf~tplv-k3u1fbpfcp-watermark.image)
 
 ### 加载状态
 
@@ -345,7 +345,7 @@ export const useIndicatorColor = (props: ButtonProps): string => {
 
 实现效果如下：
 
-![紫竹](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/27c4340df2254245a3c830bf667a2e28~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/27c4340df2254245a3c830bf667a2e28~tplv-k3u1fbpfcp-watermark.image)
 
 ### 按钮形状
 
@@ -373,7 +373,7 @@ const styles = StyleSheet.create({
 
 实现效果如下：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d1402517566e49d1a1920fd9b3f7bb20~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d1402517566e49d1a1920fd9b3f7bb20~tplv-k3u1fbpfcp-watermark.image)
 
 ### 按钮尺寸
 
@@ -430,11 +430,11 @@ const styles = StyleSheet.create({
 
 实现效果如下：
 
-![紫竹](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/59c01002f25b477d85ed26fa1e21c86b~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/59c01002f25b477d85ed26fa1e21c86b~tplv-k3u1fbpfcp-watermark.image)
 
 ### 自定义颜色
 
-如果不是自己亲自复刻 Vant，是没想到一个 Button 能玩出这么多花，支持特性这么多耐心和代码管理都是一个挑战。当然了，紫竹采取的样式管理方式比较偏激，大家有好的方式也可以在评论区讨论。
+如果不是自己亲自复刻 Vant，是没想到一个 Button 能玩出这么多花，支持特性这么多耐心和代码管理都是一个挑战。当然了，紫升采取的样式管理方式比较偏激，大家有好的方式也可以在评论区讨论。
 
 通过 `color` 属性自定义按钮的颜色。我们可以得出需求，不管 type 是什么，`color` 属性需始终覆盖原有样式，color 能影响的就是背景色、字体颜色和边框颜色，所以我们修改 `getBackgroundColor`、`getTextColor`、`getBorderColor` 样式函数在合适的地方加上以下代码即可：
 
@@ -446,7 +446,7 @@ if (props.color) {
 
 实现效果如下：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8efffdbfd6424618be6152895a53e8ee~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8efffdbfd6424618be6152895a53e8ee~tplv-k3u1fbpfcp-watermark.image)
 
 ## 双击事件的实现
 
@@ -509,7 +509,7 @@ interface ButtonProps extends TouchableHighlightProps {
 
 内置组件 API 没有处理继承的情况，我们后续会自定义一个 API 组件，这里就不展开了，浏览 [Button 文档](https://vant-react-native.js.org/components/button#api) 可以查看现在的效果：
 
-![紫竹](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7bedac7240334ff79c4142005a66b158~tplv-k3u1fbpfcp-watermark.image)
+![紫升](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7bedac7240334ff79c4142005a66b158~tplv-k3u1fbpfcp-watermark.image)
 
 ## 工程化串讲
 
@@ -517,13 +517,13 @@ interface ButtonProps extends TouchableHighlightProps {
 
 ### 组件创建脚手架
 
-> 小黑：紫竹，`lerna create` 命令创建出来的模块并不是我们想要的，以后要创建很多很多组件，我们可以写一个创建组件模块的脚手架吗？
+> 小黑：紫升，`lerna create` 命令创建出来的模块并不是我们想要的，以后要创建很多很多组件，我们可以写一个创建组件模块的脚手架吗？
 
 lerna 使用起来是有不少痛点的，`lerna create` 命令没办法指定模板，考虑到之后的几十上百个组件每次创建都要进行项目结构、Typescript 配置、单元测试配置、Babel 配置等等工作步骤，我们有必要写一个脚手架。
 
 #### 模板解析
 
-说到模板解析，相信大家和我一样想到的是 vue-cli 的 template 解析。通过阅读 [vue-cli@2.9.6 generate.js](https://cdn.jsdelivr.net/npm/vue-cli@2.9.6/lib/generate.js) 源码，我们可以分析出尤大是基于 metalsmith、handlebars、consolidate 这三个包来实现模板解析能力的。让人不安的是其中 metalsmith 库有长达 5 年没有维护了，紫竹挑选开源项目一般对维护度很敏感，本着轮子要用自己造的原则，我翻看了 Metalsmith 的 Readme 发现这个插件无非是通过递归读文件的方式渲染模板，并且它的静态网站生成的能力对我们模板解析的需求也是多余的。
+说到模板解析，相信大家和我一样想到的是 vue-cli 的 template 解析。通过阅读 [vue-cli@2.9.6 generate.js](https://cdn.jsdelivr.net/npm/vue-cli@2.9.6/lib/generate.js) 源码，我们可以分析出尤大是基于 metalsmith、handlebars、consolidate 这三个包来实现模板解析能力的。让人不安的是其中 metalsmith 库有长达 5 年没有维护了，紫升挑选开源项目一般对维护度很敏感，本着轮子要用自己造的原则，我翻看了 Metalsmith 的 Readme 发现这个插件无非是通过递归读文件的方式渲染模板，并且它的静态网站生成的能力对我们模板解析的需求也是多余的。
 
 说干就干，在和 [@林小帅](https://juejin.cn/user/3175045313873943) 同学简单沟通后，我动手造了 [handlebars-template-compiler](https://github.com/youngjuning/handlebars-template-compiler) 这个轮子，其主要原理如下：
 
@@ -546,7 +546,7 @@ const result = handlebars.compile(content)(meta);
 
 #### Node CLI（@vant-react-native/scripts）搭建
 
-这里紫竹尝试用最简洁的语言为大家描述一个脚手架的诞生，源码在 [packages/scripts](https://github.com/youngjuning/vant-react-native/tree/main/packages/scripts) 目录下，没有接触过 CLI 的掘友请相信我，Node CLI 很容易上手的。接触过的同学也可以查漏补缺借鉴一二。
+这里紫升尝试用最简洁的语言为大家描述一个脚手架的诞生，源码在 [packages/scripts](https://github.com/youngjuning/vant-react-native/tree/main/packages/scripts) 目录下，没有接触过 CLI 的掘友请相信我，Node CLI 很容易上手的。接触过的同学也可以查漏补缺借鉴一二。
 
 1. `package.json` 文件的 `bin` 字段是我们脚手架的入口
 
@@ -564,7 +564,7 @@ const result = handlebars.compile(content)(meta);
 #!/usr/bin/env node
 const { init } = require('../lib');
 // 这个地方参考了 create-react-native 的设计
-// 本文点赞过 300，下一篇紫竹带小黑为大家带来《基于 TypeScript 重构 create-react-native》
+// 本文点赞过 300，下一篇紫升带小黑为大家带来《基于 TypeScript 重构 create-react-native》
 init();
 ```
 
@@ -666,7 +666,7 @@ fs.copySync(tmpdir.path, `${process.cwd()}/packages/${locPath}`);
 
 折腾这一顿，让我们来看下成果吧：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ba477bcbd8b4ef6b880c7e8e5a095bc~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ba477bcbd8b4ef6b880c7e8e5a095bc~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### Github CODEOWENERS
 
@@ -678,7 +678,7 @@ fs.copySync(tmpdir.path, `${process.cwd()}/packages/${locPath}`);
 
 CODEOWNERS 文件使用遵循 gitignore 文件中所用大多数规则的模式，CODEOWNERS 文件位置一般位于 `.github/` 目录下。
 
-在 vant-react-native，紫竹是仓库的最终负责人，所以是期望每个 pr 都可以分配给自己审查一下的。那么我们这就来实验一下吧，新建一个 `.github/CODEOWNERS` 文件并写入以下内容：
+在 vant-react-native，紫升是仓库的最终负责人，所以是期望每个 pr 都可以分配给自己审查一下的。那么我们这就来实验一下吧，新建一个 `.github/CODEOWNERS` 文件并写入以下内容：
 
 ```
 # This is a comment.
@@ -697,11 +697,11 @@ CODEOWNERS 文件使用遵循 gitignore 文件中所用大多数规则的模式�
 
 一般如果文件具有代码所有者，则在打开拉取请求之前可以看到代码所有者是谁。在仓库中，你可以找到文件并悬停于一个锁图标上，悬浮之后会告诉你该文件所有者是谁：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/726bd5144a104902ae27ad31e1d46f93~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/726bd5144a104902ae27ad31e1d46f93~tplv-k3u1fbpfcp-zoom-1.image)
 
 然后我们提交一个 pr 看看效果：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bf4cb8b7ef5c41989660e735e621fc4e~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bf4cb8b7ef5c41989660e735e621fc4e~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### NPM 发包自动化
 
@@ -744,7 +744,7 @@ jobs:
         run: lerna publish from-package --yes
 ```
 
-为了在发布后及时获取通知，紫竹使用了 `peter-evans/commit-comment` 插件在发布失败或成功后对相应 commit 进行评论，这样我们就可以收到邮件和站内通知。
+为了在发布后及时获取通知，紫升使用了 `peter-evans/commit-comment` 插件在发布失败或成功后对相应 commit 进行评论，这样我们就可以收到邮件和站内通知。
 
 ```yml
 - name: Create commit comment after publish successfully

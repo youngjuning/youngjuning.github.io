@@ -195,7 +195,7 @@ React Native 简明历史:
 
 ### 哪些流行的应用在使用 React Native?
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fe8a0e49580c488e96dedfa7b6cf484c~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fe8a0e49580c488e96dedfa7b6cf484c~tplv-k3u1fbpfcp-zoom-1.image)
 
 如果你想查看其他使用 React Native 制作的应用示例，请查看 [official React Native showcase](https://facebook.github.io/react-native/showcase.html).
 
@@ -257,7 +257,7 @@ Flutter 应用程序具有特别友好的用户界面：Flutter 与 React Native
 
 |                          Android 5.1.1                          |                                                    Android 8.1.0                                                     |
 | :-------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: |
-| ![紫竹](https://media.giphy.com/media/8mdR9KZHBVue6J8ItN/giphy.gif) | ![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/53ae3b6533ea4548bd447cbb59feaa72~tplv-k3u1fbpfcp-zoom-1.image) |
+| ![紫升](https://media.giphy.com/media/8mdR9KZHBVue6J8ItN/giphy.gif) | ![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/53ae3b6533ea4548bd447cbb59feaa72~tplv-k3u1fbpfcp-zoom-1.image) |
 
 #### 7. 完美适用于 MVP
 
@@ -270,7 +270,7 @@ Flutter 应用程序具有特别友好的用户界面：Flutter 与 React Native
 
 |                     Flutter Galary                     |                                                    Flutter Galary                                                    |                     Flutter Galary                     |
 | :----------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------: |
-| ![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7dc504630daa48f99d68f68a33d40ea0~tplv-k3u1fbpfcp-zoom-1.image) | ![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c80f1894916144fdb8a3cdbd15131ed9~tplv-k3u1fbpfcp-zoom-1.image) | ![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2b2171b61cee4213bed667635194a633~tplv-k3u1fbpfcp-zoom-1.image) |
+| ![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7dc504630daa48f99d68f68a33d40ea0~tplv-k3u1fbpfcp-zoom-1.image) | ![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c80f1894916144fdb8a3cdbd15131ed9~tplv-k3u1fbpfcp-zoom-1.image) | ![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2b2171b61cee4213bed667635194a633~tplv-k3u1fbpfcp-zoom-1.image) |
 
 ### 🔻 Flutter 的劣势
 

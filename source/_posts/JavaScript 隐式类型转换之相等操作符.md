@@ -21,11 +21,11 @@ console.log('a == b'); // true
 
 不同类型的值用相等运算符比较后的结果，可以用下表总结。
 
-![紫竹](https://s2.loli.net/2022/04/16/WZboPTdBRmXQkja.png)
+![紫升](https://s2.loli.net/2022/04/16/WZboPTdBRmXQkja.png)
 
 `toNumber` 方法对不同类型返回的结果如下。
 
-![紫竹](https://s2.loli.net/2022/04/17/VQ7BxmTqcOFUh34.png)
+![紫升](https://s2.loli.net/2022/04/17/VQ7BxmTqcOFUh34.png)
 
 `toPrimitive()`：如果对象的 `valueOf` 方法的结果是原始值，返回原始值；如果对象的 `toString` 方法返回原始值，就返回这个值；其他情况都返回一个错误。
 
