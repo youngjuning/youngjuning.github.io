@@ -15,9 +15,9 @@ tags:
 
 ## 队列
 
-队列是遵循先进先出（FIFO，也称为先来先服务）原则的一组有序的项。队列在尾部添加新元素，并从顶部移除元素。最新添加的元素必须排在队列的末尾。
+### 普通队列
 
-### 创建队列
+队列是遵循先进先出（FIFO，也称为先来先服务）原则的一组有序的项。队列在尾部添加新元素，并从顶部移除元素。最新添加的元素必须排在队列的末尾。
 
 ```js
 class Queue {
@@ -63,6 +63,40 @@ class Queue {
       return undefined;
     }
     return this.items[this.lowestCount];
+  }
+
+  /**
+   * 检查队列是否为空并获取它的长度
+   */
+  isEmpty() {
+    return this.count - this.lowestCount === 0;
+  }
+
+  /**
+   * 获取队列尺寸
+   */
+  size() {
+    return this.count - this.lowestCount;
+  }
+
+  /**
+   * 清空队列
+   */
+  clear() {
+    this.items = {};
+    this.count = 0;
+    this.lowestCount = 0;
+  }
+
+  toString() {
+    if (this.isEmpty()) {
+      return '';
+    }
+    let objString = `${this.items[this.lowestCount]}`;
+    for (let i = this.lowestCount + 1; i < this.count; i++) {
+      objString = `${objString},${this.items[i]}`;
+    }
+    return objString;
   }
 }
 ```
