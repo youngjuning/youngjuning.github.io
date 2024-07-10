@@ -3,7 +3,7 @@ title: Python 中的 JSON 库：按速度、成熟度和操作安全性进行比
 description: REST API 是 在全世界使用标准化的消息格式。JSON 是互联网上数据交换的基石，作为 JavaScript 的一个子集，它从一开始就获得了巨大的推广。它特别清晰易读的语法也有利于推广。
 date: 2023-04-19 17:38:34
 categories:
-  - [紫竹翻译计划]
+  - [紫升翻译计划]
   - [掘金翻译计划]
 tags:
   - Python
@@ -20,7 +20,7 @@ tags:
 > * 原文作者：[Martin Thoma](https://medium.com/@martinthoma)
 > * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
 > * 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/article/2021/json-encoding-decoding-with-python.md](https://github.com/xitu/gold-miner/blob/master/article/2021/json-encoding-decoding-with-python.md)
-> * 译者：[紫竹](https://github.com/youngjuning)、[雪刺](https://github.com/a651092254)
+> * 译者：[紫升](https://github.com/youngjuning)、[雪刺](https://github.com/a651092254)
 > * 校对者：[Zoe](https://github.com/husiyu)
 
 REST API 是 在全世界使用标准化的消息格式。JSON 是互联网上数据交换的基石，作为 JavaScript 的一个子集，它从一开始就获得了巨大的推广。它特别清晰易读的语法也有利于推广。
@@ -49,7 +49,7 @@ CPython，simplejson，ujson 和 orjson 都认为他们自己已经可以投产�
 
 python-rapidjson 将自身标记为 alpha，但是一位维护人员说这是一个错误，并将很快得到修复（[资源](https://github.com/python-rapidjson/python-rapidjson/issues/140#issuecomment-699475354)）。
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7c990d034af342a8ba240e887ae86270~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7c990d034af342a8ba240e887ae86270~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## 问题
 
@@ -77,15 +77,15 @@ python-rapidjson 将自身标记为 alpha，但是一位维护人员说这是一
 
 我将我的硬盘驱动器的读取速度设置了一个较低的上限，在以下3个图表中将以它作为基准。
 
-![紫竹](https://i.loli.net/2021/03/26/ypSPNaJseM24WZL.png)
+![紫升](https://i.loli.net/2021/03/26/ypSPNaJseM24WZL.png)
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8f138e2304c45c886374ac04f8fff52~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8f138e2304c45c886374ac04f8fff52~tplv-k3u1fbpfcp-zoom-1.image)
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a681aacfe9e34a6a9fbe808f1b9a8c94~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a681aacfe9e34a6a9fbe808f1b9a8c94~tplv-k3u1fbpfcp-zoom-1.image)
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fa658530b4224ef5909984ad9a818632~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fa658530b4224ef5909984ad9a818632~tplv-k3u1fbpfcp-zoom-1.image)
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ec272cb068f54f67b2233426d83e29fd~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ec272cb068f54f67b2233426d83e29fd~tplv-k3u1fbpfcp-zoom-1.image)
 
 由此得出的结论是：
 
@@ -97,13 +97,13 @@ python-rapidjson 将自身标记为 alpha，但是一位维护人员说这是一
 
 在这里，我预先创建了 JSON 字符串,并以写入磁盘的时间作为基线测量了所需的时间。
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a6c6caa82b8b454caf79534eacc0f4f3~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a6c6caa82b8b454caf79534eacc0f4f3~tplv-k3u1fbpfcp-zoom-1.image)
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5e3665d926b5418eaa07f45893f5bb74~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5e3665d926b5418eaa07f45893f5bb74~tplv-k3u1fbpfcp-zoom-1.image)
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8873d330493747f7906649e5af6c6c6f~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8873d330493747f7906649e5af6c6c6f~tplv-k3u1fbpfcp-zoom-1.image)
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fcc5c29d33cd43939ec6d8ae860f26ee~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fcc5c29d33cd43939ec6d8ae860f26ee~tplv-k3u1fbpfcp-zoom-1.image)
 
 我由此得出的结论是：
 

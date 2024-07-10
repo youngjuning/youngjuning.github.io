@@ -5,11 +5,11 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679280067130.png
 description: 在 Go 中，一个字符串是字节的一个切片。字符串可以通过将一组字符放在双引号内来创建
 categories:
   - [Golang, Go 语言系列教程]
-  - [紫竹翻译计划]
+  - [紫升翻译计划]
 tags:
   - Golang
   - Go 语言系列教程
-  - 紫竹翻译计划
+  - 紫升翻译计划
   - Go 字符串
   - Go String
 ---
@@ -317,4 +317,4 @@ func main() {
 
 > 原文地址 [Golang tutorial series Strings](https://golangbot.com/strings/)
 > 原文作者：[Naveen Ramanathan](https://golangbot.com/about/)
-> 译文出自：[紫竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

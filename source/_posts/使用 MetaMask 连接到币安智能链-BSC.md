@@ -22,7 +22,7 @@ tags:
 
 ## 入口
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/202112301451827.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/202112301451827.png)
 
 ## 配置
 

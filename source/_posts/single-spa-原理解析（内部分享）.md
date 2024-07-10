@@ -44,7 +44,7 @@ single-spa 又约定应用脚本包含以下生命周期：
 
 生命周期函数获得参数包含 name（应用名）、singleSpa（实例）、mountParcel（手动挂载函数）、customProps（自定义信息），生命周期函数必须返回 Promise 或其本身为 async 函数，`bootstrap`、mount、unmount 生命周期函数不可缺省，生命周期函数可以指定多个，它们会构成异步调用链，逐个调用。简要流程图如下：
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221452146.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221452146.png)
 
 ## 示例
 
@@ -129,7 +129,7 @@ function domElementGetter() {
 
 ## 源码解析
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221420019.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221420019.png)
 
 其中 avigation、lifecycles、applications 这三个文件夹即可，是整个源码的核心。
 
@@ -137,15 +137,15 @@ function domElementGetter() {
 
 绿底白字则是 single-spa 的三个核心方法 [registerApplication](http://tny.im/T5UaE)、[reroute](http://tny.im/tsub) 和 [start](http://tny.im/9CvCH)，脑图描述了这三个方法具体做了什么：
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221417558.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221417558.png)
 
 ### 初始化加载流程
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221423159.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221423159.png)
 
 ### 应用启动和挂载流程
 
-![紫竹](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221423521.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images/202111221423521.png)
 
 ## 经验
 

@@ -5,7 +5,7 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679280067130.png
 description: switch 是一个条件语句，它对表达式进行求值并将其与可能的匹配列表进行比较，并执行相应的代码块。可以将其视为替换复杂的 if 语句的惯用方式。
 categories:
   - [Golang, Go 语言系列教程]
-  - [紫竹翻译计划]
+  - [紫升翻译计划]
 tags:
   - Golang
   - Go 语言教程
@@ -353,4 +353,4 @@ Generated even number 18
 
 > 原文地址 [Switch Statement](https://golangbot.com/switch/)
 > 原文作者：[Naveen Ramanathan](https://golangbot.com/about/)
-> 译文出自：[紫竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

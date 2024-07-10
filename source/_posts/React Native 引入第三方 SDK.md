@@ -111,7 +111,7 @@ dependencies {
 
 和远程仓库依赖引入方式不同，如果本地同时存在两个不同的 `jar` 包，或者本地已有 `jar` 包，再去远程依赖不同版本的 `jar` 包，就会报错。
 
-![紫竹](https://i.loli.net/2019/06/05/5cf73b7ea3e2b53276.jpg)
+![紫升](https://i.loli.net/2019/06/05/5cf73b7ea3e2b53276.jpg)
 
 解决方式：将其中的一个采用 `compileOnly` 替换 `implementation`。顾名思义，`compileOnly` 只在编译时起作用，不会包含到 `APK` 里面，在运行时也就避免找到重复的类了。
 

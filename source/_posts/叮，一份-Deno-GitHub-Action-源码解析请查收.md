@@ -96,15 +96,15 @@ strategy:
 
 `${{ github.repository == 'denoland/deno' && 'ubuntu-latest' || 'ubuntu-18.04' }}` 这种写法我看到时很疑惑，直接取 'ubuntu-latest' 不行吗？如果不行是为什么呢？抱着求真的态度，我翻阅到是在这个 [commit](https://github.com/denoland/deno/commit/1a27c19c583fa6bd1eaaec93b513bfbac37fc53c#diff-b803fcb7f17ed9235f1e5cb1fcd2f5d3b2838429d4368ae4c57ce4436577f03f) 加入的这个判断，在一番询问后得到了下面的答案：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bf73fe62dcbc48f69272f97a1a139444~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bf73fe62dcbc48f69272f97a1a139444~tplv-k3u1fbpfcp-zoom-1.image)
 
 在 justjavac 大佬那里也得到了印证：
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/04d3d4f533e74d0795d70e5cffd69699~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/04d3d4f533e74d0795d70e5cffd69699~tplv-k3u1fbpfcp-zoom-1.image)
 
 然后我还有个疑问是为什么不使用三元表达式，是 YAML 语法不支持吗？
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b76f02c91de841d587084fbc73a2cca3~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b76f02c91de841d587084fbc73a2cca3~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## env 环境变量
 

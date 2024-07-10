@@ -22,7 +22,7 @@ tags:
 
 使用 [Bit][Bit] 可以跨平台分享和重用 React 组件。作为一个团队在共享组件上进行协作，可以更敏捷地共同构建应用程序。让 Bit 做繁重的工作，这样你就可以轻松地发布、安装和更新你的个人组件而不需要任何开销。
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e1c5f1759c924881ba62904a329645ef~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e1c5f1759c924881ba62904a329645ef~tplv-k3u1fbpfcp-zoom-1.image)
 
 ## react-native-animatable
 
@@ -304,4 +304,4 @@ react-native-motion 为我们提供了一个简单的 API 来制作共享的过�
 
 > 原文链接：[Top 5 Animation Libraries in React Native](https://blog.bitsrc.io/top-5-animation-libraries-in-react-native-d00ec8ddfc8d)
 > 原文作者：[SaidHayani@][saidhayani@]
-> 译文出自：[紫竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

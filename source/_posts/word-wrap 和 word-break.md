@@ -28,6 +28,6 @@ css 的 word-break 属性用来标明怎么样进行单词内的断句。
 
 ## 搭配使用，换行不累
 
-![紫竹](https://picbed.qunarzz.com/3d7e329ab089d28c7bde5be75573f1d3.png)
+![紫升](https://picbed.qunarzz.com/3d7e329ab089d28c7bde5be75573f1d3.png)
 
 > 参考资料来自 [你真的了解word-wrap和word-break的区别吗？](https://www.cnblogs.com/2050/archive/2012/08/10/2632256.html) 和 [word-break:break-all和word-wrap:break-word的区别](https://www.zhangxinxu.com/wordpress/2015/11/diff-word-break-break-all-word-wrap-break-word/)

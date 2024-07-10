@@ -5,11 +5,11 @@ cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1679280067130.png
 description: 数组是属于同一类型的元素的集合。 例如，整数 5、8、9、79、76 的集合构成一个数组。 Go 中不允许混合不同类型的值，例如同时包含字符串和整数的数组。
 categories:
   - [Golang, Go 语言系列教程]
-  - [紫竹翻译计划]
+  - [紫升翻译计划]
 tags:
   - Golang
   - Go 语言系列教程
-  - 紫竹翻译计划
+  - 紫升翻译计划
   - Go 数组
 ---
 
@@ -357,13 +357,13 @@ AT&T T-Mobile
 
 ## 结语
 
-关注公众号`紫竹早茶馆`，一个持续分享编程知识的地方。
+关注公众号`紫升早茶馆`，一个持续分享编程知识的地方。
 
 - `点赞`等于学会，`在看`等于精通
 - 最后祝大家 2021 学习进步，升职加薪
 
-![紫竹](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a9752661d5474d8f8f4ae2584c288ac9~tplv-k3u1fbpfcp-zoom-1.image)
+![紫升](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a9752661d5474d8f8f4ae2584c288ac9~tplv-k3u1fbpfcp-zoom-1.image)
 
 > 原文地址 [Arrays and Slices](https://golangbot.com/arrays-and-slices/)
 > 原文作者：[Naveen Ramanathan](https://golangbot.com/about/)
-> 译文出自：[紫竹翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

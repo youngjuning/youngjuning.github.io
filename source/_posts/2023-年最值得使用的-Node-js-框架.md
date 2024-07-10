@@ -4,7 +4,7 @@ date: 2023-04-08 19:22:08
 description: Node.js 是最敏捷的服务端 web 应用平台，因为它为应用开发公司提供了构建可扩展的单一编程语言 web 平台的便利。它是最热门的开源的 JavaScript 运行时框架之一，具有跨平台属性，让我们可以在浏览器以外的环境运行代码。
 cover: https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680953101680.png
 categories:
-  - [紫竹翻译计划]
+  - [紫升翻译计划]
   - [掘金翻译计划]
   - [前端, NodeJs]
 tags:
@@ -23,7 +23,7 @@ tags:
 > * 原文作者：[Ronak Patel](https://medium.com/@ronakataglowid)
 > * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
 > * 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/article/2021/top-node-js-frameworks-to-use-in-2021.md](https://github.com/xitu/gold-miner/blob/master/article/2021/top-node-js-frameworks-to-use-in-2021.md)
-> * 译者：[紫竹](https://github.com/youngjuning)
+> * 译者：[紫升](https://github.com/youngjuning)
 > * 校对者：[PassionPenguin](https://github.com/PassionPenguin)、[xilihuasi](https://github.com/xilihuasi)
 
 Node.js 是最敏捷的服务端 web 应用平台，因为它为应用开发公司提供了构建可扩展的单一编程语言 web 平台的便利。它是最热门的开源的 JavaScript 运行时框架之一，具有跨平台属性，让我们可以在浏览器以外的环境运行代码。
