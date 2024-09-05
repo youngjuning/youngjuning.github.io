@@ -263,10 +263,6 @@ Shopify 不需要，但 Facebook、Google、Instagram、Pinterest、Twitter、Ti
   - 关闭广告跟踪：设置 -> 更多设置 -> 系统安全 -> 广告服务 -> 关闭
 3. apkpure.com 安装 tiktok
 
-## TikTok 小店
-
-## TikTok 投流
-
 # 学习资料
 
 - [【Shopify建站】一口气看完！Shopify建站教程完整版！](https://114.li/rnkezu)
