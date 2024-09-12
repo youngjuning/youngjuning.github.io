@@ -2299,10 +2299,10 @@ hexo-renderer-ejs@^2.0.0:
   dependencies:
     ejs "^3.1.6"
 
-hexo-renderer-marked@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-6.1.1.tgz#0db5e2b07d6e71e5edaa8a3fc43a06965a4e90f5"
-  integrity sha512-vllmRFwl9A1NP/llQW2TbDnyvqaQKgktxXw7c+tK7XVQJmfIUnl32dr8M4jRYqYe5m9972eYm09kBXV8rBtA/A==
+hexo-renderer-marked@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-6.3.0.tgz#be8680ecad9633964a0c26a5f99859247d996aca"
+  integrity sha512-V/ATcJ+tZHkTJSbScPzzHKmrwVMohU8i9MfuX9jp07Un/NpPtaTP821unP3JPu+O1nNLWMi+3xRbFRdm+8vajw==
   dependencies:
     dompurify "^3.0.3"
     hexo-util "^3.1.0"
