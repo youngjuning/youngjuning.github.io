@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "hexo": "^6.3.0",
-    "hexo-butterfly-tag-plugins-plus": "^1.0.17",
+    "hexo-butterfly-tag-plugins-plus": "^1.0.18",
     "hexo-filter-nofollow": "^2.0.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
