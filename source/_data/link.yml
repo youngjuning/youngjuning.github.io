@@ -21,18 +21,14 @@
     link: https://guole.fun/
     avatar: https://guole.fun/img/gl.jpg
     descr: 生命是独立是自由是爱与和平
-  - name: 张麦麦的博客
-    link: https://zhangmaimai.com
-    avatar: https://zhangmaimai.com/favicon.ico
+  - name: 张麦麦
+    link: https://maxchang.me
+    avatar: https://maxchang.me/favicon.svg
     descr: 我的影子想要去飞翔，我的人还在地上。
   - name: Ordis
     link: https://imbhj.com
     avatar: https://imbhj-cdn.oss-cn-hangzhou.aliyuncs.com/CDN3/202208032018823.png
     descr: 船到桥头自然直，柳暗花明又一村
-  - name: 陈锋
-    link: https://chenyuhu.js.org/
-    avatar: https://s1.ax1x.com/2020/07/09/UmgtPJ.png
-    descr: 陈锋的博客
   - name: HCLonely
     link: https://blog.hclonely.com/
     avatar: https://cdn.jsdelivr.net/gh/HCLonely/blog.hclonely.com@latest/img/avatar.jpg
@@ -61,4 +57,3 @@
     name: 故事的程序猿
     avatar: https://blog.lichenghao.cn/avatar.svg
     descr: 好好学习，天天向上↑
-    
