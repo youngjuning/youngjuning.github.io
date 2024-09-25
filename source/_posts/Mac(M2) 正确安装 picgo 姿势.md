@@ -1,6 +1,7 @@
 ---
 title: Mac(M2) 正确安装 picgo 姿势
 description: 本文介绍了 Mac(M2) 正确安装 picgo 姿势
+date: 2024-01-01
 categories:
   - Mac
 tags:
