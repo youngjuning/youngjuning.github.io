@@ -47,8 +47,8 @@
       },
       {
         "name": "张麦麦的博客",
-        "link": "https://zhangmaimai.com",
-        "avatar": "https://zhangmaimai.com/favicon.ico",
+        "link": "https://maxchang.me",
+        "avatar": "https://maxchang.me/favicon.svg",
         "descr": "我的影子想要去飞翔，我的人还在地上。"
       },
       {
@@ -98,6 +98,12 @@
         "name": "Clouder’s Blog",
         "avatar": "https://cdn.jsdelivr.net/gh/Clouder0/myPics/img/selficon2.png",
         "descr": "A student who enjoys tech & life."
+      },
+      {
+        "name": "Shuai's Hut",
+        "link": "https://shuaiyuu.github.io/",
+        "avatar": "https://s2.loli.net/2024/11/06/EDfF4GSbNVjKw12.png",
+        "descr": "推开门窗，让阳光雨露洒遍每个角落。"
       }
     ]
   },
