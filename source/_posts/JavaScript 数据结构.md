@@ -12,7 +12,7 @@ tags:
 # 数组
 
 - 跟其他编程语言一样，JS 数组也是一组有序的数据，但跟其他语言不同的是，数组中的每个槽位可以存储任意类型的数组。
-- JS 数组的动态大小的，会随着数据添加而自动增长。
+- JS 数组是动态大小的，会随着数据添加而自动增长。
 
 ## 创建数组
 
@@ -510,3 +510,16 @@ class LinkedList {
 - size：返回链表包含的元素个数，与数组的 length 属性类似。
 - getHead：返回链表包含的元素个数，与数组的 length 属性类似。
 - isEmpty：在链表中不包含元素时，返回 true，如果链表长度大于 0 则返回 false。
+
+## toString 方法
+
+```js
+class LinkedList {
+  constructor() {
+    this.count = 0;
+    this.head = undefined;
+  }
+
+  toString() {}
+}
+```
