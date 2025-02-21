@@ -12,7 +12,7 @@ tags:
 # 数组
 
 - 跟其他编程语言一样，JS 数组也是一组有序的数据，但跟其他语言不同的是，数组中的每个槽位可以存储任意类型的数组。
-- JS 数组的动态大小的，会随着数据添加而自动增长。
+- JS 数组是动态大小的，会随着数据添加而自动增长。
 
 ## 创建数组
 
@@ -324,9 +324,7 @@ class LinkedList {
 }
 ```
 
-## 从链表中移除元素
-
-### 移除指定位置的元素
+## 移除指定位置的元素
 
 - 移除第一个元素：要做的就是让 `head` 指向列表的第二个元素。我们将用 `current` 变量创建一个对链表第一个元素的引用。这样 `current` 变量就是对链表中第一个元素的引用。如果把 `head` 赋为 `current.next`，就会移除第一个元素。
 - 移除最后一个或中间某个元素：需要迭代链表的节点，直到找到要移除元素的前一个元素，我们用 `previous` 变量表示对当前元素的前一个元素的引用。在迭代到目标元素之后，`current` 变量会持有我们想从链表中移除的节点。因此，要从链表中移除当前元素，要做的就是将 `previous.next` 赋值为 `current.next`。
@@ -395,7 +393,7 @@ console.info(list);
 
 如图可以看到，10 被成功移除了。
 
-### 在任意位置插入元素
+## 在任意位置插入元素
 
 ```js
 class LinkedList {
@@ -446,7 +444,7 @@ list.insert("李四", 1);
 
 如图，我们成功在索引 1 的位置插入了 15。
 
-### indexOf
+## 返回一个元素的位置
 
 ```js
 const defaultEquals = (a, b) => {
@@ -473,3 +471,55 @@ class LinkedList {
 
 - 一如既往，需要一个变量来帮助我们循环访问列表。该变量是 current，它的初始值是 head。
 - 然后迭代元素，从 head（索引 0） 开始，直到链表长度（count 变量）为止。为了确保不会发生运行时错误，我们可以验证下 current 变量是否为 null 或 undefined。
+
+## 从链表中移除元素
+
+```js
+class LinkedList {
+  constructor() {
+    this.count = 0;
+    this.head = undefined;
+  }
+  remove(element) {
+    const index = this.indexOf(element);
+    return this.removeAt(index);
+  }
+}
+```
+
+## isEmpty、size 和 getHead 方法
+
+```js
+class LinkedList {
+  constructor() {
+    this.count = 0;
+    this.head = undefined;
+  }
+  isEmpty() {
+    return this.count === 0;
+  }
+  size() {
+    return this.count;
+  }
+  getHead() {
+    return this.head;
+  }
+}
+```
+
+- size：返回链表包含的元素个数，与数组的 length 属性类似。
+- getHead：返回链表包含的元素个数，与数组的 length 属性类似。
+- isEmpty：在链表中不包含元素时，返回 true，如果链表长度大于 0 则返回 false。
+
+## toString 方法
+
+```js
+class LinkedList {
+  constructor() {
+    this.count = 0;
+    this.head = undefined;
+  }
+
+  toString() {}
+}
+```
