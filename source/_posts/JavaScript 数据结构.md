@@ -520,6 +520,19 @@ class LinkedList {
     this.head = undefined;
   }
 
-  toString() {}
+  toString() {
+    if (this.head === null) {
+      return '';
+    }
+    let objString = `${this.head.element}`;
+    let current = this.head.next;
+    for (let i = 1; i < this.size() && current !== null; i++) {
+      objString = `${objString},${current.element}`;
+      current = current.next;
+    }
+    return objString;
+  }
 }
 ```
+
+- 首先，列表为空（`head` 为 `null` 或 `undefined`），我们就返回一个空字符串，我们也可以用 `this.isEmpty()` 来判断。
