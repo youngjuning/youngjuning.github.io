@@ -16,6 +16,10 @@ tags:
   - NextJS
 ---
 
+## Please briefly introduce yourself
+
+Hello, I'm xxx. I'm a full-stack engineer. Currently, I serve as a Senior Frontend Engineer in the Innovation Technology Team at Fliggy, Alibaba Group's travel platform.
+
 ## Please briefly introduce React
 
 React is a JavaScript library for building user interfaces.
