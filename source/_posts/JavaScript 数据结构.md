@@ -454,6 +454,7 @@ class LinkedList {
   constructor(equalsFn = defaultEquals) {
     this.count = 0;
     this.head = undefined;
+    this.equalsFn = equalsFn;
   }
 
   indexOf(element) {
