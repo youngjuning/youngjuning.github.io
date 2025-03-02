@@ -1,6 +1,6 @@
 ---
-title: TypeScript+Jest+Coverage 项目初始化
-description: '从零到一初始化一个 TypeScript+Jest+Coverage 的项目'
+title: TypeScript+Jest+Coverage+Eslint+Prettier 项目初始化
+description: '从零到一初始化一个 TypeScript 项目，使用最新的技术'
 date: 2025-02-24 21:45:40
 categories:
   - [前端, 工程化]
@@ -74,7 +74,6 @@ $ tsc --init
   },
   "include": ["src/**/*"],
   "exclude": [
-    "node_modules",
     "dist",
     "**/*.test.ts",
   ]
@@ -129,17 +128,17 @@ $ pnpm add jest -D
 ### 安装 ts-jest
 
 ```sh
-$ pnpm add ts-jest -D
+pnpm add ts-jest -D
 ```
 
 安装 ts-jest 后，Jest 会自动识别 TypeScript 文件，并使用 `ts-jest` 进行编译和测试。
 
-### 安装 ts-jest
+### 使用 ts-jest
 
 为了让 Jest 使用 ts-jest 来转换 TypeScript，你还需要使用 `jest --init` 命令创建一个配置文件。之后在 jest.config.ts 文件中添加一行：`preset: "ts-jest"`。
 
 ```sh
-$ pnpm add ts-jest -D
+pnpm add ts-jest -D
 ```
 
 ### 安装 ts-node
@@ -147,7 +146,7 @@ $ pnpm add ts-jest -D
 使用 Typescript 配置文件的还需给 Jest 安装 ts-node， 请确保在项目中安装该依赖。
 
 ```sh
-$ pnpm add ts-node -D
+pnpm add ts-node -D
 ```
 
 ### 安装 @types/jest
@@ -155,7 +154,7 @@ $ pnpm add ts-node -D
 安装 `@types/jest` 包。它为 Jest 的全局变量提供类型，无需导入它们。
 
 ```sh
-$ pnpm add @types/jest -D
+pnpm add @types/jest -D
 ```
 
 ### 测试
@@ -229,6 +228,34 @@ jobs:
           slug: youngjuning/fucking-js
 ```
 
-执行完后访问 https://app.codecov.io/gh/youngjuning/fucking-js 网站，查看测试覆盖率：
+执行完后访问 https://app.codecov.io/gh/youngjuning/jsace 网站，查看测试覆盖率：
 
 ![图 5](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1740444533825.png)
+
+## eslint flat config
+
+### 安装 @youngjuning/eslint-config
+
+```sh
+pnpm add @youngjuning/eslint-config eslint prettier typescript jest -D
+```
+
+### 添加 eslint.config.ts
+
+```ts
+import tseslint from 'typescript-eslint';
+import youngjuning from '@youngjuning/eslint-config';
+
+export default tseslint.config(youngjuning, {
+  ignores: ['**/dist/**'],
+});
+```
+
+### pnpm Installation
+
+要在 pnpm 中使用 ESLint，我们建议设置一个 `.npmrc` 文件，并至少包含以下设置：
+
+```txt
+auto-install-peers=true
+node-linker=hoisted
+```
