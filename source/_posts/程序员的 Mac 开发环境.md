@@ -27,16 +27,6 @@ $ xcode-select --install
 
 ## Git
 
-### 命令行工具
-
-```sh
-// Re-installing Git on Mac OSX with Brew
-$ alias git='/usr/local/bin/git'
-$ brew install git
-```
-
-### 命令行配置
-
 ```bash
 # 1、初始化设置
 $ git config --global user.name '紫升'
@@ -49,15 +39,6 @@ $ git config --global core.ignorecase false
 $ git config --global core.autocrlf input
 # 5、输出到terminal而不是vim
 $ git config --global pager.branch false
-```
-
-### 代理配置
-
-需要为 git 单独设置代理加速，`7890` 是 HTTP/HTTPS 代理端口，请按照自己的情况填写。
-
-```sh
-$ git config --global https.proxy http://127.0.0.1:7890
-$ git config --global http.proxy http://127.0.0.1:7890
 ```
 
 ## Node
