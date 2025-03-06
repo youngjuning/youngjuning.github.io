@@ -69,10 +69,10 @@ $ n rm 12.10.0
 $ n prune
 ```
 
-### 安装 yarn
+### 安装 yarn 和 pnpm
 
 ```sh
-$ sudo npm install yarn -g
+$ brew install yarn pnpm -g
 ```
 
 ### 更新 npm
@@ -115,7 +115,7 @@ $ pkill esbuild
 ```sh
 $ sudo chmod -R 777 /usr/local/lib/node_modules
 $ sudo chmod -R 777 /usr/local/bin/
-$ sudo chmod -R 777 ~/.config
+$ sudo chmod -R 777 ~/.npm
 ```
 
 ## VS Code
