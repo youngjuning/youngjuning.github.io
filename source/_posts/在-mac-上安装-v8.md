@@ -45,9 +45,9 @@ ARM(M1) Macs:
 我建议你将这些添加到你的 `.zshrc` 文件中。
 
 - `sudo nano ~/.zshrc`
-- 添加 `alias d8=~/v8/out.gn/x64.optdebug/d8`
+- 添加 `alias d8=~/v8/out/arm64.optdebug/d8`
 - 添加 `alias tick-processor=~/v8/tools/mac-tick-processor`
-- 添加 `export D8_PATH="~/v8/out.gn/x64.optdebug"`
+- 添加 `export D8_PATH="~/v8/out/arm64.optdebug"`
 - `source ~/.zshrc`
 
 ## d8 shell examples
