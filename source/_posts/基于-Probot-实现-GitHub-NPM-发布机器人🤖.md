@@ -344,4 +344,4 @@ Probot App 的初始权限在 `app.yml` 文件中，如果 App 已经创建了�
 [create-probot-app]: https://github.com/probot/create-probot-app
 [npm-module]: https://docs.npmjs.com/files/package.json
 
-> 本文首发于「[紫升的官方网站](https://youngjuning.js.org/)」，同步于公众号「[紫升早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images/20210418112129.jpeg)」和「[掘金专栏](https://juejin.cn/user/325111174662855)」。
+> 本文首发于「[紫升的博客](https://youngjuning.js.org/)」，同步于公众号「[紫升早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images/20210418112129.jpeg)」和「[掘金专栏](https://juejin.cn/user/325111174662855)」。

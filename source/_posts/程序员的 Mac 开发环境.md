@@ -190,95 +190,6 @@ I'd also recommend adding these to your `.zshrc`:
 
 > 使用 Demo 请参考 [d8-shell-examples](https://gist.github.com/kevincennis/0cd2138c78a07412ef21#d8-shell-examples)
 
-## Rust
-
-```sh
-brew install rust
-```
-
-## Python3
-
-```sh
-brew install python
-```
-
-## Java
-
-### 下载安装
-
-```sh
-brew tap homebrew/cask-versions
-brew install --cask zulu17
-```
-
-### 添加环境变量
-
-添加以下配置到 `~/.zshrc`
-
-```sh
-export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
-export JAVA_HOME=`/usr/libexec/java_home -v 17`
-```
-
-执行下面的命令让配置立即生效：
-
-```sh
-source ~/.zshrc
-```
-
-### 实用命令
-
-1、Mac 下查看已安装的 jdk 版本及其安装目录: `/usr/libexec/java_home -V`
-
-```sh
-Matching Java Virtual Machines (2):
-  11.0.17 (x86_64) "Azul Systems, Inc." - "Zulu 11.60.19" /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
-  1.8.0_312 (x86_64) "Homebrew" - "OpenJDK 8" /usr/local/Cellar/openjdk@8/1.8.0+312/libexec/openjdk.jdk/Contents/Home
-/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
-```
-
-2、查看 jre 版本: `java -version`
-
-3、查看 jdk 版本: `javac -version`
-
-## Maven
-
-### 安装
-
-```sh
-$ brew install maven
-```
-
-### 配置阿里镜像
-
-`setting.xml` 路径为 `${Maven Home}/conf/settings.xml` ，Maven Home 可以通过 `mvn --version`
-
-可将 `settings.xml` 直接拷贝到 `.m2` 文件夹下，进行配置。
-
-如果没有 `.m2` 文件夹时,运行命令
-
-```sh
-$ mvn help:system
-```
-
-然后打开当前用户的目录，可以在其中找到 `.m2` 文件夹。
-
-```xml
-<mirror>
-  <id>alimaven</id>
-  <name>aliyun maven</name>
-  <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-  <mirrorOf>central</mirrorOf>
-</mirror>
-```
-
-### 升级 Maven
-
-```sh
-$ brew update
-$ brew install maven
-```
-
 ## MySql
 
 ```shell
@@ -520,7 +431,7 @@ $ exit;
 在用户主目录下，看看有没有 `.ssh` 目录，如果有，再看看这个目录下有没有 `id_rsa` 和 `id_rsa.pub` 这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开 Shell（Windows 下打开 Git Bash），创建 SSH Key：
 
 ```bash
-$ ssh-keygen -t rsa -C "youngjuning@163.com"
+$ ssh-keygen -t rsa -C "luozhu2021@gmail.com"
 # 添加到系统 keychain
 ssh-add --apple-use-keychain ~/.ssh/id_rsa
 # 添加 public key 到 github
@@ -540,4 +451,4 @@ $ echo "set showcmd" >> ~/.vimrc
 $ source ~/.vimrc
 ```
 
-> 本文首发于「[紫升的官方网站](https://youngjuning.js.org/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。
+> 本文首发于「[紫升的博客](https://youngjuning.js.org/)」，同步于「[掘金专栏](https://juejin.cn/user/325111174662855)」。
