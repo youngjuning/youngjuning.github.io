@@ -40,7 +40,7 @@ Intel Macs:
 ARM(M1) Macs:
 
 - `tools/dev/v8gen.py arm64.optdebug`
-- `ninja -C out.gn/arm64.optdebug`
+- `ninja -C out/arm64.optdebug`
 
 我建议你将这些添加到你的 `.zshrc` 文件中。
 
