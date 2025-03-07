@@ -11,11 +11,9 @@ tags:
   - 安装
 ---
 
-## 准备
-
 > 不要使用 `brew install v8`，因为可用命令是不完整的。
 
-### 预备条件
+## 预备条件
 
 - 安装 Xcode (Avaliable on the Mac App Store)
 - 安装 Xcode Command Line Tools (Preferences > Downloads)
@@ -26,7 +24,7 @@ tags:
   - `source ~/.zshrc`
 - 从你想要安装 V8 的目录中，运行 `gclient`。
 
-### Build V8
+## Build V8
 
 - `fetch v8`
 - `cd ~/v8`
@@ -351,3 +349,8 @@ Anyway, this is all still pretty new to me, and there's a lot I haven't figured 
 Oh, and I'm sure there's stuff in here that I'm wrong about, because I'm honestly a little out of my depth here. Feedback is appreciated.
 
 > 使用 Demo 请参考 [d8-shell-examples](https://gist.github.com/kevincennis/0cd2138c78a07412ef21#d8-shell-examples)
+
+## 参考
+
+- [xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance](https://github.com/nodejs/node-gyp/issues/569#issuecomment-94917337)
+- [Installing V8 on a Mac](https://gist.github.com/kevincennis/0cd2138c78a07412ef21)
