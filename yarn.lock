@@ -2179,6 +2179,11 @@ hexo-filter-nofollow@^2.0.2:
   resolved "https://registry.yarnpkg.com/hexo-filter-nofollow/-/hexo-filter-nofollow-2.0.2.tgz#903692f95f26d6ad8933e9926c94d422bbf25d68"
   integrity sha512-roIkEIkGOR22EPMoy8iKrufDoAH25LOT5ZeVXVLavEpM757Y96kfUhyathryMLXr326EURffgkZAKsVf3EDl0A==
 
+hexo-filter-plantuml@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npmmirror.com/hexo-filter-plantuml/-/hexo-filter-plantuml-2.1.1.tgz#eca61473936f4fd8a9c9db3598e5022efe86eec4"
+  integrity sha512-MUBbuDyPiq1cN1rJffe9izZqWAHpAGVW25CGe4WHqjD4IkdcNjhrk9l7WTej9IGQCO132UJeTkOqreHanKdQag==
+
 hexo-front-matter@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/hexo-front-matter/-/hexo-front-matter-3.0.0.tgz#b9a473c6cb910c73f9fea49f506e98540fcea6cb"

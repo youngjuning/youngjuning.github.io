@@ -145,6 +145,28 @@ tag_plugins:
     iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
     carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
     tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+
+plantuml:
+  #  Local or PlantUMLServer.
+  render: "PlantUMLServer"
+
+  # The render server, you can also create your self-hosting sever
+  # self-hosting cmd: java -jar /usr/local/Cellar/plantuml/1.2021.5/libexec/plantuml.jar -picoweb
+  # server: http://localhost:8080/plantuml
+  server: "http://www.plantuml.com/plantuml"
+  # "inline": <svg>xxx<svg/>
+  # "inlineUrlEncode": <img src='data:image/svg+xml;>
+  # "inlineBase64": <img src='data:image/svg+xml;base64>
+  # "localLink": <img src="/assert/puml/xxxx.svg">
+  # "externalLink": <img src="http://www.plantuml.com/plantuml/svg/xxx">
+  link: "inline"
+
+  # common options: svg/png
+  outputFormat: "svg"
+
+  # class-name for element style. The default style is center-aligned block
+  className: "plantuml"
+
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
