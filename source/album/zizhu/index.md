@@ -17,7 +17,7 @@ tags:
 ![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681040185713.png)
 ![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681040241093.png)
 ![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969324404.png)
-![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png)
+![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1742301937620.png)
 ![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681040178946.png)
 ![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1681038734909.png)
 ![紫升](https://cdn.jsdelivr.net/gh/youngjuning/images@main/1680450445599.png)
