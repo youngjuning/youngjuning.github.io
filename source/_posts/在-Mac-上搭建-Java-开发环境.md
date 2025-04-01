@@ -66,7 +66,7 @@ $ brew install maven
 $ mvn help:system
 ```
 
-然后打开当前用户的目录，可以在其中找到 `.m2` 文件夹。
+然后打开当前用户的目录，可以在其中找到 `.m2` 文件夹，在 `settings.xml` 的 `<mirrors>` 标签内添加：
 
 ```xml
 <mirror>

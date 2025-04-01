@@ -13,7 +13,7 @@ description: 有朋自网线来，不亦说乎
 {
   "name": "紫升的博客",
   "link": "https://youngjuning.js.org",
-  "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png",
+  "avatar": "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1742301937620.png",
   "descr": "怕什么真理无穷，进一寸有一寸的欢喜。"
 }
 ```
@@ -21,7 +21,7 @@ description: 有朋自网线来，不亦说乎
 ```yml
 - name: "紫升的博客"
   link: "https://youngjuning.js.org"
-  avatar: "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1687969566388.png"
+  avatar: "https://cdn.jsdelivr.net/gh/youngjuning/images@main/1742301937620.png"
   descr: "怕什么真理无穷，进一寸有一寸的欢喜。"
 ```
 
