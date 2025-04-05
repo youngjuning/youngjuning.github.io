@@ -2153,10 +2153,10 @@ he@^1.2.0:
   resolved "https://registry.npmmirror.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
-hexo-butterfly-tag-plugins-plus@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/hexo-butterfly-tag-plugins-plus/-/hexo-butterfly-tag-plugins-plus-1.0.17.tgz#6e0050f420e0babef9061e9990c6bea6a51b6dc4"
-  integrity sha512-GpQS8YiEFv989kclBedKaRBhzA8yx+Boq/v04Nn04KCibnhv5EJj5E/OV3QXz1jw8mCwGlOyiL7xVSqA6KyRQQ==
+hexo-butterfly-tag-plugins-plus@^1.0.18:
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-tag-plugins-plus/-/hexo-butterfly-tag-plugins-plus-1.0.18.tgz#32e51dd8083a36218cffb49b0ae08ca61efa2b06"
+  integrity sha512-b8sHIBxuOI2FCT7dVrXGlDxL46Rc4Lx6cZFPCUquDHFy+2gfmIwQstWqoOjiak73m94C1IXAyQ0MuB8GN51X/A==
 
 hexo-cli@^4.3.0:
   version "4.3.0"
