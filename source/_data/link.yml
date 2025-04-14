@@ -1,10 +1,6 @@
 - class_name: 友情链接
   class_desc: 有朋自网线来，不亦乐乎
   link_list:
-  - name: 寒草的博客
-    link: https://hancao97.github.io
-    avatar: https://hancao97.github.io/img/hancao.png
-    descr: 一只草系前端，或许是个精灵
   - name: 落叶卢生
     link: https://www.luoyelusheng.com
     avatar: https://www.luoyelusheng.com/images/avatar.png
@@ -57,3 +53,7 @@
     name: 故事的程序猿
     avatar: https://blog.lichenghao.cn/avatar.svg
     descr: 好好学习，天天向上↑
+  - name: 寒草的博客
+    link: https://hancao97.github.io
+    avatar: https://hancao97.github.io/img/hancao.png
+    descr: 一只草系前端，或许是个精灵

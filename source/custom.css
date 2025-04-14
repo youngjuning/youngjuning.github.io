@@ -1,3 +1,9 @@
 body {
   padding: 0 !important;
 }
+.site-icon {
+  border-radius: 50%;
+}
+ins.adsbygoogle[data-ad-status="unfilled"] {
+  display: none !important;
+}
