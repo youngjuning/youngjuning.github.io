@@ -38,6 +38,10 @@ p {
   background-position: center center;
 }
 
+.ad-container {
+  display: flex;
+  justify-content: center;
+}
 ins.adsbygoogle[data-ad-status="unfilled"] {
   display: none !important;
 }
