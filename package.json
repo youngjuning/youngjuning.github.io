@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "postinstall": "patch-package",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
@@ -31,7 +32,10 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-butterfly": "4.10.0",
+    "hexo-theme-butterfly": "4.9.0",
     "hexo-wordcount": "^6.0.1"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.0"
   }
 }

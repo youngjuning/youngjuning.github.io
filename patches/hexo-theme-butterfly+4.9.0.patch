@@ -1,0 +1,48 @@
+diff --git a/node_modules/hexo-theme-butterfly/layout/includes/layout.pug b/node_modules/hexo-theme-butterfly/layout/includes/layout.pug
+index dde47c5..0a90d34 100644
+--- a/node_modules/hexo-theme-butterfly/layout/includes/layout.pug
++++ b/node_modules/hexo-theme-butterfly/layout/includes/layout.pug
+@@ -19,7 +19,9 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
+     if page.type !== '404'
+       #body-wrap(class=pageType)
+         include ./header/index.pug
+-
++        //- ad top
++        if theme.ad && theme.ad.index_top
++          center!=theme.ad.index_top
+         main#content-inner.layout(class=hideAside)
+           if body
+             div!= body
+diff --git a/node_modules/hexo-theme-butterfly/layout/post.pug b/node_modules/hexo-theme-butterfly/layout/post.pug
+index f54ab7a..9013346 100644
+--- a/node_modules/hexo-theme-butterfly/layout/post.pug
++++ b/node_modules/hexo-theme-butterfly/layout/post.pug
+@@ -5,6 +5,9 @@ block content
+     if top_img === false
+       include includes/header/post-info.pug
+ 
++    //- ad top
++    if theme.ad && theme.ad.post_top
++      .ads-wrap!=theme.ad.post_top
+     article#article-container.post-content!=page.content
+     include includes/post/post-copyright.pug
+     .tag_share
+@@ -17,9 +20,9 @@ block content
+     if theme.reward.enable && theme.reward.QR_code
+       !=partial('includes/post/reward', {}, {cache: true})
+ 
+-    //- ad
+-    if theme.ad && theme.ad.post
+-      .ads-wrap!=theme.ad.post
++    //- ad bottom
++    if theme.ad && theme.ad.post_bottom
++      .ads-wrap!=theme.ad.post_bottom
+ 
+     if theme.post_pagination
+       include includes/pagination.pug
+@@ -29,4 +32,3 @@ block content
+     if page.comments !== false && theme.comments && theme.comments.use
+       - var commentsJsLoad = true
+       !=partial('includes/third-party/comments/index', {}, {cache: true})
+-      
+\ No newline at end of file
