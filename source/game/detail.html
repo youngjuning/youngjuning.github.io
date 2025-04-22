@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="We've a collection of impressively addicting games for you to enjoy your free time playing the stylish free games online, ath5gamelist.cc we work to give you with a free and addicting fun game experience soon we will have our exclusive games sector with surprise and always free.">
+  <title>Poki H5 Gamelist </title>
+  <link rel="stylesheet" href="./css/detail.css">
+  <link href="./css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style2.css">
+  <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/header/reset.css" />
+  <link rel="stylesheet" href="css/header/swiper.min.css" />
+  <link rel="stylesheet" type="css/header/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
+  <link rel="stylesheet" href="css/header/head.css" />
+
+  <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
+
+  <style>
+    .game-detail {
+      background-color: #f0f0f0;
+    }
+
+    .game-detail .game-right {
+      margin-left: 30px;
+      flex: 1;
+    }
+
+    @media (max-width: 600px) {
+      .game-detail {
+        flex-wrap: wrap;
+      }
+
+      .game-left {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
+
+    .game-detail .game-left {
+      width: 300px;
+      height: 300px;
+    }
+
+    .titleimage {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center;
+      margin: 30px 0;
+      font-size: 40px !important;
+    }
+
+    .titleicons {
+      margin-right: 10px;
+      display: flex !important;
+      align-items: center !important;
+    }
+
+    .content-title img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .games-item_a .games-item_img {
+      height: auto !important;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .title-text {
+      position: absolute;
+      left: 0;
+      bottom: 5px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .title-overflow {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .categories a {
+      font-size: 26px !important;
+    }
+
+    .categories {
+      flex: 1 !important;
+      display: flex;
+      justify-content: center;
+    }
+
+    header {
+      background: url(https://www.4399.com/images/h5xyx/top-mask.png) repeat-x;
+    }
+
+    .content {
+      background-color: #fff;
+    }
+
+    .play-imgs {
+      cursor: pointer;
+      position: absolute;
+      right: 0;
+    }
+
+    .play-imgs img {
+      width: 50px;
+    }
+
+    .img-fluid {
+      width: 100%;
+    }
+
+    .score-icon {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-image: url(./imgs/start.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  </style>
+  <!--谷歌代码开始--->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7962287588031867"
+    crossorigin="anonymous"></script>
+  <!--谷歌代码结束--->
+</head>
+
+<body>
+  <noscript>
+    <img src="https://data.ad-score.com/img?s=ns&pid=1000924&tid=MW&l1=h5gamelist.cc&l2=22844476659&l3=HK" width="1"
+      height="1">
+    </img>
+  </noscript>
+  <div id="app">
+    <!-- 导航 -->
+    <header class="header">
+      <div class="container clearfix">
+        <div class="fl left">
+          <a :href="`index.html?gameChannelId=${gameChannelId}`"><img src="./imgs/logo.png" alt="" class="img1" /></a>
+          <a :href="`index.html?gameChannelId=${gameChannelId}`"><img src="./imgs/logo.png" alt="" class="img2" /></a>
+        </div>
+        <div class="fr nav">
+          <ul class="navbar_nav" data-in="fadeInDown" data-out="fadeOutUp">
+            <li class="active" v-for="cate in categories" :key="cate.id">
+              <a :href="handleToType(cate)">{{cate.name}}</a>
+            </li>
+          </ul>
+        </div>
+        <a href="javascript:void(0)" id="navToggle">
+          <span></span>
+        </a>
+      </div>
+    </header>
+    <!--移动端的导航-->
+    <div class="m_nav">
+      <div class="top clearfix">
+        <img src="./imgs/closed.png" alt="" class="closed" />
+      </div>
+      <div class="logo">
+        <img src="./imgs/logo.png" alt="" />
+      </div>
+      <ul class="ul" data-in="fadeInDown" data-out="fadeOutUp">
+        <li class="active" v-for="cate in categories" :key="cate.id">
+          <a :href="handleToType(cate)">{{cate.name}}</a>
+        </li>
+      </ul>
+    </div>
+    <div style="height: 60px;"></div>
+
+    <!-- Ad Container -->
+    <div class="ad-container">
+      <!--谷歌代码开始--->
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7962287588031867" data-ad-slot="7216948334"
+        data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      <!--谷歌代码结束--->
+    </div>
+    <main>
+      <section class="game">
+        <div class="game-detail">
+          <div class="game-left">
+            <img class="game-logo_img img-load" src="./imgs/loading.svg" :data-src="detail.gameLogo"
+              :alt="detail.gameName">
+          </div>
+          <div class="game-right">
+            <div class="game-name">{{detail.gameName}}</div>
+            <!-- <div class="tag">{{type}}</div>
+              <div class="game-score">
+                  <div class="game-rate">
+                      <span class="score-icon"></span>
+                      <span class="score_span">4.5</span>
+                  </div>
+                  <div class="game-playnum">{{(detail.gamePlayNumber / 1000).toFixed(2)}}k played</div>
+              </div> -->
+            <p class="game-desc">{{detail.gameDesc}}</p>
+            <a class="game-button disabled" href="javascript:;" v-if="disabled">PLAY NOW</a>
+            <a class="game-button" :href="handleToPlay()" v-else>PLAY NOW</a>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 mt-4 pt-2" v-for="item in detail.gameListIndexVos" :key="item.gameId">
+              <a :href="handleToDetail(item.gameId, 'Popular')">
+                <div class="position-relative overflow-hidden blog  rounded shadow">
+                  <div class="position-relative overflow-hidden">
+                    <img :src="item.gameLogo" :data-src="item.gameLogo" :alt="`${item.gameLogo}|${item.gameId}`"
+                      class="img-fluid blog-img">
+                    <div class="blog-tag">
+                      <span class="badge bg-primary fw-light">play</span>
+                    </div>
+                  </div>
+                  <div class="content p-4 ">
+                    <div class="score" style="position: relative;  display: flex;align-items: center;">
+                      <span class="score-icon"></span>
+                      <span class="score_span" style="margin-left: 5px;font-size: 32px !important;"> 4.5</span>
+                      <div class="play-imgs">
+                        <img src="imgs/play.png" alt="" />
+                      </div>
+                    </div>
+                    <small><i class="uil uil-calendar-alt"></i></small>
+                    <a href="#" class="title text-dark d-block mt-2 h5">{{item.gameName}}</a>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer v-html="footer"></footer>
+  </div>
+</body>
+<script src="./components/footer.js"></script>
+<script src="./main.js"></script>
+<script src="./js/vue.min.js"></script>
+<script src="./js/axios.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/jquery-1.10.2.js"></script>
+<script src="./js/bootstrap-3.3.4.js"></script>
+<script src="./js/header/swiper.min.js"></script>
+<script>
+  $(function () {
+    //超过一定高度导航添加类名
+    var nav = $("header"); //得到导航对象
+    var win = $(window); //得到窗口对象
+    var sc = $(document); //得到document文档对象。
+    win.scroll(function () {
+      if (sc.scrollTop() >= 100) {
+        nav.addClass("on");
+      } else {
+        nav.removeClass("on");
+      }
+    })
+
+    //移动端展开nav
+    $('#navToggle').on('click', function () {
+      $('.m_nav').addClass('open');
+    })
+    //关闭nav
+    $('.m_nav .top .closed').on('click', function () {
+      $('.m_nav').removeClass('open');
+    })
+
+    //二级导航  移动端
+    $(".m_nav .ul li").click(function () {
+      $(this).children("div.dropdown_menu").slideToggle('slow')
+      $(this).siblings('li').children('.dropdown_menu').slideUp('slow');
+    });
+  })
+</script>
+<script>
+  var vm = new Vue({
+    el: '#app',
+    data() {
+      return {
+        disabled: true,
+        showCate: false,
+        type: 'null',
+        detail: {},
+        footer: '',
+        gameChannelId: 0,
+        categories: [
+          {
+            name: 'Beauty',
+            id: 1
+          },
+          {
+            name: 'Puzzle',
+            id: 2
+          },
+          {
+            name: 'Sports',
+            id: 4
+          },
+          {
+            name: 'New',
+            id: 5
+          },
+          {
+            name: 'Action',
+            id: 8
+          },
+          {
+            name: 'Best',
+            id: 14
+          },
+          {
+            name: 'Home',
+            id: 15
+          },
+        ]
+      }
+    },
+    created() {
+      this.getDetail()
+    },
+    mounted() {
+      this.init()
+    },
+    methods: {
+      init() {
+        this.footer = useFooter()
+        window.addEventListener("scroll", debounce(handleScroll, 500), true)
+        this.type = getQueryVariable('type') ? getQueryVariable('type') : null
+      },
+      handleToPlay() {
+        return `play.html?gameChannelId=${this.gameChannelId}&gameFileName=${this.detail.gameFileName}`
+      },
+      getDetail() {
+        const gameId = getQueryVariable('gameId') ? getQueryVariable('gameId') : 1506
+        axios({
+          method: "post",
+          url: "https://www.migame.vip/gamefront/gameList/tempGameDetails",
+          data: {
+            gameChannelId: this.gameChannelId,
+            gameId
+          }
+        }).then(res => {
+          this.detail = res.data.data
+          this.disabled = false
+          this.gameSrc = `https://www.datinginfo.top/game/index.html?gameFileName=${this.detail.gameFileName}/`
+          this.$nextTick(() => {
+            handleScroll()
+          })
+        })
+      },
+      handleToType({
+        id,
+        name
+      }) {
+        return `type.html?type=${id}&typeName=${name}&gameChannelId=${this.gameChannelId}`;
+      },
+      handleToDetail(gameId, type) {
+        return `detail.html?gameId=${gameId}&gameChannelId=${this.gameChannelId}&type=${type}`
+      }
+    }
+  })
+</script>
+</html>
