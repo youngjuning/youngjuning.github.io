@@ -2,8 +2,11 @@
 title: "Paper Fold"
 date: 2025-04-23 20:55:03
 description: "Paper Fold is an online Kids game, it's playable on all smartphones or tablets, such as iPhone, iPad, Samsung and other Apple and android system. Paper Fold is a game with Interesting gameplay and easy controls which is made for all players who like origami games! You can click on a corner of the paper to fold it. Folding the paper in the right order can make interesting patterns! You can unlock more backgrounds and patterns in the game. Don't forget to use the hints if you get stuck! Are you ready to fold your way to victory and unlock the secrets of paper art? Unfold your talent and embark on a unique and captivating journey in Paper Fold!"
-tags:
+keywords:
   - Paper Fold
+top_img: false
+aside: false
+comments: false
 ---
 
 <!-- game_index_1 -->
