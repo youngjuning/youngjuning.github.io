@@ -595,7 +595,7 @@ cloudflare_analytics:
 # Google Adsense (谷歌廣告)
 # https://www.google.com/adsense
 google_adsense:
-  enable: true
+  enable: false
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client: ca-pub-7962287588031867
