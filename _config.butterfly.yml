@@ -174,7 +174,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: true
   QR_code:
     - img: https://cdn.jsdelivr.net/gh/youngjuning/images/wechat.png
       # link:
@@ -936,7 +936,6 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/custom.css">
-    # - <script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   bottom:
 
 # CDN
