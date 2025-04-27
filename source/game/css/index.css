@@ -1,6 +1,6 @@
-@import url(/game/common.css);
-@import url(/game/header.css);
-@import url(/game/footer.css);
+@import url(/game/css/common.css);
+@import url(/game/css/header.css);
+@import url(/game/css/footer.css);
 
 .home-grid {
     display: grid;
