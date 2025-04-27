@@ -22,13 +22,13 @@ comments: false
 
 <iframe style="width:100%;height:500px" src="https://www.datinginfo.top/game/index.html?gameFileName=PaperFold/" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 
-<!-- game_post_2 -->
+<!-- gamePost2 -->
 <ins class="adsbygoogle"
-     style="display:block"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
      data-ad-client="ca-pub-7962287588031867"
-     data-ad-slot="7568673251"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+     data-ad-slot="7846583858"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
