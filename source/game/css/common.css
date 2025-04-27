@@ -145,7 +145,7 @@ main {
 .games-item_a .games-desc .score .score-icon {
     width: 24px;
     height: 24px;
-    background-image: url(../imgs/start.svg);
+    background-image: url(/game/imgs/start.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
