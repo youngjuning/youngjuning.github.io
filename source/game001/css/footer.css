@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-policy {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: var(--main-color); */
+}
+
+.footer-policy a {
+    line-height: 36px;
+    font-size: var(--xxs-fontsize);
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.copyright {
+    line-height: 70px;
+	color: #fff;
+    font-size: var(--xxs-fontsize);
+}
+
+@media screen and (max-width: 768px) {
+    .copyright {
+        line-height: 50px;
+    }
+}
