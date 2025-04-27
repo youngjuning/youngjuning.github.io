@@ -174,7 +174,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: true
   QR_code:
     - img: https://cdn.jsdelivr.net/gh/youngjuning/images/wechat.png
       # link:
@@ -595,7 +595,7 @@ cloudflare_analytics:
 # Google Adsense (谷歌廣告)
 # https://www.google.com/adsense
 google_adsense:
-  enable: false
+  enable: true
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client: ca-pub-7962287588031867
@@ -935,8 +935,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="/custom.css">
-    # - <script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    - <link rel="stylesheet" href="/custom.css" />
   bottom:
 
 # CDN
