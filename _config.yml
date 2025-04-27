@@ -47,6 +47,7 @@ i18n_dir: :lang
 skip_render:
   - "baidu_verify_codeva-seFAiiGXVd.html"
   - "game/**"
+  - "game001/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts
