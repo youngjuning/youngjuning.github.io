@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/(.*[^/])",
-      "destination": "/$1/",
-      "statusCode": 301
-    }
-  ]
-}
