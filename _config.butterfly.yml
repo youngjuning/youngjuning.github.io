@@ -937,7 +937,6 @@ inject:
   head:
     - <link rel="stylesheet" href="/custom.css" />
     - <meta name="monetag" content="5b629bc484ca4b65e3c962f832cc3f11">
-    - <script src="https://staupsoaksy.net/act/files/tag.min.js?z=5772015" data-cfasync="false" async></script>
   bottom:
 
 # CDN
