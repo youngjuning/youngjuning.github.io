@@ -68,7 +68,7 @@ main {
   display: block;
   width: 32px;
   height: 32px;
-  background-image: url(/game/imgs/start.svg);
+  background-image: url(https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@main/source/assets/imgs/start.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
