@@ -1,0 +1,207 @@
+@import url(./normal.css);
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-attachment:fixed;
+    background-image: linear-gradient(to bottom,#f97316,#ffffff,rgba(249,115,22,0));
+}
+
+:root {
+    --main-color: #f97316;
+    --xxs-fontsize: 12px;
+    --xs-fontsize: 14px;
+    --s-fontsize: 16px;
+    --m-fontsize: 18px;
+    --l-fontsize: 20px;
+    --xl-fontsize: 22px;
+    --xxl-fontsize: 24px;
+    --xxxl-fontsize: 26px;
+    --xxxxl-fontsize: 28px;
+    --xxxxxl-fontsize: 30px;
+    --radius: 15px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.ad {
+    width: 100%;
+    text-align: center;
+    font-size: var(--s-fontsize);
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+.content .content-title {
+    display: block;
+    width: 100%;
+    font-size: var(--xl-fontsize);
+    color: #374151;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 15px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+}
+
+.games-item {
+    transform: scale(1);
+    border-radius: var(--radius);
+    transition: transform 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    user-select: none;
+}
+
+.games-item_a {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-bottom: 100%;
+    border-radius: var(--radius);
+    z-index: 9;
+    box-shadow: 0px 0px 10px var(--main-color);
+}
+
+.games-item_a .games-item_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius);
+    background-color: #fff;
+}
+
+.games-item_a .games-desc {
+    position: absolute;
+    bottom: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 90px;
+    z-index: 2;
+}
+
+.games-item_a .games-desc::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-image: linear-gradient(180deg, transparent 0%, #000000 100%);
+    border-radius: 0 0 var(--radius) var(--radius);
+    z-index: 0;
+}
+
+.games-item_a .games-desc .games-item_span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: var(--s-fontsize);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 1;
+    color: #fff;
+}
+
+.games-item_a .games-desc .score {
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 0 0 var(--radius) var(--radius);
+    z-index: 1;
+}
+
+.games-item_a .games-desc .score .score-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(/game/imgs/start.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.games-item_a .games-desc .score .score_span {
+    font-size: var(--xxxl-fontsize);
+    color: var(--main-color);
+    line-height: 1;
+}
+
+@media screen and (min-width: 769px) {
+    .games-item:hover {
+        transform: scale(1.05);
+    }
+
+    .games-item:hover .games-item_a .games-desc {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content .content-title {
+        padding: 10px 10px 0px 10px;
+    }
+
+    .games {
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+    .games-item {
+        border-radius: 6px;
+    }
+
+    .games-item_a {
+        border-radius: 6px;
+    }
+
+    .games-item_a .games-item_img {
+        border-radius: 6px;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 767px) {
+    .games {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .games {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

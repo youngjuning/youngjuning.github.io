@@ -1,0 +1,259 @@
+﻿/*-- 全局reset
+-------------------------------------------*/
+
+html, body, div,
+h1, h2, h3, h4, h5, h6,
+hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre, form, fieldset, object, code,
+legend, button, input, textarea, label,
+th, td, a, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    font: 12px/1.5 'Helvetica Neue', 'Helvetica', 'Arial', '\5FAE\8F6F\96C5\9ED1', 'Microsoft YaHei', 'Tahoma', 'Hiragino sans gb', 'SimSun', 'Sans-serif';
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/*清除内外边距*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+/*设置默认字体*/
+:focus {
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/*重置列表*/
+fieldset, img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+/*重置图片元素*/
+address, caption, cite, code, dfn, em, i, th, var, optgroup {
+    font-style: normal;
+    font-weight: normal;
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+code, kbd, samp, tt {
+    font-size: 100%;
+}
+
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select {
+    *font-size: 100%;
+    outline: none;
+}
+
+/*
+form label {
+    cursor: pointer;
+}
+*/
+
+textarea {
+    resize: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*重置表格*/
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    -webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.special,
+.special a {
+    color: #1eb37b;
+}
+
+a.special:hover,
+.special a:hover {
+    color: #1eb37b;
+    text-decoration: none;
+}
+
+/*--清除浮动
+-------------------------------------------*/
+.cf:before,
+.cf:after,
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.cf:after,
+.clearfix:after {
+    clear: both;
+}
+
+.cf,
+.clearfix {
+    clear: both;
+    *zoom: 1;
+}
+
+/*-- 字号、颜色、外边距、内补丁、居中、行高、显示、隐藏
+--------------------------------------------------------------------------*/
+.c-333 {
+    color: #333;
+}
+
+.c-666 {
+    color: #666;
+}
+
+.c-999 {
+    color: #999;
+}
+
+.c-green {
+    color: #1fb079;
+}
+
+.c-orange {
+    color: #fc714c;
+}
+
+.c-reg {
+    color: #d90106;
+}
+
+/* 字号 */
+.f9 {
+    font-size: 9px;
+    -webkit-text-size-adjust: none;
+}
+
+.f12,
+.fb12 {
+    font-size: 12px;
+}
+
+.simsun {
+    font-family: SimSun;
+}
+
+.f14,
+.fb14 {
+    font-size: 14px;
+}
+
+.f16,
+.fb16 {
+    font-size: 16px;
+}
+
+.f18,
+.fb18 {
+    font-size: 18px;
+}
+
+.f20,
+.fb20 {
+    font-size: 20px;
+}
+
+.fb,
+.fb12,
+.fb14,
+.fb16,
+.fb18,
+.fb20 {
+    font-weight: 700;
+}
+
+/* 隐藏 居中 */
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none !important;
+}
+
+/*文字隐藏,省略号*/
+.ti,
+.te {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ti {
+    text-indent: -999em;
+}
+
+.te {
+    text-overflow: ellipsis;
+}
