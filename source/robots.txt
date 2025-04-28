@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: .json$
-Disallow: .sh$
 Sitemap: https://youngjuning.js.org/sitemap.xml
