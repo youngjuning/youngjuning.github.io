@@ -937,7 +937,6 @@ inject:
   head:
     - <link rel="stylesheet" href="/custom.css" />
     - <meta name="monetag" content="5b629bc484ca4b65e3c962f832cc3f11">
-    - <script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('vemtoutcheeg.com',5772012,document.createElement('script'))</script>
   bottom:
 
 # CDN
