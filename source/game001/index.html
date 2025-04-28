@@ -271,10 +271,10 @@
 					id,
 					name
 				}) {
-					return `type.html?type=${id}&typeName=${name}&gameChannelId=${this.gameChannelId}`;
+					return `/game001/type.html?type=${id}&typeName=${name}&gameChannelId=${this.gameChannelId}`;
 				},
 				handleToDetail(gameId, type) {
-					return `detail.html?gameId=${gameId}&gameChannelId=${this.gameChannelId}&type=${type}`
+					return `/game001/detail.html?gameId=${gameId}&gameChannelId=${this.gameChannelId}&type=${type}`
 				}
 			}
 		})
