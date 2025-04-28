@@ -1,6 +1,6 @@
-@import url(https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@main/assets/css/common.css);
-@import url(https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@main/assets/css/header.css);
-@import url(https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@main/assets/css/footer.css);
+@import url(/assets/css/common.css);
+@import url(/assets/css/header.css);
+@import url(/assets/css/footer.css);
 
 .home-grid {
     display: grid;

@@ -1,6 +1,6 @@
-@import url(https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@main/assets/css/common.css);
-@import url(https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@main/assets/css/header.css);
-@import url(https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@main/assets/css/footer.css);
+@import url(https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@main/source/assets/css/common.css);
+@import url(https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@main/source/assets/css/header.css);
+@import url(https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@main/source/assets/css/footer.css);
 
 main {
   max-width: 1280px;
