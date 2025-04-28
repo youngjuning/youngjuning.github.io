@@ -19,7 +19,7 @@ comments: false
 
 The objective of the game is to get as far as you can by eliminating and dodging the obstacles on your way !!! Drive your vehicle and shoot the enemies that come to eliminate you by air and ground. you can improve your characteristics as you complete each level and improve your score.
 
-<iframe src="https://www.datinginfo.top/game/index.html?gameFileName=RaceMastersRush/" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen" class="game"></iframe>
+<iframe style="width:100%;height:400px" src="https://www.datinginfo.top/game/index.html?gameFileName=RaceMastersRush/" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen" class="game"></iframe>
 
 <!-- game001_index3 -->
 <ins class="adsbygoogle"
