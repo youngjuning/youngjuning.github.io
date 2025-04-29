@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="We've a collection of impressively addicting games for you to enjoy your free time playing the
-    stylish free games online, at h5gamelist.cc we work to give you with a free and addicting fun game
+    stylish free games online,we work to give you with a free and addicting fun game
     experience soon we will have our exclusive games sector with surprise and always free.">
 		<title>Poki H5 Gamelist</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/css/index.css">
@@ -106,7 +106,6 @@
 					</div>
 				</section>
 			</main>
-			<footer v-html="footer"></footer>
 		</div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
     <script>
@@ -143,7 +142,6 @@
     }
   </style>
 	<script src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/main.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/components/footer.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/js/gameData.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/js/vue.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/js/axios.min.js"></script>
@@ -189,7 +187,6 @@
 					showCate: false,
 					gameData,
 					popular,
-					footer: '',
 					gameChannelId: 0,
 					categories: [{
 							name: 'Beauty',
@@ -228,7 +225,6 @@
 			},
 			methods: {
 				init() {
-					this.footer = useFooter()
 					window.addEventListener("scroll", debounce(handleScroll, 500), true)
 					this.$nextTick(handleScroll)
 				},
