@@ -15,36 +15,7 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/css/header/swiper.min.css" />
 		<link rel="stylesheet" type="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/css/header/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/css/header/head.css" />
-    <style>
-      .content{
-        background-color: #fff;
-      }
-      .play-imgs {
-        cursor: pointer;
-        position: absolute;
-        right: 0;
-      }
-
-      .play-imgs img {
-        width: 50px;
-      }
-
-      .img-fluid {
-        width: 100%;
-      }
-
-      .score-icon {
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-        background-image: url(https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/imgs/start.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-      }
-    </style>
-    <!--谷歌代码开始--->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7962287588031867" crossorigin="anonymous"></script>
-    <!--谷歌代码结束--->
 	</head>
 	<body>
 		<noscript>
@@ -87,12 +58,12 @@
 				</ul>
 			</div>
 			<main>
-				<section class="section">
+        <section class="section">
+          <center>
+            <!-- game_index_1 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7962287588031867" data-ad-slot="6965682803" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </center>
           <div class="container">
-            <center>
-              <!-- game_index_1 -->
-              <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7962287588031867" data-ad-slot="6965682803" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            </center>
 						<div class="row">
 							<div class="col-12">
 								<div class="section-title text-center mb-4">
@@ -100,11 +71,11 @@
 								</div>
 							</div>
 						</div>
+            <center>
+              <!-- game_index_2 -->
+              <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7962287588031867" data-ad-slot="8566539081" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </center>
 						<div class="row">
-              <center>
-                <!-- game_index_2 -->
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7962287588031867" data-ad-slot="8566539081" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-              </center>
 							<div class="col-lg-3 mt-4 pt-2" v-for="item in popular" :key="item.gameId">
 								<a :href="handleToDetail(item.gameId, 'Popular')">
 									<div class="position-relative overflow-hidden blog  rounded shadow">
@@ -134,49 +105,43 @@
 						</div>
 					</div>
 				</section>
-				<section class="section">
-					<div class="container" v-for="(parent, key) in gameData" :key="parent">
-						<div class="row">
-							<div class="col-12">
-								<div class="section-title text-center mb-4">
-									<h4 class="title">{{parent.name}}</h4>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-3 mt-4 pt-2" v-for="child in parent.games" :key="child.gameId">
-								<a :href="handleToDetail(child.gameId, parent.name)">
-									<div class="position-relative overflow-hidden blog  rounded shadow">
-										<div class="position-relative overflow-hidden">
-											<img :src="child.gameLogo" :data-src="child.gameLogo"
-												:alt="`${child.gameLogo}|${child.gameId}`" class="img-fluid blog-img">
-											<div class="blog-tag">
-												<span class="badge bg-primary fw-light">play</span>
-											</div>
-										</div>
-										<div class="content p-4 ">
-											<div class="score"
-												style="position: relative;  display: flex;align-items: center;">
-												<span class="score-icon"></span>
-												<span class="score_span"
-													style="margin-left: 5px;font-size: 32px !important;"> 4.5</span>
-												<div class="play-imgs">
-													<img src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/imgs/play.png" alt="" />
-												</div>
-											</div>
-											<small><i class="uil uil-calendar-alt"></i></small>
-											<a href="#" class="title text-dark d-block mt-2 h5">{{child.gameName}}</a>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</section>
 			</main>
 			<footer v-html="footer"></footer>
 		</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
+    <script>
+    window.addEventListener('load', () => {
+      quicklink.listen();
+    });
+    </script>
 	</body>
+  <style>
+    .content{
+      background-color: #fff;
+    }
+    .play-imgs {
+      cursor: pointer;
+      position: absolute;
+      right: 0;
+    }
+
+    .play-imgs img {
+      width: 50px;
+    }
+
+    .img-fluid {
+      width: 100%;
+    }
+
+    .score-icon {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-image: url(https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/imgs/start.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  </style>
 	<script src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/main.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/components/footer.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/js/gameData.js"></script>
