@@ -176,26 +176,8 @@
             <img class="game-logo_img img-load" src="https://cdn.jsdelivr.net/gh/youngjuning/cdn@main/poki/imgs/loading.svg" :data-src="detail.gameLogo"
               :alt="detail.gameName">
           </div>
-          <!-- game_detail_bottom -->
-          <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-7962287588031867"
-          data-ad-slot="7498867983"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-          <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
           <div class="game-right">
             <div class="game-name">{{detail.gameName}}</div>
-            <!-- <div class="tag">{{type}}</div>
-              <div class="game-score">
-                  <div class="game-rate">
-                      <span class="score-icon"></span>
-                      <span class="score_span">4.5</span>
-                  </div>
-                  <div class="game-playnum">{{(detail.gamePlayNumber / 1000).toFixed(2)}}k played</div>
-              </div> -->
             <p class="game-desc">{{detail.gameDesc}}</p>
             <a class="game-button disabled" href="javascript:;" v-if="disabled">PLAY NOW</a>
             <a class="game-button" :href="handleToPlay()" v-else>PLAY NOW</a>
