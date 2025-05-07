@@ -936,9 +936,6 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/custom.css" />
-    - <meta name="monetag" content="5b629bc484ca4b65e3c962f832cc3f11">
-    - <script async src="https://fundingchoicesmessages.google.com/i/pub-7962287588031867?ers=1"></script><script>(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width:0;height:0;border:none;z-index:-1000; left:-1000px;top:-1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}} signalGooglefcPresent();})();</script>
-    - <script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('vemtoutcheeg.com',9271430,document.createElement('script'))</script>
   bottom:
 
 # CDN
