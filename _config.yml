@@ -49,6 +49,10 @@ skip_render:
   - "game/**"
   - "game001/**"
   - "assets/**"
+  - "best/**"
+  - "new/**"
+  - "puzzle/**"
+  - "sports/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts
