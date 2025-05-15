@@ -319,7 +319,7 @@
         this.type = getQueryVariable('type') ? getQueryVariable('type') : null
       },
       handleToPlay() {
-        return `play.html?gameChannelId=${this.gameChannelId}&gameFileName=${this.detail.gameFileName}`
+        return `/sports/play.html?gameChannelId=${this.gameChannelId}&gameFileName=${this.detail.gameFileName}`
       },
       getDetail() {
         const gameId = getQueryVariable('gameId') ? getQueryVariable('gameId') : 1506
@@ -346,7 +346,7 @@
         return `type.html?type=${id}&typeName=${name}&gameChannelId=${this.gameChannelId}`;
       },
       handleToDetail(gameId, type) {
-        return `detail.html?gameId=${gameId}&gameChannelId=${this.gameChannelId}&type=${type}`
+        return `/sports/detail.html?gameId=${gameId}&gameChannelId=${this.gameChannelId}&type=${type}`
       }
     }
   })
