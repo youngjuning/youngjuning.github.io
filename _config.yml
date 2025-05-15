@@ -53,6 +53,8 @@ skip_render:
   - "new/**"
   - "puzzle/**"
   - "sports/**"
+  - "action/**"
+  - "beauty/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts
