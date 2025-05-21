@@ -48,6 +48,9 @@ skip_render:
   - "baidu_verify_codeva-seFAiiGXVd.html"
   - "game/**"
   - "game001/**"
+  - "game002/**"
+  - "game003/**"
+  - "game004/**"
   - "assets/**"
   - "best/**"
   - "new/**"
@@ -55,10 +58,6 @@ skip_render:
   - "sports/**"
   - "action/**"
   - "beauty/**"
-  - "game001"
-  - "game002"
-  - "game003"
-  - "game004"
 
 # Writing
 new_post_name: :title.md # File name of new posts
