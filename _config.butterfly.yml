@@ -34,7 +34,7 @@ code_word_wrap: true
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/youngjuning/youngjuning.js.org || Github  || '#24292e'
+  fab fa-github: https://github.com/youngjuning/youngjuning.cn || Github  || '#24292e'
   fas fa-envelope: mailto:youngjuning@163.com || Email || '#4a7dbe'
   fab fa-twitter: https://twitter.com/luozhu2021 || 推特 || '#00acee'
 
@@ -188,7 +188,7 @@ post_edit:
   enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url: https://github.com/youngjuning/youngjuning.js.org/edit/main/source/
+  url: https://github.com/youngjuning/youngjuning.cn/edit/main/source/
 
 # Related Articles
 related_post:
@@ -444,7 +444,7 @@ livere:
 gitalk:
   client_id: d7d0d804f3512b567dd4
   client_secret: c0dd36dba24d1bef4d6a95c87d4a2492318ba87d
-  repo: youngjuning.js.org
+  repo: youngjuning.cn
   owner: youngjuning
   admin: [youngjuning]
   option:
@@ -476,7 +476,7 @@ waline:
 # utterances
 # https://utteranc.es/
 utterances:
-  repo: youngjuning/youngjuning.js.org
+  repo: youngjuning/youngjuning.cn
   # Issue Mapping: pathname/url/title/og:title
   issue_term: og:title
   # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
@@ -503,7 +503,7 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: youngjuning/youngjuning.js.org
+  repo: youngjuning/youngjuning.cn
   repo_id: R_kgDOGFxZtw
   category_id: DIC_kwDOGFxZt84CUMwP
   theme:
@@ -961,10 +961,10 @@ CDN:
 
   option:
     # main_css:
-    # main: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@gh-pages/js/main.js
-    # utils: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@gh-pages/js/utils.js
-    # translate: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@gh-pages/js/tw_cn.js
-    # local_search: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.js.org@gh-pages/js/search/local-search.js
+    # main: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.cn@gh-pages/js/main.js
+    # utils: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.cn@gh-pages/js/utils.js
+    # translate: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.cn@gh-pages/js/tw_cn.js
+    # local_search: https://cdn.jsdelivr.net/gh/youngjuning/youngjuning.cn@gh-pages/js/search/local-search.js
     # algolia_js:
     # algolia_search:
     # instantsearch:
