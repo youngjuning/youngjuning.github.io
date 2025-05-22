@@ -17,7 +17,7 @@ OpenAI 推出超神 ChatGPT，非常火爆。但是呢，由于 ChatGPT 注册�
 
 ## 准备
 
-- VPN：保证能访问 Google（前置条件，没有梯子的可以看下我收藏的[科学上网工具](https://youngjuning.js.org/vpn/)）
+- VPN：保证能访问 Google（前置条件，没有梯子的可以看下我收藏的[科学上网工具](https://youngjuning.cn/vpn/)）
 - 国外手机号：如果你没有国外手机号，我推荐使用 [SMS Activate 在线接码平台](https://sms-activate.org)
 
 ## 注册短信平台并充值

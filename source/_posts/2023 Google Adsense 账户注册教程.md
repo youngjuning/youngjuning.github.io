@@ -21,8 +21,8 @@ Google Adsense 是一个由 Google 公司设置的广告计划，会员可以利
 
 ## 前提
 
-- 一个可以访问 Google 的代理，你可以在 [科学上网工具](https://youngjuning.js.org/vpn/) 中选择一款
-- 一个 Google 账号，可以参考 [2023 大陆人如何成功创建 Google 账户](https://youngjuning.js.org/382c92b68823/) 进行注册。
+- 一个可以访问 Google 的代理，你可以在 [科学上网工具](https://youngjuning.cn/vpn/) 中选择一款
+- 一个 Google 账号，可以参考 [2023 大陆人如何成功创建 Google 账户](https://youngjuning.cn/382c92b68823/) 进行注册。
 
 ## 扬帆启航
 

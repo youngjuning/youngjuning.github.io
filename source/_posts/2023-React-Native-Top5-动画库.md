@@ -304,4 +304,4 @@ react-native-motion 为我们提供了一个简单的 API 来制作共享的过�
 
 > 原文链接：[Top 5 Animation Libraries in React Native](https://blog.bitsrc.io/top-5-animation-libraries-in-react-native-d00ec8ddfc8d)
 > 原文作者：[SaidHayani@][saidhayani@]
-> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.cn/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

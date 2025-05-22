@@ -74,7 +74,7 @@ $ npm deprecate @youngjuning/playground@1.0.3 "垃圾"
   "author": {
     "name": "紫升",
     "email": "youngjuning@aliyun.com",
-    "url": "https://youngjuning.js.org"
+    "url": "https://youngjuning.cn"
   },
   "license": "MIT",
   "bugs": {

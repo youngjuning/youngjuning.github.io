@@ -467,4 +467,4 @@ You can find the complete for the tutorial at this Github repo.
 
 > 原文地址：<https://www.crowdbotics.com/blog/introduction-to-react-router-v4-with-reactjs>
 > 原文作者：[amanhimself](https://www.crowdbotics.com/author/amanhimself)
-> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.cn/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

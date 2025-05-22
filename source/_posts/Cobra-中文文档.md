@@ -657,10 +657,10 @@ Run 'kubectl help' for usage.
 
 Cobra 可以基于子命令、标志等生成文档。可用格式如下：
 
-- [Markdown](https://youngjuning.js.org/cobra/md_docs)
-- [ReStructured Text](https://youngjuning.js.org/cobra/rest_docs)
-- [Man Page](https://youngjuning.js.org/cobra/man_docs)
+- [Markdown](https://youngjuning.cn/cobra/md_docs)
+- [ReStructured Text](https://youngjuning.cn/cobra/rest_docs)
+- [Man Page](https://youngjuning.cn/cobra/man_docs)
 
 ### 为你的命令生成 Bash Completions
 
-Cobra 可以生成 bash-completion 文件。如果你给你的命令添加了更多的信息，这些自动提示的分析会非常强大和灵活。更是信息请阅读[Bash Completions](https://youngjuning.js.org/cobra/bash_completions)
+Cobra 可以生成 bash-completion 文件。如果你给你的命令添加了更多的信息，这些自动提示的分析会非常强大和灵活。更是信息请阅读[Bash Completions](https://youngjuning.cn/cobra/bash_completions)

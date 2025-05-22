@@ -18,7 +18,7 @@ tags:
 > * 原文作者：[bugaevc](hhttps://medium.com/@bugaevc)
 > * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
 > * 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/article/2021/understanding-rust-ownership-borrowing-lifetimes.md](https://github.com/xitu/gold-miner/blob/master/article/2021/understanding-rust-ownership-borrowing-lifetimes.md)
-> * 译者：[紫升](https://youngjuning.js.org)
+> * 译者：[紫升](https://youngjuning.cn)
 > * 校对者：[霜羽 Hoarfroster](https://github.com/PassionPenguin)、[Zz招锦](https://github.com/zenblo)
 
 我对这些概念的理解是，你一旦掌握了它，所有这些语法都会看起来自然且优雅。

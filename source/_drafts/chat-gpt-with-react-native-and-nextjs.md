@@ -46,10 +46,10 @@ Now that we are all set up, Let’s get started 🚀
 
 # ChatGPT 入门
 
-Start by logging in or creating a new account on OpenAI: [OpenAI 推出超神 ChatGPT 注册攻略来了](https://youngjuning.js.org/d744d1d3d1e8/index.html)
+Start by logging in or creating a new account on OpenAI: [OpenAI 推出超神 ChatGPT 注册攻略来了](https://youngjuning.cn/d744d1d3d1e8/index.html)
 
 Now let’s follow the [Quickstart](https://beta.openai.com/docs/quickstart) guide together, to get familiar with OpenAI.
 
 > 原文地址：[Using ChatGPT with React Native and NextJS to build a cross platform AI app](https://www.notjust.dev/blog/2022-12-09-chat-gpt-with-react-native-and-nextjs)
 > 原文作者：[Vadim Savin](https://github.com/Savinvadim1312)
-> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.cn/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

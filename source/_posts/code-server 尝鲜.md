@@ -126,4 +126,4 @@ server {
 - [如何在团队快速落地 WebIDE](https://juejin.cn/post/7008428269317914661)
 - [Ubuntu 安装最新版本 Node.js](https://learnku.com/articles/42581)
 - [腾讯云登录Root用户](https://www.jianshu.com/p/648c48f146c6)
-- [写给前端的Linux实战教程](https://youngjuning.js.org/21bdf0b4bd15/)
+- [写给前端的Linux实战教程](https://youngjuning.cn/21bdf0b4bd15/)

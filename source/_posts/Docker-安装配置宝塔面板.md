@@ -64,7 +64,7 @@ sudo sh get-docker.sh --mirror Aliyun
 ## 安装宝塔镜像
 
 ```sh
-curl -fsSL https://youngjuning.js.org/shell/baota/install.sh | sh
+curl -fsSL https://youngjuning.cn/shell/baota/install.sh | sh
 ```
 
 - `/www/wwwroot` 挂载在宿主机的 `~/wwwroot` 目录
@@ -118,7 +118,7 @@ docker exec -it baota bash
 如果我们迁移的话，不需要再重复上面的安装配置步骤，直接使用我提供的脚本：
 
 ```sh
-curl -fsSL https://youngjuning.js.org/shell/baota/backup.sh | sh
+curl -fsSL https://youngjuning.cn/shell/baota/backup.sh | sh
 ```
 
 压缩包 `baota.tar` 将备份到当前目录，上传到新的服务器之后载入容器：
@@ -130,10 +130,10 @@ docker load -i baota.tar
 恢复容器：
 
 ```sh
-curl -fsSL https://youngjuning.js.org/shell/baota/restore.sh | sh
+curl -fsSL https://youngjuning.cn/shell/baota/restore.sh | sh
 ```
 
 ## 已知问题
 
 1. 部分机器初始化环境可能某些端口被占用，比如 80 端口被占用，使用 `netstat -lnp|grep 80` 查看进程 PID，然后使用 `kill -9 XXXX` 结束该进程 (xxxx 为进程的相关 pid)。
-2. 如果事先安装了 nginx，请先卸载，完全卸载请执行 `curl -fsSL https://youngjuning.js.org/shell/nginx/uninstall.sh | sh`
+2. 如果事先安装了 nginx，请先卸载，完全卸载请执行 `curl -fsSL https://youngjuning.cn/shell/nginx/uninstall.sh | sh`

@@ -300,4 +300,4 @@ a's type is float64 and value is 0.7375
 
 > 原文地址 [Constants](https://golangbot.com/constants/)
 > 原文作者：[Naveen Ramanathan](https://golangbot.com/about/)
-> 译文出自：[紫升翻译计划](https://youngjuning.js.org/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)
+> 译文出自：[紫升翻译计划](https://youngjuning.cn/categories/%E6%B4%9B%E7%AB%B9%E7%BF%BB%E8%AF%91%E8%AE%A1%E5%88%92/)

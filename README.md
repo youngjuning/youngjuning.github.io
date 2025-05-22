@@ -1,7 +1,7 @@
 # 紫升的博客
 
-[![紫升](https://img.shields.io/website-up-down-green-red/https/youngjuing.js.org.svg)](https://youngjuning.js.org)
-[![github pages](https://github.com/youngjuning/youngjuning.js.org/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/youngjuning/youngjuning.js.org/actions/workflows/gh-pages.yml)
+[![紫升](https://img.shields.io/website-up-down-green-red/https/youngjuing.js.org.svg)](https://youngjuning.cn)
+[![github pages](https://github.com/youngjuning/youngjuning.cn/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/youngjuning/youngjuning.cn/actions/workflows/gh-pages.yml)
 [![紫升](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://guides.github.com/features/mastering-markdown/)
 
 ## 前端学习路线

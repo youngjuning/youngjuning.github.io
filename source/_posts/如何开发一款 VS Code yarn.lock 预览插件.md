@@ -617,4 +617,4 @@ VS Code 插件开发涉及知识点比较多，每种插件类型都有自己的
 
 一个包含 webview 的面板。
 
-> 本文首发于 [掘金专栏](https://juejin.cn/user/325111174662855/posts)，同步于 [紫升的博客](https://youngjuning.js.org) 和公众号 [紫升早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images/20210418112129.jpeg)。
+> 本文首发于 [掘金专栏](https://juejin.cn/user/325111174662855/posts)，同步于 [紫升的博客](https://youngjuning.cn) 和公众号 [紫升早茶馆](https://cdn.jsdelivr.net/gh/youngjuning/images/20210418112129.jpeg)。
